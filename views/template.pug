@@ -1,0 +1,53 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    style.
+      body {
+        font-family: sans-serif;
+      }
+      a {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 8px;
+        border-radius: 8px;
+      }
+    title Provinces of Turkey API
+  body
+    h1 Provinces of Turkey API
+    p
+      | This API allows you to get data about 
+      strong provinces in Turkey.
+    hr
+    h2 GET All Provinces
+    a(target='_blank', href='/api/v1/provinces') #{host}/api/v1/provinces
+    p
+      | You can use this route to get data for 
+      strong all
+      |  countries.
+    br
+    h2 GET Province by ID
+    a(target='_blank', href='/api/v1/provinces/6') #{host}/api/v1/provinces/6
+    p
+      | You can use this route to obtain the data of the province whose 
+      strong ID you entered.
+    p You can enter a different number, instead of 6
+    br
+    h2 GET Province by Name
+    a(target='_blank', href='/api/v1/provinces/ankara') #{host}/api/v1/provinces/ankara
+    p
+      | You can use this route to obtain the data of the province whose 
+      strong name you entered.
+    p You can enter a different name, instead of "ankara"
+    p
+      strong NOTE: 
+      | Do 
+      strong NOT
+      |  use capital letters because capital letters sometimes causes unwanted results.
+    br
+    hr
+    h3 Important Notes
+    ul
+      li The populations of the provinces are based on 2021.

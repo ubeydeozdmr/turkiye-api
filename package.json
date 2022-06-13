@@ -1,0 +1,25 @@
+{
+  "name": "provinces-of-turkey-api",
+  "version": "1.0.0",
+  "description": "Provinces of Turkey API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "turkey",
+    "turkiye",
+    "province",
+    "city",
+    "country",
+    "culture"
+  ],
+  "author": "Ubeyde Emir Özdemir",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  }
+}
