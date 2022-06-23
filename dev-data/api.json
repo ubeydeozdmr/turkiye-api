@@ -5,7 +5,11 @@
     "area": 13844,
     "population": 2263373,
     "areaCode": [322],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Mediterranean",
+      "tr": "Akdeniz"
+    }
   },
   {
     "id": 2,
@@ -13,7 +17,11 @@
     "area": 7337,
     "population": 632148,
     "areaCode": [416],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 3,
@@ -21,7 +29,11 @@
     "area": 14016,
     "population": 744179,
     "areaCode": [272],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Aegean",
+      "tr": "Ege"
+    }
   },
   {
     "id": 4,
@@ -29,7 +41,11 @@
     "area": 11099,
     "population": 524644,
     "areaCode": [472],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 5,
@@ -37,7 +53,11 @@
     "area": 5628,
     "population": 335331,
     "areaCode": [358],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 6,
@@ -45,7 +65,11 @@
     "area": 25632,
     "population": 5747325,
     "areaCode": [312],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 7,
@@ -53,7 +77,11 @@
     "area": 20177,
     "population": 2619832,
     "areaCode": [242],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Mediterranean",
+      "tr": "Akdeniz"
+    }
   },
   {
     "id": 8,
@@ -61,7 +89,11 @@
     "area": 7393,
     "population": 169543,
     "areaCode": [466],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 9,
@@ -69,7 +101,11 @@
     "area": 8116,
     "population": 1134031,
     "areaCode": [256],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Aegean",
+      "tr": "Ege"
+    }
   },
   {
     "id": 10,
@@ -77,7 +113,11 @@
     "area": 14583,
     "population": 1250610,
     "areaCode": [266],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 11,
@@ -85,7 +125,11 @@
     "area": 4179,
     "population": 228334,
     "areaCode": [228],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 12,
@@ -93,7 +137,11 @@
     "area": 8004,
     "population": 283112,
     "areaCode": [426],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 13,
@@ -101,7 +149,11 @@
     "area": 8294,
     "population": 352277,
     "areaCode": [434],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 14,
@@ -109,7 +161,11 @@
     "area": 8313,
     "population": 320014,
     "areaCode": [374],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 15,
@@ -117,7 +173,11 @@
     "area": 7175,
     "population": 273716,
     "areaCode": [248],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Mediterranean",
+      "tr": "Akdeniz"
+    }
   },
   {
     "id": 16,
@@ -125,7 +185,11 @@
     "area": 10813,
     "population": 3147818,
     "areaCode": [224],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 17,
@@ -133,7 +197,11 @@
     "area": 9817,
     "population": 557276,
     "areaCode": [286],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 18,
@@ -141,7 +209,11 @@
     "area": 7542,
     "population": 196515,
     "areaCode": [376],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 19,
@@ -149,7 +221,11 @@
     "area": 12428,
     "population": 526282,
     "areaCode": [364],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 20,
@@ -157,7 +233,11 @@
     "area": 12134,
     "population": 1051056,
     "areaCode": [258],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Aegean",
+      "tr": "Ege"
+    }
   },
   {
     "id": 21,
@@ -165,7 +245,11 @@
     "area": 15168,
     "population": 1791373,
     "areaCode": [412],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 22,
@@ -173,7 +257,11 @@
     "area": 6145,
     "population": 412115,
     "areaCode": [284],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 23,
@@ -181,7 +269,11 @@
     "area": 9383,
     "population": 588088,
     "areaCode": [424],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 24,
@@ -189,7 +281,11 @@
     "area": 11815,
     "population": 237351,
     "areaCode": [446],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 25,
@@ -197,7 +293,11 @@
     "area": 25006,
     "population": 756893,
     "areaCode": [442],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 26,
@@ -205,7 +305,11 @@
     "area": 13960,
     "population": 898363,
     "areaCode": [222],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 27,
@@ -213,7 +317,11 @@
     "area": 6803,
     "population": 2130432,
     "areaCode": [342],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 28,
@@ -221,7 +329,11 @@
     "area": 7025,
     "population": 450154,
     "areaCode": [454],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 29,
@@ -229,7 +341,11 @@
     "area": 6668,
     "population": 150119,
     "areaCode": [456],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 30,
@@ -237,7 +353,11 @@
     "area": 7095,
     "population": 278218,
     "areaCode": [438],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 31,
@@ -245,7 +365,11 @@
     "area": 5524,
     "population": 1670712,
     "areaCode": [326],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Mediterranean",
+      "tr": "Akdeniz"
+    }
   },
   {
     "id": 32,
@@ -253,7 +377,11 @@
     "area": 8946,
     "population": 445678,
     "areaCode": [246],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Mediterranean",
+      "tr": "Akdeniz"
+    }
   },
   {
     "id": 33,
@@ -261,7 +389,11 @@
     "area": 16010,
     "population": 1891145,
     "areaCode": [324],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Mediterranean",
+      "tr": "Akdeniz"
+    }
   },
   {
     "id": 34,
@@ -269,7 +401,11 @@
     "area": 5461,
     "population": 15840900,
     "areaCode": [212, 216],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 35,
@@ -277,7 +413,11 @@
     "area": 11891,
     "population": 4425789,
     "areaCode": [232],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Aegean",
+      "tr": "Ege"
+    }
   },
   {
     "id": 36,
@@ -285,7 +425,11 @@
     "area": 10193,
     "population": 281077,
     "areaCode": [474],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 37,
@@ -293,7 +437,11 @@
     "area": 13064,
     "population": 375592,
     "areaCode": [366],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 38,
@@ -301,7 +449,11 @@
     "area": 16970,
     "population": 1434357,
     "areaCode": [352],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 39,
@@ -309,7 +461,11 @@
     "area": 6459,
     "population": 366363,
     "areaCode": [288],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 40,
@@ -317,7 +473,11 @@
     "area": 6584,
     "population": 242944,
     "areaCode": [386],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 41,
@@ -325,7 +485,11 @@
     "area": 3397,
     "population": 2033441,
     "areaCode": [262],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 42,
@@ -333,7 +497,11 @@
     "area": 40838,
     "population": 2277017,
     "areaCode": [332],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 43,
@@ -341,7 +509,11 @@
     "area": 11634,
     "population": 578640,
     "areaCode": [274],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Aegean",
+      "tr": "Ege"
+    }
   },
   {
     "id": 44,
@@ -349,7 +521,11 @@
     "area": 12259,
     "population": 808692,
     "areaCode": [422],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 45,
@@ -357,7 +533,11 @@
     "area": 13339,
     "population": 1456626,
     "areaCode": [236],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Aegean",
+      "tr": "Ege"
+    }
   },
   {
     "id": 46,
@@ -365,7 +545,11 @@
     "area": 14520,
     "population": 1171298,
     "areaCode": [344],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Mediterranean",
+      "tr": "Akdeniz"
+    }
   },
   {
     "id": 47,
@@ -373,7 +557,11 @@
     "area": 8780,
     "population": 862757,
     "areaCode": [482],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 48,
@@ -381,7 +569,11 @@
     "area": 12654,
     "population": 1021141,
     "areaCode": [252],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Aegean",
+      "tr": "Ege"
+    }
   },
   {
     "id": 49,
@@ -389,7 +581,11 @@
     "area": 8650,
     "population": 405228,
     "areaCode": [436],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 50,
@@ -397,7 +593,11 @@
     "area": 5485,
     "population": 308003,
     "areaCode": [384],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 51,
@@ -405,7 +605,11 @@
     "area": 7234,
     "population": 363725,
     "areaCode": [388],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 52,
@@ -413,7 +617,11 @@
     "area": 5861,
     "population": 760872,
     "areaCode": [452],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 53,
@@ -421,7 +629,11 @@
     "area": 3835,
     "population": 345662,
     "areaCode": [464],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 54,
@@ -429,7 +641,11 @@
     "area": 4824,
     "population": 1060876,
     "areaCode": [264],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 55,
@@ -437,7 +653,11 @@
     "area": 9725,
     "population": 1371274,
     "areaCode": [362],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 56,
@@ -445,7 +665,11 @@
     "area": 5717,
     "population": 331980,
     "areaCode": [484],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 57,
@@ -453,7 +677,11 @@
     "area": 5717,
     "population": 218408,
     "areaCode": [368],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 58,
@@ -461,7 +689,11 @@
     "area": 28164,
     "population": 636121,
     "areaCode": [346],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 59,
@@ -469,7 +701,11 @@
     "area": 6190,
     "population": 1113400,
     "areaCode": [282],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 60,
@@ -477,7 +713,11 @@
     "area": 10042,
     "population": 602567,
     "areaCode": [356],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 61,
@@ -485,7 +725,11 @@
     "area": 4628,
     "population": 816684,
     "areaCode": [462],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 62,
@@ -493,7 +737,11 @@
     "area": 7582,
     "population": 83645,
     "areaCode": [428],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 63,
@@ -501,7 +749,11 @@
     "area": 19242,
     "population": 2143020,
     "areaCode": [414],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 64,
@@ -509,7 +761,11 @@
     "area": 5555,
     "population": 373183,
     "areaCode": [276],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Aegean",
+      "tr": "Ege"
+    }
   },
   {
     "id": 65,
@@ -517,7 +773,11 @@
     "area": 20921,
     "population": 1141015,
     "areaCode": [432],
-    "isMetropolitan": true
+    "isMetropolitan": true,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 66,
@@ -525,7 +785,11 @@
     "area": 13690,
     "population": 418500,
     "areaCode": [354],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 67,
@@ -533,7 +797,11 @@
     "area": 3342,
     "population": 589684,
     "areaCode": [372],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 68,
@@ -541,7 +809,11 @@
     "area": 7659,
     "population": 429069,
     "areaCode": [382],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 69,
@@ -549,7 +821,11 @@
     "area": 3746,
     "population": 85042,
     "areaCode": [458],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 70,
@@ -557,7 +833,11 @@
     "area": 8678,
     "population": 258838,
     "areaCode": [338],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 71,
@@ -565,7 +845,11 @@
     "area": 4791,
     "population": 275968,
     "areaCode": [318],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Central Anatolia",
+      "tr": "İç Anadolu"
+    }
   },
   {
     "id": 72,
@@ -573,7 +857,11 @@
     "area": 4477,
     "population": 626319,
     "areaCode": [488],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 73,
@@ -581,7 +869,11 @@
     "area": 7078,
     "population": 546589,
     "areaCode": [486],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 74,
@@ -589,7 +881,11 @@
     "area": 2330,
     "population": 201711,
     "areaCode": [378],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "North Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 75,
@@ -597,7 +893,11 @@
     "area": 4934,
     "population": 94932,
     "areaCode": [478],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 76,
@@ -605,7 +905,11 @@
     "area": 3664,
     "population": 203159,
     "areaCode": [476],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Eastern Anatolia",
+      "tr": "Doğu Anadolu"
+    }
   },
   {
     "id": 77,
@@ -613,7 +917,11 @@
     "area": 798,
     "population": 291001,
     "areaCode": [226],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Marmara",
+      "tr": "Marmara"
+    }
   },
   {
     "id": 78,
@@ -621,7 +929,11 @@
     "area": 4142,
     "population": 249287,
     "areaCode": [370],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   },
   {
     "id": 79,
@@ -629,7 +941,11 @@
     "area": 1412,
     "population": 145826,
     "areaCode": [348],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Southeastern Anatolia",
+      "tr": "Güneydoğu Anadolu"
+    }
   },
   {
     "id": 80,
@@ -637,7 +953,11 @@
     "area": 3320,
     "population": 553012,
     "areaCode": [328],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Mediterranean",
+      "tr": "Akdeniz"
+    }
   },
   {
     "id": 81,
@@ -645,6 +965,10 @@
     "area": 2492,
     "population": 400976,
     "areaCode": [380],
-    "isMetropolitan": false
+    "isMetropolitan": false,
+    "region": {
+      "en": "Black Sea",
+      "tr": "Karadeniz"
+    }
   }
 ]
