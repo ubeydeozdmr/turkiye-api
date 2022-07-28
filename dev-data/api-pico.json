@@ -4,7 +4,7 @@
     "name": "Adana",
     "area": 13844,
     "population": 2263373,
-    "areaCode": [322],
+    "areaCode": 322,
     "isMetropolitan": true
   },
   {
@@ -12,7 +12,7 @@
     "name": "Adıyaman",
     "area": 7337,
     "population": 632148,
-    "areaCode": [416],
+    "areaCode": 416,
     "isMetropolitan": false
   },
   {
@@ -20,7 +20,7 @@
     "name": "Afyonkarahisar",
     "area": 14016,
     "population": 744179,
-    "areaCode": [272],
+    "areaCode": 272,
     "isMetropolitan": false
   },
   {
@@ -28,7 +28,7 @@
     "name": "Ağrı",
     "area": 11099,
     "population": 524644,
-    "areaCode": [472],
+    "areaCode": 472,
     "isMetropolitan": false
   },
   {
@@ -36,7 +36,7 @@
     "name": "Amasya",
     "area": 5628,
     "population": 335331,
-    "areaCode": [358],
+    "areaCode": 358,
     "isMetropolitan": false
   },
   {
@@ -44,7 +44,7 @@
     "name": "Ankara",
     "area": 25632,
     "population": 5747325,
-    "areaCode": [312],
+    "areaCode": 312,
     "isMetropolitan": true
   },
   {
@@ -52,7 +52,7 @@
     "name": "Antalya",
     "area": 20177,
     "population": 2619832,
-    "areaCode": [242],
+    "areaCode": 242,
     "isMetropolitan": true
   },
   {
@@ -60,7 +60,7 @@
     "name": "Artvin",
     "area": 7393,
     "population": 169543,
-    "areaCode": [466],
+    "areaCode": 466,
     "isMetropolitan": false
   },
   {
@@ -68,7 +68,7 @@
     "name": "Aydın",
     "area": 8116,
     "population": 1134031,
-    "areaCode": [256],
+    "areaCode": 256,
     "isMetropolitan": true
   },
   {
@@ -76,7 +76,7 @@
     "name": "Balıkesir",
     "area": 14583,
     "population": 1250610,
-    "areaCode": [266],
+    "areaCode": 266,
     "isMetropolitan": true
   },
   {
@@ -84,7 +84,7 @@
     "name": "Bilecik",
     "area": 4179,
     "population": 228334,
-    "areaCode": [228],
+    "areaCode": 228,
     "isMetropolitan": false
   },
   {
@@ -92,7 +92,7 @@
     "name": "Bingöl",
     "area": 8004,
     "population": 283112,
-    "areaCode": [426],
+    "areaCode": 426,
     "isMetropolitan": false
   },
   {
@@ -100,7 +100,7 @@
     "name": "Bitlis",
     "area": 8294,
     "population": 352277,
-    "areaCode": [434],
+    "areaCode": 434,
     "isMetropolitan": false
   },
   {
@@ -108,7 +108,7 @@
     "name": "Bolu",
     "area": 8313,
     "population": 320014,
-    "areaCode": [374],
+    "areaCode": 374,
     "isMetropolitan": false
   },
   {
@@ -116,7 +116,7 @@
     "name": "Burdur",
     "area": 7175,
     "population": 273716,
-    "areaCode": [248],
+    "areaCode": 248,
     "isMetropolitan": false
   },
   {
@@ -124,7 +124,7 @@
     "name": "Bursa",
     "area": 10813,
     "population": 3147818,
-    "areaCode": [224],
+    "areaCode": 224,
     "isMetropolitan": true
   },
   {
@@ -132,7 +132,7 @@
     "name": "Çanakkale",
     "area": 9817,
     "population": 557276,
-    "areaCode": [286],
+    "areaCode": 286,
     "isMetropolitan": false
   },
   {
@@ -140,7 +140,7 @@
     "name": "Çankırı",
     "area": 7542,
     "population": 196515,
-    "areaCode": [376],
+    "areaCode": 376,
     "isMetropolitan": false
   },
   {
@@ -148,7 +148,7 @@
     "name": "Çorum",
     "area": 12428,
     "population": 526282,
-    "areaCode": [364],
+    "areaCode": 364,
     "isMetropolitan": false
   },
   {
@@ -156,7 +156,7 @@
     "name": "Denizli",
     "area": 12134,
     "population": 1051056,
-    "areaCode": [258],
+    "areaCode": 258,
     "isMetropolitan": true
   },
   {
@@ -164,7 +164,7 @@
     "name": "Diyarbakır",
     "area": 15168,
     "population": 1791373,
-    "areaCode": [412],
+    "areaCode": 412,
     "isMetropolitan": true
   },
   {
@@ -172,7 +172,7 @@
     "name": "Edirne",
     "area": 6145,
     "population": 412115,
-    "areaCode": [284],
+    "areaCode": 284,
     "isMetropolitan": false
   },
   {
@@ -180,7 +180,7 @@
     "name": "Elazığ",
     "area": 9383,
     "population": 588088,
-    "areaCode": [424],
+    "areaCode": 424,
     "isMetropolitan": false
   },
   {
@@ -188,7 +188,7 @@
     "name": "Erzincan",
     "area": 11815,
     "population": 237351,
-    "areaCode": [446],
+    "areaCode": 446,
     "isMetropolitan": false
   },
   {
@@ -196,7 +196,7 @@
     "name": "Erzurum",
     "area": 25006,
     "population": 756893,
-    "areaCode": [442],
+    "areaCode": 442,
     "isMetropolitan": true
   },
   {
@@ -204,7 +204,7 @@
     "name": "Eskişehir",
     "area": 13960,
     "population": 898363,
-    "areaCode": [222],
+    "areaCode": 222,
     "isMetropolitan": true
   },
   {
@@ -212,7 +212,7 @@
     "name": "Gaziantep",
     "area": 6803,
     "population": 2130432,
-    "areaCode": [342],
+    "areaCode": 342,
     "isMetropolitan": true
   },
   {
@@ -220,7 +220,7 @@
     "name": "Giresun",
     "area": 7025,
     "population": 450154,
-    "areaCode": [454],
+    "areaCode": 454,
     "isMetropolitan": false
   },
   {
@@ -228,7 +228,7 @@
     "name": "Gümüşhane",
     "area": 6668,
     "population": 150119,
-    "areaCode": [456],
+    "areaCode": 456,
     "isMetropolitan": false
   },
   {
@@ -236,7 +236,7 @@
     "name": "Hakkari",
     "area": 7095,
     "population": 278218,
-    "areaCode": [438],
+    "areaCode": 438,
     "isMetropolitan": false
   },
   {
@@ -244,7 +244,7 @@
     "name": "Hatay",
     "area": 5524,
     "population": 1670712,
-    "areaCode": [326],
+    "areaCode": 326,
     "isMetropolitan": true
   },
   {
@@ -252,7 +252,7 @@
     "name": "Isparta",
     "area": 8946,
     "population": 445678,
-    "areaCode": [246],
+    "areaCode": 246,
     "isMetropolitan": false
   },
   {
@@ -260,7 +260,7 @@
     "name": "Mersin",
     "area": 16010,
     "population": 1891145,
-    "areaCode": [324],
+    "areaCode": 324,
     "isMetropolitan": true
   },
   {
@@ -268,7 +268,7 @@
     "name": "Istanbul",
     "area": 5461,
     "population": 15840900,
-    "areaCode": [212, 216],
+    "areaCode": 212,
     "isMetropolitan": true
   },
   {
@@ -276,7 +276,7 @@
     "name": "Izmir",
     "area": 11891,
     "population": 4425789,
-    "areaCode": [232],
+    "areaCode": 232,
     "isMetropolitan": true
   },
   {
@@ -284,7 +284,7 @@
     "name": "Kars",
     "area": 10193,
     "population": 281077,
-    "areaCode": [474],
+    "areaCode": 474,
     "isMetropolitan": false
   },
   {
@@ -292,7 +292,7 @@
     "name": "Kastamonu",
     "area": 13064,
     "population": 375592,
-    "areaCode": [366],
+    "areaCode": 366,
     "isMetropolitan": false
   },
   {
@@ -300,7 +300,7 @@
     "name": "Kayseri",
     "area": 16970,
     "population": 1434357,
-    "areaCode": [352],
+    "areaCode": 352,
     "isMetropolitan": false
   },
   {
@@ -308,7 +308,7 @@
     "name": "Kırklareli",
     "area": 6459,
     "population": 366363,
-    "areaCode": [288],
+    "areaCode": 288,
     "isMetropolitan": false
   },
   {
@@ -316,7 +316,7 @@
     "name": "Kırşehir",
     "area": 6584,
     "population": 242944,
-    "areaCode": [386],
+    "areaCode": 386,
     "isMetropolitan": false
   },
   {
@@ -324,7 +324,7 @@
     "name": "Kocaeli",
     "area": 3397,
     "population": 2033441,
-    "areaCode": [262],
+    "areaCode": 262,
     "isMetropolitan": true
   },
   {
@@ -332,7 +332,7 @@
     "name": "Konya",
     "area": 40838,
     "population": 2277017,
-    "areaCode": [332],
+    "areaCode": 332,
     "isMetropolitan": true
   },
   {
@@ -340,7 +340,7 @@
     "name": "Kütahya",
     "area": 11634,
     "population": 578640,
-    "areaCode": [274],
+    "areaCode": 274,
     "isMetropolitan": false
   },
   {
@@ -348,7 +348,7 @@
     "name": "Malatya",
     "area": 12259,
     "population": 808692,
-    "areaCode": [422],
+    "areaCode": 422,
     "isMetropolitan": true
   },
   {
@@ -356,7 +356,7 @@
     "name": "Manisa",
     "area": 13339,
     "population": 1456626,
-    "areaCode": [236],
+    "areaCode": 236,
     "isMetropolitan": true
   },
   {
@@ -364,7 +364,7 @@
     "name": "Kahramanmaraş",
     "area": 14520,
     "population": 1171298,
-    "areaCode": [344],
+    "areaCode": 344,
     "isMetropolitan": true
   },
   {
@@ -372,7 +372,7 @@
     "name": "Mardin",
     "area": 8780,
     "population": 862757,
-    "areaCode": [482],
+    "areaCode": 482,
     "isMetropolitan": true
   },
   {
@@ -380,7 +380,7 @@
     "name": "Muğla",
     "area": 12654,
     "population": 1021141,
-    "areaCode": [252],
+    "areaCode": 252,
     "isMetropolitan": true
   },
   {
@@ -388,7 +388,7 @@
     "name": "Muş",
     "area": 8650,
     "population": 405228,
-    "areaCode": [436],
+    "areaCode": 436,
     "isMetropolitan": false
   },
   {
@@ -396,7 +396,7 @@
     "name": "Nevşehir",
     "area": 5485,
     "population": 308003,
-    "areaCode": [384],
+    "areaCode": 384,
     "isMetropolitan": false
   },
   {
@@ -404,7 +404,7 @@
     "name": "Niğde",
     "area": 7234,
     "population": 363725,
-    "areaCode": [388],
+    "areaCode": 388,
     "isMetropolitan": false
   },
   {
@@ -412,7 +412,7 @@
     "name": "Ordu",
     "area": 5861,
     "population": 760872,
-    "areaCode": [452],
+    "areaCode": 452,
     "isMetropolitan": true
   },
   {
@@ -420,7 +420,7 @@
     "name": "Rize",
     "area": 3835,
     "population": 345662,
-    "areaCode": [464],
+    "areaCode": 464,
     "isMetropolitan": false
   },
   {
@@ -428,7 +428,7 @@
     "name": "Sakarya",
     "area": 4824,
     "population": 1060876,
-    "areaCode": [264],
+    "areaCode": 264,
     "isMetropolitan": true
   },
   {
@@ -436,7 +436,7 @@
     "name": "Samsun",
     "area": 9725,
     "population": 1371274,
-    "areaCode": [362],
+    "areaCode": 362,
     "isMetropolitan": true
   },
   {
@@ -444,7 +444,7 @@
     "name": "Siirt",
     "area": 5717,
     "population": 331980,
-    "areaCode": [484],
+    "areaCode": 484,
     "isMetropolitan": false
   },
   {
@@ -452,7 +452,7 @@
     "name": "Sinop",
     "area": 5717,
     "population": 218408,
-    "areaCode": [368],
+    "areaCode": 368,
     "isMetropolitan": false
   },
   {
@@ -460,7 +460,7 @@
     "name": "Sivas",
     "area": 28164,
     "population": 636121,
-    "areaCode": [346],
+    "areaCode": 346,
     "isMetropolitan": false
   },
   {
@@ -468,7 +468,7 @@
     "name": "Tekirdağ",
     "area": 6190,
     "population": 1113400,
-    "areaCode": [282],
+    "areaCode": 282,
     "isMetropolitan": true
   },
   {
@@ -476,7 +476,7 @@
     "name": "Tokat",
     "area": 10042,
     "population": 602567,
-    "areaCode": [356],
+    "areaCode": 356,
     "isMetropolitan": false
   },
   {
@@ -484,7 +484,7 @@
     "name": "Trabzon",
     "area": 4628,
     "population": 816684,
-    "areaCode": [462],
+    "areaCode": 462,
     "isMetropolitan": true
   },
   {
@@ -492,7 +492,7 @@
     "name": "Tunceli",
     "area": 7582,
     "population": 83645,
-    "areaCode": [428],
+    "areaCode": 428,
     "isMetropolitan": false
   },
   {
@@ -500,7 +500,7 @@
     "name": "Şanlıurfa",
     "area": 19242,
     "population": 2143020,
-    "areaCode": [414],
+    "areaCode": 414,
     "isMetropolitan": true
   },
   {
@@ -508,7 +508,7 @@
     "name": "Uşak",
     "area": 5555,
     "population": 373183,
-    "areaCode": [276],
+    "areaCode": 276,
     "isMetropolitan": false
   },
   {
@@ -516,7 +516,7 @@
     "name": "Van",
     "area": 20921,
     "population": 1141015,
-    "areaCode": [432],
+    "areaCode": 432,
     "isMetropolitan": true
   },
   {
@@ -524,7 +524,7 @@
     "name": "Yozgat",
     "area": 13690,
     "population": 418500,
-    "areaCode": [354],
+    "areaCode": 354,
     "isMetropolitan": false
   },
   {
@@ -532,7 +532,7 @@
     "name": "Zonguldak",
     "area": 3342,
     "population": 589684,
-    "areaCode": [372],
+    "areaCode": 372,
     "isMetropolitan": false
   },
   {
@@ -540,7 +540,7 @@
     "name": "Aksaray",
     "area": 7659,
     "population": 429069,
-    "areaCode": [382],
+    "areaCode": 382,
     "isMetropolitan": false
   },
   {
@@ -548,7 +548,7 @@
     "name": "Bayburt",
     "area": 3746,
     "population": 85042,
-    "areaCode": [458],
+    "areaCode": 458,
     "isMetropolitan": false
   },
   {
@@ -556,7 +556,7 @@
     "name": "Karaman",
     "area": 8678,
     "population": 258838,
-    "areaCode": [338],
+    "areaCode": 338,
     "isMetropolitan": false
   },
   {
@@ -564,7 +564,7 @@
     "name": "Kırıkkale",
     "area": 4791,
     "population": 275968,
-    "areaCode": [318],
+    "areaCode": 318,
     "isMetropolitan": false
   },
   {
@@ -572,7 +572,7 @@
     "name": "Batman",
     "area": 4477,
     "population": 626319,
-    "areaCode": [488],
+    "areaCode": 488,
     "isMetropolitan": false
   },
   {
@@ -580,7 +580,7 @@
     "name": "Şırnak",
     "area": 7078,
     "population": 546589,
-    "areaCode": [486],
+    "areaCode": 486,
     "isMetropolitan": false
   },
   {
@@ -588,7 +588,7 @@
     "name": "Bartın",
     "area": 2330,
     "population": 201711,
-    "areaCode": [378],
+    "areaCode": 378,
     "isMetropolitan": false
   },
   {
@@ -596,7 +596,7 @@
     "name": "Ardahan",
     "area": 4934,
     "population": 94932,
-    "areaCode": [478],
+    "areaCode": 478,
     "isMetropolitan": false
   },
   {
@@ -604,7 +604,7 @@
     "name": "Iğdır",
     "area": 3664,
     "population": 203159,
-    "areaCode": [476],
+    "areaCode": 476,
     "isMetropolitan": false
   },
   {
@@ -612,7 +612,7 @@
     "name": "Yalova",
     "area": 798,
     "population": 291001,
-    "areaCode": [226],
+    "areaCode": 226,
     "isMetropolitan": false
   },
   {
@@ -620,7 +620,7 @@
     "name": "Karabük",
     "area": 4142,
     "population": 249287,
-    "areaCode": [370],
+    "areaCode": 370,
     "isMetropolitan": false
   },
   {
@@ -628,7 +628,7 @@
     "name": "Kilis",
     "area": 1412,
     "population": 145826,
-    "areaCode": [348],
+    "areaCode": 348,
     "isMetropolitan": false
   },
   {
@@ -636,7 +636,7 @@
     "name": "Osmaniye",
     "area": 3320,
     "population": 553012,
-    "areaCode": [328],
+    "areaCode": 328,
     "isMetropolitan": false
   },
   {
@@ -644,7 +644,7 @@
     "name": "Düzce",
     "area": 2492,
     "population": 400976,
-    "areaCode": [380],
+    "areaCode": 380,
     "isMetropolitan": false
   }
 ]
