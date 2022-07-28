@@ -3,8 +3,8 @@ const fs = require('fs');
 const provinces = JSON.parse(fs.readFileSync(`${__dirname}/dev-data/api.json`));
 let query;
 
-exports.checkQuery = (req, res, next, val) => {
-  query = req.params.query.replace('İ', 'I').toLowerCase();
+exports.checkID = (req, res, next, val) => {
+  query = req.params.id.replace('İ', 'I').toLowerCase();
   // console.log(query)
   // console.log(query[0]);
   // console.log(query[0] === 'ı');
