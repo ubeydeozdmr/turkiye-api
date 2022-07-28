@@ -8,7 +8,7 @@ html(lang="en")
       body {
         font-family: sans-serif;
       }
-      a {
+      a.frame {
         background-color: #333333;
         color: #ffffff;
         padding: 8px;
@@ -22,21 +22,21 @@ html(lang="en")
       strong provinces in Turkey.
     hr
     h2 GET All Provinces
-    a(target='_blank', href='/api/v1/provinces') #{host}/api/v1/provinces
+    a(class='frame', target='_blank', href='/api/v1/provinces') #{host}/api/v1/provinces
     p
       | You can use this route to get data for 
       strong all
       |  countries.
     br
     h2 GET Province by ID
-    a(target='_blank', href='/api/v1/provinces/6') #{host}/api/v1/provinces/6
+    a(class='frame', target='_blank', href='/api/v1/provinces/6') #{host}/api/v1/provinces/6
     p
       | You can use this route to obtain the data of the province whose 
       strong ID you entered.
     p You can enter a different number, instead of 6
     br
     h2 GET Province by Name
-    a(target='_blank', href='/api/v1/provinces/ankara') #{host}/api/v1/provinces/ankara
+    a(class='frame', target='_blank', href='/api/v1/provinces/ankara') #{host}/api/v1/provinces/ankara
     p
       | You can use this route to obtain the data of the province whose 
       strong name you entered.
@@ -48,6 +48,21 @@ html(lang="en")
       |  use capital letters because capital letters sometimes causes unwanted results.
     br
     hr
+    h3 Sources
+    ul
+      li
+        a(target='_blank', href='https://biruni.tuik.gov.tr/medas') Population of districts
+      li
+        a(target='_blank', href='https://web.archive.org/web/20190416051733/https://www.harita.gov.tr/images/urun/il_ilce_alanlari.pdf') Area of districts
     h3 Important Notes
     ul
+      li It is still under development.
       li The populations of the provinces are based on 2021.
+      li The areas of the provinces are based on kilometer/km.
+    h3 Known bugs / TODOs
+    ul
+      li Province search functionality has not been implemented yet.
+      li CORS has not been implemented yet.
+      li Work will be done on some non-English characters such as "İ / ı".
+      li The province cannot be found when capital letters are used -a problem for some provinces, due to Turkish characters- will be tried to be fixed.
+      li API features will be tried to be increased.
