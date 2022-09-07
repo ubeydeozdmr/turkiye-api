@@ -7,6 +7,9 @@
       "population": 2263373,
       "areaCode": [322],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/4yHUNdZuhcBn7rqX8"
+      },
       "region": {
         "en": "Mediterranean",
         "tr": "Akdeniz"
@@ -81,6 +84,9 @@
       "population": 632148,
       "areaCode": [416],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/UqRzeK1ApyPjbhpp6"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -131,6 +137,9 @@
       "population": 744179,
       "areaCode": [272],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/YeNjtvM93DdWqXZ46"
+      },
       "region": {
         "en": "Aegean",
         "tr": "Ege"
@@ -217,6 +226,9 @@
       "population": 524644,
       "areaCode": [472],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/XRhjXkNfniLTjCfY7"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -263,6 +275,9 @@
       "population": 335331,
       "areaCode": [358],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/1wM3GEACXZW3kG219"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -305,6 +320,9 @@
       "population": 5747325,
       "areaCode": [312],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -419,6 +437,9 @@
       "population": 2619832,
       "areaCode": [242],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/bs2JWRpPJPLLfTyv5"
+      },
       "region": {
         "en": "Mediterranean",
         "tr": "Akdeniz"
@@ -509,6 +530,9 @@
       "population": 169543,
       "areaCode": [466],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/BNqMFsBRd8AUX9mx8"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -559,6 +583,9 @@
       "population": 1134031,
       "areaCode": [256],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/453kMPbSgGMJPWcg7"
+      },
       "region": {
         "en": "Aegean",
         "tr": "Ege"
@@ -657,6 +684,9 @@
       "population": 1250610,
       "areaCode": [266],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/RJquCx4SbtBENXDu9"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -751,6 +781,9 @@
       "population": 228334,
       "areaCode": [228],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/LJDq5jVJdrcLhCHu5"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -797,6 +830,9 @@
       "population": 283112,
       "areaCode": [426],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/4YXDvYHT4iHFCMDb7"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -843,6 +879,9 @@
       "population": 352277,
       "areaCode": [434],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/p3fCL2MKcfHeqXcD6"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -885,6 +924,9 @@
       "population": 320014,
       "areaCode": [374],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/T8DJCNo4S8ngxcY36"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -935,6 +977,9 @@
       "population": 273716,
       "areaCode": [248],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/BA4vZ8FHqw9TdWFt8"
+      },
       "region": {
         "en": "Mediterranean",
         "tr": "Akdeniz"
@@ -993,6 +1038,9 @@
       "population": 3147818,
       "areaCode": [224],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/D4vgiGXypSUoAnb5A"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -1071,6 +1119,9 @@
       "population": 557276,
       "areaCode": [286],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/TUMVgeTAWBChTA5D9"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -1133,6 +1184,9 @@
       "population": 196515,
       "areaCode": [376],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/6kF6GM2DkPqqCoMD8"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -1195,6 +1249,9 @@
       "population": 526282,
       "areaCode": [364],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/wQa5dtRQDPCU4UNv9"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -1265,6 +1322,9 @@
       "population": 1051056,
       "areaCode": [258],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/aVMraLcFzdK6MbeT9"
+      },
       "region": {
         "en": "Aegean",
         "tr": "Ege"
@@ -1355,6 +1415,9 @@
       "population": 1791373,
       "areaCode": [412],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/qsS4gxc5GdbQeMo57"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -1437,6 +1500,9 @@
       "population": 412115,
       "areaCode": [284],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/xBHKDxVHbWD2RrHs6"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -1487,6 +1553,9 @@
       "population": 588088,
       "areaCode": [424],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/aALifwxa3ZNacgtn6"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -1545,6 +1614,9 @@
       "population": 237351,
       "areaCode": [446],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/9ypr7KJcnAEakUqY6"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -1595,6 +1667,9 @@
       "population": 756893,
       "areaCode": [442],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/ssmkHABXNprF5JFC9"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -1689,6 +1764,9 @@
       "population": 898363,
       "areaCode": [222],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/rRM16qjwATHfezhF8"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -1759,6 +1837,9 @@
       "population": 2130432,
       "areaCode": [342],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/ySMoHHviNjRyBriG7"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -1809,6 +1890,9 @@
       "population": 450154,
       "areaCode": [454],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/xsmiZVAeBZrndZYE8"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -1887,6 +1971,9 @@
       "population": 150119,
       "areaCode": [456],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/5nGQ1c66NJLJT2QL9"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -1925,6 +2012,9 @@
       "population": 278218,
       "areaCode": [438],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/Pa4EUb6rz91uW66q9"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -1959,6 +2049,9 @@
       "population": 1670712,
       "areaCode": [326],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/2VkFg1AM9B4Xv9W89"
+      },
       "region": {
         "en": "Mediterranean",
         "tr": "Akdeniz"
@@ -2033,6 +2126,9 @@
       "population": 445678,
       "areaCode": [246],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/v8tcHjuuCKyNMn687"
+      },
       "region": {
         "en": "Mediterranean",
         "tr": "Akdeniz"
@@ -2099,6 +2195,9 @@
       "population": 1891145,
       "areaCode": [324],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/jVPgxP2wEF1BcUV66"
+      },
       "region": {
         "en": "Mediterranean",
         "tr": "Akdeniz"
@@ -2165,6 +2264,9 @@
       "population": 15840900,
       "areaCode": [212, 216],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/wKdwRFM4NW8Wm6ZZ8"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -2335,6 +2437,9 @@
       "population": 4425789,
       "areaCode": [232],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/nukYGi69xLMX7SNR6"
+      },
       "region": {
         "en": "Aegean",
         "tr": "Ege"
@@ -2469,6 +2574,9 @@
       "population": 281077,
       "areaCode": [474],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/worCQtM2sdTAy6t8A"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -2515,6 +2623,9 @@
       "population": 375592,
       "areaCode": [366],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/SSFqej5quZyQ6uZn7"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -2609,6 +2720,9 @@
       "population": 1434357,
       "areaCode": [352],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/A27qXKh2FCWEzTzr8"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -2687,6 +2801,9 @@
       "population": 366363,
       "areaCode": [288],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/v6PRExTopMCA2uhb6"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -2733,6 +2850,9 @@
       "population": 242944,
       "areaCode": [386],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/C7rn2oVtZDqz54HA7"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -2775,6 +2895,9 @@
       "population": 2033441,
       "areaCode": [262],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/PSVVkZbPKuEUrim67"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -2837,6 +2960,9 @@
       "population": 2277017,
       "areaCode": [332],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/EMCU5es81LqioNid7"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -2975,6 +3101,9 @@
       "population": 578640,
       "areaCode": [274],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/DsRnEr82a7fsJ1Xf8"
+      },
       "region": {
         "en": "Aegean",
         "tr": "Ege"
@@ -3041,6 +3170,9 @@
       "population": 808692,
       "areaCode": [422],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/HkMktwFVCqoCt14g7"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -3107,6 +3239,9 @@
       "population": 1456626,
       "areaCode": [236],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/E9DzgTLFvBV3rstE7"
+      },
       "region": {
         "en": "Aegean",
         "tr": "Ege"
@@ -3189,6 +3324,9 @@
       "population": 1171298,
       "areaCode": [344],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/s3dakhk52nvps97L9"
+      },
       "region": {
         "en": "Mediterranean",
         "tr": "Akdeniz"
@@ -3247,6 +3385,9 @@
       "population": 862757,
       "areaCode": [482],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/WidjMsfgeZwTdGqC9"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -3301,6 +3442,9 @@
       "population": 1021141,
       "areaCode": [252],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/4YiaJwzP6U5Z2irW7"
+      },
       "region": {
         "en": "Aegean",
         "tr": "Ege"
@@ -3367,6 +3511,9 @@
       "population": 405228,
       "areaCode": [436],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/7oitkLxS2gPPAHEF7"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -3405,6 +3552,9 @@
       "population": 308003,
       "areaCode": [384],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/MUa2UDqfpWXXfiod9"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -3451,6 +3601,9 @@
       "population": 363725,
       "areaCode": [388],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/PpKh8rj8wEsN1raW9"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -3489,6 +3642,9 @@
       "population": 760872,
       "areaCode": [452],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/MUUAwLbot3PKiM4z9"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -3579,6 +3735,9 @@
       "population": 345662,
       "areaCode": [464],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/zyNExe1TH4ca4TEp7"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -3641,6 +3800,9 @@
       "population": 1060876,
       "areaCode": [264],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/E14vjUfh6vtYgxNE6"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -3719,6 +3881,9 @@
       "population": 1371274,
       "areaCode": [362],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/dfCJKSAcZh8fcHht5"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -3801,6 +3966,9 @@
       "population": 331980,
       "areaCode": [484],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/A9RziYU4nmT5JRXTA"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -3843,6 +4011,9 @@
       "population": 218408,
       "areaCode": [368],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/dDFGTRBWxMVtV4sT6"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -3893,6 +4064,9 @@
       "population": 636121,
       "areaCode": [346],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/1EnUytV861FmLWjZ8"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -3975,6 +4149,9 @@
       "population": 1113400,
       "areaCode": [282],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/njUunD1SpA8zXX2r9"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -4033,6 +4210,9 @@
       "population": 602567,
       "areaCode": [356],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/NZdDAFbedQgwFHgV8"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -4095,6 +4275,9 @@
       "population": 816684,
       "areaCode": [462],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/3MNVGU2vaK4K4pUT6"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -4181,6 +4364,9 @@
       "population": 83645,
       "areaCode": [428],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/4xdfVHREhnbcexoQA"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -4227,6 +4413,9 @@
       "population": 2143020,
       "areaCode": [414],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/HomBJUkX9PrtNk2L6"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -4293,6 +4482,9 @@
       "population": 373183,
       "areaCode": [276],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/fAhNfzHxWuguCfib7"
+      },
       "region": {
         "en": "Aegean",
         "tr": "Ege"
@@ -4331,6 +4523,9 @@
       "population": 1141015,
       "areaCode": [432],
       "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/HSTpUR2egRhG39M29"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -4397,6 +4592,9 @@
       "population": 418500,
       "areaCode": [354],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/FJbXiqUud8M9tpGp9"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -4467,6 +4665,9 @@
       "population": 589684,
       "areaCode": [372],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/uLQrR9gNqGMRJ4t7A"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -4513,6 +4714,9 @@
       "population": 429069,
       "areaCode": [382],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/xsGaB46hYrkMkwd8A"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -4559,6 +4763,9 @@
       "population": 85042,
       "areaCode": [458],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/mGqWgVfqQneCzwj36"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -4585,6 +4792,9 @@
       "population": 258838,
       "areaCode": [338],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/FWnvmkmDTmfnt3FN7"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -4623,6 +4833,9 @@
       "population": 275968,
       "areaCode": [318],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/wrhgZ7eMU9LwfiL46"
+      },
       "region": {
         "en": "Central Anatolia",
         "tr": "İç Anadolu"
@@ -4673,6 +4886,9 @@
       "population": 626319,
       "areaCode": [488],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/DiyqUr2MEoPWmWjV8"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -4711,6 +4927,9 @@
       "population": 546589,
       "areaCode": [486],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/tDwsK4Y4kJZDpp55A"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -4753,6 +4972,9 @@
       "population": 201711,
       "areaCode": [378],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/kEA1uaXRs5h4Ys497"
+      },
       "region": {
         "en": "North Sea",
         "tr": "Karadeniz"
@@ -4783,6 +5005,9 @@
       "population": 94932,
       "areaCode": [478],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/czPjzpGKZMS5hUgm9"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -4821,6 +5046,9 @@
       "population": 203159,
       "areaCode": [476],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/4sTLXpYBHttBGPsdA"
+      },
       "region": {
         "en": "Eastern Anatolia",
         "tr": "Doğu Anadolu"
@@ -4851,6 +5079,9 @@
       "population": 291001,
       "areaCode": [226],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/RtzU9F1fuhPVMFsm9"
+      },
       "region": {
         "en": "Marmara",
         "tr": "Marmara"
@@ -4889,6 +5120,9 @@
       "population": 249287,
       "areaCode": [370],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/QMVjbUBH7Q7XHKcK9"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
@@ -4927,6 +5161,9 @@
       "population": 145826,
       "areaCode": [348],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/4qRGCoNwMNn9BJ8G8"
+      },
       "region": {
         "en": "Southeastern Anatolia",
         "tr": "Güneydoğu Anadolu"
@@ -4957,6 +5194,9 @@
       "population": 553012,
       "areaCode": [328],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/UVsA8GVQDsxjUysN9"
+      },
       "region": {
         "en": "Mediterranean",
         "tr": "Akdeniz"
@@ -4999,6 +5239,9 @@
       "population": 400976,
       "areaCode": [380],
       "isMetropolitan": false,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/ypKm6p456SRRkSCd8"
+      },
       "region": {
         "en": "Black Sea",
         "tr": "Karadeniz"
