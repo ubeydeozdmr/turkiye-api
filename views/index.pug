@@ -5,21 +5,15 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     style.
-      body {
-        font-family: sans-serif;
-      }
-      a.frame {
-        background-color: #333333;
-        color: #ffffff;
-        padding: 8px;
-        border-radius: 8px;
-      }
+      body { font-family: sans-serif; }
     title Provinces of Turkey API
   body
     h1 Provinces of Turkey API
     p
       | This API allows you to get data about 
       strong provinces in Turkey.
+    p If you want to see API features as Postman documentation, you can click 
+      a( target='_blank', href='https://documenter.getpostman.com/view/19561492/UzBguVHM') here.
     hr
     h2 GET All Provinces
     a(class='frame', target='_blank', href='/api/v1/provinces') #{host}/api/v1/provinces
@@ -62,7 +56,6 @@ html(lang="en")
     h3 Known bugs / TODOs
     ul
       li Province search functionality has not been implemented yet.
-      li CORS has not been implemented yet.
       li Work will be done on some non-English characters such as "İ / ı".
       li The province cannot be found when capital letters are used -a problem for some provinces, due to Turkish characters- will be tried to be fixed.
       li API features will be tried to be increased.
