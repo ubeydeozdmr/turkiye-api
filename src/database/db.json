@@ -8,7 +8,8 @@
       "areaCode": [322],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/4yHUNdZuhcBn7rqX8"
+        "googleMaps": "https://goo.gl/maps/4yHUNdZuhcBn7rqX8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/167216"
       },
       "region": {
         "en": "Mediterranean",
@@ -85,7 +86,8 @@
       "areaCode": [416],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/UqRzeK1ApyPjbhpp6"
+        "googleMaps": "https://goo.gl/maps/UqRzeK1ApyPjbhpp6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223141"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -138,7 +140,8 @@
       "areaCode": [272],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/YeNjtvM93DdWqXZ46"
+        "googleMaps": "https://goo.gl/maps/YeNjtvM93DdWqXZ46",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223171"
       },
       "region": {
         "en": "Aegean",
@@ -227,7 +230,8 @@
       "areaCode": [472],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/XRhjXkNfniLTjCfY7"
+        "googleMaps": "https://goo.gl/maps/XRhjXkNfniLTjCfY7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/186433"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -276,7 +280,8 @@
       "areaCode": [358],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/1wM3GEACXZW3kG219"
+        "googleMaps": "https://goo.gl/maps/1wM3GEACXZW3kG219",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223452"
       },
       "region": {
         "en": "Black Sea",
@@ -321,7 +326,8 @@
       "areaCode": [312],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8"
+        "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223422"
       },
       "region": {
         "en": "Central Anatolia",
@@ -438,7 +444,8 @@
       "areaCode": [242],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/bs2JWRpPJPLLfTyv5"
+        "googleMaps": "https://goo.gl/maps/bs2JWRpPJPLLfTyv5",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223132"
       },
       "region": {
         "en": "Mediterranean",
@@ -531,7 +538,8 @@
       "areaCode": [466],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/BNqMFsBRd8AUX9mx8"
+        "googleMaps": "https://goo.gl/maps/BNqMFsBRd8AUX9mx8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223448"
       },
       "region": {
         "en": "Black Sea",
@@ -584,7 +592,8 @@
       "areaCode": [256],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/453kMPbSgGMJPWcg7"
+        "googleMaps": "https://goo.gl/maps/453kMPbSgGMJPWcg7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223166"
       },
       "region": {
         "en": "Aegean",
@@ -685,7 +694,8 @@
       "areaCode": [266],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/RJquCx4SbtBENXDu9"
+        "googleMaps": "https://goo.gl/maps/RJquCx4SbtBENXDu9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223464"
       },
       "region": {
         "en": "Marmara",
@@ -782,7 +792,8 @@
       "areaCode": [228],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/LJDq5jVJdrcLhCHu5"
+        "googleMaps": "https://goo.gl/maps/LJDq5jVJdrcLhCHu5",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223420"
       },
       "region": {
         "en": "Marmara",
@@ -831,7 +842,8 @@
       "areaCode": [426],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/4YXDvYHT4iHFCMDb7"
+        "googleMaps": "https://goo.gl/maps/4YXDvYHT4iHFCMDb7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223444"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -880,7 +892,8 @@
       "areaCode": [434],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/p3fCL2MKcfHeqXcD6"
+        "googleMaps": "https://goo.gl/maps/p3fCL2MKcfHeqXcD6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223441"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -925,7 +938,8 @@
       "areaCode": [374],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/T8DJCNo4S8ngxcY36"
+        "googleMaps": "https://goo.gl/maps/T8DJCNo4S8ngxcY36",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223461"
       },
       "region": {
         "en": "Black Sea",
@@ -978,7 +992,8 @@
       "areaCode": [248],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/BA4vZ8FHqw9TdWFt8"
+        "googleMaps": "https://goo.gl/maps/BA4vZ8FHqw9TdWFt8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/2319368"
       },
       "region": {
         "en": "Mediterranean",
@@ -1039,7 +1054,8 @@
       "areaCode": [224],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/D4vgiGXypSUoAnb5A"
+        "googleMaps": "https://goo.gl/maps/D4vgiGXypSUoAnb5A",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223463"
       },
       "region": {
         "en": "Marmara",
@@ -1120,7 +1136,8 @@
       "areaCode": [286],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/TUMVgeTAWBChTA5D9"
+        "googleMaps": "https://goo.gl/maps/TUMVgeTAWBChTA5D9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223471"
       },
       "region": {
         "en": "Marmara",
@@ -1185,7 +1202,8 @@
       "areaCode": [376],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/6kF6GM2DkPqqCoMD8"
+        "googleMaps": "https://goo.gl/maps/6kF6GM2DkPqqCoMD8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223454"
       },
       "region": {
         "en": "Marmara",
@@ -1250,7 +1268,8 @@
       "areaCode": [364],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/wQa5dtRQDPCU4UNv9"
+        "googleMaps": "https://goo.gl/maps/wQa5dtRQDPCU4UNv9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223453"
       },
       "region": {
         "en": "Black Sea",
@@ -1323,7 +1342,8 @@
       "areaCode": [258],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/aVMraLcFzdK6MbeT9"
+        "googleMaps": "https://goo.gl/maps/aVMraLcFzdK6MbeT9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223169"
       },
       "region": {
         "en": "Aegean",
@@ -1416,7 +1436,8 @@
       "areaCode": [412],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/qsS4gxc5GdbQeMo57"
+        "googleMaps": "https://goo.gl/maps/qsS4gxc5GdbQeMo57",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223435"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -1501,7 +1522,8 @@
       "areaCode": [284],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/xBHKDxVHbWD2RrHs6"
+        "googleMaps": "https://goo.gl/maps/xBHKDxVHbWD2RrHs6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223465"
       },
       "region": {
         "en": "Marmara",
@@ -1554,7 +1576,8 @@
       "areaCode": [424],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/aALifwxa3ZNacgtn6"
+        "googleMaps": "https://goo.gl/maps/aALifwxa3ZNacgtn6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223443"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -1615,7 +1638,8 @@
       "areaCode": [446],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/9ypr7KJcnAEakUqY6"
+        "googleMaps": "https://goo.gl/maps/9ypr7KJcnAEakUqY6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223445"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -1668,7 +1692,8 @@
       "areaCode": [442],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/ssmkHABXNprF5JFC9"
+        "googleMaps": "https://goo.gl/maps/ssmkHABXNprF5JFC9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/186432"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -1765,7 +1790,8 @@
       "areaCode": [222],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/rRM16qjwATHfezhF8"
+        "googleMaps": "https://goo.gl/maps/rRM16qjwATHfezhF8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223421"
       },
       "region": {
         "en": "Central Anatolia",
@@ -1838,7 +1864,8 @@
       "areaCode": [342],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/ySMoHHviNjRyBriG7"
+        "googleMaps": "https://goo.gl/maps/ySMoHHviNjRyBriG7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223139"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -1891,7 +1918,8 @@
       "areaCode": [454],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/xsmiZVAeBZrndZYE8"
+        "googleMaps": "https://goo.gl/maps/xsmiZVAeBZrndZYE8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223449"
       },
       "region": {
         "en": "Black Sea",
@@ -1972,7 +2000,8 @@
       "areaCode": [456],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/5nGQ1c66NJLJT2QL9"
+        "googleMaps": "https://goo.gl/maps/5nGQ1c66NJLJT2QL9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223541"
       },
       "region": {
         "en": "Black Sea",
@@ -2013,7 +2042,8 @@
       "areaCode": [438],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/Pa4EUb6rz91uW66q9"
+        "googleMaps": "https://goo.gl/maps/Pa4EUb6rz91uW66q9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/174742"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -2050,7 +2080,8 @@
       "areaCode": [326],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/2VkFg1AM9B4Xv9W89"
+        "googleMaps": "https://goo.gl/maps/2VkFg1AM9B4Xv9W89",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223122"
       },
       "region": {
         "en": "Mediterranean",
@@ -2127,7 +2158,8 @@
       "areaCode": [246],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/v8tcHjuuCKyNMn687"
+        "googleMaps": "https://goo.gl/maps/v8tcHjuuCKyNMn687",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223134"
       },
       "region": {
         "en": "Mediterranean",
@@ -2196,7 +2228,8 @@
       "areaCode": [324],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/jVPgxP2wEF1BcUV66"
+        "googleMaps": "https://goo.gl/maps/jVPgxP2wEF1BcUV66",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223131"
       },
       "region": {
         "en": "Mediterranean",
@@ -2265,7 +2298,8 @@
       "areaCode": [212, 216],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/wKdwRFM4NW8Wm6ZZ8"
+        "googleMaps": "https://goo.gl/maps/wKdwRFM4NW8Wm6ZZ8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223474"
       },
       "region": {
         "en": "Marmara",
@@ -2438,7 +2472,8 @@
       "areaCode": [232],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/nukYGi69xLMX7SNR6"
+        "googleMaps": "https://goo.gl/maps/nukYGi69xLMX7SNR6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223167"
       },
       "region": {
         "en": "Aegean",
@@ -2575,7 +2610,8 @@
       "areaCode": [474],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/worCQtM2sdTAy6t8A"
+        "googleMaps": "https://goo.gl/maps/worCQtM2sdTAy6t8A",
+        "openStreetMap": "https://www.openstreetmap.org/relation/186431"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -2624,7 +2660,8 @@
       "areaCode": [366],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/SSFqej5quZyQ6uZn7"
+        "googleMaps": "https://goo.gl/maps/SSFqej5quZyQ6uZn7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/186431"
       },
       "region": {
         "en": "Black Sea",
@@ -2721,7 +2758,8 @@
       "areaCode": [352],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/A27qXKh2FCWEzTzr8"
+        "googleMaps": "https://goo.gl/maps/A27qXKh2FCWEzTzr8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/154451"
       },
       "region": {
         "en": "Central Anatolia",
@@ -2802,7 +2840,8 @@
       "areaCode": [288],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/v6PRExTopMCA2uhb6"
+        "googleMaps": "https://goo.gl/maps/v6PRExTopMCA2uhb6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223469"
       },
       "region": {
         "en": "Marmara",
@@ -2851,7 +2890,8 @@
       "areaCode": [386],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/C7rn2oVtZDqz54HA7"
+        "googleMaps": "https://goo.gl/maps/C7rn2oVtZDqz54HA7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/154452#map=9/39.3111/34.0556"
       },
       "region": {
         "en": "Central Anatolia",
@@ -2896,7 +2936,8 @@
       "areaCode": [262],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/PSVVkZbPKuEUrim67"
+        "googleMaps": "https://goo.gl/maps/PSVVkZbPKuEUrim67",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223473"
       },
       "region": {
         "en": "Marmara",
@@ -2961,7 +3002,8 @@
       "areaCode": [332],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/EMCU5es81LqioNid7"
+        "googleMaps": "https://goo.gl/maps/EMCU5es81LqioNid7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223133"
       },
       "region": {
         "en": "Central Anatolia",
@@ -3102,7 +3144,8 @@
       "areaCode": [274],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/DsRnEr82a7fsJ1Xf8"
+        "googleMaps": "https://goo.gl/maps/DsRnEr82a7fsJ1Xf8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223172"
       },
       "region": {
         "en": "Aegean",
@@ -3171,7 +3214,8 @@
       "areaCode": [422],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/HkMktwFVCqoCt14g7"
+        "googleMaps": "https://goo.gl/maps/HkMktwFVCqoCt14g7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223426"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -3240,7 +3284,8 @@
       "areaCode": [236],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/E9DzgTLFvBV3rstE7"
+        "googleMaps": "https://goo.gl/maps/E9DzgTLFvBV3rstE7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223168"
       },
       "region": {
         "en": "Aegean",
@@ -3325,7 +3370,8 @@
       "areaCode": [344],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/s3dakhk52nvps97L9"
+        "googleMaps": "https://goo.gl/maps/s3dakhk52nvps97L9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223138"
       },
       "region": {
         "en": "Mediterranean",
@@ -3386,7 +3432,8 @@
       "areaCode": [482],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/WidjMsfgeZwTdGqC9"
+        "googleMaps": "https://goo.gl/maps/WidjMsfgeZwTdGqC9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223436"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -3443,7 +3490,8 @@
       "areaCode": [252],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/4YiaJwzP6U5Z2irW7"
+        "googleMaps": "https://goo.gl/maps/4YiaJwzP6U5Z2irW7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223136"
       },
       "region": {
         "en": "Aegean",
@@ -3512,7 +3560,8 @@
       "areaCode": [436],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/7oitkLxS2gPPAHEF7"
+        "googleMaps": "https://goo.gl/maps/7oitkLxS2gPPAHEF7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223440"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -3553,7 +3602,8 @@
       "areaCode": [384],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/MUa2UDqfpWXXfiod9"
+        "googleMaps": "https://goo.gl/maps/MUa2UDqfpWXXfiod9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/154449"
       },
       "region": {
         "en": "Central Anatolia",
@@ -3602,7 +3652,8 @@
       "areaCode": [388],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/PpKh8rj8wEsN1raW9"
+        "googleMaps": "https://goo.gl/maps/PpKh8rj8wEsN1raW9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/154456"
       },
       "region": {
         "en": "Central Anatolia",
@@ -3643,7 +3694,8 @@
       "areaCode": [452],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/MUUAwLbot3PKiM4z9"
+        "googleMaps": "https://goo.gl/maps/MUUAwLbot3PKiM4z9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223450"
       },
       "region": {
         "en": "Black Sea",
@@ -3736,7 +3788,8 @@
       "areaCode": [464],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/zyNExe1TH4ca4TEp7"
+        "googleMaps": "https://goo.gl/maps/zyNExe1TH4ca4TEp7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223542"
       },
       "region": {
         "en": "Black Sea",
@@ -3801,7 +3854,8 @@
       "areaCode": [264],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/E14vjUfh6vtYgxNE6"
+        "googleMaps": "https://goo.gl/maps/E14vjUfh6vtYgxNE6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223462"
       },
       "region": {
         "en": "Marmara",
@@ -3882,7 +3936,8 @@
       "areaCode": [362],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/dfCJKSAcZh8fcHht5"
+        "googleMaps": "https://goo.gl/maps/dfCJKSAcZh8fcHht5",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223451"
       },
       "region": {
         "en": "Black Sea",
@@ -3967,7 +4022,8 @@
       "areaCode": [484],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/A9RziYU4nmT5JRXTA"
+        "googleMaps": "https://goo.gl/maps/A9RziYU4nmT5JRXTA",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223543"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -4012,7 +4068,8 @@
       "areaCode": [368],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/dDFGTRBWxMVtV4sT6"
+        "googleMaps": "https://goo.gl/maps/dDFGTRBWxMVtV4sT6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223457"
       },
       "region": {
         "en": "Black Sea",
@@ -4065,7 +4122,8 @@
       "areaCode": [346],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/1EnUytV861FmLWjZ8"
+        "googleMaps": "https://goo.gl/maps/1EnUytV861FmLWjZ8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223425"
       },
       "region": {
         "en": "Central Anatolia",
@@ -4150,7 +4208,8 @@
       "areaCode": [282],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/njUunD1SpA8zXX2r9"
+        "googleMaps": "https://goo.gl/maps/njUunD1SpA8zXX2r9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223470"
       },
       "region": {
         "en": "Marmara",
@@ -4211,7 +4270,8 @@
       "areaCode": [356],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/NZdDAFbedQgwFHgV8"
+        "googleMaps": "https://goo.gl/maps/NZdDAFbedQgwFHgV8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223424"
       },
       "region": {
         "en": "Black Sea",
@@ -4276,7 +4336,8 @@
       "areaCode": [462],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/3MNVGU2vaK4K4pUT6"
+        "googleMaps": "https://goo.gl/maps/3MNVGU2vaK4K4pUT6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223447"
       },
       "region": {
         "en": "Black Sea",
@@ -4365,7 +4426,8 @@
       "areaCode": [428],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/4xdfVHREhnbcexoQA"
+        "googleMaps": "https://goo.gl/maps/4xdfVHREhnbcexoQA",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223537"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -4414,7 +4476,8 @@
       "areaCode": [414],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/HomBJUkX9PrtNk2L6"
+        "googleMaps": "https://goo.gl/maps/HomBJUkX9PrtNk2L6",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223434"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -4483,7 +4546,8 @@
       "areaCode": [276],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/fAhNfzHxWuguCfib7"
+        "googleMaps": "https://goo.gl/maps/fAhNfzHxWuguCfib7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223170"
       },
       "region": {
         "en": "Aegean",
@@ -4524,7 +4588,8 @@
       "areaCode": [432],
       "isMetropolitan": true,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/HSTpUR2egRhG39M29"
+        "googleMaps": "https://goo.gl/maps/HSTpUR2egRhG39M29",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223442"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -4593,7 +4658,8 @@
       "areaCode": [354],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/FJbXiqUud8M9tpGp9"
+        "googleMaps": "https://goo.gl/maps/FJbXiqUud8M9tpGp9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/154450"
       },
       "region": {
         "en": "Central Anatolia",
@@ -4666,7 +4732,8 @@
       "areaCode": [372],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/uLQrR9gNqGMRJ4t7A"
+        "googleMaps": "https://goo.gl/maps/uLQrR9gNqGMRJ4t7A",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223459"
       },
       "region": {
         "en": "Black Sea",
@@ -4715,7 +4782,8 @@
       "areaCode": [382],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/xsGaB46hYrkMkwd8A"
+        "googleMaps": "https://goo.gl/maps/xsGaB46hYrkMkwd8A",
+        "openStreetMap": "https://www.openstreetmap.org/relation/154454"
       },
       "region": {
         "en": "Central Anatolia",
@@ -4764,7 +4832,8 @@
       "areaCode": [458],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/mGqWgVfqQneCzwj36"
+        "googleMaps": "https://goo.gl/maps/mGqWgVfqQneCzwj36",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223446"
       },
       "region": {
         "en": "Black Sea",
@@ -4793,7 +4862,8 @@
       "areaCode": [338],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/FWnvmkmDTmfnt3FN7"
+        "googleMaps": "https://goo.gl/maps/FWnvmkmDTmfnt3FN7",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223446"
       },
       "region": {
         "en": "Central Anatolia",
@@ -4834,7 +4904,8 @@
       "areaCode": [318],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/wrhgZ7eMU9LwfiL46"
+        "googleMaps": "https://goo.gl/maps/wrhgZ7eMU9LwfiL46",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223423"
       },
       "region": {
         "en": "Central Anatolia",
@@ -4887,7 +4958,8 @@
       "areaCode": [488],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/DiyqUr2MEoPWmWjV8"
+        "googleMaps": "https://goo.gl/maps/DiyqUr2MEoPWmWjV8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223437"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -4928,7 +5000,8 @@
       "areaCode": [486],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/tDwsK4Y4kJZDpp55A"
+        "googleMaps": "https://goo.gl/maps/tDwsK4Y4kJZDpp55A",
+        "openStreetMap": "https://www.openstreetmap.org/relation/1751843"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -4973,7 +5046,8 @@
       "areaCode": [378],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/kEA1uaXRs5h4Ys497"
+        "googleMaps": "https://goo.gl/maps/kEA1uaXRs5h4Ys497",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223458"
       },
       "region": {
         "en": "North Sea",
@@ -5006,7 +5080,8 @@
       "areaCode": [478],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/czPjzpGKZMS5hUgm9"
+        "googleMaps": "https://goo.gl/maps/czPjzpGKZMS5hUgm9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/1251450"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -5047,7 +5122,8 @@
       "areaCode": [476],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/4sTLXpYBHttBGPsdA"
+        "googleMaps": "https://goo.gl/maps/4sTLXpYBHttBGPsdA",
+        "openStreetMap": "https://www.openstreetmap.org/relation/186434"
       },
       "region": {
         "en": "Eastern Anatolia",
@@ -5080,7 +5156,8 @@
       "areaCode": [226],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/RtzU9F1fuhPVMFsm9"
+        "googleMaps": "https://goo.gl/maps/RtzU9F1fuhPVMFsm9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223472"
       },
       "region": {
         "en": "Marmara",
@@ -5121,7 +5198,8 @@
       "areaCode": [370],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/QMVjbUBH7Q7XHKcK9"
+        "googleMaps": "https://goo.gl/maps/QMVjbUBH7Q7XHKcK9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223455"
       },
       "region": {
         "en": "Black Sea",
@@ -5162,7 +5240,8 @@
       "areaCode": [348],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/4qRGCoNwMNn9BJ8G8"
+        "googleMaps": "https://goo.gl/maps/4qRGCoNwMNn9BJ8G8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223140"
       },
       "region": {
         "en": "Southeastern Anatolia",
@@ -5195,7 +5274,8 @@
       "areaCode": [328],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/UVsA8GVQDsxjUysN9"
+        "googleMaps": "https://goo.gl/maps/UVsA8GVQDsxjUysN9",
+        "openStreetMap": "https://www.openstreetmap.org/relation/167232"
       },
       "region": {
         "en": "Mediterranean",
@@ -5240,7 +5320,8 @@
       "areaCode": [380],
       "isMetropolitan": false,
       "maps": {
-        "googleMaps": "https://goo.gl/maps/ypKm6p456SRRkSCd8"
+        "googleMaps": "https://goo.gl/maps/ypKm6p456SRRkSCd8",
+        "openStreetMap": "https://www.openstreetmap.org/relation/223460"
       },
       "region": {
         "en": "Black Sea",
