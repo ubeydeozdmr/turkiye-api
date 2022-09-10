@@ -2152,7 +2152,7 @@
     },
     {
       "id": 32,
-      "name": "ısparta",
+      "name": "Isparta",
       "area": 8946,
       "population": 445678,
       "areaCode": [246],
@@ -2292,7 +2292,7 @@
     },
     {
       "id": 34,
-      "name": "Istanbul",
+      "name": "İstanbul",
       "area": 5461,
       "population": 15840900,
       "areaCode": [212, 216],
@@ -2466,7 +2466,7 @@
     },
     {
       "id": 35,
-      "name": "Izmir",
+      "name": "İzmir",
       "area": 11891,
       "population": 4425789,
       "areaCode": [232],
@@ -5116,7 +5116,7 @@
     },
     {
       "id": 76,
-      "name": "ığdır",
+      "name": "Iğdır",
       "area": 3664,
       "population": 203159,
       "areaCode": [476],
