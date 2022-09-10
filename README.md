@@ -10,6 +10,5 @@ API containing information about Turkey's provinces. It is still under developme
 ## Known BUGs / TODOs:
 
 - Province search functionality has not been implemented yet.
-- Work will be done on some non-English characters such as "İ / ı".
-- The province cannot be found when capital letters are used (a problem for some provinces, due to Turkish characters) will be tried to be fixed.
+- "Approximately" province search feature has not been introduced yet. (For now, the search query and the name of the province must be exactly the same)
 - API features will be tried to be increased.

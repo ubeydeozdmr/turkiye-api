@@ -11,8 +11,6 @@ exports.getAllProvinces = () => {
 exports.getProvince = query => {
   try {
     if (query) {
-      query.replace('İ', 'I').toLowerCase();
-
       if (isFinite(query)) {
         if (+query > DB.provinces.length) {
           throw { status: 404, message: 'Invalid province ID' };
@@ -20,7 +18,7 @@ exports.getProvince = query => {
       } else {
         let state = false;
         DB.provinces.forEach(el => {
-          if (el.name.toLowerCase() == query) {
+          if (el.name == query) {
             state = true;
           }
         });
@@ -44,7 +42,7 @@ exports.getProvince = query => {
 
   isFinite(query)
     ? (province = DB.provinces.find(el => el.id === id))
-    : (province = DB.provinces.find(el => el.name.toLowerCase() === name));
+    : (province = DB.provinces.find(el => el.name === name));
 
   return province;
 };
