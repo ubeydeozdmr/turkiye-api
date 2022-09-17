@@ -2,6 +2,7 @@ const cors = require('cors');
 const express = require('express');
 const bodyParser = require('body-parser');
 const v1ProvinceRouter = require('./v1/routes/provinceRoutes');
+const { localizer } = require('./helpers/localizer');
 
 const app = express();
 const PORT = process.env.PORT || 8181;
