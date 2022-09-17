@@ -17,3 +17,21 @@ exports.getProvince = query => {
     throw error;
   }
 };
+
+exports.getAllDistricts = provinceQuery => {
+  try {
+    const allDistricts = Provinces.getAllDistricts(provinceQuery);
+    return allDistricts;
+  } catch (error) {
+    throw error;
+  }
+};
+
+exports.getDistrict = (provinceQuery, districtQuery) => {
+  try {
+    const district = Provinces.getDistrict(provinceQuery, districtQuery);
+    return district;
+  } catch (error) {
+    throw error;
+  }
+};

@@ -16,25 +16,36 @@ html(lang="en")
       a( target='_blank', href='https://documenter.getpostman.com/view/19561492/UzBguVHM') here.
     hr
     h2 GET All Provinces
-    a(class='frame', target='_blank', href='/api/v1/provinces') #{host}/api/v1/provinces
+    a(target='_blank', href='/api/v1/provinces') #{host}/api/v1/provinces
     p
       | You can use this route to get data for 
       strong all
       |  countries.
     br
-    h2 GET Province by ID
-    a(class='frame', target='_blank', href='/api/v1/provinces/6') #{host}/api/v1/provinces/6
-    p
-      | You can use this route to obtain the data of the province whose 
-      strong ID you entered.
-    p You can enter a different number, instead of 6
+    h2 GET Exact Province
+    h4 #{host}/api/v1/provinces/{:id or :name}
+    a(target='_blank', href='/api/v1/provinces/6') #{host}/api/v1/provinces/6
     br
-    h2 GET Province by Name
-    a(class='frame', target='_blank', href='/api/v1/provinces/ankara') #{host}/api/v1/provinces/ankara
+    a(target='_blank', href='/api/v1/provinces/ankara') #{host}/api/v1/provinces/ankara
     p
       | You can use this route to obtain the data of the province whose 
-      strong name you entered.
-    p You can enter a different name, instead of "ankara"
+      strong ID or Name you entered.
+    p You can enter a different number, instead of 6
+    p You can enter a different name, instead of ankara
+    br
+    h2 GET All Districts
+    h4 #{host}/api/v1/provinces/{:id or :name}/districts
+    a(target='_blank', href='/api/v1/provinces/34/districts') #{host}/api/v1/provinces/34/districts
+    br
+    a(target='_blank', href='/api/v1/provinces/istanbul/districts') #{host}/api/v1/provinces/istanbul/districts
+    p
+    br
+    h2 GET Exact District
+    h4 #{host}/api/v1/provinces/{:id or :name}/districts/{:name}
+    a(target='_blank', href='/api/v1/provinces/34/districts/adalar') #{host}/api/v1/provinces/34/districts/adalar
+    br
+    a(target='_blank', href='/api/v1/provinces/istanbul/districts/adalar') #{host}/api/v1/provinces/istanbul/districts/adalar
+    p You can enter a different name, instead of adalar
     br
     hr
     h3 Sources
@@ -50,6 +61,5 @@ html(lang="en")
       li The areas of the provinces are based on kilometer/km.
     h3 Known bugs / TODOs
     ul
-      li Province search functionality has not been implemented yet.
       li "Approximately" province search feature has not been introduced yet. (For now, the search query and the name of the province must be exactly the same)
       li API features will be tried to be increased.
