@@ -42,7 +42,18 @@ exports.getExactProvince = (req, res) => {
 exports.getDistricts = (req, res) => {
   try {
     const { name } = req.query;
-    const districts = Districts.getDistricts(name);
+    const { minPopulation } = req.query;
+    const { maxPopulation } = req.query;
+    const { offset } = req.query;
+    const { limit } = req.query;
+
+    const districts = Districts.getDistricts(
+      name,
+      minPopulation,
+      maxPopulation,
+      offset,
+      limit
+    );
     return res.send({ status: 'OK', data: districts });
   } catch (error) {
     res
