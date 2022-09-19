@@ -31,6 +31,7 @@ html(lang="en")
       .flair--get { background-color: green; }
       .panel { padding: 8px; border-radius: 8px; }
       .panel--gray { background-color: #cccccc; border: 1px solid lightgray; }
+      th, td { border: 1px solid #cccccc; padding: 5px 20px; }
     title Provinces of Turkey API
   body
     header.hero
@@ -45,6 +46,7 @@ html(lang="en")
       p This API allows you to get data about  
         strong provinces in Turkey. 🇹🇷
       p.padding-tertiary: a(target='_blank', href='https://documenter.getpostman.com/view/19561492/UzBguVHM') If you want to see API features as Postman documentation, you can click here.
+      p: a(target='_blank', href='https://gist.github.com/ubeydeozdmr/e94ea5a1929805988b803ecb682c623a') For explanation of the API in Turkish language, you can click here.
 
       h2#get-all-provinces.font-secondary.padding-secondary 
         span.flair.flair--get GET
@@ -55,33 +57,73 @@ html(lang="en")
         | countries.
       a(target='_blank', href='/api/v1/provinces') Click here to take a quick look
 
+      table.padding-secondary
+        thead
+          tr
+            th Query
+            th Type
+            th Description
+        tbody
+          tr
+            td name
+            td string
+            td It shows all the provinces containing or matching your search query.
+          tr
+            td offset
+            td number
+            td Used for pagination. Use this to set a starting point in search results.
+          tr
+            td limit
+            td number
+            td Used for pagination. Use this to set the maximum number of results to show you.
+
+      p.padding-tertiary Example usage 1:
+      .panel.panel--gray #{protocol}#{host}/api/v1/provinces?name=ankara
+      p.padding-tertiary It will show all the provinces 
+        strong containing 
+        | or 
+        strong matching 
+        | "ankara" in their name.
+      a(target='_blank', href='/api/v1/provinces?name=ankara') Click here to try it
+      p.padding-tertiary Example usage 2:
+      .panel.panel--gray #{protocol}#{host}/api/v1/provinces?offset=10&limit=20
+      p.padding-tertiary It will show 20 provinces starting from the 11th province.
+      a(target='_blank', href='/api/v1/provinces?offset=10&limit=20') Click here to try it
+
       h2#get-exact-province.font-secondary.padding-secondary
         span.flair.flair--get GET
         |  Get Exact Province
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces/:id or :name
+      .panel.panel--gray #{protocol}#{host}/api/v1/provinces/:id
       p.padding-tertiary You can use this route to obtain the data of the province whose 
-        strong ID or Name you entered.
-      p Example URL 1: 
+        strong ID you entered.
+      p.padding-tertiary City IDs were created based on license plate numbers. Each license plate number is unique so I thought it appropriate to set this route as a parameter instead of a query.
+      a(href='#get-all-provinces')
+        p.padding-tertiary NOTE: The ability to search by province name has been removed for this route. Try using /api/v1/provinces?name={your search query} instead. Click here to learn more
+      p.padding-tertiary Example URL: 
         a(target='_blank', href='/api/v1/provinces/6') #{protocol}#{host}/api/v1/provinces/6
-      p Example URL 2: 
-        a(target='_blank', href='/api/v1/provinces/ankara') #{protocol}#{host}/api/v1/provinces/ankara
-
-      h2#get-all-districts.font-secondary.padding-secondary
-        span.flair.flair--get GET
-        |  Get All Districts of any Province
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces/:id or :name/districts
-      p.padding-tertiary You can use this route to obtain the data of the districts of the province.
-      p Example URL 1: 
-        a(target='_blank', href='/api/v1/provinces/34/districts') #{protocol}#{host}/api/v1/provinces/34/districts
-      p Example URL 2: 
-        a(target='_blank', href='/api/v1/provinces/istanbul/districts') #{protocol}#{host}/api/v1/provinces/istanbul/districts
-
-      h2#get-exact-district.font-secondary.padding-secondary
-        span.flair.flair--get GET
-        |  Get Exact District of any Province
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces/:id or :name/districts/:name
-      p.padding-tertiary You can use this route to obtain the data of a district of your choice in a province of your choice.
-      p Example URL 1: 
-        a(target='_blank', href='/api/v1/provinces/34/districts/adalar') #{protocol}#{host}/api/v1/provinces/34/districts/adalar
-      p Example URL 2: 
-        a(target='_blank', href='/api/v1/provinces/istanbul/districts/adalar') #{protocol}#{host}/api/v1/provinces/istanbul/districts/adalar
+      p Example Response:
+      pre
+        code
+          | {
+          |   "status": "OK",
+          |   "data": {
+          |     "id": 6,
+          |     "name": "Ankara",
+          |     "area": 25632,
+          |     "population": 5747325,
+          |     "areaCode": [312],
+          |     "isMetropolitan": true,
+          |     "maps": {
+          |       "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8",
+          |       "openStreetMaps": "https://www.openstreetmap.org/relation/223422"
+          |     },
+          |     "region": {
+          |       "en": "Central Anatolia",
+          |       "tr": "Orta Anadolu"
+          |     },
+          |     "districts": [
+          |       // Districts of Ankara
+          |     ]
+          |   }
+          | }
+      a(target='_blank', href='https://github.com/ubeydeozdmr/provinces-of-turkey-api'): h2.font-tertiary.padding-secondary Provinces of Turkey API is an open-source project. Click here for GitHub link! 😻
