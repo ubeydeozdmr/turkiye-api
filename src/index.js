@@ -4,6 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const v1Router = require('./routesV1');
 require('./helpers/localizer');
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 8181;
@@ -36,5 +37,5 @@ app.all('*', (req, res, next) => {
 
 app.listen(PORT, () => {
   console.log(`API is listening on port ${PORT}`);
-  NODE_ENV == 'production' ? '' : console.log(`http://localhost:${PORT}`);
+  if (NODE_ENV === 'development') console.log(`http://localhost:${PORT}`);
 });
