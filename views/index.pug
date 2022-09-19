@@ -31,7 +31,20 @@ html(lang="en")
       .flair--get { background-color: green; }
       .panel { padding: 8px; border-radius: 8px; }
       .panel--gray { background-color: #cccccc; border: 1px solid lightgray; }
+      .panel--black { color: white; background-color: #000000; border: 1px solid lightgray; }
       th, td { border: 1px solid #cccccc; padding: 5px 20px; }
+      .yellow { color: #f1c40f; }
+      .green { color: #2ecc71; }
+      .blue { color: #3498db; }
+      .red { color: #e74c3c; }
+      .breakpoint { display: inline-block; }
+      @media only screen and (max-width: 580px) {
+        .hero__text-box { padding: 10% }
+        .hero__title { font-size: 32px; }
+        .hero__description { font-size: 24px; }
+        .hero__quick-start { font-size: 16px; }
+        .breakpoint { display: block; }
+      }
     title Provinces of Turkey API
   body
     header.hero
@@ -98,31 +111,58 @@ html(lang="en")
         strong ID you entered.
       p.padding-tertiary City IDs were created based on license plate numbers. Each license plate number is unique so I thought it appropriate to set this route as a parameter instead of a query.
       a(href='#get-all-provinces')
-        p.padding-tertiary NOTE: The ability to search by province name has been removed for this route. Try using /api/v1/provinces?name={your search query} instead. Click here to learn more
-      p.padding-tertiary Example URL: 
-        a(target='_blank', href='/api/v1/provinces/6') #{protocol}#{host}/api/v1/provinces/6
-      p Example Response:
-      pre
+        p.padding-tertiary NOTE: The ability to search by province name has been removed for this route. Try using 
+          code /api/v1/provinces?name={your search query} 
+          | instead. Click here to learn more
+      p.padding-tertiary Example usage:
+      .panel.panel--gray #{protocol}#{host}/api/v1/provinces/6 
+      p.padding-tertiary: a(target='_blank', href='/api/v1/provinces/6') Click here to try it
+      p.padding-tertiary Example Response:
+      pre.panel.panel--black
         code
           | {
-          |   "status": "OK",
+          |   "status": 
+          span.green "OK"
+          |,
           |   "data": {
-          |     "id": 6,
-          |     "name": "Ankara",
-          |     "area": 25632,
-          |     "population": 5747325,
-          |     "areaCode": [312],
-          |     "isMetropolitan": true,
+          |     "id": 
+          span.yellow 6
+          |,
+          |     "name": 
+          span.green "Ankara"
+          |,
+          |     "area": 
+          span.yellow 25632
+          |,
+          |     "population": 
+          span.yellow 5747325
+          |,
+          |     "areaCode": [
+          span.yellow 312
+          |],
+          |     "isMetropolitan": 
+          span.blue true
+          |,
           |     "maps": {
-          |       "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8",
-          |       "openStreetMaps": "https://www.openstreetmap.org/relation/223422"
+          |       "googleMaps": 
+          span.green.breakpoint "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8"
+          |,
+          |       "openStreetMaps": 
+          span.green.breakpoint "https://www.openstreetmap.org/relation/223422"
+          |     
           |     },
           |     "region": {
-          |       "en": "Central Anatolia",
-          |       "tr": "Orta Anadolu"
+          |       "en": 
+          span.green "Central Anatolia"
+          |,
+          |       "tr": 
+          span.green "Orta Anadolu"
+          |     
           |     },
           |     "districts": [
-          |       // Districts of Ankara
+          |       
+          span.red // Districts of Ankara
+          |     
           |     ]
           |   }
           | }
