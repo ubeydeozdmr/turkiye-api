@@ -63,25 +63,86 @@ NOTE: The ability to search by province name has been removed for this route. Tr
 ```json
 {
   "status": "OK",
-  "data": {
-    "id": 6,
-    "name": "Ankara",
-    "area": 25632,
-    "population": 5747325,
-    "areaCode": [312],
-    "isMetropolitan": true,
-    "maps": {
-      "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8",
-      "openStreetMaps": "https://www.openstreetmap.org/relation/223422"
+  "data": [
+    {
+      "id": 6,
+      "name": "Ankara",
+      "area": 25632,
+      "population": 5747325,
+      "areaCode": [312],
+      "isMetropolitan": true,
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/223422"
+      },
+      "region": {
+        "en": "Central Anatolia",
+        "tr": "Orta Anadolu"
+      },
+      "districts": [
+        // Districts of Ankara
+      ]
+    }
+  ]
+}
+```
+
+### Get all districts
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/districts
+```
+
+You can use this route to get data for all districts.
+
+[Click here to take a quick look](https://provinces-of-turkey-api.herokuapp.com/api/v1/districts)
+
+| Query         |  Type  | Description                                                                            |
+| ------------- | :----: | :------------------------------------------------------------------------------------- |
+| name          | string | It shows all the districts containing or matching your search query.                   |
+| minPopulation | number | It shows all the districts with population greater than or equal to your search query. |
+| maxPopulation | number | It shows all the districts with population less than or equal to your search query.    |
+| offset        | number | Used for pagination. Use this to set a starting point in search results.               |
+| limit         | number | Used for pagination. Use this to set the maximum number of results to show you.        |
+
+- Example usage 1:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?name=dağ
+```
+
+It will show all the districts containing or matching "dağ" in their name.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?name=dağ)
+
+- Example usage 2:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?minPopulation=100000&maxPopulation=300000
+```
+
+It will show all the districts with a population between 100,000 and 300,000.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?minPopulation=100000&maxPopulation=300000)
+
+- Example response:
+
+```json
+{
+  "status": "OK",
+  "data": [
+    {
+      "name": "Aladağ",
+      "population": 15855,
+      "province": "Adana"
     },
-    "region": {
-      "en": "Central Anatolia",
-      "tr": "Orta Anadolu"
-    },
-    "districts": [
-      // Districts of Ankara
-    ]
-  }
+    {
+      "name": "Ceyhan",
+      "population": 159955,
+      "province": "Adana"
+    }
+    // ... and so on
+  ]
 }
 ```
 

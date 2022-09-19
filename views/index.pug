@@ -32,7 +32,9 @@ html(lang="en")
       .panel { padding: 8px; border-radius: 8px; }
       .panel--gray { background-color: #cccccc; border: 1px solid lightgray; }
       .panel--black { color: white; background-color: #000000; border: 1px solid lightgray; }
-      th, td { border: 1px solid #cccccc; padding: 5px 20px; }
+      th { border-bottom: 2px solid lightgray; }
+      th, td { padding: 5px 20px; }
+      tr:nth-child(even) { background-color: #eeeeee; }
       .yellow { color: #f1c40f; }
       .green { color: #2ecc71; }
       .blue { color: #3498db; }
@@ -137,46 +139,134 @@ html(lang="en")
           |   "status": 
           span.green "OK"
           |,
-          |   "data": {
-          |     "id": 
+          |   "data": [
+          |     {
+          |       "id": 
           span.yellow 6
           |,
-          |     "name": 
+          |       "name": 
           span.green "Ankara"
           |,
-          |     "area": 
+          |       "area": 
           span.yellow 25632
           |,
-          |     "population": 
+          |       "population": 
           span.yellow 5747325
           |,
-          |     "areaCode": [
+          |       "areaCode": [
           span.yellow 312
           |],
-          |     "isMetropolitan": 
+          |       "isMetropolitan": 
           span.blue true
           |,
-          |     "maps": {
-          |       "googleMaps": 
+          |       "maps": {
+          |         "googleMaps": 
           span.green.breakpoint "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8"
           |,
-          |       "openStreetMaps": 
+          |         "openStreetMaps": 
           span.green.breakpoint "https://www.openstreetmap.org/relation/223422"
           |     
-          |     },
-          |     "region": {
-          |       "en": 
+          |       },
+          |       "region": {
+          |         "en": 
           span.green "Central Anatolia"
           |,
-          |       "tr": 
+          |         "tr": 
           span.green "Orta Anadolu"
           |     
-          |     },
-          |     "districts": [
+          |       },
+          |       "districts": [
           |       
           span.red // Districts of Ankara
           |     
-          |     ]
-          |   }
+          |       ]
+          |     }
+          |   ]
           | }
+
+      h2#get-all-provinces.font-secondary.padding-secondary 
+        span.flair.flair--get GET
+        |  Get All Districts
+      .panel.panel--gray #{protocol}#{host}/api/v1/districts
+      p.padding-tertiary You can use this route to get data for 
+        strong all 
+        | districts.
+      a(target='_blank', href='/api/v1/districts') Click here to take a quick look
+
+      table.padding-secondary
+        thead
+          tr
+            th Query
+            th Type
+            th Description
+        tbody
+          tr
+            td name
+            td string
+            td It shows all the districts containing or matching your search query.
+          tr
+            td minPopulation
+            td number
+            td It shows all the districts with a population greater than or equal to the value you entered.
+          tr
+            td maxPopulation
+            td number
+            td It shows all the districts with a population less than or equal to the value you entered.
+          tr
+            td offset
+            td number
+            td Used for pagination. Use this to set a starting point in search results.
+          tr
+            td limit
+            td number
+            td Used for pagination. Use this to set the maximum number of results to show you.
+
+      p.padding-tertiary Example usage 1:
+      .panel.panel--gray #{protocol}#{host}/api/v1/districts?name=dağ
+      p.padding-tertiary It will show all the districts 
+        strong containing 
+        | or 
+        strong matching 
+        | "dağ" in their name.
+      a(target='_blank', href='/api/v1/districts?name=dağ') Click here to try it
+      p.padding-tertiary Example usage 2:
+      .panel.panel--gray #{protocol}#{host}/api/v1/districts?minPopulation=100000&maxPopulation=300000
+      p.padding-tertiary It will show all the districts with a population between 100,000 and 300,000.
+      a(target='_blank', href='/api/v1/districts?minPopulation=100000&maxPopulation=300000') Click here to try it
+      p.padding-tertiary Example Response:
+      pre.panel.panel--black
+        code
+          | {
+          |   "status": 
+          span.green "OK"
+          |,
+          |   "data": [
+          |     {
+          |       "name": 
+          span.green "Aladağ"
+          |,
+          |       "population": 
+          span.yellow 15855
+          |,
+          |       "province":
+          span.green "Adana"
+          |
+          |     },
+          |     {
+          |       "name": 
+          span.green "Ceyhan"
+          |,
+          |       "population": 
+          span.yellow 159955
+          |,
+          |       "province":
+          span.green "Adana"
+          |
+          |     },
+          |     
+          span.red // ... and so on
+          |
+          |   ]
+          | }
+
       a(target='_blank', href='https://github.com/ubeydeozdmr/provinces-of-turkey-api'): h2.font-tertiary.padding-secondary Provinces of Turkey API is an open-source project. Click here for GitHub link! 😻
