@@ -19,11 +19,14 @@ You can use this route to get data for all countries.
 
 [Click here to take a quick look](https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces)
 
-| Query  |  Type  | Description                                                                     |
-| ------ | :----: | :------------------------------------------------------------------------------ |
-| name   | string | It shows all the provinces containing or matching your search query.            |
-| offset | number | Used for pagination. Use this to set a starting point in search results.        |
-| limit  | number | Used for pagination. Use this to set the maximum number of results to show you. |
+| Query          |  Type   | Description                                                                            |
+| -------------- | :-----: | :------------------------------------------------------------------------------------- |
+| name           | string  | It shows all the provinces containing or matching your search query.                   |
+| minPopulation  | number  | It shows all the provinces with population greater than or equal to your search query. |
+| maxPopulation  | number  | It shows all the provinces with population less than or equal to your search query.    |
+| isMetropolitan | boolean | It shows all the provinces with metropolitan status equal to your search query.        |
+| offset         | number  | Used for pagination. Use this to set a starting point in search results.               |
+| limit          | number  | Used for pagination. Use this to set the maximum number of results to show you.        |
 
 - Example usage 1:
 
@@ -51,7 +54,7 @@ You can use this route to obtain the data of the province whose ID you entered.
 
 City IDs were created based on license plate numbers. Each license plate number is unique so I thought it appropriate to set this route as a parameter instead of a query.
 
-NOTE: The ability to search by province name has been removed for this route. Try using /api/v1/provinces?name={your search query} instead.
+NOTE: The ability to search by province name has been removed for this route. Try using `/api/v1/provinces?name={your search query}` instead.
 
 [Example URL](https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces/6)
 

@@ -1,13 +1,23 @@
 const Provinces = require('./database/Provinces');
-// const Districts = require('./database/Districts');
+const Districts = require('./database/Districts');
 
 exports.getProvinces = (req, res) => {
   try {
     const { name } = req.query;
+    const { minPopulation } = req.query;
+    const { maxPopulation } = req.query;
+    const { isMetropolitan } = req.query;
     const { offset } = req.query;
     const { limit } = req.query;
 
-    const provinces = Provinces.getProvinces(name, offset, limit);
+    const provinces = Provinces.getProvinces(
+      name,
+      minPopulation,
+      maxPopulation,
+      isMetropolitan,
+      offset,
+      limit
+    );
     return res.send({ status: 'OK', data: provinces });
   } catch (error) {
     res
@@ -29,14 +39,14 @@ exports.getExactProvince = (req, res) => {
   }
 };
 
-// exports.getDistricts = (req, res) => {
-//   try {
-//     const { name } = req.query;
-//     const districts = Districts.getDistricts(name);
-//     return res.send({ status: 'OK', data: districts });
-//   } catch (error) {
-//     res
-//       .status(error?.status || 500)
-//       .send({ status: 'ERROR', error: error?.message || 'Internal Server Error' });
-//   }
-// };
+exports.getDistricts = (req, res) => {
+  try {
+    const { name } = req.query;
+    const districts = Districts.getDistricts(name);
+    return res.send({ status: 'OK', data: districts });
+  } catch (error) {
+    res
+      .status(error?.status || 500)
+      .send({ status: 'ERROR', error: error?.message || 'Internal Server Error' });
+  }
+};

@@ -5,7 +5,7 @@ const router = express.Router();
 
 router
   .get('/provinces', controller.getProvinces)
-  .get('/provinces/:id', controller.getExactProvince);
-// .get('/districts', controller.getDistricts);
+  .get('/provinces/:id', controller.getExactProvince)
+  .get('/districts', controller.getDistricts);
 
 module.exports = router;
