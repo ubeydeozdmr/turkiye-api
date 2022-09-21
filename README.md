@@ -133,11 +133,13 @@ It will show all the districts with a population between 100,000 and 300,000.
   "data": [
     {
       "name": "Aladağ",
+      "area": 1340,
       "population": 15855,
       "province": "Adana"
     },
     {
       "name": "Ceyhan",
+      "area": 1426,
       "population": 159955,
       "province": "Adana"
     }

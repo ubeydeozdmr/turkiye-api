@@ -18,62 +18,77 @@
       "districts": [
         {
           "name": "Aladağ",
+          "area": 1340,
           "population": 15855
         },
         {
           "name": "Ceyhan",
+          "area": 1426,
           "population": 159955
         },
         {
           "name": "Çukurova",
+          "area": 250,
           "population": 389319
         },
         {
           "name": "Feke",
+          "area": 1218,
           "population": 16072
         },
         {
           "name": "İmamoğlu",
+          "area": 445,
           "population": 27399
         },
         {
           "name": "Karaisalı",
+          "area": 1165,
           "population": 21967
         },
         {
           "name": "Karataş",
+          "area": 862,
           "population": 23321
         },
         {
           "name": "Kozan",
+          "area": 1903,
           "population": 132320
         },
         {
           "name": "Pozantı",
+          "area": 899,
           "population": 20005
         },
         {
           "name": "Saimbeyli",
+          "area": 989,
           "population": 14030
         },
         {
           "name": "Sarıçam",
+          "area": 770,
           "population": 208227
         },
         {
           "name": "Seyhan",
+          "area": 444,
           "population": 792536
         },
         {
           "name": "Tufanbeyli",
+          "area": 851,
           "population": 16660
         },
         {
           "name": "Yumurtalık",
+          "area": 447,
           "population": 18653
         },
         {
           "name": "Yüreğir",
+          "area": 835,
           "population": 407054
         }
       ]
@@ -96,38 +111,47 @@
       "districts": [
         {
           "name": "Besni",
+          "area": 1235,
           "population": 77207
         },
         {
           "name": "Çelikhan",
+          "area": 444,
           "population": 15294
         },
         {
           "name": "Gerger",
+          "area": 668,
           "population": 16416
         },
         {
           "name": "Gölbaşı",
+          "area": 1274,
           "population": 50150
         },
         {
           "name": "Kahta",
+          "area": 319,
           "population": 127534
         },
         {
           "name": "Merkez",
+          "area": 1814,
           "population": 312207
         },
         {
           "name": "Samsat",
+          "area": 319,
           "population": 7313
         },
         {
           "name": "Sincik",
+          "area": 495,
           "population": 16341
         },
         {
           "name": "Tut",
+          "area": 290,
           "population": 9686
         }
       ]
@@ -150,74 +174,92 @@
       "districts": [
         {
           "name": "Başmakçı",
+          "area": 361,
           "population": 9536
         },
         {
           "name": "Bayat",
+          "area": 411,
           "population": 7687
         },
         {
           "name": "Boldavin",
+          "area": 944,
           "population": 45944
         },
         {
           "name": "Çay",
+          "area": 803,
           "population": 30777
         },
         {
           "name": "Çobanlar",
+          "area": 165,
           "population": 14131
         },
         {
           "name": "Dazkırı",
+          "area": 408,
           "population": 11364
         },
         {
           "name": "Dinar",
+          "area": 1254,
           "population": 47378
         },
         {
           "name": "Emirdağ",
+          "area": 2103,
           "population": 42327
         },
         {
           "name": "Evciler",
+          "area": 252,
           "population": 7183
         },
         {
           "name": "Hocalar",
+          "area": 506,
           "population": 9035
         },
         {
           "name": "İhsaniye",
+          "area": 849,
           "population": 27455
         },
         {
           "name": "İscehisar",
+          "area": 489,
           "population": 24999
         },
         {
           "name": "Kızılören",
+          "area": 111,
           "population": 2161
         },
         {
           "name": "Merkez",
+          "area": 1261,
           "population": 319574
         },
         {
           "name": "Sandıklı",
+          "area": 1238,
           "population": 55210
         },
         {
           "name": "Sinanpaşa",
+          "area": 889,
           "population": 38830
         },
         {
           "name": "Sultandağlı",
+          "area": 928,
           "population": 14279
         },
         {
           "name": "Şuhut",
+          "area": 1044,
           "population": 36309
         }
       ]
@@ -240,34 +282,42 @@
       "districts": [
         {
           "name": "Diyadin",
+          "area": 1351,
           "population": 40286
         },
         {
           "name": "Doğubayazıt",
+          "area": 2250,
           "population": 118643
         },
         {
           "name": "Eleşkirt",
+          "area": 1307,
           "population": 31545
         },
         {
           "name": "Hamur",
+          "area": 873,
           "population": 1710
         },
         {
           "name": "Merkez",
+          "area": 1695,
           "population": 150335
         },
         {
           "name": "Patnos",
+          "area": 1394,
           "population": 118481
         },
         {
           "name": "Taşlıçay",
+          "area": 822,
           "population": 19321
         },
         {
           "name": "Tutak",
+          "area": 1407,
           "population": 28927
         }
       ]
@@ -290,30 +340,37 @@
       "districts": [
         {
           "name": "Göynücek",
+          "area": 591,
           "population": 10291
         },
         {
           "name": "Gümüşhacıköy",
+          "area": 629,
           "population": 22179
         },
         {
           "name": "Hamamözü",
+          "area": 204,
           "population": 3565
         },
         {
           "name": "Merkez",
+          "area": 1889,
           "population": 147380
         },
         {
           "name": "Merzifon",
+          "area": 888,
           "population": 74727
         },
         {
           "name": "Suluova",
+          "area": 456,
           "population": 47066
         },
         {
           "name": "Taşova",
+          "area": 971,
           "population": 30123
         }
       ]
@@ -336,102 +393,127 @@
       "districts": [
         {
           "name": "Akyurt",
+          "area": 369,
           "population": 38588
         },
         {
           "name": "Altındağ",
+          "area": 123,
           "population": 407675
         },
         {
           "name": "Ayaş",
+          "area": 1041,
           "population": 13093
         },
         {
           "name": "Bala",
+          "area": 1851,
           "population": 22966
         },
         {
           "name": "Beypazarı",
+          "area": 1697,
           "population": 48393
         },
         {
           "name": "Çamlıdere",
+          "area": 782,
           "population": 8350
         },
         {
           "name": "Çankaya",
+          "area": 483,
           "population": 949265
         },
         {
           "name": "Çubuk",
+          "area": 1198,
           "population": 91363
         },
         {
           "name": "Elmadağ",
+          "area": 647,
           "population": 44236
         },
         {
           "name": "Etimesgut",
+          "area": 273,
           "population": 606472
         },
         {
           "name": "Evren",
+          "area": 222,
           "population": 2965
         },
         {
           "name": "Gölbaşı",
+          "area": 1364,
           "population": 142961
         },
         {
           "name": "Güdül",
+          "area": 540,
           "population": 8155
         },
         {
           "name": "Haymana",
+          "area": 2164,
           "population": 27298
         },
         {
           "name": "Kahramankazan",
+          "area": 547,
           "population": 57913
         },
         {
           "name": "Kalecik",
+          "area": 1110,
           "population": 12502
         },
         {
           "name": "Keçiören",
+          "area": 159,
           "population": 942884
         },
         {
           "name": "Kızılcahamam",
+          "area": 1623,
           "population": 26968
         },
         {
           "name": "Mamak",
+          "area": 321,
           "population": 682420
         },
         {
           "name": "Nallıhan",
+          "area": 2079,
           "population": 26961
         },
         {
           "name": "Polatlı",
+          "area": 3618,
           "population": 127526
         },
         {
           "name": "Pursaklar",
+          "area": 169,
           "population": 159676
         },
         {
           "name": "Şereflikoçhisar",
+          "area": 2155,
           "population": 33475
         },
         {
           "name": "Sincan",
+          "area": 880,
           "population": 561411
         },
         {
           "name": "Yenimahalle",
+          "area": 219,
           "population": 703809
         }
       ]
@@ -454,78 +536,97 @@
       "districts": [
         {
           "name": "Akseki",
+          "area": 1544,
           "population": 10575
         },
         {
           "name": "Aksu",
+          "area": 406,
           "population": 75633
         },
         {
           "name": "Alanya",
+          "area": 1577,
           "population": 350636
         },
         {
           "name": "Demre",
+          "area": 329,
           "population": 27150
         },
         {
           "name": "Döşemealtı",
+          "area": 687,
           "population": 73809
         },
         {
           "name": "Elmalı",
+          "area": 1433,
           "population": 40614
         },
         {
           "name": "Finike",
+          "area": 768,
           "population": 49407
         },
         {
           "name": "Gazipaşa",
+          "area": 1111,
           "population": 52126
         },
         {
           "name": "Gündoğmuş",
+          "area": 1175,
           "population": 7170
         },
         {
           "name": "İbradı",
+          "area": 778,
           "population": 2868
         },
         {
           "name": "Kaş",
+          "area": 1750,
           "population": 61488
         },
         {
           "name": "Kemer",
+          "area": 412,
           "population": 46615
         },
         {
           "name": "Kepez",
+          "area": 292,
           "population": 591895
         },
         {
           "name": "Konyaaltı",
+          "area": 546,
           "population": 199609
         },
         {
           "name": "Korkuteli",
+          "area": 2433,
           "population": 55883
         },
         {
           "name": "Kumluca",
+          "area": 1225,
           "population": 72478
         },
         {
           "name": "Manavgat",
+          "area": 2351,
           "population": 245740
         },
         {
           "name": "Muratpaşa",
+          "area": 96,
           "population": 521183
         },
         {
           "name": "Serik",
+          "area": 1263,
           "population": 134953
         }
       ]
@@ -548,38 +649,47 @@
       "districts": [
         {
           "name": "Ardanuç",
+          "area": 958,
           "population": 11198
         },
         {
           "name": "Arhavi",
+          "area": 407,
           "population": 21661
         },
         {
           "name": "Borçka",
+          "area": 805,
           "population": 22030
         },
         {
           "name": "Hopa",
+          "area": 130,
           "population": 28136
         },
         {
           "name": "Kemalpaşa",
+          "area": 74,
           "population": 8974
         },
         {
           "name": "Merkez",
+          "area": 1141,
           "population": 34537
         },
         {
           "name": "Murgul",
+          "area": 301,
           "population": 6522
         },
         {
           "name": "Şavşat",
+          "area": 1316,
           "population": 16975
         },
         {
           "name": "Yusufeli",
+          "area": 2261,
           "population": 19510
         }
       ]
@@ -602,70 +712,87 @@
       "districts": [
         {
           "name": "Bozdoğan",
+          "area": 859,
           "population": 32963
         },
         {
           "name": "Buharkent",
+          "area": 124,
           "population": 12951
         },
         {
           "name": "Çine",
+          "area": 820,
           "population": 48734
         },
         {
           "name": "Didim",
+          "area": 424,
           "population": 93876
         },
         {
           "name": "Efeler",
+          "area": 624,
           "population": 300225
         },
         {
           "name": "Germencik",
+          "area": 394,
           "population": 43713
         },
         {
           "name": "İncirliova",
+          "area": 188,
           "population": 54806
         },
         {
           "name": "Karacasu",
+          "area": 727,
           "population": 18003
         },
         {
           "name": "Karpuzlu",
+          "area": 286,
           "population": 10755
         },
         {
           "name": "Koçarlı",
+          "area": 455,
           "population": 22155
         },
         {
           "name": "Köşk",
+          "area": 187,
           "population": 28101
         },
         {
           "name": "Kuşadası",
+          "area": 265,
           "population": 125812
         },
         {
           "name": "Kuyucak",
+          "area": 544,
           "population": 26393
         },
         {
           "name": "Nazilli",
+          "area": 691,
           "population": 160581
         },
         {
           "name": "Söke",
+          "area": 1064,
           "population": 122708
         },
         {
           "name": "Sultanhisar",
+          "area": 220,
           "population": 20272
         },
         {
           "name": "Yenipazar",
+          "area": 245,
           "population": 11983
         }
       ]
@@ -688,82 +815,102 @@
       "districts": [
         {
           "name": "Altıeylül",
+          "area": 956,
           "population": 185038
         },
         {
           "name": "Ayvalık",
+          "area": 305,
           "population": 72371
         },
         {
           "name": "Balya",
+          "area": 797,
           "population": 12658
         },
         {
           "name": "Bandırma",
+          "area": 755,
           "population": 161894
         },
         {
           "name": "Bigadiç",
+          "area": 1108,
           "population": 49717
         },
         {
           "name": "Burhaniye",
+          "area": 420,
           "population": 63379
         },
         {
           "name": "Dursunbey",
+          "area": 1719,
           "population": 34159
         },
         {
           "name": "Edremit",
+          "area": 682,
           "population": 164696
         },
         {
           "name": "Erdek",
+          "area": 307,
           "population": 32038
         },
         {
           "name": "Gömeç",
+          "area": 171,
           "population": 16217
         },
         {
           "name": "Gönen",
+          "area": 1162,
           "population": 74788
         },
         {
           "name": "Havran",
+          "area": 565,
           "population": 27914
         },
         {
           "name": "İvrindi",
+          "area": 818,
           "population": 31897
         },
         {
           "name": "Karesi",
+          "area": 695,
           "population": 195118
         },
         {
           "name": "Kepsut",
+          "area": 889,
           "population": 22591
         },
         {
           "name": "Manyas",
+          "area": 634,
           "population": 18279
         },
         {
           "name": "Marmara",
+          "area": 134,
           "population": 10148
         },
         {
           "name": "Savaştepe",
+          "area": 427,
           "population": 17003
         },
         {
           "name": "Sındırgı",
+          "area": 1387,
           "population": 32661
         },
         {
           "name": "Susurluk",
+          "area": 652,
           "population": 38044
         }
       ]
@@ -786,34 +933,42 @@
       "districts": [
         {
           "name": "Bozüyük",
+          "area": 860,
           "population": 78010
         },
         {
           "name": "Gölpazarı",
+          "area": 670,
           "population": 9031
         },
         {
           "name": "İnhisar",
+          "area": 244,
           "population": 2183
         },
         {
           "name": "Merkez",
+          "area": 793,
           "population": 86442
         },
         {
           "name": "Osmaneli",
+          "area": 490,
           "population": 21497
         },
         {
           "name": "Pazaryeri",
+          "area": 324,
           "population": 10032
         },
         {
           "name": "Söğüt",
+          "area": 523,
           "population": 18352
         },
         {
           "name": "Yenipazar",
+          "area": 273,
           "population": 2787
         }
       ]
@@ -836,34 +991,42 @@
       "districts": [
         {
           "name": "Adaklı",
+          "area": 825,
           "population": 8243
         },
         {
           "name": "Genç",
+          "area": 1443,
           "population": 33929
         },
         {
           "name": "Karlıova",
+          "area": 1566,
           "population": 28309
         },
         {
           "name": "Kiğı",
+          "area": 483,
           "population": 4801
         },
         {
           "name": "Merkez",
+          "area": 1814,
           "population": 168953
         },
         {
           "name": "Solhan",
+          "area": 1033,
           "population": 33973
         },
         {
           "name": "Yayladere",
+          "area": 417,
           "population": 2052
         },
         {
           "name": "Yedisu",
+          "area": 423,
           "population": 2852
         }
       ]
@@ -886,30 +1049,37 @@
       "districts": [
         {
           "name": "Adilcevaz",
+          "area": 1586,
           "population": 30123
         },
         {
           "name": "Ahlat",
+          "area": 1153,
           "population": 42131
         },
         {
           "name": "Güroymak",
+          "area": 515,
           "population": 48536
         },
         {
           "name": "Hizan",
+          "area": 1021,
           "population": 32586
         },
         {
           "name": "Merkez",
+          "area": 1064,
           "population": 71077
         },
         {
           "name": "Mutki",
+          "area": 1069,
           "population": 30940
         },
         {
           "name": "Tatvan",
+          "area": 1885,
           "population": 96884
         }
       ]
@@ -932,38 +1102,47 @@
       "districts": [
         {
           "name": "Dörtdivan",
+          "area": 634,
           "population": 6540
         },
         {
           "name": "Gerede",
+          "area": 1060,
           "population": 33833
         },
         {
           "name": "Göynük",
+          "area": 1407,
           "population": 14679
         },
         {
           "name": "Kıbrıscık",
+          "area": 562,
           "population": 3114
         },
         {
           "name": "Mengen",
+          "area": 874,
           "population": 13679
         },
         {
           "name": "Merkez",
+          "area": 1616,
           "population": 217935
         },
         {
           "name": "Mudurnu",
+          "area": 1314,
           "population": 18629
         },
         {
           "name": "Seben",
+          "area": 683,
           "population": 4767
         },
         {
           "name": "Yeniçağa",
+          "area": 163,
           "population": 6838
         }
       ]
@@ -986,46 +1165,57 @@
       "districts": [
         {
           "name": "Ağlasun",
+          "area": 305,
           "population": 7652
         },
         {
           "name": "Altınyayla",
+          "area": 221,
           "population": 5335
         },
         {
           "name": "Bucak",
+          "area": 1511,
           "population": 66156
         },
         {
           "name": "Çavdır",
+          "area": 482,
           "population": 12599
         },
         {
           "name": "Çeltikçi",
+          "area": 161,
           "population": 4936
         },
         {
           "name": "Gölhisar",
+          "area": 494,
           "population": 23064
         },
         {
           "name": "Karamanlı",
+          "area": 372,
           "population": 8268
         },
         {
           "name": "Kemer",
+          "area": 373,
           "population": 3000
         },
         {
           "name": "Merkez",
+          "area": 1567,
           "population": 117189
         },
         {
           "name": "Tefenni",
+          "area": 582,
           "population": 10744
         },
         {
           "name": "Yeşilova",
+          "area": 1108,
           "population": 14773
         }
       ]
@@ -1048,66 +1238,82 @@
       "districts": [
         {
           "name": "Büyükorhan",
+          "area": 505,
           "population": 9321
         },
         {
           "name": "Gemlik",
+          "area": 401,
           "population": 118037
         },
         {
           "name": "Gürsu",
+          "area": 106,
           "population": 99278
         },
         {
           "name": "Harmancık",
+          "area": 400,
           "population": 6016
         },
         {
           "name": "İnegöl",
+          "area": 1118,
           "population": 286848
         },
         {
           "name": "İznik",
+          "area": 753,
           "population": 44050
         },
         {
           "name": "Karacabey",
+          "area": 1158,
           "population": 84241
         },
         {
           "name": "Keles",
+          "area": 617,
           "population": 11246
         },
         {
           "name": "Mudanya",
+          "area": 369,
           "population": 105308
         },
         {
           "name": "Mustafakemalpaşa",
+          "area": 1641,
           "population": 101407
         },
         {
           "name": "Nilüfer",
+          "area": 552,
           "population": 518382
         },
         {
           "name": "Orhaneli",
+          "area": 838,
           "population": 18786
         },
         {
           "name": "Orhangazi",
+          "area": 506,
           "population": 80216
         },
         {
           "name": "Osmangazi",
+          "area": 621,
           "population": 884451
         },
         {
           "name": "Yenişehir",
+          "area": 720,
           "population": 54485
         },
         {
           "name": "Yıldırım",
+          "area": 110,
           "population": 653307
         }
       ]
@@ -1130,50 +1336,62 @@
       "districts": [
         {
           "name": "Ayvacık",
+          "area": 880,
           "population": 34103
         },
         {
           "name": "Bayramiç",
+          "area": 1204,
           "population": 29136
         },
         {
           "name": "Biga",
+          "area": 1310,
           "population": 91537
         },
         {
           "name": "Bozcaada",
+          "area": 37,
           "population": 3098
         },
         {
           "name": "Çan",
+          "area": 905,
           "population": 48023
         },
         {
           "name": "Eceabat",
+          "area": 430,
           "population": 8769
         },
         {
           "name": "Ezine",
+          "area": 727,
           "population": 32374
         },
         {
           "name": "Gelibolu",
+          "area": 823,
           "population": 44598
         },
         {
           "name": "Gökçeada",
+          "area": 282,
           "population": 10377
         },
         {
           "name": "Lapseki",
+          "area": 821,
           "population": 28742
         },
         {
           "name": "Merkez",
+          "area": 1016,
           "population": 195439
         },
         {
           "name": "Yenice",
+          "area": 1381,
           "population": 31080
         }
       ]
@@ -1196,50 +1414,62 @@
       "districts": [
         {
           "name": "Atkaracalar",
+          "area": 234,
           "population": 4968
         },
         {
           "name": "Bayramören",
+          "area": 310,
           "population": 2433
         },
         {
           "name": "Çerkeş",
+          "area": 947,
           "population": 16746
         },
         {
           "name": "Eldivan",
+          "area": 350,
           "population": 5977
         },
         {
           "name": "Ilgaz",
+          "area": 845,
           "population": 13700
         },
         {
           "name": "Kızılırmak",
+          "area": 514,
           "population": 7122
         },
         {
           "name": "Korgun",
+          "area": 378,
           "population": 4569
         },
         {
           "name": "Kurşunlu",
+          "area": 609,
           "population": 8463
         },
         {
           "name": "Merkez",
+          "area": 1440,
           "population": 100027
         },
         {
           "name": "Orta",
+          "area": 706,
           "population": 13207
         },
         {
           "name": "Şabanözü",
+          "area": 467,
           "population": 11657
         },
         {
           "name": "Yapraklı",
+          "area": 741,
           "population": 7646
         }
       ]
@@ -1262,58 +1492,72 @@
       "districts": [
         {
           "name": "Alaca",
+          "area": 1296,
           "population": 30592
         },
         {
           "name": "Bayat",
+          "area": 717,
           "population": 15199
         },
         {
           "name": "Boğazkale",
+          "area": 264,
           "population": 3628
         },
         {
           "name": "Dodurga",
+          "area": 229,
           "population": 5413
         },
         {
           "name": "İskilip",
+          "area": 1170,
           "population": 30022
         },
         {
           "name": "Kargı",
+          "area": 1174,
           "population": 15334
         },
         {
           "name": "Laçin",
+          "area": 196,
           "population": 4289
         },
         {
           "name": "Mecitözü",
+          "area": 825,
           "population": 14191
         },
         {
           "name": "Merkez",
+          "area": 2436,
           "population": 298796
         },
         {
           "name": "Oğuzlar",
+          "area": 121,
           "population": 4894
         },
         {
           "name": "Ortaköy",
+          "area": 300,
           "population": 6425
         },
         {
           "name": "Osmancık",
+          "area": 1273,
           "population": 43634
         },
         {
           "name": "Sungurlu",
+          "area": 1999,
           "population": 48028
         },
         {
           "name": "Uğurludağ",
+          "area": 428,
           "population": 5837
         }
       ]
@@ -1336,78 +1580,97 @@
       "districts": [
         {
           "name": "Acıpayam",
+          "area": 1772,
           "population": 55141
         },
         {
           "name": "Babadağ",
+          "area": 124,
           "population": 6404
         },
         {
           "name": "Baklan",
+          "area": 283,
           "population": 5387
         },
         {
           "name": "Bekilli",
+          "area": 304,
           "population": 6464
         },
         {
           "name": "Beyağaç",
+          "area": 333,
           "population": 6263
         },
         {
           "name": "Bozkurt",
+          "area": 462,
           "population": 12192
         },
         {
           "name": "Buldan",
+          "area": 523,
           "population": 26781
         },
         {
           "name": "Çal",
+          "area": 860,
           "population": 18107
         },
         {
           "name": "Çameli",
+          "area": 758,
           "population": 17749
         },
         {
           "name": "Çardak",
+          "area": 423,
           "population": 8578
         },
         {
           "name": "Çivril",
+          "area": 1570,
           "population": 60362
         },
         {
           "name": "Güney",
+          "area": 362,
           "population": 9506
         },
         {
           "name": "Honaz",
+          "area": 449,
           "population": 34103
         },
         {
           "name": "Kale",
+          "area": 684,
           "population": 19396
         },
         {
           "name": "Merkezefendi",
+          "area": 336,
           "population": 329451
         },
         {
           "name": "Pamukkale",
+          "area": 823,
           "population": 347621
         },
         {
           "name": "Sarayköy",
+          "area": 379,
           "population": 30696
         },
         {
           "name": "Serinhisar",
+          "area": 256,
           "population": 14349
         },
         {
           "name": "Tavas",
+          "area": 1432,
           "population": 42506
         }
       ]
@@ -1430,70 +1693,87 @@
       "districts": [
         {
           "name": "Bağlar",
+          "area": 429,
           "population": 400019
         },
         {
           "name": "Bismil",
+          "area": 1679,
           "population": 118592
         },
         {
           "name": "Çermik",
+          "area": 948,
           "population": 50390
         },
         {
           "name": "Çınar",
+          "area": 1934,
           "population": 77112
         },
         {
           "name": "Çüngüş",
+          "area": 512,
           "population": 11020
         },
         {
           "name": "Dicle",
+          "area": 738,
           "population": 36711
         },
         {
           "name": "Eğil",
+          "area": 449,
           "population": 22165
         },
         {
           "name": "Ergani",
+          "area": 1510,
           "population": 135514
         },
         {
           "name": "Hani",
+          "area": 436,
           "population": 32568
         },
         {
           "name": "Hazro",
+          "area": 426,
           "population": 16541
         },
         {
           "name": "Kayapınar",
+          "area": 480,
           "population": 411865
         },
         {
           "name": "Kocaköy",
+          "area": 248,
           "population": 15750
         },
         {
           "name": "Kulp",
+          "area": 1560,
           "population": 34644
         },
         {
           "name": "Lice",
+          "area": 982,
           "population": 24313
         },
         {
           "name": "Silvan",
+          "area": 1252,
           "population": 86745
         },
         {
           "name": "Sur",
+          "area": 1227,
           "population": 100322
         },
         {
           "name": "Yenişehir",
+          "area": 358,
           "population": 217012
         }
       ]
@@ -1516,38 +1796,47 @@
       "districts": [
         {
           "name": "Enez",
+          "area": 455,
           "population": 10549
         },
         {
           "name": "Havsa",
+          "area": 545,
           "population": 18302
         },
         {
           "name": "İpsala",
+          "area": 741,
           "population": 26628
         },
         {
           "name": "Keşan",
+          "area": 1098,
           "population": 83860
         },
         {
           "name": "Lalapaşa",
+          "area": 497,
           "population": 6358
         },
         {
           "name": "Meriç",
+          "area": 438,
           "population": 13168
         },
         {
           "name": "Merkez",
+          "area": 844,
           "population": 186426
         },
         {
           "name": "Süloğlu",
+          "area": 342,
           "population": 6890
         },
         {
           "name": "Uzunköprü",
+          "area": 1185,
           "population": 59934
         }
       ]
@@ -1570,46 +1859,57 @@
       "districts": [
         {
           "name": "Ağın",
+          "area": 242,
           "population": 2746
         },
         {
           "name": "Alacakaya",
+          "area": 318,
           "population": 5993
         },
         {
           "name": "Arıcak",
+          "area": 354,
           "population": 13732
         },
         {
           "name": "Baskil",
+          "area": 1318,
           "population": 12100
         },
         {
           "name": "Karakoçan",
+          "area": 1049,
           "population": 28436
         },
         {
           "name": "Keban",
+          "area": 641,
           "population": 6210
         },
         {
           "name": "Kovancılar",
+          "area": 960,
           "population": 39464
         },
         {
           "name": "Maden",
+          "area": 819,
           "population": 9693
         },
         {
           "name": "Merkez",
+          "area": 2243,
           "population": 443363
         },
         {
           "name": "Palu",
+          "area": 730,
           "population": 18648
         },
         {
           "name": "Sivrice",
+          "area": 710,
           "population": 7703
         }
       ]
@@ -1632,38 +1932,47 @@
       "districts": [
         {
           "name": "Çayırlı",
+          "area": 1062,
           "population": 8383
         },
         {
           "name": "İliç",
+          "area": 1382,
           "population": 9109
         },
         {
           "name": "Kemah",
+          "area": 2311,
           "population": 7374
         },
         {
           "name": "Kemaliye",
+          "area": 1207,
           "population": 5033
         },
         {
           "name": "Merkez",
+          "area": 1521,
           "population": 163470
         },
         {
           "name": "Otlukbeli",
+          "area": 320,
           "population": 2577
         },
         {
           "name": "Refahiye",
+          "area": 1808,
           "population": 11367
         },
         {
           "name": "Tercan",
+          "area": 1614,
           "population": 16110
         },
         {
           "name": "Üzümlü",
+          "area": 591,
           "population": 13928
         }
       ]
@@ -1686,82 +1995,102 @@
       "districts": [
         {
           "name": "Aşkale",
+          "area": 1507,
           "population": 22170
         },
         {
           "name": "Aziziye",
+          "area": 1529,
           "population": 65133
         },
         {
           "name": "Çat",
+          "area": 1448,
           "population": 16239
         },
         {
           "name": "Hınıs",
+          "area": 1367,
           "population": 25480
         },
         {
           "name": "Horasan",
+          "area": 1740,
           "population": 37327
         },
         {
           "name": "İspir",
+          "area": 2129,
           "population": 14955
         },
         {
           "name": "Karaçoban",
+          "area": 571,
           "population": 23055
         },
         {
           "name": "Karayazı",
+          "area": 1953,
           "population": 26720
         },
         {
           "name": "Köprüköy",
+          "area": 777,
           "population": 14939
         },
         {
           "name": "Narman",
+          "area": 799,
           "population": 12767
         },
         {
           "name": "Oltu",
+          "area": 1441,
           "population": 30316
         },
         {
           "name": "Olur",
+          "area": 893,
           "population": 6367
         },
         {
           "name": "Palandöken",
+          "area": 667,
           "population": 175920
         },
         {
           "name": "Pasinler",
+          "area": 1134,
           "population": 27697
         },
         {
           "name": "Pazaryolu",
+          "area": 654,
           "population": 3762
         },
         {
           "name": "Şenkaya",
+          "area": 1381,
           "population": 16821
         },
         {
           "name": "Tekman",
+          "area": 2102,
           "population": 24631
         },
         {
           "name": "Tortum",
+          "area": 1463,
           "population": 17545
         },
         {
           "name": "Uzundere",
+          "area": 505,
           "population": 7800
         },
         {
           "name": "Yakutiye",
+          "area": 945,
           "population": 187249
         }
       ]
@@ -1784,58 +2113,72 @@
       "districts": [
         {
           "name": "Alpu",
+          "area": 1028,
           "population": 10178
         },
         {
           "name": "Beylikova",
+          "area": 715,
           "population": 6010
         },
         {
           "name": "Çifteler",
+          "area": 858,
           "population": 14886
         },
         {
           "name": "Günyüzü",
+          "area": 828,
           "population": 5304
         },
         {
           "name": "Han",
+          "area": 378,
           "population": 2045
         },
         {
           "name": "İnönü",
+          "area": 345,
           "population": 6216
         },
         {
           "name": "Mahmudiye",
+          "area": 659,
           "population": 7713
         },
         {
           "name": "Mihalgazi",
+          "area": 109,
           "population": 3030
         },
         {
           "name": "Mihalıççık",
+          "area": 1809,
           "population": 7800
         },
         {
           "name": "Odunpazarı",
+          "area": 1120,
           "population": 419114
         },
         {
           "name": "Sarıcakaya",
+          "area": 382,
           "population": 4611
         },
         {
           "name": "Seyitgazi",
+          "area": 1578,
           "population": 12651
         },
         {
           "name": "Sivrihisar",
+          "area": 2748,
           "population": 20217
         },
         {
           "name": "Tepebaşı",
+          "area": 1403,
           "population": 378594
         }
       ]
@@ -1858,38 +2201,47 @@
       "districts": [
         {
           "name": "Araban",
+          "area": 592,
           "population": 33165
         },
         {
           "name": "İslahiye",
+          "area": 865,
           "population": 67337
         },
         {
           "name": "Karkamış",
+          "area": 298,
           "population": 9616
         },
         {
           "name": "Nizip",
+          "area": 944,
           "population": 147865
         },
         {
           "name": "Nurdağı",
+          "area": 697,
           "population": 40843
         },
         {
           "name": "Oğuzeli",
+          "area": 689,
           "population": 33044
         },
         {
           "name": "Şahinbey",
+          "area": 960,
           "population": 936351
         },
         {
           "name": "Şehitkamil",
+          "area": 1290,
           "population": 839553
         },
         {
           "name": "Yavuzeli",
+          "area": 468,
           "population": 22658
         }
       ]
@@ -1912,66 +2264,82 @@
       "districts": [
         {
           "name": "Alucra",
+          "area": 1138,
           "population": 8892
         },
         {
           "name": "Bulancak",
+          "area": 774,
           "population": 69326
         },
         {
           "name": "Çamoluk",
+          "area": 444,
           "population": 6735
         },
         {
           "name": "Çanakçı",
+          "area": 142,
           "population": 6111
         },
         {
           "name": "Dereli",
+          "area": 849,
           "population": 18993
         },
         {
           "name": "Doğankent",
+          "area": 110,
           "population": 6508
         },
         {
           "name": "Espiye",
+          "area": 248,
           "population": 37184
         },
         {
           "name": "Eynesil",
+          "area": 51,
           "population": 12581
         },
         {
           "name": "Görele",
+          "area": 237,
           "population": 31138
         },
         {
           "name": "Güce",
+          "area": 351,
           "population": 8098
         },
         {
           "name": "Keşap",
+          "area": 197,
           "population": 19268
         },
         {
           "name": "Merkez",
+          "area": 376,
           "population": 143503
         },
         {
           "name": "Piraziz",
+          "area": 127,
           "population": 14138
         },
         {
           "name": "Şebinkarahisar",
+          "area": 1396,
           "population": 19557
         },
         {
           "name": "Tirebolu",
+          "area": 259,
           "population": 32494
         },
         {
           "name": "Yağlıdere",
+          "area": 327,
           "population": 15628
         }
       ]
@@ -1994,26 +2362,32 @@
       "districts": [
         {
           "name": "Kelkit",
+          "area": 1571,
           "population": 44068
         },
         {
           "name": "Köse",
+          "area": 353,
           "population": 7774
         },
         {
           "name": "Kürtün",
+          "area": 917,
           "population": 12456
         },
         {
           "name": "Merkez",
+          "area": 1889,
           "population": 54108
         },
         {
           "name": "Şiran",
+          "area": 965,
           "population": 20224
         },
         {
           "name": "Torul",
+          "area": 973,
           "population": 11489
         }
       ]
@@ -2036,22 +2410,27 @@
       "districts": [
         {
           "name": "Çukurca",
+          "area": 725,
           "population": 15652
         },
         {
           "name": "Derecik",
+          "area": 437,
           "population": 23140
         },
         {
           "name": "Merkez",
+          "area": 2179,
           "population": 77606
         },
         {
           "name": "Şemdinli",
+          "area": 1207,
           "population": 42626
         },
         {
           "name": "Yüksekova",
+          "area": 2547,
           "population": 119194
         }
       ]
@@ -2074,62 +2453,77 @@
       "districts": [
         {
           "name": "Altınözü",
+          "area": 392,
           "population": 60861
         },
         {
           "name": "Antakya",
+          "area": 703,
           "population": 393634
         },
         {
           "name": "Arsuz",
+          "area": 462,
           "population": 99480
         },
         {
           "name": "Belen",
+          "area": 184,
           "population": 34134
         },
         {
           "name": "Defne",
+          "area": 155,
           "population": 162199
         },
         {
           "name": "Dörtyol",
+          "area": 342,
           "population": 127989
         },
         {
           "name": "Erzin",
+          "area": 258,
           "population": 41677
         },
         {
           "name": "Hassa",
+          "area": 520,
           "population": 56952
         },
         {
           "name": "İskenderun",
+          "area": 247,
           "population": 250976
         },
         {
           "name": "Kırıkhan",
+          "area": 715,
           "population": 119854
         },
         {
           "name": "Kumlu",
+          "area": 193,
           "population": 13384
         },
         {
           "name": "Payas",
+          "area": 157,
           "population": 43495
         },
         {
           "name": "Reyhanlı",
+          "area": 367,
           "population": 105309
         },
         {
           "name": "Samandağ",
+          "area": 384,
           "population": 123999
         },
         {
           "name": "Yayladağı",
+          "area": 445,
           "population": 36769
         }
       ]
@@ -2152,54 +2546,67 @@
       "districts": [
         {
           "name": "Aksu",
+          "area": 544,
           "population": 4233
         },
         {
           "name": "Atabey",
+          "area": 223,
           "population": 5790
         },
         {
           "name": "Eğirdir",
+          "area": 1315,
           "population": 31308
         },
         {
           "name": "Gelendost",
+          "area": 610,
           "population": 15059
         },
         {
           "name": "Gönen",
+          "area": 285,
           "population": 7003
         },
         {
           "name": "Keçiborlu",
+          "area": 494,
           "population": 13984
         },
         {
           "name": "Merkez",
+          "area": 773,
           "population": 266982
         },
         {
           "name": "Şarkikaraağaç",
+          "area": 1068,
           "population": 25109
         },
         {
           "name": "Senirkent",
+          "area": 521,
           "population": 10977
         },
         {
           "name": "Sütçüler",
+          "area": 1235,
           "population": 10081
         },
         {
           "name": "Uluborlu",
+          "area": 240,
           "population": 6383
         },
         {
           "name": "Yalvaç",
+          "area": 1402,
           "population": 46177
         },
         {
           "name": "Yenişarbademli",
+          "area": 237,
           "population": 2592
         }
       ]
@@ -2222,54 +2629,67 @@
       "districts": [
         {
           "name": "Akdeniz",
+          "area": 265,
           "population": 255682
         },
         {
           "name": "Anamur",
+          "area": 1430,
           "population": 66828
         },
         {
           "name": "Aydıncık",
+          "area": 352,
           "population": 11314
         },
         {
           "name": "Bozyazı",
+          "area": 642,
           "population": 26910
         },
         {
           "name": "Çamlıyayla",
+          "area": 602,
           "population": 8208
         },
         {
           "name": "Erdemli",
+          "area": 2279,
           "population": 147512
         },
         {
           "name": "Gülnar",
+          "area": 1416,
           "population": 27557
         },
         {
           "name": "Mezitli",
+          "area": 371,
           "population": 218816
         },
         {
           "name": "Mut",
+          "area": 2718,
           "population": 62803
         },
         {
           "name": "Silifke",
+          "area": 2692,
           "population": 127849
         },
         {
           "name": "Tarsus",
+          "area": 2029,
           "population": 347314
         },
         {
           "name": "Toroslar",
+          "area": 1075,
           "population": 315408
         },
         {
           "name": "Yenişehir",
+          "area": 139,
           "population": 274944
         }
       ]
@@ -2292,158 +2712,197 @@
       "districts": [
         {
           "name": "Adalar",
+          "area": 11,
           "population": 16372
         },
         {
           "name": "Arnavutköy",
+          "area": 453,
           "population": 312023
         },
         {
           "name": "Ataşehir",
+          "area": 25,
           "population": 427217
         },
         {
           "name": "Avcılar",
+          "area": 50,
           "population": 457981
         },
         {
           "name": "Bağcılar",
+          "area": 23,
           "population": 744351
         },
         {
           "name": "Bahçelievler",
+          "area": 17,
           "population": 605300
         },
         {
           "name": "Bakırköy",
+          "area": 29,
           "population": 228759
         },
         {
           "name": "Başakşehir",
+          "area": 107,
           "population": 503243
         },
         {
           "name": "Bayrampaşa",
+          "area": 9,
           "population": 274884
         },
         {
           "name": "Beşiktaş",
+          "area": 18,
           "population": 178938
         },
         {
           "name": "Beykoz",
+          "area": 310,
           "population": 248595
         },
         {
           "name": "Beylikdüzü",
+          "area": 39,
           "population": 398122
         },
         {
           "name": "Beyoğlu",
+          "area": 9,
           "population": 233322
         },
         {
           "name": "Büyükçekmece",
+          "area": 173,
           "population": 269160
         },
         {
           "name": "Çatalca",
+          "area": 1142,
           "population": 76131
         },
         {
           "name": "Çekmeköy",
+          "area": 152,
           "population": 288585
         },
         {
           "name": "Esenler",
+          "area": 19,
           "population": 447116
         },
         {
           "name": "Esenyurt",
+          "area": 43,
           "population": 977489
         },
         {
           "name": "Eyüpsultan",
+          "area": 228,
           "population": 417360
         },
         {
           "name": "Fatih",
+          "area": 15,
           "population": 382990
         },
         {
           "name": "Gaziosmanpaşa",
+          "area": 12,
           "population": 493096
         },
         {
           "name": "Güngören",
+          "area": 7,
           "population": 283083
         },
         {
           "name": "Kadıköy",
+          "area": 25,
           "population": 485233
         },
         {
           "name": "Kağıthane",
+          "area": 15,
           "population": 454550
         },
         {
           "name": "Kartal",
+          "area": 38,
           "population": 480738
         },
         {
           "name": "Küçükçekmece",
+          "area": 44,
           "population": 805930
         },
         {
           "name": "Maltepe",
+          "area": 53,
           "population": 525566
         },
         {
           "name": "Pendik",
+          "area": 190,
           "population": 741895
         },
         {
           "name": "Sancaktepe",
+          "area": 63,
           "population": 474668
         },
         {
           "name": "Sarıyer",
+          "area": 177,
           "population": 349968
         },
         {
           "name": "Şile",
+          "area": 800,
           "population": 41627
         },
         {
           "name": "Silivri",
+          "area": 858,
           "population": 209014
         },
         {
           "name": "Şişli",
+          "area": 10,
           "population": 284294
         },
         {
           "name": "Sultanbeyli",
+          "area": 29,
           "population": 349485
         },
         {
           "name": "Sultangazi",
+          "area": 37,
           "population": 543380
         },
         {
           "name": "Tuzla",
+          "area": 138,
           "population": 284443
         },
         {
           "name": "Ümraniye",
+          "area": 46,
           "population": 726758
         },
         {
           "name": "Üsküdar",
+          "area": 35,
           "population": 525395
         },
         {
           "name": "Zeytinburnu",
+          "area": 12,
           "population": 293839
         }
       ]
@@ -2466,122 +2925,152 @@
       "districts": [
         {
           "name": "Aliağa",
+          "area": 379,
           "population": 103364
         },
         {
           "name": "Balçova",
+          "area": 16,
           "population": 80513
         },
         {
           "name": "Bayındır",
+          "area": 548,
           "population": 40049
         },
         {
           "name": "Bayraklı",
+          "area": 30,
           "population": 296839
         },
         {
           "name": "Bergama",
+          "area": 1544,
           "population": 104980
         },
         {
           "name": "Beydağ",
+          "area": 172,
           "population": 12197
         },
         {
           "name": "Bornova",
+          "area": 220,
           "population": 452867
         },
         {
           "name": "Buca",
+          "area": 178,
           "population": 517963
         },
         {
           "name": "Çeşme",
+          "area": 285,
           "population": 48167
         },
         {
           "name": "Çiğli",
+          "area": 139,
           "population": 209951
         },
         {
           "name": "Dikili",
+          "area": 534,
           "population": 46587
         },
         {
           "name": "Foça",
+          "area": 251,
           "population": 33611
         },
         {
           "name": "Gaziemir",
+          "area": 70,
           "population": 137856
         },
         {
           "name": "Güzelbahçe",
+          "area": 77,
           "population": 37572
         },
         {
           "name": "Karabağlar",
+          "area": 89,
           "population": 478788
         },
         {
           "name": "Karaburun",
+          "area": 421,
           "population": 11927
         },
         {
           "name": "Karşıyaka",
+          "area": 51,
           "population": 347023
         },
         {
           "name": "Kemalpaşa",
+          "area": 681,
           "population": 112049
         },
         {
           "name": "Kınık",
+          "area": 479,
           "population": 28513
         },
         {
           "name": "Kiraz",
+          "area": 573,
           "population": 43674
         },
         {
           "name": "Konak",
+          "area": 24,
           "population": 336545
         },
         {
           "name": "Menderes",
+          "area": 777,
           "population": 104147
         },
         {
           "name": "Menemen",
+          "area": 573,
           "population": 193229
         },
         {
           "name": "Narlıdere",
+          "area": 50,
           "population": 63438
         },
         {
           "name": "Ödemiş",
+          "area": 1019,
           "population": 132769
         },
         {
           "name": "Seferihisar",
+          "area": 375,
           "population": 52507
         },
         {
           "name": "Selçuk",
+          "area": 317,
           "population": 37689
         },
         {
           "name": "Tire",
+          "area": 716,
           "population": 86758
         },
         {
           "name": "Torbalı",
+          "area": 577,
           "population": 201476
         },
         {
           "name": "Urla",
+          "area": 727,
           "population": 72741
         }
       ]
@@ -2604,34 +3093,42 @@
       "districts": [
         {
           "name": "Akyaka",
+          "area": 417,
           "population": 10353
         },
         {
           "name": "Arpaçay",
+          "area": 1165,
           "population": 15922
         },
         {
           "name": "Digor",
+          "area": 1092,
           "population": 21088
         },
         {
           "name": "Kağızman",
+          "area": 1871,
           "population": 45079
         },
         {
           "name": "Merkez",
+          "area": 2048,
           "population": 117312
         },
         {
           "name": "Sarıkamış",
+          "area": 2038,
           "population": 39486
         },
         {
           "name": "Selim",
+          "area": 982,
           "population": 22267
         },
         {
           "name": "Susuz",
+          "area": 578,
           "population": 9570
         }
       ]
@@ -2654,82 +3151,102 @@
       "districts": [
         {
           "name": "Abana",
+          "area": 28,
           "population": 4027
         },
         {
           "name": "Ağlı",
+          "area": 225,
           "population": 3006
         },
         {
           "name": "Araç",
+          "area": 1446,
           "population": 17920
         },
         {
           "name": "Azdavay",
+          "area": 759,
           "population": 7290
         },
         {
           "name": "Bozkurt",
+          "area": 308,
           "population": 9170
         },
         {
           "name": "Çatalzeytin",
+          "area": 272,
           "population": 7229
         },
         {
           "name": "Cide",
+          "area": 652,
           "population": 22136
         },
         {
           "name": "Daday",
+          "area": 843,
           "population": 8073
         },
         {
           "name": "Devrekani",
+          "area": 715,
           "population": 12132
         },
         {
           "name": "Doğanyurt",
+          "area": 193,
           "population": 5428
         },
         {
           "name": "Hanönü",
+          "area": 417,
           "population": 4134
         },
         {
           "name": "İhsangazi",
+          "area": 445,
           "population": 5292
         },
         {
           "name": "İnebolu",
+          "area": 417,
           "population": 20675
         },
         {
           "name": "Küre",
+          "area": 406,
           "population": 5431
         },
         {
           "name": "Merkez",
+          "area": 1847,
           "population": 152541
         },
         {
           "name": "Pınarbaşı",
+          "area": 546,
           "population": 5688
         },
         {
           "name": "Şenpazar",
+          "area": 252,
           "population": 4304
         },
         {
           "name": "Seydiler",
+          "area": 233,
           "population": 4289
         },
         {
           "name": "Taşköprü",
+          "area": 1758,
           "population": 37119
         },
         {
           "name": "Tosya",
+          "area": 1302,
           "population": 39708
         }
       ]
@@ -2752,66 +3269,82 @@
       "districts": [
         {
           "name": "Akkışla",
+          "area": 371,
           "population": 5804
         },
         {
           "name": "Bünyan",
+          "area": 1210,
           "population": 30099
         },
         {
           "name": "Develi",
+          "area": 1892,
           "population": 66507
         },
         {
           "name": "Felahiye",
+          "area": 444,
           "population": 5536
         },
         {
           "name": "Hacılar",
+          "area": 187,
           "population": 12471
         },
         {
           "name": "İncesu",
+          "area": 874,
           "population": 28755
         },
         {
           "name": "Kocasinan",
+          "area": 1471,
           "population": 404780
         },
         {
           "name": "Melikgazi",
+          "area": 668,
           "population": 589852
         },
         {
           "name": "Özvatan",
+          "area": 270,
           "population": 3800
         },
         {
           "name": "Pınarbaşı",
+          "area": 3418,
           "population": 21903
         },
         {
           "name": "Sarıoğlan",
+          "area": 642,
           "population": 13777
         },
         {
           "name": "Sarız",
+          "area": 1173,
           "population": 9321
         },
         {
           "name": "Talas",
+          "area": 444,
           "population": 168783
         },
         {
           "name": "Tomarza",
+          "area": 1405,
           "population": 21630
         },
         {
           "name": "Yahyalı",
+          "area": 1587,
           "population": 35674
         },
         {
           "name": "Yeşilhisar",
+          "area": 913,
           "population": 15665
         }
       ]
@@ -2834,34 +3367,42 @@
       "districts": [
         {
           "name": "Babaeski",
+          "area": 670,
           "population": 46624
         },
         {
           "name": "Demirköy",
+          "area": 893,
           "population": 8871
         },
         {
           "name": "Kofçaz",
+          "area": 545,
           "population": 2251
         },
         {
           "name": "Lüleburgaz",
+          "area": 1016,
           "population": 153027
         },
         {
           "name": "Merkez",
+          "area": 1623,
           "population": 105525
         },
         {
           "name": "Pehlivanköy",
+          "area": 104,
           "population": 3445
         },
         {
           "name": "Pınarhisar",
+          "area": 518,
           "population": 17806
         },
         {
           "name": "Vize",
+          "area": 1090,
           "population": 28814
         }
       ]
@@ -2884,30 +3425,37 @@
       "districts": [
         {
           "name": "Akçakent",
+          "area": 370,
           "population": 3566
         },
         {
           "name": "Akpınar",
+          "area": 582,
           "population": 7094
         },
         {
           "name": "Boztepe",
+          "area": 747,
           "population": 5197
         },
         {
           "name": "Çiçekdağı",
+          "area": 891,
           "population": 13505
         },
         {
           "name": "Kaman",
+          "area": 1284,
           "population": 34626
         },
         {
           "name": "Merkez",
+          "area": 1719,
           "population": 160737
         },
         {
           "name": "Mucur",
+          "area": 992,
           "population": 18219
         }
       ]
@@ -2930,50 +3478,62 @@
       "districts": [
         {
           "name": "Başiskele",
+          "area": 209,
           "population": 111641
         },
         {
           "name": "Çayırova",
+          "area": 23,
           "population": 144825
         },
         {
           "name": "Darıca",
+          "area": 23,
           "population": 219546
         },
         {
           "name": "Derince",
+          "area": 198,
           "population": 144287
         },
         {
           "name": "Dilovası",
+          "area": 125,
           "population": 51866
         },
         {
           "name": "Gebze",
+          "area": 418,
           "population": 399558
         },
         {
           "name": "Gölcük",
+          "area": 217,
           "population": 172802
         },
         {
           "name": "İzmit",
+          "area": 480,
           "population": 371002
         },
         {
           "name": "Kandıra",
+          "area": 840,
           "population": 52930
         },
         {
           "name": "Karamürsel",
+          "area": 262,
           "population": 58936
         },
         {
           "name": "Kartepe",
+          "area": 301,
           "population": 131416
         },
         {
           "name": "Körfez",
+          "area": 301,
           "population": 174632
         }
       ]
@@ -2996,126 +3556,157 @@
       "districts": [
         {
           "name": "Ahırlı",
+          "area": 325,
           "population": 4550
         },
         {
           "name": "Akören",
+          "area": 640,
           "population": 5784
         },
         {
           "name": "Akşehir",
+          "area": 895,
           "population": 93830
         },
         {
           "name": "Altınekin",
+          "area": 1312,
           "population": 14178
         },
         {
           "name": "Beyşehir",
+          "area": 2054,
           "population": 77137
         },
         {
           "name": "Bozkır",
+          "area": 1105,
           "population": 25600
         },
         {
           "name": "Çeltik",
+          "area": 640,
           "population": 9635
         },
         {
           "name": "Cihanbeyli",
+          "area": 3702,
           "population": 51434
         },
         {
           "name": "Çumra",
+          "area": 2089,
           "population": 67631
         },
         {
           "name": "Derbent",
+          "area": 359,
           "population": 4086
         },
         {
           "name": "Derebucak",
+          "area": 451,
           "population": 5937
         },
         {
           "name": "Doğanhisar",
+          "area": 482,
           "population": 15134
         },
         {
           "name": "Emirgazi",
+          "area": 798,
           "population": 7876
         },
         {
           "name": "Ereğli",
+          "area": 2214,
           "population": 149333
         },
         {
           "name": "Güneysınır",
+          "area": 482,
           "population": 9278
         },
         {
           "name": "Hadim",
+          "area": 1165,
           "population": 11171
         },
         {
           "name": "Halkapınar",
+          "area": 605,
           "population": 3883
         },
         {
           "name": "Hüyük",
+          "area": 443,
           "population": 15405
         },
         {
           "name": "Ilgın",
+          "area": 1636,
           "population": 53638
         },
         {
           "name": "Kadınhanı",
+          "area": 1568,
           "population": 31336
         },
         {
           "name": "Karapınar",
+          "area": 2623,
           "population": 50055
         },
         {
           "name": "Karatay",
+          "area": 2832,
           "population": 362177
         },
         {
           "name": "Kulu",
+          "area": 2234,
           "population": 51702
         },
         {
           "name": "Meram",
+          "area": 1822,
           "population": 345360
         },
         {
           "name": "Sarayönü",
+          "area": 1620,
           "population": 27738
         },
         {
           "name": "Selçuklu",
+          "area": 1931,
           "population": 682514
         },
         {
           "name": "Seydişehir",
+          "area": 1458,
           "population": 65381
         },
         {
           "name": "Taşkent",
+          "area": 457,
           "population": 5780
         },
         {
           "name": "Tuzlukçu",
+          "area": 704,
           "population": 6234
         },
         {
           "name": "Yalıhüyük",
+          "area": 94,
           "population": 1532
         },
         {
           "name": "Yunak",
+          "area": 2101,
           "population": 21688
         }
       ]
@@ -3138,54 +3729,67 @@
       "districts": [
         {
           "name": "Altıntaş",
+          "area": 941,
           "population": 15506
         },
         {
           "name": "Aslanapa",
+          "area": 731,
           "population": 8535
         },
         {
           "name": "Çavdarhisar",
+          "area": 429,
           "population": 5892
         },
         {
           "name": "Domaniç",
+          "area": 539,
           "population": 14225
         },
         {
           "name": "Dumlupınar",
+          "area": 250,
           "population": 2944
         },
         {
           "name": "Emet",
+          "area": 951,
           "population": 19380
         },
         {
           "name": "Gediz",
+          "area": 1193,
           "population": 50102
         },
         {
           "name": "Hisarcık",
+          "area": 370,
           "population": 11491
         },
         {
           "name": "Merkez",
+          "area": 2470,
           "population": 277270
         },
         {
           "name": "Pazarlar",
+          "area": 115,
           "population": 4813
         },
         {
           "name": "Şaphane",
+          "area": 229,
           "population": 5805
         },
         {
           "name": "Simav",
+          "area": 1515,
           "population": 61845
         },
         {
           "name": "Tavşanlı",
+          "area": 1899,
           "population": 100832
         }
       ]
@@ -3208,54 +3812,67 @@
       "districts": [
         {
           "name": "Akçadağ",
+          "area": 1118,
           "population": 28283
         },
         {
           "name": "Arapgir",
+          "area": 987,
           "population": 10119
         },
         {
           "name": "Arguvan",
+          "area": 1096,
           "population": 7105
         },
         {
           "name": "Battalgazi",
+          "area": 947,
           "population": 304750
         },
         {
           "name": "Darende",
+          "area": 1482,
           "population": 24923
         },
         {
           "name": "Doğanşehir",
+          "area": 1364,
           "population": 38136
         },
         {
           "name": "Doğanyol",
+          "area": 177,
           "population": 3794
         },
         {
           "name": "Hekimhan",
+          "area": 1514,
           "population": 16381
         },
         {
           "name": "Kale",
+          "area": 237,
           "population": 5503
         },
         {
           "name": "Kuluncak",
+          "area": 645,
           "population": 7244
         },
         {
           "name": "Pütürge",
+          "area": 1086,
           "population": 12976
         },
         {
           "name": "Yazıhan",
+          "area": 653,
           "population": 12429
         },
         {
           "name": "Yeşilyurt",
+          "area": 953,
           "population": 337049
         }
       ]
@@ -3278,70 +3895,87 @@
       "districts": [
         {
           "name": "Ahmetli",
+          "area": 227,
           "population": 16807
         },
         {
           "name": "Akhisar",
+          "area": 1645,
           "population": 176000
         },
         {
           "name": "Alaşehir",
+          "area": 971,
           "population": 105380
         },
         {
           "name": "Demirci",
+          "area": 1321,
           "population": 37021
         },
         {
           "name": "Gölmarmara",
+          "area": 310,
           "population": 15197
         },
         {
           "name": "Gördes",
+          "area": 902,
           "population": 26858
         },
         {
           "name": "Kırkağaç",
+          "area": 541,
           "population": 37699
         },
         {
           "name": "Köprübaşı",
+          "area": 447,
           "population": 12811
         },
         {
           "name": "Kula",
+          "area": 981,
           "population": 43421
         },
         {
           "name": "Salihli",
+          "area": 1359,
           "population": 164710
         },
         {
           "name": "Sarıgöl",
+          "area": 432,
           "population": 35766
         },
         {
           "name": "Saruhanlı",
+          "area": 771,
           "population": 56166
         },
         {
           "name": "Şehzadeler",
+          "area": 515,
           "population": 167661
         },
         {
           "name": "Selendi",
+          "area": 726,
           "population": 19505
         },
         {
           "name": "Soma",
+          "area": 820,
           "population": 111218
         },
         {
           "name": "Turgutlu",
+          "area": 549,
           "population": 172413
         },
         {
           "name": "Yunusemre",
+          "area": 823,
           "population": 257993
         }
       ]
@@ -3364,46 +3998,57 @@
       "districts": [
         {
           "name": "Afşin",
+          "area": 1502,
           "population": 80138
         },
         {
           "name": "Andırın",
+          "area": 1202,
           "population": 31765
         },
         {
           "name": "Çağlayancerit",
+          "area": 470,
           "population": 22893
         },
         {
           "name": "Dulkadiroğlu",
+          "area": 1176,
           "population": 223532
         },
         {
           "name": "Ekinözü",
+          "area": 656,
           "population": 10631
         },
         {
           "name": "Elbistan",
+          "area": 2201,
           "population": 141977
         },
         {
           "name": "Göksun",
+          "area": 1942,
           "population": 51255
         },
         {
           "name": "Nurhak",
+          "area": 1028,
           "population": 12323
         },
         {
           "name": "Onikişubat",
+          "area": 2429,
           "population": 448317
         },
         {
           "name": "Pazarcık",
+          "area": 1253,
           "population": 69879
         },
         {
           "name": "Türkoğlu",
+          "area": 660,
           "population": 78588
         }
       ]
@@ -3426,42 +4071,52 @@
       "districts": [
         {
           "name": "Artuklu",
+          "area": 885,
           "population": 186622
         },
         {
           "name": "Dargeçit",
+          "area": 519,
           "population": 27307
         },
         {
           "name": "Derik",
+          "area": 1381,
           "population": 62203
         },
         {
           "name": "Kızıltepe",
+          "area": 1236,
           "population": 263938
         },
         {
           "name": "Mazıdağı",
+          "area": 850,
           "population": 36773
         },
         {
           "name": "Midyat",
+          "area": 1241,
           "population": 118625
         },
         {
           "name": "Nusaybin",
+          "area": 1079,
           "population": 113728
         },
         {
           "name": "Ömerli",
+          "area": 458,
           "population": 13970
         },
         {
           "name": "Savur",
+          "area": 962,
           "population": 25496
         },
         {
           "name": "Yeşilli",
+          "area": 168,
           "population": 14095
         }
       ]
@@ -3484,54 +4139,67 @@
       "districts": [
         {
           "name": "Bodrum",
+          "area": 650,
           "population": 187284
         },
         {
           "name": "Dalaman",
+          "area": 608,
           "population": 44386
         },
         {
           "name": "Datça",
+          "area": 436,
           "population": 24519
         },
         {
           "name": "Fethiye",
+          "area": 875,
           "population": 170379
         },
         {
           "name": "Kavaklıdere",
+          "area": 302,
           "population": 10842
         },
         {
           "name": "Köyceğiz",
+          "area": 1329,
           "population": 38425
         },
         {
           "name": "Marmaris",
+          "area": 906,
           "population": 95849
         },
         {
           "name": "Menteşe",
+          "area": 1659,
           "population": 118443
         },
         {
           "name": "Milas",
+          "area": 2067,
           "population": 145275
         },
         {
           "name": "Ortaca",
+          "area": 285,
           "population": 52929
         },
         {
           "name": "Seydikemer",
+          "area": 2208,
           "population": 61427
         },
         {
           "name": "Ula",
+          "area": 479,
           "population": 26306
         },
         {
           "name": "Yatağan",
+          "area": 851,
           "population": 45077
         }
       ]
@@ -3554,26 +4222,32 @@
       "districts": [
         {
           "name": "Bulanık",
+          "area": 1948,
           "population": 77592
         },
         {
           "name": "Hasköy",
+          "area": 264,
           "population": 25827
         },
         {
           "name": "Korkut",
+          "area": 775,
           "population": 24057
         },
         {
           "name": "Malazgirt",
+          "area": 1595,
           "population": 48192
         },
         {
           "name": "Merkez",
+          "area": 2750,
           "population": 198578
         },
         {
           "name": "Varto",
+          "area": 1318,
           "population": 30982
         }
       ]
@@ -3596,34 +4270,42 @@
       "districts": [
         {
           "name": "Acıgöl",
+          "area": 456,
           "population": 19211
         },
         {
           "name": "Avanos",
+          "area": 995,
           "population": 33047
         },
         {
           "name": "Derinkuyu",
+          "area": 473,
           "population": 20786
         },
         {
           "name": "Gülşehir",
+          "area": 879,
           "population": 21504
         },
         {
           "name": "Hacıbektaş",
+          "area": 750,
           "population": 10933
         },
         {
           "name": "Kozaklı",
+          "area": 772,
           "population": 13044
         },
         {
           "name": "Merkez",
+          "area": 574,
           "population": 153117
         },
         {
           "name": "Ürgüp",
+          "area": 587,
           "population": 36361
         }
       ]
@@ -3646,26 +4328,32 @@
       "districts": [
         {
           "name": "Altunhisar",
+          "area": 552,
           "population": 11934
         },
         {
           "name": "Bor",
+          "area": 1522,
           "population": 60478
         },
         {
           "name": "Çamardı",
+          "area": 1163,
           "population": 11940
         },
         {
           "name": "Çiftlik",
+          "area": 400,
           "population": 26206
         },
         {
           "name": "Merkez",
+          "area": 2223,
           "population": 234118
         },
         {
           "name": "Ulukışla",
+          "area": 1375,
           "population": 19049
         }
       ]
@@ -3688,78 +4376,97 @@
       "districts": [
         {
           "name": "Akkuş",
+          "area": 697,
           "population": 21684
         },
         {
           "name": "Altınordu",
+          "area": 410,
           "population": 229214
         },
         {
           "name": "Aybastı",
+          "area": 250,
           "population": 21682
         },
         {
           "name": "Çamaş",
+          "area": 81,
           "population": 8434
         },
         {
           "name": "Çatalpınar",
+          "area": 101,
           "population": 13217
         },
         {
           "name": "Çaybaşı",
+          "area": 102,
           "population": 12159
         },
         {
           "name": "Fatsa",
+          "area": 363,
           "population": 124255
         },
         {
           "name": "Gölköy",
+          "area": 421,
           "population": 27076
         },
         {
           "name": "Gülyalı",
+          "area": 62,
           "population": 8221
         },
         {
           "name": "Gürgentepe",
+          "area": 185,
           "population": 13112
         },
         {
           "name": "İkizce",
+          "area": 148,
           "population": 13804
         },
         {
           "name": "Kabadüz",
+          "area": 290,
           "population": 7587
         },
         {
           "name": "Kabataş",
+          "area": 74,
           "population": 10328
         },
         {
           "name": "Korgan",
+          "area": 254,
           "population": 27856
         },
         {
           "name": "Kumru",
+          "area": 296,
           "population": 29228
         },
         {
           "name": "Mesudiye",
+          "area": 1046,
           "population": 13846
         },
         {
           "name": "Perşembe",
+          "area": 217,
           "population": 30616
         },
         {
           "name": "Ulubey",
+          "area": 295,
           "population": 17861
         },
         {
           "name": "Ünye",
+          "area": 569,
           "population": 130692
         }
       ]
@@ -3782,50 +4489,62 @@
       "districts": [
         {
           "name": "Ardeşen",
+          "area": 376,
           "population": 42542
         },
         {
           "name": "Çamlıhemşin",
+          "area": 897,
           "population": 6929
         },
         {
           "name": "Çayeli",
+          "area": 442,
           "population": 43478
         },
         {
           "name": "Derepazarı",
+          "area": 28,
           "population": 7057
         },
         {
           "name": "Fındıklı",
+          "area": 383,
           "population": 16487
         },
         {
           "name": "Güneysu",
+          "area": 159,
           "population": 16066
         },
         {
           "name": "Hemşin",
+          "area": 134,
           "population": 2482
         },
         {
           "name": "İkizdere",
+          "area": 855,
           "population": 6409
         },
         {
           "name": "İyidere",
+          "area": 28,
           "population": 8609
         },
         {
           "name": "Kalkandere",
+          "area": 107,
           "population": 13511
         },
         {
           "name": "Merkez",
+          "area": 253,
           "population": 150414
         },
         {
           "name": "Pazar",
+          "area": 173,
           "population": 31678
         }
       ]
@@ -3848,66 +4567,82 @@
       "districts": [
         {
           "name": "Adapazarı",
+          "area": 324,
           "population": 280214
         },
         {
           "name": "Akyazı",
+          "area": 628,
           "population": 93087
         },
         {
           "name": "Arifiye",
+          "area": 75,
           "population": 47851
         },
         {
           "name": "Erenler",
+          "area": 136,
           "population": 91602
         },
         {
           "name": "Ferizli",
+          "area": 173,
           "population": 27652
         },
         {
           "name": "Geyve",
+          "area": 662,
           "population": 50332
         },
         {
           "name": "Hendek",
+          "area": 646,
           "population": 88105
         },
         {
           "name": "Karapürçek",
+          "area": 142,
           "population": 13181
         },
         {
           "name": "Karasu",
+          "area": 411,
           "population": 68844
         },
         {
           "name": "Kaynarca",
+          "area": 343,
           "population": 24385
         },
         {
           "name": "Kocaali",
+          "area": 254,
           "population": 22732
         },
         {
           "name": "Pamukova",
+          "area": 289,
           "population": 30028
         },
         {
           "name": "Sapanca",
+          "area": 173,
           "population": 44001
         },
         {
           "name": "Serdivan",
+          "area": 130,
           "population": 157698
         },
         {
           "name": "Söğütlü",
+          "area": 145,
           "population": 14303
         },
         {
           "name": "Taraklı",
+          "area": 292,
           "population": 6861
         }
       ]
@@ -3930,70 +4665,87 @@
       "districts": [
         {
           "name": "19 Mayıs",
+          "area": 234,
           "population": 26366
         },
         {
           "name": "Alaçam",
+          "area": 598,
           "population": 24860
         },
         {
           "name": "Asarcık",
+          "area": 253,
           "population": 16278
         },
         {
           "name": "Atakum",
+          "area": 351,
           "population": 238702
         },
         {
           "name": "Ayvacık",
+          "area": 382,
           "population": 19436
         },
         {
           "name": "Bafra",
+          "area": 1503,
           "population": 142341
         },
         {
           "name": "Canik",
+          "area": 264,
           "population": 99369
         },
         {
           "name": "Çarşamba",
+          "area": 774,
           "population": 140439
         },
         {
           "name": "Havza",
+          "area": 865,
           "population": 38872
         },
         {
           "name": "İlkadım",
+          "area": 155,
           "population": 340421
         },
         {
           "name": "Kavak",
+          "area": 697,
           "population": 21260
         },
         {
           "name": "Ladik",
+          "area": 541,
           "population": 16320
         },
         {
           "name": "Salıpazarı",
+          "area": 356,
           "population": 19305
         },
         {
           "name": "Tekkeköy",
+          "area": 326,
           "population": 55369
         },
         {
           "name": "Terme",
+          "area": 548,
           "population": 71366
         },
         {
           "name": "Vezirköprü",
+          "area": 1674,
           "population": 91978
         },
         {
           "name": "Yakakent",
+          "area": 204,
           "population": 8592
         }
       ]
@@ -4016,30 +4768,37 @@
       "districts": [
         {
           "name": "Baykan",
+          "area": 488,
           "population": 24594
         },
         {
           "name": "Eruh",
+          "area": 1061,
           "population": 18101
         },
         {
           "name": "Kurtalan",
+          "area": 811,
           "population": 60592
         },
         {
           "name": "Merkez",
+          "area": 633,
           "population": 172824
         },
         {
           "name": "Pervari",
+          "area": 1651,
           "population": 30276
         },
         {
           "name": "Şirvan",
+          "area": 936,
           "population": 21321
         },
         {
           "name": "Tillo",
+          "area": 138,
           "population": 4272
         }
       ]
@@ -4062,38 +4821,47 @@
       "districts": [
         {
           "name": "Ayancık",
+          "area": 862,
           "population": 23739
         },
         {
           "name": "Boyabat",
+          "area": 1512,
           "population": 44004
         },
         {
           "name": "Dikmen",
+          "area": 411,
           "population": 4753
         },
         {
           "name": "Durağan",
+          "area": 995,
           "population": 16940
         },
         {
           "name": "Erfelek",
+          "area": 412,
           "population": 12003
         },
         {
           "name": "Gerze",
+          "area": 487,
           "population": 27027
         },
         {
           "name": "Merkez",
+          "area": 442,
           "population": 68012
         },
         {
           "name": "Saraydüzü",
+          "area": 334,
           "population": 5926
         },
         {
           "name": "Türkeli",
+          "area": 263,
           "population": 16004
         }
       ]
@@ -4116,70 +4884,87 @@
       "districts": [
         {
           "name": "Akıncılar",
+          "area": 432,
           "population": 4957
         },
         {
           "name": "Altınyayla",
+          "area": 654,
           "population": 8739
         },
         {
           "name": "Divriği",
+          "area": 2632,
           "population": 16177
         },
         {
           "name": "Doğanşar",
+          "area": 370,
           "population": 2686
         },
         {
           "name": "Gemerek",
+          "area": 1131,
           "population": 21810
         },
         {
           "name": "Gölova",
+          "area": 286,
           "population": 3168
         },
         {
           "name": "Gürün",
+          "area": 2632,
           "population": 18286
         },
         {
           "name": "Hafik",
+          "area": 1765,
           "population": 9155
         },
         {
           "name": "İmranlı",
+          "area": 1292,
           "population": 7352
         },
         {
           "name": "Kangal",
+          "area": 3342,
           "population": 20137
         },
         {
           "name": "Koyulhisar",
+          "area": 891,
           "population": 12497
         },
         {
           "name": "Merkez",
+          "area": 3488,
           "population": 388079
         },
         {
           "name": "Şarkışla",
+          "area": 2073,
           "population": 37708
         },
         {
           "name": "Suşehri",
+          "area": 939,
           "population": 25404
         },
         {
           "name": "Ulaş",
+          "area": 1092,
           "population": 8005
         },
         {
           "name": "Yıldızeli",
+          "area": 2529,
           "population": 30313
         },
         {
           "name": "Zara",
+          "area": 2616,
           "population": 21648
         }
       ]
@@ -4202,46 +4987,57 @@
       "districts": [
         {
           "name": "Çerkezköy",
+          "area": 86,
           "population": 196736
         },
         {
           "name": "Çorlu",
+          "area": 531,
           "population": 284907
         },
         {
           "name": "Ergene",
+          "area": 418,
           "population": 66028
         },
         {
           "name": "Hayrabolu",
+          "area": 1009,
           "population": 31245
         },
         {
           "name": "Kapaklı",
+          "area": 182,
           "population": 130813
         },
         {
           "name": "Malkara",
+          "area": 1243,
           "population": 51616
         },
         {
           "name": "Marmaraereğlisi",
+          "area": 175,
           "population": 28336
         },
         {
           "name": "Muratlı",
+          "area": 388,
           "population": 29716
         },
         {
           "name": "Saray",
+          "area": 620,
           "population": 50394
         },
         {
           "name": "Şarköy",
+          "area": 487,
           "population": 33062
         },
         {
           "name": "Süleymanpaşa",
+          "area": 1053,
           "population": 210547
         }
       ]
@@ -4264,50 +5060,62 @@
       "districts": [
         {
           "name": "Almus",
+          "area": 1033,
           "population": 23868
         },
         {
           "name": "Artova",
+          "area": 444,
           "population": 7681
         },
         {
           "name": "Başçiftlik",
+          "area": 246,
           "population": 7479
         },
         {
           "name": "Erbaa",
+          "area": 1173,
           "population": 99815
         },
         {
           "name": "Merkez",
+          "area": 2003,
           "population": 204907
         },
         {
           "name": "Niksar",
+          "area": 889,
           "population": 63486
         },
         {
           "name": "Pazar",
+          "area": 188,
           "population": 12937
         },
         {
           "name": "Reşadiye",
+          "area": 1102,
           "population": 35304
         },
         {
           "name": "Sulusaray",
+          "area": 266,
           "population": 6769
         },
         {
           "name": "Turhal",
+          "area": 940,
           "population": 78294
         },
         {
           "name": "Yeşilyurt",
+          "area": 280,
           "population": 8478
         },
         {
           "name": "Zile",
+          "area": 1480,
           "population": 53549
         }
       ]
@@ -4330,74 +5138,92 @@
       "districts": [
         {
           "name": "Akçaabat",
+          "area": 375,
           "population": 128348
         },
         {
           "name": "Araklı",
+          "area": 464,
           "population": 48382
         },
         {
           "name": "Arsin",
+          "area": 157,
           "population": 31548
         },
         {
           "name": "Beşikdüzü",
+          "area": 84,
           "population": 23594
         },
         {
           "name": "Çarşıbaşı",
+          "area": 66,
           "population": 15395
         },
         {
           "name": "Çaykara",
+          "area": 574,
           "population": 13550
         },
         {
           "name": "Dernekpazarı",
+          "area": 89,
           "population": 3884
         },
         {
           "name": "Düzköy",
+          "area": 125,
           "population": 13575
         },
         {
           "name": "Hayrat",
+          "area": 244,
           "population": 7581
         },
         {
           "name": "Köprübaşı",
+          "area": 189,
           "population": 4371
         },
         {
           "name": "Maçka",
+          "area": 925,
           "population": 24869
         },
         {
           "name": "Of",
+          "area": 258,
           "population": 44212
         },
         {
           "name": "Ortahisar",
+          "area": 235,
           "population": 334228
         },
         {
           "name": "Şalpazarı",
+          "area": 161,
           "population": 10519
         },
         {
           "name": "Sürmene",
+          "area": 166,
           "population": 26161
         },
         {
           "name": "Tonya",
+          "area": 176,
           "population": 13754
         },
         {
           "name": "Vakfıkebir",
+          "area": 141,
           "population": 27081
         },
         {
           "name": "Yomra",
+          "area": 200,
           "population": 45632
         }
       ]
@@ -4420,34 +5246,42 @@
       "districts": [
         {
           "name": "Çemişgezek",
+          "area": 851,
           "population": 7418
         },
         {
           "name": "Hozat",
+          "area": 663,
           "population": 5590
         },
         {
           "name": "Mazgirt",
+          "area": 702,
           "population": 7357
         },
         {
           "name": "Merkez",
+          "area": 1128,
           "population": 39610
         },
         {
           "name": "Nazımiye",
+          "area": 543,
           "population": 3011
         },
         {
           "name": "Ovacık",
+          "area": 1401,
           "population": 6366
         },
         {
           "name": "Pertek",
+          "area": 858,
           "population": 11011
         },
         {
           "name": "Pülümür",
+          "area": 1437,
           "population": 3282
         }
       ]
@@ -4470,54 +5304,67 @@
       "districts": [
         {
           "name": "Akçakale",
+          "area": 1038,
           "population": 120834
         },
         {
           "name": "Birecik",
+          "area": 912,
           "population": 94608
         },
         {
           "name": "Bozova",
+          "area": 1329,
           "population": 53878
         },
         {
           "name": "Ceylanpınar",
+          "area": 1589,
           "population": 89871
         },
         {
           "name": "Eyyübiye",
+          "area": 1626,
           "population": 386852
         },
         {
           "name": "Halfeti",
+          "area": 609,
           "population": 41663
         },
         {
           "name": "Haliliye",
+          "area": 1924,
           "population": 392661
         },
         {
           "name": "Harran",
+          "area": 904,
           "population": 94207
         },
         {
           "name": "Hilvan",
+          "area": 1111,
           "population": 42766
         },
         {
           "name": "Karaköprü",
+          "area": 1222,
           "population": 252151
         },
         {
           "name": "Siverek",
+          "area": 3936,
           "population": 266971
         },
         {
           "name": "Suruç",
+          "area": 744,
           "population": 101178
         },
         {
           "name": "Viranşehir",
+          "area": 2297,
           "population": 205380
         }
       ]
@@ -4540,26 +5387,32 @@
       "districts": [
         {
           "name": "Banaz",
+          "area": 1114,
           "population": 35594
         },
         {
           "name": "Eşme",
+          "area": 1156,
           "population": 34703
         },
         {
           "name": "Karahallı",
+          "area": 330,
           "population": 9782
         },
         {
           "name": "Merkez",
+          "area": 1655,
           "population": 260843
         },
         {
           "name": "Sivaslı",
+          "area": 473,
           "population": 20006
         },
         {
           "name": "Ulubey",
+          "area": 828,
           "population": 12255
         }
       ]
@@ -4582,54 +5435,67 @@
       "districts": [
         {
           "name": "Bahçesaray",
+          "area": 426,
           "population": 13936
         },
         {
           "name": "Başkale",
+          "area": 2727,
           "population": 47947
         },
         {
           "name": "Çaldıran",
+          "area": 1478,
           "population": 61625
         },
         {
           "name": "Çatak",
+          "area": 1952,
           "population": 19376
         },
         {
           "name": "Edremit",
+          "area": 515,
           "population": 128555
         },
         {
           "name": "Erciş",
+          "area": 2133,
           "population": 173606
         },
         {
           "name": "Gevaş",
+          "area": 1544,
           "population": 27442
         },
         {
           "name": "Gürpınar",
+          "area": 4028,
           "population": 33791
         },
         {
           "name": "İpekyolu",
+          "area": 956,
           "population": 339952
         },
         {
           "name": "Muradiye",
+          "area": 912,
           "population": 47971
         },
         {
           "name": "Özalp",
+          "area": 1430,
           "population": 63270
         },
         {
           "name": "Saray",
+          "area": 872,
           "population": 20224
         },
         {
           "name": "Tuşba",
+          "area": 1948,
           "population": 163320
         }
       ]
@@ -4652,58 +5518,72 @@
       "districts": [
         {
           "name": "Akdağmadeni",
+          "area": 1810,
           "population": 41902
         },
         {
           "name": "Aydıncık",
+          "area": 338,
           "population": 9722
         },
         {
           "name": "Boğazlıyan",
+          "area": 1515,
           "population": 33817
         },
         {
           "name": "Çandır",
+          "area": 205,
           "population": 4240
         },
         {
           "name": "Çayıralan",
+          "area": 995,
           "population": 12294
         },
         {
           "name": "Çekerek",
+          "area": 790,
           "population": 18688
         },
         {
           "name": "Kadışehri",
+          "area": 472,
           "population": 10491
         },
         {
           "name": "Merkez",
+          "area": 2024,
           "population": 108024
         },
         {
           "name": "Saraykent",
+          "area": 319,
           "population": 12462
         },
         {
           "name": "Sarıkaya",
+          "area": 1018,
           "population": 32544
         },
         {
           "name": "Şefaatli",
+          "area": 882,
           "population": 14351
         },
         {
           "name": "Sorgun",
+          "area": 1768,
           "population": 79781
         },
         {
           "name": "Yenifakılı",
+          "area": 390,
           "population": 5296
         },
         {
           "name": "Yerköy",
+          "area": 1164,
           "population": 34888
         }
       ]
@@ -4726,34 +5606,42 @@
       "districts": [
         {
           "name": "Alaplı",
+          "area": 383,
           "population": 42927
         },
         {
           "name": "Çaycuma",
+          "area": 492,
           "population": 90362
         },
         {
           "name": "Devrek",
+          "area": 953,
           "population": 56925
         },
         {
           "name": "Ereğli",
+          "area": 736,
           "population": 175726
         },
         {
           "name": "Gökçebey",
+          "area": 183,
           "population": 20839
         },
         {
           "name": "Kilimli",
+          "area": 145,
           "population": 33620
         },
         {
           "name": "Kozlu",
+          "area": 177,
           "population": 48890
         },
         {
           "name": "Merkez",
+          "area": 272,
           "population": 120395
         }
       ]
@@ -4776,34 +5664,42 @@
       "districts": [
         {
           "name": "Ağaçören",
+          "area": 407,
           "population": 7633
         },
         {
           "name": "Eskil",
+          "area": 1701,
           "population": 27151
         },
         {
           "name": "Gülağaç",
+          "area": 326,
           "population": 19443
         },
         {
           "name": "Güzelyurt",
+          "area": 285,
           "population": 10677
         },
         {
           "name": "Merkez",
+          "area": 3539,
           "population": 315222
         },
         {
           "name": "Ortaköy",
+          "area": 727,
           "population": 32130
         },
         {
           "name": "Sarıyahşi",
+          "area": 210,
           "population": 5183
         },
         {
           "name": "Sultanhanı",
+          "area": 463,
           "population": 11630
         }
       ]
@@ -4826,14 +5722,17 @@
       "districts": [
         {
           "name": "Aydıntepe",
+          "area": 446,
           "population": 6234
         },
         {
           "name": "Demirözü",
+          "area": 594,
           "population": 8531
         },
         {
           "name": "Merkez",
+          "area": 2705,
           "population": 70277
         }
       ]
@@ -4856,26 +5755,32 @@
       "districts": [
         {
           "name": "Ayrancı",
+          "area": 2245,
           "population": 7859
         },
         {
           "name": "Başyayla",
+          "area": 141,
           "population": 3508
         },
         {
           "name": "Ermenek",
+          "area": 1242,
           "population": 27843
         },
         {
           "name": "Kazımkarabekir",
+          "area": 423,
           "population": 4404
         },
         {
           "name": "Merkez",
+          "area": 4036,
           "population": 203830
         },
         {
           "name": "Sarıveliler",
+          "area": 590,
           "population": 11394
         }
       ]
@@ -4898,38 +5803,47 @@
       "districts": [
         {
           "name": "Bahşılı",
+          "area": 266,
           "population": 7247
         },
         {
           "name": "Balışeyh",
+          "area": 623,
           "population": 5898
         },
         {
           "name": "Çelebi",
+          "area": 223,
           "population": 2302
         },
         {
           "name": "Delice",
+          "area": 970,
           "population": 8391
         },
         {
           "name": "Karakeçili",
+          "area": 137,
           "population": 3054
         },
         {
           "name": "Keskin",
+          "area": 1129,
           "population": 15659
         },
         {
           "name": "Merkez",
+          "area": 432,
           "population": 195661
         },
         {
           "name": "Sulakyurt",
+          "area": 708,
           "population": 6212
         },
         {
           "name": "Yahşihan",
+          "area": 304,
           "population": 31544
         }
       ]
@@ -4952,26 +5866,32 @@
       "districts": [
         {
           "name": "Beşiri",
+          "area": 809,
           "population": 30928
         },
         {
           "name": "Gercüş",
+          "area": 914,
           "population": 19304
         },
         {
           "name": "Hasankeyf",
+          "area": 293,
           "population": 7496
         },
         {
           "name": "Kozluk",
+          "area": 1101,
           "population": 60953
         },
         {
           "name": "Merkez",
+          "area": 653,
           "population": 477456
         },
         {
           "name": "Sason",
+          "area": 706,
           "population": 30182
         }
       ]
@@ -4994,30 +5914,37 @@
       "districts": [
         {
           "name": "Beytüşşebap",
+          "area": 1647,
           "population": 15636
         },
         {
           "name": "Cizre",
+          "area": 444,
           "population": 155182
         },
         {
           "name": "Güçlükonak",
+          "area": 466,
           "population": 11915
         },
         {
           "name": "İdil",
+          "area": 1148,
           "population": 77105
         },
         {
           "name": "Merkez",
+          "area": 1701,
           "population": 100206
         },
         {
           "name": "Silopi",
+          "area": 831,
           "population": 141621
         },
         {
           "name": "Uludere",
+          "area": 841,
           "population": 44924
         }
       ]
@@ -5040,18 +5967,22 @@
       "districts": [
         {
           "name": "Amasra",
+          "area": 178,
           "population": 14086
         },
         {
           "name": "Kurucaşile",
+          "area": 152,
           "population": 6424
         },
         {
           "name": "Merkez",
+          "area": 1091,
           "population": 159811
         },
         {
           "name": "Ulus",
+          "area": 909,
           "population": 21390
         }
       ]
@@ -5074,26 +6005,32 @@
       "districts": [
         {
           "name": "Çıldır",
+          "area": 988,
           "population": 8983
         },
         {
           "name": "Damal",
+          "area": 165,
           "population": 5127
         },
         {
           "name": "Göle",
+          "area": 1290,
           "population": 23933
         },
         {
           "name": "Hanak",
+          "area": 647,
           "population": 8418
         },
         {
           "name": "Merkez",
+          "area": 1261,
           "population": 42023
         },
         {
           "name": "Posof",
+          "area": 583,
           "population": 6448
         }
       ]
@@ -5116,18 +6053,22 @@
       "districts": [
         {
           "name": "Aralık",
+          "area": 852,
           "population": 21142
         },
         {
           "name": "Karakoyunlu",
+          "area": 269,
           "population": 13816
         },
         {
           "name": "Merkez",
+          "area": 1273,
           "population": 144663
         },
         {
           "name": "Tuzluca",
+          "area": 1270,
           "population": 23538
         }
       ]
@@ -5150,26 +6091,32 @@
       "districts": [
         {
           "name": "Altınova",
+          "area": 113,
           "population": 31279
         },
         {
           "name": "Armutlu",
+          "area": 166,
           "population": 10349
         },
         {
           "name": "Çiftlikköy",
+          "area": 136,
           "population": 48368
         },
         {
           "name": "Çınarcık",
+          "area": 178,
           "population": 37490
         },
         {
           "name": "Merkez",
+          "area": 139,
           "population": 156838
         },
         {
           "name": "Termal",
+          "area": 67,
           "population": 6677
         }
       ]
@@ -5192,26 +6139,32 @@
       "districts": [
         {
           "name": "Eflani",
+          "area": 674,
           "population": 8409
         },
         {
           "name": "Eskipazar",
+          "area": 754,
           "population": 12550
         },
         {
           "name": "Merkez",
+          "area": 790,
           "population": 135351
         },
         {
           "name": "Ovacık",
+          "area": 398,
           "population": 3674
         },
         {
           "name": "Safranbolu",
+          "area": 750,
           "population": 69449
         },
         {
           "name": "Yenice",
+          "area": 777,
           "population": 19854
         }
       ]
@@ -5234,18 +6187,22 @@
       "districts": [
         {
           "name": "Elbeyli",
+          "area": 238,
           "population": 5679
         },
         {
           "name": "Merkez",
+          "area": 610,
           "population": 122288
         },
         {
           "name": "Musabeyli",
+          "area": 346,
           "population": 12861
         },
         {
           "name": "Polateli",
+          "area": 218,
           "population": 4998
         }
       ]
@@ -5268,30 +6225,37 @@
       "districts": [
         {
           "name": "Bahçe",
+          "area": 208,
           "population": 22754
         },
         {
           "name": "Düziçi",
+          "area": 595,
           "population": 85118
         },
         {
           "name": "Hasanbeyli",
+          "area": 168,
           "population": 4652
         },
         {
           "name": "Kadirli",
+          "area": 1021,
           "population": 126941
         },
         {
           "name": "Merkez",
+          "area": 859,
           "population": 279992
         },
         {
           "name": "Sumbas",
+          "area": 358,
           "population": 13441
         },
         {
           "name": "Toprakkale",
+          "area": 112,
           "population": 20114
         }
       ]
@@ -5314,34 +6278,42 @@
       "districts": [
         {
           "name": "Akçakoca",
+          "area": 380,
           "population": 39500
         },
         {
           "name": "Çilimli",
+          "area": 85,
           "population": 19848
         },
         {
           "name": "Cumayeri",
+          "area": 113,
           "population": 15060
         },
         {
           "name": "Gölyaka",
+          "area": 228,
           "population": 20506
         },
         {
           "name": "Gümüşova",
+          "area": 103,
           "population": 16347
         },
         {
           "name": "Kaynaşlı",
+          "area": 237,
           "population": 20540
         },
         {
           "name": "Merkez",
+          "area": 710,
           "population": 254827
         },
         {
           "name": "Yığılca",
+          "area": 636,
           "population": 14348
         }
       ]
