@@ -100,7 +100,8 @@ exports.getExactProvince = function (id) {
     if (!isFinite(id)) {
       throw {
         status: 404,
-        message: `The ability to search by province name has been removed for this route. Try using /api/v1/provinces?name=${id} instead.`,
+        message: 'Invalid province ID. The id parameter must be a number.',
+        devMessage: `The ability to search by province name has been removed for this route. Try using /api/v1/provinces?name=${id} instead.`,
       };
     }
 
@@ -108,12 +109,17 @@ exports.getExactProvince = function (id) {
     if (province) {
       return [DB.provinces.find(item => item.id == id)];
     } else {
-      throw { status: 404, message: 'Invalid province ID' };
+      throw {
+        status: 404,
+        message: 'Invalid province ID. The ID you enter must be 0 to 81.',
+        devMessage: '-',
+      };
     }
   } catch (error) {
     throw {
       status: error?.status || 500,
       message: error?.message || 'Internal Server Error',
+      devMessage: error?.devMessage || '-',
     };
   }
 };
