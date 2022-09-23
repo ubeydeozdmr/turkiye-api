@@ -46,24 +46,54 @@ html(lang="en")
         .hero__description { font-size: 24px; }
         .hero__quick-start { font-size: 16px; }
         .breakpoint { display: block; }
+        table { display: block; overflow-x: auto; font-size: 14px; }
+        th, td { padding: 5px 10px; }
+        .panel { padding: 4px; overflow-x: auto; }
+      }
+      .sidenav { height: 100%; width: 0; position: fixed; z-index: 2; top: 0; left: 0; background-color: #111; overflow-x: hidden; transition: 0.5s; padding-top: 60px; }
+      .sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 16px; color: #818181; display: block; transition: 0.3s; }
+      .sidenav a:hover { color: #f1f1f1; }
+      .sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      .floating-nav-button { position: fixed; top: 20px; left: 20px; z-index: 1; background-color: white; border-radius: 6px; padding: 8px; }
+    script.
+      function openNav() {
+        document.getElementById("sidenav").style.width = "250px";
+        document.getElementById("floating-nav-button").style.display = "none";
+      }
+      function closeNav() {
+        document.getElementById("sidenav").style.width = "0";
+        document.getElementById("floating-nav-button").style.display = "block";
       }
     title Provinces of Turkey API
   body
+
+    .sidenav#sidenav
+      a(href='javascript:void(0)' class='closebtn' onclick='closeNav()') &times;
+      a(href='#', onClick='closeNav()') Top of the page
+      a(href='#quick-start', onClick='closeNav()') Quick Start
+      a(href='#get-all-provinces', onClick='closeNav()') Get All Provinces
+      a(href='#get-exact-province', onClick='closeNav()') Get Exact Province
+      a(href='#get-all-districts', onClick='closeNav()') Get All Districts
     header.hero
       img.hero__img(src=image alt='An image from Turkey/Turkiye')
       .hero__text-box
         h1.hero__title Provinces of Turkey API
         h2.hero__description An approach that will save you from writing long
         a.hero__quick-start(href='#quick-start') &darr; QUICK START
+    .floating-nav-button#floating-nav-button(onclick='openNav()') &#9776;
     article.content
-      h1#quick-start.font-primary.padding-primary Quick Start
+      h1#quick-start.font-primary.padding-primary(style='cursor: pointer', onclick='openNav()') Quick Start
       p.padding-tertiary: strong What is the purpose of this API?
       p This API allows you to get data about  
         strong provinces in Turkey. 🇹🇷
       p.padding-tertiary: a(target='_blank', href='https://documenter.getpostman.com/view/19561492/UzBguVHM') If you want to see API features as Postman documentation, you can click here.
       p: a(target='_blank', href='https://gist.github.com/ubeydeozdmr/e94ea5a1929805988b803ecb682c623a') For explanation of the API in Turkish language, you can click here.
 
-      h2#get-all-provinces.font-secondary.padding-secondary 
+      h2#get-all-provinces.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
         span.flair.flair--get GET
         |  Get All Provinces
       .panel.panel--gray #{protocol}#{host}/api/v1/provinces
@@ -118,7 +148,7 @@ html(lang="en")
       p.padding-tertiary It will show 20 provinces starting from the 11th province.
       a(target='_blank', href='/api/v1/provinces?offset=10&limit=20') Click here to try it
 
-      h2#get-exact-province.font-secondary.padding-secondary
+      h2#get-exact-province.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
         span.flair.flair--get GET
         |  Get Exact Province
       .panel.panel--gray #{protocol}#{host}/api/v1/provinces/:id
@@ -184,7 +214,7 @@ html(lang="en")
           |   ]
           | }
 
-      h2#get-all-provinces.font-secondary.padding-secondary 
+      h2#get-all-districts.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
         span.flair.flair--get GET
         |  Get All Districts
       .panel.panel--gray #{protocol}#{host}/api/v1/districts
