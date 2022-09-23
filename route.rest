@@ -1,0 +1,27 @@
+# Development-level routes
+
+### Get all provinces
+
+GET http://localhost:8181/api/v1/provinces
+
+### Get exact province
+
+GET http://localhost:8181/api/v1/provinces/6
+
+### Get all districts
+
+GET http://localhost:8181/api/v1/districts
+
+# Production-level routes
+
+### Get all provinces
+
+GET https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces
+
+### Get exact province
+
+GET https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces/6
+
+### Get all districts
+
+GET https://provinces-of-turkey-api.herokuapp.com/api/v1/districts
