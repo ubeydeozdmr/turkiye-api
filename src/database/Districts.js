@@ -49,54 +49,6 @@ exports.getDistricts = function (
         });
       }
 
-      if (arguments[3] || arguments[4]) {
-        districts = districts.slice(+offset, +offset + +limit);
-
-        if (+offset >= initialDistricts.length && +limit == 0) {
-          throw {
-            status: 404,
-            message:
-              'Invalid offset and limit. The limit value must be greater than 0. The offset value must be less than ' +
-              initialDistricts.length,
-          };
-        } else if (+offset >= initialDistricts.length) {
-          throw {
-            status: 404,
-            message:
-              'Invalid offset. The offset value must be less than ' +
-              initialDistricts.length,
-          };
-        } else if (+limit == 0) {
-          throw {
-            status: 404,
-            message: 'Invalid limit. The limit value must be greater than 0.',
-          };
-        }
-      }
-
-      if (arguments[5]) {
-        const fieldsArray = fields.split(',');
-        const filteredDistricts = [];
-
-        districts.forEach(item => {
-          const filteredProvince = {};
-          fieldsArray.forEach(field => {
-            filteredProvince[field] = item[field];
-          });
-          filteredDistricts.push(filteredProvince);
-        });
-
-        districts = filteredDistricts;
-
-        if (fieldsArray.some(item => !Object.keys(districts[0]).includes(item))) {
-          throw {
-            status: 404,
-            message:
-              'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
-          };
-        }
-      }
-
       if (arguments[6]) {
         const sortArray = sort.split(',').reverse();
         const sortedDistricts = [];
@@ -144,6 +96,54 @@ exports.getDistricts = function (
             status: 404,
             message:
               'Invalid sort. The sort parameter must be a comma-separated list of valid fields.',
+          };
+        }
+      }
+
+      if (arguments[5]) {
+        const fieldsArray = fields.split(',');
+        const filteredDistricts = [];
+
+        districts.forEach(item => {
+          const filteredProvince = {};
+          fieldsArray.forEach(field => {
+            filteredProvince[field] = item[field];
+          });
+          filteredDistricts.push(filteredProvince);
+        });
+
+        districts = filteredDistricts;
+
+        if (fieldsArray.some(item => !Object.keys(districts[0]).includes(item))) {
+          throw {
+            status: 404,
+            message:
+              'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
+          };
+        }
+      }
+
+      if (arguments[3] || arguments[4]) {
+        districts = districts.slice(+offset, +offset + +limit);
+
+        if (+offset >= initialDistricts.length && +limit == 0) {
+          throw {
+            status: 404,
+            message:
+              'Invalid offset and limit. The limit value must be greater than 0. The offset value must be less than ' +
+              initialDistricts.length,
+          };
+        } else if (+offset >= initialDistricts.length) {
+          throw {
+            status: 404,
+            message:
+              'Invalid offset. The offset value must be less than ' +
+              initialDistricts.length,
+          };
+        } else if (+limit == 0) {
+          throw {
+            status: 404,
+            message: 'Invalid limit. The limit value must be greater than 0.',
           };
         }
       }

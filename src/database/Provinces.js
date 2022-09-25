@@ -56,53 +56,6 @@ exports.getProvinces = function (
         }
       }
 
-      if (arguments[4] || arguments[5]) {
-        provinces = provinces.slice(+offset, +offset + +limit);
-
-        if (+offset >= DB.provinces.length && +limit == 0) {
-          throw {
-            status: 404,
-            message:
-              'Invalid offset and limit. The limit value must be greater than 0. The offset value must be less than ' +
-              DB.provinces.length,
-          };
-        } else if (+offset >= DB.provinces.length) {
-          throw {
-            status: 404,
-            message:
-              'Invalid offset. The offset value must be less than ' + DB.provinces.length,
-          };
-        } else if (+limit == 0) {
-          throw {
-            status: 404,
-            message: 'Invalid limit. The limit value must be greater than 0.',
-          };
-        }
-      }
-
-      if (arguments[6]) {
-        const fieldsArray = fields.split(',');
-        const filteredProvinces = [];
-
-        provinces.forEach(item => {
-          const filteredProvince = {};
-          fieldsArray.forEach(field => {
-            filteredProvince[field] = item[field];
-          });
-          filteredProvinces.push(filteredProvince);
-        });
-
-        provinces = filteredProvinces;
-
-        if (fieldsArray.some(item => !Object.keys(DB.provinces[0]).includes(item))) {
-          throw {
-            status: 404,
-            message:
-              'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
-          };
-        }
-      }
-
       if (arguments[7]) {
         const sortArray = sort.split(',').reverse();
         const sortedProvinces = [];
@@ -145,6 +98,53 @@ exports.getProvinces = function (
             status: 404,
             message:
               'Invalid sort. The sort parameter must be a comma-separated list of valid fields.',
+          };
+        }
+      }
+
+      if (arguments[6]) {
+        const fieldsArray = fields.split(',');
+        const filteredProvinces = [];
+
+        provinces.forEach(item => {
+          const filteredProvince = {};
+          fieldsArray.forEach(field => {
+            filteredProvince[field] = item[field];
+          });
+          filteredProvinces.push(filteredProvince);
+        });
+
+        provinces = filteredProvinces;
+
+        if (fieldsArray.some(item => !Object.keys(DB.provinces[0]).includes(item))) {
+          throw {
+            status: 404,
+            message:
+              'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
+          };
+        }
+      }
+
+      if (arguments[4] || arguments[5]) {
+        provinces = provinces.slice(+offset, +offset + +limit);
+
+        if (+offset >= DB.provinces.length && +limit == 0) {
+          throw {
+            status: 404,
+            message:
+              'Invalid offset and limit. The limit value must be greater than 0. The offset value must be less than ' +
+              DB.provinces.length,
+          };
+        } else if (+offset >= DB.provinces.length) {
+          throw {
+            status: 404,
+            message:
+              'Invalid offset. The offset value must be less than ' + DB.provinces.length,
+          };
+        } else if (+limit == 0) {
+          throw {
+            status: 404,
+            message: 'Invalid limit. The limit value must be greater than 0.',
           };
         }
       }
