@@ -6,10 +6,10 @@ exports.getDistricts = function (
   maxPopulation = 1000000000,
   offset = 0,
   limit = 976,
-  fields
+  fields,
+  sort
 ) {
   try {
-    console.log(arguments);
     let districts = [];
     DB.provinces.forEach(province => {
       province.districts.forEach(item => {
@@ -82,6 +82,21 @@ exports.getDistricts = function (
             district[field] = item[field];
           });
           return district;
+        });
+      }
+
+      if (arguments[6]) {
+        let sortArray = sort.split(',');
+        districts = districts.sort((a, b) => {
+          let comparison = 0;
+          sortArray.forEach(field => {
+            if (a[field] > b[field]) {
+              comparison = 1;
+            } else if (a[field] < b[field]) {
+              comparison = -1;
+            }
+          });
+          return comparison;
         });
       }
     }

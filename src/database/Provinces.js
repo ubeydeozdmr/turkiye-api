@@ -7,10 +7,10 @@ exports.getProvinces = function (
   isMetropolitan,
   offset = 0,
   limit = 81,
-  fields
+  fields,
+  sort
 ) {
   try {
-    console.log(arguments);
     if (Object.values(arguments).some(item => item)) {
       let provinces = DB.provinces;
 
@@ -99,6 +99,34 @@ exports.getProvinces = function (
             status: 404,
             message:
               'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
+          };
+        }
+      }
+
+      if (arguments[7]) {
+        const sortArray = sort.split(',');
+        const sortedProvinces = [];
+
+        sortArray.forEach(item => {
+          if (item.startsWith('-')) {
+            const field = item.slice(1);
+            provinces.sort((a, b) => (a[field] > b[field] ? -1 : 1));
+          } else {
+            provinces.sort((a, b) => (a[item] > b[item] ? 1 : -1));
+          }
+        });
+
+        provinces.forEach(item => {
+          sortedProvinces.push(item);
+        });
+
+        provinces = sortedProvinces;
+
+        if (sortArray.some(item => !Object.keys(DB.provinces[0]).includes(item))) {
+          throw {
+            status: 404,
+            message:
+              'Invalid sort. The sort parameter must be a comma-separated list of valid fields.',
           };
         }
       }

@@ -28,6 +28,7 @@ You can use this route to get data for all countries.
 | offset         | number  | Used for pagination. Use this to set a starting point in search results.               |
 | limit          | number  | Used for pagination. Use this to set the maximum number of results to show you.        |
 | fields         | string  | It shows only the fields you want to see.                                              |
+| sort           | string  | It sorts the results by the field you want.                                            |
 
 - Example usage 1:
 
@@ -138,6 +139,7 @@ You can use this route to get data for all districts.
 | offset        | number | Used for pagination. Use this to set a starting point in search results.               |
 | limit         | number | Used for pagination. Use this to set the maximum number of results to show you.        |
 | fields        | string | It shows only the fields you want to see.                                              |
+| sort          | string | It sorts the results by the field you want.                                            |
 
 - Example usage 1:
 
