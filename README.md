@@ -67,7 +67,29 @@ City IDs were created based on license plate numbers. Each license plate number 
 
 NOTE: The ability to search by province name has been removed for this route. Try using `/api/v1/provinces?name={your search query}` instead.
 
-[Example URL](https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces/6)
+| Query  |  Type  | Description                               |
+| ------ | :----: | :---------------------------------------- |
+| fields | string | It shows only the fields you want to see. |
+
+- Example usage 1:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces/6
+```
+
+It will show you the data of the province whose ID is 6.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces/6)
+
+- Example usage 2:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces/6?fields=name,areaCode
+```
+
+It will show you only the name and area code of the province.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces/6?fields=name,areaCode)
 
 - Example response:
 
