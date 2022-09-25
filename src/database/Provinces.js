@@ -6,7 +6,8 @@ exports.getProvinces = function (
   maxPopulation = 1000000000,
   isMetropolitan,
   offset = 0,
-  limit = 81
+  limit = 81,
+  fields
 ) {
   try {
     console.log(arguments);
@@ -79,10 +80,36 @@ exports.getProvinces = function (
         }
       }
 
+      if (arguments[6]) {
+        const fieldsArray = fields.split(',');
+        const filteredProvinces = [];
+
+        provinces.forEach(item => {
+          const filteredProvince = {};
+          fieldsArray.forEach(field => {
+            filteredProvince[field] = item[field];
+          });
+          filteredProvinces.push(filteredProvince);
+        });
+
+        provinces = filteredProvinces;
+
+        if (fieldsArray.some(item => !Object.keys(DB.provinces[0]).includes(item))) {
+          throw {
+            status: 404,
+            message:
+              'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
+          };
+        }
+      }
+
       if (provinces.length > 0) {
         return provinces;
       } else {
-        throw { status: 404, message: 'Invalid province name' };
+        throw {
+          status: 404,
+          message: 'No province found.',
+        };
       }
     } else {
       return DB.provinces;
@@ -95,7 +122,7 @@ exports.getProvinces = function (
   }
 };
 
-exports.getExactProvince = function (id) {
+exports.getExactProvince = function (id, fields) {
   try {
     if (!isFinite(id)) {
       throw {
@@ -105,15 +132,31 @@ exports.getExactProvince = function (id) {
       };
     }
 
-    const province = DB.provinces.find(item => item.id == id);
-    if (province) {
-      return [DB.provinces.find(item => item.id == id)];
+    if (fields) {
+      const fieldsArray = fields.split(',');
+      const filteredProvince = {};
+
+      fieldsArray.forEach(field => {
+        filteredProvince[field] = DB.provinces[id - 1][field];
+      });
+
+      if (fieldsArray.some(item => !Object.keys(DB.provinces[0]).includes(item))) {
+        throw {
+          status: 404,
+          message:
+            'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
+        };
+      }
+      return filteredProvince;
     } else {
-      throw {
-        status: 404,
-        message: 'Invalid province ID. The ID you enter must be 0 to 81.',
-        devMessage: '-',
-      };
+      if (DB.provinces[id - 1]) {
+        return DB.provinces[id - 1];
+      } else {
+        throw {
+          status: 404,
+          message: 'No province found.',
+        };
+      }
     }
   } catch (error) {
     throw {

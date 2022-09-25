@@ -5,7 +5,8 @@ exports.getDistricts = function (
   minPopulation = 1,
   maxPopulation = 1000000000,
   offset = 0,
-  limit = 976
+  limit = 976,
+  fields
 ) {
   try {
     console.log(arguments);
@@ -71,6 +72,17 @@ exports.getDistricts = function (
             message: 'Invalid limit. The limit value must be greater than 0.',
           };
         }
+      }
+
+      if (arguments[5]) {
+        let fieldsArray = fields.split(',');
+        districts = districts.map(item => {
+          let district = {};
+          fieldsArray.forEach(field => {
+            district[field] = item[field];
+          });
+          return district;
+        });
       }
     }
 

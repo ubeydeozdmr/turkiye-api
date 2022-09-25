@@ -27,6 +27,7 @@ You can use this route to get data for all countries.
 | isMetropolitan | boolean | It shows all the provinces with metropolitan status equal to your search query.        |
 | offset         | number  | Used for pagination. Use this to set a starting point in search results.               |
 | limit          | number  | Used for pagination. Use this to set the maximum number of results to show you.        |
+| fields         | string  | It shows only the fields you want to see.                                              |
 
 - Example usage 1:
 
@@ -43,6 +44,16 @@ https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces?offset=10&limit=1
 ```
 
 [Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces?offset=10&limit=10)
+
+- Example usage 3:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces?fields=name,areaCode
+```
+
+It will show you only the name and area code of the provinces.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces?fields=name,areaCode)
 
 ### Get exact province
 
@@ -104,6 +115,7 @@ You can use this route to get data for all districts.
 | maxPopulation | number | It shows all the districts with population less than or equal to your search query.    |
 | offset        | number | Used for pagination. Use this to set a starting point in search results.               |
 | limit         | number | Used for pagination. Use this to set the maximum number of results to show you.        |
+| fields        | string | It shows only the fields you want to see.                                              |
 
 - Example usage 1:
 
@@ -124,6 +136,26 @@ https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?minPopulation=100
 It will show all the districts with a population between 100,000 and 300,000.
 
 [Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?minPopulation=100000&maxPopulation=300000)
+
+- Example usage 3:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?offset=10&limit=10
+```
+
+It will show 10 districts starting from the 10th district.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?offset=10&limit=10)
+
+- Example usage 4:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?fields=name,population
+```
+
+It will show only the name and population of the districts.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/districts?fields=name,population)
 
 - Example response:
 
