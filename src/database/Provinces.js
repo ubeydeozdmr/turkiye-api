@@ -104,15 +104,28 @@ exports.getProvinces = function (
       }
 
       if (arguments[7]) {
-        const sortArray = sort.split(',');
+        const sortArray = sort.split(',').reverse();
         const sortedProvinces = [];
 
         sortArray.forEach(item => {
-          if (item.startsWith('-')) {
-            const field = item.slice(1);
-            provinces.sort((a, b) => (a[field] > b[field] ? -1 : 1));
+          if (item !== 'name' && item !== '-name') {
+            if (item.startsWith('-')) {
+              const field = item.slice(1);
+              provinces.sort((a, b) => (a[field] > b[field] ? -1 : 1));
+            } else {
+              provinces.sort((a, b) => (a[item] > b[item] ? 1 : -1));
+            }
           } else {
-            provinces.sort((a, b) => (a[item] > b[item] ? 1 : -1));
+            if (item.startsWith('-')) {
+              const field = item.slice(1);
+              provinces.sort((a, b) =>
+                b[field].localeCompare(a[field], 'tr', { sensitivity: 'base' })
+              );
+            } else {
+              provinces.sort((a, b) =>
+                a[item].localeCompare(b[item], 'tr', { sensitivity: 'base' })
+              );
+            }
           }
         });
 
@@ -122,7 +135,12 @@ exports.getProvinces = function (
 
         provinces = sortedProvinces;
 
-        if (sortArray.some(item => !Object.keys(DB.provinces[0]).includes(item))) {
+        if (
+          sortArray.some(item => !Object.keys(DB.provinces[0]).includes(item)) &&
+          !sortArray.some(
+            item => !Object.keys(DB.provinces[0]).includes(item.startsWith('-'))
+          )
+        ) {
           throw {
             status: 404,
             message:
