@@ -75,29 +75,77 @@ exports.getDistricts = function (
       }
 
       if (arguments[5]) {
-        let fieldsArray = fields.split(',');
-        districts = districts.map(item => {
-          let district = {};
+        const fieldsArray = fields.split(',');
+        const filteredDistricts = [];
+
+        districts.forEach(item => {
+          const filteredProvince = {};
           fieldsArray.forEach(field => {
-            district[field] = item[field];
+            filteredProvince[field] = item[field];
           });
-          return district;
+          filteredDistricts.push(filteredProvince);
         });
+
+        districts = filteredDistricts;
+
+        if (fieldsArray.some(item => !Object.keys(districts[0]).includes(item))) {
+          throw {
+            status: 404,
+            message:
+              'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
+          };
+        }
       }
 
       if (arguments[6]) {
-        let sortArray = sort.split(',');
-        districts = districts.sort((a, b) => {
-          let comparison = 0;
-          sortArray.forEach(field => {
-            if (a[field] > b[field]) {
-              comparison = 1;
-            } else if (a[field] < b[field]) {
-              comparison = -1;
+        const sortArray = sort.split(',').reverse();
+        const sortedDistricts = [];
+
+        sortArray.forEach(item => {
+          if (
+            item !== 'name' &&
+            item !== '-name' &&
+            item !== 'province' &&
+            item !== '-province'
+          ) {
+            if (item.startsWith('-')) {
+              const field = item.slice(1);
+              districts.sort((a, b) => (a[field] > b[field] ? -1 : 1));
+            } else {
+              districts.sort((a, b) => (a[item] > b[item] ? 1 : -1));
             }
-          });
-          return comparison;
+          } else {
+            if (item.startsWith('-')) {
+              const field = item.slice(1);
+              districts.sort((a, b) =>
+                b[field].localeCompare(a[field], 'tr', { sensitivity: 'base' })
+              );
+            } else {
+              districts.sort((a, b) =>
+                a[item].localeCompare(b[item], 'tr', { sensitivity: 'base' })
+              );
+            }
+          }
         });
+
+        districts.forEach(item => {
+          sortedDistricts.push(item);
+        });
+
+        districts = sortedDistricts;
+
+        if (
+          sortArray.some(item => !Object.keys(districts[0]).includes(item)) &&
+          !sortArray.some(
+            item => !Object.keys(districts[0]).includes(item.startsWith('-'))
+          )
+        ) {
+          throw {
+            status: 404,
+            message:
+              'Invalid sort. The sort parameter must be a comma-separated list of valid fields.',
+          };
+        }
       }
     }
 
