@@ -1,0 +1,199 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel='icon' type='image/x-icon' href='turkey_flag_flags_18075.ico')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap', rel='stylesheet')
+    style.
+      *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { font-family: 'Inter', sans-serif; }
+      a { text-decoration: none; color: inherit; }
+      header.hero { position: relative; display: flex; width: 100%; height: 100vh; justify-content: center; align-items: center; }
+      .hero__img { position: absolute; z-index: -1; width: 100%; height: 100vh; filter: brightness(30%); }
+      .hero__text-box { position: absolute; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10vh; padding: 5% }
+      .hero__title { color: #eeeeee; }
+      .hero__description { color: #cccccc; }
+      .hero__quick-start { color: #ffffff; }
+      .hero__quick-start:hover { transition: all .3s; transform: translateY(3px); }
+      article.content { padding: 5%; }
+      .font-primary { font-size: 32px; }
+      .font-secondary { font-size: 24px; }
+      .font-tertiary { font-size: 16px; }
+      .padding-primary { padding: 3.5% 0; }
+      .padding-secondary { padding: 2.5% 0; }
+      .padding-tertiary { padding: 1% 0; }
+      .panel { padding: 8px; border-radius: 8px; }
+      .panel--gray { background-color: #cccccc; border: 1px solid lightgray; }
+      .panel--black { color: white; background-color: #000000; border: 1px solid lightgray; }
+      th { border-bottom: 2px solid lightgray; }
+      th, td { padding: 5px 20px; }
+      tr:nth-child(even) { background-color: #eeeeee; }
+      .yellow { color: #f1c40f; }
+      .green { color: #2ecc71; }
+      .blue { color: #3498db; }
+      .red { color: #e74c3c; }
+      .breakpoint { display: inline-block; }
+      @media only screen and (max-width: 580px) {
+        .hero__text-box { padding: 10% }
+        .hero__title { font-size: 32px; }
+        .hero__description { font-size: 24px; }
+        .hero__quick-start { font-size: 16px; }
+        .breakpoint { display: block; }
+        table { display: block; overflow-x: auto; font-size: 14px; }
+        th, td { padding: 5px 10px; }
+        .panel { padding: 4px; overflow-x: auto; }
+      }
+      .sidenav { height: 100%; width: 0; position: fixed; z-index: 2; top: 0; left: 0; background-color: #111; overflow-x: hidden; transition: 0.5s; padding-top: 60px; }
+      .sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 16px; color: #818181; display: block; transition: 0.3s; }
+      .sidenav a:hover { color: #f1f1f1; }
+      .sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      .floating-nav-button { cursor: pointer; position: fixed; top: 20px; left: 20px; z-index: 1; background-color: white; border-radius: 6px; padding: 8px; }
+    script.
+      function openNav() {
+        document.getElementById("sidenav").style.width = "250px";
+        document.getElementById("floating-nav-button").style.display = "none";
+      }
+      function closeNav() {
+        document.getElementById("sidenav").style.width = "0";
+        document.getElementById("floating-nav-button").style.display = "block";
+      }
+    script(src="https://unpkg.com/vue@3/dist/vue.global.js") 
+    title Provinces of Turkey API
+  body
+    .sidenav#sidenav
+      a(href='javascript:void(0)' class='closebtn' onclick='closeNav()') &times;
+      a(href='/', onClick='closeNav()') Return to Home
+    article.content
+
+      h1.font-tertiary.padding-secondary: a(href='/') For return back to API Documentation, click here.
+
+      h1#api-playground.font-primary.padding-primary(style='cursor: pointer', onclick='openNav()') API Playground
+      p.padding-tertiary You can use this playground to test the API. You can also use it to learn how to use the API.
+
+      #playground
+
+        .panel.panel--gray #{protocol}#{host}/api/v1/{{selectedRoute}}{{provinceID}}?{{name ? 'name=' + name + '&' : ''}}{{minPopulation ? 'minPopulation=' + minPopulation + '&' : ''}}{{maxPopulation ? 'maxPopulation=' + maxPopulation + '&' : ''}}{{isMetropolitan ? 'isMetropolitan=' + isMetropolitan + '&' : ''}}{{offset ? 'offset=' + offset + '&' : ''}}{{limit ? 'limit=' + limit + '&' : ''}}{{fields ? 'fields=' + fields + '&' : ''}}
+        p.padding-tertiary: a(target='_blank', :href="'/api/v1/' + selectedRoute + provinceID + '?' + (name ? 'name=' + name + '&' : '') + (minPopulation ? 'minPopulation=' + minPopulation + '&' : '') + (maxPopulation ? 'maxPopulation=' + maxPopulation + '&' : '') + (isMetropolitan ? 'isMetropolitan=' + isMetropolitan + '&' : '') + (offset ? 'offset=' + offset + '&' : '') + (limit ? 'limit=' + limit + '&' : '')") Click to view the result of the URL string you created.
+
+        br
+        input#radio_get-all-provinces(type='radio' value='provinces' v-model='selectedRoute' @click='routeHandler()')
+        label(for='radio_get-all-provinces') Get All Provinces
+        br
+        input#radio_get-exact-province(type='radio' value='provinces/' v-model='selectedRoute' @click='routeHandler()')
+        label(for='radio_get-exact-province') Get Exact Province
+        br
+        input#radio_get-all-districts(type='radio' value='districts' v-model='selectedRoute' @click='routeHandler()')
+        label(for='radio_get-all-districts') Get All Districts
+        br
+
+        .area_provinceID(v-if='selectedRoute === "provinces/"')
+          br
+          label(for='provinceID') Province ID: 
+          input#provinceID(type='number' placeholder='Province ID' v-model='provinceID')
+          br
+
+        br
+
+        .area_others(v-if='selectedRoute === "provinces" || selectedRoute === "districts"')
+          label(for='input-name') Filter provinces by name: 
+          input#input-name(type='text' placeholder='Enter your query here' v-model='name')
+
+          br
+          br
+
+          label(for='input-minPopulation') Display provinces with populations between 
+          input#input-minPopulation(type="number", placeholder="Min Population" v-model='minPopulation')
+          label(for='input-maxPopulation')  and 
+          input#input-maxPopulation(type="number", placeholder="Max Population" v-model='maxPopulation')
+          
+          br
+          br
+
+          label(for='input-offset')  Offset: 
+          input#input-offset(type="number", placeholder="Offset" v-model='offset')
+
+          br
+          br
+
+          label(for='input-limit')  Limit: 
+          input#input-limit(type="number", placeholder="Limit" v-model='limit')
+
+        br
+        br
+
+        .area_isMetropolitan(v-if='selectedRoute === "provinces"')
+          input#isMetropolitan-both(type='radio', value='' v-model='isMetropolitan')
+          label(for='isMetropolitan-both') Show both metropolitan and non-metropolitan provinces
+
+          br
+
+          input#isMetropolitan-true(type='radio', value='true' v-model='isMetropolitan')
+          label(for='isMetropolitan-true') Show metropolitan provinces
+
+          br
+
+          input#isMetropolitan-false(type='radio', value='false', v-model='isMetropolitan')
+          label(for='isMetropolitan-false') Show non-metropolitan provinces
+
+          br
+
+        br
+
+        button(@click='sendRequest()') Send a request
+
+        br
+        br
+
+        pre.panel.panel--black
+          code
+            | {{response || 'No response yet.'}}
+
+      script.
+        const { createApp } = Vue
+
+        createApp({
+          data() {
+            return {
+              selectedRoute: 'provinces',
+              response: '',
+              name: '',
+              minPopulation: '',
+              maxPopulation: '',
+              isMetropolitan: '',
+              offset: '',
+              limit: '',
+              fields: '',
+              provinceID: '',
+            }
+          },
+          methods: {
+            routeHandler() {
+              this.name = '',
+              this.minPopulation = '',
+              this.maxPopulation = '',
+              this.isMetropolitan = '',
+              this.offset = '',
+              this.limit = '',
+              this.fields = '',
+              this.provinceID = ''
+            },
+            sendRequest() {
+              const url = `/api/v1/${this.selectedRoute}${this.provinceID}?${this.name ? 'name=' + this.name + '&' : ''}${this.minPopulation ? 'minPopulation=' + this.minPopulation + '&' : ''}${this.maxPopulation ? 'maxPopulation=' + this.maxPopulation + '&' : ''}${this.isMetropolitan ? 'isMetropolitan=' + this.isMetropolitan + '&' : ''}${this.offset ? 'offset=' + this.offset + '&' : ''}${this.limit ? 'limit=' + this.limit + '&' : ''}${this.fields ? 'fields=' + this.fields + '&' : ''}`
+
+              fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                  this.response = JSON.stringify(data, null, 2)
+                })
+            }
+          }
+        }).mount('#playground')

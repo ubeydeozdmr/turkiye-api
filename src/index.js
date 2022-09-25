@@ -29,6 +29,17 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/playground', (req, res) => {
+  res.render('playground', {
+    host: req.headers.host,
+    protocol: NODE_ENV == 'production' ? 'https://' : '',
+    image:
+      fs.readdirSync('assets')[
+        Math.floor(Math.random() * fs.readdirSync('assets').length)
+      ],
+  });
+});
+
 app.use('/api/v1', v1Router);
 
 app.all('*', (req, res, next) => {
