@@ -27,9 +27,8 @@ html(lang="en")
       .padding-primary { padding: 3.5% 0; }
       .padding-secondary { padding: 2.5% 0; }
       .padding-tertiary { padding: 1% 0; }
-      .panel { padding: 8px; border-radius: 8px; }
+      .panel { display: block; padding: 8px; border-radius: 8px; }
       .panel--gray { background-color: #cccccc; border: 1px solid lightgray; }
-      .panel--black { color: white; background-color: #000000; border: 1px solid lightgray; }
       th { border-bottom: 2px solid lightgray; }
       th, td { padding: 5px 20px; }
       tr:nth-child(even) { background-color: #eeeeee; }
@@ -57,6 +56,17 @@ html(lang="en")
         .sidenav a {font-size: 18px;}
       }
       .floating-nav-button { cursor: pointer; position: fixed; top: 20px; left: 20px; z-index: 1; background-color: white; border-radius: 6px; padding: 8px; }
+      .send-request { cursor: pointer; padding: 8px 16px; border-radius: 6px; background-color: #3498db; color: white; }
+      .send-request:hover { transition: all .3s; transform: translateY(3px); }
+      .send-request:active { transition: all .3s; transform: translateY(1px); }
+      .send-request--disabled { cursor: not-allowed; background-color: #cccccc; }
+      .send-request--disabled:hover { transform: translateY(0); }
+      .send-request--disabled:active { transform: translateY(0); }
+      input[type=text] { width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; }
+      input[type=number] { width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; }
+      input[type=radio] { margin: 8px 0; }
+      label { display: inline-block; margin: 0 8px; }
+
     script.
       function openNav() {
         document.getElementById("sidenav").style.width = "250px";
@@ -66,8 +76,10 @@ html(lang="en")
         document.getElementById("sidenav").style.width = "0";
         document.getElementById("floating-nav-button").style.display = "block";
       }
+    link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/obsidian.min.css')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js')
     script(src="https://unpkg.com/vue@3/dist/vue.global.js") 
-    title Provinces of Turkey API
+    title Playground | Provinces of Turkey API
   body
     .sidenav#sidenav
       a(href='javascript:void(0)' class='closebtn' onclick='closeNav()') &times;
@@ -148,13 +160,13 @@ html(lang="en")
 
         br
 
-        button(@click='sendRequest()') Send a request
+        button.send-request(@click='sendRequest()') Send a request
 
         br
         br
 
-        pre.panel.panel--black
-          code
+        pre.panel
+          code.language-json
             | {{response || 'No response yet.'}}
 
       script.
@@ -193,6 +205,9 @@ html(lang="en")
                 .then(res => res.json())
                 .then(data => {
                   this.response = JSON.stringify(data, null, 2)
+                }).then(() => {  
+                  hljs.highlightAll();
+                  document.querySelector('pre').scrollIntoView({ behavior: 'smooth' })
                 })
             }
           }
