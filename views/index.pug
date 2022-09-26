@@ -31,7 +31,6 @@ html(lang="en")
       .flair--get { background-color: green; }
       .panel { padding: 8px; border-radius: 8px; }
       .panel--gray { background-color: #cccccc; border: 1px solid lightgray; }
-      .panel--black { color: white; background-color: #000000; border: 1px solid lightgray; }
       th { border-bottom: 2px solid lightgray; }
       th, td { padding: 5px 20px; }
       tr:nth-child(even) { background-color: #eeeeee; }
@@ -68,6 +67,8 @@ html(lang="en")
         document.getElementById("sidenav").style.width = "0";
         document.getElementById("floating-nav-button").style.display = "block";
       }
+    link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/obsidian.min.css')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js')
     title Provinces of Turkey API
   body
     .sidenav#sidenav
@@ -191,52 +192,30 @@ html(lang="en")
       p.padding-tertiary It will show only the name and areaCode fields of the province.
       a(target='_blank', href='/api/v1/provinces/6?fields=name,areaCode') Click here to try it
       p.padding-tertiary Example Response:
-      pre.panel.panel--black
-        code
+      pre.panel
+        code.language-json
           | {
-          |   "status": 
-          span.green "OK"
-          |,
+          |   "status": "OK",
           |   "data": [
           |     {
-          |       "id": 
-          span.yellow 6
-          |,
-          |       "name": 
-          span.green "Ankara"
-          |,
-          |       "area": 
-          span.yellow 25632
-          |,
-          |       "population": 
-          span.yellow 5747325
-          |,
+          |       "id": 6,
+          |       "name": "Ankara",
+          |       "area": 25632,
+          |       "population": 5747325,
           |       "areaCode": [
-          span.yellow 312
-          |],
-          |       "isMetropolitan": 
-          span.blue true
-          |,
+          |         312
+          |       ],
+          |       "isMetropolitan": true,
           |       "maps": {
-          |         "googleMaps": 
-          span.green.breakpoint "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8"
-          |,
-          |         "openStreetMaps": 
-          span.green.breakpoint "https://www.openstreetmap.org/relation/223422"
-          |     
+          |         "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8",
+          |         "openStreetMaps": "https://www.openstreetmap.org/relation/223422"
           |       },
           |       "region": {
-          |         "en": 
-          span.green "Central Anatolia"
-          |,
-          |         "tr": 
-          span.green "Orta Anadolu"
-          |     
+          |         "en": "Central Anatolia",
+          |         "tr": "Orta Anadolu"
           |       },
           |       "districts": [
-          |       
-          span.red // Districts of Ankara
-          |     
+          |         // Districts of Ankara
           |       ]
           |     }
           |   ]
@@ -308,45 +287,27 @@ html(lang="en")
       p.padding-tertiary It will show only the name and population fields of the districts.
       a(target='_blank', href='/api/v1/districts?fields=name,population') Click here to try it
       p.padding-tertiary Example Response:
-      pre.panel.panel--black
-        code
+      pre.panel
+        code.language-json
           | {
-          |   "status": 
-          span.green "OK"
-          |,
+          |   "status": "OK",
           |   "data": [
           |     {
-          |       "name": 
-          span.green "Aladağ"
-          |,
-          |       "area": 
-          span.yellow 1340
-          |,
-          |       "population": 
-          span.yellow 15855
-          |,
-          |       "province":
-          span.green "Adana"
-          |
+          |       "name": "Aladağ",
+          |       "area": 1340,
+          |       "population": 15855,
+          |       "province": "Adana"
           |     },
           |     {
-          |       "name": 
-          span.green "Ceyhan"
-          |,
-          |       "area": 
-          span.yellow 1426
-          |,
-          |       "population": 
-          span.yellow 159955
-          |,
-          |       "province":
-          span.green "Adana"
-          |
+          |       "name": "Ceyhan",
+          |       "area": 1426,
+          |       "population": 159955,
+          |       "province": "Adana"
           |     },
-          |     
-          span.red // ... and so on
-          |
+          |     // ... and so on
           |   ]
           | }
 
       a(target='_blank', href='https://github.com/ubeydeozdmr/provinces-of-turkey-api'): h2.font-tertiary.padding-secondary Provinces of Turkey API is an open-source project. Click here for GitHub link! 😻
+    script.
+      hljs.highlightAll();
