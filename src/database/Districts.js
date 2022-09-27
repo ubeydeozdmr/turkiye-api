@@ -207,7 +207,7 @@ exports.getExactDistrict = function (id, fields) {
     }
 
     const district = districts.find(item => item.id === +id);
-    if (!fieldsArrayCopy.includes('id')) district.id = undefined; // a temporary solution to the BUG I mentioned above.
+    if (fieldsArrayCopy && !fieldsArrayCopy.includes('id')) district.id = undefined; // a temporary solution to the BUG I mentioned above.
 
     if (district) {
       return district;
