@@ -29,8 +29,13 @@ html(lang="en")
       .padding-tertiary { padding: 1% 0; }
       .flair { padding: 1px 3px; color: white; border-radius: 5px; }
       .flair--get { background-color: green; }
-      .panel { padding: 8px; border-radius: 8px; }
-      .panel--gray { background-color: #cccccc; border: 1px solid lightgray; }
+      .panel { border-radius: 8px; }
+      .panel--bar { background-color: #ffffff; border: 1px solid lightgray; display: flex; flex-direction: column; overflow: hidden; }
+      .panel--bar_url { width: 100%; padding: 12px 8px; }
+      .panel--bar_action { display: flex; flex-direction: row; justify-content: flex-start; background-color: #eeeeee; }
+      .panel--bar_run { background-color: green; color: white; padding: 5px 10px; cursor: pointer; }
+      .panel--bar_view { background-color: /*#aaaaaa*/ turquoise; color: white; padding: 5px 10px; }
+      .panel--bar_text { color: #333333; padding: 5px 10px; }
       th { border-bottom: 2px solid lightgray; }
       th, td { padding: 5px 20px; }
       tr:nth-child(even) { background-color: #eeeeee; }
@@ -58,15 +63,82 @@ html(lang="en")
         .sidenav a {font-size: 18px;}
       }
       .floating-nav-button { cursor: pointer; position: fixed; top: 20px; left: 20px; z-index: 1; background-color: white; border-radius: 6px; padding: 8px; }
+      #get-all-provinces-example { display: none; margin-top: 10px; }
+      #get-all-provinces-example-1 { display: none; margin-top: 10px; }
+      #get-all-provinces-example-2 { display: none; margin-top: 10px; }
+      #get-all-provinces-example-3 { display: none; margin-top: 10px; }
+      #get-exact-province-example-1 { display: none; margin-top: 10px; }
+      #get-exact-province-example-2 { display: none; margin-top: 10px; }
+      #get-all-districts-example { display: none; margin-top: 10px; }
+      #get-all-districts-example-1 { display: none; margin-top: 10px; }
+      #get-all-districts-example-2 { display: none; margin-top: 10px; }
+      #get-all-districts-example-3 { display: none; margin-top: 10px; }
+      #get-all-districts-example-4 { display: none; margin-top: 10px; }
+      #get-exact-district-example-1 { display: none; margin-top: 10px; }
+      #get-exact-district-example-2 { display: none; margin-top: 10px; }
     script.
       function openNav() {
         document.getElementById("sidenav").style.width = "250px";
         document.getElementById("floating-nav-button").style.display = "none";
       }
+
       function closeNav() {
         document.getElementById("sidenav").style.width = "0";
         document.getElementById("floating-nav-button").style.display = "block";
       }
+
+      function getAllProvincesExample() {
+        document.getElementById("get-all-provinces-example").style.display = "block";
+      }
+      
+      function getAllProvincesExample1() {
+        document.getElementById("get-all-provinces-example-1").style.display = "block";
+      }
+
+      function getAllProvincesExample2() {
+        document.getElementById("get-all-provinces-example-2").style.display = "block";
+      }
+
+      function getAllProvincesExample3() {
+        document.getElementById("get-all-provinces-example-3").style.display = "block";
+      }
+      
+      function getExactProvinceExample1() {
+        document.getElementById("get-exact-province-example-1").style.display = "block";
+      }
+      
+      function getExactProvinceExample2() {
+        document.getElementById("get-exact-province-example-2").style.display = "block";
+      }
+
+      function getAllDistrictsExample() {
+        document.getElementById("get-all-districts-example").style.display = "block";
+      }
+      
+      function getAllDistrictsExample1() {
+        document.getElementById("get-all-districts-example-1").style.display = "block";
+      }
+
+      function getAllDistrictsExample2() {
+        document.getElementById("get-all-districts-example-2").style.display = "block";
+      }
+
+      function getAllDistrictsExample3() {
+        document.getElementById("get-all-districts-example-3").style.display = "block";
+      }
+
+      function getAllDistrictsExample4() {
+        document.getElementById("get-all-districts-example-4").style.display = "block";
+      }
+
+      function getExactDistrictExample1() {
+        document.getElementById("get-exact-district-example-1").style.display = "block";
+      }
+
+      function getExactDistrictExample2() {
+        document.getElementById("get-exact-district-example-2").style.display = "block";
+      }
+
     link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/obsidian.min.css')
     script(src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js')
     title Provinces of Turkey API
@@ -98,11 +170,65 @@ html(lang="en")
       h2#get-all-provinces.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
         span.flair.flair--get GET
         |  Get All Provinces
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces
-      p.padding-tertiary You can use this route to get data for 
-        strong all 
-        | countries.
-      a(target='_blank', href='/api/v1/provinces') Click here to take a quick look
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/provinces
+        .panel--bar_action
+          a.panel--bar_run(onclick='getAllProvincesExample()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/provinces') &#128065; View
+          p.panel--bar_text You can use this route to get data for 
+            strong all 
+            | countries.
+
+      pre.panel#get-all-provinces-example
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": [
+          |     {
+          |       "id": 1,
+          |       "name": "Adana",
+          |       "area": 13844,
+          |       "population": 2263373,
+          |       "areaCode": [
+          |         322
+          |       ],
+          |       "isMetropolitan": true,
+          |       "maps": {
+          |         "googleMaps": "https://goo.gl/maps/4yHUNdZuhcBn7rqX8",
+          |         "openStreetMaps": "https://www.openstreetmap.org/relation/167216"
+          |       },
+          |       "region": {
+          |         "en": "Mediterranean",
+          |         "tr": "Akdeniz"
+          |       },
+          |       "districts": [
+          |         // Districts of Adana
+          |       ]
+          |     },
+          |     {
+          |       "id": 2,
+          |       "name": "Adıyaman",
+          |       "area": 7337,
+          |       "population": 632148,
+          |       "areaCode": [
+          |         416
+          |       ],
+          |       "isMetropolitan": false,
+          |       "maps": {
+          |         "googleMaps": "https://goo.gl/maps/UqRzeK1ApyPjbhpp6",
+          |         "openStreetMaps": "https://www.openstreetmap.org/relation/223141"
+          |       },
+          |       "region": {
+          |         "en": "Southeastern Anatolia",
+          |         "tr": "Güneydoğu Anadolu"
+          |       },
+          |       "districts": [
+          |         // Districts of Adıyaman
+          |       ]
+          |     },
+          |     // Other 79 provinces
+          |   ]
+          | }
 
       table.padding-secondary
         thead
@@ -145,55 +271,18 @@ html(lang="en")
             td It sorts the results in ascending or descending order.
 
       p.padding-tertiary Example usage 1:
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces?name=ankara
-      p.padding-tertiary It will show all the provinces 
-        strong containing 
-        | or 
-        strong matching 
-        | "ankara" in their name.
-      a(target='_blank', href='/api/v1/provinces?name=ankara') Click here to try it
-      p.padding-tertiary Example usage 2:
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces?offset=10&limit=20
-      p.padding-tertiary It will show 20 provinces starting from the 11th province.
-      a(target='_blank', href='/api/v1/provinces?offset=10&limit=20') Click here to try it
-      p.padding-tertiary Example usage 3:
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces?fields=name,areaCode
-      p.padding-tertiary It will show only the name and areaCode fields of the provinces.
-      a(target='_blank', href='/api/v1/provinces?fields=name,areaCode') Click here to try it
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/provinces?name=ankara
+        .panel--bar_action
+          a.panel--bar_run(onclick='getAllProvincesExample1()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/provinces?name=ankara') &#128065; View
+          p.panel--bar_text It will show all the provinces 
+            strong containing 
+            | or 
+            strong matching 
+            | "ankara" in their name.
 
-      h2#get-exact-province.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
-        span.flair.flair--get GET
-        |  Get Exact Province
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces/:id
-      p.padding-tertiary You can use this route to obtain the data of the province whose 
-        strong ID you entered.
-      p.padding-tertiary City IDs were created based on license plate numbers. Each license plate number is unique so I thought it appropriate to set this route as a parameter instead of a query.
-      a(href='#get-all-provinces')
-        p.padding-tertiary NOTE: The ability to search by province name has been removed for this route. Try using 
-          code /api/v1/provinces?name={your search query} 
-          | instead. Click here to learn more
-
-      table.padding-secondary
-        thead
-          tr
-            th Query
-            th Type
-            th Description
-        tbody
-          tr
-            td fields
-            td string
-            td It shows the fields you want to see in the response.
-
-      p.padding-tertiary Example usage 1:
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces/6 
-      p.padding-tertiary: a(target='_blank', href='/api/v1/provinces/6') Click here to try it
-      p.padding-tertiary Example usage 2:
-      .panel.panel--gray #{protocol}#{host}/api/v1/provinces/6?fields=name,areaCode
-      p.padding-tertiary It will show only the name and areaCode fields of the province.
-      a(target='_blank', href='/api/v1/provinces/6?fields=name,areaCode') Click here to try it
-      p.padding-tertiary Example Response:
-      pre.panel
+      pre.panel#get-all-provinces-example-1
         code.language-json
           | {
           |   "status": "OK",
@@ -222,14 +311,243 @@ html(lang="en")
           |   ]
           | }
 
+      p.padding-tertiary Example usage 2:
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/provinces?offset=10&limit=20
+        .panel--bar_action
+          a.panel--bar_run(onclick='getAllProvincesExample2()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/provinces?offset=10&limit=20') &#128065; View
+          p.panel--bar_text It will show all the provinces 
+            strong starting from 11th 
+            | and 
+            strong showing 20 results.
+
+      pre.panel#get-all-provinces-example-2
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": [
+          |     {
+          |       "id": 11,
+          |       "name": "Bilecik",
+          |       "area": 4179,
+          |       "population": 228334,
+          |       "areaCode": [
+          |         228
+          |       ],
+          |       "isMetropolitan": false,
+          |       "maps": {
+          |         "googleMaps": "https://goo.gl/maps/LJDq5jVJdrcLhCHu5",
+          |         "openStreetMaps": "https://www.openstreetmap.org/relation/223420"
+          |       },
+          |       "region": {
+          |         "en": "Marmara",
+          |         "tr": "Marmara"
+          |       },
+          |       "districts": [
+          |         // Districts of Bilecik
+          |       ]
+          |     },
+          |     {
+          |       "id": 12,
+          |       "name": "Bingöl",
+          |       "area": 8004,
+          |       "population": 283112,
+          |       "areaCode": [
+          |         426
+          |       ],
+          |       "isMetropolitan": false,
+          |       "maps": {
+          |         "googleMaps": "https://goo.gl/maps/4YXDvYHT4iHFCMDb7",
+          |         "openStreetMaps": "https://www.openstreetmap.org/relation/223444"
+          |       },
+          |       "region": {
+          |         "en": "Eastern Anatolia",
+          |         "tr": "Doğu Anadolu"
+          |       },
+          |       "districts": [
+          |         // Districts of Bingöl
+          |       ]
+          |     },
+          |     // Other 18 provinces
+          |   ]
+          | }
+
+      p.padding-tertiary Example usage 3:
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/provinces?fields=name,areaCode
+        .panel--bar_action
+          a.panel--bar_run(onclick='getAllProvincesExample3()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/provinces?fields=name,areaCode') &#128065; View
+          p.panel--bar_text It will show all the provinces 
+            strong showing only name and areaCode fields.
+
+      pre.panel#get-all-provinces-example-3
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": [
+          |     {
+          |       "name": "Adana",
+          |       "areaCode": [
+          |         322
+          |       ]
+          |     },
+          |     {
+          |       "name": "Adıyaman",
+          |       "areaCode": [
+          |         416
+          |       ]
+          |     },
+          |     {
+          |       "name": "Afyonkarahisar",
+          |       "areaCode": [
+          |         272
+          |       ]
+          |     },
+          |     {
+          |       "name": "Ağrı",
+          |       "areaCode": [
+          |         472
+          |       ]
+          |     },
+          |     {
+          |       "name": "Amasya",
+          |       "areaCode": [
+          |         358
+          |       ]
+          |     },
+          |     {
+          |       "name": "Ankara",
+          |       "areaCode": [
+          |         312
+          |       ]
+          |     }
+          |     // Other 75 provinces
+          |   ]
+          | }
+
+      h2#get-exact-province.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
+        span.flair.flair--get GET
+        |  Get Exact Province
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/provinces/:id
+        .panel--bar_action
+          p.panel--bar_text You can use this route to get data for 
+            strong exact 
+            | province.
+
+      p.padding-tertiary City IDs were created based on license plate numbers. Each license plate number is unique so I thought it appropriate to set this route as a parameter instead of a query.
+      a(href='#get-all-provinces')
+        p.padding-tertiary NOTE: The ability to search by province name has been removed for this route. Try using 
+          code /api/v1/provinces?name={your search query} 
+          | instead. Click here to learn more
+
+      table.padding-secondary
+        thead
+          tr
+            th Query
+            th Type
+            th Description
+        tbody
+          tr
+            td fields
+            td string
+            td It shows the fields you want to see in the response.
+
+      p.padding-tertiary Example usage 1:
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/provinces/6 
+        .panel--bar_action
+          a.panel--bar_run(onclick='getExactProvinceExample1()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/provinces/6') &#128065; View
+          p.panel--bar_text It will show the province 
+            strong whose ID is 6.
+
+      pre.panel#get-exact-province-example-1
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": {
+          |     "id": 6,
+          |     "name": "Ankara",
+          |     "area": 25632,
+          |     "population": 5747325,
+          |     "areaCode": [
+          |       312
+          |     ],
+          |     "isMetropolitan": true,
+          |     "maps": {
+          |       "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8",
+          |       "openStreetMaps": "https://www.openstreetmap.org/relation/223422"
+          |     },
+          |     "region": {
+          |       "en": "Central Anatolia",
+          |       "tr": "Orta Anadolu"
+          |     },
+          |     "districts": [
+          |       // Districts of Ankara
+          |     ]
+          |   }
+          | }
+          |
+          | // Did you notice? This time data returned object instead of array.
+
+      p.padding-tertiary Example usage 2:
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/provinces/6?fields=name,areaCode
+        .panel--bar_action
+          a.panel--bar_run(onclick='getExactProvinceExample2()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/provinces/6?fields=name,areaCode') &#128065; View
+          p.panel--bar_text It will show the province 
+            strong whose ID is 6 
+            | and 
+            strong showing only name and areaCode fields.
+
+      pre.panel#get-exact-province-example-2
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": {
+          |     "name": "Ankara",
+          |     "areaCode": [
+          |       312
+          |     ]
+          |   }
+          | }
+
       h2#get-all-districts.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
         span.flair.flair--get GET
         |  Get All Districts
-      .panel.panel--gray #{protocol}#{host}/api/v1/districts
-      p.padding-tertiary You can use this route to get data for 
-        strong all 
-        | districts.
-      a(target='_blank', href='/api/v1/districts') Click here to take a quick look
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/districts
+        .panel--bar_action 
+          a.panel--bar_run(onclick='getAllDistrictsExample()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/districts') &#128065; View
+          p.panel--bar_text It will show all the districts.
+
+      pre.panel#get-all-districts-example
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": [
+          |     {
+          |       "id": 1757,
+          |       "name": "Aladağ",
+          |       "area": 1340,
+          |       "population": 15855,
+          |       "province": "Adana"
+          |     },
+          |     {
+          |       "id": 1219,
+          |       "name": "Ceyhan",
+          |       "area": 1426,
+          |       "population": 159955,
+          |       "province": "Adana"
+          |     },
+          |     // Other 970 districts
+          |   ]
+          | }
 
       table.padding-secondary
         thead
@@ -268,27 +586,17 @@ html(lang="en")
             td It sorts the results in ascending or descending order.
 
       p.padding-tertiary Example usage 1:
-      .panel.panel--gray #{protocol}#{host}/api/v1/districts?name=dağ
-      p.padding-tertiary It will show all the districts 
-        strong containing 
-        | or 
-        strong matching 
-        | "dağ" in their name.
-      a(target='_blank', href='/api/v1/districts?name=dağ') Click here to try it
-      p.padding-tertiary Example usage 2:
-      .panel.panel--gray #{protocol}#{host}/api/v1/districts?minPopulation=100000&maxPopulation=300000
-      p.padding-tertiary It will show all the districts with a population between 100,000 and 300,000.
-      a(target='_blank', href='/api/v1/districts?minPopulation=100000&maxPopulation=300000') Click here to try it
-      p.padding-tertiary Example usage 3:
-      .panel.panel--gray #{protocol}#{host}/api/v1/districts?offset=10&limit=20
-      p.padding-tertiary It will show 20 districts starting from the 11th district.
-      a(target='_blank', href='/api/v1/districts?offset=10&limit=20') Click here to try it
-      p.padding-tertiary Example usage 4:
-      .panel.panel--gray #{protocol}#{host}/api/v1/districts?fields=name,population
-      p.padding-tertiary It will show only the name and population fields of the districts.
-      a(target='_blank', href='/api/v1/districts?fields=name,population') Click here to try it
-      p.padding-tertiary Example Response:
-      pre.panel
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/districts?name=dağ
+        .panel--bar_action
+          a.panel--bar_run(onclick='getAllDistrictsExample1()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/districts?name=dağ') &#128065; View
+          p.panel--bar_text It will show all the districts 
+            strong containing or matching 
+            | the word 
+            strong dağ.
+
+      pre.panel#get-all-districts-example-1
         code.language-json
           | {
           |   "status": "OK",
@@ -301,22 +609,143 @@ html(lang="en")
           |       "province": "Adana"
           |     },
           |     {
+          |       "id": 1306,
+          |       "name": "Emirdağ",
+          |       "area": 2103,
+          |       "population": 42327,
+          |       "province": "Afyonkarahisar"
+          |     },
+          |     {
+          |       "id": 1639,
+          |       "name": "Sultandağı",
+          |       "area": 928,
+          |       "population": 14279,
+          |       "province": "Afyonkarahisar"
+          |     },
+          |     // Other 12 districts
+          |   ]
+          | }
+
+      p.padding-tertiary Example usage 2:
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/districts?minPopulation=100000&maxPopulation=300000
+        .panel--bar_action
+          a.panel--bar_run(onclick='getAllDistrictsExample2()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/districts?minPopulation=100000&maxPopulation=300000') &#128065; View
+          p.panel--bar_text It will show all the districts 
+            strong with a population greater than or equal to 100000 
+            | and 
+            strong with a population less than or equal to 300000.
+
+      pre.panel#get-all-districts-example-2
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": [
+          |     {
           |       "id": 1219,
           |       "name": "Ceyhan",
           |       "area": 1426,
           |       "population": 159955,
           |       "province": "Adana"
           |     },
-          |     // ... and so on
+          |     {
+          |       "id": 1486,
+          |       "name": "Kozan",
+          |       "area": 1903,
+          |       "population": 132320,
+          |       "province": "Adana"
+          |     },
+          |     {
+          |       "id": 2032,
+          |       "name": "Sarıçam",
+          |       "area": 770,
+          |       "population": 208227,
+          |       "province": "Adana"
+          |     },
+          |     // Other 150 districts
+          |   ]
+          | }
+
+      p.padding-tertiary Example usage 3:
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/districts?offset=10&limit=20
+        .panel--bar_action
+          a.panel--bar_run(onclick='getAllDistrictsExample3()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/districts?offset=10&limit=20') &#128065; View
+          p.panel--bar_text It will show all the districts 
+            strong starting from 11th result 
+            | and 
+            strong showing only 20 results.
+
+      pre.panel#get-all-districts-example-3
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": [
+          |     {
+          |       "id": 2032,
+          |       "name": "Sarıçam",
+          |       "area": 770,
+          |       "population": 208227,
+          |       "province": "Adana"
+          |     },
+          |     {
+          |       "id": 1104,
+          |       "name": "Seyhan",
+          |       "area": 444,
+          |       "population": 792536,
+          |       "province": "Adana"
+          |     },
+          |     // Other 18 districts
+          |   ]
+          | }
+
+      p.padding-tertiary Example usage 4:
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/districts?fields=name,population
+        .panel--bar_action
+          a.panel--bar_run(onclick='getAllDistrictsExample4()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/districts?fields=name,population') &#128065; View
+          p.panel--bar_text It will show all the districts 
+            strong showing only name and population fields.
+
+      pre.panel#get-all-districts-example-4
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": [
+          |     {
+          |       "name": "Aladağ",
+          |       "population": 15855
+          |     },
+          |     {
+          |       "name": "Ceyhan",
+          |       "population": 159955
+          |     },
+          |     {
+          |       "name": "Çukurova",
+          |       "population": 389319
+          |     },
+          |     {
+          |       "name": "Feke",
+          |       "population": 16072
+          |     },
+          |     {
+          |       "name": "İmamoğlu",
+          |       "population": 27399
+          |     },
+          |     // Other 967 districts
           |   ]
           | }
 
       h2#get-exact-district.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
         span.flair.flair--get GET
         |  Get Exact District
-      .panel.panel--gray #{protocol}#{host}/api/v1/districts/:id
-      p.padding-tertiary You can use this route to obtain the data of the district whose 
-        strong ID you entered.
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/districts/:id
+        .panel--bar_action
+          p.panel--bar_text It will show the district with the id you entered.
 
       table.padding-secondary
         thead
@@ -331,12 +760,46 @@ html(lang="en")
             td It shows the fields you want to see in the response.
 
       p.padding-tertiary Example usage 1:
-      .panel.panel--gray #{protocol}#{host}/api/v1/districts/1832 
-      p.padding-tertiary: a(target='_blank', href='/api/v1/districts/1832') Click here to try it
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/districts/1832 
+        .panel--bar_action
+          a.panel--bar_run(onclick='getExactDistrictExample1()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/districts/1832') &#128065; View
+          p.panel--bar_text It will show the district with the id 1832.
+
+      pre.panel#get-exact-district-example-1
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": {
+          |     "id": 1832,
+          |     "name": "Osmangazi",
+          |     "area": 621,
+          |     "population": 884451,
+          |     "province": "Bursa"
+          |   }
+          | }
+          |
+          | // If there is no district with the id you entered, it will return an error.
+
       p.padding-tertiary Example usage 2:
-      .panel.panel--gray #{protocol}#{host}/api/v1/districts/1832?fields=id,name
-      p.padding-tertiary It will show only the id and name fields of the district.
-      a(target='_blank', href='/api/v1/districts/1832?fields=id,name') Click here to try it
+      .panel.panel--bar
+        p.panel--bar_url #{protocol}#{host}/api/v1/districts/1832?fields=id,name
+        .panel--bar_action
+          a.panel--bar_run(onclick='getExactDistrictExample2()') &#9205; Run
+          a.panel--bar_view(target='_blank', href='/api/v1/districts/1832?fields=id,name') &#128065; View
+          p.panel--bar_text It will show the district with the id 1832 
+            strong showing only id and name fields.
+
+      pre.panel#get-exact-district-example-2
+        code.language-json
+          | {
+          |   "status": "OK",
+          |   "data": {
+          |     "id": 1832,
+          |     "name": "Osmangazi"
+          |   }
+          | }
 
       a(target='_blank', href='https://github.com/ubeydeozdmr/provinces-of-turkey-api'): h2.font-tertiary.padding-secondary Provinces of Turkey API is an open-source project. Click here for GitHub link! 😻
     script.
