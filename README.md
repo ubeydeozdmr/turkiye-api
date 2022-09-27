@@ -204,6 +204,38 @@ It will show only the name and population of the districts.
 }
 ```
 
+### Get exact district
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/districts/:id
+```
+
+You can use this route to obtain the data of the province whose ID you entered.
+
+| Query  |  Type  | Description                               |
+| ------ | :----: | :---------------------------------------- |
+| fields | string | It shows only the fields you want to see. |
+
+- Example usage 1:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/districts/1832
+```
+
+It will show you the data of the district whose ID is 1832.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/districts/6)
+
+- Example usage 2:
+
+```bash
+https://provinces-of-turkey-api.herokuapp.com/api/v1/districts/1832?fields=id,name
+```
+
+It will show you only the id and name of the district.
+
+[Click here to try it](https://provinces-of-turkey-api.herokuapp.com/api/v1/districts/6?fields=id,name)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

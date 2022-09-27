@@ -164,3 +164,63 @@ exports.getDistricts = function (
     };
   }
 };
+
+exports.getExactDistrict = function (id, fields) {
+  try {
+    let districts = [];
+    DB.provinces.forEach(province => {
+      province.districts.forEach(item => {
+        item.province = province.name;
+      });
+      districts = districts.concat(province.districts);
+    });
+
+    let fieldsArrayCopy;
+
+    if (arguments[1]) {
+      const fieldsArray = fields.split(',');
+      fieldsArrayCopy = [...fieldsArray];
+
+      // BUG: The program cannot find the exact district when the user does not add "id" to the fields query. So I added a workaround.
+      if (fieldsArray.every(item => item !== 'id')) fieldsArray.push('id');
+      // BUG: The program cannot find the exact district when the user does not add "id" to the fields query. So I added a workaround.
+
+      const filteredDistricts = [];
+
+      districts.forEach(item => {
+        const filteredProvince = {};
+        fieldsArray.forEach(field => {
+          filteredProvince[field] = item[field];
+        });
+        filteredDistricts.push(filteredProvince);
+      });
+
+      districts = filteredDistricts;
+
+      if (fieldsArray.some(item => !Object.keys(districts[0]).includes(item))) {
+        throw {
+          status: 404,
+          message:
+            'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
+        };
+      }
+    }
+
+    const district = districts.find(item => item.id === +id);
+    if (!fieldsArrayCopy.includes('id')) district.id = undefined; // a temporary solution to the BUG I mentioned above.
+
+    if (district) {
+      return district;
+    } else {
+      throw {
+        status: 404,
+        message: 'No district found.',
+      };
+    }
+  } catch (error) {
+    throw {
+      status: error?.status || 500,
+      message: error?.message || 'Internal Server Error',
+    };
+  }
+};

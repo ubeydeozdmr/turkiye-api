@@ -71,3 +71,18 @@ exports.getDistricts = (req, res) => {
       .send({ status: 'ERROR', error: error?.message || 'Internal Server Error' });
   }
 };
+
+exports.getExactDistrict = (req, res) => {
+  try {
+    const { id } = req.params;
+    const { fields } = req.query;
+    const district = Districts.getExactDistrict(id, fields);
+    return res.send({ status: 'OK', data: district });
+  } catch (error) {
+    res.status(error?.status || 500).send({
+      status: 'ERROR',
+      error: error?.message || 'Internal Server Error',
+      devError: error?.devMessage || '-',
+    });
+  }
+};

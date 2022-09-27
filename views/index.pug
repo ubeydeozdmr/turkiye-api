@@ -78,6 +78,7 @@ html(lang="en")
       a(href='#get-all-provinces', onClick='closeNav()') &#8226; Get All Provinces
       a(href='#get-exact-province', onClick='closeNav()') &#8226; Get Exact Province
       a(href='#get-all-districts', onClick='closeNav()') &#8226; Get All Districts
+      a(href='#get-exact-district', onClick='closeNav()') &#8226; Get Exact District
       a(href='/playground', onClick='closeNav()') API Playground
     header.hero
       img.hero__img(src=image alt='An image from Turkey/Turkiye')
@@ -293,12 +294,14 @@ html(lang="en")
           |   "status": "OK",
           |   "data": [
           |     {
+          |       "id": 1757,
           |       "name": "Aladağ",
           |       "area": 1340,
           |       "population": 15855,
           |       "province": "Adana"
           |     },
           |     {
+          |       "id": 1219,
           |       "name": "Ceyhan",
           |       "area": 1426,
           |       "population": 159955,
@@ -307,6 +310,33 @@ html(lang="en")
           |     // ... and so on
           |   ]
           | }
+
+      h2#get-exact-district.font-secondary.padding-secondary(style='cursor: pointer', onclick='openNav()') 
+        span.flair.flair--get GET
+        |  Get Exact District
+      .panel.panel--gray #{protocol}#{host}/api/v1/districts/:id
+      p.padding-tertiary You can use this route to obtain the data of the district whose 
+        strong ID you entered.
+
+      table.padding-secondary
+        thead
+          tr
+            th Query
+            th Type
+            th Description
+        tbody
+          tr
+            td fields
+            td string
+            td It shows the fields you want to see in the response.
+
+      p.padding-tertiary Example usage 1:
+      .panel.panel--gray #{protocol}#{host}/api/v1/districts/1832 
+      p.padding-tertiary: a(target='_blank', href='/api/v1/districts/1832') Click here to try it
+      p.padding-tertiary Example usage 2:
+      .panel.panel--gray #{protocol}#{host}/api/v1/districts/1832?fields=id,name
+      p.padding-tertiary It will show only the id and name fields of the district.
+      a(target='_blank', href='/api/v1/districts/1832?fields=id,name') Click here to try it
 
       a(target='_blank', href='https://github.com/ubeydeozdmr/provinces-of-turkey-api'): h2.font-tertiary.padding-secondary Provinces of Turkey API is an open-source project. Click here for GitHub link! 😻
     script.
