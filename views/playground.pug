@@ -27,8 +27,13 @@ html(lang="en")
       .padding-primary { padding: 3.5% 0; }
       .padding-secondary { padding: 2.5% 0; }
       .padding-tertiary { padding: 1% 0; }
-      .panel { display: block; padding: 8px; border-radius: 8px; }
-      .panel--gray { background-color: #cccccc; border: 1px solid lightgray; }
+      .panel { border-radius: 8px; }
+      .panel--bar { background-color: #ffffff; border: 1px solid lightgray; display: flex; flex-direction: column; overflow: hidden; }
+      .panel--bar_url { width: 100%; padding: 12px 8px; }
+      .panel--bar_action { display: flex; flex-direction: row; justify-content: flex-start; background-color: #eeeeee; }
+      .panel--bar_run { background-color: green; color: white; padding: 5px 10px; cursor: pointer; }
+      .panel--bar_view { background-color: /*#aaaaaa*/ turquoise; color: white; padding: 5px 10px; }
+      .panel--bar_text { color: #333333; padding: 5px 10px; }
       th { border-bottom: 2px solid lightgray; }
       th, td { padding: 5px 20px; }
       tr:nth-child(even) { background-color: #eeeeee; }
@@ -62,20 +67,23 @@ html(lang="en")
       .send-request--disabled { cursor: not-allowed; background-color: #cccccc; }
       .send-request--disabled:hover { transform: translateY(0); }
       .send-request--disabled:active { transform: translateY(0); }
+      label { display: inline-block; margin: 0 8px; }
+      input { padding: 8px 16px; border-radius: 6px; border: 1px solid lightgray; }
       input[type=text] { width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; }
       input[type=number] { width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; }
       input[type=radio] { margin: 8px 0; }
-      label { display: inline-block; margin: 0 8px; }
 
     script.
       function openNav() {
         document.getElementById("sidenav").style.width = "250px";
         document.getElementById("floating-nav-button").style.display = "none";
       }
+
       function closeNav() {
         document.getElementById("sidenav").style.width = "0";
         document.getElementById("floating-nav-button").style.display = "block";
       }
+
     link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/obsidian.min.css')
     script(src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js')
     script(src="https://unpkg.com/vue@3/dist/vue.global.js") 
@@ -93,8 +101,12 @@ html(lang="en")
 
       #playground
 
-        .panel.panel--gray #{protocol}#{host}/api/v1/{{selectedRoute}}{{provinceID}}?{{name ? 'name=' + name + '&' : ''}}{{minPopulation ? 'minPopulation=' + minPopulation + '&' : ''}}{{maxPopulation ? 'maxPopulation=' + maxPopulation + '&' : ''}}{{isMetropolitan ? 'isMetropolitan=' + isMetropolitan + '&' : ''}}{{offset ? 'offset=' + offset + '&' : ''}}{{limit ? 'limit=' + limit + '&' : ''}}{{fields ? 'fields=' + fields + '&' : ''}}
-        p.padding-tertiary: a(target='_blank', :href="'/api/v1/' + selectedRoute + provinceID + '?' + (name ? 'name=' + name + '&' : '') + (minPopulation ? 'minPopulation=' + minPopulation + '&' : '') + (maxPopulation ? 'maxPopulation=' + maxPopulation + '&' : '') + (isMetropolitan ? 'isMetropolitan=' + isMetropolitan + '&' : '') + (offset ? 'offset=' + offset + '&' : '') + (limit ? 'limit=' + limit + '&' : '')") Click to view the result of the URL string you created.
+        .panel.panel--bar
+          p.panel--bar_url #{protocol}#{host}/api/v1/{{selectedRoute}}{{provinceID}}?{{name ? 'name=' + name + '&' : ''}}{{minPopulation ? 'minPopulation=' + minPopulation + '&' : ''}}{{maxPopulation ? 'maxPopulation=' + maxPopulation + '&' : ''}}{{isMetropolitan ? 'isMetropolitan=' + isMetropolitan + '&' : ''}}{{offset ? 'offset=' + offset + '&' : ''}}{{limit ? 'limit=' + limit + '&' : ''}}{{fields ? 'fields=' + fields + '&' : ''}}
+          .panel--bar_action
+            a.panel--bar_run(tabindex='0', @click='sendRequest()') &#9205; Run
+            a.panel--bar_view(target='_blank', :href="'/api/v1/' + selectedRoute + provinceID + '?' + (name ? 'name=' + name + '&' : '') + (minPopulation ? 'minPopulation=' + minPopulation + '&' : '') + (maxPopulation ? 'maxPopulation=' + maxPopulation + '&' : '') + (isMetropolitan ? 'isMetropolitan=' + isMetropolitan + '&' : '') + (offset ? 'offset=' + offset + '&' : '') + (limit ? 'limit=' + limit + '&' : '')") &#128065; View
+            p.panel--bar_text Click run or view to send request.
 
         br
         input#radio_get-all-provinces(type='radio' value='provinces' v-model='selectedRoute' @click='routeHandler()')
@@ -106,10 +118,14 @@ html(lang="en")
         input#radio_get-all-districts(type='radio' value='districts' v-model='selectedRoute' @click='routeHandler()')
         label(for='radio_get-all-districts') Get All Districts
         br
+        input#radio_get-exact-district(type='radio' value='districts/' v-model='selectedRoute' @click='routeHandler()')
+        label(for='radio_get-exact-district') Get Exact District
+        br
 
-        .area_provinceID(v-if='selectedRoute === "provinces/"')
+        .area_provinceID(v-if='selectedRoute === "provinces/" || selectedRoute === "districts/"')
           br
-          label(for='provinceID') Province ID: 
+          label(for='provinceID' v-if='selectedRoute === "provinces/"') Province ID: 
+          label(for='provinceID' v-else-if='selectedRoute === "districts/"') District ID: 
           input#provinceID(type='number' placeholder='Province ID' v-model='provinceID')
           br
 
@@ -186,6 +202,9 @@ html(lang="en")
               fields: '',
               provinceID: '',
             }
+          },
+          created() {
+            hljs.highlightAll();
           },
           methods: {
             routeHandler() {
