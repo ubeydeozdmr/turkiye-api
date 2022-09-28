@@ -29,14 +29,14 @@ exports.getDistricts = function (
       }
 
       if (arguments[1] || arguments[2]) {
-        if (arguments[1] <= 0 && arguments[2] <= 0) {
+        if (+arguments[1] <= 0 && +arguments[2] <= 0) {
           throw {
             status: 404,
             message: "You can't search for a district with a population of 0 or less.",
           };
         }
 
-        if (arguments[1] > arguments[2]) {
+        if (+arguments[1] > +arguments[2]) {
           throw {
             status: 404,
             message:
