@@ -144,21 +144,21 @@ html(lang="en")
     title Provinces of Turkey API
   body
     .sidenav#sidenav
-      a(href='javascript:void(0)' class='closebtn' onclick='closeNav()') &times;
-      a(href='#', onClick='closeNav()') Top of the page
-      a(href='#quick-start', onClick='closeNav()') Quick Start
-      a(href='#get-all-provinces', onClick='closeNav()') &#8226; Get All Provinces
-      a(href='#get-exact-province', onClick='closeNav()') &#8226; Get Exact Province
-      a(href='#get-all-districts', onClick='closeNav()') &#8226; Get All Districts
-      a(href='#get-exact-district', onClick='closeNav()') &#8226; Get Exact District
-      a(href='/playground', onClick='closeNav()') API Playground
+      a(tabindex='0', href='javascript:void(0)' class='closebtn' onclick='closeNav()') &times;
+      a(tabindex='0', href='#', onClick='closeNav()') Top of the page
+      a(tabindex='0', href='#quick-start', onClick='closeNav()') Quick Start
+      a(tabindex='0', href='#get-all-provinces', onClick='closeNav()') &#8226; Get All Provinces
+      a(tabindex='0', href='#get-exact-province', onClick='closeNav()') &#8226; Get Exact Province
+      a(tabindex='0', href='#get-all-districts', onClick='closeNav()') &#8226; Get All Districts
+      a(tabindex='0', href='#get-exact-district', onClick='closeNav()') &#8226; Get Exact District
+      a(tabindex='0', href='/playground', onClick='closeNav()') API Playground
     header.hero
       img.hero__img(src=image alt='An image from Turkey/Turkiye')
       .hero__text-box
         h1.hero__title Provinces of Turkey API
         h2.hero__description An approach that will save you from writing long
         a.hero__quick-start(href='#quick-start', style='padding: 2.5%') &darr; QUICK START
-    .floating-nav-button#floating-nav-button(onclick='openNav()') &#9776;
+    a.floating-nav-button#floating-nav-button(href='#menu', onclick='openNav()') &#9776;
     article.content
       h1#quick-start.font-primary.padding-primary(style='cursor: pointer', onclick='openNav()') Quick Start
       p.padding-tertiary: strong What is the purpose of this API?
@@ -173,7 +173,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/provinces
         .panel--bar_action
-          a.panel--bar_run(onclick='getAllProvincesExample()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllProvincesExample()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/provinces') &#128065; View
           p.panel--bar_text You can use this route to get data for 
             strong all 
@@ -274,7 +274,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/provinces?name=ankara
         .panel--bar_action
-          a.panel--bar_run(onclick='getAllProvincesExample1()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllProvincesExample1()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/provinces?name=ankara') &#128065; View
           p.panel--bar_text It will show all the provinces 
             strong containing 
@@ -315,7 +315,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/provinces?offset=10&limit=20
         .panel--bar_action
-          a.panel--bar_run(onclick='getAllProvincesExample2()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllProvincesExample2()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/provinces?offset=10&limit=20') &#128065; View
           p.panel--bar_text It will show all the provinces 
             strong starting from 11th 
@@ -377,7 +377,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/provinces?fields=name,areaCode
         .panel--bar_action
-          a.panel--bar_run(onclick='getAllProvincesExample3()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllProvincesExample3()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/provinces?fields=name,areaCode') &#128065; View
           p.panel--bar_text It will show all the provinces 
             strong showing only name and areaCode fields.
@@ -459,7 +459,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/provinces/6 
         .panel--bar_action
-          a.panel--bar_run(onclick='getExactProvinceExample1()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getExactProvinceExample1()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/provinces/6') &#128065; View
           p.panel--bar_text It will show the province 
             strong whose ID is 6.
@@ -497,7 +497,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/provinces/6?fields=name,areaCode
         .panel--bar_action
-          a.panel--bar_run(onclick='getExactProvinceExample2()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getExactProvinceExample2()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/provinces/6?fields=name,areaCode') &#128065; View
           p.panel--bar_text It will show the province 
             strong whose ID is 6 
@@ -522,7 +522,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/districts
         .panel--bar_action 
-          a.panel--bar_run(onclick='getAllDistrictsExample()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllDistrictsExample()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/districts') &#128065; View
           p.panel--bar_text It will show all the districts.
 
@@ -589,7 +589,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/districts?name=dağ
         .panel--bar_action
-          a.panel--bar_run(onclick='getAllDistrictsExample1()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllDistrictsExample1()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/districts?name=dağ') &#128065; View
           p.panel--bar_text It will show all the districts 
             strong containing or matching 
@@ -630,7 +630,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/districts?minPopulation=100000&maxPopulation=300000
         .panel--bar_action
-          a.panel--bar_run(onclick='getAllDistrictsExample2()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllDistrictsExample2()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/districts?minPopulation=100000&maxPopulation=300000') &#128065; View
           p.panel--bar_text It will show all the districts 
             strong with a population greater than or equal to 100000 
@@ -671,7 +671,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/districts?offset=10&limit=20
         .panel--bar_action
-          a.panel--bar_run(onclick='getAllDistrictsExample3()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllDistrictsExample3()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/districts?offset=10&limit=20') &#128065; View
           p.panel--bar_text It will show all the districts 
             strong starting from 11th result 
@@ -705,7 +705,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/districts?fields=name,population
         .panel--bar_action
-          a.panel--bar_run(onclick='getAllDistrictsExample4()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getAllDistrictsExample4()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/districts?fields=name,population') &#128065; View
           p.panel--bar_text It will show all the districts 
             strong showing only name and population fields.
@@ -763,7 +763,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/districts/1832 
         .panel--bar_action
-          a.panel--bar_run(onclick='getExactDistrictExample1()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getExactDistrictExample1()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/districts/1832') &#128065; View
           p.panel--bar_text It will show the district with the id 1832.
 
@@ -786,7 +786,7 @@ html(lang="en")
       .panel.panel--bar
         p.panel--bar_url #{protocol}#{host}/api/v1/districts/1832?fields=id,name
         .panel--bar_action
-          a.panel--bar_run(onclick='getExactDistrictExample2()') &#9205; Run
+          a.panel--bar_run(tabindex='0', onclick='getExactDistrictExample2()') &#9205; Run
           a.panel--bar_view(target='_blank', href='/api/v1/districts/1832?fields=id,name') &#128065; View
           p.panel--bar_text It will show the district with the id 1832 
             strong showing only id and name fields.
