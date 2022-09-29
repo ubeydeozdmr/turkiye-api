@@ -309,6 +309,15 @@ script.
   }
 
   document
+    .querySelector('a[href="#content"]')
+    .addEventListener('click', event => {
+      event.preventDefault();
+      document.querySelector('#content').scrollIntoView({
+        behavior: 'smooth',
+      });
+    });
+
+  document
     .querySelector('.playground__url--input')
     .addEventListener('keyup', event => {
       if (event.keyCode === 13) document.querySelector('.playground__url--submit').click();
