@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.get('/', (req, res) => {
   res.render('index', {
     host: req.headers.host,
-    protocol: NODE_ENV == 'production' ? 'https://' : '',
+    protocol: NODE_ENV == 'production' ? 'https://' : 'http://',
     image:
       fs.readdirSync('assets')[
         Math.floor(Math.random() * fs.readdirSync('assets').length)
@@ -32,11 +32,7 @@ app.get('/', (req, res) => {
 app.get('/docs', (req, res) => {
   res.render('docs', {
     host: req.headers.host,
-    protocol: NODE_ENV == 'production' ? 'https://' : '',
-    image:
-      fs.readdirSync('assets')[
-        Math.floor(Math.random() * fs.readdirSync('assets').length)
-      ],
+    protocol: NODE_ENV == 'production' ? 'https://' : 'http://',
   });
 });
 

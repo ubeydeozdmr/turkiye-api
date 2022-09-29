@@ -329,7 +329,7 @@ script.
       event.preventDefault();
       const input = document.querySelector('.playground__url--input');
       const text = input.value;
-      input.value = '/api/v1/' + input.value;
+      input.value = '#{protocol}#{host}/api/v1/' + input.value;
       input.select();
       input.setSelectionRange(0, 99999);
       document.execCommand('copy');
@@ -356,7 +356,7 @@ script.
     .addEventListener('click', event => {
       event.preventDefault();
       const input = document.querySelector('.playground__url--input').value;
-      const url = `https://provinces-of-turkey-api.herokuapp.com/api/v1/${input}`;
+      const url =  `#{protocol}#{host}/api/v1/${input}`;
       window.open(url, '_blank');
     });
 

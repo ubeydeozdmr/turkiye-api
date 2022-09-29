@@ -245,7 +245,6 @@ head
     }
   title Documentation | Provinces of Turkey API
 a#floating-nav-button.floating-nav-button(href='#') &#x2630;
-// <a class="floating-nav-button-m" id="floating-nav-button-m" href="#">&#10006;</a>
 nav.sidenav
   a.sidenav__item(href='/') Return to home page
   a.sidenav__item(href='#information') Information
@@ -256,8 +255,8 @@ nav.sidenav
   a.sidenav__item(href='#get-all-districts') &bull; Get All Districts
   a.sidenav__item(href='#get-exact-district') &bull; Get Exact District
 article.content
-  h1#information.content__title
-    | Provinces of Turkey API Documentation
+  h1.content__title
+    a#information.hook(href='#information') Provinces of Turkey API Documentation
   hr
   br
   h3
@@ -280,7 +279,7 @@ article.content
       | Get All Provinces
   pre.urlframe
     span.urlframe__method GET
-    code.urlframe__url https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces
+    code.urlframe__url #{protocol}#{host}/api/v1/provinces
 
   p You can use this route to get data for all provinces.
   table
@@ -335,7 +334,7 @@ article.content
       | Get Exact Province
   pre.urlframe
     span.urlframe__method GET
-    code.urlframe__url https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces/:id
+    code.urlframe__url #{protocol}#{host}/api/v1/provinces/:id
 
   p You can use this route to get data for exact province.
   table
@@ -368,7 +367,7 @@ article.content
       | Get All Districts
   pre.urlframe
     span.urlframe__method GET
-    code.urlframe__url https://provinces-of-turkey-api.herokuapp.com/api/v1/districts
+    code.urlframe__url #{protocol}#{host}/api/v1/districts
 
   p You can use this route to get data for all districts.
   table
@@ -420,7 +419,7 @@ article.content
   p You can use this route to get data for exact district.
   pre.urlframe
     span.urlframe__method GET
-    code.urlframe__url https://provinces-of-turkey-api.herokuapp.com/api/v1/districts/:id
+    code.urlframe__url #{protocol}#{host}/api/v1/districts/:id
 
   p You can use this route to get data for all districts.
   table
