@@ -261,27 +261,27 @@ article#content.content
       |  to
       |           view response in a new tab.
     p.playground__hint
-      | Need a hint? Try
+      | Need a hint? Try 
       a.playground__hint--link(href='#action') provinces
-      | ,
+      | , 
       a.playground__hint--link(href='#action') provinces?name=istanbul
-      | ,
+      | , 
       a.playground__hint--link(href='#action') provinces?isMetropolitan=true
-      | , 
+      | ,  
       a.playground__hint--link(href='#action') provinces/28
-      | ,
-      a.playground__hint--link(href='#action') districts
-      | ,
-      a.playground__hint--link(href='#action') districts?name=dağ
-      | ,
-      a.playground__hint--link(href='#action') districts?minPopulation=100000&maxPopulation=300000
       | , 
+      a.playground__hint--link(href='#action') districts
+      | , 
+      a.playground__hint--link(href='#action') districts?name=dağ
+      | , 
+      a.playground__hint--link(href='#action') districts?minPopulation=100000&amp;maxPopulation=300000
+      | ,  
       a.playground__hint--link(href='#action') districts/1832
-      | ,
-      a.playground__hint--link(href='#action') provinces?offset=10&limit=20
-      | ,
+      | , 
+      a.playground__hint--link(href='#action') provinces?offset=10&amp;limit=20
+      | , 
       a.playground__hint--link(href='#action') provinces?fields=name,areaCode
-      | ,
+
     .playground__panel
       p.playground__panel--title Response
       pre.playground__panel--content
@@ -298,9 +298,7 @@ script.
 
   async function init() {
     try {
-      const res = await fetch(
-        'https://provinces-of-turkey-api.herokuapp.com/api/v1/provinces?name=istanbul'
-      );
+      const res = await fetch('/api/v1/provinces?name=istanbul');
       const data = await res.json();
       document.querySelector('.playground__panel--content code').innerHTML =
         JSON.stringify(data, null, 2);
@@ -311,13 +309,18 @@ script.
   }
 
   document
+    .querySelector('.playground__url--input')
+    .addEventListener('keyup', event => {
+      if (event.keyCode === 13) document.querySelector('.playground__url--submit').click();
+    });
+
+  document
     .querySelector('.playground__url--copy')
     .addEventListener('click', event => {
       event.preventDefault();
       const input = document.querySelector('.playground__url--input');
       const text = input.value;
-      input.value =
-        'https://provinces-of-turkey-api.herokuapp.com/api/v1/' + input.value;
+      input.value = '/api/v1/' + input.value;
       input.select();
       input.setSelectionRange(0, 99999);
       document.execCommand('copy');
@@ -329,7 +332,7 @@ script.
     .addEventListener('click', event => {
       event.preventDefault();
       const input = document.querySelector('.playground__url--input').value;
-      const url = `https://provinces-of-turkey-api.herokuapp.com/api/v1/${input}`;
+      const url = `/api/v1/${input}`;
       fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -337,9 +340,6 @@ script.
             JSON.stringify(data, null, 2);
           hljs.highlightAll();
         })
-        .catch(error => {
-          console.error(error);
-        });
     });
 
   document
@@ -355,6 +355,7 @@ script.
     link.addEventListener('click', event => {
       event.preventDefault();
       document.querySelector('.playground__url--input').value = link.innerHTML;
+      document.querySelector('.playground__url--submit').click();
     });
   });
 
