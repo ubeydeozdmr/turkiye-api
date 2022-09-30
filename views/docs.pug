@@ -134,6 +134,8 @@ head
     font-weight: 700;
     color: #333333;
     border: 1px solid #555555;
+    overflow-y: auto;
+    background-color: #eee;
     }
     article.content pre {
     padding: 1rem;
@@ -288,7 +290,7 @@ article.content
       | Get All Provinces
   pre.urlframe
     span.urlframe__method GET
-    code.urlframe__url #{protocol}#{host}/api/v1/provinces
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces
 
   p You can use this route to get data for all provinces.
   table
@@ -343,7 +345,7 @@ article.content
       | Get Exact Province
   pre.urlframe
     span.urlframe__method GET
-    code.urlframe__url #{protocol}#{host}/api/v1/provinces/:id
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces/:id
 
   p You can use this route to get data for exact province.
   table
@@ -376,7 +378,7 @@ article.content
       | Get All Districts
   pre.urlframe
     span.urlframe__method GET
-    code.urlframe__url #{protocol}#{host}/api/v1/districts
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts
 
   p You can use this route to get data for all districts.
   table
@@ -428,7 +430,7 @@ article.content
   p You can use this route to get data for exact district.
   pre.urlframe
     span.urlframe__method GET
-    code.urlframe__url #{protocol}#{host}/api/v1/districts/:id
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts/:id
 
   p You can use this route to get data for all districts.
   table
