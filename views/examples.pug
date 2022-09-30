@@ -1,0 +1,777 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='icon' type='image/x-icon' href='turkey_flag_flags_18075.ico')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/foundation.min.css')
+  script(src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js')
+  style.
+    *,
+    *::before,
+    *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    *:focus {
+    outline: 3px solid #ff0000;
+    border-radius: 5px;
+    z-index: 3;
+    }
+    html {
+    scroll-behavior: smooth;
+    }
+    body {
+    font-family: 'Inter', sans-serif;
+    }
+    a {
+    text-decoration: none;
+    color: inherit;
+    }
+    .floating-nav-button {
+    display: none;
+    }
+    nav.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #f5f5f5;
+    border-right: 1px solid #e5e5e5;
+    overflow-y: auto;
+    }
+    a.sidenav__item {
+    display: block;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e5e5;
+    }
+    a.sidenav__item:hover {
+    background-color: #f1f1f1;
+    }
+    article.content {
+    flex: 1;
+    padding: 1rem;
+    margin-left: 300px;
+    }
+    article.content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h5 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h6 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    }
+    article.content a {
+    color: turquoise;
+    }
+    article.content a:hover {
+    color: darkturquoise;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid darkturquoise;
+    }
+    article.content pre.urlframe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    }
+    article.content pre.urlframe span.urlframe__method {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: white;
+    background-color: green;
+    }
+    article.content pre.urlframe code.urlframe__url {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #333333;
+    border: 1px solid #555555;
+    overflow-y: auto;
+    background-color: #eee;
+    }
+    article.content pre {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    }
+    article.content code {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    }
+    article.content img {
+    max-width: 100%;
+    }
+    article.content table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    article.content table th {
+    background-color: #f5f5f5;
+    padding: 0.5rem;
+    border: 1px solid #e5e5e5;
+    }
+    article.content table td {
+    padding: 0.5rem;
+    border: 1px solid #e5e5e5;
+    }
+    article.content table tr:nth-child(odd) {
+    background-color: #f5f5f5;
+    }
+    article.content table tr:nth-child(even) {
+    background-color: #fff;
+    }
+    article.content .hook {
+    color: black;
+    }
+    article.content .hook:hover {
+    color: #555555;
+    }
+    article.content .hook::before {
+    content: '🔗';
+    margin-right: 0.5rem;
+    }
+    @media only screen and (max-width: 768px) {
+    a.floating-nav-button {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+    nav.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    padding-top: 60px;
+    }
+    a.sidenav__item {
+    display: block;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    a.sidenav__item:hover {
+    color: #f1f1f1;
+    }
+    .content__title {
+    padding-top: 4rem;
+    }
+    article.content {
+    margin-left: 0;
+    padding: 1rem;
+    }
+    article.content h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h4 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h5 {
+    font-size: 0.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    article.content h6 {
+    font-size: 0.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    }
+    }
+  title Documentation | Provinces of Turkey API
+a#floating-nav-button.floating-nav-button(href='#') &#x2630;
+nav.sidenav
+  a.sidenav__item(href='/') Return to home page
+  a.sidenav__item(href='/docs') Return to documentation
+  a.sidenav__item(href='#information') Information
+  a.sidenav__item(href='#example1') Example 1: Search provinces
+  a.sidenav__item(href='#example2') Example 2: Population range
+  a.sidenav__item(href='#example3') Example 3: Pagination
+  a.sidenav__item(href='#example4') Example 4: Fields
+  a.sidenav__item(href='#example5') Example 5: Sorting
+  a.sidenav__item(href='#example6') Example 6: Complex Queries
+article.content
+  h1.content__title
+    a#information.hook(href='#information') API Usage | Examples
+  hr
+  br
+  p
+    | If you are confused or want an explanation with examples, you can review this
+    | page.
+  p This API highlights query params more than path variables.
+  p
+    | In this section, we will use queries that are more likely to be used in real life.
+    | For real life API usage, we will exemplify via JavaScript.
+  h2
+    a#example1.hook(href='#example1')  Example 1: Search provinces
+  pre.urlframe
+    span.urlframe__method URL
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?name={user input}       
+  p
+    | The end user&apos;s connection to your site, app, etc. One of the first things
+    | he/she/they will do when he enters is probably to search for any province (or
+    | district). In this case, it would be most logical to use this query.
+  p
+    | NOTE: Note that this method only deals with the names of provinces (or districts).
+    | For this, use 
+    code .../api/v1/provinces/34
+    |  instead of
+    code .../api/v1/provinces?name=34
+    | .
+  .playground__panel
+    p.playground__panel--title Example usage:
+    pre.playground__panel--content
+      code.language-javascript
+        |  
+        |  async function getProvinces(input) {
+        |    try {
+        |      if (input.length > 0) {
+        |        const response = await fetch(
+        |          `#{protocol}#{host}/api/v1/provinces?name=${input}`
+        |        );
+        |        const data = await response.json();
+        |        return data;
+        |      }
+        |    } catch (error) {
+        |      console.error(error);
+        |    }
+        |  }
+        |
+        |  // NOTE: This is just an example. You can use this function in your own way.
+        |  // You can use the search by name feature not only for provinces but also for districts. Just replace "provinces" with "districts".
+        |  
+                    
+  p
+    | After that, let&apos;s consider that the user makes the query 
+    code &quot;istanbul&quot;
+    | .
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url #{protocol}#{host}/api/v1/provinces?name=istanbul     
+              
+  .playground__panel
+    p.playground__panel--title Response:
+    pre.playground__panel--content
+      code.language-json
+        |  
+        |  {
+        |    "status": "OK",
+        |    "data": [
+        |      {
+        |        "id": 34,
+        |        "name": "İstanbul",
+        |        "area": 5461,
+        |        "population": 15840900,
+        |        "areaCode": [
+        |          212,
+        |          216
+        |        ],
+        |        "isMetropolitan": true,
+        |        "maps": {
+        |          "googleMaps": "https://goo.gl/maps/wKdwRFM4NW8Wm6ZZ8",
+        |          "openStreetMaps": "https://www.openstreetmap.org/relation/223474"
+        |        },
+        |        "region": {
+        |          "en": "Marmara",
+        |          "tr": "Marmara"
+        |        },
+        |        "districts": [
+        |          // Districts of İstanbul
+        |        ]
+        |      }
+        |    ]
+        |  }
+        |
+        |  // "data" returns an array, regardless of whether a single province or multiple provinces are returned when searched.
+        |  
+
+  h2
+    a#example2.hook(href='#example2')
+      | Example 2: List districts in a specific population range
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts?minPopulation={user input}&amp;maxPopulation={user input}
+              
+  .playground__panel
+    p.playground__panel--title Example usage:
+    pre.playground__panel--content
+      code.language-javascript
+        |  
+        |  async function getDistricts(min, max) {
+        |    try {
+        |      if (min &gt; 0 &amp;&amp; max &gt; 0) {
+        |        const response = await fetch(
+        |          `#{protocol}#{host}/api/v1/districts?minPopulation=${min}&amp;maxPopulation=${max}`
+        |        );
+        |        const data = await response.json();
+        |        return data;
+        |      }
+        |    } catch (error) {
+        |      console.error(error);
+        |    }
+        |  }
+        |
+        |  // NOTE: This is just an example. You can use this function in your own way.
+        |  // NOTE: You can use the search by population feature not only for districts but also for provinces. Just replace "districts" with "provinces".
+        |  
+                    
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url #{protocol}#{host}/api/v1/provinces?minPopulation=100000&amp;maxPopulation=300000
+  p
+    | Good, now let&apos;s assume that the user wants to list the districts within a certain
+    | population range. In this example, let&apos;s assume that the end user enters
+    code 100000
+    |  as the minimum population and 
+    code 300000
+    |  as the
+    |         maximum population.
+  .playground__panel
+    p.playground__panel--title Response:
+    pre.playground__panel--content
+      code.language-json
+        |  
+        |  {
+        |    "status": "OK",
+        |    "data": [
+        |      {
+        |        "id": 1219,
+        |        "name": "Ceyhan",
+        |        "area": 1426,
+        |        "population": 159955,
+        |        "province": "Adana"
+        |      },
+        |      {
+        |        "id": 1486,
+        |        "name": "Kozan",
+        |        "area": 1903,
+        |        "population": 132320,
+        |        "province": "Adana"
+        |      },
+        |      {
+        |        "id": 2032,
+        |        "name": "Sarıçam",
+        |        "area": 770,
+        |        "population": 208227,
+        |        "province": "Adana"
+        |      },
+        |      // Other 150 districts
+        |    ]
+        |  }
+        |  
+
+  h2
+    a#example3.hook(href='#example3')  Example 3: Pagination
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?offset={user input}&amp;limit={user input}
+  p
+    | Viewing 81 cities (including their districts) or 972 districts at the same time
+    | can be annoying for end users with slow connections, as well as your site, app,
+    | etc. it can be filled with too much content at once. You can use the pagination
+    | method to avoid this.
+  .playground__panel
+    p.playground__panel--title Example usage:
+    pre.playground__panel--content
+      code.language-javascript
+        |  
+        |  async function getProvinces(offset, limit) {
+        |    try {
+        |      if (offset &gt; 0 &amp;&amp; limit &gt; 0) {
+        |        const response = await fetch(
+        |          `#{protocol}#{host}/api/v1/provinces?offset=${offset}&limit=${limit}`
+        |        );
+        |        const data = await response.json();
+        |        return data;
+        |      }
+        |    } catch (error) {
+        |      console.error(error);
+        |    }
+        |  }
+        |
+        |  let maxProvincePerPage = 10;
+        |  let currentPage = 1;
+        |  let offset = (currentPage - 1) * maxProvincePerPage;
+        |  let limit = maxProvincePerPage;
+        |
+        |  getProvinces(offset, limit).then((data) =&gt; {
+        |    console.log(data);
+        |  });
+        |  
+                    
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?offset=30&amp;limit=10   
+  p
+    | In this example, let the 
+    code offset
+    |  value be 
+    code 30
+    |  and the
+    code limit
+    |  value 
+    code 10
+    | . In this case, if we decide that there
+    |         will be 10 provinces on each page, the provinces 31 to 40 will be listed on page 4
+    |         (out of 9).
+  .playground__panel
+    p.playground__panel--title Response:
+    pre.playground__panel--content
+      code.language-json
+        |  
+        |  {
+        |    "status": "OK",
+        |    "data": [
+        |      {
+        |        "id": 31,
+        |        "name": "Hatay",
+        |        "area": 5524,
+        |        "population": 1670712,
+        |        "areaCode": [
+        |          326
+        |        ],
+        |        "isMetropolitan": true,
+        |        "maps": {
+        |          "googleMaps": "https://goo.gl/maps/2VkFg1AM9B4Xv9W89",
+        |          "openStreetMaps": "https://www.openstreetmap.org/relation/223122"
+        |        },
+        |        "region": {
+        |          "en": "Mediterranean",
+        |          "tr": "Akdeniz"
+        |        },
+        |        "districts": [
+        |          // Districts of Hatay
+        |        ]
+        |      },
+        |      {
+        |        "id": 32,
+        |        "name": "Isparta",
+        |        "area": 8946,
+        |        "population": 445678,
+        |        "areaCode": [
+        |          246
+        |        ],
+        |        "isMetropolitan": false,
+        |        "maps": {
+        |          "googleMaps": "https://goo.gl/maps/v8tcHjuuCKyNMn687",
+        |          "openStreetMaps": "https://www.openstreetmap.org/relation/223134"
+        |        },
+        |        "region": {
+        |          "en": "Mediterranean",
+        |          "tr": "Akdeniz"
+        |        },
+        |        "districts": [
+        |          // Districts of Isparta
+        |        ]
+        |      },
+        |      // Other 8 provinces
+        |    ]
+        |  }
+        |  
+
+  h2
+    a#example4.hook(href='#example4')  Example 4: Fields
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url language-http #{protocol}#{host}/api/v1/provinces?fields={user input}
+  p
+    | When you want to obtain only one or more provinces / districts, you can use ID,
+    | province / district name, area, population, etc. you get all the data. But do you
+    | really need all this data?
+  p
+    | Imagine you want to list all provinces. In this case, you need to get the data of
+    | these provinces, but on the other hand, each province has its own districts. But
+    | you do not need the knowledge of these districts, you only need the knowledge of
+    | the cities. In this case you will need to use fields query.
+  .playground__panel
+    p.playground__panel--title Example usage:
+    pre.playground__panel--content
+      code.language-javascript
+        |  
+        |  async function getProvinces(fields) {
+        |    try {
+        |      if (fields) {
+        |        const response = await fetch(
+        |          `#{protocol}#{host}/api/v1/provinces?fields=${fields}`
+        |        );
+        |        const data = await response.json();
+        |        return data;
+        |      }
+        |    } catch (error) {
+        |      console.error(error);
+        |    }
+        |  }
+        |
+        |  let fields = "id,name,area,population,areaCode,isMetropolitan,maps,region";
+        |  
+                    
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?fields=id,name,area,population,areaCode,isMetropolitan,maps,region  
+  p
+    | In this example we want to get all fields except districts. In this case, we must
+    | write all fields except districts. Notice that there is a comma between each
+    | field.
+  .playground__panel
+    p.playground__panel--title Response:
+    pre.playground__panel--content
+      code.language-json
+        |  
+        |  {
+        |    "status": "OK",
+        |    "data": [
+        |      {
+        |        "id": 1,
+        |        "name": "Adana",
+        |        "area": 13844,
+        |        "population": 2263373,
+        |        "areaCode": [
+        |          322
+        |        ],
+        |        "isMetropolitan": true,
+        |        "maps": {
+        |          "googleMaps": "https://goo.gl/maps/4yHUNdZuhcBn7rqX8",
+        |          "openStreetMaps": "https://www.openstreetmap.org/relation/167216"
+        |        },
+        |        "region": {
+        |          "en": "Mediterranean",
+        |          "tr": "Akdeniz"
+        |        }
+        |      },
+        |      {
+        |        "id": 2,
+        |        "name": "Adıyaman",
+        |        "area": 7337,
+        |        "population": 632148,
+        |        "areaCode": [
+        |          416
+        |        ],
+        |        "isMetropolitan": false,
+        |        "maps": {
+        |          "googleMaps": "https://goo.gl/maps/UqRzeK1ApyPjbhpp6",
+        |          "openStreetMaps": "https://www.openstreetmap.org/relation/223141"
+        |        },
+        |        "region": {
+        |          "en": "Southeastern Anatolia",
+        |          "tr": "Güneydoğu Anadolu"
+        |        }
+        |      },
+        |      // Other 79 provinces
+        |    ]
+        |  }
+        |  
+                    
+  h2
+    a#example5.hook(href='#example5')  Example 5: Sorting
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts?sort={user input}    
+  p
+    | By default, districts are classified according to the provinces they are
+    | affiliated with first, and if the districts are affiliated with the same
+    | provinces, they are classified according to their names. We should use sort query
+    | to change this order.
+  .playground__panel
+    p.playground__panel--title Example usage:
+    pre.playground__panel--content
+      code.language-javascript
+        |  
+        |  async function getDistricts(sort) {
+        |    try {
+        |      if (sort) {
+        |        const response = await fetch(
+        |          `#{protocol}#{host}/api/v1/districts?sort=${sort}`
+        |        );
+        |        const data = await response.json();
+        |        return data;
+        |      }
+        |    } catch (error) {
+        |      console.error(error);
+        |    }
+        |  }
+        |
+        |  let sort = "name";   
+        |        
+                    
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts?sort=-population 
+  p
+    | In this example, let&apos;s rank all the districts from the most populated to the least
+    | populated.
+  p
+    | NOTE: If you&apos;ve noticed, the 
+    code ?sort=-population
+    |  query has a minus (-)
+    |         sign before 
+    code population
+    | . This symbol is used to descend the ascending
+    |         order. In this example, we will use this sign to rank from the most populated
+    |         district to the least populated district.
+  .playground__panel
+    p.playground__panel--title Response:
+    pre.playground__panel--content
+      code.language-json
+        |  
+        |   {
+        |     "status": "OK",
+        |     "data": [
+        |       // First two districts
+        |       {
+        |         "id": 2053,
+        |         "name": "Esenyurt",
+        |         "area": 43,
+        |         "population": 977489,
+        |         "province": "İstanbul"
+        |       },
+        |       {
+        |         "id": 1231,
+        |         "name": "Çankaya",
+        |         "area": 483,
+        |         "population": 949265,
+        |         "province": "Ankara"
+        |       },
+        |       // Other 968 districts
+        |       {
+        |         "id": 1379,
+        |         "name": "Hamur",
+        |         "area": 873,
+        |         "population": 1710,
+        |         "province": "Ağrı"
+        |       },
+        |       {
+        |         "id": 1994,
+        |         "name": "Yalıhüyük",
+        |         "area": 94,
+        |         "population": 1532,
+        |         "province": "Konya"
+        |       }
+        |       // Last two districts
+        |     ]
+        |   }
+        |  
+                    
+  h2
+    a#example6.hook(href='#example6')  Example 6: Complex Queries
+  pre.urlframe
+    span.urlframe__method GET
+    code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts?name=i&amp;minPopulation=100000&amp;sort=name&amp;offset=10&amp;limit=20
+  p
+    | Of course, you can use multiple queries for a single URL. When you send a request,
+    | it sorts the cities with a population of at least 100000 with an &quot;i&quot; in their name
+    | as an ascending order, and gives you the districts from the 11th to the 30th.
+  p Good luck!
+script.
+  let isOpened = false;
+  document.getElementById('floating-nav-button').addEventListener('click', () => {
+  isOpened = !isOpened;
+  if (isOpened) {
+  document.querySelector('.sidenav').style.width = '80vw';
+  document.querySelector('.floating-nav-button').innerHTML = '&#10006;';
+  document.querySelector('.floating-nav-button').style.left = 'inherit';
+  document.querySelector('.floating-nav-button').style.right = '1rem';
+  } else {
+  document.querySelector('.sidenav').style.width = '0';
+  document.querySelector('.floating-nav-button').innerHTML = '&#9776;';
+  document.querySelector('.floating-nav-button').style.left = '1rem';
+  document.querySelector('.floating-nav-button').style.right = 'inherit';
+  }
+  });
+  document.querySelectorAll('a.sidenav__item').forEach(item => {
+  item.addEventListener('click', () => {
+  if (window.innerWidth < 768) {
+  document.querySelector('.sidenav').style.width = '0';
+  document.querySelector('.floating-nav-button').innerHTML = '&#9776;';
+  document.querySelector('.floating-nav-button').style.left = '1rem';
+  document.querySelector('.floating-nav-button').style.right = 'inherit';
+  isOpened = false;
+  }
+  });
+  });
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  if (anchor === 'a#floating-nav-button.floating-nav-button') return;
+  anchor.addEventListener('click', function (e) {
+  e.preventDefault();
+  if (e.srcElement.id === 'floating-nav-button') return;
+  document.querySelector(this.getAttribute('href')).scrollIntoView({
+  behavior: 'smooth',
+  });
+  });
+  });
+  document.querySelectorAll('pre code').forEach(element => {
+  hljs.highlightElement(element);
+  });
