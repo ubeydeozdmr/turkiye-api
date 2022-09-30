@@ -36,6 +36,13 @@ app.get('/docs', (req, res) => {
   });
 });
 
+app.get('/examples', (req, res) => {
+  res.render('examples', {
+    host: req.headers.host,
+    protocol: NODE_ENV == 'production' ? 'https://' : 'http://',
+  });
+});
+
 app.use('/api/v1', v1Router);
 
 app.all('*', (req, res, next) => {
