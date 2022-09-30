@@ -96,7 +96,8 @@ head
     article.content a {
     color: turquoise;
     }
-    article.content a:hover {
+    article.content a:hover,
+    article.content a:active {
     color: darkturquoise;
     transition: all 0.3s ease;
     border-bottom: 1px solid darkturquoise;
@@ -261,6 +262,7 @@ nav.sidenav
   a.sidenav__item(href='#districts') Districts
   a.sidenav__item(href='#get-all-districts') &bull; Get All Districts
   a.sidenav__item(href='#get-exact-district') &bull; Get Exact District
+  a.sidenav__item(href='/examples') Examples
 article.content
   h1.content__title
     a#information.hook(href='#information') Provinces of Turkey API Documentation
