@@ -17,6 +17,11 @@ head
     padding: 0;
     box-sizing: border-box;
     }
+    *:focus {
+    outline: 3px solid #ff0000;
+    border-radius: 5px;
+    z-index: 3;
+    }
     html {
     scroll-behavior: smooth;
     }
@@ -98,13 +103,13 @@ head
     .playground__url {
     color: #333333;
     border-radius: 5px;
-    overflow: hidden;
     display: flex;
     flex-direction: row;
     width: 100%;
     }
     .playground__url--host {
     background-color: #cccccc;
+    border-radius: 5px 0 0 5px;
     padding: 0.4rem;
     display: flex;
     flex-direction: row;
@@ -135,6 +140,7 @@ head
     transform: translateY(1px);
     }
     .playground__url--submit {
+    border-radius: 0 5px 5px 0;
     background-color: turquoise;
     padding: 0.4rem;
     cursor: pointer;
