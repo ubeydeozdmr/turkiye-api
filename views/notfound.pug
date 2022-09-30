@@ -4,14 +4,47 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    link(rel='icon' type='image/x-icon' href='turkey_flag_flags_18075.ico')
+    link(rel='icon' type='image/x-icon' href='favicon/turkey_flag_flags_18075.ico')
     link(rel='preconnect', href='https://fonts.googleapis.com')
     link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
     link(href='https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap', rel='stylesheet')
     style.
-      *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box }
-      body { font-family: 'Inter', sans-serif; width: 100%; height: 100vh; display: flex; flex-direction: column; gap: 5%; align-items: center; justify-content: center; padding: 1rem; }
-      h1, p { text-align: center; }
+      *,
+      *::before,
+      *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+      }
+      *:focus {
+      outline: 3px solid #ff0000;
+      border-radius: 5px;
+      z-index: 3;
+      }
+      body {
+      font-family: 'Inter', sans-serif;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 5%;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      }
+      h1,
+      p {
+      text-align: center;
+      }
+      a {
+      color: turquoise;
+      text-decoration: none;
+      }
+      a:hover,
+      a:active {
+      color: darkturquoise;
+      border-bottom: 1px solid darkturquoise;
+      }
     title Not Found | Provinces of Turkey API
   body
     h1 Can't find url you entered on this server. 😢
