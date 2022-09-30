@@ -17,6 +17,11 @@ head
     padding: 0;
     box-sizing: border-box;
     }
+    *:focus {
+    outline: 3px solid #ff0000;
+    border-radius: 5px;
+    z-index: 3;
+    }
     html {
     scroll-behavior: smooth;
     }
@@ -89,10 +94,12 @@ head
     margin-bottom: 1rem;
     }
     article.content a {
-    color: #007bff;
+    color: turquoise;
     }
     article.content a:hover {
-    color: #0056b3;
+    color: darkturquoise;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid darkturquoise;
     }
     article.content pre.urlframe {
     display: flex;
