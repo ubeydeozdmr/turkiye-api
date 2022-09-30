@@ -12,7 +12,7 @@ const { NODE_ENV } = process.env;
 
 app.set('view engine', 'pug');
 app.use(express.static('assets'));
-app.use(express.static('favicon'));
+app.use(express.static('public'));
 app.use(cors());
 app.options('*', cors());
 app.use(bodyParser.json());
