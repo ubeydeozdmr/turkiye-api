@@ -53,3 +53,5 @@ app.listen(PORT, () => {
   console.log(`API is listening on port ${PORT}`);
   if (NODE_ENV === 'development') console.log(`http://localhost:${PORT}`);
 });
+
+// Test commit 1
