@@ -1,4 +1,4 @@
-# Provinces of Turkey API
+# Turkiye API
 
 API containing information about Turkey's provinces. It is still under development.
 

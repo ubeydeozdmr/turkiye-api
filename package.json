@@ -1,7 +1,7 @@
 {
-  "name": "provinces-of-turkey-api",
+  "name": "turkiye-api",
   "version": "1.0.0",
-  "description": "Provinces of Turkey API",
+  "description": "This API allows you to get data about provinces/districts in Turkey. - Türkiye'deki iller/ilçeler hakkında veri almanızı sağlar.",
   "main": "server.js",
   "scripts": {
     "start": "node src/index.js",
@@ -27,5 +27,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ubeydeozdmr/turkiye-api.git"
   }
 }

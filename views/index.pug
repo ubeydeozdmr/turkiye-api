@@ -111,7 +111,7 @@ head
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 87.5%;
     }
     .playground__url--host {
     background-color: #cccccc;
@@ -121,12 +121,14 @@ head
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 1% .5%;
     }
     .playground__url--input {
     background-color: #eeeeee;
     padding: 0.4rem;
     border: none;
     flex-grow: 1;
+    font-size: 1rem;
     }
     .playground__url--copy {
     background-color: #cccccc;
@@ -221,6 +223,12 @@ head
     padding: 5%;
     text-align: center;
     }
+    p.playground__url--host#sm {
+    display: none;
+    }
+    p.playground__url--host#lg {
+    display: flex;
+    }
     @media only screen and (max-width: 768px) {
     .hero__text-box {
     gap: 5vh;
@@ -232,6 +240,12 @@ head
     .hero__quick-start,
     .content__text {
     font-size: 1rem;
+    }
+    .playground__url {
+    width: 100%;
+    }
+    .playground__url--input {
+    font-size: 0.8rem;
     }
     .playground__url,
     .playground__url--host,
@@ -246,12 +260,18 @@ head
     .footer__text {
     font-size: 0.8rem;
     }
+    p.playground__url--host#sm {
+    display: flex;
     }
-  title Provinces of Turkey API
+    p.playground__url--host#lg {
+    display: none;
+    }
+    }
+  title Turkiye API
 header.hero
   img.hero__img(src=image alt='An image from Turkey/Turkiye')
   .hero__text-box
-    h1.hero__title Provinces of Turkey API
+    h1.hero__title Turkiye API
     h2.hero__description
       | An approach that will you save from writing long
     a.hero__quick-start(href='#content' style='padding: 2.5%')
@@ -259,11 +279,11 @@ header.hero
 article#content.content
   p.content__text
     a.content__link(href='/docs' target='_blank') Click here 
-    | to view the
-    |         documentation!
+    | to view the documentation!
   .playground
     .playground__url
-      p.playground__url--host /api/v1/
+      p.playground__url--host#sm /api/v1/
+      p.playground__url--host#lg #{protocol}#{host}/api/v1/
       input#playground-input.playground__url--input(type='text' name='playground-input' value='provinces?name=istanbul')
       a.playground__url--copy(href='#action')
         svg.bi.bi-clipboard(xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewbox='0 0 16 16')
@@ -304,9 +324,9 @@ article#content.content
 footer.footer
   p.footer__text
     | Created by Ubeyde Emir Özdemir. 
-    a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/provinces-of-turkey-api') GitHub
+    a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/turkiye-api') GitHub
     |  - 
-    a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/provinces-of-turkey-api/blob/main/LICENSE') License
+    a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/turkiye-api/blob/main/LICENSE') License
 script.
   hljs.highlightAll();
 
@@ -354,6 +374,7 @@ script.
     .querySelector('.playground__url--submit')
     .addEventListener('click', event => {
       event.preventDefault();
+      document.querySelector('.playground__panel--content code').innerHTML = 'Loading...';
       const input = document.querySelector('.playground__url--input').value;
       const url = `/api/v1/${input}`;
       fetch(url)
