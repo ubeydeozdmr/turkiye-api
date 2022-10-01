@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
   const images = fs.readdirSync(path.join(__dirname, 'public/assets'));
   res.render('index', {
     host: req.get('host'),
-    protocol: req.secure ? 'https://' : 'http://',
+    protocol: NODE_ENV === 'production' ? 'https://' : 'http://',
     image: images[Math.floor(Math.random() * images.length)],
   });
 });
@@ -31,14 +31,14 @@ app.get('/', (req, res) => {
 app.get('/docs', (req, res) => {
   res.render('docs', {
     host: req.get('host'),
-    protocol: req.secure ? 'https://' : 'http://',
+    protocol: NODE_ENV === 'production' ? 'https://' : 'http://',
   });
 });
 
 app.get('/examples', (req, res) => {
   res.render('examples', {
     host: req.get('host'),
-    protocol: req.secure ? 'https://' : 'http://',
+    protocol: NODE_ENV === 'production' ? 'https://' : 'http://',
   });
 });
 
