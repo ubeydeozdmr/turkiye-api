@@ -20,11 +20,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
-  console.log(req.get('x-forwarded-proto'));
   const images = fs.readdirSync(path.join(__dirname, 'public/assets'));
   res.render('index', {
     host: req.get('host'),
-    protocol: NODE_ENV === 'production' ? 'https://' : 'http://',
+    protocol: req.get('x-forwarded-proto') ? 'https://' : 'http://',
     image: images[Math.floor(Math.random() * images.length)],
   });
 });
@@ -32,14 +31,14 @@ app.get('/', (req, res) => {
 app.get('/docs', (req, res) => {
   res.render('docs', {
     host: req.get('host'),
-    protocol: NODE_ENV === 'production' ? 'https://' : 'http://',
+    protocol: req.get('x-forwarded-proto') ? 'https://' : 'http://',
   });
 });
 
 app.get('/examples', (req, res) => {
   res.render('examples', {
     host: req.get('host'),
-    protocol: NODE_ENV === 'production' ? 'https://' : 'http://',
+    protocol: req.get('x-forwarded-proto') ? 'https://' : 'http://',
   });
 });
 
