@@ -20,6 +20,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
+  console.log(req.get('x-forwarded-proto'));
   const images = fs.readdirSync(path.join(__dirname, 'public/assets'));
   res.render('index', {
     host: req.get('host'),
