@@ -9,7 +9,7 @@ head
   meta(name='robots' content='index, follow')
   meta(name='googlebot' content='index, follow')
   meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
-  link(rel='icon' type='image/x-icon' href='favicon/turkey_flag_flags_18075.ico')
+  link(rel='icon' type='image/x-icon' href='public/favicon/turkey_flag_flags_18075.ico')
   link(rel='preconnect' href='https://fonts.googleapis.com')
   link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
   link(href='https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap' rel='stylesheet')
@@ -27,6 +27,10 @@ head
     outline: 3px solid #ff0000;
     border-radius: 5px;
     z-index: 3;
+    }
+    *::selection {
+    background-color: #ff0000;
+    color: #fff;
     }
     html {
     scroll-behavior: smooth;
