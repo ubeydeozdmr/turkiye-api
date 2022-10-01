@@ -13,7 +13,6 @@ const { NODE_ENV } = process.env;
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
-app.use('/assets', express.static(path.join(__dirname, 'assets')));
 app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(cors());
 app.options('*', cors());
@@ -21,7 +20,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
-  const images = fs.readdirSync(path.join(__dirname, 'assets'));
+  const images = fs.readdirSync(path.join(__dirname, 'public/assets'));
   res.render('index', {
     host: req.get('host'),
     protocol: req.protocol + '://',
