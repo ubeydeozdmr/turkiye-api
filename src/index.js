@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const cors = require('cors');
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -11,35 +12,34 @@ const PORT = process.env.PORT || 8181;
 const { NODE_ENV } = process.env;
 
 app.set('view engine', 'pug');
-app.use(express.static('assets'));
-app.use(express.static('public'));
+app.set('views', path.join(__dirname, 'views'));
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(cors());
 app.options('*', cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
+  const images = fs.readdirSync(path.join(__dirname, 'assets'));
   res.render('index', {
-    host: req.headers.host,
-    protocol: NODE_ENV == 'production' ? 'https://' : 'http://',
-    image:
-      fs.readdirSync('assets')[
-        Math.floor(Math.random() * fs.readdirSync('assets').length)
-      ],
+    host: req.get('host'),
+    protocol: req.protocol + '://',
+    image: images[Math.floor(Math.random() * images.length)],
   });
 });
 
 app.get('/docs', (req, res) => {
   res.render('docs', {
-    host: req.headers.host,
-    protocol: NODE_ENV == 'production' ? 'https://' : 'http://',
+    host: req.get('host'),
+    protocol: req.protocol + '://',
   });
 });
 
 app.get('/examples', (req, res) => {
   res.render('examples', {
-    host: req.headers.host,
-    protocol: NODE_ENV == 'production' ? 'https://' : 'http://',
+    host: req.get('host'),
+    protocol: req.protocol + '://',
   });
 });
 
