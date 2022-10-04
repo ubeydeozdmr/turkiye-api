@@ -544,6 +544,10 @@ article.content
         |          246
         |        ],
         |        "isMetropolitan": false,
+        |        "coordinates": {
+        |          "latitude": 37.76667,
+        |          "longitude": 30.55
+        |        },
         |        "maps": {
         |          "googleMaps": "https://goo.gl/maps/v8tcHjuuCKyNMn687",
         |          "openStreetMaps": "https://www.openstreetmap.org/relation/223134"
@@ -760,6 +764,46 @@ article.content
     | Of course, you can use multiple queries for a single URL. When you send a request,
     | it sorts the cities with a population of at least 100000 with an &quot;i&quot; in their name
     | as an ascending order, and gives you the districts from the 11th to the 30th.
+  .playground__panel
+    p.playground__panel--title Response:
+    pre.playground__panel--content
+      code.language-json
+        |  
+        |   {
+        |     "status": "OK",
+        |     "data": [
+        |       {
+        |         "id": 2051,
+        |         "name": "Beylikdüzü",
+        |         "area": 39,
+        |         "population": 398122,
+        |         "province": "İstanbul"
+        |       },
+        |       {
+        |         "id": 1195,
+        |         "name": "Bismil",
+        |         "area": 1679,
+        |         "population": 118592,
+        |         "province": "Diyarbakır"
+        |       },
+        |       {
+        |         "id": 1223,
+        |         "name": "Cizre",
+        |         "area": 444,
+        |         "population": 155182,
+        |         "province": "Şırnak"
+        |       },
+        |       {
+        |         "id": 2007,
+        |         "name": "Çiğli",
+        |         "area": 139,
+        |         "population": 209951,
+        |         "province": "İzmir"
+        |       }
+        |       // Other 16 districts
+        |     ]
+        |   }
+        |  
   p Good luck!
 script.
   let isOpened = false;
