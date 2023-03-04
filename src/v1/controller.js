@@ -24,12 +24,10 @@ exports.getProvinces = (req, res) => {
     );
     return res.send({ status: 'OK', data: provinces });
   } catch (error) {
-    res
-      .status(error?.status || 500)
-      .send({
-        status: 'ERROR',
-        error: error?.message || 'Internal Server Error',
-      });
+    res.status(error?.status || 500).send({
+      status: 'ERROR',
+      error: error?.message || 'Internal Server Error',
+    });
   }
 };
 
@@ -43,7 +41,6 @@ exports.getExactProvince = (req, res) => {
     res.status(error?.status || 500).send({
       status: 'ERROR',
       error: error?.message || 'Internal Server Error',
-      devError: error?.devMessage || '-',
     });
   }
 };
@@ -69,12 +66,10 @@ exports.getDistricts = (req, res) => {
     );
     return res.send({ status: 'OK', data: districts });
   } catch (error) {
-    res
-      .status(error?.status || 500)
-      .send({
-        status: 'ERROR',
-        error: error?.message || 'Internal Server Error',
-      });
+    res.status(error?.status || 500).send({
+      status: 'ERROR',
+      error: error?.message || 'Internal Server Error',
+    });
   }
 };
 
@@ -88,7 +83,6 @@ exports.getExactDistrict = (req, res) => {
     res.status(error?.status || 500).send({
       status: 'ERROR',
       error: error?.message || 'Internal Server Error',
-      devError: error?.devMessage || '-',
     });
   }
 };

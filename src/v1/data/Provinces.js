@@ -187,7 +187,6 @@ exports.getExactProvince = function (id, fields) {
       throw {
         status: 404,
         message: 'Invalid province ID. The id parameter must be a number.',
-        devMessage: `The ability to search by province name has been removed for this route. Try using /api/v1/provinces?name=${id} instead.`,
       };
     }
 
@@ -223,7 +222,6 @@ exports.getExactProvince = function (id, fields) {
     throw {
       status: error?.status || 500,
       message: error?.message || 'Internal Server Error',
-      devMessage: error?.devMessage || '-',
     };
   }
 };
