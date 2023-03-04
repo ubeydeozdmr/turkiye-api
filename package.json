@@ -2,7 +2,7 @@
   "name": "turkiye-api",
   "version": "1.0.0",
   "description": "This API allows you to get data about provinces/districts in Turkey. - Türkiye'deki iller/ilçeler hakkında veri almanızı sağlar.",
-  "main": "server.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
@@ -18,15 +18,14 @@
   "author": "Ubeyde Emir Özdemir",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.21"
   },
   "repository": {
     "type": "git",
