@@ -2,8 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
 const express = require('express');
-const v1Router = require('./routesV1');
-require('./helpers/localizer');
+require('./utils/localizer');
 require('dotenv').config();
 
 const app = express();
@@ -11,7 +10,7 @@ const { PORT, NODE_ENV } = process.env;
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
-app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 app.options('*', cors());
 app.use(express.json());
@@ -40,7 +39,7 @@ app.get('/examples', (req, res) => {
   });
 });
 
-app.use('/api/v1', v1Router);
+app.use('/api/v1', require('./v1/routes'));
 
 app.all('*', (req, res, next) => {
   res.render('notfound');

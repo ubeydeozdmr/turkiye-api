@@ -1,5 +1,5 @@
-const Provinces = require('./database/Provinces');
-const Districts = require('./database/Districts');
+const Provinces = require('./data/Provinces');
+const Districts = require('./data/Districts');
 
 exports.getProvinces = (req, res) => {
   try {
@@ -20,13 +20,16 @@ exports.getProvinces = (req, res) => {
       offset,
       limit,
       fields,
-      sort
+      sort,
     );
     return res.send({ status: 'OK', data: provinces });
   } catch (error) {
     res
       .status(error?.status || 500)
-      .send({ status: 'ERROR', error: error?.message || 'Internal Server Error' });
+      .send({
+        status: 'ERROR',
+        error: error?.message || 'Internal Server Error',
+      });
   }
 };
 
@@ -62,13 +65,16 @@ exports.getDistricts = (req, res) => {
       offset,
       limit,
       fields,
-      sort
+      sort,
     );
     return res.send({ status: 'OK', data: districts });
   } catch (error) {
     res
       .status(error?.status || 500)
-      .send({ status: 'ERROR', error: error?.message || 'Internal Server Error' });
+      .send({
+        status: 'ERROR',
+        error: error?.message || 'Internal Server Error',
+      });
   }
 };
 

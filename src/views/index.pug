@@ -1,47 +1,7 @@
-doctype html
-head
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  meta(name='description' content='Bu API, Türkiye\'deki iller hakkında veri almanızı sağlar. / This API allows you to get data about provinces in Turkey.')
-  meta(name='keywords' content='api, turkiye, türkiye, iller, sehirler, ilceler, veri, json, turkey, provinces, cities, districts, data, json')
-  meta(name='author' content='Ubeyde Emir Özdemir')
-  meta(name='robots' content='index, follow')
-  meta(name='googlebot' content='index, follow')
-  meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
-  link(rel='icon' type='image/x-icon' href='public/favicon/turkey_flag_flags_18075.ico')
-  link(rel='preconnect' href='https://fonts.googleapis.com')
-  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
-  link(href='https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap' rel='stylesheet')
-  link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/foundation.min.css')
-  script(src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js')
+extends layouts/main.pug
+
+block styles
   style.
-    *,
-    *::before,
-    *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-    *:focus {
-    outline: 3px solid #ff0000;
-    border-radius: 5px;
-    z-index: 3;
-    }
-    *::selection {
-    background-color: #ff0000;
-    color: #fff;
-    }
-    html {
-    scroll-behavior: smooth;
-    }
-    body {
-    font-family: 'Inter', sans-serif;
-    }
-    a {
-    text-decoration: none;
-    color: inherit;
-    }
     header.hero {
     position: relative;
     display: flex;
@@ -272,139 +232,145 @@ head
     }
     }
   title Turkiye API
-header.hero
-  img.hero__img(src="public/assets/"+image alt='An image from Turkey/Turkiye')
-  .hero__text-box
-    h1.hero__title Turkiye API
-    h2.hero__description
-      | An approach that will you save from writing long
-    a.hero__quick-start(href='#content' style='padding: 2.5%')
-      | &darr; QUICK START
-article#content.content
-  p.content__text
-    a.content__link(href='/docs' target='_blank') Click here 
-    | to view the documentation!
-  .playground
-    .playground__url
-      p.playground__url--host#sm /api/v1/
-      p.playground__url--host#lg #{protocol}#{host}/api/v1/
-      input#playground-input.playground__url--input(type='text' name='playground-input' value='provinces?name=istanbul')
-      a.playground__url--copy(href='#action')
-        svg.bi.bi-clipboard(xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewbox='0 0 16 16')
-          path(d='M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z')
-          path(d='M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z')
-      a.playground__url--submit(href='#action')  Send Request 
-    p.playground__newtab
-      a.playground__newtab--link(href='#action') You can click here
-      |  to
-      |           view response in a new tab.
-    p.playground__hint
-      | Need a hint? Try 
-      a.playground__hint--link(href='#action') provinces
-      | , 
-      a.playground__hint--link(href='#action') provinces?name=istanbul
-      | , 
-      a.playground__hint--link(href='#action') provinces?isMetropolitan=true
-      | ,  
-      a.playground__hint--link(href='#action') provinces/28
-      | , 
-      a.playground__hint--link(href='#action') districts
-      | , 
-      a.playground__hint--link(href='#action') districts?name=dağ
-      | , 
-      a.playground__hint--link(href='#action') districts?minPopulation=100000&amp;maxPopulation=300000
-      | ,  
-      a.playground__hint--link(href='#action') districts/1832
-      | , 
-      a.playground__hint--link(href='#action') provinces?offset=10&amp;limit=20
-      | , 
-      a.playground__hint--link(href='#action') provinces?fields=name,areaCode
 
-    .playground__panel
-      p.playground__panel--title Response
-      pre.playground__panel--content
-        code.language-json
-                          
-footer.footer
-  p.footer__text
-    | Created by Ubeyde Emir Özdemir. 
-    a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/turkiye-api') GitHub
-    |  - 
-    a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/turkiye-api/blob/main/LICENSE') License
-script.
-  hljs.highlightAll();
+block content
+  header.hero
+    img.hero__img(src="assets/"+image alt='An image from Turkey/Turkiye')
+    .hero__text-box
+      h1.hero__title Turkiye API
+      h2.hero__description
+        | An approach that will you save from writing long
+      a.hero__quick-start(href='#content' style='padding: 2.5%')
+        | &darr; QUICK START
+  article#content.content
+    p.content__text
+      a.content__link(href='/docs' target='_blank') Click here 
+      | to view the documentation!
+    .playground
+      .playground__url
+        p.playground__url--host#sm /api/v1/
+        p.playground__url--host#lg #{protocol}#{host}/api/v1/
+        input#playground-input.playground__url--input(type='text' name='playground-input' value='provinces?name=istanbul')
+        a.playground__url--copy(href='#action')
+          svg.bi.bi-clipboard(xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewbox='0 0 16 16')
+            path(d='M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z')
+            path(d='M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z')
+        a.playground__url--submit(href='#action')  Send Request 
+      p.playground__newtab
+        a.playground__newtab--link(href='#action') You can click here
+        |  to
+        |           view response in a new tab.
+      p.playground__hint
+        | Need a hint? Try 
+        a.playground__hint--link(href='#action') provinces
+        | , 
+        a.playground__hint--link(href='#action') provinces?name=istanbul
+        | , 
+        a.playground__hint--link(href='#action') provinces?isMetropolitan=true
+        | ,  
+        a.playground__hint--link(href='#action') provinces/28
+        | , 
+        a.playground__hint--link(href='#action') districts
+        | , 
+        a.playground__hint--link(href='#action') districts?name=dağ
+        | , 
+        a.playground__hint--link(href='#action') districts?minPopulation=100000&amp;maxPopulation=300000
+        | ,  
+        a.playground__hint--link(href='#action') districts/1832
+        | , 
+        a.playground__hint--link(href='#action') provinces?offset=10&amp;limit=20
+        | , 
+        a.playground__hint--link(href='#action') provinces?fields=name,areaCode
 
-  async function init() {
-    try {
-      const res = await fetch('/api/v1/provinces?name=istanbul');
-      const data = await res.json();
-      document.querySelector('.playground__panel--content code').innerHTML =
-        JSON.stringify(data, null, 2);
-      hljs.highlightAll();
-    } catch (error) {
-      console.error(error);
+      .playground__panel
+        p.playground__panel--title Response
+        pre.playground__panel--content
+          code.language-json
+                            
+  footer.footer
+    p.footer__text
+      | Created by 
+      a.footer__link(target='_blank' href='https://ubeydeozdmr.netlify.app') Ubeyde Emir Özdemir
+      |  / 
+      a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/turkiye-api') GitHub
+      |  / 
+      a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/turkiye-api/blob/main/LICENSE') License
+
+block scripts
+  script.
+    hljs.highlightAll();
+
+    async function init() {
+      try {
+        const res = await fetch('/api/v1/provinces?name=istanbul');
+        const data = await res.json();
+        document.querySelector('.playground__panel--content code').innerHTML =
+          JSON.stringify(data, null, 2);
+        hljs.highlightAll();
+      } catch (error) {
+        console.error(error);
+      }
     }
-  }
 
-  document
-    .querySelector('a[href="#content"]')
-    .addEventListener('click', event => {
-      event.preventDefault();
-      document.querySelector('#content').scrollIntoView({
-        behavior: 'smooth',
+    document
+      .querySelector('a[href="#content"]')
+      .addEventListener('click', event => {
+        event.preventDefault();
+        document.querySelector('#content').scrollIntoView({
+          behavior: 'smooth',
+        });
+      });
+
+    document
+      .querySelector('.playground__url--input')
+      .addEventListener('keyup', event => {
+        if (event.keyCode === 13) document.querySelector('.playground__url--submit').click();
+      });
+
+    document
+      .querySelector('.playground__url--copy')
+      .addEventListener('click', event => {
+        event.preventDefault();
+        const input = document.querySelector('.playground__url--input');
+        const text = input.value;
+        input.value = '#{protocol}#{host}/api/v1/' + input.value;
+        input.select();
+        input.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+        input.value = text;
+      });
+
+    document
+      .querySelector('.playground__url--submit')
+      .addEventListener('click', event => {
+        event.preventDefault();
+        document.querySelector('.playground__panel--content code').innerHTML = 'Loading...';
+        const input = document.querySelector('.playground__url--input').value;
+        const url = `/api/v1/${input}`;
+        fetch(url)
+          .then(res => res.json())
+          .then(data => {
+            document.querySelector('.playground__panel--content code').innerHTML =
+              JSON.stringify(data, null, 2);
+            hljs.highlightAll();
+          })
+      });
+
+    document
+      .querySelector('.playground__newtab--link')
+      .addEventListener('click', event => {
+        event.preventDefault();
+        const input = document.querySelector('.playground__url--input').value;
+        const url =  `#{protocol}#{host}/api/v1/${input}`;
+        window.open(url, '_blank');
+      });
+
+    document.querySelectorAll('.playground__hint--link').forEach(link => {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        document.querySelector('.playground__url--input').value = link.innerHTML;
+        document.querySelector('.playground__url--submit').click();
       });
     });
 
-  document
-    .querySelector('.playground__url--input')
-    .addEventListener('keyup', event => {
-      if (event.keyCode === 13) document.querySelector('.playground__url--submit').click();
-    });
-
-  document
-    .querySelector('.playground__url--copy')
-    .addEventListener('click', event => {
-      event.preventDefault();
-      const input = document.querySelector('.playground__url--input');
-      const text = input.value;
-      input.value = '#{protocol}#{host}/api/v1/' + input.value;
-      input.select();
-      input.setSelectionRange(0, 99999);
-      document.execCommand('copy');
-      input.value = text;
-    });
-
-  document
-    .querySelector('.playground__url--submit')
-    .addEventListener('click', event => {
-      event.preventDefault();
-      document.querySelector('.playground__panel--content code').innerHTML = 'Loading...';
-      const input = document.querySelector('.playground__url--input').value;
-      const url = `/api/v1/${input}`;
-      fetch(url)
-        .then(res => res.json())
-        .then(data => {
-          document.querySelector('.playground__panel--content code').innerHTML =
-            JSON.stringify(data, null, 2);
-          hljs.highlightAll();
-        })
-    });
-
-  document
-    .querySelector('.playground__newtab--link')
-    .addEventListener('click', event => {
-      event.preventDefault();
-      const input = document.querySelector('.playground__url--input').value;
-      const url =  `#{protocol}#{host}/api/v1/${input}`;
-      window.open(url, '_blank');
-    });
-
-  document.querySelectorAll('.playground__hint--link').forEach(link => {
-    link.addEventListener('click', event => {
-      event.preventDefault();
-      document.querySelector('.playground__url--input').value = link.innerHTML;
-      document.querySelector('.playground__url--submit').click();
-    });
-  });
-
-  init();
+    init();

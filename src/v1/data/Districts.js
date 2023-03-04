@@ -1,4 +1,4 @@
-const DB = require('./db.json');
+const DB = require('./data.json');
 
 exports.getDistricts = function (
   name,
@@ -7,24 +7,25 @@ exports.getDistricts = function (
   offset = 0,
   limit = 976,
   fields,
-  sort
+  sort,
 ) {
   try {
     let districts = [];
-    DB.provinces.forEach(province => {
-      province.districts.forEach(item => {
+    DB.provinces.forEach((province) => {
+      province.districts.forEach((item) => {
         item.province = province.name;
       });
       districts = districts.concat(province.districts);
     });
     let initialDistricts = [...districts];
 
-    if (Object.values(arguments).some(item => item)) {
+    if (Object.values(arguments).some((item) => item)) {
       if (arguments[0]) {
         nameAlt =
-          name.charAt(0).toUpperCaseLocalized() + name.slice(1).toLowerCaseLocalized();
+          name.charAt(0).toUpperCaseLocalized() +
+          name.slice(1).toLowerCaseLocalized();
         districts = districts.filter(
-          item => item.name.includes(name) || item.name.includes(nameAlt)
+          (item) => item.name.includes(name) || item.name.includes(nameAlt),
         );
       }
 
@@ -32,7 +33,8 @@ exports.getDistricts = function (
         if (+arguments[1] <= 0 && +arguments[2] <= 0) {
           throw {
             status: 404,
-            message: "You can't search for a district with a population of 0 or less.",
+            message:
+              "You can't search for a district with a population of 0 or less.",
           };
         }
 
@@ -44,8 +46,10 @@ exports.getDistricts = function (
           };
         }
 
-        districts = districts.filter(item => {
-          return item.population >= minPopulation && item.population <= maxPopulation;
+        districts = districts.filter((item) => {
+          return (
+            item.population >= minPopulation && item.population <= maxPopulation
+          );
         });
       }
 
@@ -53,7 +57,7 @@ exports.getDistricts = function (
         const sortArray = sort.split(',').reverse();
         const sortedDistricts = [];
 
-        sortArray.forEach(item => {
+        sortArray.forEach((item) => {
           if (
             item !== 'name' &&
             item !== '-name' &&
@@ -70,26 +74,26 @@ exports.getDistricts = function (
             if (item.startsWith('-')) {
               const field = item.slice(1);
               districts.sort((a, b) =>
-                b[field].localeCompare(a[field], 'tr', { sensitivity: 'base' })
+                b[field].localeCompare(a[field], 'tr', { sensitivity: 'base' }),
               );
             } else {
               districts.sort((a, b) =>
-                a[item].localeCompare(b[item], 'tr', { sensitivity: 'base' })
+                a[item].localeCompare(b[item], 'tr', { sensitivity: 'base' }),
               );
             }
           }
         });
 
-        districts.forEach(item => {
+        districts.forEach((item) => {
           sortedDistricts.push(item);
         });
 
         districts = sortedDistricts;
 
         if (
-          sortArray.some(item => !Object.keys(districts[0]).includes(item)) &&
+          sortArray.some((item) => !Object.keys(districts[0]).includes(item)) &&
           !sortArray.some(
-            item => !Object.keys(districts[0]).includes(item.startsWith('-'))
+            (item) => !Object.keys(districts[0]).includes(item.startsWith('-')),
           )
         ) {
           throw {
@@ -104,9 +108,9 @@ exports.getDistricts = function (
         const fieldsArray = fields.split(',');
         const filteredDistricts = [];
 
-        districts.forEach(item => {
+        districts.forEach((item) => {
           const filteredProvince = {};
-          fieldsArray.forEach(field => {
+          fieldsArray.forEach((field) => {
             filteredProvince[field] = item[field];
           });
           filteredDistricts.push(filteredProvince);
@@ -114,7 +118,9 @@ exports.getDistricts = function (
 
         districts = filteredDistricts;
 
-        if (fieldsArray.some(item => !Object.keys(districts[0]).includes(item))) {
+        if (
+          fieldsArray.some((item) => !Object.keys(districts[0]).includes(item))
+        ) {
           throw {
             status: 404,
             message:
@@ -168,8 +174,8 @@ exports.getDistricts = function (
 exports.getExactDistrict = function (id, fields) {
   try {
     let districts = [];
-    DB.provinces.forEach(province => {
-      province.districts.forEach(item => {
+    DB.provinces.forEach((province) => {
+      province.districts.forEach((item) => {
         item.province = province.name;
       });
       districts = districts.concat(province.districts);
@@ -182,14 +188,14 @@ exports.getExactDistrict = function (id, fields) {
       fieldsArrayCopy = [...fieldsArray];
 
       // BUG: The program cannot find the exact district when the user does not add "id" to the fields query. So I added a workaround.
-      if (fieldsArray.every(item => item !== 'id')) fieldsArray.push('id');
+      if (fieldsArray.every((item) => item !== 'id')) fieldsArray.push('id');
       // BUG: The program cannot find the exact district when the user does not add "id" to the fields query. So I added a workaround.
 
       const filteredDistricts = [];
 
-      districts.forEach(item => {
+      districts.forEach((item) => {
         const filteredProvince = {};
-        fieldsArray.forEach(field => {
+        fieldsArray.forEach((field) => {
           filteredProvince[field] = item[field];
         });
         filteredDistricts.push(filteredProvince);
@@ -197,7 +203,9 @@ exports.getExactDistrict = function (id, fields) {
 
       districts = filteredDistricts;
 
-      if (fieldsArray.some(item => !Object.keys(districts[0]).includes(item))) {
+      if (
+        fieldsArray.some((item) => !Object.keys(districts[0]).includes(item))
+      ) {
         throw {
           status: 404,
           message:
@@ -206,8 +214,9 @@ exports.getExactDistrict = function (id, fields) {
       }
     }
 
-    const district = districts.find(item => item.id === +id);
-    if (fieldsArrayCopy && !fieldsArrayCopy.includes('id')) district.id = undefined; // a temporary solution to the BUG I mentioned above.
+    const district = districts.find((item) => item.id === +id);
+    if (fieldsArrayCopy && !fieldsArrayCopy.includes('id'))
+      district.id = undefined; // a temporary solution to the BUG I mentioned above.
 
     if (district) {
       return district;

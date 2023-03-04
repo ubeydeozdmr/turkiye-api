@@ -1,4 +1,4 @@
-const DB = require('./db.json');
+const DB = require('./data.json');
 
 exports.getProvinces = function (
   name,
@@ -8,17 +8,18 @@ exports.getProvinces = function (
   offset = 0,
   limit = 81,
   fields,
-  sort
+  sort,
 ) {
   try {
-    if (Object.values(arguments).some(item => item)) {
+    if (Object.values(arguments).some((item) => item)) {
       let provinces = DB.provinces;
 
       if (arguments[0]) {
         nameAlt =
-          name.charAt(0).toUpperCaseLocalized() + name.slice(1).toLowerCaseLocalized();
+          name.charAt(0).toUpperCaseLocalized() +
+          name.slice(1).toLowerCaseLocalized();
         provinces = provinces.filter(
-          item => item.name.includes(name) || item.name.includes(nameAlt)
+          (item) => item.name.includes(name) || item.name.includes(nameAlt),
         );
       }
 
@@ -26,7 +27,8 @@ exports.getProvinces = function (
         if (+arguments[1] <= 0 && +arguments[2] <= 0) {
           throw {
             status: 404,
-            message: "You can't search for a province with a population of 0 or less.",
+            message:
+              "You can't search for a province with a population of 0 or less.",
           };
         }
 
@@ -38,20 +40,23 @@ exports.getProvinces = function (
           };
         }
 
-        provinces = provinces.filter(item => {
-          return item.population >= minPopulation && item.population <= maxPopulation;
+        provinces = provinces.filter((item) => {
+          return (
+            item.population >= minPopulation && item.population <= maxPopulation
+          );
         });
       }
 
       if (arguments[3]) {
         if (isMetropolitan === 'true') {
-          provinces = provinces.filter(item => item.isMetropolitan === true);
+          provinces = provinces.filter((item) => item.isMetropolitan === true);
         } else if (isMetropolitan === 'false') {
-          provinces = provinces.filter(item => item.isMetropolitan === false);
+          provinces = provinces.filter((item) => item.isMetropolitan === false);
         } else {
           throw {
             status: 404,
-            message: 'The isMetropolitan parameter must be either true or false.',
+            message:
+              'The isMetropolitan parameter must be either true or false.',
           };
         }
       }
@@ -60,7 +65,7 @@ exports.getProvinces = function (
         const sortArray = sort.split(',').reverse();
         const sortedProvinces = [];
 
-        sortArray.forEach(item => {
+        sortArray.forEach((item) => {
           if (item !== 'name' && item !== '-name') {
             if (item.startsWith('-')) {
               const field = item.slice(1);
@@ -72,26 +77,29 @@ exports.getProvinces = function (
             if (item.startsWith('-')) {
               const field = item.slice(1);
               provinces.sort((a, b) =>
-                b[field].localeCompare(a[field], 'tr', { sensitivity: 'base' })
+                b[field].localeCompare(a[field], 'tr', { sensitivity: 'base' }),
               );
             } else {
               provinces.sort((a, b) =>
-                a[item].localeCompare(b[item], 'tr', { sensitivity: 'base' })
+                a[item].localeCompare(b[item], 'tr', { sensitivity: 'base' }),
               );
             }
           }
         });
 
-        provinces.forEach(item => {
+        provinces.forEach((item) => {
           sortedProvinces.push(item);
         });
 
         provinces = sortedProvinces;
 
         if (
-          sortArray.some(item => !Object.keys(DB.provinces[0]).includes(item)) &&
+          sortArray.some(
+            (item) => !Object.keys(DB.provinces[0]).includes(item),
+          ) &&
           !sortArray.some(
-            item => !Object.keys(DB.provinces[0]).includes(item.startsWith('-'))
+            (item) =>
+              !Object.keys(DB.provinces[0]).includes(item.startsWith('-')),
           )
         ) {
           throw {
@@ -106,9 +114,9 @@ exports.getProvinces = function (
         const fieldsArray = fields.split(',');
         const filteredProvinces = [];
 
-        provinces.forEach(item => {
+        provinces.forEach((item) => {
           const filteredProvince = {};
-          fieldsArray.forEach(field => {
+          fieldsArray.forEach((field) => {
             filteredProvince[field] = item[field];
           });
           filteredProvinces.push(filteredProvince);
@@ -116,7 +124,11 @@ exports.getProvinces = function (
 
         provinces = filteredProvinces;
 
-        if (fieldsArray.some(item => !Object.keys(DB.provinces[0]).includes(item))) {
+        if (
+          fieldsArray.some(
+            (item) => !Object.keys(DB.provinces[0]).includes(item),
+          )
+        ) {
           throw {
             status: 404,
             message:
@@ -139,7 +151,8 @@ exports.getProvinces = function (
           throw {
             status: 404,
             message:
-              'Invalid offset. The offset value must be less than ' + DB.provinces.length,
+              'Invalid offset. The offset value must be less than ' +
+              DB.provinces.length,
           };
         } else if (+limit == 0) {
           throw {
@@ -182,11 +195,13 @@ exports.getExactProvince = function (id, fields) {
       const fieldsArray = fields.split(',');
       const filteredProvince = {};
 
-      fieldsArray.forEach(field => {
+      fieldsArray.forEach((field) => {
         filteredProvince[field] = DB.provinces[id - 1][field];
       });
 
-      if (fieldsArray.some(item => !Object.keys(DB.provinces[0]).includes(item))) {
+      if (
+        fieldsArray.some((item) => !Object.keys(DB.provinces[0]).includes(item))
+      ) {
         throw {
           status: 404,
           message:
