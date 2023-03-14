@@ -9,9 +9,15 @@ router
   .get('/districts', controller.getDistricts)
   .get('/districts/:id', controller.getExactDistrict)
   .get('*', (req, res) => {
-    res.json({
+    res.status(404).json({
       status: 'ERROR',
       error: 'Wrong endpoint.',
+    });
+  })
+  .all('*', (req, res) => {
+    res.status(405).json({
+      status: 'ERROR',
+      error: 'Method not allowed.',
     });
   });
 
