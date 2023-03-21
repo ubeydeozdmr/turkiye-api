@@ -308,6 +308,7 @@ block content
           |        "name": "İstanbul",
           |        "area": 5461,
           |        "population": 15840900,
+          |        "altitude": 25,
           |        "areaCode": [
           |          212,
           |          216
@@ -367,7 +368,7 @@ block content
                       
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url #{protocol}#{host}/api/v1/provinces?minPopulation=100000&amp;maxPopulation=300000
+      code.urlframe__url #{protocol}#{host}/api/v1/districts?minPopulation=100000&amp;maxPopulation=300000
     p
       | Good, now let&apos;s assume that the user wants to list the districts within a certain
       | population range. In this example, let&apos;s assume that the end user enters
@@ -477,6 +478,7 @@ block content
           |        "name": "Hatay",
           |        "area": 5524,
           |        "population": 1670712,
+          |        "altitude": 89,
           |        "areaCode": [
           |          326
           |        ],
@@ -502,6 +504,7 @@ block content
           |        "name": "Isparta",
           |        "area": 8946,
           |        "population": 445678,
+          |        "altitude": 1058,
           |        "areaCode": [
           |          246
           |        ],
@@ -565,7 +568,7 @@ block content
                       
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?fields=id,name,area,population,areaCode,isMetropolitan,maps,region  
+      code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?fields=id,name,area,population,altitude,areaCode,isMetropolitan,maps,region  
     p
       | In this example we want to get all fields except districts. In this case, we must
       | write all fields except districts. Notice that there is a comma between each
@@ -583,6 +586,7 @@ block content
           |        "name": "Adana",
           |        "area": 13844,
           |        "population": 2263373,
+          |        "altitude": 25,
           |        "areaCode": [
           |          322
           |        ],
@@ -605,6 +609,7 @@ block content
           |        "name": "Adıyaman",
           |        "area": 7337,
           |        "population": 632148,
+          |        "altitude": 701,
           |        "areaCode": [
           |          416
           |        ],

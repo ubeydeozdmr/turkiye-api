@@ -5,6 +5,7 @@
       "name": "Adana",
       "area": 13844,
       "population": 2263373,
+      "altitude": 25,
       "areaCode": [322],
       "isMetropolitan": true,
       "coordinates": {
@@ -117,6 +118,7 @@
       "name": "Adıyaman",
       "area": 7337,
       "population": 632148,
+      "altitude": 701,
       "areaCode": [416],
       "isMetropolitan": false,
       "coordinates": {
@@ -193,6 +195,7 @@
       "name": "Afyonkarahisar",
       "area": 14016,
       "population": 744179,
+      "altitude": 1012,
       "areaCode": [272],
       "isMetropolitan": false,
       "coordinates": {
@@ -323,6 +326,7 @@
       "name": "Ağrı",
       "area": 11099,
       "population": 524644,
+      "altitude": 1630,
       "areaCode": [472],
       "isMetropolitan": false,
       "coordinates": {
@@ -393,6 +397,7 @@
       "name": "Amasya",
       "area": 5628,
       "population": 335331,
+      "altitude": 400,
       "areaCode": [358],
       "isMetropolitan": false,
       "coordinates": {
@@ -457,6 +462,7 @@
       "name": "Ankara",
       "area": 25632,
       "population": 5747325,
+      "altitude": 905,
       "areaCode": [312],
       "isMetropolitan": true,
       "coordinates": {
@@ -629,6 +635,7 @@
       "name": "Antalya",
       "area": 20177,
       "population": 2619832,
+      "altitude": 62,
       "areaCode": [242],
       "isMetropolitan": true,
       "coordinates": {
@@ -765,6 +772,7 @@
       "name": "Artvin",
       "area": 7393,
       "population": 169543,
+      "altitude": 530,
       "areaCode": [466],
       "isMetropolitan": false,
       "coordinates": {
@@ -841,6 +849,7 @@
       "name": "Aydın",
       "area": 8116,
       "population": 1134031,
+      "altitude": 92,
       "areaCode": [256],
       "isMetropolitan": true,
       "coordinates": {
@@ -965,6 +974,7 @@
       "name": "Balıkesir",
       "area": 14583,
       "population": 1250610,
+      "altitude": 145,
       "areaCode": [266],
       "isMetropolitan": true,
       "coordinates": {
@@ -1107,6 +1117,7 @@
       "name": "Bilecik",
       "area": 4179,
       "population": 228334,
+      "altitude": 513,
       "areaCode": [228],
       "isMetropolitan": false,
       "coordinates": {
@@ -1177,6 +1188,7 @@
       "name": "Bingöl",
       "area": 8004,
       "population": 283112,
+      "altitude": 1159,
       "areaCode": [426],
       "isMetropolitan": false,
       "coordinates": {
@@ -1247,6 +1259,7 @@
       "name": "Bitlis",
       "area": 8294,
       "population": 352277,
+      "altitude": 1637,
       "areaCode": [434],
       "isMetropolitan": false,
       "coordinates": {
@@ -1311,6 +1324,7 @@
       "name": "Bolu",
       "area": 8313,
       "population": 320014,
+      "altitude": 741,
       "areaCode": [374],
       "isMetropolitan": false,
       "coordinates": {
@@ -1387,6 +1401,7 @@
       "name": "Burdur",
       "area": 7175,
       "population": 273716,
+      "altitude": 963,
       "areaCode": [248],
       "isMetropolitan": false,
       "coordinates": {
@@ -1475,6 +1490,7 @@
       "name": "Bursa",
       "area": 10813,
       "population": 3147818,
+      "altitude": 238,
       "areaCode": [224],
       "isMetropolitan": true,
       "coordinates": {
@@ -1593,6 +1609,7 @@
       "name": "Çanakkale",
       "area": 9817,
       "population": 557276,
+      "altitude": 11,
       "areaCode": [286],
       "isMetropolitan": false,
       "coordinates": {
@@ -1687,6 +1704,7 @@
       "name": "Çankırı",
       "area": 7542,
       "population": 196515,
+      "altitude": 730,
       "areaCode": [376],
       "isMetropolitan": false,
       "coordinates": {
@@ -1781,6 +1799,7 @@
       "name": "Çorum",
       "area": 12428,
       "population": 526282,
+      "altitude": 822,
       "areaCode": [364],
       "isMetropolitan": false,
       "coordinates": {
@@ -1887,6 +1906,7 @@
       "name": "Denizli",
       "area": 12134,
       "population": 1051056,
+      "altitude": 392,
       "areaCode": [258],
       "isMetropolitan": true,
       "coordinates": {
@@ -2023,6 +2043,7 @@
       "name": "Diyarbakır",
       "area": 15168,
       "population": 1791373,
+      "altitude": 674,
       "areaCode": [412],
       "isMetropolitan": true,
       "coordinates": {
@@ -2147,6 +2168,7 @@
       "name": "Edirne",
       "area": 6145,
       "population": 412115,
+      "altitude": 50,
       "areaCode": [284],
       "isMetropolitan": false,
       "coordinates": {
@@ -2223,6 +2245,7 @@
       "name": "Elazığ",
       "area": 9383,
       "population": 588088,
+      "altitude": 1041,
       "areaCode": [424],
       "isMetropolitan": false,
       "coordinates": {
@@ -2311,6 +2334,7 @@
       "name": "Erzincan",
       "area": 11815,
       "population": 237351,
+      "altitude": 1216,
       "areaCode": [446],
       "isMetropolitan": false,
       "coordinates": {
@@ -2387,6 +2411,7 @@
       "name": "Erzurum",
       "area": 25006,
       "population": 756893,
+      "altitude": 1923,
       "areaCode": [442],
       "isMetropolitan": true,
       "coordinates": {
@@ -2529,6 +2554,7 @@
       "name": "Eskişehir",
       "area": 13960,
       "population": 898363,
+      "altitude": 796,
       "areaCode": [222],
       "isMetropolitan": true,
       "coordinates": {
@@ -2635,6 +2661,7 @@
       "name": "Gaziantep",
       "area": 6803,
       "population": 2130432,
+      "altitude": 838,
       "areaCode": [342],
       "isMetropolitan": true,
       "coordinates": {
@@ -2711,6 +2738,7 @@
       "name": "Giresun",
       "area": 7025,
       "population": 450154,
+      "altitude": 14,
       "areaCode": [454],
       "isMetropolitan": false,
       "coordinates": {
@@ -2829,6 +2857,7 @@
       "name": "Gümüşhane",
       "area": 6668,
       "population": 150119,
+      "altitude": 1174,
       "areaCode": [456],
       "isMetropolitan": false,
       "coordinates": {
@@ -2887,6 +2916,7 @@
       "name": "Hakkari",
       "area": 7095,
       "population": 278218,
+      "altitude": 1756,
       "areaCode": [438],
       "isMetropolitan": false,
       "coordinates": {
@@ -2939,6 +2969,7 @@
       "name": "Hatay",
       "area": 5524,
       "population": 1670712,
+      "altitude": 89,
       "areaCode": [326],
       "isMetropolitan": true,
       "coordinates": {
@@ -3051,6 +3082,7 @@
       "name": "Isparta",
       "area": 8946,
       "population": 445678,
+      "altitude": 1058,
       "areaCode": [246],
       "isMetropolitan": false,
       "coordinates": {
@@ -3151,6 +3183,7 @@
       "name": "Mersin",
       "area": 16010,
       "population": 1891145,
+      "altitude": 18,
       "areaCode": [324],
       "isMetropolitan": true,
       "coordinates": {
@@ -3251,6 +3284,7 @@
       "name": "İstanbul",
       "area": 5461,
       "population": 15840900,
+      "altitude": 25,
       "areaCode": [212, 216],
       "isMetropolitan": true,
       "coordinates": {
@@ -3507,6 +3541,7 @@
       "name": "İzmir",
       "area": 11891,
       "population": 4425789,
+      "altitude": 9,
       "areaCode": [232],
       "isMetropolitan": true,
       "coordinates": {
@@ -3709,6 +3744,7 @@
       "name": "Kars",
       "area": 10193,
       "population": 281077,
+      "altitude": 1756,
       "areaCode": [474],
       "isMetropolitan": false,
       "coordinates": {
@@ -3779,6 +3815,7 @@
       "name": "Kastamonu",
       "area": 13064,
       "population": 375592,
+      "altitude": 814,
       "areaCode": [366],
       "isMetropolitan": false,
       "coordinates": {
@@ -3921,6 +3958,7 @@
       "name": "Kayseri",
       "area": 16970,
       "population": 1434357,
+      "altitude": 1060,
       "areaCode": [352],
       "isMetropolitan": false,
       "coordinates": {
@@ -4039,6 +4077,7 @@
       "name": "Kırklareli",
       "area": 6459,
       "population": 366363,
+      "altitude": 231,
       "areaCode": [288],
       "isMetropolitan": false,
       "coordinates": {
@@ -4109,6 +4148,7 @@
       "name": "Kırşehir",
       "area": 6584,
       "population": 242944,
+      "altitude": 991,
       "areaCode": [386],
       "isMetropolitan": false,
       "coordinates": {
@@ -4173,6 +4213,7 @@
       "name": "Kocaeli",
       "area": 3397,
       "population": 2033441,
+      "altitude": 4,
       "areaCode": [262],
       "isMetropolitan": true,
       "coordinates": {
@@ -4267,6 +4308,7 @@
       "name": "Konya",
       "area": 40838,
       "population": 2277017,
+      "altitude": 1023,
       "areaCode": [332],
       "isMetropolitan": true,
       "coordinates": {
@@ -4475,6 +4517,7 @@
       "name": "Kütahya",
       "area": 11634,
       "population": 578640,
+      "altitude": 958,
       "areaCode": [274],
       "isMetropolitan": false,
       "coordinates": {
@@ -4575,6 +4618,7 @@
       "name": "Malatya",
       "area": 12259,
       "population": 808692,
+      "altitude": 970,
       "areaCode": [422],
       "isMetropolitan": true,
       "coordinates": {
@@ -4675,6 +4719,7 @@
       "name": "Manisa",
       "area": 13339,
       "population": 1456626,
+      "altitude": 79,
       "areaCode": [236],
       "isMetropolitan": true,
       "coordinates": {
@@ -4799,6 +4844,7 @@
       "name": "Kahramanmaraş",
       "area": 14520,
       "population": 1171298,
+      "altitude": 562,
       "areaCode": [344],
       "isMetropolitan": true,
       "coordinates": {
@@ -4887,6 +4933,7 @@
       "name": "Mardin",
       "area": 8780,
       "population": 862757,
+      "altitude": 938,
       "areaCode": [482],
       "isMetropolitan": true,
       "coordinates": {
@@ -4969,6 +5016,7 @@
       "name": "Muğla",
       "area": 12654,
       "population": 1021141,
+      "altitude": 659,
       "areaCode": [252],
       "isMetropolitan": true,
       "coordinates": {
@@ -5069,6 +5117,7 @@
       "name": "Muş",
       "area": 8650,
       "population": 405228,
+      "altitude": 1334,
       "areaCode": [436],
       "isMetropolitan": false,
       "coordinates": {
@@ -5127,6 +5176,7 @@
       "name": "Nevşehir",
       "area": 5485,
       "population": 308003,
+      "altitude": 1197,
       "areaCode": [384],
       "isMetropolitan": false,
       "coordinates": {
@@ -5197,6 +5247,7 @@
       "name": "Niğde",
       "area": 7234,
       "population": 363725,
+      "altitude": 1239,
       "areaCode": [388],
       "isMetropolitan": false,
       "coordinates": {
@@ -5255,6 +5306,7 @@
       "name": "Ordu",
       "area": 5861,
       "population": 760872,
+      "altitude": 25,
       "areaCode": [452],
       "isMetropolitan": true,
       "coordinates": {
@@ -5391,6 +5443,7 @@
       "name": "Rize",
       "area": 3835,
       "population": 345662,
+      "altitude": 11,
       "areaCode": [464],
       "isMetropolitan": false,
       "coordinates": {
@@ -5485,6 +5538,7 @@
       "name": "Sakarya",
       "area": 4824,
       "population": 1060876,
+      "altitude": 41,
       "areaCode": [264],
       "isMetropolitan": true,
       "coordinates": {
@@ -5603,6 +5657,7 @@
       "name": "Samsun",
       "area": 9725,
       "population": 1371274,
+      "altitude": 10,
       "areaCode": [362],
       "isMetropolitan": true,
       "coordinates": {
@@ -5727,6 +5782,7 @@
       "name": "Siirt",
       "area": 5717,
       "population": 331980,
+      "altitude": 887,
       "areaCode": [484],
       "isMetropolitan": false,
       "coordinates": {
@@ -5791,6 +5847,7 @@
       "name": "Sinop",
       "area": 5717,
       "population": 218408,
+      "altitude": 27,
       "areaCode": [368],
       "isMetropolitan": false,
       "coordinates": {
@@ -5867,6 +5924,7 @@
       "name": "Sivas",
       "area": 28164,
       "population": 636121,
+      "altitude": 1313,
       "areaCode": [346],
       "isMetropolitan": false,
       "coordinates": {
@@ -5991,6 +6049,7 @@
       "name": "Tekirdağ",
       "area": 6190,
       "population": 1113400,
+      "altitude": 28,
       "areaCode": [282],
       "isMetropolitan": true,
       "coordinates": {
@@ -6079,6 +6138,7 @@
       "name": "Tokat",
       "area": 10042,
       "population": 602567,
+      "altitude": 630,
       "areaCode": [356],
       "isMetropolitan": false,
       "coordinates": {
@@ -6173,6 +6233,7 @@
       "name": "Trabzon",
       "area": 4628,
       "population": 816684,
+      "altitude": 36,
       "areaCode": [462],
       "isMetropolitan": true,
       "coordinates": {
@@ -6303,6 +6364,7 @@
       "name": "Tunceli",
       "area": 7582,
       "population": 83645,
+      "altitude": 922,
       "areaCode": [428],
       "isMetropolitan": false,
       "coordinates": {
@@ -6373,6 +6435,7 @@
       "name": "Şanlıurfa",
       "area": 19242,
       "population": 2143020,
+      "altitude": 527,
       "areaCode": [414],
       "isMetropolitan": true,
       "coordinates": {
@@ -6473,6 +6536,7 @@
       "name": "Uşak",
       "area": 5555,
       "population": 373183,
+      "altitude": 915,
       "areaCode": [276],
       "isMetropolitan": false,
       "coordinates": {
@@ -6531,6 +6595,7 @@
       "name": "Van",
       "area": 20921,
       "population": 1141015,
+      "altitude": 1728,
       "areaCode": [432],
       "isMetropolitan": true,
       "coordinates": {
@@ -6631,6 +6696,7 @@
       "name": "Yozgat",
       "area": 13690,
       "population": 418500,
+      "altitude": 1317,
       "areaCode": [354],
       "isMetropolitan": false,
       "coordinates": {
@@ -6737,6 +6803,7 @@
       "name": "Zonguldak",
       "area": 3342,
       "population": 589684,
+      "altitude": 10,
       "areaCode": [372],
       "isMetropolitan": false,
       "coordinates": {
@@ -6807,6 +6874,7 @@
       "name": "Aksaray",
       "area": 7659,
       "population": 429069,
+      "altitude": 1228,
       "areaCode": [382],
       "isMetropolitan": false,
       "coordinates": {
@@ -6877,6 +6945,7 @@
       "name": "Bayburt",
       "area": 3746,
       "population": 85042,
+      "altitude": 1555,
       "areaCode": [458],
       "isMetropolitan": false,
       "coordinates": {
@@ -6917,6 +6986,7 @@
       "name": "Karaman",
       "area": 8678,
       "population": 258838,
+      "altitude": 1063,
       "areaCode": [338],
       "isMetropolitan": false,
       "coordinates": {
@@ -6975,6 +7045,7 @@
       "name": "Kırıkkale",
       "area": 4791,
       "population": 275968,
+      "altitude": 746,
       "areaCode": [318],
       "isMetropolitan": false,
       "coordinates": {
@@ -7051,6 +7122,7 @@
       "name": "Batman",
       "area": 4477,
       "population": 626319,
+      "altitude": 570,
       "areaCode": [488],
       "isMetropolitan": false,
       "coordinates": {
@@ -7109,6 +7181,7 @@
       "name": "Şırnak",
       "area": 7078,
       "population": 546589,
+      "altitude": 1343,
       "areaCode": [486],
       "isMetropolitan": false,
       "coordinates": {
@@ -7173,6 +7246,7 @@
       "name": "Bartın",
       "area": 2330,
       "population": 201711,
+      "altitude": 12,
       "areaCode": [378],
       "isMetropolitan": false,
       "coordinates": {
@@ -7219,6 +7293,7 @@
       "name": "Ardahan",
       "area": 4934,
       "population": 94932,
+      "altitude": 1799,
       "areaCode": [478],
       "isMetropolitan": false,
       "coordinates": {
@@ -7277,6 +7352,7 @@
       "name": "Iğdır",
       "area": 3664,
       "population": 203159,
+      "altitude": 860,
       "areaCode": [476],
       "isMetropolitan": false,
       "coordinates": {
@@ -7323,6 +7399,7 @@
       "name": "Yalova",
       "area": 798,
       "population": 291001,
+      "altitude": 8,
       "areaCode": [226],
       "isMetropolitan": false,
       "coordinates": {
@@ -7381,6 +7458,7 @@
       "name": "Karabük",
       "area": 4142,
       "population": 249287,
+      "altitude": 264,
       "areaCode": [370],
       "isMetropolitan": false,
       "coordinates": {
@@ -7439,6 +7517,7 @@
       "name": "Kilis",
       "area": 1412,
       "population": 145826,
+      "altitude": 660,
       "areaCode": [348],
       "isMetropolitan": false,
       "coordinates": {
@@ -7485,6 +7564,7 @@
       "name": "Osmaniye",
       "area": 3320,
       "population": 553012,
+      "altitude": 121,
       "areaCode": [328],
       "isMetropolitan": false,
       "coordinates": {
@@ -7549,6 +7629,7 @@
       "name": "Düzce",
       "area": 2492,
       "population": 400976,
+      "altitude": 149,
       "areaCode": [380],
       "isMetropolitan": false,
       "coordinates": {
