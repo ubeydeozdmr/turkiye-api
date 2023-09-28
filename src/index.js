@@ -18,24 +18,16 @@ app.use(express.urlencoded({ extended: false }));
 app.get('/', (req, res) => {
   const images = fs.readdirSync(path.join(__dirname, 'public', 'assets'));
   res.render('index', {
-    host: req.get('host'),
-    protocol: req.get('x-forwarded-proto') ? 'https://' : 'http://',
     image: images[Math.floor(Math.random() * images.length)],
   });
 });
 
 app.get('/docs', (req, res) => {
-  res.render('docs', {
-    host: req.get('host'),
-    protocol: req.get('x-forwarded-proto') ? 'https://' : 'http://',
-  });
+  res.render('docs');
 });
 
 app.get('/examples', (req, res) => {
-  res.render('examples', {
-    host: req.get('host'),
-    protocol: req.get('x-forwarded-proto') ? 'https://' : 'http://',
-  });
+  res.render('examples');
 });
 
 app.use('/api/v1', require('./v1/routes'));

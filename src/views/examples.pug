@@ -252,7 +252,7 @@ block content
       a#example1.hook(href='#example1')  Example 1: Search provinces
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?name={user input}       
+      code.urlframe__url.language-http /api/v1/provinces?name={user input}       
     p
       | The end user&apos;s connection to your site, app, etc. One of the first things
       | he/she/they will do when he enters is probably to search for any province (or
@@ -260,9 +260,9 @@ block content
     p
       | NOTE: Note that this method only deals with the names of provinces (or districts).
       | For this, use 
-      code .../api/v1/provinces/34
+      code.x .../api/v1/provinces/34
       |  instead of
-      code .../api/v1/provinces?name=34
+      code.x .../api/v1/provinces?name=34
       | .
     .playground__panel
       p.playground__panel--title Example usage:
@@ -273,7 +273,7 @@ block content
           |    try {
           |      if (input.length > 0) {
           |        const response = await fetch(
-          |          `#{protocol}#{host}/api/v1/provinces?name=${input}`
+          |          `/api/v1/provinces?name=${input}`
           |        );
           |        const data = await response.json();
           |        return data;
@@ -293,7 +293,7 @@ block content
       | .
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url #{protocol}#{host}/api/v1/provinces?name=istanbul     
+      code.urlframe__url /api/v1/provinces?name=istanbul     
                 
     .playground__panel
       p.playground__panel--title Response:
@@ -341,7 +341,7 @@ block content
         | Example 2: List districts in a specific population range
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts?minPopulation={user input}&amp;maxPopulation={user input}
+      code.urlframe__url.language-http /api/v1/districts?minPopulation={user input}&amp;maxPopulation={user input}
                 
     .playground__panel
       p.playground__panel--title Example usage:
@@ -352,7 +352,7 @@ block content
           |    try {
           |      if (min &gt; 0 &amp;&amp; max &gt; 0) {
           |        const response = await fetch(
-          |          `#{protocol}#{host}/api/v1/districts?minPopulation=${min}&amp;maxPopulation=${max}`
+          |          `/api/v1/districts?minPopulation=${min}&amp;maxPopulation=${max}`
           |        );
           |        const data = await response.json();
           |        return data;
@@ -776,6 +776,9 @@ block content
 block scripts
   script.
     let isOpened = false;
+    document.querySelectorAll('code:not(.x)').forEach(element => {
+      element.innerHTML = window.location.origin + element.innerHTML;
+    });
     document.getElementById('floating-nav-button').addEventListener('click', () => {
     isOpened = !isOpened;
     if (isOpened) {

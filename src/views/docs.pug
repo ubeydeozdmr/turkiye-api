@@ -265,7 +265,7 @@ block content
         | Get All Provinces
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces
+      code.urlframe__url.language-http /api/v1/provinces
 
     p You can use this route to get data for all provinces.
     table
@@ -320,7 +320,7 @@ block content
         | Get Exact Province
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces/:id
+      code.urlframe__url.language-http /api/v1/provinces/:id
 
     p You can use this route to get data for exact province.
     table
@@ -353,7 +353,7 @@ block content
         | Get All Districts
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts
+      code.urlframe__url.language-http /api/v1/districts
 
     p You can use this route to get data for all districts.
     table
@@ -405,7 +405,7 @@ block content
     p You can use this route to get data for exact district.
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts/:id
+      code.urlframe__url.language-http /api/v1/districts/:id
 
     p You can use this route to get data for all districts.
     table
@@ -439,6 +439,9 @@ block content
 block scripts
   script.
     let isOpened = false;
+    document.querySelectorAll('code').forEach(element => {
+      element.innerHTML = window.location.origin + element.innerHTML;
+    });
     document.getElementById('floating-nav-button').addEventListener('click', () => {
       isOpened = !isOpened;
       if (isOpened) {
