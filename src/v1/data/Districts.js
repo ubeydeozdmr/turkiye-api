@@ -22,8 +22,8 @@ exports.getDistricts = function (
     if (Object.values(arguments).some((item) => item)) {
       if (arguments[0]) {
         nameAlt =
-          name.charAt(0).toUpperCaseLocalized() +
-          name.slice(1).toLowerCaseLocalized();
+          name.charAt(0).toLocaleUpperCase('TR') +
+          name.slice(1).toLocaleLowerCase('tr');
         districts = districts.filter(
           (item) => item.name.includes(name) || item.name.includes(nameAlt),
         );
