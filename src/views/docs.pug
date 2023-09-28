@@ -256,7 +256,7 @@ block content
       a(target='_blank' href='https://gist.github.com/ubeydeozdmr/e94ea5a1929805988b803ecb682c623a') click here.
     p
       | To see example usages, you can 
-      a(target='_blank' href='/examples') click here.
+      a(href='/examples') click here.
     h1
       a#provinces.hook(href='#provinces') Provinces
     p Here are the routes related to provinces.
@@ -467,7 +467,7 @@ block scripts
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       if (anchor === 'a#floating-nav-button.floating-nav-button') return;
       anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+        // e.preventDefault();
         if (e.srcElement.id === 'floating-nav-button') return;
         document.querySelector(this.getAttribute('href')).scrollIntoView({
           behavior: 'smooth',

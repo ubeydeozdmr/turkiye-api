@@ -251,7 +251,7 @@ block content
     h2
       a#example1.hook(href='#example1')  Example 1: Search provinces
     pre.urlframe
-      span.urlframe__method URL
+      span.urlframe__method GET
       code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?name={user input}       
     p
       | The end user&apos;s connection to your site, app, etc. One of the first things
@@ -804,7 +804,7 @@ block scripts
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     if (anchor === 'a#floating-nav-button.floating-nav-button') return;
     anchor.addEventListener('click', function (e) {
-    e.preventDefault();
+    // e.preventDefault();
     if (e.srcElement.id === 'floating-nav-button') return;
     document.querySelector(this.getAttribute('href')).scrollIntoView({
     behavior: 'smooth',
