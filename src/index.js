@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
 const express = require('express');
-require('./utils/localizer');
 require('dotenv').config();
 
 const app = express();
