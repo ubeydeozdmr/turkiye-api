@@ -3,14 +3,16 @@ const Districts = require('./data/Districts');
 
 exports.getProvinces = (req, res) => {
   try {
-    const { name } = req.query;
-    const { minPopulation } = req.query;
-    const { maxPopulation } = req.query;
-    const { isMetropolitan } = req.query;
-    const { offset } = req.query;
-    const { limit } = req.query;
-    const { fields } = req.query;
-    const { sort } = req.query;
+    const {
+      name,
+      minPopulation,
+      maxPopulation,
+      isMetropolitan,
+      offset,
+      limit,
+      fields,
+      sort,
+    } = req.query;
 
     const provinces = Provinces.getProvinces(
       name,
@@ -22,6 +24,7 @@ exports.getProvinces = (req, res) => {
       fields,
       sort,
     );
+
     return res.send({ status: 'OK', data: provinces });
   } catch (error) {
     res.status(error?.status || 500).send({
@@ -35,7 +38,9 @@ exports.getExactProvince = (req, res) => {
   try {
     const { id } = req.params;
     const { fields } = req.query;
+
     const province = Provinces.getExactProvince(id, fields);
+
     return res.send({ status: 'OK', data: province });
   } catch (error) {
     res.status(error?.status || 500).send({
@@ -47,13 +52,8 @@ exports.getExactProvince = (req, res) => {
 
 exports.getDistricts = (req, res) => {
   try {
-    const { name } = req.query;
-    const { minPopulation } = req.query;
-    const { maxPopulation } = req.query;
-    const { offset } = req.query;
-    const { limit } = req.query;
-    const { fields } = req.query;
-    const { sort } = req.query;
+    const { name, minPopulation, maxPopulation, offset, limit, fields, sort } =
+      req.query;
 
     const districts = Districts.getDistricts(
       name,
@@ -64,6 +64,7 @@ exports.getDistricts = (req, res) => {
       fields,
       sort,
     );
+
     return res.send({ status: 'OK', data: districts });
   } catch (error) {
     res.status(error?.status || 500).send({
@@ -77,7 +78,9 @@ exports.getExactDistrict = (req, res) => {
   try {
     const { id } = req.params;
     const { fields } = req.query;
+
     const district = Districts.getExactDistrict(id, fields);
+
     return res.send({ status: 'OK', data: district });
   } catch (error) {
     res.status(error?.status || 500).send({
