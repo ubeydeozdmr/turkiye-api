@@ -260,9 +260,9 @@ block content
     p
       | NOTE: Note that this method only deals with the names of provinces (or districts).
       | For this, use 
-      code.x .../api/v1/provinces/34
+      code .../api/v1/provinces/34
       |  instead of
-      code.x .../api/v1/provinces?name=34
+      code .../api/v1/provinces?name=34
       | .
     .playground__panel
       p.playground__panel--title Example usage:
@@ -368,7 +368,7 @@ block content
                       
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url #{protocol}#{host}/api/v1/districts?minPopulation=100000&amp;maxPopulation=300000
+      code.urlframe__url /api/v1/districts?minPopulation=100000&amp;maxPopulation=300000
     p
       | Good, now let&apos;s assume that the user wants to list the districts within a certain
       | population range. In this example, let&apos;s assume that the end user enters
@@ -415,7 +415,7 @@ block content
       a#example3.hook(href='#example3')  Example 3: Pagination
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?offset={user input}&amp;limit={user input}
+      code.urlframe__url.language-http /api/v1/provinces?offset={user input}&amp;limit={user input}
     p
       | Viewing 81 cities (including their districts) or 972 districts at the same time
       | can be annoying for end users with slow connections, as well as your site, app,
@@ -430,7 +430,7 @@ block content
           |    try {
           |      if (offset &gt; 0 &amp;&amp; limit &gt; 0) {
           |        const response = await fetch(
-          |          `#{protocol}#{host}/api/v1/provinces?offset=${offset}&limit=${limit}`
+          |          `/api/v1/provinces?offset=${offset}&limit=${limit}`
           |        );
           |        const data = await response.json();
           |        return data;
@@ -452,7 +452,7 @@ block content
                       
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?offset=30&amp;limit=10   
+      code.urlframe__url.language-http /api/v1/provinces?offset=30&amp;limit=10   
     p
       | In this example, let the 
       code offset
@@ -534,7 +534,7 @@ block content
       a#example4.hook(href='#example4')  Example 4: Fields
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url language-http #{protocol}#{host}/api/v1/provinces?fields={user input}
+      code.urlframe__url language-http /api/v1/provinces?fields={user input}
     p
       | When you want to obtain only one or more provinces / districts, you can use ID,
       | province / district name, area, population, etc. you get all the data. But do you
@@ -553,7 +553,7 @@ block content
           |    try {
           |      if (fields) {
           |        const response = await fetch(
-          |          `#{protocol}#{host}/api/v1/provinces?fields=${fields}`
+          |          `/api/v1/provinces?fields=${fields}`
           |        );
           |        const data = await response.json();
           |        return data;
@@ -568,7 +568,7 @@ block content
                       
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/provinces?fields=id,name,area,population,altitude,areaCode,isMetropolitan,maps,region  
+      code.urlframe__url.language-http /api/v1/provinces?fields=id,name,area,population,altitude,areaCode,isMetropolitan,maps,region  
     p
       | In this example we want to get all fields except districts. In this case, we must
       | write all fields except districts. Notice that there is a comma between each
@@ -636,7 +636,7 @@ block content
       a#example5.hook(href='#example5')  Example 5: Sorting
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts?sort={user input}    
+      code.urlframe__url.language-http /api/v1/districts?sort={user input}    
     p
       | By default, districts are classified according to the provinces they are
       | affiliated with first, and if the districts are affiliated with the same
@@ -651,7 +651,7 @@ block content
           |    try {
           |      if (sort) {
           |        const response = await fetch(
-          |          `#{protocol}#{host}/api/v1/districts?sort=${sort}`
+          |          `/api/v1/districts?sort=${sort}`
           |        );
           |        const data = await response.json();
           |        return data;
@@ -666,7 +666,7 @@ block content
                       
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts?sort=-population 
+      code.urlframe__url.language-http /api/v1/districts?sort=-population 
     p
       | In this example, let&apos;s rank all the districts from the most populated to the least
       | populated.
@@ -726,7 +726,7 @@ block content
       a#example6.hook(href='#example6')  Example 6: Complex Queries
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http #{protocol}#{host}/api/v1/districts?name=i&amp;minPopulation=100000&amp;sort=name&amp;offset=10&amp;limit=20
+      code.urlframe__url.language-http /api/v1/districts?name=i&amp;minPopulation=100000&amp;sort=name&amp;offset=10&amp;limit=20
     p
       | Of course, you can use multiple queries for a single URL. When you send a request,
       | it sorts the cities with a population of at least 100000 with an &quot;i&quot; in their name
@@ -776,7 +776,7 @@ block content
 block scripts
   script.
     let isOpened = false;
-    document.querySelectorAll('code:not(.x)').forEach(element => {
+    document.querySelectorAll('code.urlframe__url.language-http').forEach(element => {
       element.innerHTML = window.location.origin + element.innerHTML;
     });
     document.getElementById('floating-nav-button').addEventListener('click', () => {
