@@ -30,6 +30,10 @@ app.get('/examples', (req, res) => {
   res.render('examples');
 });
 
+app.get('/url-creator', (req, res) => {
+  res.sendFile(__dirname + '/views/url-creator.html');
+});
+
 app.use('/api/v1', require('./v1/routes'));
 
 app.all('*', (req, res, next) => {
