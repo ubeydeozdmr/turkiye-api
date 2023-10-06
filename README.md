@@ -103,6 +103,7 @@ It will show you only the name and area code of the province.
       "name": "Ankara",
       "area": 25632,
       "population": 5747325,
+      "altitude": 905,
       "areaCode": [312],
       "isMetropolitan": true,
       "maps": {
