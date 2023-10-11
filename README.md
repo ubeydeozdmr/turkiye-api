@@ -8,6 +8,11 @@ turkiye-api repo was deployed and published with [cyclic.sh](https://cyclic.sh),
 
 We are sorry for any possible problems you may be experiencing.
 
+## What's new?
+
+- NUTS (_Turkish:_ [İBBS](https://tr.wikipedia.org/wiki/T%C3%BCrkiye%27nin_%C4%B0BBS%27si)) codes added for provinces. (October 11, 2023)
+- I'll start working on the [**neighborhoods and towns**](https://github.com/ubeydeozdmr/turkiye-api/issues/13) soon (it won't be easy). I can make this feature available optionally during the development process.
+
 ## Sources
 
 - [Population of districts](https://biruni.tuik.gov.tr/medas)
@@ -112,6 +117,20 @@ It will show you only the name and area code of the province.
       "altitude": 905,
       "areaCode": [312],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR5",
+          "name": {
+            "en": "West Anatolia",
+            "tr": "Batı Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR51",
+          "name": "Ankara"
+        },
+        "nuts3": "TR511"
+      },
       "maps": {
         "googleMaps": "https://goo.gl/maps/Ri3Zh3yBka5RhXdG8",
         "openStreetMaps": "https://www.openstreetmap.org/relation/223422"
