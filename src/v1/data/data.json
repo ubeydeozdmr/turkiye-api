@@ -8,6 +8,20 @@
       "altitude": 25,
       "areaCode": [322],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR62",
+          "name": "Adana"
+        },
+        "nuts3": "TR621"
+      },
       "coordinates": {
         "latitude": 37.001667,
         "longitude": 35.328889
@@ -121,6 +135,20 @@
       "altitude": 701,
       "areaCode": [416],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC1",
+          "name": "Gaziantep"
+        },
+        "nuts3": "TRC12"
+      },
       "coordinates": {
         "latitude": 37.764722,
         "longitude": 38.278611
@@ -198,6 +226,20 @@
       "altitude": 1012,
       "areaCode": [272],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR62",
+          "name": "Adana"
+        },
+        "nuts3": "TR621"
+      },
       "coordinates": {
         "latitude": 38.750278,
         "longitude": 30.556667
@@ -329,6 +371,20 @@
       "altitude": 1630,
       "areaCode": [472],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC1",
+          "name": "Gaziantep"
+        },
+        "nuts3": "TRC12"
+      },
       "coordinates": {
         "latitude": 39.719444,
         "longitude": 43.050556
@@ -400,6 +456,20 @@
       "altitude": 400,
       "areaCode": [358],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR83",
+          "name": "Samsun"
+        },
+        "nuts3": "TR834"
+      },
       "coordinates": {
         "latitude": 40.649722,
         "longitude": 35.835278
@@ -465,6 +535,20 @@
       "altitude": 905,
       "areaCode": [312],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR5",
+          "name": {
+            "en": "West Anatolia",
+            "tr": "Batı Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR51",
+          "name": "Ankara"
+        },
+        "nuts3": "TR511"
+      },
       "coordinates": {
         "latitude": 39.92077,
         "longitude": 32.85411
@@ -638,6 +722,20 @@
       "altitude": 62,
       "areaCode": [242],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR61",
+          "name": "Antalya"
+        },
+        "nuts3": "TR611"
+      },
       "coordinates": {
         "latitude": 36.88414,
         "longitude": 30.70563
@@ -775,6 +873,20 @@
       "altitude": 530,
       "areaCode": [466],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR9",
+          "name": {
+            "en": "East Black Sea",
+            "tr": "Doğu Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR90",
+          "name": "Trabzon"
+        },
+        "nuts3": "TR905"
+      },
       "coordinates": {
         "latitude": 41.18222,
         "longitude": 41.81889
@@ -852,6 +964,20 @@
       "altitude": 92,
       "areaCode": [256],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR3",
+          "name": {
+            "en": "Aegean",
+            "tr": "Ege"
+          }
+        },
+        "nuts2": {
+          "code": "TR32",
+          "name": "Aydın"
+        },
+        "nuts3": "TR321"
+      },
       "coordinates": {
         "latitude": 37.84444,
         "longitude": 27.84556
@@ -977,6 +1103,20 @@
       "altitude": 145,
       "areaCode": [266],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR2",
+          "name": {
+            "en": "West Marmara",
+            "tr": "Batı Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR22",
+          "name": "Balıkesir"
+        },
+        "nuts3": "TR221"
+      },
       "coordinates": {
         "latitude": 39.64861,
         "longitude": 27.8825
@@ -1120,6 +1260,20 @@
       "altitude": 513,
       "areaCode": [228],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR4",
+          "name": {
+            "en": "East Marmara",
+            "tr": "Doğu Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR41",
+          "name": "Bursa"
+        },
+        "nuts3": "TR413"
+      },
       "coordinates": {
         "latitude": 40.14556,
         "longitude": 29.97917
@@ -1191,6 +1345,20 @@
       "altitude": 1159,
       "areaCode": [426],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRB",
+          "name": {
+            "en": "Central East Anatolia",
+            "tr": "Ortadoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRB1",
+          "name": "Malatya"
+        },
+        "nuts3": "TRB13"
+      },
       "coordinates": {
         "latitude": 38.885,
         "longitude": 40.49861
@@ -1262,6 +1430,20 @@
       "altitude": 1637,
       "areaCode": [434],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRB",
+          "name": {
+            "en": "Central East Anatolia",
+            "tr": "Ortadoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRB2",
+          "name": "Van"
+        },
+        "nuts3": "TRB23"
+      },
       "coordinates": {
         "latitude": 38.39528,
         "longitude": 42.12361
@@ -1327,6 +1509,20 @@
       "altitude": 741,
       "areaCode": [374],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR4",
+          "name": {
+            "en": "East Marmara",
+            "tr": "Doğu Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR42",
+          "name": "Kocaeli"
+        },
+        "nuts3": "TR424"
+      },
       "coordinates": {
         "latitude": 40.73528,
         "longitude": 31.60639
@@ -1404,6 +1600,20 @@
       "altitude": 963,
       "areaCode": [248],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR61",
+          "name": "Antalya"
+        },
+        "nuts3": "TR613"
+      },
       "coordinates": {
         "latitude": 37.72111,
         "longitude": 30.29056
@@ -1493,6 +1703,20 @@
       "altitude": 238,
       "areaCode": [224],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR4",
+          "name": {
+            "en": "East Marmara",
+            "tr": "Doğu Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR41",
+          "name": "Bursa"
+        },
+        "nuts3": "TR411"
+      },
       "coordinates": {
         "latitude": 40.18222,
         "longitude": 29.06111
@@ -1612,6 +1836,20 @@
       "altitude": 11,
       "areaCode": [286],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR2",
+          "name": {
+            "en": "West Marmara",
+            "tr": "Batı Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR22",
+          "name": "Balıkesir"
+        },
+        "nuts3": "TR222"
+      },
       "coordinates": {
         "latitude": 40.15556,
         "longitude": 26.41444
@@ -1707,6 +1945,20 @@
       "altitude": 730,
       "areaCode": [376],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR82",
+          "name": "Kastamonu"
+        },
+        "nuts3": "TR822"
+      },
       "coordinates": {
         "latitude": 40.6,
         "longitude": 33.61667
@@ -1802,6 +2054,20 @@
       "altitude": 822,
       "areaCode": [364],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR83",
+          "name": "Samsun"
+        },
+        "nuts3": "TR833"
+      },
       "coordinates": {
         "latitude": 40.55056,
         "longitude": 34.95556
@@ -1909,6 +2175,20 @@
       "altitude": 392,
       "areaCode": [258],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR3",
+          "name": {
+            "en": "Aegean",
+            "tr": "Ege"
+          }
+        },
+        "nuts2": {
+          "code": "TR32",
+          "name": "Aydın"
+        },
+        "nuts3": "TR322"
+      },
       "coordinates": {
         "latitude": 37.77639,
         "longitude": 29.08611
@@ -2046,6 +2326,20 @@
       "altitude": 674,
       "areaCode": [412],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC2",
+          "name": "Şanlıurfa"
+        },
+        "nuts3": "TRC22"
+      },
       "coordinates": {
         "latitude": 37.91417,
         "longitude": 40.23056
@@ -2171,6 +2465,20 @@
       "altitude": 50,
       "areaCode": [284],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR2",
+          "name": {
+            "en": "West Marmara",
+            "tr": "Batı Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR21",
+          "name": "Tekirdağ"
+        },
+        "nuts3": "TR212"
+      },
       "coordinates": {
         "latitude": 41.67083,
         "longitude": 26.55556
@@ -2248,6 +2556,20 @@
       "altitude": 1041,
       "areaCode": [424],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRB",
+          "name": {
+            "en": "Central East Anatolia",
+            "tr": "Ortadoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRB1",
+          "name": "Malatya"
+        },
+        "nuts3": "TRB12"
+      },
       "coordinates": {
         "latitude": 38.68056,
         "longitude": 39.22639
@@ -2337,6 +2659,20 @@
       "altitude": 1216,
       "areaCode": [446],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRA",
+          "name": {
+            "en": "Northeast Anatolia",
+            "tr": "Kuzeydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRA1",
+          "name": "Erzurum"
+        },
+        "nuts3": "TRA12"
+      },
       "coordinates": {
         "latitude": 39.75,
         "longitude": 39.5
@@ -2414,6 +2750,20 @@
       "altitude": 1923,
       "areaCode": [442],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TRA",
+          "name": {
+            "en": "Northeast Anatolia",
+            "tr": "Kuzeydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRA1",
+          "name": "Erzurum"
+        },
+        "nuts3": "TRA11"
+      },
       "coordinates": {
         "latitude": 39.90861,
         "longitude": 41.27694
@@ -2557,6 +2907,20 @@
       "altitude": 796,
       "areaCode": [222],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR4",
+          "name": {
+            "en": "East Marmara",
+            "tr": "Doğu Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR41",
+          "name": "Bursa"
+        },
+        "nuts3": "TR412"
+      },
       "coordinates": {
         "latitude": 39.77639,
         "longitude": 30.52056
@@ -2664,6 +3028,20 @@
       "altitude": 838,
       "areaCode": [342],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC1",
+          "name": "Gaziantep"
+        },
+        "nuts3": "TRC11"
+      },
       "coordinates": {
         "latitude": 37.06667,
         "longitude": 37.38333
@@ -2741,6 +3119,20 @@
       "altitude": 14,
       "areaCode": [454],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR9",
+          "name": {
+            "en": "East Black Sea",
+            "tr": "Doğu Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR90",
+          "name": "Trabzon"
+        },
+        "nuts3": "TR903"
+      },
       "coordinates": {
         "latitude": 40.91667,
         "longitude": 38.4
@@ -2860,6 +3252,20 @@
       "altitude": 1174,
       "areaCode": [456],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR9",
+          "name": {
+            "en": "East Black Sea",
+            "tr": "Doğu Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR90",
+          "name": "Trabzon"
+        },
+        "nuts3": "TR906"
+      },
       "coordinates": {
         "latitude": 40.45,
         "longitude": 39.48333
@@ -2919,6 +3325,20 @@
       "altitude": 1756,
       "areaCode": [438],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRB",
+          "name": {
+            "en": "Central East Anatolia",
+            "tr": "Ortadoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRB2",
+          "name": "Van"
+        },
+        "nuts3": "TRB24"
+      },
       "coordinates": {
         "latitude": 37.58333,
         "longitude": 43.73333
@@ -2972,6 +3392,20 @@
       "altitude": 89,
       "areaCode": [326],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR63",
+          "name": "Hatay"
+        },
+        "nuts3": "TR631"
+      },
       "coordinates": {
         "latitude": 36.2,
         "longitude": 36.16667
@@ -3085,6 +3519,20 @@
       "altitude": 1058,
       "areaCode": [246],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR61",
+          "name": "Antalya"
+        },
+        "nuts3": "TR612"
+      },
       "coordinates": {
         "latitude": 37.76667,
         "longitude": 30.55
@@ -3186,6 +3634,20 @@
       "altitude": 18,
       "areaCode": [324],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR62",
+          "name": "Adana"
+        },
+        "nuts3": "TR622"
+      },
       "coordinates": {
         "latitude": 36.8,
         "longitude": 34.63333
@@ -3287,6 +3749,20 @@
       "altitude": 25,
       "areaCode": [212, 216],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR1",
+          "name": {
+            "en": "İstanbul",
+            "tr": "İstanbul"
+          }
+        },
+        "nuts2": {
+          "code": "TR10",
+          "name": "İstanbul"
+        },
+        "nuts3": "TR100"
+      },
       "coordinates": {
         "latitude": 41.01384,
         "longitude": 28.94966
@@ -3544,6 +4020,20 @@
       "altitude": 9,
       "areaCode": [232],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR3",
+          "name": {
+            "en": "Aegean",
+            "tr": "Ege"
+          }
+        },
+        "nuts2": {
+          "code": "TR31",
+          "name": "İzmir"
+        },
+        "nuts3": "TR310"
+      },
       "coordinates": {
         "latitude": 38.41885,
         "longitude": 27.12872
@@ -3747,6 +4237,20 @@
       "altitude": 1756,
       "areaCode": [474],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRA",
+          "name": {
+            "en": "Northeast Anatolia",
+            "tr": "Kuzeydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRA2",
+          "name": "Ağrı"
+        },
+        "nuts3": "TRA22"
+      },
       "coordinates": {
         "latitude": 40.60833,
         "longitude": 43.08333
@@ -3818,6 +4322,20 @@
       "altitude": 814,
       "areaCode": [366],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR82",
+          "name": "Kastamonu"
+        },
+        "nuts3": "TR821"
+      },
       "coordinates": {
         "latitude": 41.38889,
         "longitude": 33.78222
@@ -3961,6 +4479,20 @@
       "altitude": 1060,
       "areaCode": [352],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR7",
+          "name": {
+            "en": "Central Anatolia",
+            "tr": "Orta Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR72",
+          "name": "Kayseri"
+        },
+        "nuts3": "TR721"
+      },
       "coordinates": {
         "latitude": 38.73111,
         "longitude": 35.47889
@@ -4080,6 +4612,20 @@
       "altitude": 231,
       "areaCode": [288],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR2",
+          "name": {
+            "en": "West Marmara",
+            "tr": "Batı Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR21",
+          "name": "Tekirdağ"
+        },
+        "nuts3": "TR213"
+      },
       "coordinates": {
         "latitude": 41.73333,
         "longitude": 27.21667
@@ -4151,6 +4697,20 @@
       "altitude": 991,
       "areaCode": [386],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR7",
+          "name": {
+            "en": "Central Anatolia",
+            "tr": "Orta Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR71",
+          "name": "Kırıkkale"
+        },
+        "nuts3": "TR715"
+      },
       "coordinates": {
         "latitude": 39.14222,
         "longitude": 34.17056
@@ -4216,6 +4776,20 @@
       "altitude": 4,
       "areaCode": [262],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR4",
+          "name": {
+            "en": "East Marmara",
+            "tr": "Doğu Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR42",
+          "name": "Kocaeli"
+        },
+        "nuts3": "TR421"
+      },
       "coordinates": {
         "latitude": 40.76667,
         "longitude": 29.91667
@@ -4311,6 +4885,20 @@
       "altitude": 1023,
       "areaCode": [332],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR5",
+          "name": {
+            "en": "West Anatolia",
+            "tr": "Batı Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR52",
+          "name": "Konya"
+        },
+        "nuts3": "TR521"
+      },
       "coordinates": {
         "latitude": 37.86667,
         "longitude": 32.48333
@@ -4520,6 +5108,20 @@
       "altitude": 958,
       "areaCode": [274],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR3",
+          "name": {
+            "en": "Aegean",
+            "tr": "Ege"
+          }
+        },
+        "nuts2": {
+          "code": "TR33",
+          "name": "Manisa"
+        },
+        "nuts3": "TR333"
+      },
       "coordinates": {
         "latitude": 39.41667,
         "longitude": 29.98333
@@ -4621,6 +5223,20 @@
       "altitude": 970,
       "areaCode": [422],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TRB",
+          "name": {
+            "en": "Central East Anatolia",
+            "tr": "Ortadoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRB1",
+          "name": "Malatya"
+        },
+        "nuts3": "TBB11"
+      },
       "coordinates": {
         "latitude": 38.355,
         "longitude": 38.305
@@ -4722,6 +5338,20 @@
       "altitude": 79,
       "areaCode": [236],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR3",
+          "name": {
+            "en": "Aegean",
+            "tr": "Ege"
+          }
+        },
+        "nuts2": {
+          "code": "TR33",
+          "name": "Manisa"
+        },
+        "nuts3": "TR331"
+      },
       "coordinates": {
         "latitude": 38.61361,
         "longitude": 27.42694
@@ -4847,6 +5477,20 @@
       "altitude": 562,
       "areaCode": [344],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR63",
+          "name": "Hatay"
+        },
+        "nuts3": "TR632"
+      },
       "coordinates": {
         "latitude": 37.58333,
         "longitude": 36.93333
@@ -4936,6 +5580,20 @@
       "altitude": 938,
       "areaCode": [482],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC3",
+          "name": "Mardin"
+        },
+        "nuts3": "TRC31"
+      },
       "coordinates": {
         "latitude": 37.31111,
         "longitude": 40.74361
@@ -5019,6 +5677,20 @@
       "altitude": 659,
       "areaCode": [252],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR3",
+          "name": {
+            "en": "Aegean",
+            "tr": "Ege"
+          }
+        },
+        "nuts2": {
+          "code": "TR32",
+          "name": "Aydın"
+        },
+        "nuts3": "TR323"
+      },
       "coordinates": {
         "latitude": 37.21667,
         "longitude": 28.36667
@@ -5120,6 +5792,20 @@
       "altitude": 1334,
       "areaCode": [436],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRB",
+          "name": {
+            "en": "Central East Anatolia",
+            "tr": "Ortadoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRB2",
+          "name": "Van"
+        },
+        "nuts3": "TRB22"
+      },
       "coordinates": {
         "latitude": 38.74444,
         "longitude": 41.49611
@@ -5179,6 +5865,20 @@
       "altitude": 1197,
       "areaCode": [384],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR7",
+          "name": {
+            "en": "Central Anatolia",
+            "tr": "Orta Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR71",
+          "name": "Kırıkkale"
+        },
+        "nuts3": "TR714"
+      },
       "coordinates": {
         "latitude": 38.62444,
         "longitude": 34.72306
@@ -5250,6 +5950,20 @@
       "altitude": 1239,
       "areaCode": [388],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR7",
+          "name": {
+            "en": "Central Anatolia",
+            "tr": "Orta Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR71",
+          "name": "Kırıkkale"
+        },
+        "nuts3": "TR713"
+      },
       "coordinates": {
         "latitude": 37.96667,
         "longitude": 34.68333
@@ -5309,6 +6023,20 @@
       "altitude": 25,
       "areaCode": [452],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR9",
+          "name": {
+            "en": "East Black Sea",
+            "tr": "Doğu Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR90",
+          "name": "Trabzon"
+        },
+        "nuts3": "TR902"
+      },
       "coordinates": {
         "latitude": 40.98333,
         "longitude": 37.88333
@@ -5446,6 +6174,20 @@
       "altitude": 11,
       "areaCode": [464],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR9",
+          "name": {
+            "en": "East Black Sea",
+            "tr": "Doğu Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR90",
+          "name": "Trabzon"
+        },
+        "nuts3": "TR904"
+      },
       "coordinates": {
         "latitude": 41.02083,
         "longitude": 40.52361
@@ -5541,6 +6283,20 @@
       "altitude": 41,
       "areaCode": [264],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR4",
+          "name": {
+            "en": "East Marmara",
+            "tr": "Doğu Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR42",
+          "name": "Kocaeli"
+        },
+        "nuts3": "TR422"
+      },
       "coordinates": {
         "latitude": 40.76667,
         "longitude": 30.41667
@@ -5660,6 +6416,20 @@
       "altitude": 10,
       "areaCode": [362],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR83",
+          "name": "Samsun"
+        },
+        "nuts3": "TR831"
+      },
       "coordinates": {
         "latitude": 41.28639,
         "longitude": 36.33139
@@ -5785,6 +6555,20 @@
       "altitude": 887,
       "areaCode": [484],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC3",
+          "name": "Mardin"
+        },
+        "nuts3": "TRC34"
+      },
       "coordinates": {
         "latitude": 37.94444,
         "longitude": 41.93333
@@ -5850,6 +6634,20 @@
       "altitude": 27,
       "areaCode": [368],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR82",
+          "name": "Kastamonu"
+        },
+        "nuts3": "TR823"
+      },
       "coordinates": {
         "latitude": 42.02361,
         "longitude": 35.15306
@@ -5927,6 +6725,20 @@
       "altitude": 1313,
       "areaCode": [346],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR7",
+          "name": {
+            "en": "Central Anatolia",
+            "tr": "Orta Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR72",
+          "name": "Kayseri"
+        },
+        "nuts3": "TR722"
+      },
       "coordinates": {
         "latitude": 39.74722,
         "longitude": 37.0175
@@ -6052,6 +6864,20 @@
       "altitude": 28,
       "areaCode": [282],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR2",
+          "name": {
+            "en": "West Marmara",
+            "tr": "Batı Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR21",
+          "name": "Tekirdağ"
+        },
+        "nuts3": "TR221"
+      },
       "coordinates": {
         "latitude": 40.98333,
         "longitude": 27.51667
@@ -6141,6 +6967,20 @@
       "altitude": 630,
       "areaCode": [356],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR83",
+          "name": "Samsun"
+        },
+        "nuts3": "TR832"
+      },
       "coordinates": {
         "latitude": 40.31667,
         "longitude": 36.55
@@ -6236,6 +7076,20 @@
       "altitude": 36,
       "areaCode": [462],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TR9",
+          "name": {
+            "en": "East Black Sea",
+            "tr": "Doğu Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR90",
+          "name": "Trabzon"
+        },
+        "nuts3": "TR901"
+      },
       "coordinates": {
         "latitude": 41,
         "longitude": 39.73333
@@ -6367,6 +7221,20 @@
       "altitude": 922,
       "areaCode": [428],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRB",
+          "name": {
+            "en": "Central East Anatolia",
+            "tr": "Ortadoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRB1",
+          "name": "Malatya"
+        },
+        "nuts3": "TRB14"
+      },
       "coordinates": {
         "latitude": 39.11667,
         "longitude": 39.53333
@@ -6438,6 +7306,20 @@
       "altitude": 527,
       "areaCode": [414],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC2",
+          "name": "Şanlıurfa"
+        },
+        "nuts3": "TRC21"
+      },
       "coordinates": {
         "latitude": 37.15,
         "longitude": 38.8
@@ -6539,6 +7421,20 @@
       "altitude": 915,
       "areaCode": [276],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR3",
+          "name": {
+            "en": "Aegean",
+            "tr": "Ege"
+          }
+        },
+        "nuts2": {
+          "code": "TR33",
+          "name": "Manisa"
+        },
+        "nuts3": "TR334"
+      },
       "coordinates": {
         "latitude": 38.68333,
         "longitude": 29.41667
@@ -6598,6 +7494,20 @@
       "altitude": 1728,
       "areaCode": [432],
       "isMetropolitan": true,
+      "nuts": {
+        "nuts1": {
+          "code": "TRB",
+          "name": {
+            "en": "Central East Anatolia",
+            "tr": "Ortadoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRB2",
+          "name": "Van"
+        },
+        "nuts3": "TRB21"
+      },
       "coordinates": {
         "latitude": 38.5,
         "longitude": 43.4
@@ -6699,6 +7609,20 @@
       "altitude": 1317,
       "areaCode": [354],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR7",
+          "name": {
+            "en": "Central Anatolia",
+            "tr": "Orta Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR72",
+          "name": "Kayseri"
+        },
+        "nuts3": "TR723"
+      },
       "coordinates": {
         "latitude": 39.81667,
         "longitude": 34.81667
@@ -6806,6 +7730,20 @@
       "altitude": 10,
       "areaCode": [372],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR81",
+          "name": "Zonguldak"
+        },
+        "nuts3": "TR811"
+      },
       "coordinates": {
         "latitude": 41.45,
         "longitude": 31.8
@@ -6877,6 +7815,20 @@
       "altitude": 1228,
       "areaCode": [382],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR7",
+          "name": {
+            "en": "Central Anatolia",
+            "tr": "Orta Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR71",
+          "name": "Kırıkkale"
+        },
+        "nuts3": "TR712"
+      },
       "coordinates": {
         "latitude": 38.36667,
         "longitude": 34.03333
@@ -6948,6 +7900,20 @@
       "altitude": 1555,
       "areaCode": [458],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRA",
+          "name": {
+            "en": "Northeast Anatolia",
+            "tr": "Kuzeydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRA1",
+          "name": "Erzurum"
+        },
+        "nuts3": "TRA13"
+      },
       "coordinates": {
         "latitude": 40.25,
         "longitude": 40.21667
@@ -6989,6 +7955,20 @@
       "altitude": 1063,
       "areaCode": [338],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR5",
+          "name": {
+            "en": "West Anatolia",
+            "tr": "Batı Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR52",
+          "name": "Konya"
+        },
+        "nuts3": "TR522"
+      },
       "coordinates": {
         "latitude": 37.18333,
         "longitude": 33.21667
@@ -7048,6 +8028,20 @@
       "altitude": 746,
       "areaCode": [318],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR7",
+          "name": {
+            "en": "Central Anatolia",
+            "tr": "Orta Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TR71",
+          "name": "Kırıkkale"
+        },
+        "nuts3": "TR711"
+      },
       "coordinates": {
         "latitude": 39.85,
         "longitude": 33.51667
@@ -7125,6 +8119,20 @@
       "altitude": 570,
       "areaCode": [488],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC3",
+          "name": "Mardin"
+        },
+        "nuts3": "TRC32"
+      },
       "coordinates": {
         "latitude": 37.88333,
         "longitude": 41.13333
@@ -7184,6 +8192,20 @@
       "altitude": 1343,
       "areaCode": [486],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC3",
+          "name": "Mardin"
+        },
+        "nuts3": "TRC33"
+      },
       "coordinates": {
         "latitude": 37.51667,
         "longitude": 42.46667
@@ -7249,6 +8271,20 @@
       "altitude": 12,
       "areaCode": [378],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR81",
+          "name": "Zonguldak"
+        },
+        "nuts3": "TR813"
+      },
       "coordinates": {
         "latitude": 41.63333,
         "longitude": 32.33333
@@ -7296,6 +8332,20 @@
       "altitude": 1799,
       "areaCode": [478],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRA",
+          "name": {
+            "en": "Northeast Anatolia",
+            "tr": "Kuzeydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRA2",
+          "name": "Ağrı"
+        },
+        "nuts3": "TRA24"
+      },
       "coordinates": {
         "latitude": 41.10833,
         "longitude": 42.7
@@ -7355,6 +8405,20 @@
       "altitude": 860,
       "areaCode": [476],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRA",
+          "name": {
+            "en": "Northeast Anatolia",
+            "tr": "Kuzeydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRA2",
+          "name": "Ağrı"
+        },
+        "nuts3": "TRA23"
+      },
       "coordinates": {
         "latitude": 39.91667,
         "longitude": 44.03333
@@ -7402,6 +8466,20 @@
       "altitude": 8,
       "areaCode": [226],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR4",
+          "name": {
+            "en": "East Marmara",
+            "tr": "Doğu Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR42",
+          "name": "Kocaeli"
+        },
+        "nuts3": "TR425"
+      },
       "coordinates": {
         "latitude": 40.65,
         "longitude": 29.26667
@@ -7461,6 +8539,20 @@
       "altitude": 264,
       "areaCode": [370],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR8",
+          "name": {
+            "en": "West Black Sea",
+            "tr": "Batı Karadeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR81",
+          "name": "Zonguldak"
+        },
+        "nuts3": "TR812"
+      },
       "coordinates": {
         "latitude": 41.2,
         "longitude": 32.63333
@@ -7520,6 +8612,20 @@
       "altitude": 660,
       "areaCode": [348],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TRC",
+          "name": {
+            "en": "Southeast Anatolia",
+            "tr": "Güneydoğu Anadolu"
+          }
+        },
+        "nuts2": {
+          "code": "TRC1",
+          "name": "Gaziantep"
+        },
+        "nuts3": "TRC13"
+      },
       "coordinates": {
         "latitude": 36.71667,
         "longitude": 37.11667
@@ -7567,6 +8673,20 @@
       "altitude": 121,
       "areaCode": [328],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR6",
+          "name": {
+            "en": "Mediterranean",
+            "tr": "Akdeniz"
+          }
+        },
+        "nuts2": {
+          "code": "TR63",
+          "name": "Hatay"
+        },
+        "nuts3": "TR633"
+      },
       "coordinates": {
         "latitude": 37.06667,
         "longitude": 36.25
@@ -7632,6 +8752,20 @@
       "altitude": 149,
       "areaCode": [380],
       "isMetropolitan": false,
+      "nuts": {
+        "nuts1": {
+          "code": "TR4",
+          "name": {
+            "en": "East Marmara",
+            "tr": "Doğu Marmara"
+          }
+        },
+        "nuts2": {
+          "code": "TR42",
+          "name": "Kocaeli"
+        },
+        "nuts3": "TR423"
+      },
       "coordinates": {
         "latitude": 40.83333,
         "longitude": 31.16667
