@@ -1,4 +1,4 @@
-const DB = require('./data.json');
+const getDB = require('../../utils/getDB.js');
 
 exports.getDistricts = function (
   name,
@@ -8,10 +8,11 @@ exports.getDistricts = function (
   limit = 976,
   fields,
   sort,
+  dev,
 ) {
   try {
     let districts = [];
-    DB.provinces.forEach((province) => {
+    getDB(dev).provinces.forEach((province) => {
       province.districts.forEach((item) => {
         item.province = province.name;
       });
@@ -20,7 +21,7 @@ exports.getDistricts = function (
     let initialDistricts = [...districts];
 
     if (Object.values(arguments).some((item) => item)) {
-      if (arguments[0]) {
+      if (name) {
         nameAlt =
           name.charAt(0).toLocaleUpperCase('TR') +
           name.slice(1).toLocaleLowerCase('tr');
@@ -29,8 +30,8 @@ exports.getDistricts = function (
         );
       }
 
-      if (arguments[1] || arguments[2]) {
-        if (+arguments[1] <= 0 && +arguments[2] <= 0) {
+      if (minPopulation || maxPopulation) {
+        if (+minPopulation <= 0 && +maxPopulation <= 0) {
           throw {
             status: 404,
             message:
@@ -38,7 +39,7 @@ exports.getDistricts = function (
           };
         }
 
-        if (+arguments[1] > +arguments[2]) {
+        if (+minPopulation > +maxPopulation) {
           throw {
             status: 404,
             message:
@@ -53,7 +54,7 @@ exports.getDistricts = function (
         });
       }
 
-      if (arguments[6]) {
+      if (sort) {
         const sortArray = sort.split(',').reverse();
         const sortedDistricts = [];
 
@@ -91,9 +92,9 @@ exports.getDistricts = function (
         districts = sortedDistricts;
 
         if (
-          sortArray.some((item) => !Object.keys(districts[0]).includes(item)) &&
+          sortArray.some((item) => !Object.keys(name).includes(item)) &&
           !sortArray.some(
-            (item) => !Object.keys(districts[0]).includes(item.startsWith('-')),
+            (item) => !Object.keys(name).includes(item.startsWith('-')),
           )
         ) {
           throw {
@@ -104,7 +105,7 @@ exports.getDistricts = function (
         }
       }
 
-      if (arguments[5]) {
+      if (fields) {
         const fieldsArray = fields.split(',');
         const filteredDistricts = [];
 
@@ -129,7 +130,7 @@ exports.getDistricts = function (
         }
       }
 
-      if (arguments[3] || arguments[4]) {
+      if (offset || limit) {
         districts = districts.slice(+offset, +offset + +limit);
 
         if (+offset >= initialDistricts.length && +limit == 0) {
@@ -171,10 +172,10 @@ exports.getDistricts = function (
   }
 };
 
-exports.getExactDistrict = function (id, fields) {
+exports.getExactDistrict = function (id, fields, dev) {
   try {
     let districts = [];
-    DB.provinces.forEach((province) => {
+    getDB(dev).provinces.forEach((province) => {
       province.districts.forEach((item) => {
         item.province = province.name;
       });
@@ -183,7 +184,7 @@ exports.getExactDistrict = function (id, fields) {
 
     let fieldsArrayCopy;
 
-    if (arguments[1]) {
+    if (fields) {
       const fieldsArray = fields.split(',');
       fieldsArrayCopy = [...fieldsArray];
 

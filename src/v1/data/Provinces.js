@@ -1,4 +1,4 @@
-const DB = require('./data.json');
+const getDB = require('../../utils/getDB.js');
 
 exports.getProvinces = function (
   name,
@@ -9,12 +9,13 @@ exports.getProvinces = function (
   limit = 81,
   fields,
   sort,
+  dev,
 ) {
   try {
     if (Object.values(arguments).some((item) => item)) {
-      let provinces = DB.provinces;
+      let provinces = getDB(dev).provinces;
 
-      if (arguments[0]) {
+      if (name) {
         nameAlt =
           name.charAt(0).toLocaleUpperCase('TR') +
           name.slice(1).toLocaleLowerCase('tr');
@@ -23,8 +24,8 @@ exports.getProvinces = function (
         );
       }
 
-      if (arguments[1] || arguments[2]) {
-        if (+arguments[1] <= 0 && +arguments[2] <= 0) {
+      if (minPopulation || maxPopulation) {
+        if (+minPopulation <= 0 && +maxPopulation <= 0) {
           throw {
             status: 404,
             message:
@@ -32,7 +33,7 @@ exports.getProvinces = function (
           };
         }
 
-        if (+arguments[1] > +arguments[2]) {
+        if (+minPopulation > +maxPopulation) {
           throw {
             status: 404,
             message:
@@ -47,7 +48,7 @@ exports.getProvinces = function (
         });
       }
 
-      if (arguments[3]) {
+      if (isMetropolitan) {
         if (isMetropolitan === 'true') {
           provinces = provinces.filter((item) => item.isMetropolitan === true);
         } else if (isMetropolitan === 'false') {
@@ -61,7 +62,7 @@ exports.getProvinces = function (
         }
       }
 
-      if (arguments[7]) {
+      if (sort) {
         const sortArray = sort.split(',').reverse();
         const sortedProvinces = [];
 
@@ -95,11 +96,13 @@ exports.getProvinces = function (
 
         if (
           sortArray.some(
-            (item) => !Object.keys(DB.provinces[0]).includes(item),
+            (item) => !Object.keys(getDB(dev).provinces[0]).includes(item),
           ) &&
           !sortArray.some(
             (item) =>
-              !Object.keys(DB.provinces[0]).includes(item.startsWith('-')),
+              !Object.keys(getDB(dev).provinces[0]).includes(
+                item.startsWith('-'),
+              ),
           )
         ) {
           throw {
@@ -110,7 +113,7 @@ exports.getProvinces = function (
         }
       }
 
-      if (arguments[6]) {
+      if (fields) {
         const fieldsArray = fields.split(',');
         const filteredProvinces = [];
 
@@ -126,7 +129,7 @@ exports.getProvinces = function (
 
         if (
           fieldsArray.some(
-            (item) => !Object.keys(DB.provinces[0]).includes(item),
+            (item) => !Object.keys(getDB(dev).provinces[0]).includes(item),
           )
         ) {
           throw {
@@ -137,22 +140,22 @@ exports.getProvinces = function (
         }
       }
 
-      if (arguments[4] || arguments[5]) {
+      if (offset || limit) {
         provinces = provinces.slice(+offset, +offset + +limit);
 
-        if (+offset >= DB.provinces.length && +limit == 0) {
+        if (+offset >= getDB(dev).provinces.length && +limit == 0) {
           throw {
             status: 404,
             message:
               'Invalid offset and limit. The limit value must be greater than 0. The offset value must be less than ' +
-              DB.provinces.length,
+              getDB(dev).provinces.length,
           };
-        } else if (+offset >= DB.provinces.length) {
+        } else if (+offset >= getDB(dev).provinces.length) {
           throw {
             status: 404,
             message:
               'Invalid offset. The offset value must be less than ' +
-              DB.provinces.length,
+              getDB(dev).provinces.length,
           };
         } else if (+limit == 0) {
           throw {
@@ -171,7 +174,7 @@ exports.getProvinces = function (
         };
       }
     } else {
-      return DB.provinces;
+      return getDB(dev).provinces;
     }
   } catch (error) {
     throw {
@@ -181,7 +184,7 @@ exports.getProvinces = function (
   }
 };
 
-exports.getExactProvince = function (id, fields) {
+exports.getExactProvince = function (id, fields, dev) {
   try {
     if (!isFinite(id)) {
       throw {
@@ -190,16 +193,20 @@ exports.getExactProvince = function (id, fields) {
       };
     }
 
+    const province = getDB(dev).provinces[id - 1];
+
     if (fields) {
       const fieldsArray = fields.split(',');
       const filteredProvince = {};
 
       fieldsArray.forEach((field) => {
-        filteredProvince[field] = DB.provinces[id - 1][field];
+        filteredProvince[field] = province[field];
       });
 
       if (
-        fieldsArray.some((item) => !Object.keys(DB.provinces[0]).includes(item))
+        fieldsArray.some(
+          (item) => !Object.keys(getDB(dev).provinces[0]).includes(item),
+        )
       ) {
         throw {
           status: 404,
@@ -209,8 +216,8 @@ exports.getExactProvince = function (id, fields) {
       }
       return filteredProvince;
     } else {
-      if (DB.provinces[id - 1]) {
-        return DB.provinces[id - 1];
+      if (province) {
+        return province;
       } else {
         throw {
           status: 404,

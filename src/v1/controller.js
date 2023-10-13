@@ -12,6 +12,7 @@ exports.getProvinces = (req, res) => {
       limit,
       fields,
       sort,
+      dev,
     } = req.query;
 
     const provinces = Provinces.getProvinces(
@@ -23,6 +24,7 @@ exports.getProvinces = (req, res) => {
       limit,
       fields,
       sort,
+      dev,
     );
 
     return res.send({ status: 'OK', data: provinces });
@@ -37,9 +39,9 @@ exports.getProvinces = (req, res) => {
 exports.getExactProvince = (req, res) => {
   try {
     const { id } = req.params;
-    const { fields } = req.query;
+    const { fields, dev } = req.query;
 
-    const province = Provinces.getExactProvince(id, fields);
+    const province = Provinces.getExactProvince(id, fields, dev);
 
     return res.send({ status: 'OK', data: province });
   } catch (error) {
@@ -52,8 +54,16 @@ exports.getExactProvince = (req, res) => {
 
 exports.getDistricts = (req, res) => {
   try {
-    const { name, minPopulation, maxPopulation, offset, limit, fields, sort } =
-      req.query;
+    const {
+      name,
+      minPopulation,
+      maxPopulation,
+      offset,
+      limit,
+      fields,
+      sort,
+      dev,
+    } = req.query;
 
     const districts = Districts.getDistricts(
       name,
@@ -63,6 +73,7 @@ exports.getDistricts = (req, res) => {
       limit,
       fields,
       sort,
+      dev,
     );
 
     return res.send({ status: 'OK', data: districts });
@@ -77,9 +88,9 @@ exports.getDistricts = (req, res) => {
 exports.getExactDistrict = (req, res) => {
   try {
     const { id } = req.params;
-    const { fields } = req.query;
+    const { fields, dev } = req.query;
 
-    const district = Districts.getExactDistrict(id, fields);
+    const district = Districts.getExactDistrict(id, fields, dev);
 
     return res.send({ status: 'OK', data: district });
   } catch (error) {
