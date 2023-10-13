@@ -236,6 +236,7 @@ block content
     a.sidenav__item(href='#districts') Districts
     a.sidenav__item(href='#get-all-districts') &bull; Get All Districts
     a.sidenav__item(href='#get-exact-district') &bull; Get Exact District
+    a.sidenav__item(href='#about-neighborhoods') About Neighborhoods
     a.sidenav__item(href='/examples') Examples
   article.content
     h1.content__title
@@ -432,6 +433,25 @@ block content
           td fields
           td string
           td It shows the fields you want to see in the response.
+    br
+    h2
+      a#about-neighborhoods.hook(href='#about-neighborhoods')
+        | About Neighborhoods
+    p
+      | As of October 13, 2023, I started adding neighborhoods under each district.
+      | This will take some time, it's not something I can do all at once or all at once.
+    p
+      | You can see for which provinces neighborhood support has been added for now, 
+      a(target='_blank' href='https://gist.github.com/ubeydeozdmr/8e544db1999b07f09b96aabc6c340df6') by clicking here.
+    p To try the feature now, you need to add the dev=true query param to any route 
+      | (/provinces, /provinces/:id, /districts, /districts/:id).
+    p
+      | For example, you can try it by clicking 
+      a(target='_blank', href='/api/v1/provinces/34?dev=true') here.
+    p
+      | If you want to add neighborhoods for /districts and /districts/:id routes, 
+      | you should not use the fields query param for these routes. 
+      | (Due to a bug whose cause I cannot understand, I will review it again later)
     br
     p
       | Turkiye API is an open-source project.
