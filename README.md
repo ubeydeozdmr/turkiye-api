@@ -4,7 +4,7 @@ API containing information about Turkey's provinces. It is still under developme
 
 ## IMPORTANT NOTE (ONLY FOR OCTOBER 2023)
 
-turkiye-api repo was deployed and published with [cyclic.sh](https://cyclic.sh), which is based on AWS serverless. I forgot to set a rate limit for the API, so (probably due to bots or infinite loops) the API filled the limit given to it. For this month, you can use [turkiyeapi.herokuapp.com](https://turkiyeapi.herokuapp.com) base url instead of turkiyeapi.cyclic.app
+turkiye-api repo was deployed and published with [cyclic.sh](https://cyclic.sh), which is based on AWS serverless. I forgot to set a rate limit for the API, so (probably due to bots or infinite loops) the API filled the limit given to it. For this month, you can use [turkiyeapi.herokuapp.com](https://turkiyeapi.dev) base url instead of turkiyeapi.cyclic.app
 
 We are sorry for any possible problems you may be experiencing.
 
@@ -23,12 +23,12 @@ We are sorry for any possible problems you may be experiencing.
 ### Get all provinces
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/provinces
+https://turkiyeapi.dev/api/v1/provinces
 ```
 
 You can use this route to get data for all countries.
 
-[Click here to take a quick look](https://turkiyeapi.herokuapp.com/api/v1/provinces)
+[Click here to take a quick look](https://turkiyeapi.dev/api/v1/provinces)
 
 | Query          |  Type   | Description                                                                            |
 | -------------- | :-----: | :------------------------------------------------------------------------------------- |
@@ -44,33 +44,33 @@ You can use this route to get data for all countries.
 - Example usage 1:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/provinces?name=ankara
+https://turkiyeapi.dev/api/v1/provinces?name=ankara
 ```
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/provinces?name=ankara)
+[Click here to try it](https://turkiyeapi.dev/api/v1/provinces?name=ankara)
 
 - Example usage 2:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/provinces?offset=10&limit=10
+https://turkiyeapi.dev/api/v1/provinces?offset=10&limit=10
 ```
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/provinces?offset=10&limit=10)
+[Click here to try it](https://turkiyeapi.dev/api/v1/provinces?offset=10&limit=10)
 
 - Example usage 3:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/provinces?fields=name,areaCode
+https://turkiyeapi.dev/api/v1/provinces?fields=name,areaCode
 ```
 
 It will show you only the name and area code of the provinces.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/provinces?fields=name,areaCode)
+[Click here to try it](https://turkiyeapi.dev/api/v1/provinces?fields=name,areaCode)
 
 ### Get exact province
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/provinces/:id
+https://turkiyeapi.dev/api/v1/provinces/:id
 ```
 
 You can use this route to obtain the data of the province whose ID you entered.
@@ -86,22 +86,22 @@ NOTE: The ability to search by province name has been removed for this route. Tr
 - Example usage 1:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/provinces/6
+https://turkiyeapi.dev/api/v1/provinces/6
 ```
 
 It will show you the data of the province whose ID is 6.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/provinces/6)
+[Click here to try it](https://turkiyeapi.dev/api/v1/provinces/6)
 
 - Example usage 2:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/provinces/6?fields=name,areaCode
+https://turkiyeapi.dev/api/v1/provinces/6?fields=name,areaCode
 ```
 
 It will show you only the name and area code of the province.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/provinces/6?fields=name,areaCode)
+[Click here to try it](https://turkiyeapi.dev/api/v1/provinces/6?fields=name,areaCode)
 
 - Example response:
 
@@ -150,12 +150,12 @@ It will show you only the name and area code of the province.
 ### Get all districts
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/districts
+https://turkiyeapi.dev/api/v1/districts
 ```
 
 You can use this route to get data for all districts.
 
-[Click here to take a quick look](https://turkiyeapi.herokuapp.com/api/v1/districts)
+[Click here to take a quick look](https://turkiyeapi.dev/api/v1/districts)
 
 | Query         |  Type  | Description                                                                            |
 | ------------- | :----: | :------------------------------------------------------------------------------------- |
@@ -170,42 +170,42 @@ You can use this route to get data for all districts.
 - Example usage 1:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/districts?name=dağ
+https://turkiyeapi.dev/api/v1/districts?name=dağ
 ```
 
 It will show all the districts containing or matching "dağ" in their name.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/districts?name=dağ)
+[Click here to try it](https://turkiyeapi.dev/api/v1/districts?name=dağ)
 
 - Example usage 2:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/districts?minPopulation=100000&maxPopulation=300000
+https://turkiyeapi.dev/api/v1/districts?minPopulation=100000&maxPopulation=300000
 ```
 
 It will show all the districts with a population between 100,000 and 300,000.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/districts?minPopulation=100000&maxPopulation=300000)
+[Click here to try it](https://turkiyeapi.dev/api/v1/districts?minPopulation=100000&maxPopulation=300000)
 
 - Example usage 3:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/districts?offset=10&limit=10
+https://turkiyeapi.dev/api/v1/districts?offset=10&limit=10
 ```
 
 It will show 10 districts starting from the 10th district.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/districts?offset=10&limit=10)
+[Click here to try it](https://turkiyeapi.dev/api/v1/districts?offset=10&limit=10)
 
 - Example usage 4:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/districts?fields=name,population
+https://turkiyeapi.dev/api/v1/districts?fields=name,population
 ```
 
 It will show only the name and population of the districts.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/districts?fields=name,population)
+[Click here to try it](https://turkiyeapi.dev/api/v1/districts?fields=name,population)
 
 - Example response:
 
@@ -233,7 +233,7 @@ It will show only the name and population of the districts.
 ### Get exact district
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/districts/:id
+https://turkiyeapi.dev/api/v1/districts/:id
 ```
 
 You can use this route to obtain the data of the province whose ID you entered.
@@ -245,22 +245,22 @@ You can use this route to obtain the data of the province whose ID you entered.
 - Example usage 1:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/districts/1832
+https://turkiyeapi.dev/api/v1/districts/1832
 ```
 
 It will show you the data of the district whose ID is 1832.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/districts/1832)
+[Click here to try it](https://turkiyeapi.dev/api/v1/districts/1832)
 
 - Example usage 2:
 
 ```bash
-https://turkiyeapi.herokuapp.com/api/v1/districts/1832?fields=id,name
+https://turkiyeapi.dev/api/v1/districts/1832?fields=id,name
 ```
 
 It will show you only the id and name of the district.
 
-[Click here to try it](https://turkiyeapi.herokuapp.com/api/v1/districts/1832?fields=id,name)
+[Click here to try it](https://turkiyeapi.dev/api/v1/districts/1832?fields=id,name)
 
 ## License
 
