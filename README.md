@@ -2,11 +2,12 @@
 
 API containing information about Turkey's provinces. It is still under development.
 
-## IMPORTANT NOTE (ONLY FOR OCTOBER 2023)
+## Announcement
 
-turkiye-api repo was deployed and published with [cyclic.sh](https://cyclic.sh), which is based on AWS serverless. I forgot to set a rate limit for the API, so (probably due to bots or infinite loops) the API filled the limit given to it. For this month, you can use [turkiyeapi.herokuapp.com](https://turkiyeapi.dev) base url instead of turkiyeapi.cyclic.app
+After a 1-month outage, deployment based on [cyclic.sh](https://cyclic.sh) was activated again. We will use [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But you can still use the following domains:
 
-We are sorry for any possible problems you may be experiencing.
+- [turkiyeapi.cyclic.app](https://turkiyeapi.cyclic.app)
+- [turkiyeapi.herokuapp.com](https://turkiyeapi.herokuapp.com)
 
 ## What's new?
 
