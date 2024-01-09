@@ -23,8 +23,3 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-
-      - name: Build and Deploy
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: |
-          npm run start
