@@ -1,0 +1,38 @@
+name: Build & Lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14, 16, 18]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Tests
+        run: npm test
+
+      - name: Build and Deploy
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          npm run build
+          # Add deployment steps if needed
