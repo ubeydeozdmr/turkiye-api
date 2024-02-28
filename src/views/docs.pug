@@ -236,7 +236,12 @@ block content
     a.sidenav__item(href='#districts') Districts
     a.sidenav__item(href='#get-all-districts') &bull; Get All Districts
     a.sidenav__item(href='#get-exact-district') &bull; Get Exact District
-    a.sidenav__item(href='#about-neighborhoods') About Neighborhoods
+    a.sidenav__item(href='#neighborhoods') Neighborhoods
+    a.sidenav__item(href='#get-all-neighborhoods') &bull; Get All Neighborhoods
+    a.sidenav__item(href='#get-exact-neighborhood') &bull; Get Exact Neighborhood
+    a.sidenav__item(href='#villages') Villages
+    a.sidenav__item(href='#get-all-villages') &bull; Get All Villages
+    a.sidenav__item(href='#get-exact-village') &bull; Get Exact Village
     a.sidenav__item(href='/examples') Examples
   article.content
     h1.content__title
@@ -258,9 +263,6 @@ block content
     p
       | To see example usages, you can 
       a(href='/examples') click here.
-    p
-      | You can use the new URL Creator Tool (unstable) to use the API more easily: 
-      a(target='_blank', href='/url-creator') click here.
     h1
       a#provinces.hook(href='#provinces') Provinces
     p Here are the routes related to provinces.
@@ -348,6 +350,12 @@ block content
           td fields
           td string
           td It shows the fields you want to see in the response.
+        tr
+          td extend
+          td boolean
+          td It shows the extended data (neighborhoods and villages) of the province. [Default: false]
+            br
+            | This is an experimental feature. It may not work properly.
     br
     h1
       a#districts.hook(href='#districts') Districts
@@ -434,20 +442,183 @@ block content
           td string
           td It shows the fields you want to see in the response.
     br
+    h1
+      a#neighborhoods.hook(href='#neighborhoods') Neighborhoods
+    p Here are the routes related to neighborhoods.
     h2
-      a#about-neighborhoods.hook(href='#about-neighborhoods')
-        | About Neighborhoods
-    p
-      | As of October 13, 2023, I started adding neighborhoods under each district.
-      | This will take some time, it's not something I can do all at once or all at once.
-    p
-      | You can see for which provinces neighborhood support has been added for now, 
-      a(target='_blank' href='https://gist.github.com/ubeydeozdmr/8e544db1999b07f09b96aabc6c340df6') by clicking here.
-    p To try the feature now, you need to add the dev=true query param to any route 
-      | (/provinces, /provinces/:id, /districts, /districts/:id).
-    p
-      | For example, you can try it by clicking 
-      a(target='_blank', href='/api/v1/provinces/34?dev=true') here.
+      a#get-all-neighborhoods.hook(href='#get-all-neighborhoods')
+        | Get All Neighborhoods
+    pre.urlframe
+      span.urlframe__method GET
+      code.urlframe__url.language-http /api/v1/neighborhoods
+
+    p You can use this route to get data for all neighborhoods.
+    p 
+      strong It is a recently added endpoint and is experimental. It may not work properly.
+    table
+      thead
+        tr
+          th Query Params
+          th Type
+          th Description
+      tbody
+        tr
+          td name
+          td string
+          td It shows all the neighborhoods containing or matching your search query.
+        tr
+          td minPopulation
+          td number
+          td
+            | It shows all the neighborhoods with a population greater than or equal to the
+            | value you entered.
+        tr
+          td maxPopulation
+          td number
+          td
+            | It shows all the neighborhoods with a population less than or equal to the value
+            | you entered.
+        tr
+          td offset
+          td number
+          td
+            | Used for pagination. Use this to set a starting point in search results.
+        tr
+          td limit
+          td number
+          td
+            | Used for pagination. Use this to set the maximum number of results to show
+            | you.
+        tr
+          td fields
+          td string
+          td It shows the fields you want to see in the response.
+        tr
+          td sort
+          td string
+          td It sorts the results in ascending or descending order.
+    br
+    h2
+      a#get-exact-neighborhood.hook(href='#get-exact-neighborhood')
+        | Get Exact Neighborhood
+    p You can use this route to get data for exact neighborhood.
+    p 
+      strong It is a recently added endpoint and is experimental. It may not work properly.
+    pre.urlframe
+      span.urlframe__method GET
+      code.urlframe__url.language-http /api/v1/neighborhoods/:id
+
+    p You can use this route to get data for exact neighborhood.
+    table
+      thead
+        tr
+          th Path Variables
+          th Description
+      tbody
+        tr
+          td id
+          td ID of neighborhood
+    br
+    table
+      thead
+        tr
+          th Query Params
+          th Type
+          th Description
+      tbody
+        tr
+          td fields
+          td string
+          td It shows the fields you want to see in the response.
+    br
+    h1
+      a#villages.hook(href='#villages') Villages
+    p Here are the routes related to villages.
+    h2
+      a#get-all-villages.hook(href='#get-all-villages')
+        | Get All Villages
+    pre.urlframe
+      span.urlframe__method GET
+      code.urlframe__url.language-http /api/v1/villages
+
+    p You can use this route to get data for all villages.
+    p 
+      strong It is a recently added endpoint and is experimental. It may not work properly.
+    table
+      thead
+        tr
+          th Query Params
+          th Type
+          th Description
+      tbody
+        tr
+          td name
+          td string
+          td It shows all the villages containing or matching your search query.
+        tr
+          td minPopulation
+          td number
+          td
+            | It shows all the villages with a population greater than or equal to the
+            | value you entered.
+        tr
+          td maxPopulation
+          td number
+          td
+            | It shows all the villages with a population less than or equal to the value
+            | you entered.
+        tr
+          td offset
+          td number
+          td
+            | Used for pagination. Use this to set a starting point in search results.
+        tr
+          td limit
+          td number
+          td
+            | Used for pagination. Use this to set the maximum number of results to show
+            | you.
+        tr
+          td fields
+          td string
+          td It shows the fields you want to see in the response.
+        tr
+          td sort
+          td string
+          td It sorts the results in ascending or descending order.
+    br
+    h2
+      a#get-exact-village.hook(href='#get-exact-village')
+        | Get Exact Village
+    p You can use this route to get data for exact village.
+    p 
+      strong It is a recently added endpoint and is experimental. It may not work properly.
+    pre.urlframe
+      span.urlframe__method GET
+      code.urlframe__url.language-http /api/v1/villages/:id
+
+    p You can use this route to get data for exact village.
+    table
+      thead
+        tr
+          th Path Variables
+          th Description
+      tbody
+        tr
+          td id
+          td ID of village
+    br
+    table
+      thead
+        tr
+          th Query Params
+          th Type
+          th Description
+      tbody
+        tr
+          td fields
+          td string
+          td It shows the fields you want to see in the response.
     br
     p
       | Turkiye API is an open-source project.

@@ -1,4 +1,7 @@
-const getDB = require('../../utils/getDB.js');
+const data = require('./provinces.json');
+const districts = require('./districts.json');
+const neighborhoods = require('./neighborhoods.json');
+const villages = require('./villages.json');
 
 exports.getProvinces = function (
   name,
@@ -9,172 +12,160 @@ exports.getProvinces = function (
   limit = 81,
   fields,
   sort,
-  dev,
 ) {
   try {
-    if (Object.values(arguments).some((item) => item)) {
-      let provinces = getDB(dev).provinces;
+    let provinces = data;
 
-      if (name) {
-        nameAlt =
-          name.charAt(0).toLocaleUpperCase('TR') +
-          name.slice(1).toLocaleLowerCase('tr');
-        provinces = provinces.filter(
-          (item) => item.name.includes(name) || item.name.includes(nameAlt),
+    provinces.forEach((province) => {
+      const provinceDistricts = districts.filter(
+        (district) => district.provinceId === province.id,
+      );
+      province.districts = provinceDistricts;
+    });
+
+    if (!Object.values(arguments).some((item) => item)) {
+      return provinces;
+    }
+
+    if (name) {
+      nameAlt =
+        name.charAt(0).toLocaleUpperCase('TR') +
+        name.slice(1).toLocaleLowerCase('tr');
+      provinces = provinces.filter(
+        (item) => item.name.includes(name) || item.name.includes(nameAlt),
+      );
+    }
+
+    if (minPopulation || maxPopulation) {
+      if (+minPopulation <= 0 && +maxPopulation <= 0) {
+        throw {
+          status: 404,
+          message:
+            "You can't search for a province with a population of 0 or less.",
+        };
+      }
+
+      if (+minPopulation > +maxPopulation) {
+        throw {
+          status: 404,
+          message:
+            'The minimum population cannot be greater than the maximum population.',
+        };
+      }
+
+      provinces = provinces.filter((item) => {
+        return (
+          item.population >= minPopulation && item.population <= maxPopulation
         );
-      }
+      });
+    }
 
-      if (minPopulation || maxPopulation) {
-        if (+minPopulation <= 0 && +maxPopulation <= 0) {
-          throw {
-            status: 404,
-            message:
-              "You can't search for a province with a population of 0 or less.",
-          };
-        }
-
-        if (+minPopulation > +maxPopulation) {
-          throw {
-            status: 404,
-            message:
-              'The minimum population cannot be greater than the maximum population.',
-          };
-        }
-
-        provinces = provinces.filter((item) => {
-          return (
-            item.population >= minPopulation && item.population <= maxPopulation
-          );
-        });
-      }
-
-      if (isMetropolitan) {
-        if (isMetropolitan === 'true') {
-          provinces = provinces.filter((item) => item.isMetropolitan === true);
-        } else if (isMetropolitan === 'false') {
-          provinces = provinces.filter((item) => item.isMetropolitan === false);
-        } else {
-          throw {
-            status: 404,
-            message:
-              'The isMetropolitan parameter must be either true or false.',
-          };
-        }
-      }
-
-      if (sort) {
-        const sortArray = sort.split(',').reverse();
-        const sortedProvinces = [];
-
-        sortArray.forEach((item) => {
-          if (item !== 'name' && item !== '-name') {
-            if (item.startsWith('-')) {
-              const field = item.slice(1);
-              provinces.sort((a, b) => (a[field] > b[field] ? -1 : 1));
-            } else {
-              provinces.sort((a, b) => (a[item] > b[item] ? 1 : -1));
-            }
-          } else {
-            if (item.startsWith('-')) {
-              const field = item.slice(1);
-              provinces.sort((a, b) =>
-                b[field].localeCompare(a[field], 'tr', { sensitivity: 'base' }),
-              );
-            } else {
-              provinces.sort((a, b) =>
-                a[item].localeCompare(b[item], 'tr', { sensitivity: 'base' }),
-              );
-            }
-          }
-        });
-
-        provinces.forEach((item) => {
-          sortedProvinces.push(item);
-        });
-
-        provinces = sortedProvinces;
-
-        if (
-          sortArray.some(
-            (item) => !Object.keys(getDB(dev).provinces[0]).includes(item),
-          ) &&
-          !sortArray.some(
-            (item) =>
-              !Object.keys(getDB(dev).provinces[0]).includes(
-                item.startsWith('-'),
-              ),
-          )
-        ) {
-          throw {
-            status: 404,
-            message:
-              'Invalid sort. The sort parameter must be a comma-separated list of valid fields.',
-          };
-        }
-      }
-
-      if (fields) {
-        const fieldsArray = fields.split(',');
-        const filteredProvinces = [];
-
-        provinces.forEach((item) => {
-          const filteredProvince = {};
-          fieldsArray.forEach((field) => {
-            filteredProvince[field] = item[field];
-          });
-          filteredProvinces.push(filteredProvince);
-        });
-
-        provinces = filteredProvinces;
-
-        if (
-          fieldsArray.some(
-            (item) => !Object.keys(getDB(dev).provinces[0]).includes(item),
-          )
-        ) {
-          throw {
-            status: 404,
-            message:
-              'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
-          };
-        }
-      }
-
-      if (offset || limit) {
-        provinces = provinces.slice(+offset, +offset + +limit);
-
-        if (+offset >= getDB(dev).provinces.length && +limit == 0) {
-          throw {
-            status: 404,
-            message:
-              'Invalid offset and limit. The limit value must be greater than 0. The offset value must be less than ' +
-              getDB(dev).provinces.length,
-          };
-        } else if (+offset >= getDB(dev).provinces.length) {
-          throw {
-            status: 404,
-            message:
-              'Invalid offset. The offset value must be less than ' +
-              getDB(dev).provinces.length,
-          };
-        } else if (+limit == 0) {
-          throw {
-            status: 404,
-            message: 'Invalid limit. The limit value must be greater than 0.',
-          };
-        }
-      }
-
-      if (provinces.length > 0) {
-        return provinces;
+    if (isMetropolitan) {
+      if (isMetropolitan === 'true') {
+        provinces = provinces.filter((item) => item.isMetropolitan === true);
+      } else if (isMetropolitan === 'false') {
+        provinces = provinces.filter((item) => item.isMetropolitan === false);
       } else {
         throw {
           status: 404,
-          message: 'No province found.',
+          message: 'The isMetropolitan parameter must be either true or false.',
         };
       }
+    }
+
+    if (sort) {
+      const sortArray = sort.split(',').reverse();
+
+      sortArray.forEach((item) => {
+        if (item !== 'name' && item !== '-name') {
+          if (item.startsWith('-')) {
+            const field = item.slice(1);
+            provinces.sort((a, b) => (a[field] > b[field] ? -1 : 1));
+          } else {
+            provinces.sort((a, b) => (a[item] > b[item] ? 1 : -1));
+          }
+        } else {
+          if (item.startsWith('-')) {
+            const field = item.slice(1);
+            provinces.sort((a, b) =>
+              b[field].localeCompare(a[field], 'tr', { sensitivity: 'base' }),
+            );
+          } else {
+            provinces.sort((a, b) =>
+              a[item].localeCompare(b[item], 'tr', { sensitivity: 'base' }),
+            );
+          }
+        }
+      });
+
+      if (
+        sortArray.some((item) => !Object.keys(data[0]).includes(item)) &&
+        !sortArray.some(
+          (item) => !Object.keys(data[0]).includes(item.startsWith('-')),
+        )
+      ) {
+        throw {
+          status: 404,
+          message:
+            'Invalid sort. The sort parameter must be a comma-separated list of valid fields.',
+        };
+      }
+    }
+
+    if (fields) {
+      const fieldsArray = fields.split(',');
+      const filteredProvinces = [];
+
+      provinces.forEach((item) => {
+        const filteredProvince = {};
+        fieldsArray.forEach((field) => {
+          filteredProvince[field] = item[field];
+        });
+        filteredProvinces.push(filteredProvince);
+      });
+
+      provinces = filteredProvinces;
+
+      if (fieldsArray.some((item) => !Object.keys(data[0]).includes(item))) {
+        throw {
+          status: 404,
+          message:
+            'Invalid fields. The fields parameter must be a comma-separated list of valid fields.',
+        };
+      }
+    }
+
+    if (offset || limit) {
+      provinces = provinces.slice(+offset, +offset + +limit);
+
+      if (+offset >= data.length && +limit == 0) {
+        throw {
+          status: 404,
+          message:
+            'Invalid offset and limit. The limit value must be greater than 0. The offset value must be less than ' +
+            data.length,
+        };
+      } else if (+offset >= data.length) {
+        throw {
+          status: 404,
+          message:
+            'Invalid offset. The offset value must be less than ' + data.length,
+        };
+      } else if (+limit == 0) {
+        throw {
+          status: 404,
+          message: 'Invalid limit. The limit value must be greater than 0.',
+        };
+      }
+    }
+
+    if (provinces.length > 0) {
+      return provinces;
     } else {
-      return getDB(dev).provinces;
+      throw {
+        status: 404,
+        message: 'No province found.',
+      };
     }
   } catch (error) {
     throw {
@@ -184,7 +175,7 @@ exports.getProvinces = function (
   }
 };
 
-exports.getExactProvince = function (id, fields, dev) {
+exports.getExactProvince = function (id, fields, extend) {
   try {
     if (!isFinite(id)) {
       throw {
@@ -193,7 +184,45 @@ exports.getExactProvince = function (id, fields, dev) {
       };
     }
 
-    const province = getDB(dev).provinces[id - 1];
+    const province = data.find((item) => item.id === +id);
+
+    const provinceDistricts = districts.filter(
+      (district) => district.provinceId === province.id,
+    );
+    // console.log(provinceDistricts);
+    // province.districts = provinceDistricts;
+
+    // if (extend === 'true') {
+    //   province.districts.forEach((district) => {
+    //     const districtNeighborhoods = neighborhoods.filter(
+    //       (neighborhood) => neighborhood.districtId === district.id,
+    //     );
+    //     district.neighborhoods = districtNeighborhoods;
+
+    //     const districtVillages = villages.filter(
+    //       (village) => village.districtId === district.id,
+    //     );
+    //     district.villages = districtVillages;
+    //   });
+    // }
+
+    province.districts = provinceDistricts.map(
+      ({ id, name, population, area }) => ({ id, name, population, area }),
+    );
+
+    province.districts.forEach((district) => {
+      const districtNeighborhoods = neighborhoods
+        .filter((neighborhood) => neighborhood.districtId === district.id)
+        .map(({ id, name, population }) => ({ id, name, population }));
+
+      district.neighborhoods = districtNeighborhoods;
+
+      const districtVillages = villages
+        .filter((village) => village.districtId === district.id)
+        .map(({ id, name, population }) => ({ id, name, population }));
+
+      district.villages = districtVillages;
+    });
 
     if (fields) {
       const fieldsArray = fields.split(',');
@@ -203,11 +232,7 @@ exports.getExactProvince = function (id, fields, dev) {
         filteredProvince[field] = province[field];
       });
 
-      if (
-        fieldsArray.some(
-          (item) => !Object.keys(getDB(dev).provinces[0]).includes(item),
-        )
-      ) {
+      if (fieldsArray.some((item) => !Object.keys(data[0]).includes(item))) {
         throw {
           status: 404,
           message:

@@ -8,6 +8,10 @@ router
   .get('/provinces/:id', controller.getExactProvince)
   .get('/districts', controller.getDistricts)
   .get('/districts/:id', controller.getExactDistrict)
+  .get('/neighborhoods', controller.getNeighborhoods)
+  .get('/neighborhoods/:id', controller.getExactNeighborhood)
+  .get('/villages', controller.getVillages)
+  .get('/villages/:id', controller.getExactVillage)
   .get('*', (req, res) => {
     res.status(404).json({
       status: 'ERROR',

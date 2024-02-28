@@ -1,0 +1,7786 @@
+[
+  {
+    "provinceId": 1,
+    "id": 1757,
+    "province": "Adana",
+    "name": "Aladağ",
+    "population": 16954,
+    "area": 1340
+  },
+  {
+    "provinceId": 1,
+    "id": 1219,
+    "province": "Adana",
+    "name": "Ceyhan",
+    "population": 156610,
+    "area": 1426
+  },
+  {
+    "provinceId": 1,
+    "id": 2033,
+    "province": "Adana",
+    "name": "Çukurova",
+    "population": 374205,
+    "area": 250
+  },
+  {
+    "provinceId": 1,
+    "id": 1329,
+    "province": "Adana",
+    "name": "Feke",
+    "population": 17304,
+    "area": 1218
+  },
+  {
+    "provinceId": 1,
+    "id": 1806,
+    "province": "Adana",
+    "name": "İmamoğlu",
+    "population": 27341,
+    "area": 445
+  },
+  {
+    "provinceId": 1,
+    "id": 1437,
+    "province": "Adana",
+    "name": "Karaisalı",
+    "population": 23105,
+    "area": 1165
+  },
+  {
+    "provinceId": 1,
+    "id": 1443,
+    "province": "Adana",
+    "name": "Karataş",
+    "population": 25245,
+    "area": 862
+  },
+  {
+    "provinceId": 1,
+    "id": 1486,
+    "province": "Adana",
+    "name": "Kozan",
+    "population": 132642,
+    "area": 1903
+  },
+  {
+    "provinceId": 1,
+    "id": 1580,
+    "province": "Adana",
+    "name": "Pozantı",
+    "population": 20733,
+    "area": 899
+  },
+  {
+    "provinceId": 1,
+    "id": 1588,
+    "province": "Adana",
+    "name": "Saimbeyli",
+    "population": 13857,
+    "area": 989
+  },
+  {
+    "provinceId": 1,
+    "id": 2032,
+    "province": "Adana",
+    "name": "Sarıçam",
+    "population": 236298,
+    "area": 770
+  },
+  {
+    "provinceId": 1,
+    "id": 1104,
+    "province": "Adana",
+    "name": "Seyhan",
+    "population": 787771,
+    "area": 444
+  },
+  {
+    "provinceId": 1,
+    "id": 1687,
+    "province": "Adana",
+    "name": "Tufanbeyli",
+    "population": 17258,
+    "area": 851
+  },
+  {
+    "provinceId": 1,
+    "id": 1734,
+    "province": "Adana",
+    "name": "Yumurtalık",
+    "population": 18630,
+    "area": 447
+  },
+  {
+    "provinceId": 1,
+    "id": 1748,
+    "province": "Adana",
+    "name": "Yüreğir",
+    "population": 402345,
+    "area": 835
+  },
+  {
+    "provinceId": 2,
+    "id": 1182,
+    "province": "Adıyaman",
+    "name": "Besni",
+    "population": 76415,
+    "area": 1235
+  },
+  {
+    "provinceId": 2,
+    "id": 1246,
+    "province": "Adıyaman",
+    "name": "Çelikhan",
+    "population": 14856,
+    "area": 444
+  },
+  {
+    "provinceId": 2,
+    "id": 1347,
+    "province": "Adıyaman",
+    "name": "Gerger",
+    "population": 15679,
+    "area": 668
+  },
+  {
+    "provinceId": 2,
+    "id": 1354,
+    "province": "Adıyaman",
+    "name": "Gölbaşı",
+    "population": 47876,
+    "area": 1274
+  },
+  {
+    "provinceId": 2,
+    "id": 1425,
+    "province": "Adıyaman",
+    "name": "Kahta",
+    "population": 132303,
+    "area": 319
+  },
+  {
+    "provinceId": 2,
+    "id": 1105,
+    "province": "Adıyaman",
+    "name": "Merkez",
+    "population": 284839,
+    "area": 1814
+  },
+  {
+    "provinceId": 2,
+    "id": 1592,
+    "province": "Adıyaman",
+    "name": "Samsat",
+    "population": 6898,
+    "area": 319
+  },
+  {
+    "provinceId": 2,
+    "id": 1985,
+    "province": "Adıyaman",
+    "name": "Sincik",
+    "population": 16477,
+    "area": 495
+  },
+  {
+    "provinceId": 2,
+    "id": 1989,
+    "province": "Adıyaman",
+    "name": "Tut",
+    "population": 9635,
+    "area": 290
+  },
+  {
+    "provinceId": 3,
+    "id": 1771,
+    "province": "Afyonkarahisar",
+    "name": "Başmakçı",
+    "population": 9378,
+    "area": 361
+  },
+  {
+    "provinceId": 3,
+    "id": 1773,
+    "province": "Afyonkarahisar",
+    "name": "Bayat",
+    "population": 7852,
+    "area": 411
+  },
+  {
+    "provinceId": 3,
+    "id": 1200,
+    "province": "Afyonkarahisar",
+    "name": "Bolvadin",
+    "population": 45073,
+    "area": 944
+  },
+  {
+    "provinceId": 3,
+    "id": 1239,
+    "province": "Afyonkarahisar",
+    "name": "Çay",
+    "population": 29935,
+    "area": 803
+  },
+  {
+    "provinceId": 3,
+    "id": 1906,
+    "province": "Afyonkarahisar",
+    "name": "Çobanlar",
+    "population": 14404,
+    "area": 165
+  },
+  {
+    "provinceId": 3,
+    "id": 1267,
+    "province": "Afyonkarahisar",
+    "name": "Dazkırı",
+    "population": 11642,
+    "area": 408
+  },
+  {
+    "provinceId": 3,
+    "id": 1281,
+    "province": "Afyonkarahisar",
+    "name": "Dinar",
+    "population": 47492,
+    "area": 1254
+  },
+  {
+    "provinceId": 3,
+    "id": 1306,
+    "province": "Afyonkarahisar",
+    "name": "Emirdağ",
+    "population": 43603,
+    "area": 2103
+  },
+  {
+    "provinceId": 3,
+    "id": 1923,
+    "province": "Afyonkarahisar",
+    "name": "Evciler",
+    "population": 7173,
+    "area": 252
+  },
+  {
+    "provinceId": 3,
+    "id": 1944,
+    "province": "Afyonkarahisar",
+    "name": "Hocalar",
+    "population": 8644,
+    "area": 506
+  },
+  {
+    "provinceId": 3,
+    "id": 1404,
+    "province": "Afyonkarahisar",
+    "name": "İhsaniye",
+    "population": 29044,
+    "area": 849
+  },
+  {
+    "provinceId": 3,
+    "id": 1809,
+    "province": "Afyonkarahisar",
+    "name": "İscehisar",
+    "population": 25033,
+    "area": 489
+  },
+  {
+    "provinceId": 3,
+    "id": 1961,
+    "province": "Afyonkarahisar",
+    "name": "Kızılören",
+    "population": 2107,
+    "area": 111
+  },
+  {
+    "provinceId": 3,
+    "id": 1108,
+    "province": "Afyonkarahisar",
+    "name": "Merkez",
+    "population": 324685,
+    "area": 1261
+  },
+  {
+    "provinceId": 3,
+    "id": 1594,
+    "province": "Afyonkarahisar",
+    "name": "Sandıklı",
+    "population": 55413,
+    "area": 1238
+  },
+  {
+    "provinceId": 3,
+    "id": 1626,
+    "province": "Afyonkarahisar",
+    "name": "Sinanpaşa",
+    "population": 39566,
+    "area": 889
+  },
+  {
+    "provinceId": 3,
+    "id": 1639,
+    "province": "Afyonkarahisar",
+    "name": "Sultandağı",
+    "population": 14229,
+    "area": 928
+  },
+  {
+    "provinceId": 3,
+    "id": 1664,
+    "province": "Afyonkarahisar",
+    "name": "Şuhut",
+    "population": 36071,
+    "area": 1044
+  },
+  {
+    "provinceId": 4,
+    "id": 1283,
+    "province": "Ağrı",
+    "name": "Diyadin",
+    "population": 37687,
+    "area": 1351
+  },
+  {
+    "provinceId": 4,
+    "id": 1287,
+    "province": "Ağrı",
+    "name": "Doğubayazıt",
+    "population": 114727,
+    "area": 2250
+  },
+  {
+    "provinceId": 4,
+    "id": 1301,
+    "province": "Ağrı",
+    "name": "Eleşkirt",
+    "population": 30103,
+    "area": 1307
+  },
+  {
+    "provinceId": 4,
+    "id": 1379,
+    "province": "Ağrı",
+    "name": "Hamur",
+    "population": 16097,
+    "area": 873
+  },
+  {
+    "provinceId": 4,
+    "id": 1111,
+    "province": "Ağrı",
+    "name": "Merkez",
+    "population": 153709,
+    "area": 1695
+  },
+  {
+    "provinceId": 4,
+    "id": 1568,
+    "province": "Ağrı",
+    "name": "Patnos",
+    "population": 112515,
+    "area": 1394
+  },
+  {
+    "provinceId": 4,
+    "id": 1667,
+    "province": "Ağrı",
+    "name": "Taşlıçay",
+    "population": 18781,
+    "area": 822
+  },
+  {
+    "provinceId": 4,
+    "id": 1691,
+    "province": "Ağrı",
+    "name": "Tutak",
+    "population": 27619,
+    "area": 1407
+  },
+  {
+    "provinceId": 5,
+    "id": 1363,
+    "province": "Amasya",
+    "name": "Göynücek",
+    "population": 10363,
+    "area": 591
+  },
+  {
+    "provinceId": 5,
+    "id": 1368,
+    "province": "Amasya",
+    "name": "Gümüşhacıköy",
+    "population": 22121,
+    "area": 629
+  },
+  {
+    "provinceId": 5,
+    "id": 1938,
+    "province": "Amasya",
+    "name": "Hamamözü",
+    "population": 4003,
+    "area": 204
+  },
+  {
+    "provinceId": 5,
+    "id": 1134,
+    "province": "Amasya",
+    "name": "Merkez",
+    "population": 148908,
+    "area": 1889
+  },
+  {
+    "provinceId": 5,
+    "id": 1524,
+    "province": "Amasya",
+    "name": "Merzifon",
+    "population": 76266,
+    "area": 888
+  },
+  {
+    "provinceId": 5,
+    "id": 1641,
+    "province": "Amasya",
+    "name": "Suluova",
+    "population": 46986,
+    "area": 456
+  },
+  {
+    "provinceId": 5,
+    "id": 1668,
+    "province": "Amasya",
+    "name": "Taşova",
+    "population": 30882,
+    "area": 971
+  },
+  {
+    "provinceId": 6,
+    "id": 1872,
+    "province": "Ankara",
+    "name": "Akyurt",
+    "population": 43918,
+    "area": 369
+  },
+  {
+    "provinceId": 6,
+    "id": 1130,
+    "province": "Ankara",
+    "name": "Altındağ",
+    "population": 412267,
+    "area": 123
+  },
+  {
+    "provinceId": 6,
+    "id": 1157,
+    "province": "Ankara",
+    "name": "Ayaş",
+    "population": 15581,
+    "area": 1041
+  },
+  {
+    "provinceId": 6,
+    "id": 1167,
+    "province": "Ankara",
+    "name": "Bala",
+    "population": 28704,
+    "area": 1851
+  },
+  {
+    "provinceId": 6,
+    "id": 1187,
+    "province": "Ankara",
+    "name": "Beypazarı",
+    "population": 48558,
+    "area": 1697
+  },
+  {
+    "provinceId": 6,
+    "id": 1227,
+    "province": "Ankara",
+    "name": "Çamlıdere",
+    "population": 13971,
+    "area": 782
+  },
+  {
+    "provinceId": 6,
+    "id": 1231,
+    "province": "Ankara",
+    "name": "Çankaya",
+    "population": 937546,
+    "area": 483
+  },
+  {
+    "provinceId": 6,
+    "id": 1260,
+    "province": "Ankara",
+    "name": "Çubuk",
+    "population": 99096,
+    "area": 1198
+  },
+  {
+    "provinceId": 6,
+    "id": 1302,
+    "province": "Ankara",
+    "name": "Elmadağ",
+    "population": 45034,
+    "area": 647
+  },
+  {
+    "provinceId": 6,
+    "id": 1922,
+    "province": "Ankara",
+    "name": "Etimesgut",
+    "population": 617229,
+    "area": 273
+  },
+  {
+    "provinceId": 6,
+    "id": 1924,
+    "province": "Ankara",
+    "name": "Evren",
+    "population": 3581,
+    "area": 222
+  },
+  {
+    "provinceId": 6,
+    "id": 1744,
+    "province": "Ankara",
+    "name": "Gölbaşı",
+    "population": 157605,
+    "area": 1364
+  },
+  {
+    "provinceId": 6,
+    "id": 1365,
+    "province": "Ankara",
+    "name": "Güdül",
+    "population": 10014,
+    "area": 540
+  },
+  {
+    "provinceId": 6,
+    "id": 1387,
+    "province": "Ankara",
+    "name": "Haymana",
+    "population": 33494,
+    "area": 2164
+  },
+  {
+    "provinceId": 6,
+    "id": 1815,
+    "province": "Ankara",
+    "name": "Kahramankazan",
+    "population": 60804,
+    "area": 547
+  },
+  {
+    "provinceId": 6,
+    "id": 1427,
+    "province": "Ankara",
+    "name": "Kalecik",
+    "population": 13296,
+    "area": 1110
+  },
+  {
+    "provinceId": 6,
+    "id": 1745,
+    "province": "Ankara",
+    "name": "Keçiören",
+    "population": 923404,
+    "area": 159
+  },
+  {
+    "provinceId": 6,
+    "id": 1473,
+    "province": "Ankara",
+    "name": "Kızılcahamam",
+    "population": 31800,
+    "area": 1623
+  },
+  {
+    "provinceId": 6,
+    "id": 1746,
+    "province": "Ankara",
+    "name": "Mamak",
+    "population": 682279,
+    "area": 321
+  },
+  {
+    "provinceId": 6,
+    "id": 1539,
+    "province": "Ankara",
+    "name": "Nallıhan",
+    "population": 26831,
+    "area": 2079
+  },
+  {
+    "provinceId": 6,
+    "id": 1578,
+    "province": "Ankara",
+    "name": "Polatlı",
+    "population": 128895,
+    "area": 3618
+  },
+  {
+    "provinceId": 6,
+    "id": 2034,
+    "province": "Ankara",
+    "name": "Pursaklar",
+    "population": 161926,
+    "area": 169
+  },
+  {
+    "provinceId": 6,
+    "id": 1747,
+    "province": "Ankara",
+    "name": "Sincan",
+    "population": 571889,
+    "area": 880
+  },
+  {
+    "provinceId": 6,
+    "id": 1658,
+    "province": "Ankara",
+    "name": "Şereflikoçhisar",
+    "population": 34122,
+    "area": 2155
+  },
+  {
+    "provinceId": 6,
+    "id": 1723,
+    "province": "Ankara",
+    "name": "Yenimahalle",
+    "population": 701638,
+    "area": 219
+  },
+  {
+    "provinceId": 7,
+    "id": 1121,
+    "province": "Antalya",
+    "name": "Akseki",
+    "population": 11896,
+    "area": 1544
+  },
+  {
+    "provinceId": 7,
+    "id": 2035,
+    "province": "Antalya",
+    "name": "Aksu",
+    "population": 80350,
+    "area": 406
+  },
+  {
+    "provinceId": 7,
+    "id": 1126,
+    "province": "Antalya",
+    "name": "Alanya",
+    "population": 359891,
+    "area": 1577
+  },
+  {
+    "provinceId": 7,
+    "id": 1811,
+    "province": "Antalya",
+    "name": "Demre",
+    "population": 27762,
+    "area": 329
+  },
+  {
+    "provinceId": 7,
+    "id": 2036,
+    "province": "Antalya",
+    "name": "Döşemealtı",
+    "population": 86109,
+    "area": 687
+  },
+  {
+    "provinceId": 7,
+    "id": 1303,
+    "province": "Antalya",
+    "name": "Elmalı",
+    "population": 41240,
+    "area": 1433
+  },
+  {
+    "provinceId": 7,
+    "id": 1333,
+    "province": "Antalya",
+    "name": "Finike",
+    "population": 50688,
+    "area": 768
+  },
+  {
+    "provinceId": 7,
+    "id": 1337,
+    "province": "Antalya",
+    "name": "Gazipaşa",
+    "population": 55185,
+    "area": 1111
+  },
+  {
+    "provinceId": 7,
+    "id": 1370,
+    "province": "Antalya",
+    "name": "Gündoğmuş",
+    "population": 8259,
+    "area": 1175
+  },
+  {
+    "provinceId": 7,
+    "id": 1946,
+    "province": "Antalya",
+    "name": "İbradı",
+    "population": 4243,
+    "area": 778
+  },
+  {
+    "provinceId": 7,
+    "id": 1451,
+    "province": "Antalya",
+    "name": "Kaş",
+    "population": 64014,
+    "area": 1750
+  },
+  {
+    "provinceId": 7,
+    "id": 1959,
+    "province": "Antalya",
+    "name": "Kemer",
+    "population": 49695,
+    "area": 412
+  },
+  {
+    "provinceId": 7,
+    "id": 2037,
+    "province": "Antalya",
+    "name": "Kepez",
+    "population": 614135,
+    "area": 292
+  },
+  {
+    "provinceId": 7,
+    "id": 2038,
+    "province": "Antalya",
+    "name": "Konyaaltı",
+    "population": 196498,
+    "area": 546
+  },
+  {
+    "provinceId": 7,
+    "id": 1483,
+    "province": "Antalya",
+    "name": "Korkuteli",
+    "population": 59295,
+    "area": 2433
+  },
+  {
+    "provinceId": 7,
+    "id": 1492,
+    "province": "Antalya",
+    "name": "Kumluca",
+    "population": 74353,
+    "area": 1225
+  },
+  {
+    "provinceId": 7,
+    "id": 1512,
+    "province": "Antalya",
+    "name": "Manavgat",
+    "population": 258367,
+    "area": 2351
+  },
+  {
+    "provinceId": 7,
+    "id": 2039,
+    "province": "Antalya",
+    "name": "Muratpaşa",
+    "population": 512700,
+    "area": 96
+  },
+  {
+    "provinceId": 7,
+    "id": 1616,
+    "province": "Antalya",
+    "name": "Serik",
+    "population": 141569,
+    "area": 1263
+  },
+  {
+    "provinceId": 8,
+    "id": 1145,
+    "province": "Artvin",
+    "name": "Ardanuç",
+    "population": 11157,
+    "area": 958
+  },
+  {
+    "provinceId": 8,
+    "id": 1147,
+    "province": "Artvin",
+    "name": "Arhavi",
+    "population": 21746,
+    "area": 407
+  },
+  {
+    "provinceId": 8,
+    "id": 1202,
+    "province": "Artvin",
+    "name": "Borçka",
+    "population": 24622,
+    "area": 805
+  },
+  {
+    "provinceId": 8,
+    "id": 1395,
+    "province": "Artvin",
+    "name": "Hopa",
+    "population": 27176,
+    "area": 130
+  },
+  {
+    "provinceId": 8,
+    "id": 2105,
+    "province": "Artvin",
+    "name": "Kemalpaşa",
+    "population": 9688,
+    "area": 74
+  },
+  {
+    "provinceId": 8,
+    "id": 1152,
+    "province": "Artvin",
+    "name": "Merkez",
+    "population": 35929,
+    "area": 1141
+  },
+  {
+    "provinceId": 8,
+    "id": 1828,
+    "province": "Artvin",
+    "name": "Murgul",
+    "population": 6319,
+    "area": 301
+  },
+  {
+    "provinceId": 8,
+    "id": 1653,
+    "province": "Artvin",
+    "name": "Şavşat",
+    "population": 16917,
+    "area": 1316
+  },
+  {
+    "provinceId": 8,
+    "id": 1736,
+    "province": "Artvin",
+    "name": "Yusufeli",
+    "population": 18802,
+    "area": 2261
+  },
+  {
+    "provinceId": 9,
+    "id": 1206,
+    "province": "Aydın",
+    "name": "Bozdoğan",
+    "population": 32528,
+    "area": 859
+  },
+  {
+    "provinceId": 9,
+    "id": 1781,
+    "province": "Aydın",
+    "name": "Buharkent",
+    "population": 13187,
+    "area": 124
+  },
+  {
+    "provinceId": 9,
+    "id": 1256,
+    "province": "Aydın",
+    "name": "Çine",
+    "population": 48585,
+    "area": 820
+  },
+  {
+    "provinceId": 9,
+    "id": 2000,
+    "province": "Aydın",
+    "name": "Didim",
+    "population": 100189,
+    "area": 424
+  },
+  {
+    "provinceId": 9,
+    "id": 2076,
+    "province": "Aydın",
+    "name": "Efeler",
+    "population": 308039,
+    "area": 624
+  },
+  {
+    "provinceId": 9,
+    "id": 1348,
+    "province": "Aydın",
+    "name": "Germencik",
+    "population": 44793,
+    "area": 394
+  },
+  {
+    "provinceId": 9,
+    "id": 1807,
+    "province": "Aydın",
+    "name": "İncirliova",
+    "population": 56934,
+    "area": 188
+  },
+  {
+    "provinceId": 9,
+    "id": 1435,
+    "province": "Aydın",
+    "name": "Karacasu",
+    "population": 17880,
+    "area": 727
+  },
+  {
+    "provinceId": 9,
+    "id": 1957,
+    "province": "Aydın",
+    "name": "Karpuzlu",
+    "population": 10616,
+    "area": 286
+  },
+  {
+    "provinceId": 9,
+    "id": 1479,
+    "province": "Aydın",
+    "name": "Koçarlı",
+    "population": 22599,
+    "area": 455
+  },
+  {
+    "provinceId": 9,
+    "id": 1968,
+    "province": "Aydın",
+    "name": "Köşk",
+    "population": 28440,
+    "area": 187
+  },
+  {
+    "provinceId": 9,
+    "id": 1497,
+    "province": "Aydın",
+    "name": "Kuşadası",
+    "population": 133177,
+    "area": 265
+  },
+  {
+    "provinceId": 9,
+    "id": 1498,
+    "province": "Aydın",
+    "name": "Kuyucak",
+    "population": 26047,
+    "area": 544
+  },
+  {
+    "provinceId": 9,
+    "id": 1542,
+    "province": "Aydın",
+    "name": "Nazilli",
+    "population": 162074,
+    "area": 691
+  },
+  {
+    "provinceId": 9,
+    "id": 1637,
+    "province": "Aydın",
+    "name": "Söke",
+    "population": 124217,
+    "area": 1064
+  },
+  {
+    "provinceId": 9,
+    "id": 1640,
+    "province": "Aydın",
+    "name": "Sultanhisar",
+    "population": 20399,
+    "area": 220
+  },
+  {
+    "provinceId": 9,
+    "id": 1724,
+    "province": "Aydın",
+    "name": "Yenipazar",
+    "population": 11998,
+    "area": 245
+  },
+  {
+    "provinceId": 10,
+    "id": 2077,
+    "province": "Balıkesir",
+    "name": "Altıeylül",
+    "population": 185458,
+    "area": 956
+  },
+  {
+    "provinceId": 10,
+    "id": 1161,
+    "province": "Balıkesir",
+    "name": "Ayvalık",
+    "population": 74643,
+    "area": 305
+  },
+  {
+    "provinceId": 10,
+    "id": 1169,
+    "province": "Balıkesir",
+    "name": "Balya",
+    "population": 13000,
+    "area": 797
+  },
+  {
+    "provinceId": 10,
+    "id": 1171,
+    "province": "Balıkesir",
+    "name": "Bandırma",
+    "population": 166836,
+    "area": 755
+  },
+  {
+    "provinceId": 10,
+    "id": 1191,
+    "province": "Balıkesir",
+    "name": "Bigadiç",
+    "population": 49177,
+    "area": 1108
+  },
+  {
+    "provinceId": 10,
+    "id": 1216,
+    "province": "Balıkesir",
+    "name": "Burhaniye",
+    "population": 65790,
+    "area": 420
+  },
+  {
+    "provinceId": 10,
+    "id": 1291,
+    "province": "Balıkesir",
+    "name": "Dursunbey",
+    "population": 33621,
+    "area": 1719
+  },
+  {
+    "provinceId": 10,
+    "id": 1294,
+    "province": "Balıkesir",
+    "name": "Edremit",
+    "population": 171700,
+    "area": 682
+  },
+  {
+    "provinceId": 10,
+    "id": 1310,
+    "province": "Balıkesir",
+    "name": "Erdek",
+    "population": 32268,
+    "area": 307
+  },
+  {
+    "provinceId": 10,
+    "id": 1928,
+    "province": "Balıkesir",
+    "name": "Gömeç",
+    "population": 17556,
+    "area": 171
+  },
+  {
+    "provinceId": 10,
+    "id": 1360,
+    "province": "Balıkesir",
+    "name": "Gönen",
+    "population": 75572,
+    "area": 1162
+  },
+  {
+    "provinceId": 10,
+    "id": 1384,
+    "province": "Balıkesir",
+    "name": "Havran",
+    "population": 28287,
+    "area": 565
+  },
+  {
+    "provinceId": 10,
+    "id": 1418,
+    "province": "Balıkesir",
+    "name": "İvrindi",
+    "population": 31626,
+    "area": 818
+  },
+  {
+    "provinceId": 10,
+    "id": 2078,
+    "province": "Balıkesir",
+    "name": "Karesi",
+    "population": 188846,
+    "area": 695
+  },
+  {
+    "provinceId": 10,
+    "id": 1462,
+    "province": "Balıkesir",
+    "name": "Kepsut",
+    "population": 21804,
+    "area": 889
+  },
+  {
+    "provinceId": 10,
+    "id": 1514,
+    "province": "Balıkesir",
+    "name": "Manyas",
+    "population": 18190,
+    "area": 634
+  },
+  {
+    "provinceId": 10,
+    "id": 1824,
+    "province": "Balıkesir",
+    "name": "Marmara",
+    "population": 11454,
+    "area": 134
+  },
+  {
+    "provinceId": 10,
+    "id": 1608,
+    "province": "Balıkesir",
+    "name": "Savaştepe",
+    "population": 16787,
+    "area": 427
+  },
+  {
+    "provinceId": 10,
+    "id": 1619,
+    "province": "Balıkesir",
+    "name": "Sındırgı",
+    "population": 32879,
+    "area": 1387
+  },
+  {
+    "provinceId": 10,
+    "id": 1644,
+    "province": "Balıkesir",
+    "name": "Susurluk",
+    "population": 38025,
+    "area": 652
+  },
+  {
+    "provinceId": 11,
+    "id": 1210,
+    "province": "Bilecik",
+    "name": "Bozüyük",
+    "population": 79853,
+    "area": 860
+  },
+  {
+    "provinceId": 11,
+    "id": 1359,
+    "province": "Bilecik",
+    "name": "Gölpazarı",
+    "population": 9831,
+    "area": 670
+  },
+  {
+    "provinceId": 11,
+    "id": 1948,
+    "province": "Bilecik",
+    "name": "İnhisar",
+    "population": 2377,
+    "area": 244
+  },
+  {
+    "provinceId": 11,
+    "id": 1192,
+    "province": "Bilecik",
+    "name": "Merkez",
+    "population": 82416,
+    "area": 793
+  },
+  {
+    "provinceId": 11,
+    "id": 1559,
+    "province": "Bilecik",
+    "name": "Osmaneli",
+    "population": 21875,
+    "area": 490
+  },
+  {
+    "provinceId": 11,
+    "id": 1571,
+    "province": "Bilecik",
+    "name": "Pazaryeri",
+    "population": 9967,
+    "area": 324
+  },
+  {
+    "provinceId": 11,
+    "id": 1636,
+    "province": "Bilecik",
+    "name": "Söğüt",
+    "population": 18844,
+    "area": 523
+  },
+  {
+    "provinceId": 11,
+    "id": 1857,
+    "province": "Bilecik",
+    "name": "Yenipazar",
+    "population": 2895,
+    "area": 273
+  },
+  {
+    "provinceId": 12,
+    "id": 1750,
+    "province": "Bingöl",
+    "name": "Adaklı",
+    "population": 8863,
+    "area": 825
+  },
+  {
+    "provinceId": 12,
+    "id": 1344,
+    "province": "Bingöl",
+    "name": "Genç",
+    "population": 34178,
+    "area": 1443
+  },
+  {
+    "provinceId": 12,
+    "id": 1446,
+    "province": "Bingöl",
+    "name": "Karlıova",
+    "population": 26819,
+    "area": 1566
+  },
+  {
+    "provinceId": 12,
+    "id": 1475,
+    "province": "Bingöl",
+    "name": "Kiğı",
+    "population": 5035,
+    "area": 483
+  },
+  {
+    "provinceId": 12,
+    "id": 1193,
+    "province": "Bingöl",
+    "name": "Merkez",
+    "population": 172007,
+    "area": 1814
+  },
+  {
+    "provinceId": 12,
+    "id": 1633,
+    "province": "Bingöl",
+    "name": "Solhan",
+    "population": 33651,
+    "area": 1033
+  },
+  {
+    "provinceId": 12,
+    "id": 1855,
+    "province": "Bingöl",
+    "name": "Yayladere",
+    "population": 2304,
+    "area": 417
+  },
+  {
+    "provinceId": 12,
+    "id": 1996,
+    "province": "Bingöl",
+    "name": "Yedisu",
+    "population": 2798,
+    "area": 423
+  },
+  {
+    "provinceId": 13,
+    "id": 1106,
+    "province": "Bitlis",
+    "name": "Adilcevaz",
+    "population": 29697,
+    "area": 1586
+  },
+  {
+    "provinceId": 13,
+    "id": 1112,
+    "province": "Bitlis",
+    "name": "Ahlat",
+    "population": 44475,
+    "area": 1153
+  },
+  {
+    "provinceId": 13,
+    "id": 1798,
+    "province": "Bitlis",
+    "name": "Güroymak",
+    "population": 49161,
+    "area": 515
+  },
+  {
+    "provinceId": 13,
+    "id": 1394,
+    "province": "Bitlis",
+    "name": "Hizan",
+    "population": 31911,
+    "area": 1021
+  },
+  {
+    "provinceId": 13,
+    "id": 1196,
+    "province": "Bitlis",
+    "name": "Merkez",
+    "population": 73264,
+    "area": 1064
+  },
+  {
+    "provinceId": 13,
+    "id": 1537,
+    "province": "Bitlis",
+    "name": "Mutki",
+    "population": 29203,
+    "area": 1069
+  },
+  {
+    "provinceId": 13,
+    "id": 1669,
+    "province": "Bitlis",
+    "name": "Tatvan",
+    "population": 102036,
+    "area": 1885
+  },
+  {
+    "provinceId": 14,
+    "id": 1916,
+    "province": "Bolu",
+    "name": "Dörtdivan",
+    "population": 6703,
+    "area": 634
+  },
+  {
+    "provinceId": 14,
+    "id": 1346,
+    "province": "Bolu",
+    "name": "Gerede",
+    "population": 36177,
+    "area": 1060
+  },
+  {
+    "provinceId": 14,
+    "id": 1364,
+    "province": "Bolu",
+    "name": "Göynük",
+    "population": 14711,
+    "area": 1407
+  },
+  {
+    "provinceId": 14,
+    "id": 1466,
+    "province": "Bolu",
+    "name": "Kıbrıscık",
+    "population": 2980,
+    "area": 562
+  },
+  {
+    "provinceId": 14,
+    "id": 1522,
+    "province": "Bolu",
+    "name": "Mengen",
+    "population": 14113,
+    "area": 874
+  },
+  {
+    "provinceId": 14,
+    "id": 1199,
+    "province": "Bolu",
+    "name": "Merkez",
+    "population": 219913,
+    "area": 1616
+  },
+  {
+    "provinceId": 14,
+    "id": 1531,
+    "province": "Bolu",
+    "name": "Mudurnu",
+    "population": 18576,
+    "area": 1314
+  },
+  {
+    "provinceId": 14,
+    "id": 1610,
+    "province": "Bolu",
+    "name": "Seben",
+    "population": 4807,
+    "area": 683
+  },
+  {
+    "provinceId": 14,
+    "id": 1997,
+    "province": "Bolu",
+    "name": "Yeniçağa",
+    "population": 6809,
+    "area": 163
+  },
+  {
+    "provinceId": 15,
+    "id": 1109,
+    "province": "Burdur",
+    "name": "Ağlasun",
+    "population": 7929,
+    "area": 305
+  },
+  {
+    "provinceId": 15,
+    "id": 1874,
+    "province": "Burdur",
+    "name": "Altınyayla",
+    "population": 5224,
+    "area": 221
+  },
+  {
+    "provinceId": 15,
+    "id": 1211,
+    "province": "Burdur",
+    "name": "Bucak",
+    "population": 68290,
+    "area": 1511
+  },
+  {
+    "provinceId": 15,
+    "id": 1899,
+    "province": "Burdur",
+    "name": "Çavdır",
+    "population": 13095,
+    "area": 482
+  },
+  {
+    "provinceId": 15,
+    "id": 1903,
+    "province": "Burdur",
+    "name": "Çeltikçi",
+    "population": 5337,
+    "area": 161
+  },
+  {
+    "provinceId": 15,
+    "id": 1357,
+    "province": "Burdur",
+    "name": "Gölhisar",
+    "population": 23920,
+    "area": 494
+  },
+  {
+    "provinceId": 15,
+    "id": 1813,
+    "province": "Burdur",
+    "name": "Karamanlı",
+    "population": 8249,
+    "area": 372
+  },
+  {
+    "provinceId": 15,
+    "id": 1816,
+    "province": "Burdur",
+    "name": "Kemer",
+    "population": 2888,
+    "area": 373
+  },
+  {
+    "provinceId": 15,
+    "id": 1215,
+    "province": "Burdur",
+    "name": "Merkez",
+    "population": 117537,
+    "area": 1567
+  },
+  {
+    "provinceId": 15,
+    "id": 1672,
+    "province": "Burdur",
+    "name": "Tefenni",
+    "population": 10546,
+    "area": 582
+  },
+  {
+    "provinceId": 15,
+    "id": 1728,
+    "province": "Burdur",
+    "name": "Yeşilova",
+    "population": 14437,
+    "area": 1108
+  },
+  {
+    "provinceId": 16,
+    "id": 1783,
+    "province": "Bursa",
+    "name": "Büyükorhan",
+    "population": 10325,
+    "area": 505
+  },
+  {
+    "provinceId": 16,
+    "id": 1343,
+    "province": "Bursa",
+    "name": "Gemlik",
+    "population": 122171,
+    "area": 401
+  },
+  {
+    "provinceId": 16,
+    "id": 1935,
+    "province": "Bursa",
+    "name": "Gürsu",
+    "population": 103770,
+    "area": 106
+  },
+  {
+    "provinceId": 16,
+    "id": 1799,
+    "province": "Bursa",
+    "name": "Harmancık",
+    "population": 6334,
+    "area": 400
+  },
+  {
+    "provinceId": 16,
+    "id": 1411,
+    "province": "Bursa",
+    "name": "İnegöl",
+    "population": 299203,
+    "area": 1118
+  },
+  {
+    "provinceId": 16,
+    "id": 1420,
+    "province": "Bursa",
+    "name": "İznik",
+    "population": 44988,
+    "area": 753
+  },
+  {
+    "provinceId": 16,
+    "id": 1434,
+    "province": "Bursa",
+    "name": "Karacabey",
+    "population": 85765,
+    "area": 1158
+  },
+  {
+    "provinceId": 16,
+    "id": 1457,
+    "province": "Bursa",
+    "name": "Keles",
+    "population": 11321,
+    "area": 617
+  },
+  {
+    "provinceId": 16,
+    "id": 1960,
+    "province": "Bursa",
+    "name": "Kestel",
+    "population": 75954,
+    "area": 423
+  },
+  {
+    "provinceId": 16,
+    "id": 1530,
+    "province": "Bursa",
+    "name": "Mudanya",
+    "population": 109964,
+    "area": 369
+  },
+  {
+    "provinceId": 16,
+    "id": 1535,
+    "province": "Bursa",
+    "name": "Mustafakemalpaşa",
+    "population": 103944,
+    "area": 1641
+  },
+  {
+    "provinceId": 16,
+    "id": 1829,
+    "province": "Bursa",
+    "name": "Nilüfer",
+    "population": 543934,
+    "area": 552
+  },
+  {
+    "provinceId": 16,
+    "id": 1553,
+    "province": "Bursa",
+    "name": "Orhaneli",
+    "population": 19527,
+    "area": 838
+  },
+  {
+    "provinceId": 16,
+    "id": 1554,
+    "province": "Bursa",
+    "name": "Orhangazi",
+    "population": 81862,
+    "area": 506
+  },
+  {
+    "provinceId": 16,
+    "id": 1832,
+    "province": "Bursa",
+    "name": "Osmangazi",
+    "population": 885273,
+    "area": 621
+  },
+  {
+    "provinceId": 16,
+    "id": 1725,
+    "province": "Bursa",
+    "name": "Yenişehir",
+    "population": 55745,
+    "area": 720
+  },
+  {
+    "provinceId": 16,
+    "id": 1859,
+    "province": "Bursa",
+    "name": "Yıldırım",
+    "population": 654491,
+    "area": 110
+  },
+  {
+    "provinceId": 17,
+    "id": 1160,
+    "province": "Çanakkale",
+    "name": "Ayvacık",
+    "population": 35141,
+    "area": 880
+  },
+  {
+    "provinceId": 17,
+    "id": 1180,
+    "province": "Çanakkale",
+    "name": "Bayramiç",
+    "population": 29160,
+    "area": 1204
+  },
+  {
+    "provinceId": 17,
+    "id": 1190,
+    "province": "Çanakkale",
+    "name": "Biga",
+    "population": 93778,
+    "area": 1310
+  },
+  {
+    "provinceId": 17,
+    "id": 1205,
+    "province": "Çanakkale",
+    "name": "Bozcaada",
+    "population": 3243,
+    "area": 37
+  },
+  {
+    "provinceId": 17,
+    "id": 1229,
+    "province": "Çanakkale",
+    "name": "Çan",
+    "population": 47624,
+    "area": 905
+  },
+  {
+    "provinceId": 17,
+    "id": 1293,
+    "province": "Çanakkale",
+    "name": "Eceabat",
+    "population": 8780,
+    "area": 430
+  },
+  {
+    "provinceId": 17,
+    "id": 1326,
+    "province": "Çanakkale",
+    "name": "Ezine",
+    "population": 33413,
+    "area": 727
+  },
+  {
+    "provinceId": 17,
+    "id": 1340,
+    "province": "Çanakkale",
+    "name": "Gelibolu",
+    "population": 44461,
+    "area": 823
+  },
+  {
+    "provinceId": 17,
+    "id": 1408,
+    "province": "Çanakkale",
+    "name": "Gökçeada",
+    "population": 10721,
+    "area": 282
+  },
+  {
+    "provinceId": 17,
+    "id": 1503,
+    "province": "Çanakkale",
+    "name": "Lapseki",
+    "population": 30259,
+    "area": 821
+  },
+  {
+    "provinceId": 17,
+    "id": 1230,
+    "province": "Çanakkale",
+    "name": "Merkez",
+    "population": 203523,
+    "area": 1016
+  },
+  {
+    "provinceId": 17,
+    "id": 1722,
+    "province": "Çanakkale",
+    "name": "Yenice",
+    "population": 30396,
+    "area": 1381
+  },
+  {
+    "provinceId": 18,
+    "id": 1765,
+    "province": "Çankırı",
+    "name": "Atkaracalar",
+    "population": 5079,
+    "area": 234
+  },
+  {
+    "provinceId": 18,
+    "id": 1885,
+    "province": "Çankırı",
+    "name": "Bayramören",
+    "population": 2740,
+    "area": 310
+  },
+  {
+    "provinceId": 18,
+    "id": 1248,
+    "province": "Çankırı",
+    "name": "Çerkeş",
+    "population": 16909,
+    "area": 947
+  },
+  {
+    "provinceId": 18,
+    "id": 1300,
+    "province": "Çankırı",
+    "name": "Eldivan",
+    "population": 7331,
+    "area": 350
+  },
+  {
+    "provinceId": 18,
+    "id": 1399,
+    "province": "Çankırı",
+    "name": "Ilgaz",
+    "population": 14271,
+    "area": 845
+  },
+  {
+    "provinceId": 18,
+    "id": 1817,
+    "province": "Çankırı",
+    "name": "Kızılırmak",
+    "population": 7703,
+    "area": 514
+  },
+  {
+    "provinceId": 18,
+    "id": 1963,
+    "province": "Çankırı",
+    "name": "Korgun",
+    "population": 4226,
+    "area": 378
+  },
+  {
+    "provinceId": 18,
+    "id": 1494,
+    "province": "Çankırı",
+    "name": "Kurşunlu",
+    "population": 9947,
+    "area": 609
+  },
+  {
+    "provinceId": 18,
+    "id": 1232,
+    "province": "Çankırı",
+    "name": "Merkez",
+    "population": 98574,
+    "area": 1440
+  },
+  {
+    "provinceId": 18,
+    "id": 1555,
+    "province": "Çankırı",
+    "name": "Orta",
+    "population": 16921,
+    "area": 706
+  },
+  {
+    "provinceId": 18,
+    "id": 1649,
+    "province": "Çankırı",
+    "name": "Şabanözü",
+    "population": 13192,
+    "area": 467
+  },
+  {
+    "provinceId": 18,
+    "id": 1718,
+    "province": "Çankırı",
+    "name": "Yapraklı",
+    "population": 8608,
+    "area": 741
+  },
+  {
+    "provinceId": 19,
+    "id": 1124,
+    "province": "Çorum",
+    "name": "Alaca",
+    "population": 29952,
+    "area": 1296
+  },
+  {
+    "provinceId": 19,
+    "id": 1177,
+    "province": "Çorum",
+    "name": "Bayat",
+    "population": 15047,
+    "area": 717
+  },
+  {
+    "provinceId": 19,
+    "id": 1778,
+    "province": "Çorum",
+    "name": "Boğazkale",
+    "population": 4068,
+    "area": 264
+  },
+  {
+    "provinceId": 19,
+    "id": 1911,
+    "province": "Çorum",
+    "name": "Dodurga",
+    "population": 5786,
+    "area": 229
+  },
+  {
+    "provinceId": 19,
+    "id": 1414,
+    "province": "Çorum",
+    "name": "İskilip",
+    "population": 29270,
+    "area": 1170
+  },
+  {
+    "provinceId": 19,
+    "id": 1445,
+    "province": "Çorum",
+    "name": "Kargı",
+    "population": 16040,
+    "area": 1174
+  },
+  {
+    "provinceId": 19,
+    "id": 1972,
+    "province": "Çorum",
+    "name": "Laçin",
+    "population": 4883,
+    "area": 196
+  },
+  {
+    "provinceId": 19,
+    "id": 1520,
+    "province": "Çorum",
+    "name": "Mecitözü",
+    "population": 14441,
+    "area": 825
+  },
+  {
+    "provinceId": 19,
+    "id": 1259,
+    "province": "Çorum",
+    "name": "Merkez",
+    "population": 294321,
+    "area": 2436
+  },
+  {
+    "provinceId": 19,
+    "id": 1976,
+    "province": "Çorum",
+    "name": "Oğuzlar",
+    "population": 5240,
+    "area": 121
+  },
+  {
+    "provinceId": 19,
+    "id": 1556,
+    "province": "Çorum",
+    "name": "Ortaköy",
+    "population": 8496,
+    "area": 300
+  },
+  {
+    "provinceId": 19,
+    "id": 1558,
+    "province": "Çorum",
+    "name": "Osmancık",
+    "population": 43388,
+    "area": 1273
+  },
+  {
+    "provinceId": 19,
+    "id": 1642,
+    "province": "Çorum",
+    "name": "Sungurlu",
+    "population": 49086,
+    "area": 1999
+  },
+  {
+    "provinceId": 19,
+    "id": 1850,
+    "province": "Çorum",
+    "name": "Uğurludağ",
+    "population": 8333,
+    "area": 428
+  },
+  {
+    "provinceId": 20,
+    "id": 1102,
+    "province": "Denizli",
+    "name": "Acıpayam",
+    "population": 55406,
+    "area": 1772
+  },
+  {
+    "provinceId": 20,
+    "id": 1769,
+    "province": "Denizli",
+    "name": "Babadağ",
+    "population": 6424,
+    "area": 124
+  },
+  {
+    "provinceId": 20,
+    "id": 1881,
+    "province": "Denizli",
+    "name": "Baklan",
+    "population": 5457,
+    "area": 283
+  },
+  {
+    "provinceId": 20,
+    "id": 1774,
+    "province": "Denizli",
+    "name": "Bekilli",
+    "population": 6565,
+    "area": 304
+  },
+  {
+    "provinceId": 20,
+    "id": 1888,
+    "province": "Denizli",
+    "name": "Beyağaç",
+    "population": 6532,
+    "area": 333
+  },
+  {
+    "provinceId": 20,
+    "id": 1889,
+    "province": "Denizli",
+    "name": "Bozkurt",
+    "population": 11000,
+    "area": 462
+  },
+  {
+    "provinceId": 20,
+    "id": 1214,
+    "province": "Denizli",
+    "name": "Buldan",
+    "population": 26542,
+    "area": 523
+  },
+  {
+    "provinceId": 20,
+    "id": 1224,
+    "province": "Denizli",
+    "name": "Çal",
+    "population": 17919,
+    "area": 860
+  },
+  {
+    "provinceId": 20,
+    "id": 1226,
+    "province": "Denizli",
+    "name": "Çameli",
+    "population": 17814,
+    "area": 758
+  },
+  {
+    "provinceId": 20,
+    "id": 1233,
+    "province": "Denizli",
+    "name": "Çardak",
+    "population": 8781,
+    "area": 423
+  },
+  {
+    "provinceId": 20,
+    "id": 1257,
+    "province": "Denizli",
+    "name": "Çivril",
+    "population": 59912,
+    "area": 1570
+  },
+  {
+    "provinceId": 20,
+    "id": 1371,
+    "province": "Denizli",
+    "name": "Güney",
+    "population": 9573,
+    "area": 362
+  },
+  {
+    "provinceId": 20,
+    "id": 1803,
+    "province": "Denizli",
+    "name": "Honaz",
+    "population": 34237,
+    "area": 449
+  },
+  {
+    "provinceId": 20,
+    "id": 1426,
+    "province": "Denizli",
+    "name": "Kale",
+    "population": 19388,
+    "area": 684
+  },
+  {
+    "provinceId": 20,
+    "id": 2079,
+    "province": "Denizli",
+    "name": "Merkezefendi",
+    "population": 340400,
+    "area": 336
+  },
+  {
+    "provinceId": 20,
+    "id": 1871,
+    "province": "Denizli",
+    "name": "Pamukkale",
+    "population": 346047,
+    "area": 823
+  },
+  {
+    "provinceId": 20,
+    "id": 1597,
+    "province": "Denizli",
+    "name": "Sarayköy",
+    "population": 31047,
+    "area": 379
+  },
+  {
+    "provinceId": 20,
+    "id": 1840,
+    "province": "Denizli",
+    "name": "Serinhisar",
+    "population": 14591,
+    "area": 256
+  },
+  {
+    "provinceId": 20,
+    "id": 1670,
+    "province": "Denizli",
+    "name": "Tavas",
+    "population": 41447,
+    "area": 1432
+  },
+  {
+    "provinceId": 21,
+    "id": 2040,
+    "province": "Diyarbakır",
+    "name": "Bağlar",
+    "population": 394338,
+    "area": 429
+  },
+  {
+    "provinceId": 21,
+    "id": 1195,
+    "province": "Diyarbakır",
+    "name": "Bismil",
+    "population": 119972,
+    "area": 1679
+  },
+  {
+    "provinceId": 21,
+    "id": 1249,
+    "province": "Diyarbakır",
+    "name": "Çermik",
+    "population": 49900,
+    "area": 948
+  },
+  {
+    "provinceId": 21,
+    "id": 1253,
+    "province": "Diyarbakır",
+    "name": "Çınar",
+    "population": 78351,
+    "area": 1934
+  },
+  {
+    "provinceId": 21,
+    "id": 1263,
+    "province": "Diyarbakır",
+    "name": "Çüngüş",
+    "population": 10771,
+    "area": 512
+  },
+  {
+    "provinceId": 21,
+    "id": 1278,
+    "province": "Diyarbakır",
+    "name": "Dicle",
+    "population": 38533,
+    "area": 738
+  },
+  {
+    "provinceId": 21,
+    "id": 1791,
+    "province": "Diyarbakır",
+    "name": "Eğil",
+    "population": 23712,
+    "area": 449
+  },
+  {
+    "provinceId": 21,
+    "id": 1315,
+    "province": "Diyarbakır",
+    "name": "Ergani",
+    "population": 137492,
+    "area": 1510
+  },
+  {
+    "provinceId": 21,
+    "id": 1381,
+    "province": "Diyarbakır",
+    "name": "Hani",
+    "population": 32777,
+    "area": 436
+  },
+  {
+    "provinceId": 21,
+    "id": 1389,
+    "province": "Diyarbakır",
+    "name": "Hazro",
+    "population": 17772,
+    "area": 426
+  },
+  {
+    "provinceId": 21,
+    "id": 2041,
+    "province": "Diyarbakır",
+    "name": "Kayapınar",
+    "population": 425143,
+    "area": 480
+  },
+  {
+    "provinceId": 21,
+    "id": 1962,
+    "province": "Diyarbakır",
+    "name": "Kocaköy",
+    "population": 15537,
+    "area": 248
+  },
+  {
+    "provinceId": 21,
+    "id": 1490,
+    "province": "Diyarbakır",
+    "name": "Kulp",
+    "population": 37576,
+    "area": 1560
+  },
+  {
+    "provinceId": 21,
+    "id": 1504,
+    "province": "Diyarbakır",
+    "name": "Lice",
+    "population": 26168,
+    "area": 982
+  },
+  {
+    "provinceId": 21,
+    "id": 1624,
+    "province": "Diyarbakır",
+    "name": "Silvan",
+    "population": 87707,
+    "area": 1252
+  },
+  {
+    "provinceId": 21,
+    "id": 2042,
+    "province": "Diyarbakır",
+    "name": "Sur",
+    "population": 98938,
+    "area": 1227
+  },
+  {
+    "provinceId": 21,
+    "id": 2043,
+    "province": "Diyarbakır",
+    "name": "Yenişehir",
+    "population": 223446,
+    "area": 358
+  },
+  {
+    "provinceId": 22,
+    "id": 1307,
+    "province": "Edirne",
+    "name": "Enez",
+    "population": 10625,
+    "area": 455
+  },
+  {
+    "provinceId": 22,
+    "id": 1385,
+    "province": "Edirne",
+    "name": "Havsa",
+    "population": 18077,
+    "area": 545
+  },
+  {
+    "provinceId": 22,
+    "id": 1412,
+    "province": "Edirne",
+    "name": "İpsala",
+    "population": 26155,
+    "area": 741
+  },
+  {
+    "provinceId": 22,
+    "id": 1464,
+    "province": "Edirne",
+    "name": "Keşan",
+    "population": 84846,
+    "area": 1098
+  },
+  {
+    "provinceId": 22,
+    "id": 1502,
+    "province": "Edirne",
+    "name": "Lalapaşa",
+    "population": 6198,
+    "area": 497
+  },
+  {
+    "provinceId": 22,
+    "id": 1523,
+    "province": "Edirne",
+    "name": "Meriç",
+    "population": 12897,
+    "area": 438
+  },
+  {
+    "provinceId": 22,
+    "id": 1295,
+    "province": "Edirne",
+    "name": "Merkez",
+    "population": 194991,
+    "area": 844
+  },
+  {
+    "provinceId": 22,
+    "id": 1988,
+    "province": "Edirne",
+    "name": "Süloğlu",
+    "population": 6405,
+    "area": 342
+  },
+  {
+    "provinceId": 22,
+    "id": 1705,
+    "province": "Edirne",
+    "name": "Uzunköprü",
+    "population": 59719,
+    "area": 1185
+  },
+  {
+    "provinceId": 23,
+    "id": 1110,
+    "province": "Elazığ",
+    "name": "Ağın",
+    "population": 2834,
+    "area": 242
+  },
+  {
+    "provinceId": 23,
+    "id": 1873,
+    "province": "Elazığ",
+    "name": "Alacakaya",
+    "population": 6157,
+    "area": 318
+  },
+  {
+    "provinceId": 23,
+    "id": 1762,
+    "province": "Elazığ",
+    "name": "Arıcak",
+    "population": 14970,
+    "area": 354
+  },
+  {
+    "provinceId": 23,
+    "id": 1173,
+    "province": "Elazığ",
+    "name": "Baskil",
+    "population": 16578,
+    "area": 1318
+  },
+  {
+    "provinceId": 23,
+    "id": 1438,
+    "province": "Elazığ",
+    "name": "Karakoçan",
+    "population": 29612,
+    "area": 1049
+  },
+  {
+    "provinceId": 23,
+    "id": 1455,
+    "province": "Elazığ",
+    "name": "Keban",
+    "population": 7964,
+    "area": 641
+  },
+  {
+    "provinceId": 23,
+    "id": 1820,
+    "province": "Elazığ",
+    "name": "Kovancılar",
+    "population": 38988,
+    "area": 960
+  },
+  {
+    "provinceId": 23,
+    "id": 1506,
+    "province": "Elazığ",
+    "name": "Maden",
+    "population": 13320,
+    "area": 819
+  },
+  {
+    "provinceId": 23,
+    "id": 1298,
+    "province": "Elazığ",
+    "name": "Merkez",
+    "population": 443448,
+    "area": 2243
+  },
+  {
+    "provinceId": 23,
+    "id": 1566,
+    "province": "Elazığ",
+    "name": "Palu",
+    "population": 20215,
+    "area": 730
+  },
+  {
+    "provinceId": 23,
+    "id": 1631,
+    "province": "Elazığ",
+    "name": "Sivrice",
+    "population": 10325,
+    "area": 710
+  },
+  {
+    "provinceId": 24,
+    "id": 1243,
+    "province": "Erzincan",
+    "name": "Çayırlı",
+    "population": 8415,
+    "area": 1062
+  },
+  {
+    "provinceId": 24,
+    "id": 1406,
+    "province": "Erzincan",
+    "name": "İliç",
+    "population": 10044,
+    "area": 1382
+  },
+  {
+    "provinceId": 24,
+    "id": 1459,
+    "province": "Erzincan",
+    "name": "Kemah",
+    "population": 7517,
+    "area": 2311
+  },
+  {
+    "provinceId": 24,
+    "id": 1460,
+    "province": "Erzincan",
+    "name": "Kemaliye",
+    "population": 5066,
+    "area": 1207
+  },
+  {
+    "provinceId": 24,
+    "id": 1318,
+    "province": "Erzincan",
+    "name": "Merkez",
+    "population": 165860,
+    "area": 1521
+  },
+  {
+    "provinceId": 24,
+    "id": 1977,
+    "province": "Erzincan",
+    "name": "Otlukbeli",
+    "population": 2423,
+    "area": 320
+  },
+  {
+    "provinceId": 24,
+    "id": 1583,
+    "province": "Erzincan",
+    "name": "Refahiye",
+    "population": 12984,
+    "area": 1808
+  },
+  {
+    "provinceId": 24,
+    "id": 1675,
+    "province": "Erzincan",
+    "name": "Tercan",
+    "population": 16573,
+    "area": 1614
+  },
+  {
+    "provinceId": 24,
+    "id": 1853,
+    "province": "Erzincan",
+    "name": "Üzümlü",
+    "population": 14517,
+    "area": 591
+  },
+  {
+    "provinceId": 25,
+    "id": 1153,
+    "province": "Erzurum",
+    "name": "Aşkale",
+    "population": 21410,
+    "area": 1507
+  },
+  {
+    "provinceId": 25,
+    "id": 1945,
+    "province": "Erzurum",
+    "name": "Aziziye",
+    "population": 68251,
+    "area": 1529
+  },
+  {
+    "provinceId": 25,
+    "id": 1235,
+    "province": "Erzurum",
+    "name": "Çat",
+    "population": 15457,
+    "area": 1448
+  },
+  {
+    "provinceId": 25,
+    "id": 1392,
+    "province": "Erzurum",
+    "name": "Hınıs",
+    "population": 24419,
+    "area": 1367
+  },
+  {
+    "provinceId": 25,
+    "id": 1396,
+    "province": "Erzurum",
+    "name": "Horasan",
+    "population": 36359,
+    "area": 1740
+  },
+  {
+    "provinceId": 25,
+    "id": 1416,
+    "province": "Erzurum",
+    "name": "İspir",
+    "population": 15914,
+    "area": 2129
+  },
+  {
+    "provinceId": 25,
+    "id": 1812,
+    "province": "Erzurum",
+    "name": "Karaçoban",
+    "population": 21961,
+    "area": 571
+  },
+  {
+    "provinceId": 25,
+    "id": 1444,
+    "province": "Erzurum",
+    "name": "Karayazı",
+    "population": 24559,
+    "area": 1953
+  },
+  {
+    "provinceId": 25,
+    "id": 1967,
+    "province": "Erzurum",
+    "name": "Köprüköy",
+    "population": 14184,
+    "area": 777
+  },
+  {
+    "provinceId": 25,
+    "id": 1540,
+    "province": "Erzurum",
+    "name": "Narman",
+    "population": 11959,
+    "area": 799
+  },
+  {
+    "provinceId": 25,
+    "id": 1550,
+    "province": "Erzurum",
+    "name": "Oltu",
+    "population": 30296,
+    "area": 1441
+  },
+  {
+    "provinceId": 25,
+    "id": 1551,
+    "province": "Erzurum",
+    "name": "Olur",
+    "population": 6737,
+    "area": 893
+  },
+  {
+    "provinceId": 25,
+    "id": 2044,
+    "province": "Erzurum",
+    "name": "Palandöken",
+    "population": 177109,
+    "area": 667
+  },
+  {
+    "provinceId": 25,
+    "id": 1567,
+    "province": "Erzurum",
+    "name": "Pasinler",
+    "population": 26833,
+    "area": 1134
+  },
+  {
+    "provinceId": 25,
+    "id": 1865,
+    "province": "Erzurum",
+    "name": "Pazaryolu",
+    "population": 4290,
+    "area": 654
+  },
+  {
+    "provinceId": 25,
+    "id": 1657,
+    "province": "Erzurum",
+    "name": "Şenkaya",
+    "population": 16112,
+    "area": 1381
+  },
+  {
+    "provinceId": 25,
+    "id": 1674,
+    "province": "Erzurum",
+    "name": "Tekman",
+    "population": 22686,
+    "area": 2102
+  },
+  {
+    "provinceId": 25,
+    "id": 1683,
+    "province": "Erzurum",
+    "name": "Tortum",
+    "population": 17418,
+    "area": 1463
+  },
+  {
+    "provinceId": 25,
+    "id": 1851,
+    "province": "Erzurum",
+    "name": "Uzundere",
+    "population": 7973,
+    "area": 505
+  },
+  {
+    "provinceId": 25,
+    "id": 2045,
+    "province": "Erzurum",
+    "name": "Yakutiye",
+    "population": 186066,
+    "area": 945
+  },
+  {
+    "provinceId": 26,
+    "id": 1759,
+    "province": "Eskişehir",
+    "name": "Alpu",
+    "population": 10678,
+    "area": 1028
+  },
+  {
+    "provinceId": 26,
+    "id": 1777,
+    "province": "Eskişehir",
+    "name": "Beylikova",
+    "population": 6016,
+    "area": 715
+  },
+  {
+    "provinceId": 26,
+    "id": 1255,
+    "province": "Eskişehir",
+    "name": "Çifteler",
+    "population": 14926,
+    "area": 858
+  },
+  {
+    "provinceId": 26,
+    "id": 1934,
+    "province": "Eskişehir",
+    "name": "Günyüzü",
+    "population": 5679,
+    "area": 828
+  },
+  {
+    "provinceId": 26,
+    "id": 1939,
+    "province": "Eskişehir",
+    "name": "Han",
+    "population": 2352,
+    "area": 378
+  },
+  {
+    "provinceId": 26,
+    "id": 1808,
+    "province": "Eskişehir",
+    "name": "İnönü",
+    "population": 6244,
+    "area": 345
+  },
+  {
+    "provinceId": 26,
+    "id": 1508,
+    "province": "Eskişehir",
+    "name": "Mahmudiye",
+    "population": 7715,
+    "area": 659
+  },
+  {
+    "provinceId": 26,
+    "id": 1973,
+    "province": "Eskişehir",
+    "name": "Mihalgazi",
+    "population": 3037,
+    "area": 109
+  },
+  {
+    "provinceId": 26,
+    "id": 1527,
+    "province": "Eskişehir",
+    "name": "Mihalıççık",
+    "population": 8576,
+    "area": 1809
+  },
+  {
+    "provinceId": 26,
+    "id": 2046,
+    "province": "Eskişehir",
+    "name": "Odunpazarı",
+    "population": 421469,
+    "area": 1120
+  },
+  {
+    "provinceId": 26,
+    "id": 1599,
+    "province": "Eskişehir",
+    "name": "Sarıcakaya",
+    "population": 4651,
+    "area": 382
+  },
+  {
+    "provinceId": 26,
+    "id": 1618,
+    "province": "Eskişehir",
+    "name": "Seyitgazi",
+    "population": 13481,
+    "area": 1578
+  },
+  {
+    "provinceId": 26,
+    "id": 1632,
+    "province": "Eskişehir",
+    "name": "Sivrihisar",
+    "population": 20478,
+    "area": 2748
+  },
+  {
+    "provinceId": 26,
+    "id": 2047,
+    "province": "Eskişehir",
+    "name": "Tepebaşı",
+    "population": 390116,
+    "area": 1403
+  },
+  {
+    "provinceId": 27,
+    "id": 1139,
+    "province": "Gaziantep",
+    "name": "Araban",
+    "population": 33196,
+    "area": 592
+  },
+  {
+    "provinceId": 27,
+    "id": 1415,
+    "province": "Gaziantep",
+    "name": "İslahiye",
+    "population": 64013,
+    "area": 865
+  },
+  {
+    "provinceId": 27,
+    "id": 1956,
+    "province": "Gaziantep",
+    "name": "Karkamış",
+    "population": 10265,
+    "area": 298
+  },
+  {
+    "provinceId": 27,
+    "id": 1546,
+    "province": "Gaziantep",
+    "name": "Nizip",
+    "population": 150037,
+    "area": 944
+  },
+  {
+    "provinceId": 27,
+    "id": 1974,
+    "province": "Gaziantep",
+    "name": "Nurdağı",
+    "population": 39465,
+    "area": 697
+  },
+  {
+    "provinceId": 27,
+    "id": 1549,
+    "province": "Gaziantep",
+    "name": "Oğuzeli",
+    "population": 37170,
+    "area": 689
+  },
+  {
+    "provinceId": 27,
+    "id": 1841,
+    "province": "Gaziantep",
+    "name": "Şahinbey",
+    "population": 939497,
+    "area": 960
+  },
+  {
+    "provinceId": 27,
+    "id": 1844,
+    "province": "Gaziantep",
+    "name": "Şehitkamil",
+    "population": 867193,
+    "area": 1290
+  },
+  {
+    "provinceId": 27,
+    "id": 1720,
+    "province": "Gaziantep",
+    "name": "Yavuzeli",
+    "population": 23298,
+    "area": 468
+  },
+  {
+    "provinceId": 28,
+    "id": 1133,
+    "province": "Giresun",
+    "name": "Alucra",
+    "population": 10514,
+    "area": 1138
+  },
+  {
+    "provinceId": 28,
+    "id": 1212,
+    "province": "Giresun",
+    "name": "Bulancak",
+    "population": 70092,
+    "area": 774
+  },
+  {
+    "provinceId": 28,
+    "id": 1893,
+    "province": "Giresun",
+    "name": "Çamoluk",
+    "population": 7254,
+    "area": 444
+  },
+  {
+    "provinceId": 28,
+    "id": 1894,
+    "province": "Giresun",
+    "name": "Çanakçı",
+    "population": 6917,
+    "area": 142
+  },
+  {
+    "provinceId": 28,
+    "id": 1272,
+    "province": "Giresun",
+    "name": "Dereli",
+    "population": 19308,
+    "area": 849
+  },
+  {
+    "provinceId": 28,
+    "id": 1912,
+    "province": "Giresun",
+    "name": "Doğankent",
+    "population": 6539,
+    "area": 110
+  },
+  {
+    "provinceId": 28,
+    "id": 1320,
+    "province": "Giresun",
+    "name": "Espiye",
+    "population": 38130,
+    "area": 248
+  },
+  {
+    "provinceId": 28,
+    "id": 1324,
+    "province": "Giresun",
+    "name": "Eynesil",
+    "population": 13237,
+    "area": 51
+  },
+  {
+    "provinceId": 28,
+    "id": 1361,
+    "province": "Giresun",
+    "name": "Görele",
+    "population": 32192,
+    "area": 237
+  },
+  {
+    "provinceId": 28,
+    "id": 1930,
+    "province": "Giresun",
+    "name": "Güce",
+    "population": 8574,
+    "area": 351
+  },
+  {
+    "provinceId": 28,
+    "id": 1465,
+    "province": "Giresun",
+    "name": "Keşap",
+    "population": 20763,
+    "area": 197
+  },
+  {
+    "provinceId": 28,
+    "id": 1352,
+    "province": "Giresun",
+    "name": "Merkez",
+    "population": 143890,
+    "area": 376
+  },
+  {
+    "provinceId": 28,
+    "id": 1837,
+    "province": "Giresun",
+    "name": "Piraziz",
+    "population": 15151,
+    "area": 127
+  },
+  {
+    "provinceId": 28,
+    "id": 1654,
+    "province": "Giresun",
+    "name": "Şebinkarahisar",
+    "population": 19948,
+    "area": 1396
+  },
+  {
+    "provinceId": 28,
+    "id": 1678,
+    "province": "Giresun",
+    "name": "Tirebolu",
+    "population": 33459,
+    "area": 259
+  },
+  {
+    "provinceId": 28,
+    "id": 1854,
+    "province": "Giresun",
+    "name": "Yağlıdere",
+    "population": 15744,
+    "area": 327
+  },
+  {
+    "provinceId": 29,
+    "id": 1458,
+    "province": "Gümüşhane",
+    "name": "Kelkit",
+    "population": 40875,
+    "area": 1571
+  },
+  {
+    "provinceId": 29,
+    "id": 1822,
+    "province": "Gümüşhane",
+    "name": "Köse",
+    "population": 7261,
+    "area": 353
+  },
+  {
+    "provinceId": 29,
+    "id": 1971,
+    "province": "Gümüşhane",
+    "name": "Kürtün",
+    "population": 13406,
+    "area": 917
+  },
+  {
+    "provinceId": 29,
+    "id": 1369,
+    "province": "Gümüşhane",
+    "name": "Merkez",
+    "population": 54503,
+    "area": 1889
+  },
+  {
+    "provinceId": 29,
+    "id": 1660,
+    "province": "Gümüşhane",
+    "name": "Şiran",
+    "population": 20202,
+    "area": 965
+  },
+  {
+    "provinceId": 29,
+    "id": 1684,
+    "province": "Gümüşhane",
+    "name": "Torul",
+    "population": 12292,
+    "area": 973
+  },
+  {
+    "provinceId": 30,
+    "id": 1261,
+    "province": "Hakkari",
+    "name": "Çukurca",
+    "population": 17734,
+    "area": 725
+  },
+  {
+    "provinceId": 30,
+    "id": 2107,
+    "province": "Hakkari",
+    "name": "Derecik",
+    "population": 25907,
+    "area": 437
+  },
+  {
+    "provinceId": 30,
+    "id": 1377,
+    "province": "Hakkari",
+    "name": "Merkez",
+    "population": 77273,
+    "area": 2179
+  },
+  {
+    "provinceId": 30,
+    "id": 1656,
+    "province": "Hakkari",
+    "name": "Şemdinli",
+    "population": 44742,
+    "area": 1207
+  },
+  {
+    "provinceId": 30,
+    "id": 1737,
+    "province": "Hakkari",
+    "name": "Yüksekova",
+    "population": 121969,
+    "area": 2547
+  },
+  {
+    "provinceId": 31,
+    "id": 1131,
+    "province": "Hatay",
+    "name": "Altınözü",
+    "population": 66533,
+    "area": 392
+  },
+  {
+    "provinceId": 31,
+    "id": 2080,
+    "province": "Hatay",
+    "name": "Antakya",
+    "population": 298620,
+    "area": 703
+  },
+  {
+    "provinceId": 31,
+    "id": 2081,
+    "province": "Hatay",
+    "name": "Arsuz",
+    "population": 106118,
+    "area": 462
+  },
+  {
+    "provinceId": 31,
+    "id": 1887,
+    "province": "Hatay",
+    "name": "Belen",
+    "population": 34430,
+    "area": 184
+  },
+  {
+    "provinceId": 31,
+    "id": 2082,
+    "province": "Hatay",
+    "name": "Defne",
+    "population": 142146,
+    "area": 155
+  },
+  {
+    "provinceId": 31,
+    "id": 1289,
+    "province": "Hatay",
+    "name": "Dörtyol",
+    "population": 129276,
+    "area": 342
+  },
+  {
+    "provinceId": 31,
+    "id": 1792,
+    "province": "Hatay",
+    "name": "Erzin",
+    "population": 42425,
+    "area": 258
+  },
+  {
+    "provinceId": 31,
+    "id": 1382,
+    "province": "Hatay",
+    "name": "Hassa",
+    "population": 55604,
+    "area": 520
+  },
+  {
+    "provinceId": 31,
+    "id": 1413,
+    "province": "Hatay",
+    "name": "İskenderun",
+    "population": 227498,
+    "area": 247
+  },
+  {
+    "provinceId": 31,
+    "id": 1468,
+    "province": "Hatay",
+    "name": "Kırıkhan",
+    "population": 106975,
+    "area": 715
+  },
+  {
+    "provinceId": 31,
+    "id": 1970,
+    "province": "Hatay",
+    "name": "Kumlu",
+    "population": 14971,
+    "area": 193
+  },
+  {
+    "provinceId": 31,
+    "id": 2083,
+    "province": "Hatay",
+    "name": "Payas",
+    "population": 44131,
+    "area": 157
+  },
+  {
+    "provinceId": 31,
+    "id": 1585,
+    "province": "Hatay",
+    "name": "Reyhanlı",
+    "population": 113615,
+    "area": 367
+  },
+  {
+    "provinceId": 31,
+    "id": 1591,
+    "province": "Hatay",
+    "name": "Samandağ",
+    "population": 120600,
+    "area": 384
+  },
+  {
+    "provinceId": 31,
+    "id": 1721,
+    "province": "Hatay",
+    "name": "Yayladağı",
+    "population": 41698,
+    "area": 445
+  },
+  {
+    "provinceId": 32,
+    "id": 1755,
+    "province": "Isparta",
+    "name": "Aksu",
+    "population": 4135,
+    "area": 544
+  },
+  {
+    "provinceId": 32,
+    "id": 1154,
+    "province": "Isparta",
+    "name": "Atabey",
+    "population": 6103,
+    "area": 223
+  },
+  {
+    "provinceId": 32,
+    "id": 1297,
+    "province": "Isparta",
+    "name": "Eğirdir",
+    "population": 30988,
+    "area": 1315
+  },
+  {
+    "provinceId": 32,
+    "id": 1341,
+    "province": "Isparta",
+    "name": "Gelendost",
+    "population": 14471,
+    "area": 610
+  },
+  {
+    "provinceId": 32,
+    "id": 1929,
+    "province": "Isparta",
+    "name": "Gönen",
+    "population": 7094,
+    "area": 285
+  },
+  {
+    "provinceId": 32,
+    "id": 1456,
+    "province": "Isparta",
+    "name": "Keçiborlu",
+    "population": 14646,
+    "area": 494
+  },
+  {
+    "provinceId": 32,
+    "id": 1401,
+    "province": "Isparta",
+    "name": "Merkez",
+    "population": 271396,
+    "area": 773
+  },
+  {
+    "provinceId": 32,
+    "id": 1615,
+    "province": "Isparta",
+    "name": "Senirkent",
+    "population": 11196,
+    "area": 521
+  },
+  {
+    "provinceId": 32,
+    "id": 1648,
+    "province": "Isparta",
+    "name": "Sütçüler",
+    "population": 10143,
+    "area": 1235
+  },
+  {
+    "provinceId": 32,
+    "id": 1651,
+    "province": "Isparta",
+    "name": "Şarkikaraağaç",
+    "population": 24990,
+    "area": 1068
+  },
+  {
+    "provinceId": 32,
+    "id": 1699,
+    "province": "Isparta",
+    "name": "Uluborlu",
+    "population": 6426,
+    "area": 240
+  },
+  {
+    "provinceId": 32,
+    "id": 1717,
+    "province": "Isparta",
+    "name": "Yalvaç",
+    "population": 45694,
+    "area": 1402
+  },
+  {
+    "provinceId": 32,
+    "id": 2001,
+    "province": "Isparta",
+    "name": "Yenişarbademli",
+    "population": 2495,
+    "area": 237
+  },
+  {
+    "provinceId": 33,
+    "id": 2064,
+    "province": "Mersin",
+    "name": "Akdeniz",
+    "population": 260879,
+    "area": 265
+  },
+  {
+    "provinceId": 33,
+    "id": 1135,
+    "province": "Mersin",
+    "name": "Anamur",
+    "population": 66940,
+    "area": 1430
+  },
+  {
+    "provinceId": 33,
+    "id": 1766,
+    "province": "Mersin",
+    "name": "Aydıncık",
+    "population": 11662,
+    "area": 352
+  },
+  {
+    "provinceId": 33,
+    "id": 1779,
+    "province": "Mersin",
+    "name": "Bozyazı",
+    "population": 26985,
+    "area": 642
+  },
+  {
+    "provinceId": 33,
+    "id": 1892,
+    "province": "Mersin",
+    "name": "Çamlıyayla",
+    "population": 8692,
+    "area": 602
+  },
+  {
+    "provinceId": 33,
+    "id": 1311,
+    "province": "Mersin",
+    "name": "Erdemli",
+    "population": 153967,
+    "area": 2279
+  },
+  {
+    "provinceId": 33,
+    "id": 1366,
+    "province": "Mersin",
+    "name": "Gülnar",
+    "population": 33986,
+    "area": 1416
+  },
+  {
+    "provinceId": 33,
+    "id": 2065,
+    "province": "Mersin",
+    "name": "Mezitli",
+    "population": 223424,
+    "area": 371
+  },
+  {
+    "provinceId": 33,
+    "id": 1536,
+    "province": "Mersin",
+    "name": "Mut",
+    "population": 63516,
+    "area": 2718
+  },
+  {
+    "provinceId": 33,
+    "id": 1621,
+    "province": "Mersin",
+    "name": "Silifke",
+    "population": 137047,
+    "area": 2692
+  },
+  {
+    "provinceId": 33,
+    "id": 1665,
+    "province": "Mersin",
+    "name": "Tarsus",
+    "population": 353469,
+    "area": 2029
+  },
+  {
+    "provinceId": 33,
+    "id": 2066,
+    "province": "Mersin",
+    "name": "Toroslar",
+    "population": 320377,
+    "area": 1075
+  },
+  {
+    "provinceId": 33,
+    "id": 2067,
+    "province": "Mersin",
+    "name": "Yenişehir",
+    "population": 277445,
+    "area": 139
+  },
+  {
+    "provinceId": 34,
+    "id": 1103,
+    "province": "İstanbul",
+    "name": "Adalar",
+    "population": 16325,
+    "area": 11
+  },
+  {
+    "provinceId": 34,
+    "id": 2048,
+    "province": "İstanbul",
+    "name": "Arnavutköy",
+    "population": 336062,
+    "area": 453
+  },
+  {
+    "provinceId": 34,
+    "id": 2049,
+    "province": "İstanbul",
+    "name": "Ataşehir",
+    "population": 416529,
+    "area": 25
+  },
+  {
+    "provinceId": 34,
+    "id": 2003,
+    "province": "İstanbul",
+    "name": "Avcılar",
+    "population": 437221,
+    "area": 50
+  },
+  {
+    "provinceId": 34,
+    "id": 2004,
+    "province": "İstanbul",
+    "name": "Bağcılar",
+    "population": 719071,
+    "area": 23
+  },
+  {
+    "provinceId": 34,
+    "id": 2005,
+    "province": "İstanbul",
+    "name": "Bahçelievler",
+    "population": 567848,
+    "area": 17
+  },
+  {
+    "provinceId": 34,
+    "id": 1166,
+    "province": "İstanbul",
+    "name": "Bakırköy",
+    "population": 220476,
+    "area": 29
+  },
+  {
+    "provinceId": 34,
+    "id": 2050,
+    "province": "İstanbul",
+    "name": "Başakşehir",
+    "population": 509915,
+    "area": 107
+  },
+  {
+    "provinceId": 34,
+    "id": 1886,
+    "province": "İstanbul",
+    "name": "Bayrampaşa",
+    "population": 268850,
+    "area": 9
+  },
+  {
+    "provinceId": 34,
+    "id": 1183,
+    "province": "İstanbul",
+    "name": "Beşiktaş",
+    "population": 169022,
+    "area": 18
+  },
+  {
+    "provinceId": 34,
+    "id": 1185,
+    "province": "İstanbul",
+    "name": "Beykoz",
+    "population": 245647,
+    "area": 310
+  },
+  {
+    "provinceId": 34,
+    "id": 2051,
+    "province": "İstanbul",
+    "name": "Beylikdüzü",
+    "population": 409347,
+    "area": 39
+  },
+  {
+    "provinceId": 34,
+    "id": 1186,
+    "province": "İstanbul",
+    "name": "Beyoğlu",
+    "population": 218589,
+    "area": 9
+  },
+  {
+    "provinceId": 34,
+    "id": 1782,
+    "province": "İstanbul",
+    "name": "Büyükçekmece",
+    "population": 276572,
+    "area": 173
+  },
+  {
+    "provinceId": 34,
+    "id": 1237,
+    "province": "İstanbul",
+    "name": "Çatalca",
+    "population": 80007,
+    "area": 1142
+  },
+  {
+    "provinceId": 34,
+    "id": 2052,
+    "province": "İstanbul",
+    "name": "Çekmeköy",
+    "population": 299806,
+    "area": 152
+  },
+  {
+    "provinceId": 34,
+    "id": 2016,
+    "province": "İstanbul",
+    "name": "Esenler",
+    "population": 427901,
+    "area": 19
+  },
+  {
+    "provinceId": 34,
+    "id": 2053,
+    "province": "İstanbul",
+    "name": "Esenyurt",
+    "population": 978007,
+    "area": 43
+  },
+  {
+    "provinceId": 34,
+    "id": 1325,
+    "province": "İstanbul",
+    "name": "Eyüpsultan",
+    "population": 420194,
+    "area": 228
+  },
+  {
+    "provinceId": 34,
+    "id": 1327,
+    "province": "İstanbul",
+    "name": "Fatih",
+    "population": 356025,
+    "area": 15
+  },
+  {
+    "provinceId": 34,
+    "id": 1336,
+    "province": "İstanbul",
+    "name": "Gaziosmanpaşa",
+    "population": 483830,
+    "area": 12
+  },
+  {
+    "provinceId": 34,
+    "id": 2010,
+    "province": "İstanbul",
+    "name": "Güngören",
+    "population": 269944,
+    "area": 7
+  },
+  {
+    "provinceId": 34,
+    "id": 1421,
+    "province": "İstanbul",
+    "name": "Kadıköy",
+    "population": 467919,
+    "area": 25
+  },
+  {
+    "provinceId": 34,
+    "id": 1810,
+    "province": "İstanbul",
+    "name": "Kağıthane",
+    "population": 445672,
+    "area": 15
+  },
+  {
+    "provinceId": 34,
+    "id": 1449,
+    "province": "İstanbul",
+    "name": "Kartal",
+    "population": 475042,
+    "area": 38
+  },
+  {
+    "provinceId": 34,
+    "id": 1823,
+    "province": "İstanbul",
+    "name": "Küçükçekmece",
+    "population": 792030,
+    "area": 44
+  },
+  {
+    "provinceId": 34,
+    "id": 2012,
+    "province": "İstanbul",
+    "name": "Maltepe",
+    "population": 523137,
+    "area": 53
+  },
+  {
+    "provinceId": 34,
+    "id": 1835,
+    "province": "İstanbul",
+    "name": "Pendik",
+    "population": 743774,
+    "area": 190
+  },
+  {
+    "provinceId": 34,
+    "id": 2054,
+    "province": "İstanbul",
+    "name": "Sancaktepe",
+    "population": 492804,
+    "area": 63
+  },
+  {
+    "provinceId": 34,
+    "id": 1604,
+    "province": "İstanbul",
+    "name": "Sarıyer",
+    "population": 344250,
+    "area": 177
+  },
+  {
+    "provinceId": 34,
+    "id": 1622,
+    "province": "İstanbul",
+    "name": "Silivri",
+    "population": 221723,
+    "area": 858
+  },
+  {
+    "provinceId": 34,
+    "id": 2014,
+    "province": "İstanbul",
+    "name": "Sultanbeyli",
+    "population": 360702,
+    "area": 29
+  },
+  {
+    "provinceId": 34,
+    "id": 2055,
+    "province": "İstanbul",
+    "name": "Sultangazi",
+    "population": 532802,
+    "area": 37
+  },
+  {
+    "provinceId": 34,
+    "id": 1659,
+    "province": "İstanbul",
+    "name": "Şile",
+    "population": 48537,
+    "area": 800
+  },
+  {
+    "provinceId": 34,
+    "id": 1663,
+    "province": "İstanbul",
+    "name": "Şişli",
+    "population": 264736,
+    "area": 10
+  },
+  {
+    "provinceId": 34,
+    "id": 2015,
+    "province": "İstanbul",
+    "name": "Tuzla",
+    "population": 293604,
+    "area": 138
+  },
+  {
+    "provinceId": 34,
+    "id": 1852,
+    "province": "İstanbul",
+    "name": "Ümraniye",
+    "population": 723760,
+    "area": 46
+  },
+  {
+    "provinceId": 34,
+    "id": 1708,
+    "province": "İstanbul",
+    "name": "Üsküdar",
+    "population": 517348,
+    "area": 35
+  },
+  {
+    "provinceId": 34,
+    "id": 1739,
+    "province": "İstanbul",
+    "name": "Zeytinburnu",
+    "population": 280896,
+    "area": 12
+  },
+  {
+    "provinceId": 35,
+    "id": 1128,
+    "province": "İzmir",
+    "name": "Aliağa",
+    "population": 106168,
+    "area": 379
+  },
+  {
+    "provinceId": 35,
+    "id": 2006,
+    "province": "İzmir",
+    "name": "Balçova",
+    "population": 77831,
+    "area": 16
+  },
+  {
+    "provinceId": 35,
+    "id": 1178,
+    "province": "İzmir",
+    "name": "Bayındır",
+    "population": 40618,
+    "area": 548
+  },
+  {
+    "provinceId": 35,
+    "id": 2056,
+    "province": "İzmir",
+    "name": "Bayraklı",
+    "population": 300949,
+    "area": 30
+  },
+  {
+    "provinceId": 35,
+    "id": 1181,
+    "province": "İzmir",
+    "name": "Bergama",
+    "population": 107133,
+    "area": 1544
+  },
+  {
+    "provinceId": 35,
+    "id": 1776,
+    "province": "İzmir",
+    "name": "Beydağ",
+    "population": 12094,
+    "area": 172
+  },
+  {
+    "provinceId": 35,
+    "id": 1203,
+    "province": "İzmir",
+    "name": "Bornova",
+    "population": 447553,
+    "area": 220
+  },
+  {
+    "provinceId": 35,
+    "id": 1780,
+    "province": "İzmir",
+    "name": "Buca",
+    "population": 523487,
+    "area": 178
+  },
+  {
+    "provinceId": 35,
+    "id": 1251,
+    "province": "İzmir",
+    "name": "Çeşme",
+    "population": 50028,
+    "area": 285
+  },
+  {
+    "provinceId": 35,
+    "id": 2007,
+    "province": "İzmir",
+    "name": "Çiğli",
+    "population": 215172,
+    "area": 139
+  },
+  {
+    "provinceId": 35,
+    "id": 1280,
+    "province": "İzmir",
+    "name": "Dikili",
+    "population": 48379,
+    "area": 534
+  },
+  {
+    "provinceId": 35,
+    "id": 1334,
+    "province": "İzmir",
+    "name": "Foça",
+    "population": 36000,
+    "area": 251
+  },
+  {
+    "provinceId": 35,
+    "id": 2009,
+    "province": "İzmir",
+    "name": "Gaziemir",
+    "population": 137768,
+    "area": 70
+  },
+  {
+    "provinceId": 35,
+    "id": 2018,
+    "province": "İzmir",
+    "name": "Güzelbahçe",
+    "population": 38044,
+    "area": 77
+  },
+  {
+    "provinceId": 35,
+    "id": 2057,
+    "province": "İzmir",
+    "name": "Karabağlar",
+    "population": 476500,
+    "area": 89
+  },
+  {
+    "provinceId": 35,
+    "id": 1432,
+    "province": "İzmir",
+    "name": "Karaburun",
+    "population": 13379,
+    "area": 421
+  },
+  {
+    "provinceId": 35,
+    "id": 1448,
+    "province": "İzmir",
+    "name": "Karşıyaka",
+    "population": 341857,
+    "area": 51
+  },
+  {
+    "provinceId": 35,
+    "id": 1461,
+    "province": "İzmir",
+    "name": "Kemalpaşa",
+    "population": 117956,
+    "area": 681
+  },
+  {
+    "provinceId": 35,
+    "id": 1467,
+    "province": "İzmir",
+    "name": "Kınık",
+    "population": 29205,
+    "area": 479
+  },
+  {
+    "provinceId": 35,
+    "id": 1477,
+    "province": "İzmir",
+    "name": "Kiraz",
+    "population": 43572,
+    "area": 573
+  },
+  {
+    "provinceId": 35,
+    "id": 1819,
+    "province": "İzmir",
+    "name": "Konak",
+    "population": 327300,
+    "area": 24
+  },
+  {
+    "provinceId": 35,
+    "id": 1826,
+    "province": "İzmir",
+    "name": "Menderes",
+    "population": 109356,
+    "area": 777
+  },
+  {
+    "provinceId": 35,
+    "id": 1521,
+    "province": "İzmir",
+    "name": "Menemen",
+    "population": 207748,
+    "area": 573
+  },
+  {
+    "provinceId": 35,
+    "id": 2013,
+    "province": "İzmir",
+    "name": "Narlıdere",
+    "population": 62148,
+    "area": 50
+  },
+  {
+    "provinceId": 35,
+    "id": 1563,
+    "province": "İzmir",
+    "name": "Ödemiş",
+    "population": 132650,
+    "area": 1019
+  },
+  {
+    "provinceId": 35,
+    "id": 1611,
+    "province": "İzmir",
+    "name": "Seferihisar",
+    "population": 58570,
+    "area": 375
+  },
+  {
+    "provinceId": 35,
+    "id": 1612,
+    "province": "İzmir",
+    "name": "Selçuk",
+    "population": 38467,
+    "area": 317
+  },
+  {
+    "provinceId": 35,
+    "id": 1677,
+    "province": "İzmir",
+    "name": "Tire",
+    "population": 87935,
+    "area": 716
+  },
+  {
+    "provinceId": 35,
+    "id": 1682,
+    "province": "İzmir",
+    "name": "Torbalı",
+    "population": 214059,
+    "area": 577
+  },
+  {
+    "provinceId": 35,
+    "id": 1703,
+    "province": "İzmir",
+    "name": "Urla",
+    "population": 77599,
+    "area": 727
+  },
+  {
+    "provinceId": 36,
+    "id": 1756,
+    "province": "Kars",
+    "name": "Akyaka",
+    "population": 9998,
+    "area": 417
+  },
+  {
+    "provinceId": 36,
+    "id": 1149,
+    "province": "Kars",
+    "name": "Arpaçay",
+    "population": 14670,
+    "area": 1165
+  },
+  {
+    "provinceId": 36,
+    "id": 1279,
+    "province": "Kars",
+    "name": "Digor",
+    "population": 19403,
+    "area": 1092
+  },
+  {
+    "provinceId": 36,
+    "id": 1424,
+    "province": "Kars",
+    "name": "Kağızman",
+    "population": 44162,
+    "area": 1871
+  },
+  {
+    "provinceId": 36,
+    "id": 1447,
+    "province": "Kars",
+    "name": "Merkez",
+    "population": 122524,
+    "area": 2048
+  },
+  {
+    "provinceId": 36,
+    "id": 1601,
+    "province": "Kars",
+    "name": "Sarıkamış",
+    "population": 37348,
+    "area": 2038
+  },
+  {
+    "provinceId": 36,
+    "id": 1614,
+    "province": "Kars",
+    "name": "Selim",
+    "population": 21178,
+    "area": 982
+  },
+  {
+    "provinceId": 36,
+    "id": 1645,
+    "province": "Kars",
+    "name": "Susuz",
+    "population": 9052,
+    "area": 578
+  },
+  {
+    "provinceId": 37,
+    "id": 1101,
+    "province": "Kastamonu",
+    "name": "Abana",
+    "population": 4461,
+    "area": 28
+  },
+  {
+    "provinceId": 37,
+    "id": 1867,
+    "province": "Kastamonu",
+    "name": "Ağlı",
+    "population": 3521,
+    "area": 225
+  },
+  {
+    "provinceId": 37,
+    "id": 1140,
+    "province": "Kastamonu",
+    "name": "Araç",
+    "population": 18676,
+    "area": 1446
+  },
+  {
+    "provinceId": 37,
+    "id": 1162,
+    "province": "Kastamonu",
+    "name": "Azdavay",
+    "population": 8031,
+    "area": 759
+  },
+  {
+    "provinceId": 37,
+    "id": 1208,
+    "province": "Kastamonu",
+    "name": "Bozkurt",
+    "population": 9738,
+    "area": 308
+  },
+  {
+    "provinceId": 37,
+    "id": 1221,
+    "province": "Kastamonu",
+    "name": "Cide",
+    "population": 22965,
+    "area": 652
+  },
+  {
+    "provinceId": 37,
+    "id": 1238,
+    "province": "Kastamonu",
+    "name": "Çatalzeytin",
+    "population": 8127,
+    "area": 272
+  },
+  {
+    "provinceId": 37,
+    "id": 1264,
+    "province": "Kastamonu",
+    "name": "Daday",
+    "population": 8456,
+    "area": 843
+  },
+  {
+    "provinceId": 37,
+    "id": 1277,
+    "province": "Kastamonu",
+    "name": "Devrekani",
+    "population": 13886,
+    "area": 715
+  },
+  {
+    "provinceId": 37,
+    "id": 1915,
+    "province": "Kastamonu",
+    "name": "Doğanyurt",
+    "population": 5433,
+    "area": 193
+  },
+  {
+    "provinceId": 37,
+    "id": 1940,
+    "province": "Kastamonu",
+    "name": "Hanönü",
+    "population": 4395,
+    "area": 417
+  },
+  {
+    "provinceId": 37,
+    "id": 1805,
+    "province": "Kastamonu",
+    "name": "İhsangazi",
+    "population": 5235,
+    "area": 445
+  },
+  {
+    "provinceId": 37,
+    "id": 1410,
+    "province": "Kastamonu",
+    "name": "İnebolu",
+    "population": 20480,
+    "area": 417
+  },
+  {
+    "provinceId": 37,
+    "id": 1499,
+    "province": "Kastamonu",
+    "name": "Küre",
+    "population": 5644,
+    "area": 406
+  },
+  {
+    "provinceId": 37,
+    "id": 1450,
+    "province": "Kastamonu",
+    "name": "Merkez",
+    "population": 155011,
+    "area": 1847
+  },
+  {
+    "provinceId": 37,
+    "id": 1836,
+    "province": "Kastamonu",
+    "name": "Pınarbaşı",
+    "population": 6970,
+    "area": 546
+  },
+  {
+    "provinceId": 37,
+    "id": 1984,
+    "province": "Kastamonu",
+    "name": "Seydiler",
+    "population": 4796,
+    "area": 233
+  },
+  {
+    "provinceId": 37,
+    "id": 1845,
+    "province": "Kastamonu",
+    "name": "Şenpazar",
+    "population": 4844,
+    "area": 252
+  },
+  {
+    "provinceId": 37,
+    "id": 1666,
+    "province": "Kastamonu",
+    "name": "Taşköprü",
+    "population": 38372,
+    "area": 1758
+  },
+  {
+    "provinceId": 37,
+    "id": 1685,
+    "province": "Kastamonu",
+    "name": "Tosya",
+    "population": 39949,
+    "area": 1302
+  },
+  {
+    "provinceId": 38,
+    "id": 1752,
+    "province": "Kayseri",
+    "name": "Akkışla",
+    "population": 6246,
+    "area": 371
+  },
+  {
+    "provinceId": 38,
+    "id": 1218,
+    "province": "Kayseri",
+    "name": "Bünyan",
+    "population": 30834,
+    "area": 1210
+  },
+  {
+    "provinceId": 38,
+    "id": 1275,
+    "province": "Kayseri",
+    "name": "Develi",
+    "population": 67918,
+    "area": 1892
+  },
+  {
+    "provinceId": 38,
+    "id": 1330,
+    "province": "Kayseri",
+    "name": "Felahiye",
+    "population": 6550,
+    "area": 444
+  },
+  {
+    "provinceId": 38,
+    "id": 1936,
+    "province": "Kayseri",
+    "name": "Hacılar",
+    "population": 12979,
+    "area": 187
+  },
+  {
+    "provinceId": 38,
+    "id": 1409,
+    "province": "Kayseri",
+    "name": "İncesu",
+    "population": 30477,
+    "area": 874
+  },
+  {
+    "provinceId": 38,
+    "id": 1863,
+    "province": "Kayseri",
+    "name": "Kocasinan",
+    "population": 407600,
+    "area": 1471
+  },
+  {
+    "provinceId": 38,
+    "id": 1864,
+    "province": "Kayseri",
+    "name": "Melikgazi",
+    "population": 585483,
+    "area": 668
+  },
+  {
+    "provinceId": 38,
+    "id": 1978,
+    "province": "Kayseri",
+    "name": "Özvatan",
+    "population": 4523,
+    "area": 270
+  },
+  {
+    "provinceId": 38,
+    "id": 1576,
+    "province": "Kayseri",
+    "name": "Pınarbaşı",
+    "population": 24172,
+    "area": 3418
+  },
+  {
+    "provinceId": 38,
+    "id": 1603,
+    "province": "Kayseri",
+    "name": "Sarıoğlan",
+    "population": 15394,
+    "area": 642
+  },
+  {
+    "provinceId": 38,
+    "id": 1605,
+    "province": "Kayseri",
+    "name": "Sarız",
+    "population": 11278,
+    "area": 1173
+  },
+  {
+    "provinceId": 38,
+    "id": 1846,
+    "province": "Kayseri",
+    "name": "Talas",
+    "population": 168172,
+    "area": 444
+  },
+  {
+    "provinceId": 38,
+    "id": 1680,
+    "province": "Kayseri",
+    "name": "Tomarza",
+    "population": 22041,
+    "area": 1405
+  },
+  {
+    "provinceId": 38,
+    "id": 1715,
+    "province": "Kayseri",
+    "name": "Yahyalı",
+    "population": 36078,
+    "area": 1587
+  },
+  {
+    "provinceId": 38,
+    "id": 1727,
+    "province": "Kayseri",
+    "name": "Yeşilhisar",
+    "population": 15938,
+    "area": 913
+  },
+  {
+    "provinceId": 39,
+    "id": 1163,
+    "province": "Kırklareli",
+    "name": "Babaeski",
+    "population": 46595,
+    "area": 670
+  },
+  {
+    "provinceId": 39,
+    "id": 1270,
+    "province": "Kırklareli",
+    "name": "Demirköy",
+    "population": 9656,
+    "area": 893
+  },
+  {
+    "provinceId": 39,
+    "id": 1480,
+    "province": "Kırklareli",
+    "name": "Kofçaz",
+    "population": 2308,
+    "area": 545
+  },
+  {
+    "provinceId": 39,
+    "id": 1505,
+    "province": "Kırklareli",
+    "name": "Lüleburgaz",
+    "population": 155670,
+    "area": 1016
+  },
+  {
+    "provinceId": 39,
+    "id": 1471,
+    "province": "Kırklareli",
+    "name": "Merkez",
+    "population": 112323,
+    "area": 1623
+  },
+  {
+    "provinceId": 39,
+    "id": 1572,
+    "province": "Kırklareli",
+    "name": "Pehlivanköy",
+    "population": 3400,
+    "area": 104
+  },
+  {
+    "provinceId": 39,
+    "id": 1577,
+    "province": "Kırklareli",
+    "name": "Pınarhisar",
+    "population": 17738,
+    "area": 518
+  },
+  {
+    "provinceId": 39,
+    "id": 1714,
+    "province": "Kırklareli",
+    "name": "Vize",
+    "population": 29466,
+    "area": 1090
+  },
+  {
+    "provinceId": 40,
+    "id": 1869,
+    "province": "Kırşehir",
+    "name": "Akçakent",
+    "population": 3792,
+    "area": 370
+  },
+  {
+    "provinceId": 40,
+    "id": 1754,
+    "province": "Kırşehir",
+    "name": "Akpınar",
+    "population": 7535,
+    "area": 582
+  },
+  {
+    "provinceId": 40,
+    "id": 1890,
+    "province": "Kırşehir",
+    "name": "Boztepe",
+    "population": 5539,
+    "area": 747
+  },
+  {
+    "provinceId": 40,
+    "id": 1254,
+    "province": "Kırşehir",
+    "name": "Çiçekdağı",
+    "population": 14480,
+    "area": 891
+  },
+  {
+    "provinceId": 40,
+    "id": 1429,
+    "province": "Kırşehir",
+    "name": "Kaman",
+    "population": 34285,
+    "area": 1284
+  },
+  {
+    "provinceId": 40,
+    "id": 1472,
+    "province": "Kırşehir",
+    "name": "Merkez",
+    "population": 162989,
+    "area": 1719
+  },
+  {
+    "provinceId": 40,
+    "id": 1529,
+    "province": "Kırşehir",
+    "name": "Mucur",
+    "population": 18559,
+    "area": 992
+  },
+  {
+    "provinceId": 41,
+    "id": 2058,
+    "province": "Kocaeli",
+    "name": "Başiskele",
+    "population": 121278,
+    "area": 209
+  },
+  {
+    "provinceId": 41,
+    "id": 2059,
+    "province": "Kocaeli",
+    "name": "Çayırova",
+    "population": 153301,
+    "area": 23
+  },
+  {
+    "provinceId": 41,
+    "id": 2060,
+    "province": "Kocaeli",
+    "name": "Darıca",
+    "population": 227892,
+    "area": 23
+  },
+  {
+    "provinceId": 41,
+    "id": 2030,
+    "province": "Kocaeli",
+    "name": "Derince",
+    "population": 146409,
+    "area": 198
+  },
+  {
+    "provinceId": 41,
+    "id": 2061,
+    "province": "Kocaeli",
+    "name": "Dilovası",
+    "population": 54391,
+    "area": 125
+  },
+  {
+    "provinceId": 41,
+    "id": 1338,
+    "province": "Kocaeli",
+    "name": "Gebze",
+    "population": 407436,
+    "area": 418
+  },
+  {
+    "provinceId": 41,
+    "id": 1355,
+    "province": "Kocaeli",
+    "name": "Gölcük",
+    "population": 177441,
+    "area": 217
+  },
+  {
+    "provinceId": 41,
+    "id": 2062,
+    "province": "Kocaeli",
+    "name": "İzmit",
+    "population": 378656,
+    "area": 480
+  },
+  {
+    "provinceId": 41,
+    "id": 1430,
+    "province": "Kocaeli",
+    "name": "Kandıra",
+    "population": 53845,
+    "area": 840
+  },
+  {
+    "provinceId": 41,
+    "id": 1440,
+    "province": "Kocaeli",
+    "name": "Karamürsel",
+    "population": 59952,
+    "area": 262
+  },
+  {
+    "provinceId": 41,
+    "id": 2063,
+    "province": "Kocaeli",
+    "name": "Kartepe",
+    "population": 142175,
+    "area": 301
+  },
+  {
+    "provinceId": 41,
+    "id": 1821,
+    "province": "Kocaeli",
+    "name": "Körfez",
+    "population": 180131,
+    "area": 301
+  },
+  {
+    "provinceId": 42,
+    "id": 1868,
+    "province": "Konya",
+    "name": "Ahırlı",
+    "population": 5027,
+    "area": 325
+  },
+  {
+    "provinceId": 42,
+    "id": 1753,
+    "province": "Konya",
+    "name": "Akören",
+    "population": 5902,
+    "area": 640
+  },
+  {
+    "provinceId": 42,
+    "id": 1122,
+    "province": "Konya",
+    "name": "Akşehir",
+    "population": 92946,
+    "area": 895
+  },
+  {
+    "provinceId": 42,
+    "id": 1760,
+    "province": "Konya",
+    "name": "Altınekin",
+    "population": 14851,
+    "area": 1312
+  },
+  {
+    "provinceId": 42,
+    "id": 1188,
+    "province": "Konya",
+    "name": "Beyşehir",
+    "population": 79030,
+    "area": 2054
+  },
+  {
+    "provinceId": 42,
+    "id": 1207,
+    "province": "Konya",
+    "name": "Bozkır",
+    "population": 25885,
+    "area": 1105
+  },
+  {
+    "provinceId": 42,
+    "id": 1222,
+    "province": "Konya",
+    "name": "Cihanbeyli",
+    "population": 50922,
+    "area": 3702
+  },
+  {
+    "provinceId": 42,
+    "id": 1902,
+    "province": "Konya",
+    "name": "Çeltik",
+    "population": 10324,
+    "area": 640
+  },
+  {
+    "provinceId": 42,
+    "id": 1262,
+    "province": "Konya",
+    "name": "Çumra",
+    "population": 68543,
+    "area": 2089
+  },
+  {
+    "provinceId": 42,
+    "id": 1907,
+    "province": "Konya",
+    "name": "Derbent",
+    "population": 4160,
+    "area": 359
+  },
+  {
+    "provinceId": 42,
+    "id": 1789,
+    "province": "Konya",
+    "name": "Derebucak",
+    "population": 5790,
+    "area": 451
+  },
+  {
+    "provinceId": 42,
+    "id": 1285,
+    "province": "Konya",
+    "name": "Doğanhisar",
+    "population": 14815,
+    "area": 482
+  },
+  {
+    "provinceId": 42,
+    "id": 1920,
+    "province": "Konya",
+    "name": "Emirgazi",
+    "population": 7945,
+    "area": 798
+  },
+  {
+    "provinceId": 42,
+    "id": 1312,
+    "province": "Konya",
+    "name": "Ereğli",
+    "population": 153849,
+    "area": 2214
+  },
+  {
+    "provinceId": 42,
+    "id": 1933,
+    "province": "Konya",
+    "name": "Güneysınır",
+    "population": 9415,
+    "area": 482
+  },
+  {
+    "provinceId": 42,
+    "id": 1375,
+    "province": "Konya",
+    "name": "Hadim",
+    "population": 11459,
+    "area": 1165
+  },
+  {
+    "provinceId": 42,
+    "id": 1937,
+    "province": "Konya",
+    "name": "Halkapınar",
+    "population": 4183,
+    "area": 605
+  },
+  {
+    "provinceId": 42,
+    "id": 1804,
+    "province": "Konya",
+    "name": "Hüyük",
+    "population": 15431,
+    "area": 443
+  },
+  {
+    "provinceId": 42,
+    "id": 1400,
+    "province": "Konya",
+    "name": "Ilgın",
+    "population": 53707,
+    "area": 1636
+  },
+  {
+    "provinceId": 42,
+    "id": 1422,
+    "province": "Konya",
+    "name": "Kadınhanı",
+    "population": 31852,
+    "area": 1568
+  },
+  {
+    "provinceId": 42,
+    "id": 1441,
+    "province": "Konya",
+    "name": "Karapınar",
+    "population": 51166,
+    "area": 2623
+  },
+  {
+    "provinceId": 42,
+    "id": 1814,
+    "province": "Konya",
+    "name": "Karatay",
+    "population": 375919,
+    "area": 2832
+  },
+  {
+    "provinceId": 42,
+    "id": 1491,
+    "province": "Konya",
+    "name": "Kulu",
+    "population": 52447,
+    "area": 2234
+  },
+  {
+    "provinceId": 42,
+    "id": 1827,
+    "province": "Konya",
+    "name": "Meram",
+    "population": 347341,
+    "area": 1822
+  },
+  {
+    "provinceId": 42,
+    "id": 1598,
+    "province": "Konya",
+    "name": "Sarayönü",
+    "population": 28967,
+    "area": 1620
+  },
+  {
+    "provinceId": 42,
+    "id": 1839,
+    "province": "Konya",
+    "name": "Selçuklu",
+    "population": 695771,
+    "area": 1931
+  },
+  {
+    "provinceId": 42,
+    "id": 1617,
+    "province": "Konya",
+    "name": "Seydişehir",
+    "population": 65928,
+    "area": 1458
+  },
+  {
+    "provinceId": 42,
+    "id": 1848,
+    "province": "Konya",
+    "name": "Taşkent",
+    "population": 6976,
+    "area": 457
+  },
+  {
+    "provinceId": 42,
+    "id": 1990,
+    "province": "Konya",
+    "name": "Tuzlukçu",
+    "population": 6546,
+    "area": 704
+  },
+  {
+    "provinceId": 42,
+    "id": 1994,
+    "province": "Konya",
+    "name": "Yalıhüyük",
+    "population": 1854,
+    "area": 94
+  },
+  {
+    "provinceId": 42,
+    "id": 1735,
+    "province": "Konya",
+    "name": "Yunak",
+    "population": 21290,
+    "area": 2101
+  },
+  {
+    "provinceId": 43,
+    "id": 1132,
+    "province": "Kütahya",
+    "name": "Altıntaş",
+    "population": 15446,
+    "area": 941
+  },
+  {
+    "provinceId": 43,
+    "id": 1764,
+    "province": "Kütahya",
+    "name": "Aslanapa",
+    "population": 8485,
+    "area": 731
+  },
+  {
+    "provinceId": 43,
+    "id": 1898,
+    "province": "Kütahya",
+    "name": "Çavdarhisar",
+    "population": 6073,
+    "area": 429
+  },
+  {
+    "provinceId": 43,
+    "id": 1288,
+    "province": "Kütahya",
+    "name": "Domaniç",
+    "population": 14206,
+    "area": 539
+  },
+  {
+    "provinceId": 43,
+    "id": 1790,
+    "province": "Kütahya",
+    "name": "Dumlupınar",
+    "population": 2957,
+    "area": 250
+  },
+  {
+    "provinceId": 43,
+    "id": 1304,
+    "province": "Kütahya",
+    "name": "Emet",
+    "population": 18264,
+    "area": 951
+  },
+  {
+    "provinceId": 43,
+    "id": 1339,
+    "province": "Kütahya",
+    "name": "Gediz",
+    "population": 49915,
+    "area": 1193
+  },
+  {
+    "provinceId": 43,
+    "id": 1802,
+    "province": "Kütahya",
+    "name": "Hisarcık",
+    "population": 10996,
+    "area": 370
+  },
+  {
+    "provinceId": 43,
+    "id": 1500,
+    "province": "Kütahya",
+    "name": "Merkez",
+    "population": 276427,
+    "area": 2470
+  },
+  {
+    "provinceId": 43,
+    "id": 1979,
+    "province": "Kütahya",
+    "name": "Pazarlar",
+    "population": 5064,
+    "area": 115
+  },
+  {
+    "provinceId": 43,
+    "id": 1625,
+    "province": "Kütahya",
+    "name": "Simav",
+    "population": 61346,
+    "area": 1515
+  },
+  {
+    "provinceId": 43,
+    "id": 1843,
+    "province": "Kütahya",
+    "name": "Şaphane",
+    "population": 5844,
+    "area": 229
+  },
+  {
+    "provinceId": 43,
+    "id": 1671,
+    "province": "Kütahya",
+    "name": "Tavşanlı",
+    "population": 100651,
+    "area": 1899
+  },
+  {
+    "provinceId": 44,
+    "id": 1114,
+    "province": "Malatya",
+    "name": "Akçadağ",
+    "population": 34322,
+    "area": 1118
+  },
+  {
+    "provinceId": 44,
+    "id": 1143,
+    "province": "Malatya",
+    "name": "Arapgir",
+    "population": 10641,
+    "area": 987
+  },
+  {
+    "provinceId": 44,
+    "id": 1148,
+    "province": "Malatya",
+    "name": "Arguvan",
+    "population": 7708,
+    "area": 1096
+  },
+  {
+    "provinceId": 44,
+    "id": 1772,
+    "province": "Malatya",
+    "name": "Battalgazi",
+    "population": 269150,
+    "area": 947
+  },
+  {
+    "provinceId": 44,
+    "id": 1265,
+    "province": "Malatya",
+    "name": "Darende",
+    "population": 26318,
+    "area": 1482
+  },
+  {
+    "provinceId": 44,
+    "id": 1286,
+    "province": "Malatya",
+    "name": "Doğanşehir",
+    "population": 35936,
+    "area": 1364
+  },
+  {
+    "provinceId": 44,
+    "id": 1914,
+    "province": "Malatya",
+    "name": "Doğanyol",
+    "population": 4436,
+    "area": 177
+  },
+  {
+    "provinceId": 44,
+    "id": 1390,
+    "province": "Malatya",
+    "name": "Hekimhan",
+    "population": 20106,
+    "area": 1514
+  },
+  {
+    "provinceId": 44,
+    "id": 1953,
+    "province": "Malatya",
+    "name": "Kale",
+    "population": 6492,
+    "area": 237
+  },
+  {
+    "provinceId": 44,
+    "id": 1969,
+    "province": "Malatya",
+    "name": "Kuluncak",
+    "population": 8549,
+    "area": 645
+  },
+  {
+    "provinceId": 44,
+    "id": 1582,
+    "province": "Malatya",
+    "name": "Pütürge",
+    "population": 15779,
+    "area": 1086
+  },
+  {
+    "provinceId": 44,
+    "id": 1995,
+    "province": "Malatya",
+    "name": "Yazıhan",
+    "population": 16370,
+    "area": 653
+  },
+  {
+    "provinceId": 44,
+    "id": 1729,
+    "province": "Malatya",
+    "name": "Yeşilyurt",
+    "population": 286918,
+    "area": 953
+  },
+  {
+    "provinceId": 45,
+    "id": 1751,
+    "province": "Manisa",
+    "name": "Ahmetli",
+    "population": 17370,
+    "area": 227
+  },
+  {
+    "provinceId": 45,
+    "id": 1118,
+    "province": "Manisa",
+    "name": "Akhisar",
+    "population": 178812,
+    "area": 1645
+  },
+  {
+    "provinceId": 45,
+    "id": 1127,
+    "province": "Manisa",
+    "name": "Alaşehir",
+    "population": 105397,
+    "area": 971
+  },
+  {
+    "provinceId": 45,
+    "id": 1269,
+    "province": "Manisa",
+    "name": "Demirci",
+    "population": 35868,
+    "area": 1321
+  },
+  {
+    "provinceId": 45,
+    "id": 1793,
+    "province": "Manisa",
+    "name": "Gölmarmara",
+    "population": 15211,
+    "area": 310
+  },
+  {
+    "provinceId": 45,
+    "id": 1362,
+    "province": "Manisa",
+    "name": "Gördes",
+    "population": 26240,
+    "area": 902
+  },
+  {
+    "provinceId": 45,
+    "id": 1470,
+    "province": "Manisa",
+    "name": "Kırkağaç",
+    "population": 37823,
+    "area": 541
+  },
+  {
+    "provinceId": 45,
+    "id": 1965,
+    "province": "Manisa",
+    "name": "Köprübaşı",
+    "population": 12752,
+    "area": 447
+  },
+  {
+    "provinceId": 45,
+    "id": 1489,
+    "province": "Manisa",
+    "name": "Kula",
+    "population": 43361,
+    "area": 981
+  },
+  {
+    "provinceId": 45,
+    "id": 1590,
+    "province": "Manisa",
+    "name": "Salihli",
+    "population": 165182,
+    "area": 1359
+  },
+  {
+    "provinceId": 45,
+    "id": 1600,
+    "province": "Manisa",
+    "name": "Sarıgöl",
+    "population": 35519,
+    "area": 432
+  },
+  {
+    "provinceId": 45,
+    "id": 1606,
+    "province": "Manisa",
+    "name": "Saruhanlı",
+    "population": 57452,
+    "area": 771
+  },
+  {
+    "provinceId": 45,
+    "id": 1613,
+    "province": "Manisa",
+    "name": "Selendi",
+    "population": 19115,
+    "area": 726
+  },
+  {
+    "provinceId": 45,
+    "id": 1634,
+    "province": "Manisa",
+    "name": "Soma",
+    "population": 111276,
+    "area": 820
+  },
+  {
+    "provinceId": 45,
+    "id": 2086,
+    "province": "Manisa",
+    "name": "Şehzadeler",
+    "population": 166541,
+    "area": 515
+  },
+  {
+    "provinceId": 45,
+    "id": 1689,
+    "province": "Manisa",
+    "name": "Turgutlu",
+    "population": 177071,
+    "area": 549
+  },
+  {
+    "provinceId": 45,
+    "id": 2087,
+    "province": "Manisa",
+    "name": "Yunusemre",
+    "population": 270726,
+    "area": 823
+  },
+  {
+    "provinceId": 46,
+    "id": 1107,
+    "province": "Kahramanmaraş",
+    "name": "Afşin",
+    "population": 78152,
+    "area": 1502
+  },
+  {
+    "provinceId": 46,
+    "id": 1136,
+    "province": "Kahramanmaraş",
+    "name": "Andırın",
+    "population": 32581,
+    "area": 1202
+  },
+  {
+    "provinceId": 46,
+    "id": 1785,
+    "province": "Kahramanmaraş",
+    "name": "Çağlayancerit",
+    "population": 23159,
+    "area": 470
+  },
+  {
+    "provinceId": 46,
+    "id": 2084,
+    "province": "Kahramanmaraş",
+    "name": "Dulkadiroğlu",
+    "population": 214608,
+    "area": 1176
+  },
+  {
+    "provinceId": 46,
+    "id": 1919,
+    "province": "Kahramanmaraş",
+    "name": "Ekinözü",
+    "population": 10471,
+    "area": 656
+  },
+  {
+    "provinceId": 46,
+    "id": 1299,
+    "province": "Kahramanmaraş",
+    "name": "Elbistan",
+    "population": 127755,
+    "area": 2201
+  },
+  {
+    "provinceId": 46,
+    "id": 1353,
+    "province": "Kahramanmaraş",
+    "name": "Göksun",
+    "population": 49119,
+    "area": 1942
+  },
+  {
+    "provinceId": 46,
+    "id": 1975,
+    "province": "Kahramanmaraş",
+    "name": "Nurhak",
+    "population": 11984,
+    "area": 1028
+  },
+  {
+    "provinceId": 46,
+    "id": 2085,
+    "province": "Kahramanmaraş",
+    "name": "Onikişubat",
+    "population": 427272,
+    "area": 2429
+  },
+  {
+    "provinceId": 46,
+    "id": 1570,
+    "province": "Kahramanmaraş",
+    "name": "Pazarcık",
+    "population": 67262,
+    "area": 1253
+  },
+  {
+    "provinceId": 46,
+    "id": 1694,
+    "province": "Kahramanmaraş",
+    "name": "Türkoğlu",
+    "population": 74255,
+    "area": 660
+  },
+  {
+    "provinceId": 47,
+    "id": 2088,
+    "province": "Mardin",
+    "name": "Artuklu",
+    "population": 194073,
+    "area": 885
+  },
+  {
+    "provinceId": 47,
+    "id": 1787,
+    "province": "Mardin",
+    "name": "Dargeçit",
+    "population": 28434,
+    "area": 519
+  },
+  {
+    "provinceId": 47,
+    "id": 1273,
+    "province": "Mardin",
+    "name": "Derik",
+    "population": 62475,
+    "area": 1381
+  },
+  {
+    "provinceId": 47,
+    "id": 1474,
+    "province": "Mardin",
+    "name": "Kızıltepe",
+    "population": 271307,
+    "area": 1236
+  },
+  {
+    "provinceId": 47,
+    "id": 1519,
+    "province": "Mardin",
+    "name": "Mazıdağı",
+    "population": 37399,
+    "area": 850
+  },
+  {
+    "provinceId": 47,
+    "id": 1526,
+    "province": "Mardin",
+    "name": "Midyat",
+    "population": 122308,
+    "area": 1241
+  },
+  {
+    "provinceId": 47,
+    "id": 1547,
+    "province": "Mardin",
+    "name": "Nusaybin",
+    "population": 118640,
+    "area": 1079
+  },
+  {
+    "provinceId": 47,
+    "id": 1564,
+    "province": "Mardin",
+    "name": "Ömerli",
+    "population": 14571,
+    "area": 458
+  },
+  {
+    "provinceId": 47,
+    "id": 1609,
+    "province": "Mardin",
+    "name": "Savur",
+    "population": 26173,
+    "area": 962
+  },
+  {
+    "provinceId": 47,
+    "id": 2002,
+    "province": "Mardin",
+    "name": "Yeşilli",
+    "population": 13494,
+    "area": 168
+  },
+  {
+    "provinceId": 48,
+    "id": 1197,
+    "province": "Muğla",
+    "name": "Bodrum",
+    "population": 198335,
+    "area": 650
+  },
+  {
+    "provinceId": 48,
+    "id": 1742,
+    "province": "Muğla",
+    "name": "Dalaman",
+    "population": 49044,
+    "area": 608
+  },
+  {
+    "provinceId": 48,
+    "id": 1266,
+    "province": "Muğla",
+    "name": "Datça",
+    "population": 25649,
+    "area": 436
+  },
+  {
+    "provinceId": 48,
+    "id": 1331,
+    "province": "Muğla",
+    "name": "Fethiye",
+    "population": 177569,
+    "area": 875
+  },
+  {
+    "provinceId": 48,
+    "id": 1958,
+    "province": "Muğla",
+    "name": "Kavaklıdere",
+    "population": 10975,
+    "area": 302
+  },
+  {
+    "provinceId": 48,
+    "id": 1488,
+    "province": "Muğla",
+    "name": "Köyceğiz",
+    "population": 40665,
+    "area": 1329
+  },
+  {
+    "provinceId": 48,
+    "id": 1517,
+    "province": "Muğla",
+    "name": "Marmaris",
+    "population": 96778,
+    "area": 906
+  },
+  {
+    "provinceId": 48,
+    "id": 2089,
+    "province": "Muğla",
+    "name": "Menteşe",
+    "population": 123227,
+    "area": 1659
+  },
+  {
+    "provinceId": 48,
+    "id": 1528,
+    "province": "Muğla",
+    "name": "Milas",
+    "population": 149691,
+    "area": 2067
+  },
+  {
+    "provinceId": 48,
+    "id": 1831,
+    "province": "Muğla",
+    "name": "Ortaca",
+    "population": 56056,
+    "area": 285
+  },
+  {
+    "provinceId": 48,
+    "id": 2090,
+    "province": "Muğla",
+    "name": "Seydikemer",
+    "population": 65851,
+    "area": 2208
+  },
+  {
+    "provinceId": 48,
+    "id": 1695,
+    "province": "Muğla",
+    "name": "Ula",
+    "population": 27282,
+    "area": 479
+  },
+  {
+    "provinceId": 48,
+    "id": 1719,
+    "province": "Muğla",
+    "name": "Yatağan",
+    "population": 45614,
+    "area": 851
+  },
+  {
+    "provinceId": 49,
+    "id": 1213,
+    "province": "Muş",
+    "name": "Bulanık",
+    "population": 72714,
+    "area": 1948
+  },
+  {
+    "provinceId": 49,
+    "id": 1801,
+    "province": "Muş",
+    "name": "Hasköy",
+    "population": 27630,
+    "area": 264
+  },
+  {
+    "provinceId": 49,
+    "id": 1964,
+    "province": "Muş",
+    "name": "Korkut",
+    "population": 23193,
+    "area": 775
+  },
+  {
+    "provinceId": 49,
+    "id": 1510,
+    "province": "Muş",
+    "name": "Malazgirt",
+    "population": 44442,
+    "area": 1595
+  },
+  {
+    "provinceId": 49,
+    "id": 1534,
+    "province": "Muş",
+    "name": "Merkez",
+    "population": 201717,
+    "area": 2750
+  },
+  {
+    "provinceId": 49,
+    "id": 1711,
+    "province": "Muş",
+    "name": "Varto",
+    "population": 30183,
+    "area": 1318
+  },
+  {
+    "provinceId": 50,
+    "id": 1749,
+    "province": "Nevşehir",
+    "name": "Acıgöl",
+    "population": 19565,
+    "area": 456
+  },
+  {
+    "provinceId": 50,
+    "id": 1155,
+    "province": "Nevşehir",
+    "name": "Avanos",
+    "population": 32682,
+    "area": 995
+  },
+  {
+    "provinceId": 50,
+    "id": 1274,
+    "province": "Nevşehir",
+    "name": "Derinkuyu",
+    "population": 20767,
+    "area": 473
+  },
+  {
+    "provinceId": 50,
+    "id": 1367,
+    "province": "Nevşehir",
+    "name": "Gülşehir",
+    "population": 21806,
+    "area": 879
+  },
+  {
+    "provinceId": 50,
+    "id": 1374,
+    "province": "Nevşehir",
+    "name": "Hacıbektaş",
+    "population": 11352,
+    "area": 750
+  },
+  {
+    "provinceId": 50,
+    "id": 1485,
+    "province": "Nevşehir",
+    "name": "Kozaklı",
+    "population": 13412,
+    "area": 772
+  },
+  {
+    "provinceId": 50,
+    "id": 1543,
+    "province": "Nevşehir",
+    "name": "Merkez",
+    "population": 159195,
+    "area": 574
+  },
+  {
+    "provinceId": 50,
+    "id": 1707,
+    "province": "Nevşehir",
+    "name": "Ürgüp",
+    "population": 37215,
+    "area": 587
+  },
+  {
+    "provinceId": 51,
+    "id": 1876,
+    "province": "Niğde",
+    "name": "Altunhisar",
+    "population": 14225,
+    "area": 552
+  },
+  {
+    "provinceId": 51,
+    "id": 1201,
+    "province": "Niğde",
+    "name": "Bor",
+    "population": 62553,
+    "area": 1522
+  },
+  {
+    "provinceId": 51,
+    "id": 1225,
+    "province": "Niğde",
+    "name": "Çamardı",
+    "population": 13614,
+    "area": 1163
+  },
+  {
+    "provinceId": 51,
+    "id": 1904,
+    "province": "Niğde",
+    "name": "Çiftlik",
+    "population": 28780,
+    "area": 400
+  },
+  {
+    "provinceId": 51,
+    "id": 1544,
+    "province": "Niğde",
+    "name": "Merkez",
+    "population": 236864,
+    "area": 2223
+  },
+  {
+    "provinceId": 51,
+    "id": 1700,
+    "province": "Niğde",
+    "name": "Ulukışla",
+    "population": 21044,
+    "area": 1375
+  },
+  {
+    "provinceId": 52,
+    "id": 1119,
+    "province": "Ordu",
+    "name": "Akkuş",
+    "population": 22456,
+    "area": 697
+  },
+  {
+    "provinceId": 52,
+    "id": 2103,
+    "province": "Ordu",
+    "name": "Altınordu",
+    "population": 225349,
+    "area": 410
+  },
+  {
+    "provinceId": 52,
+    "id": 1158,
+    "province": "Ordu",
+    "name": "Aybastı",
+    "population": 20966,
+    "area": 250
+  },
+  {
+    "provinceId": 52,
+    "id": 1891,
+    "province": "Ordu",
+    "name": "Çamaş",
+    "population": 10232,
+    "area": 81
+  },
+  {
+    "provinceId": 52,
+    "id": 1897,
+    "province": "Ordu",
+    "name": "Çatalpınar",
+    "population": 14014,
+    "area": 101
+  },
+  {
+    "provinceId": 52,
+    "id": 1900,
+    "province": "Ordu",
+    "name": "Çaybaşı",
+    "population": 12625,
+    "area": 102
+  },
+  {
+    "provinceId": 52,
+    "id": 1328,
+    "province": "Ordu",
+    "name": "Fatsa",
+    "population": 125399,
+    "area": 363
+  },
+  {
+    "provinceId": 52,
+    "id": 1358,
+    "province": "Ordu",
+    "name": "Gölköy",
+    "population": 26970,
+    "area": 421
+  },
+  {
+    "provinceId": 52,
+    "id": 1795,
+    "province": "Ordu",
+    "name": "Gülyalı",
+    "population": 9243,
+    "area": 62
+  },
+  {
+    "provinceId": 52,
+    "id": 1797,
+    "province": "Ordu",
+    "name": "Gürgentepe",
+    "population": 15543,
+    "area": 185
+  },
+  {
+    "provinceId": 52,
+    "id": 1947,
+    "province": "Ordu",
+    "name": "İkizce",
+    "population": 14013,
+    "area": 148
+  },
+  {
+    "provinceId": 52,
+    "id": 1950,
+    "province": "Ordu",
+    "name": "Kabadüz",
+    "population": 7548,
+    "area": 290
+  },
+  {
+    "provinceId": 52,
+    "id": 1951,
+    "province": "Ordu",
+    "name": "Kabataş",
+    "population": 11011,
+    "area": 74
+  },
+  {
+    "provinceId": 52,
+    "id": 1482,
+    "province": "Ordu",
+    "name": "Korgan",
+    "population": 28144,
+    "area": 254
+  },
+  {
+    "provinceId": 52,
+    "id": 1493,
+    "province": "Ordu",
+    "name": "Kumru",
+    "population": 29704,
+    "area": 296
+  },
+  {
+    "provinceId": 52,
+    "id": 1525,
+    "province": "Ordu",
+    "name": "Mesudiye",
+    "population": 15357,
+    "area": 1046
+  },
+  {
+    "provinceId": 52,
+    "id": 1573,
+    "province": "Ordu",
+    "name": "Perşembe",
+    "population": 31278,
+    "area": 217
+  },
+  {
+    "provinceId": 52,
+    "id": 1696,
+    "province": "Ordu",
+    "name": "Ulubey",
+    "population": 23033,
+    "area": 295
+  },
+  {
+    "provinceId": 52,
+    "id": 1706,
+    "province": "Ordu",
+    "name": "Ünye",
+    "population": 132915,
+    "area": 569
+  },
+  {
+    "provinceId": 53,
+    "id": 1146,
+    "province": "Rize",
+    "name": "Ardeşen",
+    "population": 42467,
+    "area": 376
+  },
+  {
+    "provinceId": 53,
+    "id": 1228,
+    "province": "Rize",
+    "name": "Çamlıhemşin",
+    "population": 7799,
+    "area": 897
+  },
+  {
+    "provinceId": 53,
+    "id": 1241,
+    "province": "Rize",
+    "name": "Çayeli",
+    "population": 43075,
+    "area": 442
+  },
+  {
+    "provinceId": 53,
+    "id": 1908,
+    "province": "Rize",
+    "name": "Derepazarı",
+    "population": 7732,
+    "area": 28
+  },
+  {
+    "provinceId": 53,
+    "id": 1332,
+    "province": "Rize",
+    "name": "Fındıklı",
+    "population": 17385,
+    "area": 383
+  },
+  {
+    "provinceId": 53,
+    "id": 1796,
+    "province": "Rize",
+    "name": "Güneysu",
+    "population": 15953,
+    "area": 159
+  },
+  {
+    "provinceId": 53,
+    "id": 1943,
+    "province": "Rize",
+    "name": "Hemşin",
+    "population": 2499,
+    "area": 134
+  },
+  {
+    "provinceId": 53,
+    "id": 1405,
+    "province": "Rize",
+    "name": "İkizdere",
+    "population": 8676,
+    "area": 855
+  },
+  {
+    "provinceId": 53,
+    "id": 1949,
+    "province": "Rize",
+    "name": "İyidere",
+    "population": 9366,
+    "area": 28
+  },
+  {
+    "provinceId": 53,
+    "id": 1428,
+    "province": "Rize",
+    "name": "Kalkandere",
+    "population": 15042,
+    "area": 107
+  },
+  {
+    "provinceId": 53,
+    "id": 1586,
+    "province": "Rize",
+    "name": "Merkez",
+    "population": 147996,
+    "area": 253
+  },
+  {
+    "provinceId": 53,
+    "id": 1569,
+    "province": "Rize",
+    "name": "Pazar",
+    "population": 32516,
+    "area": 173
+  },
+  {
+    "provinceId": 54,
+    "id": 2068,
+    "province": "Sakarya",
+    "name": "Adapazarı",
+    "population": 279431,
+    "area": 324
+  },
+  {
+    "provinceId": 54,
+    "id": 1123,
+    "province": "Sakarya",
+    "name": "Akyazı",
+    "population": 96605,
+    "area": 628
+  },
+  {
+    "provinceId": 54,
+    "id": 2069,
+    "province": "Sakarya",
+    "name": "Arifiye",
+    "population": 51467,
+    "area": 75
+  },
+  {
+    "provinceId": 54,
+    "id": 2070,
+    "province": "Sakarya",
+    "name": "Erenler",
+    "population": 91611,
+    "area": 136
+  },
+  {
+    "provinceId": 54,
+    "id": 1925,
+    "province": "Sakarya",
+    "name": "Ferizli",
+    "population": 32752,
+    "area": 173
+  },
+  {
+    "provinceId": 54,
+    "id": 1351,
+    "province": "Sakarya",
+    "name": "Geyve",
+    "population": 51676,
+    "area": 662
+  },
+  {
+    "provinceId": 54,
+    "id": 1391,
+    "province": "Sakarya",
+    "name": "Hendek",
+    "population": 91486,
+    "area": 646
+  },
+  {
+    "provinceId": 54,
+    "id": 1955,
+    "province": "Sakarya",
+    "name": "Karapürçek",
+    "population": 13713,
+    "area": 142
+  },
+  {
+    "provinceId": 54,
+    "id": 1442,
+    "province": "Sakarya",
+    "name": "Karasu",
+    "population": 73738,
+    "area": 411
+  },
+  {
+    "provinceId": 54,
+    "id": 1453,
+    "province": "Sakarya",
+    "name": "Kaynarca",
+    "population": 25137,
+    "area": 343
+  },
+  {
+    "provinceId": 54,
+    "id": 1818,
+    "province": "Sakarya",
+    "name": "Kocaali",
+    "population": 26523,
+    "area": 254
+  },
+  {
+    "provinceId": 54,
+    "id": 1833,
+    "province": "Sakarya",
+    "name": "Pamukova",
+    "population": 31205,
+    "area": 289
+  },
+  {
+    "provinceId": 54,
+    "id": 1595,
+    "province": "Sakarya",
+    "name": "Sapanca",
+    "population": 46080,
+    "area": 173
+  },
+  {
+    "provinceId": 54,
+    "id": 2071,
+    "province": "Sakarya",
+    "name": "Serdivan",
+    "population": 164222,
+    "area": 130
+  },
+  {
+    "provinceId": 54,
+    "id": 1986,
+    "province": "Sakarya",
+    "name": "Söğütlü",
+    "population": 15411,
+    "area": 145
+  },
+  {
+    "provinceId": 54,
+    "id": 1847,
+    "province": "Sakarya",
+    "name": "Taraklı",
+    "population": 7058,
+    "area": 292
+  },
+  {
+    "provinceId": 55,
+    "id": 1830,
+    "province": "Samsun",
+    "name": "19 mayıs",
+    "population": 27910,
+    "area": 234
+  },
+  {
+    "provinceId": 55,
+    "id": 1125,
+    "province": "Samsun",
+    "name": "Alaçam",
+    "population": 25148,
+    "area": 598
+  },
+  {
+    "provinceId": 55,
+    "id": 1763,
+    "province": "Samsun",
+    "name": "Asarcık",
+    "population": 16906,
+    "area": 253
+  },
+  {
+    "provinceId": 55,
+    "id": 2072,
+    "province": "Samsun",
+    "name": "Atakum",
+    "population": 245328,
+    "area": 351
+  },
+  {
+    "provinceId": 55,
+    "id": 1879,
+    "province": "Samsun",
+    "name": "Ayvacık",
+    "population": 21090,
+    "area": 382
+  },
+  {
+    "provinceId": 55,
+    "id": 1164,
+    "province": "Samsun",
+    "name": "Bafra",
+    "population": 143109,
+    "area": 1503
+  },
+  {
+    "provinceId": 55,
+    "id": 2073,
+    "province": "Samsun",
+    "name": "Canik",
+    "population": 100040,
+    "area": 264
+  },
+  {
+    "provinceId": 55,
+    "id": 1234,
+    "province": "Samsun",
+    "name": "Çarşamba",
+    "population": 141199,
+    "area": 774
+  },
+  {
+    "provinceId": 55,
+    "id": 1386,
+    "province": "Samsun",
+    "name": "Havza",
+    "population": 38824,
+    "area": 865
+  },
+  {
+    "provinceId": 55,
+    "id": 2074,
+    "province": "Samsun",
+    "name": "İlkadım",
+    "population": 322228,
+    "area": 155
+  },
+  {
+    "provinceId": 55,
+    "id": 1452,
+    "province": "Samsun",
+    "name": "Kavak",
+    "population": 26346,
+    "area": 697
+  },
+  {
+    "provinceId": 55,
+    "id": 1501,
+    "province": "Samsun",
+    "name": "Ladik",
+    "population": 16907,
+    "area": 541
+  },
+  {
+    "provinceId": 55,
+    "id": 1838,
+    "province": "Samsun",
+    "name": "Salıpazarı",
+    "population": 21243,
+    "area": 356
+  },
+  {
+    "provinceId": 55,
+    "id": 1849,
+    "province": "Samsun",
+    "name": "Tekkeköy",
+    "population": 58615,
+    "area": 326
+  },
+  {
+    "provinceId": 55,
+    "id": 1676,
+    "province": "Samsun",
+    "name": "Terme",
+    "population": 73120,
+    "area": 548
+  },
+  {
+    "provinceId": 55,
+    "id": 1712,
+    "province": "Samsun",
+    "name": "Vezirköprü",
+    "population": 90388,
+    "area": 1674
+  },
+  {
+    "provinceId": 55,
+    "id": 1993,
+    "province": "Samsun",
+    "name": "Yakakent",
+    "population": 9145,
+    "area": 204
+  },
+  {
+    "provinceId": 56,
+    "id": 1179,
+    "province": "Siirt",
+    "name": "Baykan",
+    "population": 26338,
+    "area": 488
+  },
+  {
+    "provinceId": 56,
+    "id": 1317,
+    "province": "Siirt",
+    "name": "Eruh",
+    "population": 20011,
+    "area": 1061
+  },
+  {
+    "provinceId": 56,
+    "id": 1495,
+    "province": "Siirt",
+    "name": "Kurtalan",
+    "population": 62232,
+    "area": 811
+  },
+  {
+    "provinceId": 56,
+    "id": 1620,
+    "province": "Siirt",
+    "name": "Merkez",
+    "population": 184163,
+    "area": 633
+  },
+  {
+    "provinceId": 56,
+    "id": 1575,
+    "province": "Siirt",
+    "name": "Pervari",
+    "population": 29448,
+    "area": 1651
+  },
+  {
+    "provinceId": 56,
+    "id": 1662,
+    "province": "Siirt",
+    "name": "Şirvan",
+    "population": 20779,
+    "area": 936
+  },
+  {
+    "provinceId": 56,
+    "id": 1878,
+    "province": "Siirt",
+    "name": "Tillo",
+    "population": 4441,
+    "area": 138
+  },
+  {
+    "provinceId": 57,
+    "id": 1156,
+    "province": "Sinop",
+    "name": "Ayancık",
+    "population": 24473,
+    "area": 862
+  },
+  {
+    "provinceId": 57,
+    "id": 1204,
+    "province": "Sinop",
+    "name": "Boyabat",
+    "population": 45833,
+    "area": 1512
+  },
+  {
+    "provinceId": 57,
+    "id": 1910,
+    "province": "Sinop",
+    "name": "Dikmen",
+    "population": 5156,
+    "area": 411
+  },
+  {
+    "provinceId": 57,
+    "id": 1290,
+    "province": "Sinop",
+    "name": "Durağan",
+    "population": 17900,
+    "area": 995
+  },
+  {
+    "provinceId": 57,
+    "id": 1314,
+    "province": "Sinop",
+    "name": "Erfelek",
+    "population": 13123,
+    "area": 412
+  },
+  {
+    "provinceId": 57,
+    "id": 1349,
+    "province": "Sinop",
+    "name": "Gerze",
+    "population": 29534,
+    "area": 487
+  },
+  {
+    "provinceId": 57,
+    "id": 1627,
+    "province": "Sinop",
+    "name": "Merkez",
+    "population": 69844,
+    "area": 442
+  },
+  {
+    "provinceId": 57,
+    "id": 1981,
+    "province": "Sinop",
+    "name": "Saraydüzü",
+    "population": 6642,
+    "area": 334
+  },
+  {
+    "provinceId": 57,
+    "id": 1693,
+    "province": "Sinop",
+    "name": "Türkeli",
+    "population": 17211,
+    "area": 263
+  },
+  {
+    "provinceId": 58,
+    "id": 1870,
+    "province": "Sivas",
+    "name": "Akıncılar",
+    "population": 5111,
+    "area": 432
+  },
+  {
+    "provinceId": 58,
+    "id": 1875,
+    "province": "Sivas",
+    "name": "Altınyayla",
+    "population": 8866,
+    "area": 654
+  },
+  {
+    "provinceId": 58,
+    "id": 1282,
+    "province": "Sivas",
+    "name": "Divriği",
+    "population": 16893,
+    "area": 2632
+  },
+  {
+    "provinceId": 58,
+    "id": 1913,
+    "province": "Sivas",
+    "name": "Doğanşar",
+    "population": 3216,
+    "area": 370
+  },
+  {
+    "provinceId": 58,
+    "id": 1342,
+    "province": "Sivas",
+    "name": "Gemerek",
+    "population": 22717,
+    "area": 1131
+  },
+  {
+    "provinceId": 58,
+    "id": 1927,
+    "province": "Sivas",
+    "name": "Gölova",
+    "population": 3614,
+    "area": 286
+  },
+  {
+    "provinceId": 58,
+    "id": 1373,
+    "province": "Sivas",
+    "name": "Gürün",
+    "population": 18118,
+    "area": 2632
+  },
+  {
+    "provinceId": 58,
+    "id": 1376,
+    "province": "Sivas",
+    "name": "Hafik",
+    "population": 10944,
+    "area": 1765
+  },
+  {
+    "provinceId": 58,
+    "id": 1407,
+    "province": "Sivas",
+    "name": "İmranlı",
+    "population": 9091,
+    "area": 1292
+  },
+  {
+    "provinceId": 58,
+    "id": 1431,
+    "province": "Sivas",
+    "name": "Kangal",
+    "population": 21629,
+    "area": 3342
+  },
+  {
+    "provinceId": 58,
+    "id": 1484,
+    "province": "Sivas",
+    "name": "Koyulhisar",
+    "population": 12959,
+    "area": 891
+  },
+  {
+    "provinceId": 58,
+    "id": 1628,
+    "province": "Sivas",
+    "name": "Merkez",
+    "population": 389719,
+    "area": 3488
+  },
+  {
+    "provinceId": 58,
+    "id": 1646,
+    "province": "Sivas",
+    "name": "Suşehri",
+    "population": 25295,
+    "area": 939
+  },
+  {
+    "provinceId": 58,
+    "id": 1650,
+    "province": "Sivas",
+    "name": "Şarkışla",
+    "population": 37758,
+    "area": 2073
+  },
+  {
+    "provinceId": 58,
+    "id": 1991,
+    "province": "Sivas",
+    "name": "Ulaş",
+    "population": 8879,
+    "area": 1092
+  },
+  {
+    "provinceId": 58,
+    "id": 1731,
+    "province": "Sivas",
+    "name": "Yıldızeli",
+    "population": 31719,
+    "area": 2529
+  },
+  {
+    "provinceId": 58,
+    "id": 1738,
+    "province": "Sivas",
+    "name": "Zara",
+    "population": 23873,
+    "area": 2616
+  },
+  {
+    "provinceId": 59,
+    "id": 1250,
+    "province": "Tekirdağ",
+    "name": "Çerkezköy",
+    "population": 213243,
+    "area": 86
+  },
+  {
+    "provinceId": 59,
+    "id": 1258,
+    "province": "Tekirdağ",
+    "name": "Çorlu",
+    "population": 294020,
+    "area": 531
+  },
+  {
+    "provinceId": 59,
+    "id": 2094,
+    "province": "Tekirdağ",
+    "name": "Ergene",
+    "population": 68695,
+    "area": 418
+  },
+  {
+    "provinceId": 59,
+    "id": 1388,
+    "province": "Tekirdağ",
+    "name": "Hayrabolu",
+    "population": 30930,
+    "area": 1009
+  },
+  {
+    "provinceId": 59,
+    "id": 2095,
+    "province": "Tekirdağ",
+    "name": "Kapaklı",
+    "population": 142662,
+    "area": 182
+  },
+  {
+    "provinceId": 59,
+    "id": 1511,
+    "province": "Tekirdağ",
+    "name": "Malkara",
+    "population": 51406,
+    "area": 1243
+  },
+  {
+    "provinceId": 59,
+    "id": 1825,
+    "province": "Tekirdağ",
+    "name": "Marmaraereğlisi",
+    "population": 31191,
+    "area": 175
+  },
+  {
+    "provinceId": 59,
+    "id": 1538,
+    "province": "Tekirdağ",
+    "name": "Muratlı",
+    "population": 30411,
+    "area": 388
+  },
+  {
+    "provinceId": 59,
+    "id": 1596,
+    "province": "Tekirdağ",
+    "name": "Saray",
+    "population": 51224,
+    "area": 620
+  },
+  {
+    "provinceId": 59,
+    "id": 2096,
+    "province": "Tekirdağ",
+    "name": "Süleymanpaşa",
+    "population": 219230,
+    "area": 1053
+  },
+  {
+    "provinceId": 59,
+    "id": 1652,
+    "province": "Tekirdağ",
+    "name": "Şarköy",
+    "population": 34047,
+    "area": 487
+  },
+  {
+    "provinceId": 60,
+    "id": 1129,
+    "province": "Tokat",
+    "name": "Almus",
+    "population": 25116,
+    "area": 1033
+  },
+  {
+    "provinceId": 60,
+    "id": 1151,
+    "province": "Tokat",
+    "name": "Artova",
+    "population": 7469,
+    "area": 444
+  },
+  {
+    "provinceId": 60,
+    "id": 1883,
+    "province": "Tokat",
+    "name": "Başçiftlik",
+    "population": 6216,
+    "area": 246
+  },
+  {
+    "provinceId": 60,
+    "id": 1308,
+    "province": "Tokat",
+    "name": "Erbaa",
+    "population": 100323,
+    "area": 1173
+  },
+  {
+    "provinceId": 60,
+    "id": 1679,
+    "province": "Tokat",
+    "name": "Merkez",
+    "population": 207741,
+    "area": 2003
+  },
+  {
+    "provinceId": 60,
+    "id": 1545,
+    "province": "Tokat",
+    "name": "Niksar",
+    "population": 62287,
+    "area": 889
+  },
+  {
+    "provinceId": 60,
+    "id": 1834,
+    "province": "Tokat",
+    "name": "Pazar",
+    "population": 13419,
+    "area": 188
+  },
+  {
+    "provinceId": 60,
+    "id": 1584,
+    "province": "Tokat",
+    "name": "Reşadiye",
+    "population": 36727,
+    "area": 1102
+  },
+  {
+    "provinceId": 60,
+    "id": 1987,
+    "province": "Tokat",
+    "name": "Sulusaray",
+    "population": 6698,
+    "area": 266
+  },
+  {
+    "provinceId": 60,
+    "id": 1690,
+    "province": "Tokat",
+    "name": "Turhal",
+    "population": 78827,
+    "area": 940
+  },
+  {
+    "provinceId": 60,
+    "id": 1858,
+    "province": "Tokat",
+    "name": "Yeşilyurt",
+    "population": 8356,
+    "area": 280
+  },
+  {
+    "provinceId": 60,
+    "id": 1740,
+    "province": "Tokat",
+    "name": "Zile",
+    "population": 53755,
+    "area": 1480
+  },
+  {
+    "provinceId": 61,
+    "id": 1113,
+    "province": "Trabzon",
+    "name": "Akçaabat",
+    "population": 129628,
+    "area": 375
+  },
+  {
+    "provinceId": 61,
+    "id": 1141,
+    "province": "Trabzon",
+    "name": "Araklı",
+    "population": 51124,
+    "area": 464
+  },
+  {
+    "provinceId": 61,
+    "id": 1150,
+    "province": "Trabzon",
+    "name": "Arsin",
+    "population": 32717,
+    "area": 157
+  },
+  {
+    "provinceId": 61,
+    "id": 1775,
+    "province": "Trabzon",
+    "name": "Beşikdüzü",
+    "population": 23568,
+    "area": 84
+  },
+  {
+    "provinceId": 61,
+    "id": 1896,
+    "province": "Trabzon",
+    "name": "Çarşıbaşı",
+    "population": 15753,
+    "area": 66
+  },
+  {
+    "provinceId": 61,
+    "id": 1244,
+    "province": "Trabzon",
+    "name": "Çaykara",
+    "population": 15180,
+    "area": 574
+  },
+  {
+    "provinceId": 61,
+    "id": 1909,
+    "province": "Trabzon",
+    "name": "Dernekpazarı",
+    "population": 4294,
+    "area": 89
+  },
+  {
+    "provinceId": 61,
+    "id": 1917,
+    "province": "Trabzon",
+    "name": "Düzköy",
+    "population": 14142,
+    "area": 125
+  },
+  {
+    "provinceId": 61,
+    "id": 1942,
+    "province": "Trabzon",
+    "name": "Hayrat",
+    "population": 9337,
+    "area": 244
+  },
+  {
+    "provinceId": 61,
+    "id": 1966,
+    "province": "Trabzon",
+    "name": "Köprübaşı",
+    "population": 4776,
+    "area": 189
+  },
+  {
+    "provinceId": 61,
+    "id": 1507,
+    "province": "Trabzon",
+    "name": "Maçka",
+    "population": 27322,
+    "area": 925
+  },
+  {
+    "provinceId": 61,
+    "id": 1548,
+    "province": "Trabzon",
+    "name": "Of",
+    "population": 44527,
+    "area": 258
+  },
+  {
+    "provinceId": 61,
+    "id": 2097,
+    "province": "Trabzon",
+    "name": "Ortahisar",
+    "population": 322702,
+    "area": 235
+  },
+  {
+    "provinceId": 61,
+    "id": 1647,
+    "province": "Trabzon",
+    "name": "Sürmene",
+    "population": 26127,
+    "area": 166
+  },
+  {
+    "provinceId": 61,
+    "id": 1842,
+    "province": "Trabzon",
+    "name": "Şalpazarı",
+    "population": 11780,
+    "area": 161
+  },
+  {
+    "provinceId": 61,
+    "id": 1681,
+    "province": "Trabzon",
+    "name": "Tonya",
+    "population": 14315,
+    "area": 176
+  },
+  {
+    "provinceId": 61,
+    "id": 1709,
+    "province": "Trabzon",
+    "name": "Vakfıkebir",
+    "population": 27339,
+    "area": 141
+  },
+  {
+    "provinceId": 61,
+    "id": 1732,
+    "province": "Trabzon",
+    "name": "Yomra",
+    "population": 49721,
+    "area": 200
+  },
+  {
+    "provinceId": 62,
+    "id": 1247,
+    "province": "Tunceli",
+    "name": "Çemişgezek",
+    "population": 8066,
+    "area": 851
+  },
+  {
+    "provinceId": 62,
+    "id": 1397,
+    "province": "Tunceli",
+    "name": "Hozat",
+    "population": 5952,
+    "area": 663
+  },
+  {
+    "provinceId": 62,
+    "id": 1518,
+    "province": "Tunceli",
+    "name": "Mazgirt",
+    "population": 7827,
+    "area": 702
+  },
+  {
+    "provinceId": 62,
+    "id": 1688,
+    "province": "Tunceli",
+    "name": "Merkez",
+    "population": 41389,
+    "area": 1128
+  },
+  {
+    "provinceId": 62,
+    "id": 1541,
+    "province": "Tunceli",
+    "name": "Nazımiye",
+    "population": 3437,
+    "area": 543
+  },
+  {
+    "provinceId": 62,
+    "id": 1562,
+    "province": "Tunceli",
+    "name": "Ovacık",
+    "population": 7173,
+    "area": 1401
+  },
+  {
+    "provinceId": 62,
+    "id": 1574,
+    "province": "Tunceli",
+    "name": "Pertek",
+    "population": 11463,
+    "area": 858
+  },
+  {
+    "provinceId": 62,
+    "id": 1581,
+    "province": "Tunceli",
+    "name": "Pülümür",
+    "population": 4010,
+    "area": 1437
+  },
+  {
+    "provinceId": 63,
+    "id": 1115,
+    "province": "Şanlıurfa",
+    "name": "Akçakale",
+    "population": 127277,
+    "area": 1038
+  },
+  {
+    "provinceId": 63,
+    "id": 1194,
+    "province": "Şanlıurfa",
+    "name": "Birecik",
+    "population": 93866,
+    "area": 912
+  },
+  {
+    "provinceId": 63,
+    "id": 1209,
+    "province": "Şanlıurfa",
+    "name": "Bozova",
+    "population": 55553,
+    "area": 1329
+  },
+  {
+    "provinceId": 63,
+    "id": 1220,
+    "province": "Şanlıurfa",
+    "name": "Ceylanpınar",
+    "population": 92147,
+    "area": 1589
+  },
+  {
+    "provinceId": 63,
+    "id": 2091,
+    "province": "Şanlıurfa",
+    "name": "Eyyübiye",
+    "population": 400084,
+    "area": 1626
+  },
+  {
+    "provinceId": 63,
+    "id": 1378,
+    "province": "Şanlıurfa",
+    "name": "Halfeti",
+    "population": 46312,
+    "area": 609
+  },
+  {
+    "provinceId": 63,
+    "id": 2092,
+    "province": "Şanlıurfa",
+    "name": "Haliliye",
+    "population": 392600,
+    "area": 1924
+  },
+  {
+    "provinceId": 63,
+    "id": 1800,
+    "province": "Şanlıurfa",
+    "name": "Harran",
+    "population": 98999,
+    "area": 904
+  },
+  {
+    "provinceId": 63,
+    "id": 1393,
+    "province": "Şanlıurfa",
+    "name": "Hilvan",
+    "population": 43448,
+    "area": 1111
+  },
+  {
+    "provinceId": 63,
+    "id": 2093,
+    "province": "Şanlıurfa",
+    "name": "Karaköprü",
+    "population": 277160,
+    "area": 1222
+  },
+  {
+    "provinceId": 63,
+    "id": 1630,
+    "province": "Şanlıurfa",
+    "name": "Siverek",
+    "population": 271832,
+    "area": 3936
+  },
+  {
+    "provinceId": 63,
+    "id": 1643,
+    "province": "Şanlıurfa",
+    "name": "Suruç",
+    "population": 103621,
+    "area": 744
+  },
+  {
+    "provinceId": 63,
+    "id": 1713,
+    "province": "Şanlıurfa",
+    "name": "Viranşehir",
+    "population": 211065,
+    "area": 2297
+  },
+  {
+    "provinceId": 64,
+    "id": 1170,
+    "province": "Uşak",
+    "name": "Banaz",
+    "population": 35313,
+    "area": 1114
+  },
+  {
+    "provinceId": 64,
+    "id": 1323,
+    "province": "Uşak",
+    "name": "Eşme",
+    "population": 34692,
+    "area": 1156
+  },
+  {
+    "provinceId": 64,
+    "id": 1436,
+    "province": "Uşak",
+    "name": "Karahallı",
+    "population": 9884,
+    "area": 330
+  },
+  {
+    "provinceId": 64,
+    "id": 1704,
+    "province": "Uşak",
+    "name": "Merkez",
+    "population": 265148,
+    "area": 1655
+  },
+  {
+    "provinceId": 64,
+    "id": 1629,
+    "province": "Uşak",
+    "name": "Sivaslı",
+    "population": 19939,
+    "area": 473
+  },
+  {
+    "provinceId": 64,
+    "id": 1697,
+    "province": "Uşak",
+    "name": "Ulubey",
+    "population": 12025,
+    "area": 828
+  },
+  {
+    "provinceId": 65,
+    "id": 1770,
+    "province": "Van",
+    "name": "Bahçesaray",
+    "population": 12983,
+    "area": 426
+  },
+  {
+    "provinceId": 65,
+    "id": 1175,
+    "province": "Van",
+    "name": "Başkale",
+    "population": 42922,
+    "area": 2727
+  },
+  {
+    "provinceId": 65,
+    "id": 1786,
+    "province": "Van",
+    "name": "Çaldıran",
+    "population": 56901,
+    "area": 1478
+  },
+  {
+    "provinceId": 65,
+    "id": 1236,
+    "province": "Van",
+    "name": "Çatak",
+    "population": 18825,
+    "area": 1952
+  },
+  {
+    "provinceId": 65,
+    "id": 1918,
+    "province": "Van",
+    "name": "Edremit",
+    "population": 129604,
+    "area": 515
+  },
+  {
+    "provinceId": 65,
+    "id": 1309,
+    "province": "Van",
+    "name": "Erciş",
+    "population": 171035,
+    "area": 2133
+  },
+  {
+    "provinceId": 65,
+    "id": 1350,
+    "province": "Van",
+    "name": "Gevaş",
+    "population": 27437,
+    "area": 1544
+  },
+  {
+    "provinceId": 65,
+    "id": 1372,
+    "province": "Van",
+    "name": "Gürpınar",
+    "population": 31816,
+    "area": 4028
+  },
+  {
+    "provinceId": 65,
+    "id": 2098,
+    "province": "Van",
+    "name": "İpekyolu",
+    "population": 350708,
+    "area": 956
+  },
+  {
+    "provinceId": 65,
+    "id": 1533,
+    "province": "Van",
+    "name": "Muradiye",
+    "population": 44322,
+    "area": 912
+  },
+  {
+    "provinceId": 65,
+    "id": 1565,
+    "province": "Van",
+    "name": "Özalp",
+    "population": 57829,
+    "area": 1430
+  },
+  {
+    "provinceId": 65,
+    "id": 1980,
+    "province": "Van",
+    "name": "Saray",
+    "population": 18779,
+    "area": 872
+  },
+  {
+    "provinceId": 65,
+    "id": 2099,
+    "province": "Van",
+    "name": "Tuşba",
+    "population": 164451,
+    "area": 1948
+  },
+  {
+    "provinceId": 66,
+    "id": 1117,
+    "province": "Yozgat",
+    "name": "Akdağmadeni",
+    "population": 40842,
+    "area": 1810
+  },
+  {
+    "provinceId": 66,
+    "id": 1877,
+    "province": "Yozgat",
+    "name": "Aydıncık",
+    "population": 10208,
+    "area": 338
+  },
+  {
+    "provinceId": 66,
+    "id": 1198,
+    "province": "Yozgat",
+    "name": "Boğazlıyan",
+    "population": 35075,
+    "area": 1515
+  },
+  {
+    "provinceId": 66,
+    "id": 1895,
+    "province": "Yozgat",
+    "name": "Çandır",
+    "population": 4434,
+    "area": 205
+  },
+  {
+    "provinceId": 66,
+    "id": 1242,
+    "province": "Yozgat",
+    "name": "Çayıralan",
+    "population": 12461,
+    "area": 995
+  },
+  {
+    "provinceId": 66,
+    "id": 1245,
+    "province": "Yozgat",
+    "name": "Çekerek",
+    "population": 18781,
+    "area": 790
+  },
+  {
+    "provinceId": 66,
+    "id": 1952,
+    "province": "Yozgat",
+    "name": "Kadışehri",
+    "population": 10612,
+    "area": 472
+  },
+  {
+    "provinceId": 66,
+    "id": 1733,
+    "province": "Yozgat",
+    "name": "Merkez",
+    "population": 110620,
+    "area": 2024
+  },
+  {
+    "provinceId": 66,
+    "id": 1982,
+    "province": "Yozgat",
+    "name": "Saraykent",
+    "population": 11828,
+    "area": 319
+  },
+  {
+    "provinceId": 66,
+    "id": 1602,
+    "province": "Yozgat",
+    "name": "Sarıkaya",
+    "population": 31866,
+    "area": 1018
+  },
+  {
+    "provinceId": 66,
+    "id": 1635,
+    "province": "Yozgat",
+    "name": "Sorgun",
+    "population": 80618,
+    "area": 1768
+  },
+  {
+    "provinceId": 66,
+    "id": 1655,
+    "province": "Yozgat",
+    "name": "Şefaatli",
+    "population": 14594,
+    "area": 882
+  },
+  {
+    "provinceId": 66,
+    "id": 1998,
+    "province": "Yozgat",
+    "name": "Yenifakılı",
+    "population": 5383,
+    "area": 390
+  },
+  {
+    "provinceId": 66,
+    "id": 1726,
+    "province": "Yozgat",
+    "name": "Yerköy",
+    "population": 33377,
+    "area": 1164
+  },
+  {
+    "provinceId": 67,
+    "id": 1758,
+    "province": "Zonguldak",
+    "name": "Alaplı",
+    "population": 43417,
+    "area": 383
+  },
+  {
+    "provinceId": 67,
+    "id": 1240,
+    "province": "Zonguldak",
+    "name": "Çaycuma",
+    "population": 91968,
+    "area": 492
+  },
+  {
+    "provinceId": 67,
+    "id": 1276,
+    "province": "Zonguldak",
+    "name": "Devrek",
+    "population": 57562,
+    "area": 953
+  },
+  {
+    "provinceId": 67,
+    "id": 1313,
+    "province": "Zonguldak",
+    "name": "Ereğli",
+    "population": 175294,
+    "area": 736
+  },
+  {
+    "provinceId": 67,
+    "id": 1926,
+    "province": "Zonguldak",
+    "name": "Gökçebey",
+    "population": 21344,
+    "area": 183
+  },
+  {
+    "provinceId": 67,
+    "id": 2100,
+    "province": "Zonguldak",
+    "name": "Kilimli",
+    "population": 33639,
+    "area": 145
+  },
+  {
+    "provinceId": 67,
+    "id": 2101,
+    "province": "Zonguldak",
+    "name": "Kozlu",
+    "population": 50908,
+    "area": 177
+  },
+  {
+    "provinceId": 67,
+    "id": 1741,
+    "province": "Zonguldak",
+    "name": "Merkez",
+    "population": 117360,
+    "area": 272
+  },
+  {
+    "provinceId": 68,
+    "id": 1860,
+    "province": "Aksaray",
+    "name": "Ağaçören",
+    "population": 7971,
+    "area": 407
+  },
+  {
+    "provinceId": 68,
+    "id": 1921,
+    "province": "Aksaray",
+    "name": "Eskil",
+    "population": 27795,
+    "area": 1701
+  },
+  {
+    "provinceId": 68,
+    "id": 1932,
+    "province": "Aksaray",
+    "name": "Gülağaç",
+    "population": 20120,
+    "area": 326
+  },
+  {
+    "provinceId": 68,
+    "id": 1861,
+    "province": "Aksaray",
+    "name": "Güzelyurt",
+    "population": 11675,
+    "area": 285
+  },
+  {
+    "provinceId": 68,
+    "id": 1120,
+    "province": "Aksaray",
+    "name": "Merkez",
+    "population": 321160,
+    "area": 3539
+  },
+  {
+    "provinceId": 68,
+    "id": 1557,
+    "province": "Aksaray",
+    "name": "Ortaköy",
+    "population": 31613,
+    "area": 727
+  },
+  {
+    "provinceId": 68,
+    "id": 1866,
+    "province": "Aksaray",
+    "name": "Sarıyahşi",
+    "population": 5804,
+    "area": 210
+  },
+  {
+    "provinceId": 68,
+    "id": 2106,
+    "province": "Aksaray",
+    "name": "Sultanhanı",
+    "population": 12366,
+    "area": 463
+  },
+  {
+    "provinceId": 69,
+    "id": 1767,
+    "province": "Bayburt",
+    "name": "Aydıntepe",
+    "population": 7070,
+    "area": 446
+  },
+  {
+    "provinceId": 69,
+    "id": 1788,
+    "province": "Bayburt",
+    "name": "Demirözü",
+    "population": 8072,
+    "area": 594
+  },
+  {
+    "provinceId": 69,
+    "id": 1176,
+    "province": "Bayburt",
+    "name": "Merkez",
+    "population": 70905,
+    "area": 2705
+  },
+  {
+    "provinceId": 70,
+    "id": 1768,
+    "province": "Karaman",
+    "name": "Ayrancı",
+    "population": 7630,
+    "area": 2245
+  },
+  {
+    "provinceId": 70,
+    "id": 1884,
+    "province": "Karaman",
+    "name": "Başyayla",
+    "population": 3434,
+    "area": 141
+  },
+  {
+    "provinceId": 70,
+    "id": 1316,
+    "province": "Karaman",
+    "name": "Ermenek",
+    "population": 28103,
+    "area": 1242
+  },
+  {
+    "provinceId": 70,
+    "id": 1862,
+    "province": "Karaman",
+    "name": "Kazımkarabekir",
+    "population": 4710,
+    "area": 423
+  },
+  {
+    "provinceId": 70,
+    "id": 1439,
+    "province": "Karaman",
+    "name": "Merkez",
+    "population": 208199,
+    "area": 4036
+  },
+  {
+    "provinceId": 70,
+    "id": 1983,
+    "province": "Karaman",
+    "name": "Sarıveliler",
+    "population": 11884,
+    "area": 590
+  },
+  {
+    "provinceId": 71,
+    "id": 1880,
+    "province": "Kırıkkale",
+    "name": "Bahşılı",
+    "population": 8038,
+    "area": 266
+  },
+  {
+    "provinceId": 71,
+    "id": 1882,
+    "province": "Kırıkkale",
+    "name": "Balışeyh",
+    "population": 7016,
+    "area": 623
+  },
+  {
+    "provinceId": 71,
+    "id": 1901,
+    "province": "Kırıkkale",
+    "name": "Çelebi",
+    "population": 3954,
+    "area": 223
+  },
+  {
+    "provinceId": 71,
+    "id": 1268,
+    "province": "Kırıkkale",
+    "name": "Delice",
+    "population": 11227,
+    "area": 970
+  },
+  {
+    "provinceId": 71,
+    "id": 1954,
+    "province": "Kırıkkale",
+    "name": "Karakeçili",
+    "population": 3659,
+    "area": 137
+  },
+  {
+    "provinceId": 71,
+    "id": 1463,
+    "province": "Kırıkkale",
+    "name": "Keskin",
+    "population": 16938,
+    "area": 1129
+  },
+  {
+    "provinceId": 71,
+    "id": 1469,
+    "province": "Kırıkkale",
+    "name": "Merkez",
+    "population": 188419,
+    "area": 432
+  },
+  {
+    "provinceId": 71,
+    "id": 1638,
+    "province": "Kırıkkale",
+    "name": "Sulakyurt",
+    "population": 6762,
+    "area": 708
+  },
+  {
+    "provinceId": 71,
+    "id": 1992,
+    "province": "Kırıkkale",
+    "name": "Yahşihan",
+    "population": 39731,
+    "area": 304
+  },
+  {
+    "provinceId": 72,
+    "id": 1184,
+    "province": "Batman",
+    "name": "Beşiri",
+    "population": 32378,
+    "area": 809
+  },
+  {
+    "provinceId": 72,
+    "id": 1345,
+    "province": "Batman",
+    "name": "Gercüş",
+    "population": 21958,
+    "area": 914
+  },
+  {
+    "provinceId": 72,
+    "id": 1941,
+    "province": "Batman",
+    "name": "Hasankeyf",
+    "population": 7969,
+    "area": 293
+  },
+  {
+    "provinceId": 72,
+    "id": 1487,
+    "province": "Batman",
+    "name": "Kozluk",
+    "population": 61297,
+    "area": 1101
+  },
+  {
+    "provinceId": 72,
+    "id": 1174,
+    "province": "Batman",
+    "name": "Merkez",
+    "population": 491811,
+    "area": 653
+  },
+  {
+    "provinceId": 72,
+    "id": 1607,
+    "province": "Batman",
+    "name": "Sason",
+    "population": 31792,
+    "area": 706
+  },
+  {
+    "provinceId": 73,
+    "id": 1189,
+    "province": "Şırnak",
+    "name": "Beytüşşebap",
+    "population": 16056,
+    "area": 1647
+  },
+  {
+    "provinceId": 73,
+    "id": 1223,
+    "province": "Şırnak",
+    "name": "Cizre",
+    "population": 161135,
+    "area": 444
+  },
+  {
+    "provinceId": 73,
+    "id": 1931,
+    "province": "Şırnak",
+    "name": "Güçlükonak",
+    "population": 12830,
+    "area": 466
+  },
+  {
+    "provinceId": 73,
+    "id": 1403,
+    "province": "Şırnak",
+    "name": "İdil",
+    "population": 77159,
+    "area": 1148
+  },
+  {
+    "provinceId": 73,
+    "id": 1661,
+    "province": "Şırnak",
+    "name": "Merkez",
+    "population": 108699,
+    "area": 1701
+  },
+  {
+    "provinceId": 73,
+    "id": 1623,
+    "province": "Şırnak",
+    "name": "Silopi",
+    "population": 148126,
+    "area": 831
+  },
+  {
+    "provinceId": 73,
+    "id": 1698,
+    "province": "Şırnak",
+    "name": "Uludere",
+    "population": 46740,
+    "area": 841
+  },
+  {
+    "provinceId": 74,
+    "id": 1761,
+    "province": "Bartın",
+    "name": "Amasra",
+    "population": 14552,
+    "area": 178
+  },
+  {
+    "provinceId": 74,
+    "id": 1496,
+    "province": "Bartın",
+    "name": "Kurucaşile",
+    "population": 6681,
+    "area": 152
+  },
+  {
+    "provinceId": 74,
+    "id": 1172,
+    "province": "Bartın",
+    "name": "Merkez",
+    "population": 163196,
+    "area": 1091
+  },
+  {
+    "provinceId": 74,
+    "id": 1701,
+    "province": "Bartın",
+    "name": "Ulus",
+    "population": 22809,
+    "area": 909
+  },
+  {
+    "provinceId": 75,
+    "id": 1252,
+    "province": "Ardahan",
+    "name": "Çıldır",
+    "population": 8745,
+    "area": 988
+  },
+  {
+    "provinceId": 75,
+    "id": 2008,
+    "province": "Ardahan",
+    "name": "Damal",
+    "population": 4757,
+    "area": 165
+  },
+  {
+    "provinceId": 75,
+    "id": 1356,
+    "province": "Ardahan",
+    "name": "Göle",
+    "population": 22735,
+    "area": 1290
+  },
+  {
+    "provinceId": 75,
+    "id": 1380,
+    "province": "Ardahan",
+    "name": "Hanak",
+    "population": 8033,
+    "area": 647
+  },
+  {
+    "provinceId": 75,
+    "id": 1144,
+    "province": "Ardahan",
+    "name": "Merkez",
+    "population": 42209,
+    "area": 1261
+  },
+  {
+    "provinceId": 75,
+    "id": 1579,
+    "province": "Ardahan",
+    "name": "Posof",
+    "population": 6340,
+    "area": 583
+  },
+  {
+    "provinceId": 76,
+    "id": 1142,
+    "province": "Iğdır",
+    "name": "Aralık",
+    "population": 19495,
+    "area": 852
+  },
+  {
+    "provinceId": 76,
+    "id": 2011,
+    "province": "Iğdır",
+    "name": "Karakoyunlu",
+    "population": 13116,
+    "area": 269
+  },
+  {
+    "provinceId": 76,
+    "id": 1398,
+    "province": "Iğdır",
+    "name": "Merkez",
+    "population": 153543,
+    "area": 1273
+  },
+  {
+    "provinceId": 76,
+    "id": 1692,
+    "province": "Iğdır",
+    "name": "Tuzluca",
+    "population": 23584,
+    "area": 1270
+  },
+  {
+    "provinceId": 77,
+    "id": 2019,
+    "province": "Yalova",
+    "name": "Altınova",
+    "population": 33680,
+    "area": 113
+  },
+  {
+    "provinceId": 77,
+    "id": 2020,
+    "province": "Yalova",
+    "name": "Armutlu",
+    "population": 11729,
+    "area": 166
+  },
+  {
+    "provinceId": 77,
+    "id": 2021,
+    "province": "Yalova",
+    "name": "Çınarcık",
+    "population": 42078,
+    "area": 178
+  },
+  {
+    "provinceId": 77,
+    "id": 2022,
+    "province": "Yalova",
+    "name": "Çiftlikköy",
+    "population": 53858,
+    "area": 136
+  },
+  {
+    "provinceId": 77,
+    "id": 1716,
+    "province": "Yalova",
+    "name": "Merkez",
+    "population": 155863,
+    "area": 139
+  },
+  {
+    "provinceId": 77,
+    "id": 2026,
+    "province": "Yalova",
+    "name": "Termal",
+    "population": 7572,
+    "area": 67
+  },
+  {
+    "provinceId": 78,
+    "id": 1296,
+    "province": "Karabük",
+    "name": "Eflani",
+    "population": 10101,
+    "area": 674
+  },
+  {
+    "provinceId": 78,
+    "id": 1321,
+    "province": "Karabük",
+    "name": "Eskipazar",
+    "population": 14343,
+    "area": 754
+  },
+  {
+    "provinceId": 78,
+    "id": 1433,
+    "province": "Karabük",
+    "name": "Merkez",
+    "population": 134486,
+    "area": 790
+  },
+  {
+    "provinceId": 78,
+    "id": 1561,
+    "province": "Karabük",
+    "name": "Ovacık",
+    "population": 5677,
+    "area": 398
+  },
+  {
+    "provinceId": 78,
+    "id": 1587,
+    "province": "Karabük",
+    "name": "Safranbolu",
+    "population": 70043,
+    "area": 750
+  },
+  {
+    "provinceId": 78,
+    "id": 1856,
+    "province": "Karabük",
+    "name": "Yenice",
+    "population": 20592,
+    "area": 777
+  },
+  {
+    "provinceId": 79,
+    "id": 2023,
+    "province": "Kilis",
+    "name": "Elbeyli",
+    "population": 6252,
+    "area": 238
+  },
+  {
+    "provinceId": 79,
+    "id": 1476,
+    "province": "Kilis",
+    "name": "Merkez",
+    "population": 130665,
+    "area": 610
+  },
+  {
+    "provinceId": 79,
+    "id": 2024,
+    "province": "Kilis",
+    "name": "Musabeyli",
+    "population": 13108,
+    "area": 346
+  },
+  {
+    "provinceId": 79,
+    "id": 2025,
+    "province": "Kilis",
+    "name": "Polateli",
+    "population": 5154,
+    "area": 218
+  },
+  {
+    "provinceId": 80,
+    "id": 1165,
+    "province": "Osmaniye",
+    "name": "Bahçe",
+    "population": 23218,
+    "area": 208
+  },
+  {
+    "provinceId": 80,
+    "id": 1743,
+    "province": "Osmaniye",
+    "name": "Düziçi",
+    "population": 86616,
+    "area": 595
+  },
+  {
+    "provinceId": 80,
+    "id": 2027,
+    "province": "Osmaniye",
+    "name": "Hasanbeyli",
+    "population": 5455,
+    "area": 168
+  },
+  {
+    "provinceId": 80,
+    "id": 1423,
+    "province": "Osmaniye",
+    "name": "Kadirli",
+    "population": 127513,
+    "area": 1021
+  },
+  {
+    "provinceId": 80,
+    "id": 1560,
+    "province": "Osmaniye",
+    "name": "Merkez",
+    "population": 280068,
+    "area": 859
+  },
+  {
+    "provinceId": 80,
+    "id": 2028,
+    "province": "Osmaniye",
+    "name": "Sumbas",
+    "population": 13375,
+    "area": 358
+  },
+  {
+    "provinceId": 80,
+    "id": 2029,
+    "province": "Osmaniye",
+    "name": "Toprakkale",
+    "population": 21421,
+    "area": 112
+  },
+  {
+    "provinceId": 81,
+    "id": 1116,
+    "province": "Düzce",
+    "name": "Akçakoca",
+    "population": 41363,
+    "area": 380
+  },
+  {
+    "provinceId": 81,
+    "id": 1784,
+    "province": "Düzce",
+    "name": "Cumayeri",
+    "population": 16091,
+    "area": 113
+  },
+  {
+    "provinceId": 81,
+    "id": 1905,
+    "province": "Düzce",
+    "name": "Çilimli",
+    "population": 19097,
+    "area": 85
+  },
+  {
+    "provinceId": 81,
+    "id": 1794,
+    "province": "Düzce",
+    "name": "Gölyaka",
+    "population": 20962,
+    "area": 228
+  },
+  {
+    "provinceId": 81,
+    "id": 2017,
+    "province": "Düzce",
+    "name": "Gümüşova",
+    "population": 17198,
+    "area": 103
+  },
+  {
+    "provinceId": 81,
+    "id": 2031,
+    "province": "Düzce",
+    "name": "Kaynaşlı",
+    "population": 20679,
+    "area": 237
+  },
+  {
+    "provinceId": 81,
+    "id": 1292,
+    "province": "Düzce",
+    "name": "Merkez",
+    "population": 259527,
+    "area": 710
+  },
+  {
+    "provinceId": 81,
+    "id": 1730,
+    "province": "Düzce",
+    "name": "Yığılca",
+    "population": 14948,
+    "area": 636
+  }
+]
