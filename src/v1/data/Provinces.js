@@ -17,9 +17,15 @@ exports.getProvinces = function (
     let provinces = data;
 
     provinces.forEach((province) => {
-      const provinceDistricts = districts.filter(
-        (district) => district.provinceId === province.id,
-      );
+      const provinceDistricts = districts
+        .filter((district) => district.provinceId === province.id)
+        .map(({ id, name, population, area }) => ({
+          id,
+          name,
+          population,
+          area,
+        }));
+
       province.districts = provinceDistricts;
     });
 
