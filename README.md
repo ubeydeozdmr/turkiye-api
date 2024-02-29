@@ -2,7 +2,7 @@
 
 API containing information about Turkey's provinces, districts, neighborhoods and villages.
 
-## Hostnames
+## Domain names
 
 The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But you can still use the following domains:
 
@@ -130,3 +130,9 @@ You can use this route to get data for exact village. This is a recently added e
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Templates
+
+[Index](https://ubeydeozdmr.github.io/turkiye-api-templates/index.html)
+
+[v1](https://ubeydeozdmr.github.io/turkiye-api-templates/v1/index.html)
