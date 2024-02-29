@@ -164,16 +164,6 @@ exports.getExactDistrict = function (id, fields) {
 
     const district = data.find((item) => item.id === +id);
 
-    // const districtNeighborhoods = neighborhoods.filter(
-    //   (neighborhood) => neighborhood.districtId === district.id,
-    // );
-    // district.neighborhoods = districtNeighborhoods;
-
-    // const districtVillages = villages.filter(
-    //   (village) => village.districtId === district.id,
-    // );
-    // district.villages = districtVillages;
-
     const districtNeighborhoods = neighborhoods
       .filter((neighborhood) => neighborhood.districtId === district.id)
       .map(({ id, name, population }) => ({ id, name, population }));

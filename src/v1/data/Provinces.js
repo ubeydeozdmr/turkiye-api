@@ -189,40 +189,26 @@ exports.getExactProvince = function (id, fields, extend) {
     const provinceDistricts = districts.filter(
       (district) => district.provinceId === province.id,
     );
-    // console.log(provinceDistricts);
-    // province.districts = provinceDistricts;
-
-    // if (extend === 'true') {
-    //   province.districts.forEach((district) => {
-    //     const districtNeighborhoods = neighborhoods.filter(
-    //       (neighborhood) => neighborhood.districtId === district.id,
-    //     );
-    //     district.neighborhoods = districtNeighborhoods;
-
-    //     const districtVillages = villages.filter(
-    //       (village) => village.districtId === district.id,
-    //     );
-    //     district.villages = districtVillages;
-    //   });
-    // }
 
     province.districts = provinceDistricts.map(
       ({ id, name, population, area }) => ({ id, name, population, area }),
     );
 
-    province.districts.forEach((district) => {
-      const districtNeighborhoods = neighborhoods
-        .filter((neighborhood) => neighborhood.districtId === district.id)
-        .map(({ id, name, population }) => ({ id, name, population }));
+    if (extend === 'true') {
+      province.districts.forEach((district) => {
+        const districtNeighborhoods = neighborhoods
+          .filter((neighborhood) => neighborhood.districtId === district.id)
+          .map(({ id, name, population }) => ({ id, name, population }));
 
-      district.neighborhoods = districtNeighborhoods;
+        district.neighborhoods = districtNeighborhoods;
 
-      const districtVillages = villages
-        .filter((village) => village.districtId === district.id)
-        .map(({ id, name, population }) => ({ id, name, population }));
+        const districtVillages = villages
+          .filter((village) => village.districtId === district.id)
+          .map(({ id, name, population }) => ({ id, name, population }));
 
-      district.villages = districtVillages;
-    });
+        district.villages = districtVillages;
+      });
+    }
 
     if (fields) {
       const fieldsArray = fields.split(',');
