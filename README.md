@@ -11,13 +11,23 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But yo
 
 ## What's new?
 
+> _Latest update: March 1, 2024_
+
 - Neighborhoods and villages have been added to the API. (Experimental)
+- Swagger UI has been added to the API. You can now use the API with the Swagger UI.
 - Population data has been updated from 2021 to 2023. (2023 data has been released by TUIK, early 2024)
 
 ## Sources
 
 - [Population of districts](https://biruni.tuik.gov.tr/medas)
 - [Area of districts](https://web.archive.org/web/20190416051733/https://www.harita.gov.tr/images/urun/il_ilce_alanlari.pdf)
+
+## Documentation
+
+[API Documentation](https://turkiyeapi.dev/docs)
+[Examples](https://turkiyeapi.dev/examples)
+[Postman Collection](https://documenter.getpostman.com/view/19561492/UzBguVHM)
+[Swagger UI](https://turkiyeapi.dev/swagger)
 
 ## Usage of API
 

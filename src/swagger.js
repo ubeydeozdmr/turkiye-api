@@ -1,4 +1,21 @@
 const swaggerJSDoc = require('swagger-jsdoc');
+require('dotenv').config();
+
+const isProduction = process.env.NODE_ENV === 'production';
+
+const servers = isProduction
+  ? [
+      {
+        url: 'https://turkiyeapi.dev/api/v1/',
+        description: 'Production server',
+      },
+    ]
+  : [
+      {
+        url: 'http://localhost:8181/api/v1/',
+        description: 'Development server',
+      },
+    ];
 
 const swaggerDefinition = {
   openapi: '3.0.0',
@@ -16,16 +33,7 @@ const swaggerDefinition = {
       email: 'ubeydeozdmr@gmail.com',
     },
   },
-  servers: [
-    {
-      url: 'http://localhost:8181/api/v1/',
-      description: 'Development server',
-    },
-    {
-      url: 'https://turkiyeapi.dev/api/v1/',
-      description: 'Production server',
-    },
-  ],
+  servers,
 };
 
 const options = {
