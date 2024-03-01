@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
 const express = require('express');
+const swaggerUI = require('swagger-ui-express');
+const swaggerSpec = require('./swagger');
 const morgan = require('morgan');
 const { rateLimit } = require('express-rate-limit');
 require('dotenv').config();
@@ -28,6 +30,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(morgan('combined'));
 app.use(limiter);
 
+app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
+
 app.get('/', (req, res) => {
   const images = fs.readdirSync(path.join(__dirname, 'public', 'assets'));
   res.render('index', {
@@ -41,10 +45,6 @@ app.get('/docs', (req, res) => {
 
 app.get('/examples', (req, res) => {
   res.render('examples');
-});
-
-app.get('/url-creator', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'url-creator.html'));
 });
 
 app.use('/api/v1', require('./v1/routes'));
