@@ -79,17 +79,17 @@
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
-        "code": "TR6",
+        "code": "TR3",
         "name": {
-          "en": "Mediterranean",
-          "tr": "Akdeniz"
+          "en": "Aegean",
+          "tr": "Ege"
         }
       },
       "nuts2": {
-        "code": "TR62",
-        "name": "Adana"
+        "code": "TR33",
+        "name": "Manisa"
       },
-      "nuts3": "TR621"
+      "nuts3": "TR332"
     },
     "coordinates": {
       "latitude": 38.750278,
@@ -114,17 +114,17 @@
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
-        "code": "TRC",
+        "code": "TRA",
         "name": {
-          "en": "Southeast Anatolia",
-          "tr": "Güneydoğu Anadolu"
+          "en": "Northeast Anatolia",
+          "tr": "Kuzeydoğu Anadolu"
         }
       },
       "nuts2": {
-        "code": "TRC1",
-        "name": "Gaziantep"
+        "code": "TRA2",
+        "name": "Ağrı"
       },
-      "nuts3": "TRC12"
+      "nuts3": "TRA21"
     },
     "coordinates": {
       "latitude": 39.719444,
