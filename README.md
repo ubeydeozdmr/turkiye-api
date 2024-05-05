@@ -2,11 +2,22 @@
 
 API containing information about Turkey's provinces, districts, neighborhoods and villages.
 
+## IMPORTANT ANNOUNCEMENT (for cyclic.sh users)
+
+The use of the cyclic.sh service will be discontinued starting from May 10, 2024.
+
+Read more: [https://www.cyclic.sh/posts/cyclic-is-shutting-down/](https://www.cyclic.sh/posts/cyclic-is-shutting-down/)
+
+If you are using one of the [https://turkiyeapi.dev](https://turkiyeapi.dev) or [https://turkiyeapi.herokuapp.com](https://turkiyeapi.herokuapp.com) domains, you do not need to worry. The API will continue to work without any problems.
+
+However, if you are using the cyclic.sh domain, you must update your code with a new domain in May 2024, otherwise the parts of your site, program etc. that use TurkiyeAPI will not work.
+
+You can review the "Domain Names" subheading below.
+
 ## Domain names
 
 The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But you can still use the following domains:
 
-- [turkiyeapi.cyclic.app](https://turkiyeapi.cyclic.app)
 - [turkiyeapi.herokuapp.com](https://turkiyeapi.herokuapp.com)
 
 ## What's new?
