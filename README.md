@@ -20,6 +20,8 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But yo
 
 - [turkiyeapi.herokuapp.com](https://turkiyeapi.herokuapp.com)
 
+We recommend using turkiyeapi.dev domain. If you are using the cyclic.sh domain, you must update your code with a new domain in May 2024.
+
 ## What's new?
 
 > _Latest update: March 1, 2024_
