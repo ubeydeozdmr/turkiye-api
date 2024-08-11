@@ -1,4 +1,4 @@
-const data = require('./villages.json');
+const data = require('./villages.min.json');
 
 exports.getVillages = function (
   name,

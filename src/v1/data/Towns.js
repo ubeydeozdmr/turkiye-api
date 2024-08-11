@@ -1,4 +1,4 @@
-const data = require('./towns.json');
+const data = require('./towns.min.json');
 
 exports.getTowns = function (
   name,

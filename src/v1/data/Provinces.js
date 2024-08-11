@@ -1,7 +1,7 @@
-const data = require('./provinces.json');
-const districts = require('./districts.json');
-const neighborhoods = require('./neighborhoods.json');
-const villages = require('./villages.json');
+const data = require('./provinces.min.json');
+const districts = require('./districts.min.json');
+const neighborhoods = require('./neighborhoods.min.json');
+const villages = require('./villages.min.json');
 
 exports.getProvinces = function (
   name,
