@@ -121,7 +121,7 @@ You can use this route to get data for exact district. The available path variab
 
 **Endpoint:** `GET /api/v1/neighborhoods`
 
-You can use this route to get data for all neighborhoods. This is a recently added endpoint and is experimental. It may not work properly. The available query parameters are:
+You can use this route to get data for all neighborhoods. The available query parameters are:
 
 - `name` (string): It shows all the neighborhoods containing or matching your search query.
 - `minPopulation` (number): It shows all the neighborhoods with a population greater than or equal to the value you entered.
@@ -135,7 +135,7 @@ You can use this route to get data for all neighborhoods. This is a recently add
 
 **Endpoint:** `GET /api/v1/neighborhoods/:id`
 
-You can use this route to get data for exact neighborhood. This is a recently added endpoint and is experimental. It may not work properly. The available path variables and query parameters are:
+You can use this route to get data for exact neighborhood. The available path variables and query parameters are:
 
 - `id` (Path Variable): ID of neighborhood
 - `fields` (Query Parameter, string): It shows the fields you want to see in the response.
@@ -146,7 +146,7 @@ You can use this route to get data for exact neighborhood. This is a recently ad
 
 **Endpoint:** `GET /api/v1/villages`
 
-You can use this route to get data for all villages. This is a recently added endpoint and is experimental. It may not work properly. The available query parameters are:
+You can use this route to get data for all villages. The available query parameters are:
 
 - `name` (string): It shows all the villages containing or matching your search query.
 - `minPopulation` (number): It shows all the villages with a population greater than or equal to the value you entered.
@@ -160,9 +160,34 @@ You can use this route to get data for all villages. This is a recently added en
 
 **Endpoint:** `GET /api/v1/villages/:id`
 
-You can use this route to get data for exact village. This is a recently added endpoint and is experimental. It may not work properly. The available path variables and query parameters are:
+You can use this route to get data for exact village. The available path variables and query parameters are:
 
 - `id` (Path Variable): ID of village
+- `fields` (Query Parameter, string): It shows the fields you want to see in the response.
+
+## Towns
+
+### Get All Towns
+
+**Endpoint:** `GET /api/v1/towns`
+
+You can use this route to get data for all towns. The available query parameters are:
+
+- `name` (string): It shows all the towns containing or matching your search query.
+- `minPopulation` (number): It shows all the towns with a population greater than or equal to the value you entered.
+- `maxPopulation` (number): It shows all the towns with a population less than or equal to the value you entered.
+- `offset` (number): Used for pagination. Use this to set a starting point in search results.
+- `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
+- `fields` (string): It shows the fields you want to see in the response.
+- `sort` (string): It sorts the results in ascending or descending order.
+
+### Get Exact Town
+
+**Endpoint:** `GET /api/v1/towns/:id`
+
+You can use this route to get data for exact town. The available path variables and query parameters are:
+
+- `id` (Path Variable): ID of town
 - `fields` (Query Parameter, string): It shows the fields you want to see in the response.
 
 ## License
