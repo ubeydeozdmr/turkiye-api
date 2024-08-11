@@ -996,6 +996,204 @@ router.get('/villages', controller.getVillages);
  */
 router.get('/villages/:id', controller.getExactVillage);
 
+/**
+ * @swagger
+ * /towns:
+ *   get:
+ *     summary: Get all towns.
+ *     description: Get all towns.
+ *     parameters:
+ *       - in: query
+ *         name: name
+ *         description: The town name.
+ *         schema:
+ *           type: string
+ *       - in: query
+ *         name: minPopulation
+ *         description: The minimum population of the town.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: maxPopulation
+ *         description: The maximum population of the town.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: offset
+ *         description: The offset of the towns list.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: limit
+ *         description: The limit of the towns list.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: fields
+ *         description: The fields to be returned. (comma separated)
+ *         schema:
+ *           type: string
+ *       - in: query
+ *         name: sort
+ *         description: The sorting of the towns list. (put '-' before the field name for descending order)
+ *         schema:
+ *           type: string
+ *     tags:
+ *       - Towns
+ *     produces:
+ *       - application/json
+ *     responses:
+ *       200:
+ *         description: A list of towns.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: OK
+ *                 data:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *                     properties:
+ *                       provinceId:
+ *                         type: number
+ *                         example: 28
+ *                       districtId:
+ *                         type: number
+ *                         example: 1352
+ *                       id:
+ *                         type: number
+ *                         example: 2029
+ *                       province:
+ *                         type: string
+ *                         example: Giresun
+ *                       district:
+ *                         type: string
+ *                         example: Merkez
+ *                       name:
+ *                         type: string
+ *                         example: Duroğlu
+ *                       population:
+ *                         type: number
+ *                         example: 2897
+ *       404:
+ *         description: Towns not found.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: ERROR
+ *                 error:
+ *                   type: string
+ *                   example: Towns not found.
+ *       405:
+ *         description: Method not allowed.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: ERROR
+ *                 error:
+ *                   type: string
+ *                   example: Method not allowed.
+ */
+router.get('/towns', controller.getTowns);
+
+/**
+ * @swagger
+ * /towns/{id}:
+ *   get:
+ *     summary: Get exact town.
+ *     description: Get exact town.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: The town ID.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: fields
+ *         description: The fields to be returned. (comma separated)
+ *         schema:
+ *           type: string
+ *     tags:
+ *       - Towns
+ *     produces:
+ *       - application/json
+ *     responses:
+ *       200:
+ *         description: The town.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: OK
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     provinceId:
+ *                       type: number
+ *                       example: 28
+ *                     districtId:
+ *                       type: number
+ *                       example: 1352
+ *                     id:
+ *                       type: number
+ *                       example: 2029
+ *                     province:
+ *                       type: string
+ *                       example: Giresun
+ *                     district:
+ *                       type: string
+ *                       example: Merkez
+ *                     name:
+ *                       type: string
+ *                       example: Duroğlu
+ *                     population:
+ *                       type: number
+ *                       example: 2897
+ *       404:
+ *         description: Town not found.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: ERROR
+ *                 error:
+ *                   type: string
+ *                   example: Town not found.
+ *       405:
+ *         description: Method not allowed.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: ERROR
+ *                 error:
+ *                   type: string
+ *                   example: Method not allowed.
+ */
+router.get('/towns/:id', controller.getExactTown);
+
 router
   .get('*', (req, res) => {
     res.status(404).json({

@@ -2,6 +2,7 @@ const Provinces = require('./data/Provinces');
 const Districts = require('./data/Districts');
 const Neighborhoods = require('./data/Neighborhoods');
 const Villages = require('./data/Villages');
+const Towns = require('./data/Towns');
 
 exports.getProvinces = (req, res) => {
   try {
@@ -164,6 +165,46 @@ exports.getExactVillage = (req, res) => {
     const village = Villages.getExactVillage(id, fields);
 
     return res.send({ status: 'OK', data: village });
+  } catch (error) {
+    res.status(error?.status || 500).send({
+      status: 'ERROR',
+      error: error?.message || 'Internal Server Error',
+    });
+  }
+};
+
+exports.getTowns = (req, res) => {
+  try {
+    const { name, minPopulation, maxPopulation, offset, limit, fields, sort } =
+      req.query;
+
+    const town = Towns.getTowns(
+      name,
+      minPopulation,
+      maxPopulation,
+      offset,
+      limit,
+      fields,
+      sort,
+    );
+
+    return res.send({ status: 'OK', data: town });
+  } catch (error) {
+    res.status(error?.status || 500).send({
+      status: 'ERROR',
+      error: error?.message || 'Internal Server Error',
+    });
+  }
+};
+
+exports.getExactTown = (req, res) => {
+  try {
+    const { id } = req.params;
+    const { fields } = req.query;
+
+    const town = Towns.getExactTown(id, fields);
+
+    return res.send({ status: 'OK', data: town });
   } catch (error) {
     res.status(error?.status || 500).send({
       status: 'ERROR',

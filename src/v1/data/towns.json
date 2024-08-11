@@ -1,0 +1,3512 @@
+[
+  {
+    "provinceId": 2,
+    "districtId": 1105,
+    "id": 1002,
+    "province": "Adıyaman",
+    "district": "Merkez",
+    "name": "Kömür",
+    "population": 3058
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1105,
+    "id": 1004,
+    "province": "Adıyaman",
+    "district": "Merkez",
+    "name": "Yaylakonak",
+    "population": 1906
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1182,
+    "id": 998,
+    "province": "Adıyaman",
+    "district": "Besni",
+    "name": "Çakirhüyük",
+    "population": 1864
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1182,
+    "id": 997,
+    "province": "Adıyaman",
+    "district": "Besni",
+    "name": "Kesmetepe",
+    "population": 1590
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1182,
+    "id": 996,
+    "province": "Adıyaman",
+    "district": "Besni",
+    "name": "Köseceli̇",
+    "population": 2047
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1182,
+    "id": 987,
+    "province": "Adıyaman",
+    "district": "Besni",
+    "name": "Suvarli",
+    "population": 2431
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1182,
+    "id": 988,
+    "province": "Adıyaman",
+    "district": "Besni",
+    "name": "Şambayat",
+    "population": 3507
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1246,
+    "id": 989,
+    "province": "Adıyaman",
+    "district": "Çelikhan",
+    "name": "Pinarbaşi",
+    "population": 3332
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1354,
+    "id": 990,
+    "province": "Adıyaman",
+    "district": "Gölbaşı",
+    "name": "Balkar",
+    "population": 2073
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1354,
+    "id": 991,
+    "province": "Adıyaman",
+    "district": "Gölbaşı",
+    "name": "Belören",
+    "population": 2082
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1354,
+    "id": 992,
+    "province": "Adıyaman",
+    "district": "Gölbaşı",
+    "name": "Harmanli",
+    "population": 1653
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1425,
+    "id": 994,
+    "province": "Adıyaman",
+    "district": "Kahta",
+    "name": "Akincilar",
+    "population": 1566
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1425,
+    "id": 993,
+    "province": "Adıyaman",
+    "district": "Kahta",
+    "name": "Bölükyayla",
+    "population": 2128
+  },
+  {
+    "provinceId": 2,
+    "districtId": 1985,
+    "id": 995,
+    "province": "Adıyaman",
+    "district": "Sincik",
+    "name": "İnli̇ce",
+    "population": 2047
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1062,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Beyyazi",
+    "population": 3335
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1064,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Çayirbağ",
+    "population": 4444
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1065,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Çikrik",
+    "population": 2535
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1066,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Deği̇rmenayvali",
+    "population": 2937
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1067,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Erkmen",
+    "population": 8591
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1068,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Fethi̇bey",
+    "population": 2750
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1069,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Gebeceler",
+    "population": 3511
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1070,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Işiklar",
+    "population": 7409
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1063,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Kocatepe",
+    "population": 3213
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1071,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Nuri̇bey",
+    "population": 3137
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1072,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Salar",
+    "population": 4628
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1073,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Susuz",
+    "population": 4832
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1074,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Sülümenli̇",
+    "population": 3705
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1108,
+    "id": 1075,
+    "province": "Afyonkarahisar",
+    "district": "Merkez",
+    "name": "Sülün",
+    "population": 3187
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1200,
+    "id": 1078,
+    "province": "Afyonkarahisar",
+    "district": "Bolvadin",
+    "name": "Di̇şli̇",
+    "population": 3007
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1200,
+    "id": 1080,
+    "province": "Afyonkarahisar",
+    "district": "Bolvadin",
+    "name": "Özburun",
+    "population": 2133
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1239,
+    "id": 1086,
+    "province": "Afyonkarahisar",
+    "district": "Çay",
+    "name": "Karamikkaracaören",
+    "population": 2440
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1239,
+    "id": 1088,
+    "province": "Afyonkarahisar",
+    "district": "Çay",
+    "name": "Pazarağaç",
+    "population": 2621
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1906,
+    "id": 1089,
+    "province": "Afyonkarahisar",
+    "district": "Çobanlar",
+    "name": "Kocaöz",
+    "population": 2956
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1281,
+    "id": 1092,
+    "province": "Afyonkarahisar",
+    "district": "Dinar",
+    "name": "Haydarli",
+    "population": 2162
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1281,
+    "id": 1097,
+    "province": "Afyonkarahisar",
+    "district": "Dinar",
+    "name": "Tatarli",
+    "population": 2884
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1306,
+    "id": 1101,
+    "province": "Afyonkarahisar",
+    "district": "Emirdağ",
+    "name": "Davulga",
+    "population": 2285
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1306,
+    "id": 52579,
+    "province": "Afyonkarahisar",
+    "district": "Emirdağ",
+    "name": "Gömü",
+    "population": 2322
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1404,
+    "id": 1108,
+    "province": "Afyonkarahisar",
+    "district": "İhsaniye",
+    "name": "Döğer",
+    "population": 6244
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1404,
+    "id": 1109,
+    "province": "Afyonkarahisar",
+    "district": "İhsaniye",
+    "name": "Gazligöl",
+    "population": 2682
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1404,
+    "id": 1112,
+    "province": "Afyonkarahisar",
+    "district": "İhsaniye",
+    "name": "Kayihan",
+    "population": 2515
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1404,
+    "id": 1024,
+    "province": "Afyonkarahisar",
+    "district": "İhsaniye",
+    "name": "Yaylabaği",
+    "population": 2442
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1809,
+    "id": 1026,
+    "province": "Afyonkarahisar",
+    "district": "İscehisar",
+    "name": "Seydi̇ler",
+    "population": 2079
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1594,
+    "id": 1035,
+    "province": "Afyonkarahisar",
+    "district": "Sandıklı",
+    "name": "Akharim",
+    "population": 3042
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1037,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Ahmetpaşa",
+    "population": 3122
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1038,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Akören",
+    "population": 3094
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1039,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Düzağaç",
+    "population": 2185
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1040,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Güney",
+    "population": 2073
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1041,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Kiliçarslan",
+    "population": 2773
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1042,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Kirka",
+    "population": 2074
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1043,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Küçükhüyük",
+    "population": 1985
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1045,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Serban",
+    "population": 1581
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1046,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Taşoluk",
+    "population": 3579
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1626,
+    "id": 1047,
+    "province": "Afyonkarahisar",
+    "district": "Sinanpaşa",
+    "name": "Tinaztepe",
+    "population": 2918
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1639,
+    "id": 1049,
+    "province": "Afyonkarahisar",
+    "district": "Sultandağı",
+    "name": "Dereçi̇ne",
+    "population": 2145
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1639,
+    "id": 1054,
+    "province": "Afyonkarahisar",
+    "district": "Sultandağı",
+    "name": "Yeşi̇lçi̇ftli̇k",
+    "population": 2125
+  },
+  {
+    "provinceId": 3,
+    "districtId": 1664,
+    "id": 1058,
+    "province": "Afyonkarahisar",
+    "district": "Şuhut",
+    "name": "Karaadi̇lli̇",
+    "population": 2243
+  },
+  {
+    "provinceId": 4,
+    "districtId": 1301,
+    "id": 1124,
+    "province": "Ağrı",
+    "district": "Eleşkirt",
+    "name": "Tahi̇r",
+    "population": 1512
+  },
+  {
+    "provinceId": 4,
+    "districtId": 1301,
+    "id": 1122,
+    "province": "Ağrı",
+    "district": "Eleşkirt",
+    "name": "Yayladüzü",
+    "population": 1962
+  },
+  {
+    "provinceId": 4,
+    "districtId": 1301,
+    "id": 1123,
+    "province": "Ağrı",
+    "district": "Eleşkirt",
+    "name": "Yücekapi",
+    "population": 2150
+  },
+  {
+    "provinceId": 4,
+    "districtId": 1568,
+    "id": 1121,
+    "province": "Ağrı",
+    "district": "Patnos",
+    "name": "Dedeli̇",
+    "population": 3465
+  },
+  {
+    "provinceId": 5,
+    "districtId": 1134,
+    "id": 1151,
+    "province": "Amasya",
+    "district": "Merkez",
+    "name": "Zi̇yaret",
+    "population": 4178
+  },
+  {
+    "provinceId": 11,
+    "districtId": 1192,
+    "id": 1457,
+    "province": "Bilecik",
+    "district": "Merkez",
+    "name": "Bayirköy",
+    "population": 1997
+  },
+  {
+    "provinceId": 11,
+    "districtId": 1192,
+    "id": 1456,
+    "province": "Bilecik",
+    "district": "Merkez",
+    "name": "Vezi̇rhan",
+    "population": 3151
+  },
+  {
+    "provinceId": 11,
+    "districtId": 1210,
+    "id": 1455,
+    "province": "Bilecik",
+    "district": "Bozüyük",
+    "name": "Dodurga",
+    "population": 2277
+  },
+  {
+    "provinceId": 12,
+    "districtId": 1193,
+    "id": 1469,
+    "province": "Bingöl",
+    "district": "Merkez",
+    "name": "Ilicalar",
+    "population": 3262
+  },
+  {
+    "provinceId": 12,
+    "districtId": 1193,
+    "id": 1468,
+    "province": "Bingöl",
+    "district": "Merkez",
+    "name": "Sancak",
+    "population": 2648
+  },
+  {
+    "provinceId": 12,
+    "districtId": 1633,
+    "id": 1466,
+    "province": "Bingöl",
+    "district": "Solhan",
+    "name": "Arakonak",
+    "population": 2683
+  },
+  {
+    "provinceId": 13,
+    "districtId": 1196,
+    "id": 1485,
+    "province": "Bitlis",
+    "district": "Merkez",
+    "name": "Yolalan",
+    "population": 2660
+  },
+  {
+    "provinceId": 13,
+    "districtId": 1106,
+    "id": 1484,
+    "province": "Bitlis",
+    "district": "Adilcevaz",
+    "name": "Aydinlar",
+    "population": 2264
+  },
+  {
+    "provinceId": 13,
+    "districtId": 1112,
+    "id": 1483,
+    "province": "Bitlis",
+    "district": "Ahlat",
+    "name": "Ovakişla",
+    "population": 4118
+  },
+  {
+    "provinceId": 13,
+    "districtId": 1798,
+    "id": 1482,
+    "province": "Bitlis",
+    "district": "Güroymak",
+    "name": "Gölbaşi",
+    "population": 4768
+  },
+  {
+    "provinceId": 13,
+    "districtId": 1798,
+    "id": 1481,
+    "province": "Bitlis",
+    "district": "Güroymak",
+    "name": "Günkiri",
+    "population": 4824
+  },
+  {
+    "provinceId": 13,
+    "districtId": 1537,
+    "id": 1479,
+    "province": "Bitlis",
+    "district": "Mutki",
+    "name": "Kavakbaşi",
+    "population": 2192
+  },
+  {
+    "provinceId": 14,
+    "districtId": 1199,
+    "id": 1498,
+    "province": "Bolu",
+    "district": "Merkez",
+    "name": "Karacasu",
+    "population": 2495
+  },
+  {
+    "provinceId": 14,
+    "districtId": 1522,
+    "id": 1495,
+    "province": "Bolu",
+    "district": "Mengen",
+    "name": "Gökçesu",
+    "population": 1797
+  },
+  {
+    "provinceId": 14,
+    "districtId": 1531,
+    "id": 1496,
+    "province": "Bolu",
+    "district": "Mudurnu",
+    "name": "Taşkesti̇",
+    "population": 2262
+  },
+  {
+    "provinceId": 15,
+    "districtId": 1211,
+    "id": 1521,
+    "province": "Burdur",
+    "district": "Bucak",
+    "name": "Kizilkaya",
+    "population": 2874
+  },
+  {
+    "provinceId": 15,
+    "districtId": 1211,
+    "id": 1519,
+    "province": "Burdur",
+    "district": "Bucak",
+    "name": "Kocaali̇ler",
+    "population": 1957
+  },
+  {
+    "provinceId": 15,
+    "districtId": 1899,
+    "id": 1510,
+    "province": "Burdur",
+    "district": "Çavdır",
+    "name": "Söğüt",
+    "population": 3301
+  },
+  {
+    "provinceId": 15,
+    "districtId": 1357,
+    "id": 52991,
+    "province": "Burdur",
+    "district": "Gölhisar",
+    "name": "Yusufça",
+    "population": 2292
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1230,
+    "id": 1617,
+    "province": "Çanakkale",
+    "district": "Merkez",
+    "name": "Kepez",
+    "population": 36264
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1160,
+    "id": 1612,
+    "province": "Çanakkale",
+    "district": "Ayvacık",
+    "name": "Küçükkuyu",
+    "population": 10792
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1190,
+    "id": 1608,
+    "province": "Çanakkale",
+    "district": "Biga",
+    "name": "Gümüşçay",
+    "population": 1974
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1190,
+    "id": 1607,
+    "province": "Çanakkale",
+    "district": "Biga",
+    "name": "Karabi̇ga",
+    "population": 3206
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1229,
+    "id": 1606,
+    "province": "Çanakkale",
+    "district": "Çan",
+    "name": "Terzi̇alan",
+    "population": 1775
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1326,
+    "id": 1605,
+    "province": "Çanakkale",
+    "district": "Ezine",
+    "name": "Geyi̇kli̇",
+    "population": 4005
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1340,
+    "id": 1599,
+    "province": "Çanakkale",
+    "district": "Gelibolu",
+    "name": "Evreşe",
+    "population": 2082
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1340,
+    "id": 1598,
+    "province": "Çanakkale",
+    "district": "Gelibolu",
+    "name": "Kavakköy",
+    "population": 1365
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1503,
+    "id": 1600,
+    "province": "Çanakkale",
+    "district": "Lapseki",
+    "name": "Çardak",
+    "population": 4060
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1503,
+    "id": 1601,
+    "province": "Çanakkale",
+    "district": "Lapseki",
+    "name": "Umurbey",
+    "population": 2345
+  },
+  {
+    "provinceId": 17,
+    "districtId": 1722,
+    "id": 1603,
+    "province": "Çanakkale",
+    "district": "Yenice",
+    "name": "Kalkim",
+    "population": 2482
+  },
+  {
+    "provinceId": 18,
+    "districtId": 1765,
+    "id": 1646,
+    "province": "Çankırı",
+    "district": "Atkaracalar",
+    "name": "Çardakli",
+    "population": 1274
+  },
+  {
+    "provinceId": 18,
+    "districtId": 1248,
+    "id": 1645,
+    "province": "Çankırı",
+    "district": "Çerkeş",
+    "name": "Saçak",
+    "population": 2137
+  },
+  {
+    "provinceId": 18,
+    "districtId": 1555,
+    "id": 1638,
+    "province": "Çankırı",
+    "district": "Orta",
+    "name": "Dodurga",
+    "population": 2003
+  },
+  {
+    "provinceId": 18,
+    "districtId": 1555,
+    "id": 1636,
+    "province": "Çankırı",
+    "district": "Orta",
+    "name": "Kalfat",
+    "population": 2053
+  },
+  {
+    "provinceId": 18,
+    "districtId": 1555,
+    "id": 1631,
+    "province": "Çankırı",
+    "district": "Orta",
+    "name": "Yaylakent",
+    "population": 4514
+  },
+  {
+    "provinceId": 19,
+    "districtId": 1259,
+    "id": 1686,
+    "province": "Çorum",
+    "district": "Merkez",
+    "name": "Düvenci̇",
+    "population": 1738
+  },
+  {
+    "provinceId": 19,
+    "districtId": 1556,
+    "id": 1663,
+    "province": "Çorum",
+    "district": "Ortaköy",
+    "name": "Aştavul",
+    "population": 2473
+  },
+  {
+    "provinceId": 22,
+    "districtId": 1412,
+    "id": 1843,
+    "province": "Edirne",
+    "district": "İpsala",
+    "name": "Esetçe",
+    "population": 2143
+  },
+  {
+    "provinceId": 22,
+    "districtId": 1412,
+    "id": 1841,
+    "province": "Edirne",
+    "district": "İpsala",
+    "name": "Yeni̇karpuzlu",
+    "population": 3008
+  },
+  {
+    "provinceId": 22,
+    "districtId": 1464,
+    "id": 1837,
+    "province": "Edirne",
+    "district": "Keşan",
+    "name": "Beğendi̇k",
+    "population": 3330
+  },
+  {
+    "provinceId": 22,
+    "districtId": 1464,
+    "id": 1835,
+    "province": "Edirne",
+    "district": "Keşan",
+    "name": "Yeni̇muhaci̇r",
+    "population": 1961
+  },
+  {
+    "provinceId": 22,
+    "districtId": 1523,
+    "id": 1830,
+    "province": "Edirne",
+    "district": "Meriç",
+    "name": "Küplü",
+    "population": 2165
+  },
+  {
+    "provinceId": 22,
+    "districtId": 1523,
+    "id": 1831,
+    "province": "Edirne",
+    "district": "Meriç",
+    "name": "Subaşi",
+    "population": 1906
+  },
+  {
+    "provinceId": 22,
+    "districtId": 1705,
+    "id": 1834,
+    "province": "Edirne",
+    "district": "Uzunköprü",
+    "name": "Kircasali̇h",
+    "population": 2567
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1298,
+    "id": 1870,
+    "province": "Elazığ",
+    "district": "Merkez",
+    "name": "Akçaki̇raz",
+    "population": 8256
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1298,
+    "id": 1865,
+    "province": "Elazığ",
+    "district": "Merkez",
+    "name": "Mollakendi̇",
+    "population": 3192
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1298,
+    "id": 1869,
+    "province": "Elazığ",
+    "district": "Merkez",
+    "name": "Yazikonak",
+    "population": 10101
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1298,
+    "id": 1868,
+    "province": "Elazığ",
+    "district": "Merkez",
+    "name": "Yurtbaşi",
+    "population": 7894
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1762,
+    "id": 1864,
+    "province": "Elazığ",
+    "district": "Arıcak",
+    "name": "Bükardi",
+    "population": 2504
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1762,
+    "id": 1863,
+    "province": "Elazığ",
+    "district": "Arıcak",
+    "name": "Eri̇mli̇",
+    "population": 2705
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1762,
+    "id": 1862,
+    "province": "Elazığ",
+    "district": "Arıcak",
+    "name": "Üçocak",
+    "population": 2721
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1438,
+    "id": 1861,
+    "province": "Elazığ",
+    "district": "Karakoçan",
+    "name": "Sarican",
+    "population": 2006
+  },
+  {
+    "provinceId": 23,
+    "districtId": 1566,
+    "id": 1858,
+    "province": "Elazığ",
+    "district": "Palu",
+    "name": "Beyhan",
+    "population": 3451
+  },
+  {
+    "provinceId": 24,
+    "districtId": 1318,
+    "id": 1882,
+    "province": "Erzincan",
+    "district": "Merkez",
+    "name": "Çağlayan",
+    "population": 1859
+  },
+  {
+    "provinceId": 24,
+    "districtId": 1318,
+    "id": 1892,
+    "province": "Erzincan",
+    "district": "Merkez",
+    "name": "Mollaköy",
+    "population": 1546
+  },
+  {
+    "provinceId": 24,
+    "districtId": 1675,
+    "id": 1886,
+    "province": "Erzincan",
+    "district": "Tercan",
+    "name": "Çadirkaya",
+    "population": 1657
+  },
+  {
+    "provinceId": 24,
+    "districtId": 1675,
+    "id": 1885,
+    "province": "Erzincan",
+    "district": "Tercan",
+    "name": "Kargin",
+    "population": 2131
+  },
+  {
+    "provinceId": 24,
+    "districtId": 1675,
+    "id": 1887,
+    "province": "Erzincan",
+    "district": "Tercan",
+    "name": "Mercan",
+    "population": 1811
+  },
+  {
+    "provinceId": 24,
+    "districtId": 1853,
+    "id": 1888,
+    "province": "Erzincan",
+    "district": "Üzümlü",
+    "name": "Altinbaşak",
+    "population": 1816
+  },
+  {
+    "provinceId": 28,
+    "districtId": 1352,
+    "id": 2029,
+    "province": "Giresun",
+    "district": "Merkez",
+    "name": "Duroğlu",
+    "population": 2897
+  },
+  {
+    "provinceId": 28,
+    "districtId": 1212,
+    "id": 2027,
+    "province": "Giresun",
+    "district": "Bulancak",
+    "name": "Aydindere",
+    "population": 2614
+  },
+  {
+    "provinceId": 28,
+    "districtId": 1212,
+    "id": 2028,
+    "province": "Giresun",
+    "district": "Bulancak",
+    "name": "Kovanlik",
+    "population": 2745
+  },
+  {
+    "provinceId": 28,
+    "districtId": 1272,
+    "id": 2024,
+    "province": "Giresun",
+    "district": "Dereli",
+    "name": "Yavuzkemal",
+    "population": 2326
+  },
+  {
+    "provinceId": 28,
+    "districtId": 1320,
+    "id": 2023,
+    "province": "Giresun",
+    "district": "Espiye",
+    "name": "Soğukpinar",
+    "population": 2453
+  },
+  {
+    "provinceId": 28,
+    "districtId": 1324,
+    "id": 2022,
+    "province": "Giresun",
+    "district": "Eynesil",
+    "name": "Ören",
+    "population": 2213
+  },
+  {
+    "provinceId": 28,
+    "districtId": 1361,
+    "id": 2020,
+    "province": "Giresun",
+    "district": "Görele",
+    "name": "Çavuşlu",
+    "population": 2681
+  },
+  {
+    "provinceId": 28,
+    "districtId": 1854,
+    "id": 2031,
+    "province": "Giresun",
+    "district": "Yağlıdere",
+    "name": "Üçtepe",
+    "population": 1972
+  },
+  {
+    "provinceId": 29,
+    "districtId": 1369,
+    "id": 2048,
+    "province": "Gümüşhane",
+    "district": "Merkez",
+    "name": "Arzularkabaköy",
+    "population": 4585
+  },
+  {
+    "provinceId": 29,
+    "districtId": 1458,
+    "id": 2047,
+    "province": "Gümüşhane",
+    "district": "Kelkit",
+    "name": "Deredolu",
+    "population": 1879
+  },
+  {
+    "provinceId": 29,
+    "districtId": 1458,
+    "id": 2046,
+    "province": "Gümüşhane",
+    "district": "Kelkit",
+    "name": "Gümüşgöze",
+    "population": 2544
+  },
+  {
+    "provinceId": 29,
+    "districtId": 1458,
+    "id": 2044,
+    "province": "Gümüşhane",
+    "district": "Kelkit",
+    "name": "Öbektaş",
+    "population": 2095
+  },
+  {
+    "provinceId": 29,
+    "districtId": 1458,
+    "id": 2039,
+    "province": "Gümüşhane",
+    "district": "Kelkit",
+    "name": "Söğütlü",
+    "population": 1863
+  },
+  {
+    "provinceId": 29,
+    "districtId": 1458,
+    "id": 2040,
+    "province": "Gümüşhane",
+    "district": "Kelkit",
+    "name": "Ünlüpinar",
+    "population": 3051
+  },
+  {
+    "provinceId": 29,
+    "districtId": 1971,
+    "id": 2042,
+    "province": "Gümüşhane",
+    "district": "Kürtün",
+    "name": "Özkürtün",
+    "population": 2204
+  },
+  {
+    "provinceId": 29,
+    "districtId": 1660,
+    "id": 2043,
+    "province": "Gümüşhane",
+    "district": "Şiran",
+    "name": "Yeşi̇lbük",
+    "population": 2119
+  },
+  {
+    "provinceId": 30,
+    "districtId": 1377,
+    "id": 2058,
+    "province": "Hakkari",
+    "district": "Merkez",
+    "name": "Durankaya",
+    "population": 3786
+  },
+  {
+    "provinceId": 30,
+    "districtId": 1737,
+    "id": 2057,
+    "province": "Hakkari",
+    "district": "Yüksekova",
+    "name": "Büyükçi̇ftli̇k",
+    "population": 3862
+  },
+  {
+    "provinceId": 30,
+    "districtId": 1737,
+    "id": 2056,
+    "province": "Hakkari",
+    "district": "Yüksekova",
+    "name": "Esendere",
+    "population": 4497
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1401,
+    "id": 2184,
+    "province": "Isparta",
+    "district": "Merkez",
+    "name": "Kuleönü",
+    "population": 2726
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1401,
+    "id": 2183,
+    "province": "Isparta",
+    "district": "Merkez",
+    "name": "Sav",
+    "population": 3797
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1297,
+    "id": 2178,
+    "province": "Isparta",
+    "district": "Eğirdir",
+    "name": "Sarii̇dri̇s",
+    "population": 2272
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1929,
+    "id": 2174,
+    "province": "Isparta",
+    "district": "Gönen",
+    "name": "Güneykent",
+    "population": 1926
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1456,
+    "id": 2148,
+    "province": "Isparta",
+    "district": "Keçiborlu",
+    "name": "Seni̇r",
+    "population": 2622
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1615,
+    "id": 2150,
+    "province": "Isparta",
+    "district": "Senirkent",
+    "name": "Büyükkabaca",
+    "population": 3791
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1651,
+    "id": 2156,
+    "province": "Isparta",
+    "district": "Şarkikaraağaç",
+    "name": "Çariksaraylar",
+    "population": 2759
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1651,
+    "id": 2157,
+    "province": "Isparta",
+    "district": "Şarkikaraağaç",
+    "name": "Çi̇çekpinar",
+    "population": 2016
+  },
+  {
+    "provinceId": 32,
+    "districtId": 1717,
+    "id": 2159,
+    "province": "Isparta",
+    "district": "Yalvaç",
+    "name": "Hüyüklü",
+    "population": 1928
+  },
+  {
+    "provinceId": 36,
+    "districtId": 1279,
+    "id": 2427,
+    "province": "Kars",
+    "district": "Digor",
+    "name": "Dağpinar",
+    "population": 3184
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1471,
+    "id": 2541,
+    "province": "Kırklareli",
+    "district": "Merkez",
+    "name": "İnece",
+    "population": 1714
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1471,
+    "id": 2543,
+    "province": "Kırklareli",
+    "district": "Merkez",
+    "name": "Kavakli",
+    "population": 4415
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1471,
+    "id": 2540,
+    "province": "Kırklareli",
+    "district": "Merkez",
+    "name": "Üsküp",
+    "population": 2321
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1163,
+    "id": 2539,
+    "province": "Kırklareli",
+    "district": "Babaeski",
+    "name": "Alpullu",
+    "population": 2236
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1163,
+    "id": 2538,
+    "province": "Kırklareli",
+    "district": "Babaeski",
+    "name": "Büyükmandira",
+    "population": 3297
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1163,
+    "id": 2536,
+    "province": "Kırklareli",
+    "district": "Babaeski",
+    "name": "Karahali̇l",
+    "population": 1536
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1270,
+    "id": 2535,
+    "province": "Kırklareli",
+    "district": "Demirköy",
+    "name": "İğneada",
+    "population": 2874
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1505,
+    "id": 2529,
+    "province": "Kırklareli",
+    "district": "Lüleburgaz",
+    "name": "Ahmetbey",
+    "population": 3600
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1505,
+    "id": 2528,
+    "province": "Kırklareli",
+    "district": "Lüleburgaz",
+    "name": "Büyükkariştiran",
+    "population": 6545
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1505,
+    "id": 2530,
+    "province": "Kırklareli",
+    "district": "Lüleburgaz",
+    "name": "Evrenseki̇z",
+    "population": 3093
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1577,
+    "id": 2531,
+    "province": "Kırklareli",
+    "district": "Pınarhisar",
+    "name": "Kaynarca",
+    "population": 1963
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1714,
+    "id": 2533,
+    "province": "Kırklareli",
+    "district": "Vize",
+    "name": "Çakilli",
+    "population": 2053
+  },
+  {
+    "provinceId": 39,
+    "districtId": 1714,
+    "id": 2534,
+    "province": "Kırklareli",
+    "district": "Vize",
+    "name": "Kiyiköy",
+    "population": 2323
+  },
+  {
+    "provinceId": 40,
+    "districtId": 1472,
+    "id": 2571,
+    "province": "Kırşehir",
+    "district": "Merkez",
+    "name": "Özbağ",
+    "population": 3286
+  },
+  {
+    "provinceId": 40,
+    "districtId": 1254,
+    "id": 2555,
+    "province": "Kırşehir",
+    "district": "Çiçekdağı",
+    "name": "Köseli̇",
+    "population": 2480
+  },
+  {
+    "provinceId": 40,
+    "districtId": 1429,
+    "id": 2562,
+    "province": "Kırşehir",
+    "district": "Kaman",
+    "name": "Kurancili",
+    "population": 1898
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1500,
+    "id": 2848,
+    "province": "Kütahya",
+    "district": "Merkez",
+    "name": "Seyi̇tömer",
+    "population": 1972
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1288,
+    "id": 2852,
+    "province": "Kütahya",
+    "district": "Domaniç",
+    "name": "Çukurca",
+    "population": 1964
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1339,
+    "id": 2862,
+    "province": "Kütahya",
+    "district": "Gediz",
+    "name": "Eski̇gedi̇z",
+    "population": 2888
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1339,
+    "id": 2865,
+    "province": "Kütahya",
+    "district": "Gediz",
+    "name": "Gökler",
+    "population": 2023
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1339,
+    "id": 2870,
+    "province": "Kütahya",
+    "district": "Gediz",
+    "name": "Yeni̇kent",
+    "population": 2339
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1625,
+    "id": 2879,
+    "province": "Kütahya",
+    "district": "Simav",
+    "name": "Akdağ",
+    "population": 1998
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1625,
+    "id": 2883,
+    "province": "Kütahya",
+    "district": "Simav",
+    "name": "Çi̇tgöl",
+    "population": 3529
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1625,
+    "id": 2884,
+    "province": "Kütahya",
+    "district": "Simav",
+    "name": "Demi̇rci̇",
+    "population": 2418
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1625,
+    "id": 2885,
+    "province": "Kütahya",
+    "district": "Simav",
+    "name": "Güney",
+    "population": 1515
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1625,
+    "id": 52913,
+    "province": "Kütahya",
+    "district": "Simav",
+    "name": "Kuşu",
+    "population": 1784
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1625,
+    "id": 2892,
+    "province": "Kütahya",
+    "district": "Simav",
+    "name": "Naşa",
+    "population": 1841
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1671,
+    "id": 2841,
+    "province": "Kütahya",
+    "district": "Tavşanlı",
+    "name": "Baliköy",
+    "population": 1637
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1671,
+    "id": 2844,
+    "province": "Kütahya",
+    "district": "Tavşanlı",
+    "name": "Kuruçay",
+    "population": 1759
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1671,
+    "id": 2845,
+    "province": "Kütahya",
+    "district": "Tavşanlı",
+    "name": "Tepeci̇k",
+    "population": 2642
+  },
+  {
+    "provinceId": 43,
+    "districtId": 1671,
+    "id": 2846,
+    "province": "Kütahya",
+    "district": "Tavşanlı",
+    "name": "Tunçbi̇lek",
+    "population": 4772
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1534,
+    "id": 3221,
+    "province": "Muş",
+    "district": "Merkez",
+    "name": "Karaağaçli",
+    "population": 2850
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1534,
+    "id": 3220,
+    "province": "Muş",
+    "district": "Merkez",
+    "name": "Kirköy",
+    "population": 1933
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1534,
+    "id": 3218,
+    "province": "Muş",
+    "district": "Merkez",
+    "name": "Kizilağaç",
+    "population": 3173
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1534,
+    "id": 3200,
+    "province": "Muş",
+    "district": "Merkez",
+    "name": "Konukbekler",
+    "population": 2807
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1534,
+    "id": 3217,
+    "province": "Muş",
+    "district": "Merkez",
+    "name": "Seri̇nova",
+    "population": 2288
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1534,
+    "id": 3219,
+    "province": "Muş",
+    "district": "Merkez",
+    "name": "Sungu",
+    "population": 6290
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1534,
+    "id": 3215,
+    "province": "Muş",
+    "district": "Merkez",
+    "name": "Yaygin",
+    "population": 3890
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1534,
+    "id": 3216,
+    "province": "Muş",
+    "district": "Merkez",
+    "name": "Yeşi̇lova",
+    "population": 1816
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1213,
+    "id": 3201,
+    "province": "Muş",
+    "district": "Bulanık",
+    "name": "Elmakaya",
+    "population": 2457
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1213,
+    "id": 3204,
+    "province": "Muş",
+    "district": "Bulanık",
+    "name": "Erentepe",
+    "population": 3778
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1213,
+    "id": 3202,
+    "province": "Muş",
+    "district": "Bulanık",
+    "name": "Rüstemgedi̇k",
+    "population": 2052
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1213,
+    "id": 3209,
+    "province": "Muş",
+    "district": "Bulanık",
+    "name": "Saripinar",
+    "population": 2207
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1213,
+    "id": 3206,
+    "province": "Muş",
+    "district": "Bulanık",
+    "name": "Uzgörür",
+    "population": 1828
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1213,
+    "id": 3203,
+    "province": "Muş",
+    "district": "Bulanık",
+    "name": "Yoncali",
+    "population": 2016
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1801,
+    "id": 3210,
+    "province": "Muş",
+    "district": "Hasköy",
+    "name": "Düzkişla",
+    "population": 3044
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1964,
+    "id": 3211,
+    "province": "Muş",
+    "district": "Korkut",
+    "name": "Altinova",
+    "population": 2629
+  },
+  {
+    "provinceId": 49,
+    "districtId": 1510,
+    "id": 3214,
+    "province": "Muş",
+    "district": "Malazgirt",
+    "name": "Konakkuran",
+    "population": 1393
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1543,
+    "id": 3266,
+    "province": "Nevşehir",
+    "district": "Merkez",
+    "name": "Çat",
+    "population": 2078
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1543,
+    "id": 3264,
+    "province": "Nevşehir",
+    "district": "Merkez",
+    "name": "Göre",
+    "population": 2621
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1543,
+    "id": 3263,
+    "province": "Nevşehir",
+    "district": "Merkez",
+    "name": "Göreme",
+    "population": 2429
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1543,
+    "id": 3262,
+    "province": "Nevşehir",
+    "district": "Merkez",
+    "name": "Kavak",
+    "population": 2614
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1543,
+    "id": 3261,
+    "province": "Nevşehir",
+    "district": "Merkez",
+    "name": "Kaymakli",
+    "population": 4490
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1543,
+    "id": 3260,
+    "province": "Nevşehir",
+    "district": "Merkez",
+    "name": "Nar",
+    "population": 5238
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1543,
+    "id": 3259,
+    "province": "Nevşehir",
+    "district": "Merkez",
+    "name": "Sulusaray",
+    "population": 2039
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1543,
+    "id": 3258,
+    "province": "Nevşehir",
+    "district": "Merkez",
+    "name": "Uçhi̇sar",
+    "population": 3845
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1749,
+    "id": 3231,
+    "province": "Nevşehir",
+    "district": "Acıgöl",
+    "name": "Karapinar",
+    "population": 2963
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1749,
+    "id": 3233,
+    "province": "Nevşehir",
+    "district": "Acıgöl",
+    "name": "Tatlarin",
+    "population": 2174
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1155,
+    "id": 3240,
+    "province": "Nevşehir",
+    "district": "Avanos",
+    "name": "Çaliş",
+    "population": 1995
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1155,
+    "id": 3241,
+    "province": "Nevşehir",
+    "district": "Avanos",
+    "name": "Kalaba",
+    "population": 4361
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1155,
+    "id": 3234,
+    "province": "Nevşehir",
+    "district": "Avanos",
+    "name": "Özkonak",
+    "population": 3266
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1274,
+    "id": 3243,
+    "province": "Nevşehir",
+    "district": "Derinkuyu",
+    "name": "Yazihüyük",
+    "population": 3722
+  },
+  {
+    "provinceId": 50,
+    "districtId": 1707,
+    "id": 3265,
+    "province": "Nevşehir",
+    "district": "Ürgüp",
+    "name": "Ortahi̇sar",
+    "population": 3099
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3318,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Aktaş",
+    "population": 2397
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3286,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Alay",
+    "population": 3256
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3287,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Bağlama",
+    "population": 2398
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3313,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Deği̇rmenli̇",
+    "population": 2070
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3273,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Dündarli",
+    "population": 2554
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3274,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Edi̇kli̇",
+    "population": 4749
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3276,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Gümüşler",
+    "population": 3205
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3277,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Haciabdullah",
+    "population": 3007
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3281,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Karaatli",
+    "population": 3540
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3289,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Ki̇ledere",
+    "population": 5540
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3290,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Konakli",
+    "population": 3096
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3291,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Orhanli",
+    "population": 3459
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3284,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Sazlica",
+    "population": 4206
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3285,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Yeşi̇lgölcük",
+    "population": 5483
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1544,
+    "id": 3280,
+    "province": "Niğde",
+    "district": "Merkez",
+    "name": "Yildiztepe",
+    "population": 2155
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1876,
+    "id": 3293,
+    "province": "Niğde",
+    "district": "Altunhisar",
+    "name": "Karakapi",
+    "population": 3347
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1876,
+    "id": 3294,
+    "province": "Niğde",
+    "district": "Altunhisar",
+    "name": "Keçi̇kalesi̇",
+    "population": 2970
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1201,
+    "id": 3302,
+    "province": "Niğde",
+    "district": "Bor",
+    "name": "Bahçeli̇",
+    "population": 2625
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1201,
+    "id": 3298,
+    "province": "Niğde",
+    "district": "Bor",
+    "name": "Çukurkuyu",
+    "population": 2841
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1201,
+    "id": 3301,
+    "province": "Niğde",
+    "district": "Bor",
+    "name": "Kemerhi̇sar",
+    "population": 5941
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1904,
+    "id": 3305,
+    "province": "Niğde",
+    "district": "Çiftlik",
+    "name": "Azatli",
+    "population": 4089
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1904,
+    "id": 3306,
+    "province": "Niğde",
+    "district": "Çiftlik",
+    "name": "Bozköy",
+    "population": 4901
+  },
+  {
+    "provinceId": 51,
+    "districtId": 1904,
+    "id": 3307,
+    "province": "Niğde",
+    "district": "Çiftlik",
+    "name": "Di̇varli",
+    "population": 4524
+  },
+  {
+    "provinceId": 53,
+    "districtId": 1586,
+    "id": 3410,
+    "province": "Rize",
+    "district": "Merkez",
+    "name": "Kendi̇rli̇",
+    "population": 2950
+  },
+  {
+    "provinceId": 53,
+    "districtId": 1586,
+    "id": 3409,
+    "province": "Rize",
+    "district": "Merkez",
+    "name": "Muradi̇ye",
+    "population": 2950
+  },
+  {
+    "provinceId": 53,
+    "districtId": 1586,
+    "id": 3411,
+    "province": "Rize",
+    "district": "Merkez",
+    "name": "Salarha",
+    "population": 2894
+  },
+  {
+    "provinceId": 53,
+    "districtId": 1146,
+    "id": 3407,
+    "province": "Rize",
+    "district": "Ardeşen",
+    "name": "Tunca",
+    "population": 2264
+  },
+  {
+    "provinceId": 53,
+    "districtId": 1241,
+    "id": 3405,
+    "province": "Rize",
+    "district": "Çayeli",
+    "name": "Büyükköy",
+    "population": 2372
+  },
+  {
+    "provinceId": 53,
+    "districtId": 1241,
+    "id": 3406,
+    "province": "Rize",
+    "district": "Çayeli",
+    "name": "Madenli̇",
+    "population": 3361
+  },
+  {
+    "provinceId": 56,
+    "districtId": 1620,
+    "id": 3515,
+    "province": "Siirt",
+    "district": "Merkez",
+    "name": "Gökçebağ",
+    "population": 2447
+  },
+  {
+    "provinceId": 56,
+    "districtId": 1179,
+    "id": 3512,
+    "province": "Siirt",
+    "district": "Baykan",
+    "name": "Atabaği",
+    "population": 3711
+  },
+  {
+    "provinceId": 56,
+    "districtId": 1179,
+    "id": 3511,
+    "province": "Siirt",
+    "district": "Baykan",
+    "name": "Veyselkarani̇",
+    "population": 7123
+  },
+  {
+    "provinceId": 56,
+    "districtId": 1495,
+    "id": 3513,
+    "province": "Siirt",
+    "district": "Kurtalan",
+    "name": "Kayabağlar",
+    "population": 5828
+  },
+  {
+    "provinceId": 56,
+    "districtId": 1575,
+    "id": 3514,
+    "province": "Siirt",
+    "district": "Pervari",
+    "name": "Beğendi̇k",
+    "population": 2132
+  },
+  {
+    "provinceId": 58,
+    "districtId": 1628,
+    "id": 3569,
+    "province": "Sivas",
+    "district": "Merkez",
+    "name": "Yildiz",
+    "population": 2466
+  },
+  {
+    "provinceId": 58,
+    "districtId": 1875,
+    "id": 3566,
+    "province": "Sivas",
+    "district": "Altınyayla",
+    "name": "Deli̇i̇lyas",
+    "population": 2289
+  },
+  {
+    "provinceId": 58,
+    "districtId": 1342,
+    "id": 3561,
+    "province": "Sivas",
+    "district": "Gemerek",
+    "name": "Çepni̇",
+    "population": 1443
+  },
+  {
+    "provinceId": 58,
+    "districtId": 1342,
+    "id": 3558,
+    "province": "Sivas",
+    "district": "Gemerek",
+    "name": "Sizir",
+    "population": 3712
+  },
+  {
+    "provinceId": 58,
+    "districtId": 1650,
+    "id": 3568,
+    "province": "Sivas",
+    "district": "Şarkışla",
+    "name": "Cemel",
+    "population": 1344
+  },
+  {
+    "provinceId": 58,
+    "districtId": 1650,
+    "id": 3567,
+    "province": "Sivas",
+    "district": "Şarkışla",
+    "name": "Gürçayir",
+    "population": 1909
+  },
+  {
+    "provinceId": 58,
+    "districtId": 1731,
+    "id": 3554,
+    "province": "Sivas",
+    "district": "Yıldızeli",
+    "name": "Güneykaya",
+    "population": 2152
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1679,
+    "id": 3634,
+    "province": "Tokat",
+    "district": "Merkez",
+    "name": "Çamlibel",
+    "population": 3965
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1679,
+    "id": 3630,
+    "province": "Tokat",
+    "district": "Merkez",
+    "name": "Çat",
+    "population": 4234
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1679,
+    "id": 3631,
+    "province": "Tokat",
+    "district": "Merkez",
+    "name": "Emi̇rseyi̇t",
+    "population": 2421
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1679,
+    "id": 3633,
+    "province": "Tokat",
+    "district": "Merkez",
+    "name": "Güryildiz",
+    "population": 2220
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1129,
+    "id": 52374,
+    "province": "Tokat",
+    "district": "Almus",
+    "name": "Akarçay Görümlü",
+    "population": 2627
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1129,
+    "id": 3639,
+    "province": "Tokat",
+    "district": "Almus",
+    "name": "Ataköy",
+    "population": 2968
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1129,
+    "id": 3642,
+    "province": "Tokat",
+    "district": "Almus",
+    "name": "Çevreli̇",
+    "population": 2695
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1129,
+    "id": 3644,
+    "province": "Tokat",
+    "district": "Almus",
+    "name": "Gölgeli̇",
+    "population": 2066
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1129,
+    "id": 3646,
+    "province": "Tokat",
+    "district": "Almus",
+    "name": "Kinik",
+    "population": 2305
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1883,
+    "id": 3650,
+    "province": "Tokat",
+    "district": "Başçiftlik",
+    "name": "Hati̇pli̇",
+    "population": 1734
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1308,
+    "id": 3656,
+    "province": "Tokat",
+    "district": "Erbaa",
+    "name": "Gökal",
+    "population": 3305
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1308,
+    "id": 3655,
+    "province": "Tokat",
+    "district": "Erbaa",
+    "name": "Karayaka",
+    "population": 3424
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1308,
+    "id": 3654,
+    "province": "Tokat",
+    "district": "Erbaa",
+    "name": "Tanoba",
+    "population": 2123
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1545,
+    "id": 3664,
+    "province": "Tokat",
+    "district": "Niksar",
+    "name": "Gökçeli̇",
+    "population": 1951
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1545,
+    "id": 3665,
+    "province": "Tokat",
+    "district": "Niksar",
+    "name": "Gürçeşme",
+    "population": 1886
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1545,
+    "id": 3660,
+    "province": "Tokat",
+    "district": "Niksar",
+    "name": "Serenli̇",
+    "population": 3161
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1545,
+    "id": 3661,
+    "province": "Tokat",
+    "district": "Niksar",
+    "name": "Yazicik",
+    "population": 2444
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1545,
+    "id": 3662,
+    "province": "Tokat",
+    "district": "Niksar",
+    "name": "Yolkonak",
+    "population": 2681
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1834,
+    "id": 3667,
+    "province": "Tokat",
+    "district": "Pazar",
+    "name": "Üzümören",
+    "population": 3719
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1584,
+    "id": 3668,
+    "province": "Tokat",
+    "district": "Reşadiye",
+    "name": "Baydarli",
+    "population": 2175
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1584,
+    "id": 3679,
+    "province": "Tokat",
+    "district": "Reşadiye",
+    "name": "Bereketli̇",
+    "population": 3442
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1584,
+    "id": 3680,
+    "province": "Tokat",
+    "district": "Reşadiye",
+    "name": "Bozçali",
+    "population": 2717
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1584,
+    "id": 3671,
+    "province": "Tokat",
+    "district": "Reşadiye",
+    "name": "Ci̇mi̇tekke",
+    "population": 2493
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1584,
+    "id": 3672,
+    "province": "Tokat",
+    "district": "Reşadiye",
+    "name": "Demi̇rci̇li̇",
+    "population": 2249
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1584,
+    "id": 3673,
+    "province": "Tokat",
+    "district": "Reşadiye",
+    "name": "Hasanşeyh",
+    "population": 2334
+  },
+  {
+    "provinceId": 60,
+    "districtId": 1690,
+    "id": 3618,
+    "province": "Tokat",
+    "district": "Turhal",
+    "name": "Şenyurt",
+    "population": 2228
+  },
+  {
+    "provinceId": 62,
+    "districtId": 1518,
+    "id": 3769,
+    "province": "Tunceli",
+    "district": "Mazgirt",
+    "name": "Akpazar",
+    "population": 1982
+  },
+  {
+    "provinceId": 64,
+    "districtId": 1170,
+    "id": 3814,
+    "province": "Uşak",
+    "district": "Banaz",
+    "name": "Kizilcasöğüt",
+    "population": 1838
+  },
+  {
+    "provinceId": 64,
+    "districtId": 1323,
+    "id": 3803,
+    "province": "Uşak",
+    "district": "Eşme",
+    "name": "Yeleğen",
+    "population": 2113
+  },
+  {
+    "provinceId": 64,
+    "districtId": 1629,
+    "id": 3806,
+    "province": "Uşak",
+    "district": "Sivaslı",
+    "name": "Pinarbaşi",
+    "population": 2042
+  },
+  {
+    "provinceId": 64,
+    "districtId": 1629,
+    "id": 3807,
+    "province": "Uşak",
+    "district": "Sivaslı",
+    "name": "Selçi̇kler",
+    "population": 1776
+  },
+  {
+    "provinceId": 64,
+    "districtId": 1629,
+    "id": 3808,
+    "province": "Uşak",
+    "district": "Sivaslı",
+    "name": "Tatar",
+    "population": 1889
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1117,
+    "id": 3858,
+    "province": "Yozgat",
+    "district": "Akdağmadeni",
+    "name": "Belekçahan",
+    "population": 1643
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1117,
+    "id": 3859,
+    "province": "Yozgat",
+    "district": "Akdağmadeni",
+    "name": "Oluközü",
+    "population": 1373
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1117,
+    "id": 3860,
+    "province": "Yozgat",
+    "district": "Akdağmadeni",
+    "name": "Umutlu",
+    "population": 2317
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1877,
+    "id": 3861,
+    "province": "Yozgat",
+    "district": "Aydıncık",
+    "name": "Baydi̇ği̇n",
+    "population": 3246
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1198,
+    "id": 3868,
+    "province": "Yozgat",
+    "district": "Boğazlıyan",
+    "name": "Ovakent",
+    "population": 2619
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1198,
+    "id": 3870,
+    "province": "Yozgat",
+    "district": "Boğazlıyan",
+    "name": "Sirçali",
+    "population": 1547
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1198,
+    "id": 3871,
+    "province": "Yozgat",
+    "district": "Boğazlıyan",
+    "name": "Uzunlu",
+    "population": 1338
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1198,
+    "id": 3872,
+    "province": "Yozgat",
+    "district": "Boğazlıyan",
+    "name": "Yamaçli",
+    "population": 2785
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1198,
+    "id": 3873,
+    "province": "Yozgat",
+    "district": "Boğazlıyan",
+    "name": "Yeni̇pazar",
+    "population": 1939
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1242,
+    "id": 3878,
+    "province": "Yozgat",
+    "district": "Çayıralan",
+    "name": "Konuklar",
+    "population": 1455
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1245,
+    "id": 3882,
+    "province": "Yozgat",
+    "district": "Çekerek",
+    "name": "Özükavak",
+    "population": 1275
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1952,
+    "id": 3883,
+    "province": "Yozgat",
+    "district": "Kadışehri",
+    "name": "Haliköy",
+    "population": 1521
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1982,
+    "id": 3885,
+    "province": "Yozgat",
+    "district": "Saraykent",
+    "name": "Dedefakili",
+    "population": 1134
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1982,
+    "id": 3886,
+    "province": "Yozgat",
+    "district": "Saraykent",
+    "name": "Ozan",
+    "population": 1443
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1602,
+    "id": 3888,
+    "province": "Yozgat",
+    "district": "Sarıkaya",
+    "name": "Karayakup",
+    "population": 1720
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1635,
+    "id": 3891,
+    "province": "Yozgat",
+    "district": "Sorgun",
+    "name": "Arapli",
+    "population": 1911
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1635,
+    "id": 3892,
+    "province": "Yozgat",
+    "district": "Sorgun",
+    "name": "Bahadin",
+    "population": 2614
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1635,
+    "id": 3894,
+    "province": "Yozgat",
+    "district": "Sorgun",
+    "name": "Çi̇ğdemli̇",
+    "population": 2158
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1635,
+    "id": 3895,
+    "province": "Yozgat",
+    "district": "Sorgun",
+    "name": "Doğankent",
+    "population": 1725
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1635,
+    "id": 3899,
+    "province": "Yozgat",
+    "district": "Sorgun",
+    "name": "Eymi̇r",
+    "population": 2203
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1635,
+    "id": 3898,
+    "province": "Yozgat",
+    "district": "Sorgun",
+    "name": "Gülşehri̇",
+    "population": 2081
+  },
+  {
+    "provinceId": 66,
+    "districtId": 1635,
+    "id": 3897,
+    "province": "Yozgat",
+    "district": "Sorgun",
+    "name": "Yeni̇yer",
+    "population": 1908
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1741,
+    "id": 3934,
+    "province": "Zonguldak",
+    "district": "Merkez",
+    "name": "Beycuma",
+    "population": 2618
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1741,
+    "id": 3936,
+    "province": "Zonguldak",
+    "district": "Merkez",
+    "name": "Elvanpazarcik",
+    "population": 2939
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1741,
+    "id": 3933,
+    "province": "Zonguldak",
+    "district": "Merkez",
+    "name": "Karaman",
+    "population": 1968
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1758,
+    "id": 3914,
+    "province": "Zonguldak",
+    "district": "Alaplı",
+    "name": "Gümeli̇",
+    "population": 2280
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1240,
+    "id": 3915,
+    "province": "Zonguldak",
+    "district": "Çaycuma",
+    "name": "Fi̇lyos",
+    "population": 4984
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1240,
+    "id": 3919,
+    "province": "Zonguldak",
+    "district": "Çaycuma",
+    "name": "Karapinar",
+    "population": 2875
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1240,
+    "id": 3917,
+    "province": "Zonguldak",
+    "district": "Çaycuma",
+    "name": "Nebi̇oğlu",
+    "population": 2330
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1240,
+    "id": 3916,
+    "province": "Zonguldak",
+    "district": "Çaycuma",
+    "name": "Perşembe",
+    "population": 4658
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1240,
+    "id": 3918,
+    "province": "Zonguldak",
+    "district": "Çaycuma",
+    "name": "Saltukova",
+    "population": 4047
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1276,
+    "id": 3920,
+    "province": "Zonguldak",
+    "district": "Devrek",
+    "name": "Çaydeği̇rmeni̇",
+    "population": 7310
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1313,
+    "id": 3925,
+    "province": "Zonguldak",
+    "district": "Ereğli",
+    "name": "Gülüç",
+    "population": 8192
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1313,
+    "id": 3923,
+    "province": "Zonguldak",
+    "district": "Ereğli",
+    "name": "Kandi̇lli̇",
+    "population": 2889
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1313,
+    "id": 3928,
+    "province": "Zonguldak",
+    "district": "Ereğli",
+    "name": "Ormanli",
+    "population": 2211
+  },
+  {
+    "provinceId": 67,
+    "districtId": 1926,
+    "id": 3929,
+    "province": "Zonguldak",
+    "district": "Gökçebey",
+    "name": "Bakacakkadi",
+    "population": 3429
+  },
+  {
+    "provinceId": 67,
+    "districtId": 2100,
+    "id": 3931,
+    "province": "Zonguldak",
+    "district": "Kilimli",
+    "name": "Çatalağzi",
+    "population": 6378
+  },
+  {
+    "provinceId": 67,
+    "districtId": 2100,
+    "id": 3930,
+    "province": "Zonguldak",
+    "district": "Kilimli",
+    "name": "Geli̇k",
+    "population": 2783
+  },
+  {
+    "provinceId": 67,
+    "districtId": 2100,
+    "id": 3911,
+    "province": "Zonguldak",
+    "district": "Kilimli",
+    "name": "Muslu",
+    "population": 1668
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1120,
+    "id": 3982,
+    "province": "Aksaray",
+    "district": "Merkez",
+    "name": "Bağlikaya",
+    "population": 3221
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1120,
+    "id": 3953,
+    "province": "Aksaray",
+    "district": "Merkez",
+    "name": "Helvadere",
+    "population": 2815
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1120,
+    "id": 3978,
+    "province": "Aksaray",
+    "district": "Merkez",
+    "name": "Sağlik",
+    "population": 2519
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1120,
+    "id": 3950,
+    "province": "Aksaray",
+    "district": "Merkez",
+    "name": "Taşpinar",
+    "population": 3533
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1120,
+    "id": 3944,
+    "province": "Aksaray",
+    "district": "Merkez",
+    "name": "Topakkaya",
+    "population": 2996
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1120,
+    "id": 3958,
+    "province": "Aksaray",
+    "district": "Merkez",
+    "name": "Yeni̇kent",
+    "population": 5491
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1120,
+    "id": 3956,
+    "province": "Aksaray",
+    "district": "Merkez",
+    "name": "Yeşi̇lova",
+    "population": 4177
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1120,
+    "id": 3959,
+    "province": "Aksaray",
+    "district": "Merkez",
+    "name": "Yeşi̇ltepe",
+    "population": 2336
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1921,
+    "id": 3961,
+    "province": "Aksaray",
+    "district": "Eskil",
+    "name": "Eşmekaya",
+    "population": 2696
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1932,
+    "id": 3963,
+    "province": "Aksaray",
+    "district": "Gülağaç",
+    "name": "Demi̇rci̇",
+    "population": 4158
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1932,
+    "id": 3964,
+    "province": "Aksaray",
+    "district": "Gülağaç",
+    "name": "Gülpinar",
+    "population": 2928
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1932,
+    "id": 3965,
+    "province": "Aksaray",
+    "district": "Gülağaç",
+    "name": "Saratli",
+    "population": 2483
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1861,
+    "id": 3967,
+    "province": "Aksaray",
+    "district": "Güzelyurt",
+    "name": "Ihlara",
+    "population": 2463
+  },
+  {
+    "provinceId": 68,
+    "districtId": 1861,
+    "id": 3969,
+    "province": "Aksaray",
+    "district": "Güzelyurt",
+    "name": "Seli̇me",
+    "population": 2120
+  },
+  {
+    "provinceId": 69,
+    "districtId": 1176,
+    "id": 3991,
+    "province": "Bayburt",
+    "district": "Merkez",
+    "name": "Arpali",
+    "population": 2360
+  },
+  {
+    "provinceId": 69,
+    "districtId": 1788,
+    "id": 3988,
+    "province": "Bayburt",
+    "district": "Demirözü",
+    "name": "Gökçedere",
+    "population": 2056
+  },
+  {
+    "provinceId": 70,
+    "districtId": 1439,
+    "id": 4009,
+    "province": "Karaman",
+    "district": "Merkez",
+    "name": "Akçaşehi̇r",
+    "population": 2621
+  },
+  {
+    "provinceId": 70,
+    "districtId": 1439,
+    "id": 4007,
+    "province": "Karaman",
+    "district": "Merkez",
+    "name": "Suduraği",
+    "population": 2458
+  },
+  {
+    "provinceId": 70,
+    "districtId": 1316,
+    "id": 4001,
+    "province": "Karaman",
+    "district": "Ermenek",
+    "name": "Güneyyurt",
+    "population": 5096
+  },
+  {
+    "provinceId": 70,
+    "districtId": 1316,
+    "id": 4002,
+    "province": "Karaman",
+    "district": "Ermenek",
+    "name": "Kazanci",
+    "population": 2410
+  },
+  {
+    "provinceId": 70,
+    "districtId": 1983,
+    "id": 4008,
+    "province": "Karaman",
+    "district": "Sarıveliler",
+    "name": "Göktepe",
+    "population": 2312
+  },
+  {
+    "provinceId": 71,
+    "districtId": 1469,
+    "id": 4032,
+    "province": "Kırıkkale",
+    "district": "Merkez",
+    "name": "Hacilar",
+    "population": 4196
+  },
+  {
+    "provinceId": 71,
+    "districtId": 1268,
+    "id": 4020,
+    "province": "Kırıkkale",
+    "district": "Delice",
+    "name": "Çeri̇kli̇",
+    "population": 2941
+  },
+  {
+    "provinceId": 72,
+    "districtId": 1174,
+    "id": 4047,
+    "province": "Batman",
+    "district": "Merkez",
+    "name": "Balpinar",
+    "population": 6431
+  },
+  {
+    "provinceId": 72,
+    "districtId": 1184,
+    "id": 4046,
+    "province": "Batman",
+    "district": "Beşiri",
+    "name": "İki̇köprü",
+    "population": 3497
+  },
+  {
+    "provinceId": 72,
+    "districtId": 1345,
+    "id": 4048,
+    "province": "Batman",
+    "district": "Gercüş",
+    "name": "Kayapinar",
+    "population": 2452
+  },
+  {
+    "provinceId": 72,
+    "districtId": 1487,
+    "id": 4043,
+    "province": "Batman",
+    "district": "Kozluk",
+    "name": "Beki̇rhan",
+    "population": 3620
+  },
+  {
+    "provinceId": 72,
+    "districtId": 1607,
+    "id": 4045,
+    "province": "Batman",
+    "district": "Sason",
+    "name": "Yücebağ",
+    "population": 3521
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1661,
+    "id": 4068,
+    "province": "Şırnak",
+    "district": "Merkez",
+    "name": "Balveren",
+    "population": 3871
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1661,
+    "id": 4065,
+    "province": "Şırnak",
+    "district": "Merkez",
+    "name": "Kasri̇k",
+    "population": 3391
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1661,
+    "id": 4066,
+    "province": "Şırnak",
+    "district": "Merkez",
+    "name": "Kumçati",
+    "population": 9874
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1931,
+    "id": 4063,
+    "province": "Şırnak",
+    "district": "Güçlükonak",
+    "name": "Findik",
+    "population": 2258
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1403,
+    "id": 4061,
+    "province": "Şırnak",
+    "district": "İdil",
+    "name": "Karalar",
+    "population": 4387
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1403,
+    "id": 4062,
+    "province": "Şırnak",
+    "district": "İdil",
+    "name": "Sirtköy",
+    "population": 2409
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1623,
+    "id": 4058,
+    "province": "Şırnak",
+    "district": "Silopi",
+    "name": "Başveri̇mli̇",
+    "population": 7903
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1623,
+    "id": 4056,
+    "province": "Şırnak",
+    "district": "Silopi",
+    "name": "Çalişkan",
+    "population": 5180
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1623,
+    "id": 4057,
+    "province": "Şırnak",
+    "district": "Silopi",
+    "name": "Görümlü",
+    "population": 5187
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1698,
+    "id": 4059,
+    "province": "Şırnak",
+    "district": "Uludere",
+    "name": "Hi̇lal",
+    "population": 3321
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1698,
+    "id": 4060,
+    "province": "Şırnak",
+    "district": "Uludere",
+    "name": "Şenoba",
+    "population": 7691
+  },
+  {
+    "provinceId": 73,
+    "districtId": 1698,
+    "id": 4067,
+    "province": "Şırnak",
+    "district": "Uludere",
+    "name": "Uzungeçi̇t",
+    "population": 3312
+  },
+  {
+    "provinceId": 74,
+    "districtId": 1172,
+    "id": 4075,
+    "province": "Bartın",
+    "district": "Merkez",
+    "name": "Hasankadi",
+    "population": 2167
+  },
+  {
+    "provinceId": 74,
+    "districtId": 1172,
+    "id": 4076,
+    "province": "Bartın",
+    "district": "Merkez",
+    "name": "Kozcağiz",
+    "population": 7298
+  },
+  {
+    "provinceId": 74,
+    "districtId": 1701,
+    "id": 4074,
+    "province": "Bartın",
+    "district": "Ulus",
+    "name": "Abdi̇paşa",
+    "population": 2711
+  },
+  {
+    "provinceId": 74,
+    "districtId": 1701,
+    "id": 4073,
+    "province": "Bartın",
+    "district": "Ulus",
+    "name": "Kumluca",
+    "population": 2154
+  },
+  {
+    "provinceId": 75,
+    "districtId": 1356,
+    "id": 4085,
+    "province": "Ardahan",
+    "district": "Göle",
+    "name": "Köprülü",
+    "population": 1928
+  },
+  {
+    "provinceId": 76,
+    "districtId": 1398,
+    "id": 4093,
+    "province": "Iğdır",
+    "district": "Merkez",
+    "name": "Halfeli̇",
+    "population": 8240
+  },
+  {
+    "provinceId": 76,
+    "districtId": 1398,
+    "id": 4092,
+    "province": "Iğdır",
+    "district": "Merkez",
+    "name": "Hoşhaber",
+    "population": 2827
+  },
+  {
+    "provinceId": 76,
+    "districtId": 1398,
+    "id": 4094,
+    "province": "Iğdır",
+    "district": "Merkez",
+    "name": "Melekli̇",
+    "population": 3389
+  },
+  {
+    "provinceId": 77,
+    "districtId": 1716,
+    "id": 4109,
+    "province": "Yalova",
+    "district": "Merkez",
+    "name": "Kadiköy",
+    "population": 9958
+  },
+  {
+    "provinceId": 77,
+    "districtId": 2019,
+    "id": 4108,
+    "province": "Yalova",
+    "district": "Altınova",
+    "name": "Kaytazdere",
+    "population": 7123
+  },
+  {
+    "provinceId": 77,
+    "districtId": 2019,
+    "id": 4107,
+    "province": "Yalova",
+    "district": "Altınova",
+    "name": "Subaşi",
+    "population": 8337
+  },
+  {
+    "provinceId": 77,
+    "districtId": 2019,
+    "id": 4106,
+    "province": "Yalova",
+    "district": "Altınova",
+    "name": "Tavşanli",
+    "population": 4656
+  },
+  {
+    "provinceId": 77,
+    "districtId": 2021,
+    "id": 4105,
+    "province": "Yalova",
+    "district": "Çınarcık",
+    "name": "Esenköy",
+    "population": 4396
+  },
+  {
+    "provinceId": 77,
+    "districtId": 2021,
+    "id": 4103,
+    "province": "Yalova",
+    "district": "Çınarcık",
+    "name": "Koru",
+    "population": 8395
+  },
+  {
+    "provinceId": 77,
+    "districtId": 2021,
+    "id": 4101,
+    "province": "Yalova",
+    "district": "Çınarcık",
+    "name": "Teşvi̇ki̇ye",
+    "population": 4838
+  },
+  {
+    "provinceId": 77,
+    "districtId": 2022,
+    "id": 4102,
+    "province": "Yalova",
+    "district": "Çiftlikköy",
+    "name": "Taşköprü",
+    "population": 4642
+  },
+  {
+    "provinceId": 78,
+    "districtId": 1856,
+    "id": 4117,
+    "province": "Karabük",
+    "district": "Yenice",
+    "name": "Yortan",
+    "population": 1703
+  },
+  {
+    "provinceId": 80,
+    "districtId": 1560,
+    "id": 4138,
+    "province": "Osmaniye",
+    "district": "Merkez",
+    "name": "Cevdeti̇ye",
+    "population": 6139
+  },
+  {
+    "provinceId": 80,
+    "districtId": 1743,
+    "id": 4135,
+    "province": "Osmaniye",
+    "district": "Düziçi",
+    "name": "Atalan",
+    "population": 1697
+  },
+  {
+    "provinceId": 80,
+    "districtId": 1743,
+    "id": 4134,
+    "province": "Osmaniye",
+    "district": "Düziçi",
+    "name": "Böcekli̇",
+    "population": 2749
+  },
+  {
+    "provinceId": 80,
+    "districtId": 1743,
+    "id": 4133,
+    "province": "Osmaniye",
+    "district": "Düziçi",
+    "name": "Ellek",
+    "population": 6619
+  },
+  {
+    "provinceId": 80,
+    "districtId": 1743,
+    "id": 4132,
+    "province": "Osmaniye",
+    "district": "Düziçi",
+    "name": "Yarbaşi",
+    "population": 4269
+  },
+  {
+    "provinceId": 80,
+    "districtId": 2028,
+    "id": 4130,
+    "province": "Osmaniye",
+    "district": "Sumbas",
+    "name": "Mehmetli̇",
+    "population": 2339
+  },
+  {
+    "provinceId": 80,
+    "districtId": 2029,
+    "id": 52883,
+    "province": "Osmaniye",
+    "district": "Toprakkale",
+    "name": "Türkmen",
+    "population": 7438
+  },
+  {
+    "provinceId": 81,
+    "districtId": 1292,
+    "id": 4149,
+    "province": "Düzce",
+    "district": "Merkez",
+    "name": "Beyköy",
+    "population": 6194
+  },
+  {
+    "provinceId": 81,
+    "districtId": 1292,
+    "id": 4147,
+    "province": "Düzce",
+    "district": "Merkez",
+    "name": "Boğazi̇çi̇",
+    "population": 4113
+  }
+]
