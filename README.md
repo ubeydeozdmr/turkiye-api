@@ -1,18 +1,6 @@
 # Turkiye API
 
-API containing information about Turkey's provinces, districts, neighborhoods and villages.
-
-## IMPORTANT ANNOUNCEMENT (for cyclic.sh users)
-
-The use of the cyclic.sh service will be discontinued starting from May 10, 2024.
-
-Read more: [https://www.cyclic.sh/posts/cyclic-is-shutting-down/](https://www.cyclic.sh/posts/cyclic-is-shutting-down/)
-
-If you are using one of the [https://turkiyeapi.dev](https://turkiyeapi.dev) or [https://turkiyeapi.herokuapp.com](https://turkiyeapi.herokuapp.com) domains, you do not need to worry. The API will continue to work without any problems.
-
-However, if you are using the cyclic.sh domain, you must update your code with a new domain in May 2024, otherwise the parts of your site, program etc. that use TurkiyeAPI will not work.
-
-You can review the "Domain Names" subheading below.
+API containing information about Turkey's provinces, districts, neighborhoods and villages (and towns).
 
 ## Domain names
 
@@ -20,15 +8,13 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But yo
 
 - [turkiyeapi.herokuapp.com](https://turkiyeapi.herokuapp.com)
 
-We recommend using turkiyeapi.dev domain. If you are using the cyclic.sh domain, you must update your code with a new domain in May 2024.
-
 ## What's new?
 
-> _Latest update: March 1, 2024_
+> _Latest update: August 16, 2024_
 
-- Neighborhoods and villages have been added to the API. (Experimental)
-- Swagger UI has been added to the API. You can now use the API with the Swagger UI.
-- Population data has been updated from 2021 to 2023. (2023 data has been released by TUIK, early 2024)
+- Towns have been added to the API. You can now access information about Turkey's towns.
+
+NOTE: The API is currently in version 1. This is just a patch update (Check issue [#29](https://github.com/ubeydeozdmr/turkiye-api/issues/29)), in version 2 I will probably remove the `/towns` route and add the `/municipalities` route instead. The next version is planned to be released in the future. You can find more information about this in the [Last Considerations](#last-considerations) section.
 
 ## Sources
 
@@ -166,6 +152,12 @@ You can use this route to get data for exact village. The available path variabl
 - `fields` (Query Parameter, string): It shows the fields you want to see in the response.
 
 ## Towns
+
+Important Notes:
+
+- The scope of the v1 version of TurkiyeAPI (without municipal units) is to include provinces, districts, neighborhoods, and villages. However, since towns (a type of municipality) have an important place in the country, two routes have been allocated to them, just like neighborhoods and villages. In short, this is a patch prepared for v1. However, unlike neighborhoods and villages, they are not shown in the `/districts/:id` route, meaning they are isolated within themselves. Nevertheless, in these routes starting with `/towns`, the province-district names and IDs to which the towns are connected are specified, meaning you can connect using these if you wish.
+
+- This is just a patch update (Check issue [#29](https://github.com/ubeydeozdmr/turkiye-api/issues/29)), in version 2 I will probably remove the `/towns` route and add the `/municipalities` route instead.
 
 ### Get All Towns
 
