@@ -7,6 +7,10 @@ exports.getProvinces = function (
   name,
   minPopulation = 1,
   maxPopulation = 1000000000,
+  minArea = 1,
+  maxArea = 1000000000,
+  minAltitude = 0,
+  maxAltitude = 10000,
   isMetropolitan,
   offset = 0,
   limit = 81,
@@ -63,6 +67,48 @@ exports.getProvinces = function (
         return (
           item.population >= minPopulation && item.population <= maxPopulation
         );
+      });
+    }
+
+    if (minArea || maxArea) {
+      if (+minArea <= 0 && +maxArea <= 0) {
+        throw {
+          status: 404,
+          message: "You can't search for a province with an area of 0 or less.",
+        };
+      }
+
+      if (+minArea > +maxArea) {
+        throw {
+          status: 404,
+          message: 'The minimum area cannot be greater than the maximum area.',
+        };
+      }
+
+      provinces = provinces.filter((item) => {
+        return item.area >= minArea && item.area <= maxArea;
+      });
+    }
+
+    if (minAltitude || maxAltitude) {
+      if (+minAltitude < 0 && +maxAltitude < 0) {
+        throw {
+          status: 404,
+          message:
+            "You can't search for a province with an altitude of less than 0.",
+        };
+      }
+
+      if (+minAltitude > +maxAltitude) {
+        throw {
+          status: 404,
+          message:
+            'The minimum altitude cannot be greater than the maximum altitude.',
+        };
+      }
+
+      provinces = provinces.filter((item) => {
+        return item.altitude >= minAltitude && item.altitude <= maxAltitude;
       });
     }
 

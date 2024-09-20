@@ -4,6 +4,10 @@ exports.getVillages = function (
   name,
   minPopulation = 1,
   maxPopulation = 1000000000,
+  provinceId,
+  province,
+  districtId,
+  district,
   offset = 0,
   limit,
   fields,
@@ -47,6 +51,74 @@ exports.getVillages = function (
           item.population >= minPopulation && item.population <= maxPopulation
         );
       });
+    }
+
+    if (provinceId || province) {
+      if (provinceId && province) {
+        throw {
+          status: 404,
+          message:
+            'You can only use one of the provinceId or province parameters.',
+        };
+      }
+
+      if (provinceId) {
+        if (!isFinite(provinceId)) {
+          throw {
+            status: 404,
+            message:
+              'Invalid province ID. The provinceId parameter must be a number.',
+          };
+        }
+
+        villages = villages.filter((item) => item.provinceId === +provinceId);
+      }
+
+      if (province) {
+        const provinceAlt =
+          province.charAt(0).toLocaleUpperCase('TR') +
+          province.slice(1).toLocaleLowerCase('tr');
+
+        villages = villages.filter(
+          (item) =>
+            item.province.includes(province) ||
+            item.province.includes(provinceAlt),
+        );
+      }
+    }
+
+    if (districtId || district) {
+      if (districtId && district) {
+        throw {
+          status: 404,
+          message:
+            'You can only use one of the districtId or district parameters.',
+        };
+      }
+
+      if (districtId) {
+        if (!isFinite(districtId)) {
+          throw {
+            status: 404,
+            message:
+              'Invalid district ID. The districtId parameter must be a number.',
+          };
+        }
+
+        villages = villages.filter((item) => item.districtId === +districtId);
+      }
+
+      if (district) {
+        const districtAlt =
+          district.charAt(0).toLocaleUpperCase('TR') +
+          district.slice(1).toLocaleLowerCase('tr');
+
+        villages = villages.filter(
+          (item) =>
+            item.district.includes(district) ||
+            item.district.includes(districtAlt),
+        );
+      }
     }
 
     if (sort) {

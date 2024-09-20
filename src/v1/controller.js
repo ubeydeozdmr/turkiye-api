@@ -10,6 +10,10 @@ exports.getProvinces = (req, res) => {
       name,
       minPopulation,
       maxPopulation,
+      minArea,
+      maxArea,
+      minAltitude,
+      maxAltitude,
       isMetropolitan,
       offset,
       limit,
@@ -21,6 +25,10 @@ exports.getProvinces = (req, res) => {
       name,
       minPopulation,
       maxPopulation,
+      minArea,
+      maxArea,
+      minAltitude,
+      maxAltitude,
       isMetropolitan,
       offset,
       limit,
@@ -55,13 +63,28 @@ exports.getExactProvince = (req, res) => {
 
 exports.getDistricts = (req, res) => {
   try {
-    const { name, minPopulation, maxPopulation, offset, limit, fields, sort } =
-      req.query;
+    const {
+      name,
+      minPopulation,
+      maxPopulation,
+      minArea,
+      maxArea,
+      provinceId,
+      province,
+      offset,
+      limit,
+      fields,
+      sort,
+    } = req.query;
 
     const districts = Districts.getDistricts(
       name,
       minPopulation,
       maxPopulation,
+      minArea,
+      maxArea,
+      provinceId,
+      province,
       offset,
       limit,
       fields,
@@ -95,13 +118,28 @@ exports.getExactDistrict = (req, res) => {
 
 exports.getNeighborhoods = (req, res) => {
   try {
-    const { name, minPopulation, maxPopulation, offset, limit, fields, sort } =
-      req.query;
+    const {
+      name,
+      minPopulation,
+      maxPopulation,
+      provinceId,
+      province,
+      districtId,
+      district,
+      offset,
+      limit,
+      fields,
+      sort,
+    } = req.query;
 
     const neighborhood = Neighborhoods.getNeighborhoods(
       name,
       minPopulation,
       maxPopulation,
+      provinceId,
+      province,
+      districtId,
+      district,
       offset,
       limit,
       fields,
@@ -135,13 +173,28 @@ exports.getExactNeighborhood = (req, res) => {
 
 exports.getVillages = (req, res) => {
   try {
-    const { name, minPopulation, maxPopulation, offset, limit, fields, sort } =
-      req.query;
+    const {
+      name,
+      minPopulation,
+      maxPopulation,
+      provinceId,
+      province,
+      districtId,
+      district,
+      offset,
+      limit,
+      fields,
+      sort,
+    } = req.query;
 
     const village = Villages.getVillages(
       name,
       minPopulation,
       maxPopulation,
+      provinceId,
+      province,
+      districtId,
+      district,
       offset,
       limit,
       fields,
@@ -175,13 +228,28 @@ exports.getExactVillage = (req, res) => {
 
 exports.getTowns = (req, res) => {
   try {
-    const { name, minPopulation, maxPopulation, offset, limit, fields, sort } =
-      req.query;
+    const {
+      name,
+      minPopulation,
+      maxPopulation,
+      provinceId,
+      province,
+      districtId,
+      district,
+      offset,
+      limit,
+      fields,
+      sort,
+    } = req.query;
 
     const town = Towns.getTowns(
       name,
       minPopulation,
       maxPopulation,
+      provinceId,
+      province,
+      districtId,
+      district,
       offset,
       limit,
       fields,

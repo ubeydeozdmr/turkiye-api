@@ -6,6 +6,10 @@ exports.getDistricts = function (
   name,
   minPopulation = 1,
   maxPopulation = 1000000000,
+  minArea = 1,
+  maxArea = 1000000000,
+  provinceId,
+  province,
   offset = 0,
   limit = 973,
   fields,
@@ -49,6 +53,61 @@ exports.getDistricts = function (
           item.population >= minPopulation && item.population <= maxPopulation
         );
       });
+    }
+
+    if (minArea || maxArea) {
+      if (+minArea <= 0 && +maxArea <= 0) {
+        throw {
+          status: 404,
+          message: "You can't search for a district with an area of 0 or less.",
+        };
+      }
+
+      if (+minArea > +maxArea) {
+        throw {
+          status: 404,
+          message: 'The minimum area cannot be greater than the maximum area.',
+        };
+      }
+
+      districts = districts.filter((item) => {
+        return item.area >= minArea && item.area <= maxArea;
+      });
+    }
+
+    if (provinceId || province) {
+      console.log(provinceId, province);
+      if (provinceId && province) {
+        throw {
+          status: 404,
+          message:
+            'You can only use one of the provinceId or province parameters.',
+        };
+      }
+
+      if (provinceId) {
+        if (!isFinite(provinceId)) {
+          throw {
+            status: 404,
+            message:
+              'Invalid province ID. The provinceId parameter must be a number.',
+          };
+        }
+
+        districts = districts.filter((item) => item.provinceId === +provinceId);
+      }
+
+      if (province) {
+        const provinceAlt =
+          province.charAt(0).toLocaleUpperCase('TR') +
+          province.slice(1).toLocaleLowerCase('tr');
+
+        districts = districts.filter(
+          (item) =>
+            item.province.includes(province) ||
+            item.province.includes(provinceAlt),
+        );
+      }
     }
 
     if (sort) {
