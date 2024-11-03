@@ -26,6 +26,26 @@ const router = express.Router();
  *         schema:
  *           type: number
  *       - in: query
+ *         name: minArea
+ *         description: The minimum area of the province.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: maxArea
+ *         description: The maximum area of the province.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: minAltitude
+ *         description: The minimum altitude of the province.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: maxAltitude
+ *         description: The maximum altitude of the province.
+ *         schema:
+ *           type: number
+ *       - in: query
  *         name: isMetropolitan
  *         description: The province is metropolitan or not.
  *         schema:
@@ -400,6 +420,26 @@ router.get('/provinces/:id', controller.getExactProvince);
  *       schema:
  *         type: number
  *     - in: query
+ *       name: minArea
+ *       description: The minimum area of the district.
+ *       schema:
+ *         type: number
+ *     - in: query
+ *       name: maxArea
+ *       description: The maximum area of the district.
+ *       schema:
+ *         type: number
+ *     - in: query
+ *       name: provinceId
+ *       description: The province ID.
+ *       schema:
+ *         type: number
+ *     - in: query
+ *       name: province
+ *       description: The province name.
+ *       schema:
+ *         type: string
+ *     - in: query
  *       name: offset
  *       description: The offset of the districts list.
  *       schema:
@@ -620,6 +660,26 @@ router.get('/districts/:id', controller.getExactDistrict);
  *         schema:
  *           type: number
  *       - in: query
+ *         name: provinceId
+ *         description: The province ID.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: province
+ *         description: The province name.
+ *         schema:
+ *           type: string
+ *       - in: query
+ *         name: districtId
+ *         description: The district ID.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: district
+ *         description: The district name.
+ *         schema:
+ *           type: string
+ *       - in: query
  *         name: offset
  *         description: The offset of the neighborhoods list.
  *         schema:
@@ -817,6 +877,26 @@ router.get('/neighborhoods/:id', controller.getExactNeighborhood);
  *         description: The maximum population of the village.
  *         schema:
  *           type: number
+ *       - in: query
+ *         name: provinceId
+ *         description: The province ID.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: province
+ *         description: The province name.
+ *         schema:
+ *           type: string
+ *       - in: query
+ *         name: districtId
+ *         description: The district ID.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: district
+ *         description: The district name.
+ *         schema:
+ *           type: string
  *       - in: query
  *         name: offset
  *         description: The offset of the villages list.
@@ -1018,6 +1098,26 @@ router.get('/villages/:id', controller.getExactVillage);
  *         description: The maximum population of the town.
  *         schema:
  *           type: number
+ *       - in: query
+ *         name: provinceId
+ *         description: The province ID.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: province
+ *         description: The province name.
+ *         schema:
+ *           type: string
+ *       - in: query
+ *         name: districtId
+ *         description: The district ID.
+ *         schema:
+ *           type: number
+ *       - in: query
+ *         name: district
+ *         description: The district name.
+ *         schema:
+ *           type: string
  *       - in: query
  *         name: offset
  *         description: The offset of the towns list.
