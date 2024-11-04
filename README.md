@@ -10,11 +10,11 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But yo
 
 ## What's new?
 
-> _Latest update: August 16, 2024_
+> _Latest update: November 4, 2024_
 
-- Towns have been added to the API. You can now access information about Turkey's towns.
-
-NOTE: The API is currently in version 1. This is just a patch update (Check issue [#29](https://github.com/ubeydeozdmr/turkiye-api/issues/29)), in version 2 I will probably remove the `/towns` route and add the `/municipalities` route instead. The next version is planned to be released in the future. You can find more information about this in the [Last Considerations](#last-considerations) section.
+- New query parameters like `minArea` and `maxArea` added to the get-all-type routes.
+- You can now filter by province name or ID in the Get All Districts route.
+- You can now filter by province/district name or ID in Get All Neighborhoods, Get All Villages, Get All Towns routes.
 
 ## Sources
 
@@ -60,6 +60,10 @@ You can use this route to get data for all provinces. The available query parame
 - `name` (string): It shows all the provinces containing or matching your search query.
 - `minPopulation` (number): It shows all the provinces with a population greater than or equal to the value you entered.
 - `maxPopulation` (number): It shows all the provinces with a population less than or equal to the value you entered.
+- `minArea` (number): It shows all the provinces with an area greater than or equal to the value you entered.
+- `maxArea` (number): It shows all the provinces with an area less than or equal to the value you entered.
+- `minAltitude` (number): It shows all the provinces with an altitude greater than or equal to the value you entered.
+- `maxAltitude` (number): It shows all the provinces with an altitude less than or equal to the value you entered.
 - `isMetropolitan` (boolean): It shows all the provinces that are metropolitan or not.
 - `offset` (number): Used for pagination. Use this to set a starting point in search results.
 - `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
@@ -87,6 +91,10 @@ You can use this route to get data for all districts. The available query parame
 - `name` (string): It shows all the districts containing or matching your search query.
 - `minPopulation` (number): It shows all the districts with a population greater than or equal to the value you entered.
 - `maxPopulation` (number): It shows all the districts with a population less than or equal to the value you entered.
+- `minArea` (number): It shows all the districts with an area greater than or equal to the value you entered.
+- `maxArea` (number): It shows all the districts with an area less than or equal to the value you entered.
+- `provinceId` (number): It shows all the districts in the province with the ID you entered.
+- `province` (string): It shows all the districts in the province containing or matching your search query.
 - `offset` (number): Used for pagination. Use this to set a starting point in search results.
 - `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
 - `fields` (string): It shows the fields you want to see in the response.
@@ -112,6 +120,10 @@ You can use this route to get data for all neighborhoods. The available query pa
 - `name` (string): It shows all the neighborhoods containing or matching your search query.
 - `minPopulation` (number): It shows all the neighborhoods with a population greater than or equal to the value you entered.
 - `maxPopulation` (number): It shows all the neighborhoods with a population less than or equal to the value you entered.
+- `provinceId` (number): It shows all the neighborhoods in the province with the ID you entered.
+- `province` (string): It shows all the neighborhoods in the province containing or matching your search query.
+- `districtId` (number): It shows all the neighborhoods in the district with the ID you entered.
+- `district` (string): It shows all the neighborhoods in the district containing or matching your search query.
 - `offset` (number): Used for pagination. Use this to set a starting point in search results.
 - `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
 - `fields` (string): It shows the fields you want to see in the response.
@@ -137,6 +149,10 @@ You can use this route to get data for all villages. The available query paramet
 - `name` (string): It shows all the villages containing or matching your search query.
 - `minPopulation` (number): It shows all the villages with a population greater than or equal to the value you entered.
 - `maxPopulation` (number): It shows all the villages with a population less than or equal to the value you entered.
+- `provinceId` (number): It shows all the villages in the province with the ID you entered.
+- `province` (string): It shows all the villages in the province containing or matching your search query.
+- `districtId` (number): It shows all the villages in the district with the ID you entered.
+- `district` (string): It shows all the villages in the district containing or matching your search query.
 - `offset` (number): Used for pagination. Use this to set a starting point in search results.
 - `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
 - `fields` (string): It shows the fields you want to see in the response.
@@ -168,6 +184,10 @@ You can use this route to get data for all towns. The available query parameters
 - `name` (string): It shows all the towns containing or matching your search query.
 - `minPopulation` (number): It shows all the towns with a population greater than or equal to the value you entered.
 - `maxPopulation` (number): It shows all the towns with a population less than or equal to the value you entered.
+- `provinceId` (number): It shows all the towns in the province with the ID you entered.
+- `province` (string): It shows all the towns in the province containing or matching your search query.
+- `districtId` (number): It shows all the towns in the district with the ID you entered.
+- `district` (string): It shows all the towns in the district containing or matching your search query.
 - `offset` (number): Used for pagination. Use this to set a starting point in search results.
 - `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
 - `fields` (string): It shows the fields you want to see in the response.
