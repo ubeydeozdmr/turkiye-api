@@ -1,7 +1,7 @@
 {
   "name": "turkiye-api",
   "version": "1.0.0",
-  "description": "This API allows you to get data about provinces/districts in Turkey. - Türkiye'deki iller/ilçeler hakkında veri almanızı sağlar.",
+  "description": "This REST API allows you to get data about settlements such as provinces, districts, neighborhoods and villages in Turkey. - Bu REST API Türkiye'deki iller, ilçeler, mahalleler ve köyler gibi yerleşim birimleri hakkında veri almanızı sağlar",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -16,7 +16,7 @@
     "country"
   ],
   "author": "Ubeyde Emir Özdemir",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
