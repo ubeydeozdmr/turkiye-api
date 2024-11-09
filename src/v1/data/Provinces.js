@@ -11,6 +11,8 @@ exports.getProvinces = function (
   maxArea = 1000000000,
   minAltitude = 0,
   maxAltitude = 10000,
+  activatePostalCodes,
+  postalCode,
   isMetropolitan,
   offset = 0,
   limit = 81,
@@ -18,7 +20,10 @@ exports.getProvinces = function (
   sort,
 ) {
   try {
-    let provinces = data;
+    let provinces =
+      activatePostalCodes === 'true'
+        ? data
+        : data.map(({ postalCode, ...rest }) => rest);
 
     provinces.forEach((province) => {
       const provinceDistricts = districts
@@ -110,6 +115,10 @@ exports.getProvinces = function (
       provinces = provinces.filter((item) => {
         return item.altitude >= minAltitude && item.altitude <= maxAltitude;
       });
+    }
+
+    if (activatePostalCodes && postalCode) {
+      provinces = provinces.filter((item) => item.postalCode === postalCode);
     }
 
     if (isMetropolitan) {
@@ -227,7 +236,7 @@ exports.getProvinces = function (
   }
 };
 
-exports.getExactProvince = function (id, fields, extend) {
+exports.getExactProvince = function (id, fields, extend, activatePostalCodes) {
   try {
     if (!isFinite(id)) {
       throw {
@@ -236,15 +245,30 @@ exports.getExactProvince = function (id, fields, extend) {
       };
     }
 
-    const province = data.find((item) => item.id === +id);
+    const province = activatePostalCodes
+      ? data.find((item) => item.id === +id)
+      : data
+          .map(({ postalCode, ...rest }) => rest)
+          .find((item) => item.id === +id);
 
     const provinceDistricts = districts.filter(
       (district) => district.provinceId === province.id,
     );
 
-    province.districts = provinceDistricts.map(
-      ({ id, name, population, area }) => ({ id, name, population, area }),
-    );
+    province.districts = activatePostalCodes
+      ? provinceDistricts.map(({ id, name, population, area, postalCode }) => ({
+          id,
+          name,
+          population,
+          area,
+          postalCode,
+        }))
+      : provinceDistricts.map(({ id, name, population, area }) => ({
+          id,
+          name,
+          population,
+          area,
+        }));
 
     if (extend === 'true') {
       province.districts.forEach((district) => {
