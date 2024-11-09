@@ -8,6 +8,8 @@ exports.getDistricts = function (
   maxPopulation = 1000000000,
   minArea = 1,
   maxArea = 1000000000,
+  activatePostalCodes,
+  postalCode,
   provinceId,
   province,
   offset = 0,
@@ -16,7 +18,10 @@ exports.getDistricts = function (
   sort,
 ) {
   try {
-    let districts = data;
+    let districts =
+      activatePostalCodes === 'true'
+        ? data
+        : data.map(({ postalCode, ...rest }) => rest);
 
     if (!Object.values(arguments).some((item) => item)) {
       return districts;
@@ -73,6 +78,10 @@ exports.getDistricts = function (
       districts = districts.filter((item) => {
         return item.area >= minArea && item.area <= maxArea;
       });
+    }
+
+    if (postalCode) {
+      districts = districts.filter((item) => item.postalCode === postalCode);
     }
 
     if (provinceId || province) {
@@ -212,7 +221,7 @@ exports.getDistricts = function (
   }
 };
 
-exports.getExactDistrict = function (id, fields) {
+exports.getExactDistrict = function (id, fields, activatePostalCodes) {
   try {
     if (!isFinite(id)) {
       throw {
@@ -221,7 +230,11 @@ exports.getExactDistrict = function (id, fields) {
       };
     }
 
-    const district = data.find((item) => item.id === +id);
+    const district = activatePostalCodes
+      ? data.find((item) => item.id === +id)
+      : data
+          .map(({ postalCode, ...rest }) => rest)
+          .find((item) => item.id === +id);
 
     const districtNeighborhoods = neighborhoods
       .filter((neighborhood) => neighborhood.districtId === district.id)
