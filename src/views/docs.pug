@@ -147,6 +147,10 @@ block styles
     content: '🔗';
     margin-right: 0.5rem;
     }
+    div.warningframe.light {
+    background-color: #fff3cd;
+    color: #856404;
+    }
     div.warningframe {
     padding: 1rem;
     border-radius: 0.25rem;
@@ -258,6 +262,9 @@ block content
     a.sidenav__item(href='#towns') Towns
     a.sidenav__item(href='#get-all-towns') &bull; Get All Towns
     a.sidenav__item(href='#get-exact-town') &bull; Get Exact Town
+    a.sidenav__item(href='#postal-codes') Postal Codes (Experimental)
+    a.sidenav__item(href='#activate-postal-codes') &bull; Activate Postal Codes
+    a.sidenav__item(href='#provinces-postal-codes') &bull; Provinces &amp; Districts Postal Codes
     a.sidenav__item(href='/examples') Examples
   article.content
     h1.content__title
@@ -362,7 +369,7 @@ block content
         tr
           td sort
           td string
-          td It sorts the results in ascending or descending order.
+          td It sorts the results in ascending or descending order (Example: -name).
     br
     h2
       a#get-exact-province.hook(href='#get-exact-province')
@@ -472,7 +479,7 @@ block content
         tr
           td sort
           td string
-          td It sorts the results in ascending or descending order.
+          td It sorts the results in ascending or descending order (Example: -name).
     br
     h2
       a#get-exact-district.hook(href='#get-exact-district')
@@ -573,7 +580,7 @@ block content
         tr
           td sort
           td string
-          td It sorts the results in ascending or descending order.
+          td It sorts the results in ascending or descending order (Example: -name).
     br
     h2
       a#get-exact-neighborhood.hook(href='#get-exact-neighborhood')
@@ -674,7 +681,7 @@ block content
         tr
           td sort
           td string
-          td It sorts the results in ascending or descending order.
+          td It sorts the results in ascending or descending order (Example: -name).
     br
     h2
       a#get-exact-village.hook(href='#get-exact-village')
@@ -710,7 +717,7 @@ block content
     h1
       a#towns.hook(href='#towns') Towns
     p Here are the routes related to towns.
-    div.warningframe
+    div.warningframe.light
       | The scope of the v1 version of TurkiyeAPI (without municipal units)
       | is to include provinces, districts, neighborhoods, and villages.
       | However, since towns (a type of municipality) have an important place
@@ -788,7 +795,7 @@ block content
         tr
           td sort
           td string
-          td It sorts the results in ascending or descending order.
+          td It sorts the results in ascending or descending order (Example: -name).
     br
     h2
       a#get-exact-town.hook(href='#get-exact-town')
@@ -820,6 +827,64 @@ block content
           td fields
           td string
           td It shows the fields you want to see in the response.
+    br
+    h1
+      a#postal-codes.hook(href='#postal-codes')
+        | Postal Codes (Experimental)
+    p
+      | Here are the informations related to postal codes.
+    div.warningframe
+      | The postal codes feature is currently partially missing. 
+      | Currently, there is only a postal code feature for provinces and districts,
+      | and a postal code feature for neighborhoods and villages will come later. 
+      | However, another important point is that
+      | the postal code filtering method can be changed, moved to another location,
+      | and postal codes for provinces and districts can be removed 
+      | after neighborhood &amp; village postal codes are added.
+    br
+    h2
+      a#activate-postal-codes.hook(href='#activate-postal-codes')
+        | Activate Postal Codes
+    p
+      | You can use the following query parameter (you should set it to true)
+      | to activate the postal code feature for this routes: Get All Provinces,
+      | Get Exact Province, Get All Districts, Get Exact District.
+    table
+      thead
+        tr
+          th Query Params
+          th Type
+          th Description
+      tbody
+        tr
+          td activatePostalCodes
+          td boolean
+          td It activates the postal code feature. [Default: false]
+    br
+    h2
+      a#provinces-postal-codes.hook(href='#provinces-postal-codes')
+        | Provinces &amp; Districts Postal Codes
+    p
+      | You can use the following query parameter to filter the provinces and districts.
+    div.warningframe.light
+      | Firstly you should activate the postal code feature by setting the
+      | "activatePostalCodes" query parameter to true.
+    br
+    div.warningframe.light
+      | Although postal codes consist only of digits, they are still a string type.
+      | This is because postal codes can start with zero.
+    br
+    table
+      thead
+        tr
+          th Query Params
+          th Type
+          th Description
+      tbody
+        tr
+          td postalCode
+          td string
+          td It shows all the provinces/districts containing or matching your postal code.
     br
     p
       | Turkiye API is an open-source project.
