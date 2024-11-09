@@ -10,11 +10,13 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But yo
 
 ## What's new?
 
-> _Latest update: November 4, 2024_
+> _Latest update: November 9, 2024_
 
-- New query parameters like `minArea` and `maxArea` added to the get-all-type routes.
-- You can now filter by province name or ID in the Get All Districts route.
-- You can now filter by province/district name or ID in Get All Neighborhoods, Get All Villages, Get All Towns routes.
+- Postal codes have been added to the provinces & districts. (Experimental feature)
+- Improvement about the filtering system.
+  - New query parameters like `minArea` and `maxArea` added to the get-all-type routes.
+  - You can now filter by province name or ID in the Get All Districts route.
+  - You can now filter by province/district name or ID in Get All Neighborhoods, Get All Villages, Get All Towns routes.
 
 ## Sources
 
