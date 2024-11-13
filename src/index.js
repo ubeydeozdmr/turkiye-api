@@ -5,10 +5,12 @@ const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const swaggerSpec = require('./swagger');
 const morgan = require('morgan');
+const apicache = require('apicache');
 const { rateLimit } = require('express-rate-limit');
 require('dotenv').config();
 
 const app = express();
+const cache = apicache.middleware;
 
 const { PORT, NODE_ENV } = process.env;
 
@@ -28,6 +30,7 @@ app.options('*', cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(morgan('combined'));
+app.use(cache('24 hour'));
 app.use(limiter);
 
 app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
