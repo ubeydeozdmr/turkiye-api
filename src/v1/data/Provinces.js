@@ -43,7 +43,7 @@ exports.getProvinces = function (
     }
 
     if (name) {
-      nameAlt =
+      const nameAlt =
         name.charAt(0).toLocaleUpperCase('TR') +
         name.slice(1).toLocaleLowerCase('tr');
       provinces = provinces.filter(
