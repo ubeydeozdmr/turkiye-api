@@ -14,6 +14,8 @@ exports.getProvinces = (req, res) => {
       maxArea,
       minAltitude,
       maxAltitude,
+      activatePostalCodes,
+      postalCode,
       isMetropolitan,
       offset,
       limit,
@@ -29,6 +31,8 @@ exports.getProvinces = (req, res) => {
       maxArea,
       minAltitude,
       maxAltitude,
+      activatePostalCodes,
+      postalCode,
       isMetropolitan,
       offset,
       limit,
@@ -48,9 +52,14 @@ exports.getProvinces = (req, res) => {
 exports.getExactProvince = (req, res) => {
   try {
     const { id } = req.params;
-    const { fields, extend } = req.query;
+    const { fields, extend, activatePostalCodes } = req.query;
 
-    const province = Provinces.getExactProvince(id, fields, extend);
+    const province = Provinces.getExactProvince(
+      id,
+      fields,
+      extend,
+      activatePostalCodes,
+    );
 
     return res.send({ status: 'OK', data: province });
   } catch (error) {
@@ -69,6 +78,8 @@ exports.getDistricts = (req, res) => {
       maxPopulation,
       minArea,
       maxArea,
+      activatePostalCodes,
+      postalCode,
       provinceId,
       province,
       offset,
@@ -83,6 +94,8 @@ exports.getDistricts = (req, res) => {
       maxPopulation,
       minArea,
       maxArea,
+      activatePostalCodes,
+      postalCode,
       provinceId,
       province,
       offset,
@@ -103,9 +116,13 @@ exports.getDistricts = (req, res) => {
 exports.getExactDistrict = (req, res) => {
   try {
     const { id } = req.params;
-    const { fields } = req.query;
+    const { fields, activatePostalCodes } = req.query;
 
-    const district = Districts.getExactDistrict(id, fields);
+    const district = Districts.getExactDistrict(
+      id,
+      fields,
+      activatePostalCodes,
+    );
 
     return res.send({ status: 'OK', data: district });
   } catch (error) {
