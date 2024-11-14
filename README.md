@@ -40,7 +40,6 @@ It is not easy to write the code from scratch without breaking the API requests 
 - What kind of project structure should I create?
 - Should I prefer snake_case instead of camelCase? (like area_code instead of areaCode)
 - What kind of route structure should I use? (Should I use routes like "/provinces/34/districts/1852" instead of separate routes for provinces, districts, etc.?
-- Municipality support was not added to v1 because it would have been a bit complicated if I had added it.
 - What kind of connection should there be between Schemas? (How exactly can we position the municipalities when there is an order like provinces > districts > neighborhoods + villages)
 - fields property cannot set quadratic (or more nested) props, also sort property does not work for all fields. How can I find a solution to this?
 - Many more things I can't think of right now.
@@ -204,6 +203,24 @@ You can use this route to get data for exact town. The available path variables 
 - `id` (Path Variable): ID of town
 - `fields` (Query Parameter, string): It shows the fields you want to see in the response.
 
+## About Postal Codes
+
+The postal codes feature is currently partially missing. Currently, there is only a postal code feature for provinces and districts, and a postal code feature for neighborhoods and villages will come later. However, another important point is that the postal code filtering method can be changed, moved to another location, and postal codes for provinces and districts can be removed after neighborhood & village postal codes are added.
+
+You can use the following query parameter (you should set it to true) to activate the postal code feature for this routes: Get All Provinces, Get Exact Province, Get All Districts, Get Exact District.
+
+Firstly you should activate the postal code feature by setting the "activatePostalCodes" query parameter to true.
+
+### Activate Postal Codes
+
+- `activatePostalCodes` (boolean): It activates the postal code feature. [Default: false]
+
+Then you can use the following query parameters to filter the provinces and districts by postal code:
+
+- `postalCode` (string): It shows all the provinces/districts containing or matching your search query.
+
+Although postal codes consist only of digits, they are still a string type. This is because postal codes can start with zero.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -217,3 +234,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [Index](https://ubeydeozdmr.github.io/turkiye-api-templates/index.html)
 
 [v1](https://ubeydeozdmr.github.io/turkiye-api-templates/v1/index.html)
+
+## Contact
+
+You can contact me via [email](mailto:ubeydeozdmr@gmail.com) or [Twitter](https://twitter.com/ubeydeozdmr).
+
+## Support
+
+If you want to support me, you can buy me a coffee. [Buy me a coffee](https://www.buymeacoffee.com/ubeydeozdmr)
