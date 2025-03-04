@@ -46,6 +46,11 @@ const router = express.Router();
  *         schema:
  *           type: number
  *       - in: query
+ *         name: isCoastal
+ *         description: The province is coastal or not.
+ *         schema:
+ *           type: boolean
+ *       - in: query
  *         name: isMetropolitan
  *         description: The province is metropolitan or not.
  *         schema:
@@ -116,6 +121,10 @@ const router = express.Router();
  *                         items:
  *                           type: number
  *                           example: 212, 216
+ *                       isCoastal:
+ *                         type: boolean
+ *                         description: The province is coastal or not.
+ *                         example: true
  *                       isMetropolitan:
  *                         type: boolean
  *                         description: The province is metropolitan or not.
@@ -291,6 +300,9 @@ router.get('/provinces', controller.getProvinces);
  *                       items:
  *                         type: number
  *                         example: 212, 216
+ *                     isCoastal:
+ *                       type: boolean
+ *                       example: true
  *                     isMetropolitan:
  *                       type: boolean
  *                       example: true
