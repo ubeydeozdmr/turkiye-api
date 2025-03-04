@@ -13,6 +13,7 @@ exports.getProvinces = function (
   maxAltitude = 10000,
   activatePostalCodes,
   postalCode,
+  isCoastal,
   isMetropolitan,
   offset = 0,
   limit = 81,
@@ -119,6 +120,19 @@ exports.getProvinces = function (
 
     if (activatePostalCodes && postalCode) {
       provinces = provinces.filter((item) => item.postalCode === postalCode);
+    }
+
+    if (isCoastal) {
+      if (isCoastal === 'true') {
+        provinces = provinces.filter((item) => item.isCoastal === true);
+      } else if (isCoastal === 'false') {
+        provinces = provinces.filter((item) => item.isCoastal === false);
+      } else {
+        throw {
+          status: 404,
+          message: 'The isCoastal parameter must be either true or false.',
+        };
+      }
     }
 
     if (isMetropolitan) {
