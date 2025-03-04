@@ -7,6 +7,7 @@
     "postalCode": "01000",
     "altitude": 25,
     "areaCode": [322],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -43,6 +44,7 @@
     "postalCode": "02000",
     "altitude": 701,
     "areaCode": [416],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -79,6 +81,7 @@
     "postalCode": "03000",
     "altitude": 1012,
     "areaCode": [272],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -115,6 +118,7 @@
     "postalCode": "04000",
     "altitude": 1630,
     "areaCode": [472],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -151,6 +155,7 @@
     "postalCode": "05000",
     "altitude": 400,
     "areaCode": [358],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -187,6 +192,7 @@
     "postalCode": "06000",
     "altitude": 905,
     "areaCode": [312],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -223,6 +229,7 @@
     "postalCode": "07000",
     "altitude": 62,
     "areaCode": [242],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -259,6 +266,7 @@
     "postalCode": "08000",
     "altitude": 530,
     "areaCode": [466],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -295,6 +303,7 @@
     "postalCode": "09000",
     "altitude": 92,
     "areaCode": [256],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -331,6 +340,7 @@
     "postalCode": "10000",
     "altitude": 145,
     "areaCode": [266],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -367,6 +377,7 @@
     "postalCode": "11000",
     "altitude": 513,
     "areaCode": [228],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -403,6 +414,7 @@
     "postalCode": "12000",
     "altitude": 1159,
     "areaCode": [426],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -439,6 +451,7 @@
     "postalCode": "13000",
     "altitude": 1637,
     "areaCode": [434],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -475,6 +488,7 @@
     "postalCode": "14000",
     "altitude": 741,
     "areaCode": [374],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -511,6 +525,7 @@
     "postalCode": "15000",
     "altitude": 963,
     "areaCode": [248],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -547,6 +562,7 @@
     "postalCode": "16000",
     "altitude": 238,
     "areaCode": [224],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -583,6 +599,7 @@
     "postalCode": "17000",
     "altitude": 11,
     "areaCode": [286],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -619,6 +636,7 @@
     "postalCode": "18000",
     "altitude": 730,
     "areaCode": [376],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -655,6 +673,7 @@
     "postalCode": "19000",
     "altitude": 822,
     "areaCode": [364],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -691,6 +710,7 @@
     "postalCode": "20000",
     "altitude": 392,
     "areaCode": [258],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -727,6 +747,7 @@
     "postalCode": "21000",
     "altitude": 674,
     "areaCode": [412],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -763,6 +784,7 @@
     "postalCode": "22000",
     "altitude": 50,
     "areaCode": [284],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -799,6 +821,7 @@
     "postalCode": "23000",
     "altitude": 1041,
     "areaCode": [424],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -835,6 +858,7 @@
     "postalCode": "24000",
     "altitude": 1216,
     "areaCode": [446],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -871,6 +895,7 @@
     "postalCode": "25000",
     "altitude": 1923,
     "areaCode": [442],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -907,6 +932,7 @@
     "postalCode": "26000",
     "altitude": 796,
     "areaCode": [222],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -943,6 +969,7 @@
     "postalCode": "27000",
     "altitude": 838,
     "areaCode": [342],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -979,6 +1006,7 @@
     "postalCode": "28000",
     "altitude": 14,
     "areaCode": [454],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1015,6 +1043,7 @@
     "postalCode": "29000",
     "altitude": 1174,
     "areaCode": [456],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1051,6 +1080,7 @@
     "postalCode": "30000",
     "altitude": 1756,
     "areaCode": [438],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1087,6 +1117,7 @@
     "postalCode": "31000",
     "altitude": 89,
     "areaCode": [326],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1123,6 +1154,7 @@
     "postalCode": "32000",
     "altitude": 1058,
     "areaCode": [246],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1159,6 +1191,7 @@
     "postalCode": "33000",
     "altitude": 18,
     "areaCode": [324],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1195,6 +1228,7 @@
     "postalCode": "34000",
     "altitude": 25,
     "areaCode": [212, 216],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1231,6 +1265,7 @@
     "postalCode": "35000",
     "altitude": 9,
     "areaCode": [232],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1267,6 +1302,7 @@
     "postalCode": "36000",
     "altitude": 1756,
     "areaCode": [474],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1303,6 +1339,7 @@
     "postalCode": "37000",
     "altitude": 814,
     "areaCode": [366],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1339,6 +1376,7 @@
     "postalCode": "38000",
     "altitude": 1060,
     "areaCode": [352],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1375,6 +1413,7 @@
     "postalCode": "39000",
     "altitude": 231,
     "areaCode": [288],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1411,6 +1450,7 @@
     "postalCode": "40000",
     "altitude": 991,
     "areaCode": [386],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1447,6 +1487,7 @@
     "postalCode": "41000",
     "altitude": 4,
     "areaCode": [262],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1483,6 +1524,7 @@
     "postalCode": "42000",
     "altitude": 1023,
     "areaCode": [332],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1519,6 +1561,7 @@
     "postalCode": "43000",
     "altitude": 958,
     "areaCode": [274],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1555,6 +1598,7 @@
     "postalCode": "44000",
     "altitude": 970,
     "areaCode": [422],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1591,6 +1635,7 @@
     "postalCode": "45000",
     "altitude": 79,
     "areaCode": [236],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1627,6 +1672,7 @@
     "postalCode": "46000",
     "altitude": 562,
     "areaCode": [344],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1663,6 +1709,7 @@
     "postalCode": "47000",
     "altitude": 938,
     "areaCode": [482],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1699,6 +1746,7 @@
     "postalCode": "48000",
     "altitude": 659,
     "areaCode": [252],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1735,6 +1783,7 @@
     "postalCode": "49000",
     "altitude": 1334,
     "areaCode": [436],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1771,6 +1820,7 @@
     "postalCode": "50000",
     "altitude": 1197,
     "areaCode": [384],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1807,6 +1857,7 @@
     "postalCode": "51000",
     "altitude": 1239,
     "areaCode": [388],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1843,6 +1894,7 @@
     "postalCode": "52000",
     "altitude": 25,
     "areaCode": [452],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1879,6 +1931,7 @@
     "postalCode": "53000",
     "altitude": 11,
     "areaCode": [464],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -1915,6 +1968,7 @@
     "postalCode": "54000",
     "altitude": 41,
     "areaCode": [264],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1951,6 +2005,7 @@
     "postalCode": "55000",
     "altitude": 10,
     "areaCode": [362],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -1987,6 +2042,7 @@
     "postalCode": "56000",
     "altitude": 887,
     "areaCode": [484],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2023,6 +2079,7 @@
     "postalCode": "57000",
     "altitude": 27,
     "areaCode": [368],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2059,6 +2116,7 @@
     "postalCode": "58000",
     "altitude": 1313,
     "areaCode": [346],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2095,6 +2153,7 @@
     "postalCode": "59000",
     "altitude": 28,
     "areaCode": [282],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -2131,6 +2190,7 @@
     "postalCode": "60000",
     "altitude": 630,
     "areaCode": [356],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2167,6 +2227,7 @@
     "postalCode": "61000",
     "altitude": 36,
     "areaCode": [462],
+    "isCoastal": true,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -2203,6 +2264,7 @@
     "postalCode": "62000",
     "altitude": 922,
     "areaCode": [428],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2239,6 +2301,7 @@
     "postalCode": "63000",
     "altitude": 527,
     "areaCode": [414],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -2275,6 +2338,7 @@
     "postalCode": "64000",
     "altitude": 915,
     "areaCode": [276],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2311,6 +2375,7 @@
     "postalCode": "65000",
     "altitude": 1728,
     "areaCode": [432],
+    "isCoastal": false,
     "isMetropolitan": true,
     "nuts": {
       "nuts1": {
@@ -2347,6 +2412,7 @@
     "postalCode": "66000",
     "altitude": 1317,
     "areaCode": [354],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2383,6 +2449,7 @@
     "postalCode": "67000",
     "altitude": 10,
     "areaCode": [372],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2419,6 +2486,7 @@
     "postalCode": "68000",
     "altitude": 1228,
     "areaCode": [382],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2455,6 +2523,7 @@
     "postalCode": "69000",
     "altitude": 1555,
     "areaCode": [458],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2491,6 +2560,7 @@
     "postalCode": "70000",
     "altitude": 1063,
     "areaCode": [338],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2527,6 +2597,7 @@
     "postalCode": "71000",
     "altitude": 746,
     "areaCode": [318],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2563,6 +2634,7 @@
     "postalCode": "72000",
     "altitude": 570,
     "areaCode": [488],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2599,6 +2671,7 @@
     "postalCode": "73000",
     "altitude": 1343,
     "areaCode": [486],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2635,6 +2708,7 @@
     "postalCode": "74000",
     "altitude": 12,
     "areaCode": [378],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2671,6 +2745,7 @@
     "postalCode": "75000",
     "altitude": 1799,
     "areaCode": [478],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2707,6 +2782,7 @@
     "postalCode": "76000",
     "altitude": 860,
     "areaCode": [476],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2743,6 +2819,7 @@
     "postalCode": "77000",
     "altitude": 8,
     "areaCode": [226],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2779,6 +2856,7 @@
     "postalCode": "78000",
     "altitude": 264,
     "areaCode": [370],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2815,6 +2893,7 @@
     "postalCode": "79000",
     "altitude": 660,
     "areaCode": [348],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2851,6 +2930,7 @@
     "postalCode": "80000",
     "altitude": 121,
     "areaCode": [328],
+    "isCoastal": false,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {
@@ -2887,6 +2967,7 @@
     "postalCode": "81000",
     "altitude": 149,
     "areaCode": [380],
+    "isCoastal": true,
     "isMetropolitan": false,
     "nuts": {
       "nuts1": {

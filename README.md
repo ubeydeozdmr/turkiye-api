@@ -10,13 +10,10 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But yo
 
 ## What's new?
 
-> _Latest update: November 9, 2024_
+> _Latest update: March 4, 2025_
 
-- Postal codes have been added to the provinces & districts. (Experimental feature)
-- Improvement about the filtering system.
-  - New query parameters like `minArea` and `maxArea` added to the get-all-type routes.
-  - You can now filter by province name or ID in the Get All Districts route.
-  - You can now filter by province/district name or ID in Get All Neighborhoods, Get All Villages, Get All Towns routes.
+- isCoastal property added to provinces.
+- isCoastal query parameter added to provinces.
 
 ## Sources
 
@@ -65,6 +62,7 @@ You can use this route to get data for all provinces. The available query parame
 - `maxArea` (number): It shows all the provinces with an area less than or equal to the value you entered.
 - `minAltitude` (number): It shows all the provinces with an altitude greater than or equal to the value you entered.
 - `maxAltitude` (number): It shows all the provinces with an altitude less than or equal to the value you entered.
+- `isCoastal` (boolean): It shows all the provinces that are coastal or not.
 - `isMetropolitan` (boolean): It shows all the provinces that are metropolitan or not.
 - `offset` (number): Used for pagination. Use this to set a starting point in search results.
 - `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
