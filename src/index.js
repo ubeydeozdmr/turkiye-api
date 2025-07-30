@@ -14,12 +14,22 @@ const cache = apicache.middleware;
 
 const { PORT, NODE_ENV } = process.env;
 
+app.set('trust proxy', 1);
+
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   limit: 150,
   message: 'Too many requests from this IP, please try again in 15 minutes!',
   standardHeaders: 'draft-7',
   legacyHeaders: false,
+  skip: (req) => {
+    const localIps = ['127.0.0.1', '::1', '::ffff:127.0.0.1'];
+    return localIps.includes(req.ip);
+  },
+  handler: (req, res, next, options) => {
+    console.warn(`Rate limit exceeded for IP: ${req.ip}`);
+    res.status(options.statusCode).json({ message: options.message });
+  },
 });
 
 app.set('view engine', 'pug');
