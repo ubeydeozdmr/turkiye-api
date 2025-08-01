@@ -20,16 +20,16 @@
   "dependencies": {
     "apicache": "^1.6.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.2.1",
     "express": "^4.21.2",
-    "express-rate-limit": "^7.5.0",
+    "express-rate-limit": "^8.0.1",
     "morgan": "^1.10.1",
     "pug": "^3.0.3",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "jest": "^29.7.0",
+    "jest": "^30.0.5",
     "nodemon": "^3.1.10"
   },
   "repository": {
