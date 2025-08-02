@@ -252,14 +252,14 @@ block content
       a#example1.hook(href='#example1')  Example 1: Search provinces
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http /api/v1/provinces?name={user input}       
+      code.urlframe__url.language-http /api/v1/provinces?name={user input}
     p
       | The end user&apos;s connection to your site, app, etc. One of the first things
       | he/she/they will do when he enters is probably to search for any province (or
       | district). In this case, it would be most logical to use this query.
     p
       | NOTE: Note that this method only deals with the names of provinces (or districts).
-      | For this, use 
+      | For this, use
       code .../api/v1/provinces/34
       |  instead of
       code .../api/v1/provinces?name=34
@@ -268,7 +268,7 @@ block content
       p.playground__panel--title Example usage:
       pre.playground__panel--content
         code.language-javascript
-          |  
+          |
           |  async function getProvinces(input) {
           |    try {
           |      if (input.length > 0) {
@@ -285,21 +285,21 @@ block content
           |
           |  // NOTE: This is just an example. You can use this function in your own way.
           |  // You can use the search by name feature not only for provinces but also for districts. Just replace "provinces" with "districts".
-          |  
-                      
+          |
+
     p
-      | After that, let&apos;s consider that the user makes the query 
+      | After that, let&apos;s consider that the user makes the query
       code &quot;istanbul&quot;
       | .
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http /api/v1/provinces?name=istanbul     
-                
+      code.urlframe__url.language-http /api/v1/provinces?name=istanbul
+
     .playground__panel
       p.playground__panel--title Response:
       pre.playground__panel--content
         code.language-json
-          |  
+          |
           |  {
           |    "status": "OK",
           |    "data": [
@@ -335,7 +335,7 @@ block content
           |        },
           |        "maps": {
           |          "googleMaps": "https://goo.gl/maps/wKdwRFM4NW8Wm6ZZ8",
-          |          "openStreetMaps": "https://www.openstreetmap.org/relation/223474"
+          |          "openStreetMap": "https://www.openstreetmap.org/relation/223474"
           |        },
           |        "region": {
           |          "en": "Marmara",
@@ -349,7 +349,7 @@ block content
           |  }
           |
           |  // "data" returns an array, regardless of whether a single province or multiple provinces are returned when searched.
-          |  
+          |
 
     h2
       a#example2.hook(href='#example2')
@@ -357,12 +357,12 @@ block content
     pre.urlframe
       span.urlframe__method GET
       code.urlframe__url.language-http /api/v1/districts?minPopulation={user input}&amp;maxPopulation={user input}
-                
+
     .playground__panel
       p.playground__panel--title Example usage:
       pre.playground__panel--content
         code.language-javascript
-          |  
+          |
           |  async function getDistricts(min, max) {
           |    try {
           |      if (min &gt; 0 &amp;&amp; max &gt; 0) {
@@ -379,8 +379,8 @@ block content
           |
           |  // NOTE: This is just an example. You can use this function in your own way.
           |  // NOTE: You can use the search by population feature not only for districts but also for provinces. Just replace "districts" with "provinces".
-          |  
-                      
+          |
+
     pre.urlframe
       span.urlframe__method GET
       code.urlframe__url.language-http /api/v1/districts?minPopulation=100000&amp;maxPopulation=300000
@@ -388,7 +388,7 @@ block content
       | Good, now let&apos;s assume that the user wants to list the districts within a certain
       | population range. In this example, let&apos;s assume that the end user enters
       code 100000
-      |  as the minimum population and 
+      |  as the minimum population and
       code 300000
       |  as the
       |         maximum population.
@@ -396,7 +396,7 @@ block content
       p.playground__panel--title Response:
       pre.playground__panel--content
         code.language-json
-          |  
+          |
           |  {
           |    "status": "OK",
           |    "data": [
@@ -424,7 +424,7 @@ block content
           |      // Other 150 districts
           |    ]
           |  }
-          |  
+          |
 
     h2
       a#example3.hook(href='#example3')  Example 3: Pagination
@@ -440,7 +440,7 @@ block content
       p.playground__panel--title Example usage:
       pre.playground__panel--content
         code.language-javascript
-          |  
+          |
           |  async function getProvinces(offset, limit) {
           |    try {
           |      if (offset &gt; 0 &amp;&amp; limit &gt; 0) {
@@ -463,19 +463,19 @@ block content
           |  getProvinces(offset, limit).then((data) =&gt; {
           |    console.log(data);
           |  });
-          |  
-                      
+          |
+
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http /api/v1/provinces?offset=30&amp;limit=10   
+      code.urlframe__url.language-http /api/v1/provinces?offset=30&amp;limit=10
     p
-      | In this example, let the 
+      | In this example, let the
       code offset
-      |  value be 
+      |  value be
       code 30
       |  and the
       code limit
-      |  value 
+      |  value
       code 10
       | . In this case, if we decide that there
       |         will be 10 provinces on each page, the provinces 31 to 40 will be listed on page 4
@@ -484,7 +484,7 @@ block content
       p.playground__panel--title Response:
       pre.playground__panel--content
         code.language-json
-          |  
+          |
           |  {
           |    "status": "OK",
           |    "data": [
@@ -519,7 +519,7 @@ block content
           |        },
           |        "maps": {
           |          "googleMaps": "https://goo.gl/maps/2VkFg1AM9B4Xv9W89",
-          |          "openStreetMaps": "https://www.openstreetmap.org/relation/223122"
+          |          "openStreetMap": "https://www.openstreetmap.org/relation/223122"
           |        },
           |        "region": {
           |          "en": "Mediterranean",
@@ -560,7 +560,7 @@ block content
           |        },
           |        "maps": {
           |          "googleMaps": "https://goo.gl/maps/v8tcHjuuCKyNMn687",
-          |          "openStreetMaps": "https://www.openstreetmap.org/relation/223134"
+          |          "openStreetMap": "https://www.openstreetmap.org/relation/223134"
           |        },
           |        "region": {
           |          "en": "Mediterranean",
@@ -573,7 +573,7 @@ block content
           |      // Other 8 provinces
           |    ]
           |  }
-          |  
+          |
 
     h2
       a#example4.hook(href='#example4')  Example 4: Fields
@@ -593,7 +593,7 @@ block content
       p.playground__panel--title Example usage:
       pre.playground__panel--content
         code.language-javascript
-          |  
+          |
           |  async function getProvinces(fields) {
           |    try {
           |      if (fields) {
@@ -609,8 +609,8 @@ block content
           |  }
           |
           |  let fields = "id,name,area,population,areaCode,isCoastal,isMetropolitan,maps,region";
-          |  
-                      
+          |
+
     pre.urlframe
       span.urlframe__method GET
       code.urlframe__url.language-http /api/v1/provinces?fields=id,name,area,population,altitude,areaCode,isCoastal,isMetropolitan,maps,region  
@@ -622,7 +622,7 @@ block content
       p.playground__panel--title Response:
       pre.playground__panel--content
         code.language-json
-          |  
+          |
           |  {
           |    "status": "OK",
           |    "data": [
@@ -643,7 +643,7 @@ block content
           |        },
           |        "maps": {
           |          "googleMaps": "https://goo.gl/maps/4yHUNdZuhcBn7rqX8",
-          |          "openStreetMaps": "https://www.openstreetmap.org/relation/167216"
+          |          "openStreetMap": "https://www.openstreetmap.org/relation/167216"
           |        },
           |        "region": {
           |          "en": "Mediterranean",
@@ -667,7 +667,7 @@ block content
           |        },
           |        "maps": {
           |          "googleMaps": "https://goo.gl/maps/UqRzeK1ApyPjbhpp6",
-          |          "openStreetMaps": "https://www.openstreetmap.org/relation/223141"
+          |          "openStreetMap": "https://www.openstreetmap.org/relation/223141"
           |        },
           |        "region": {
           |          "en": "Southeastern Anatolia",
@@ -677,13 +677,13 @@ block content
           |      // Other 79 provinces
           |    ]
           |  }
-          |  
-                      
+          |
+
     h2
       a#example5.hook(href='#example5')  Example 5: Sorting
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http /api/v1/districts?sort={user input}    
+      code.urlframe__url.language-http /api/v1/districts?sort={user input}
     p
       | By default, districts are classified according to the provinces they are
       | affiliated with first, and if the districts are affiliated with the same
@@ -693,7 +693,7 @@ block content
       p.playground__panel--title Example usage:
       pre.playground__panel--content
         code.language-javascript
-          |  
+          |
           |  async function getDistricts(sort) {
           |    try {
           |      if (sort) {
@@ -708,20 +708,20 @@ block content
           |    }
           |  }
           |
-          |  let sort = "name";   
-          |        
-                      
+          |  let sort = "name";
+          |
+
     pre.urlframe
       span.urlframe__method GET
-      code.urlframe__url.language-http /api/v1/districts?sort=-population 
+      code.urlframe__url.language-http /api/v1/districts?sort=-population
     p
       | In this example, let&apos;s rank all the districts from the most populated to the least
       | populated.
     p
-      | NOTE: If you&apos;ve noticed, the 
+      | NOTE: If you&apos;ve noticed, the
       code ?sort=-population
       |  query has a minus (-)
-      |         sign before 
+      |         sign before
       code population
       | . This symbol is used to descend the ascending
       |         order. In this example, we will use this sign to rank from the most populated
@@ -730,7 +730,7 @@ block content
       p.playground__panel--title Response:
       pre.playground__panel--content
         code.language-json
-          |  
+          |
           |   {
           |     "status": "OK",
           |     "data": [
@@ -767,8 +767,8 @@ block content
           |       // Last two districts
           |     ]
           |   }
-          |  
-                      
+          |
+
     h2
       a#example6.hook(href='#example6')  Example 6: Complex Queries
     pre.urlframe
@@ -782,7 +782,7 @@ block content
       p.playground__panel--title Response:
       pre.playground__panel--content
         code.language-json
-          |  
+          |
           |   {
           |     "status": "OK",
           |     "data": [
@@ -817,7 +817,7 @@ block content
           |       // Other 16 districts
           |     ]
           |   }
-          |  
+          |
     p Good luck!
 
 block scripts

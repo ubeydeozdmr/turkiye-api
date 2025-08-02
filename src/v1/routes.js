@@ -179,7 +179,7 @@ const router = express.Router();
  *                           googleMaps:
  *                             type: string
  *                             example: https://goo.gl/maps/wKdwRFM4NW8Wm6ZZ8
- *                           openStreetMaps:
+ *                           openStreetMap:
  *                             type: string
  *                             example: https://www.openstreetmap.org/relation/223474
  *                       region:
@@ -351,7 +351,7 @@ router.get('/provinces', controller.getProvinces);
  *                         googleMaps:
  *                           type: string
  *                           example: https://goo.gl/maps/wKdwRFM4NW8Wm6ZZ8
- *                         openStreetMaps:
+ *                         openStreetMap:
  *                           type: string
  *                           example: https://www.openstreetmap.org/relation/223474
  *                     region:
