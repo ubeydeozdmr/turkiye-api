@@ -3,6 +3,13 @@ const controller = require('./controller');
 
 const router = express.Router();
 
+router.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'OK',
+    message: 'Welcome to the TurkiyeAPI',
+  });
+});
+
 /**
  * @swagger
  * /provinces:
