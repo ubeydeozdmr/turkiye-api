@@ -10,10 +10,10 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But yo
 
 ## What's new?
 
-> _Latest update: March 4, 2025_
+> _Latest update: August 3, 2025_
 
-- isCoastal property added to provinces.
-- isCoastal query parameter added to provinces.
+- New documentation is available at [docs.turkiyeapi.dev](https://docs.turkiyeapi.dev).
+- The API documentation is now available in both English and Turkish languages.
 
 ## Sources
 
@@ -36,7 +36,7 @@ It is not easy to write the code from scratch without breaking the API requests 
 - Should I use database in v2 as opposed to v1?
 - What kind of project structure should I create?
 - Should I prefer snake_case instead of camelCase? (like area_code instead of areaCode)
-- What kind of route structure should I use? (Should I use routes like "/provinces/34/districts/1852" instead of separate routes for provinces, districts, etc.?
+- What kind of route structure should I use? (Should I use routes like "/provinces/34/districts/1852" instead of separate routes for provinces, districts, etc.?)
 - What kind of connection should there be between Schemas? (How exactly can we position the municipalities when there is an order like provinces > districts > neighborhoods + villages)
 - fields property cannot set quadratic (or more nested) props, also sort property does not work for all fields. How can I find a solution to this?
 - Many more things I can't think of right now.
