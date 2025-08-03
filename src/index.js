@@ -47,8 +47,10 @@ app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 app.get('/', (req, res) => {
   const images = fs.readdirSync(path.join(__dirname, 'public', 'assets'));
+  const language = req.acceptsLanguages()[0] || 'en';
   res.render('index', {
     image: images[Math.floor(Math.random() * images.length)],
+    language,
   });
 });
 

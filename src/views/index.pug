@@ -231,6 +231,69 @@ block styles
     display: none;
     }
     }
+    .new-docs-card {
+      background-color: #1b1b1f;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      padding: 20px;
+      max-width: 600px;
+      width: 100%;
+      margin: 1rem 0;
+    }
+    .new-docs-card__textbox {
+      flex: 1;
+      color: #dfdfd6;
+    }
+    .new-docs-card__title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #dfdfd6;
+      font-weight: 700;
+    }
+    .new-docs-card__description {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #98989f;
+      font-weight: 500;
+    }
+    .new-docs-card__button {
+      display: inline-block;
+      background-color: #3bd6c6;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 1000px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .new-docs-card__button:hover {
+      background-color: #2bc4b8;
+    }
+    .new-docs-card__logo-container {
+      display: flex;
+      align-items: center;
+    }
+    .new-docs-card__logo {
+      width: 100px;
+      height: auto;
+      margin-left: 20px;
+    }
+    @media only screen and (max-width: 768px) {
+      .new-docs-card {
+        flex-direction: column;
+        text-align: center;
+      }
+      .new-docs-card__logo {
+        margin: 20px auto 0;
+      }
+      .new-docs-card__title {
+        font-size: 1.5rem;
+      }
+      .new-docs-card__description {
+        font-size: 0.9rem;
+      }
+    }
   title Turkiye API
 
 block content
@@ -243,9 +306,36 @@ block content
       a.hero__quick-start(href='#content' style='padding: 2.5%')
         | &darr; QUICK START
   article#content.content
+    .new-docs-card
+      .new-docs-card__textbox
+        if language && language.startsWith('tr')
+          h2.new-docs-card__title Yeni dokümantasyonu denemek ister misiniz?
+          p.new-docs-card__description
+            | Türkçe desteği olan, daha detaylı ve açıklayıcı anlatımlara sahip yeni
+            | dokümantasyon sayfamızı ziyaret edebilirsiniz. Yeni dokümantasyon
+            | sayfası, API'nin nasıl kullanılacağına dair kapsamlı bilgiler
+            | sunmaktadır.
+          a.new-docs-card__button(href='https://docs.turkiyeapi.dev/' target='_blank')
+            | Yeni Dokümantasyonu İncele
+        else
+          h2.new-docs-card__title Want to try the new documentation?
+          p.new-docs-card__description
+            | Visit our new documentation page, more detailed
+            | and explanatory descriptions. The new documentation page provides
+            | comprehensive information on how to use the API.
+          a.new-docs-card__button(href='https://docs.turkiyeapi.dev/en' target='_blank')
+            | Explore New Documentation
+      .new-docs-card__logo-container
+        img.new-docs-card__logo(src='https://docs.turkiyeapi.dev/logo.png' alt='TurkiyeAPI Logo')
     p.content__text
-      a.content__link(href='/docs') Click here
-      | to view the documentation!
+      if language && language.startsWith('tr')
+        | veya eski dokümantasyonu görmek için
+        a.content__link(href='/docs')  buraya tıklayabilirsiniz
+        | .
+      else
+        | or, you can
+        a.content__link(href='/docs')  click here
+        |  to view the old documentation.
     .playground
       .playground__url
         p.playground__url--host#sm /api/v1/
@@ -261,25 +351,25 @@ block content
         |  to
         |           view response in a new tab.
       p.playground__hint
-        | Need a hint? Try
+        | Need a hint? Try&#32;
         a.playground__hint--link(href='#action') provinces
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') provinces?name=istanbul
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') provinces?isMetropolitan=true
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') provinces/28
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') districts
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') districts?name=dağ
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') districts?minPopulation=100000&amp;maxPopulation=300000
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') districts/1832
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') provinces?offset=10&amp;limit=20
-        | ,
+        | ,&#32;
         a.playground__hint--link(href='#action') provinces?fields=name,areaCode
 
       .playground__panel
@@ -289,11 +379,12 @@ block content
 
   footer.footer
     p.footer__text
-      | Created by
+      | Created by&#32;
       a.footer__link(target='_blank' href='https://ubeyde.me') Ubeyde Emir Özdemir
-      |  /
+      |  /&#32;
+      
       a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/turkiye-api') GitHub
-      |  /
+      |  /&#32;
       a.footer__link(target='_blank' href='https://github.com/ubeydeozdmr/turkiye-api/blob/main/LICENSE') License
 
 block scripts
