@@ -22,14 +22,6 @@ const limiter = rateLimit({
   message: 'Too many requests from this IP, please try again in 15 minutes!',
   standardHeaders: 'draft-7',
   legacyHeaders: false,
-  skip: (req) => {
-    const localIps = ['127.0.0.1', '::1', '::ffff:127.0.0.1'];
-    return localIps.includes(req.ip);
-  },
-  handler: (req, res, next, options) => {
-    console.warn(`Rate limit exceeded for IP: ${req.ip}`);
-    res.status(options.statusCode).json({ message: options.message });
-  },
 });
 
 app.set('view engine', 'pug');
@@ -40,7 +32,7 @@ app.options('*', cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(morgan('combined'));
-app.use(cache('24 hour'));
+app.use(cache('2 minutes'));
 app.use(limiter);
 
 app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
