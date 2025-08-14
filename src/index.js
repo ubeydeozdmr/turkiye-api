@@ -6,7 +6,7 @@ const swaggerUI = require('swagger-ui-express');
 const swaggerSpec = require('./swagger');
 const morgan = require('morgan');
 const apicache = require('apicache');
-const { rateLimit } = require('express-rate-limit');
+// const { rateLimit } = require('express-rate-limit');
 require('dotenv').config();
 
 const app = express();
@@ -14,15 +14,15 @@ const cache = apicache.middleware;
 
 const { PORT, NODE_ENV } = process.env;
 
-app.set('trust proxy', 1);
+// app.set('trust proxy', 1);
 
-const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  limit: 150,
-  message: 'Too many requests from this IP, please try again in 15 minutes!',
-  standardHeaders: 'draft-7',
-  legacyHeaders: false,
-});
+// const limiter = rateLimit({
+//   windowMs: 15 * 60 * 1000,
+//   limit: 150,
+//   message: 'Too many requests from this IP, please try again in 15 minutes!',
+//   standardHeaders: 'draft-7',
+//   legacyHeaders: false,
+// });
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
@@ -33,7 +33,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(morgan('combined'));
 app.use(cache('2 minutes'));
-app.use(limiter);
+// app.use(limiter);
 
 app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
