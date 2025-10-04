@@ -2,11 +2,7 @@
 
 API containing information about Turkey's provinces, districts, neighborhoods and villages (and towns).
 
-## Domain names
-
-The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. But you can still use the following domains:
-
-- [turkiyeapi.herokuapp.com](https://turkiyeapi.herokuapp.com)
+The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. You can visit: [https://turkiyeapi.dev](https://turkiyeapi.dev)
 
 ## What's new?
 
