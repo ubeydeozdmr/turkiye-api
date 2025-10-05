@@ -4,6 +4,12 @@ API containing information about Turkey's provinces, districts, neighborhoods an
 
 The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. You can visit: [https://turkiyeapi.dev](https://turkiyeapi.dev)
 
+## IMPORTANT UPDATES
+
+The hosting migration process began today (October 5, 2025), at 2:10 PM. Starting today, the main domain and endpoint for v1 will be [api.turkiyeapi.dev](https://api.turkiyeapi.dev) + `/v1/`. To maintain and don't break the previous [turkiyeapi.dev](https://turkiyeapi.dev) + `/api/v1/` usage, requests sent to the old route will be redirected to the new route with a 301 status code. However, you can still switch to the new route in your source code to minimize latency.
+
+However, if you are still using the turkiyeapi.herokuapp.com domain, you should start using the new domain as soon as possible, as it will soon become unavailable.
+
 ## What's new?
 
 > _Latest update: August 3, 2025_
@@ -47,7 +53,7 @@ Best wishes!
 
 ### Get All Provinces
 
-**Endpoint:** `GET /api/v1/provinces`
+**Endpoint:** `GET /v1/provinces`
 
 You can use this route to get data for all provinces. The available query parameters are:
 
@@ -67,7 +73,7 @@ You can use this route to get data for all provinces. The available query parame
 
 ### Get Exact Province
 
-**Endpoint:** `GET /api/v1/provinces/:id`
+**Endpoint:** `GET /v1/provinces/:id`
 
 You can use this route to get data for exact province. The available path variables and query parameters are:
 
@@ -79,7 +85,7 @@ You can use this route to get data for exact province. The available path variab
 
 ### Get All Districts
 
-**Endpoint:** `GET /api/v1/districts`
+**Endpoint:** `GET /v1/districts`
 
 You can use this route to get data for all districts. The available query parameters are:
 
@@ -97,7 +103,7 @@ You can use this route to get data for all districts. The available query parame
 
 ### Get Exact District
 
-**Endpoint:** `GET /api/v1/districts/:id`
+**Endpoint:** `GET /v1/districts/:id`
 
 You can use this route to get data for exact district. The available path variables and query parameters are:
 
@@ -108,7 +114,7 @@ You can use this route to get data for exact district. The available path variab
 
 ### Get All Neighborhoods
 
-**Endpoint:** `GET /api/v1/neighborhoods`
+**Endpoint:** `GET /v1/neighborhoods`
 
 You can use this route to get data for all neighborhoods. The available query parameters are:
 
@@ -126,7 +132,7 @@ You can use this route to get data for all neighborhoods. The available query pa
 
 ### Get Exact Neighborhood
 
-**Endpoint:** `GET /api/v1/neighborhoods/:id`
+**Endpoint:** `GET /v1/neighborhoods/:id`
 
 You can use this route to get data for exact neighborhood. The available path variables and query parameters are:
 
@@ -137,7 +143,7 @@ You can use this route to get data for exact neighborhood. The available path va
 
 ### Get All Villages
 
-**Endpoint:** `GET /api/v1/villages`
+**Endpoint:** `GET /v1/villages`
 
 You can use this route to get data for all villages. The available query parameters are:
 
@@ -155,7 +161,7 @@ You can use this route to get data for all villages. The available query paramet
 
 ### Get Exact Village
 
-**Endpoint:** `GET /api/v1/villages/:id`
+**Endpoint:** `GET /v1/villages/:id`
 
 You can use this route to get data for exact village. The available path variables and query parameters are:
 
@@ -172,7 +178,7 @@ Important Notes:
 
 ### Get All Towns
 
-**Endpoint:** `GET /api/v1/towns`
+**Endpoint:** `GET /v1/towns`
 
 You can use this route to get data for all towns. The available query parameters are:
 
@@ -190,7 +196,7 @@ You can use this route to get data for all towns. The available query parameters
 
 ### Get Exact Town
 
-**Endpoint:** `GET /api/v1/towns/:id`
+**Endpoint:** `GET /v1/towns/:id`
 
 You can use this route to get data for exact town. The available path variables and query parameters are:
 
