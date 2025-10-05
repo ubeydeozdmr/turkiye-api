@@ -8,6 +8,7 @@ pnpm-debug.log*
 .gitignore
 .env
 .env.*
+Caddyfile
 Dockerfile
 .dockerignore
 .vscode
