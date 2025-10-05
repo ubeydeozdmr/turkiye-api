@@ -64,6 +64,7 @@ app.get('/examples', (req, res) => {
   res.render('examples');
 });
 
+app.use('/v1/', require('./routes'));
 app.use('/api/v1', require('./routes'));
 
 app.all('*', (req, res, next) => {

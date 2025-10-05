@@ -338,8 +338,8 @@ block content
         |  to view the old documentation.
     .playground
       .playground__url
-        p.playground__url--host#sm /api/v1/
-        p.playground__url--host#lg /api/v1/
+        p.playground__url--host#sm /v1/
+        p.playground__url--host#lg /v1/
         input#playground-input.playground__url--input(type='text' name='playground-input' value='provinces?name=istanbul')
         a.playground__url--copy(href='#action')
           svg.bi.bi-clipboard(xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewbox='0 0 16 16')
@@ -393,11 +393,11 @@ block scripts
 
     const origin = window.location.origin;
 
-    document.querySelector('p.playground__url--host#lg').innerHTML = origin + '/api/v1/';
+    document.querySelector('p.playground__url--host#lg').innerHTML = origin + '/v1/';
 
     async function init() {
       try {
-        const res = await fetch('/api/v1/provinces?name=istanbul');
+        const res = await fetch('/v1/provinces?name=istanbul');
         const data = await res.json();
         document.querySelector('.playground__panel--content code').innerHTML =
           JSON.stringify(data, null, 2);
@@ -428,7 +428,7 @@ block scripts
         event.preventDefault();
         const input = document.querySelector('.playground__url--input');
         const text = input.value;
-        input.value = `${origin}/api/v1/${input.value}`;
+        input.value = `${origin}/v1/${input.value}`;
         input.select();
         input.setSelectionRange(0, 99999);
         document.execCommand('copy');
@@ -441,7 +441,7 @@ block scripts
         event.preventDefault();
         document.querySelector('.playground__panel--content code').innerHTML = 'Loading...';
         const input = document.querySelector('.playground__url--input').value;
-        const url = `/api/v1/${input}`;
+        const url = `/v1/${input}`;
         fetch(url)
           .then(res => res.json())
           .then(data => {
@@ -456,7 +456,7 @@ block scripts
       .addEventListener('click', event => {
         event.preventDefault();
         const input = document.querySelector('.playground__url--input').value;
-        const url =  `${origin}/api/v1/${input}`;
+        const url =  `${origin}/v1/${input}`;
         window.open(url, '_blank');
       });
 
