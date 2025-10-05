@@ -6,13 +6,13 @@ const isProduction = process.env.NODE_ENV === 'production';
 const servers = isProduction
   ? [
       {
-        url: 'https://turkiyeapi.dev/api/v1/',
+        url: 'https://turkiyeapi.dev/v1/',
         description: 'Production server',
       },
     ]
   : [
       {
-        url: 'http://localhost:8181/api/v1/',
+        url: 'http://localhost:8181/v1/',
         description: 'Development server',
       },
     ];
