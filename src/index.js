@@ -32,6 +32,16 @@ app.options('*', cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(morgan('combined'));
+
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'ok',
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString(),
+    environment: NODE_ENV || 'development',
+  });
+});
+
 app.use(cache('2 minutes'));
 // app.use(limiter);
 
@@ -54,13 +64,16 @@ app.get('/examples', (req, res) => {
   res.render('examples');
 });
 
-app.use('/api/v1', require('./v1/routes'));
+app.use('/v1/', require('./routes'));
+app.use('/api/v1', require('./routes'));
 
 app.all('*', (req, res, next) => {
   res.render('notfound');
 });
 
-app.listen(PORT || 8181, () => {
-  console.log(`API is listening on port ${PORT}`);
-  if (NODE_ENV === 'development') console.log(`http://localhost:${PORT}`);
+const port = Number(PORT) || 8181;
+
+app.listen(port, '0.0.0.0', () => {
+  console.log(`API is listening on port ${port}`);
+  if (NODE_ENV === 'development') console.log(`http://localhost:${port}`);
 });
