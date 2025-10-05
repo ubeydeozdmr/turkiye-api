@@ -54,7 +54,7 @@ app.get('/examples', (req, res) => {
   res.render('examples');
 });
 
-app.use('/api/v1', require('./v1/routes'));
+app.use('/api/v1', require('./routes'));
 
 app.all('*', (req, res, next) => {
   res.render('notfound');
