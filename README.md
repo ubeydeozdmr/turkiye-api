@@ -1,14 +1,22 @@
 # Turkiye API
 
-API containing information about Turkey's provinces, districts, neighborhoods and villages (and towns).
+TurkiyeAPI is a comprehensive REST API providing detailed information about Turkey's administrative divisions including provinces, districts, neighborhoods and villages with demographic and geographical data.
 
 The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. You can visit: [https://turkiyeapi.dev](https://turkiyeapi.dev)
 
-## IMPORTANT UPDATES
+## Hosting Migration
 
-The hosting migration process began today (October 5, 2025), at 2:10 PM. Starting today, the main domain and endpoint for v1 will be [api.turkiyeapi.dev](https://api.turkiyeapi.dev) + `/v1/`. To maintain and don't break the previous [turkiyeapi.dev](https://turkiyeapi.dev) + `/api/v1/` usage, requests sent to the old route will be redirected to the new route with a 301 status code. However, you can still switch to the new route in your source code to minimize latency.
+The hosting migration process (from Heroku to Hetzner + Dokploy) started on October 5, 2025. From now, the main domain and endpoint for v1 will be [api.turkiyeapi.dev](https://api.turkiyeapi.dev) + `/v1/`. To maintain and don't break the previous [turkiyeapi.dev](https://turkiyeapi.dev) + `/api/v1/` usage, requests sent to the old route will be redirected to the new route with a 301 status code. However, you can still switch to the new route in your source code to minimize latency.
 
-However, if you are still using the turkiyeapi.herokuapp.com domain, you should start using the new domain as soon as possible, as it will soon become unavailable.
+Starting October 8, Heroku-based domain is no longer available. If you are still using the turkiyeapi.herokuapp.com domain, you should start using the new domain as soon as possible, as it will soon become unavailable. Although it is configured to redirect the main domain as described above, this is unfortunately not possible for the really old Heroku-based domain.
+
+## TurkiyeAPI GPT
+
+You can now access TurkiyeAPI via ChatGPT! Just ask questions about Turkey's administrative divisions, and get instant answers. Try it out now!
+
+[https://chatgpt.com/g/g-68cf1bc306c48191bcff3d687a9604e5-turkiyeapi-gpt?model=gpt-5](https://chatgpt.com/g/g-68cf1bc306c48191bcff3d687a9604e5-turkiyeapi-gpt?model=gpt-5)
+
+> _Warning: This feature is experimental and may not always provide accurate information. For critical applications, please refer to the official API documentation._
 
 ## What's new?
 
@@ -24,28 +32,23 @@ However, if you are still using the turkiyeapi.herokuapp.com domain, you should 
 
 ## Documentation
 
-- [API Documentation](https://turkiyeapi.dev/docs)
-- [Examples](https://turkiyeapi.dev/examples)
+- [API Documentation](https://api.turkiyeapi.dev/docs)
+- [Examples](https://api.turkiyeapi.dev/examples)
 - [Postman Collection](https://documenter.getpostman.com/view/19561492/UzBguVHM)
-- [Swagger UI](https://turkiyeapi.dev/swagger)
+- [Swagger UI](https://api.turkiyeapi.dev/swagger)
 
-## Last Considerations
+## Working on v2
 
-The v1 version seems to have started to lose its developability and maintainability. When I first started developing the project in 2022 (I had just started my first year of university at that time), the name of the project (and of course also the repository) was "Provinces of Turkey API". The reason for this is that during the first few months when the API was first developed, you could only retrieve province information (Also, this information consisted of only five properties: id, name, population, areaCode and isMetropolitan). Over time, I focused on fixing the bugs of the API and adding new features (one of them was districts). Over time, districts became a schema in their own right, just like provinces, but instead of being written separately with an ID-Key connection, these districts were written in the district arrays of the relevant provinces in the same json file. This is the first problem, I have largely solved this problem for v1, but there are still some problems. The second problem was that there was no support for query parameters at first. These parameters were added step by step over time (first added "name, offset, limit", then filtering parameters, then fields, lastly sort).
+The v2 version is currently in development. The main goals for this version are:
 
-It is not easy to write the code from scratch without breaking the API requests of v1 users, however, I want to spare time for other projects and other work. That's why I'm taking a long break for this project. When the time comes, I will most likely start writing v2. Things I need to examine other sample APIs and also decide:
+- Improve the overall structure and organization of the codebase.
+- Enhance the API's performance and scalability.
+- Introduce new features and endpoints based on user feedback and requirements.
+- Update the documentation to be more comprehensive and user-friendly.
+- Ensure better error handling and validation mechanisms.
+- Implement more robust testing to ensure the reliability of the API.
 
-- Should I use database in v2 as opposed to v1?
-- What kind of project structure should I create?
-- Should I prefer snake_case instead of camelCase? (like area_code instead of areaCode)
-- What kind of route structure should I use? (Should I use routes like "/provinces/34/districts/1852" instead of separate routes for provinces, districts, etc.?)
-- What kind of connection should there be between Schemas? (How exactly can we position the municipalities when there is an order like provinces > districts > neighborhoods + villages)
-- fields property cannot set quadratic (or more nested) props, also sort property does not work for all fields. How can I find a solution to this?
-- Many more things I can't think of right now.
-
-Because of all this, this time I will try to improve myself in terms of learning and plan well this time. The project has come a long way from when it first started and has much more advanced capabilities. Frankly, I think I've added enough features and made improvements to last until v2. I need some time to realize the things I plan to do for v2, so I'm taking a long break. When v2 is released (if it is released) it will have better and more descriptive documentation, be more systematic and expandable. You can still submit your suggestions, requests, etc. by opening an issue on the Türkiye API GitHub page. you can write. In this case, I will also consider these for v2.
-
-Best wishes!
+When the v2 version is released, it will be announced on the main page of the project and in the documentation section.
 
 ## Usage of API
 
@@ -223,22 +226,24 @@ Although postal codes consist only of digits, they are still a string type. This
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./LICENSE)
 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Templates
+<!-- ## Templates
 
 [Index](https://ubeydeozdmr.github.io/turkiye-api-templates/index.html)
 
-[v1](https://ubeydeozdmr.github.io/turkiye-api-templates/v1/index.html)
+[v1](https://ubeydeozdmr.github.io/turkiye-api-templates/v1/index.html) -->
 
 ## Contact
 
-You can contact me via [email](mailto:ubeydeozdmr@gmail.com) or [Twitter](https://twitter.com/ubeydeozdmr).
+You can contact me via [email](mailto:ubeydeozdmr@gmail.com) or [Telegram](https://t.me/ubeydeozdmr).
 
 ## Support
 
-If you want to support me, you can buy me a coffee. [Buy me a coffee](https://www.buymeacoffee.com/ubeydeozdmr)
+If you want to support me, you can buy me a coffee. Each coffee you buy covers approximately one month's worth of server expenses. [Buy me a coffee](https://www.buymeacoffee.com/ubeydeozdmr)
+
+<a href="https://www.buymeacoffee.com/ubeydeozdmr"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="buymeacoffee button" width="150" /></a>
