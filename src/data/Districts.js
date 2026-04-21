@@ -85,7 +85,6 @@ exports.getDistricts = function (
     }
 
     if (provinceId || province) {
-      console.log(provinceId, province);
       if (provinceId && province) {
         throw {
           status: 404,
