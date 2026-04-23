@@ -1377,7 +1377,7 @@
     "altitude": 1060,
     "areaCode": [352],
     "isCoastal": false,
-    "isMetropolitan": false,
+    "isMetropolitan": true,
     "nuts": {
       "nuts1": {
         "code": "TR7",
