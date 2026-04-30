@@ -1,37 +1,56 @@
 {
   "name": "turkiye-api",
-  "version": "1.0.0",
-  "description": "This REST API allows you to get data about settlements such as provinces, districts, neighborhoods and villages in Turkey. - Bu REST API Türkiye'deki iller, ilçeler, mahalleler ve köyler gibi yerleşim birimleri hakkında veri almanızı sağlar",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
-  },
+  "version": "2.0.0",
+  "description": "Get Turkish administrative divisions data (provinces, districts, neighborhoods, villages) via a fast REST API.",
   "keywords": [
-    "turkey",
     "turkiye",
-    "province",
-    "city",
-    "country"
+    "turkey",
+    "api",
+    "rest-api",
+    "geodata",
+    "location-data",
+    "provinces",
+    "districts",
+    "neighborhoods",
+    "villages",
+    "cities",
+    "administrative-divisions",
+    "turkish-data",
+    "nodejs",
+    "fastify"
   ],
-  "author": "Ubeyde Emir Özdemir",
+  "author": "Ubeyde Emir Özdemir <ubeydeozdmr@gmail.com> (https://ubeyde.me)",
   "license": "MIT",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "node --import tsx --test \"tests/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22.22.2 <23"
+  },
   "dependencies": {
-    "apicache": "^1.6.3",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
-    "express": "^4.22.1",
-    "express-rate-limit": "^8.3.2",
-    "morgan": "^1.10.1",
-    "pug": "^3.0.3",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
+    "@fastify/cors": "^11.2.0",
+    "@fastify/rate-limit": "^10.3.0",
+    "fastify": "^5.8.5",
+    "typebox": "^1.1.34"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
   },
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ubeydeozdmr/turkiye-api.git"
-  }
+    "url": "https://github.com/ubeydeozdmr/turkiye-api"
+  },
+  "bugs": {
+    "url": "https://github.com/ubeydeozdmr/turkiye-api/issues"
+  },
+  "homepage": "https://github.com/ubeydeozdmr/turkiye-api#readme"
 }
