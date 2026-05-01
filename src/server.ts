@@ -3,7 +3,8 @@ import { createServerLoggingOptions } from './logging.js';
 
 const app = build(createServerLoggingOptions());
 
-const port = Number(process.env['PORT'] ?? 3000);
+const parsedPort = Number(process.env['PORT']);
+const port = Number.isFinite(parsedPort) && parsedPort > 0 ? parsedPort : 3000;
 const host = process.env['HOST'] ?? '0.0.0.0';
 
 try {
