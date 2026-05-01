@@ -1,18 +1,41 @@
+# Git
+.git
+.gitignore
+.github
+
+# Dependencies
 node_modules
+
+# Build/test output
+dist
+build
+coverage
+.nyc_output
+*.tsbuildinfo
+
+# Logs
+logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-.DS_Store
-.git
-.gitignore
+
+# Environment files
 .env
 .env.*
-Caddyfile
-Dockerfile
-.dockerignore
+
+# Local/runtime files
+tmp
+temp
+.cache
+
+# OS/editor files
+.DS_Store
 .vscode
 .idea
-coverage
-logs
-tmp
+
+# Legacy and staging directories not needed in the v2 image
+v1
+
+# Deployment/proxy files outside the API image
+Caddyfile

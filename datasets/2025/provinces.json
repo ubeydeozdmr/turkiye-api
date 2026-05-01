@@ -1,0 +1,2676 @@
+[
+  {
+    "id": 1,
+    "name": "Adana",
+    "slug": "adana",
+    "population": 2283609,
+    "area": {
+      "value": 13844,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 25,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      322
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Akdeniz",
+      "en": "Mediterranean"
+    },
+    "coordinates": {
+      "latitude": 37.001667,
+      "longitude": 35.328889
+    },
+    "stats": {
+      "districtCount": 15,
+      "municipalityCount": 15,
+      "neighborhoodCount": 831,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 2,
+    "name": "Adıyaman",
+    "slug": "adiyaman",
+    "population": 617821,
+    "area": {
+      "value": 7337,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 701,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      416
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.764722,
+      "longitude": 38.278611
+    },
+    "stats": {
+      "districtCount": 9,
+      "municipalityCount": 23,
+      "neighborhoodCount": 175,
+      "villageCount": 454
+    }
+  },
+  {
+    "id": 3,
+    "name": "Afyonkarahisar",
+    "slug": "afyonkarahisar",
+    "population": 751808,
+    "area": {
+      "value": 14016,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1012,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      272
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Ege",
+      "en": "Aegean"
+    },
+    "coordinates": {
+      "latitude": 38.750278,
+      "longitude": 30.556667
+    },
+    "stats": {
+      "districtCount": 18,
+      "municipalityCount": 60,
+      "neighborhoodCount": 430,
+      "villageCount": 421
+    }
+  },
+  {
+    "id": 4,
+    "name": "Ağrı",
+    "slug": "agri",
+    "population": 491489,
+    "area": {
+      "value": 11099,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1630,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      472
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.719444,
+      "longitude": 43.050556
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 12,
+      "neighborhoodCount": 100,
+      "villageCount": 564
+    }
+  },
+  {
+    "id": 68,
+    "name": "Aksaray",
+    "slug": "aksaray",
+    "population": 441136,
+    "area": {
+      "value": 7659,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1228,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      382
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.36667,
+      "longitude": 34.03333
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 22,
+      "neighborhoodCount": 159,
+      "villageCount": 174
+    }
+  },
+  {
+    "id": 5,
+    "name": "Amasya",
+    "slug": "amasya",
+    "population": 342242,
+    "area": {
+      "value": 5628,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 400,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      358
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.649722,
+      "longitude": 35.835278
+    },
+    "stats": {
+      "districtCount": 7,
+      "municipalityCount": 8,
+      "neighborhoodCount": 107,
+      "villageCount": 372
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ankara",
+    "slug": "ankara",
+    "population": 5910320,
+    "area": {
+      "value": 25632,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 905,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      312
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.92077,
+      "longitude": 32.85411
+    },
+    "stats": {
+      "districtCount": 25,
+      "municipalityCount": 25,
+      "neighborhoodCount": 1427,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 7,
+    "name": "Antalya",
+    "slug": "antalya",
+    "population": 2777677,
+    "area": {
+      "value": 20177,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 62,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      242
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Akdeniz",
+      "en": "Mediterranean"
+    },
+    "coordinates": {
+      "latitude": 36.88414,
+      "longitude": 30.70563
+    },
+    "stats": {
+      "districtCount": 19,
+      "municipalityCount": 19,
+      "neighborhoodCount": 913,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 75,
+    "name": "Ardahan",
+    "slug": "ardahan",
+    "population": 90392,
+    "area": {
+      "value": 4934,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1799,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      478
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 41.10833,
+      "longitude": 42.7
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 7,
+      "neighborhoodCount": 41,
+      "villageCount": 225
+    }
+  },
+  {
+    "id": 8,
+    "name": "Artvin",
+    "slug": "artvin",
+    "population": 167531,
+    "area": {
+      "value": 7393,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 530,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      466
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 41.18222,
+      "longitude": 41.81889
+    },
+    "stats": {
+      "districtCount": 9,
+      "municipalityCount": 9,
+      "neighborhoodCount": 42,
+      "villageCount": 323
+    }
+  },
+  {
+    "id": 9,
+    "name": "Aydın",
+    "slug": "aydin",
+    "population": 1172107,
+    "area": {
+      "value": 8116,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 92,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      256
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Ege",
+      "en": "Aegean"
+    },
+    "coordinates": {
+      "latitude": 37.84444,
+      "longitude": 27.84556
+    },
+    "stats": {
+      "districtCount": 17,
+      "municipalityCount": 17,
+      "neighborhoodCount": 671,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 10,
+    "name": "Balıkesir",
+    "slug": "balikesir",
+    "population": 1284517,
+    "area": {
+      "value": 14583,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 145,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      266
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 39.64861,
+      "longitude": 27.8825
+    },
+    "stats": {
+      "districtCount": 20,
+      "municipalityCount": 20,
+      "neighborhoodCount": 1133,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 74,
+    "name": "Bartın",
+    "slug": "bartin",
+    "population": 206663,
+    "area": {
+      "value": 2330,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 12,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      378
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "North Sea"
+    },
+    "coordinates": {
+      "latitude": 41.63333,
+      "longitude": 32.33333
+    },
+    "stats": {
+      "districtCount": 4,
+      "municipalityCount": 8,
+      "neighborhoodCount": 53,
+      "villageCount": 260
+    }
+  },
+  {
+    "id": 72,
+    "name": "Batman",
+    "slug": "batman",
+    "population": 662626,
+    "area": {
+      "value": 4477,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 570,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      488
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.88333,
+      "longitude": 41.13333
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 11,
+      "neighborhoodCount": 137,
+      "villageCount": 293
+    }
+  },
+  {
+    "id": 69,
+    "name": "Bayburt",
+    "slug": "bayburt",
+    "population": 82836,
+    "area": {
+      "value": 3746,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1555,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      458
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.25,
+      "longitude": 40.21667
+    },
+    "stats": {
+      "districtCount": 3,
+      "municipalityCount": 5,
+      "neighborhoodCount": 28,
+      "villageCount": 170
+    }
+  },
+  {
+    "id": 11,
+    "name": "Bilecik",
+    "slug": "bilecik",
+    "population": 228995,
+    "area": {
+      "value": 4179,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 513,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      228
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 40.14556,
+      "longitude": 29.97917
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 11,
+      "neighborhoodCount": 64,
+      "villageCount": 243
+    }
+  },
+  {
+    "id": 12,
+    "name": "Bingöl",
+    "slug": "bingol",
+    "population": 282299,
+    "area": {
+      "value": 8004,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1159,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      426
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.885,
+      "longitude": 40.49861
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 11,
+      "neighborhoodCount": 69,
+      "villageCount": 322
+    }
+  },
+  {
+    "id": 13,
+    "name": "Bitlis",
+    "slug": "bitlis",
+    "population": 360423,
+    "area": {
+      "value": 8294,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1637,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      434
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.39528,
+      "longitude": 42.12361
+    },
+    "stats": {
+      "districtCount": 7,
+      "municipalityCount": 13,
+      "neighborhoodCount": 124,
+      "villageCount": 354
+    }
+  },
+  {
+    "id": 14,
+    "name": "Bolu",
+    "slug": "bolu",
+    "population": 327173,
+    "area": {
+      "value": 8313,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 741,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      374
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.73528,
+      "longitude": 31.60639
+    },
+    "stats": {
+      "districtCount": 9,
+      "municipalityCount": 12,
+      "neighborhoodCount": 94,
+      "villageCount": 486
+    }
+  },
+  {
+    "id": 15,
+    "name": "Burdur",
+    "slug": "burdur",
+    "population": 277226,
+    "area": {
+      "value": 7175,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 963,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      248
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Akdeniz",
+      "en": "Mediterranean"
+    },
+    "coordinates": {
+      "latitude": 37.72111,
+      "longitude": 30.29056
+    },
+    "stats": {
+      "districtCount": 11,
+      "municipalityCount": 15,
+      "neighborhoodCount": 129,
+      "villageCount": 193
+    }
+  },
+  {
+    "id": 16,
+    "name": "Bursa",
+    "slug": "bursa",
+    "population": 3263011,
+    "area": {
+      "value": 10813,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 238,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      224
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 40.18222,
+      "longitude": 29.06111
+    },
+    "stats": {
+      "districtCount": 17,
+      "municipalityCount": 17,
+      "neighborhoodCount": 1060,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 17,
+    "name": "Çanakkale",
+    "slug": "canakkale",
+    "population": 573976,
+    "area": {
+      "value": 9817,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 11,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      286
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 40.15556,
+      "longitude": 26.41444
+    },
+    "stats": {
+      "districtCount": 12,
+      "municipalityCount": 23,
+      "neighborhoodCount": 83,
+      "villageCount": 575
+    }
+  },
+  {
+    "id": 18,
+    "name": "Çankırı",
+    "slug": "cankiri",
+    "population": 200549,
+    "area": {
+      "value": 7542,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 730,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      376
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 40.6,
+      "longitude": 33.61667
+    },
+    "stats": {
+      "districtCount": 12,
+      "municipalityCount": 17,
+      "neighborhoodCount": 103,
+      "villageCount": 368
+    }
+  },
+  {
+    "id": 19,
+    "name": "Çorum",
+    "slug": "corum",
+    "population": 519590,
+    "area": {
+      "value": 12428,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 822,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      364
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.55056,
+      "longitude": 34.95556
+    },
+    "stats": {
+      "districtCount": 14,
+      "municipalityCount": 16,
+      "neighborhoodCount": 128,
+      "villageCount": 757
+    }
+  },
+  {
+    "id": 20,
+    "name": "Denizli",
+    "slug": "denizli",
+    "population": 1060975,
+    "area": {
+      "value": 12134,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 392,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      258
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Ege",
+      "en": "Aegean"
+    },
+    "coordinates": {
+      "latitude": 37.77639,
+      "longitude": 29.08611
+    },
+    "stats": {
+      "districtCount": 19,
+      "municipalityCount": 19,
+      "neighborhoodCount": 616,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 21,
+    "name": "Diyarbakır",
+    "slug": "diyarbakir",
+    "population": 1852356,
+    "area": {
+      "value": 15168,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 674,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      412
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.91417,
+      "longitude": 40.23056
+    },
+    "stats": {
+      "districtCount": 17,
+      "municipalityCount": 17,
+      "neighborhoodCount": 1056,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 81,
+    "name": "Düzce",
+    "slug": "duzce",
+    "population": 415622,
+    "area": {
+      "value": 2492,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 149,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      380
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.83333,
+      "longitude": 31.16667
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 10,
+      "neighborhoodCount": 126,
+      "villageCount": 267
+    }
+  },
+  {
+    "id": 22,
+    "name": "Edirne",
+    "slug": "edirne",
+    "population": 422438,
+    "area": {
+      "value": 6145,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 50,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      284
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 41.67083,
+      "longitude": 26.55556
+    },
+    "stats": {
+      "districtCount": 9,
+      "municipalityCount": 16,
+      "neighborhoodCount": 100,
+      "villageCount": 253
+    }
+  },
+  {
+    "id": 23,
+    "name": "Elazığ",
+    "slug": "elazig",
+    "population": 605678,
+    "area": {
+      "value": 9383,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1041,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      424
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.68056,
+      "longitude": 39.22639
+    },
+    "stats": {
+      "districtCount": 11,
+      "municipalityCount": 20,
+      "neighborhoodCount": 157,
+      "villageCount": 546
+    }
+  },
+  {
+    "id": 24,
+    "name": "Erzincan",
+    "slug": "erzincan",
+    "population": 239625,
+    "area": {
+      "value": 11815,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1216,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      446
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.75,
+      "longitude": 39.5
+    },
+    "stats": {
+      "districtCount": 9,
+      "municipalityCount": 16,
+      "neighborhoodCount": 159,
+      "villageCount": 522
+    }
+  },
+  {
+    "id": 25,
+    "name": "Erzurum",
+    "slug": "erzurum",
+    "population": 736877,
+    "area": {
+      "value": 25006,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1923,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      442
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.90861,
+      "longitude": 41.27694
+    },
+    "stats": {
+      "districtCount": 20,
+      "municipalityCount": 20,
+      "neighborhoodCount": 1188,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 26,
+    "name": "Eskişehir",
+    "slug": "eskisehir",
+    "population": 927956,
+    "area": {
+      "value": 13960,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 796,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      222
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.77639,
+      "longitude": 30.52056
+    },
+    "stats": {
+      "districtCount": 14,
+      "municipalityCount": 14,
+      "neighborhoodCount": 540,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 27,
+    "name": "Gaziantep",
+    "slug": "gaziantep",
+    "population": 2222415,
+    "area": {
+      "value": 6803,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 838,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      342
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.06667,
+      "longitude": 37.38333
+    },
+    "stats": {
+      "districtCount": 9,
+      "municipalityCount": 9,
+      "neighborhoodCount": 737,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 28,
+    "name": "Giresun",
+    "slug": "giresun",
+    "population": 455074,
+    "area": {
+      "value": 7025,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 14,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      454
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.91667,
+      "longitude": 38.4
+    },
+    "stats": {
+      "districtCount": 16,
+      "municipalityCount": 25,
+      "neighborhoodCount": 211,
+      "villageCount": 548
+    }
+  },
+  {
+    "id": 29,
+    "name": "Gümüşhane",
+    "slug": "gumushane",
+    "population": 138807,
+    "area": {
+      "value": 6668,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1174,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      456
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.45,
+      "longitude": 39.48333
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 15,
+      "neighborhoodCount": 82,
+      "villageCount": 314
+    }
+  },
+  {
+    "id": 30,
+    "name": "Hakkari",
+    "slug": "hakkari",
+    "population": 279681,
+    "area": {
+      "value": 7095,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1756,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      438
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.58333,
+      "longitude": 43.73333
+    },
+    "stats": {
+      "districtCount": 5,
+      "municipalityCount": 8,
+      "neighborhoodCount": 68,
+      "villageCount": 117
+    }
+  },
+  {
+    "id": 31,
+    "name": "Hatay",
+    "slug": "hatay",
+    "population": 1577531,
+    "area": {
+      "value": 5524,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 89,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      326
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Akdeniz",
+      "en": "Mediterranean"
+    },
+    "coordinates": {
+      "latitude": 36.2,
+      "longitude": 36.16667
+    },
+    "stats": {
+      "districtCount": 15,
+      "municipalityCount": 15,
+      "neighborhoodCount": 599,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 76,
+    "name": "Iğdır",
+    "slug": "igdir",
+    "population": 205071,
+    "area": {
+      "value": 3664,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 860,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      476
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.91667,
+      "longitude": 44.03333
+    },
+    "stats": {
+      "districtCount": 4,
+      "municipalityCount": 7,
+      "neighborhoodCount": 37,
+      "villageCount": 163
+    }
+  },
+  {
+    "id": 32,
+    "name": "Isparta",
+    "slug": "isparta",
+    "population": 445303,
+    "area": {
+      "value": 8946,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1058,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      246
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Akdeniz",
+      "en": "Mediterranean"
+    },
+    "coordinates": {
+      "latitude": 37.76667,
+      "longitude": 30.55
+    },
+    "stats": {
+      "districtCount": 13,
+      "municipalityCount": 22,
+      "neighborhoodCount": 218,
+      "villageCount": 204
+    }
+  },
+  {
+    "id": 34,
+    "name": "İstanbul",
+    "slug": "istanbul",
+    "population": 15754053,
+    "area": {
+      "value": 5461,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 25,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      212,
+      216
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 41.01384,
+      "longitude": 28.94966
+    },
+    "stats": {
+      "districtCount": 39,
+      "municipalityCount": 39,
+      "neighborhoodCount": 961,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 35,
+    "name": "İzmir",
+    "slug": "izmir",
+    "population": 4504185,
+    "area": {
+      "value": 11891,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 9,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      232
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Ege",
+      "en": "Aegean"
+    },
+    "coordinates": {
+      "latitude": 38.41885,
+      "longitude": 27.12872
+    },
+    "stats": {
+      "districtCount": 30,
+      "municipalityCount": 30,
+      "neighborhoodCount": 1299,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 46,
+    "name": "Kahramanmaraş",
+    "slug": "kahramanmaras",
+    "population": 1146278,
+    "area": {
+      "value": 14520,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 562,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      344
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Akdeniz",
+      "en": "Mediterranean"
+    },
+    "coordinates": {
+      "latitude": 37.58333,
+      "longitude": 36.93333
+    },
+    "stats": {
+      "districtCount": 11,
+      "municipalityCount": 11,
+      "neighborhoodCount": 721,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 78,
+    "name": "Karabük",
+    "slug": "karabuk",
+    "population": 249614,
+    "area": {
+      "value": 4142,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 264,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      370
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 41.2,
+      "longitude": 32.63333
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 7,
+      "neighborhoodCount": 80,
+      "villageCount": 278
+    }
+  },
+  {
+    "id": 70,
+    "name": "Karaman",
+    "slug": "karaman",
+    "population": 262355,
+    "area": {
+      "value": 8678,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1063,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      338
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.18333,
+      "longitude": 33.21667
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 11,
+      "neighborhoodCount": 132,
+      "villageCount": 158
+    }
+  },
+  {
+    "id": 36,
+    "name": "Kars",
+    "slug": "kars",
+    "population": 268991,
+    "area": {
+      "value": 10193,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1756,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      474
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 40.60833,
+      "longitude": 43.08333
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 9,
+      "neighborhoodCount": 57,
+      "villageCount": 379
+    }
+  },
+  {
+    "id": 37,
+    "name": "Kastamonu",
+    "slug": "kastamonu",
+    "population": 379934,
+    "area": {
+      "value": 13064,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 814,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      366
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 41.38889,
+      "longitude": 33.78222
+    },
+    "stats": {
+      "districtCount": 20,
+      "municipalityCount": 20,
+      "neighborhoodCount": 173,
+      "villageCount": 1054
+    }
+  },
+  {
+    "id": 38,
+    "name": "Kayseri",
+    "slug": "kayseri",
+    "population": 1458991,
+    "area": {
+      "value": 16970,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1060,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      352
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.73111,
+      "longitude": 35.47889
+    },
+    "stats": {
+      "districtCount": 16,
+      "municipalityCount": 16,
+      "neighborhoodCount": 711,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 79,
+    "name": "Kilis",
+    "slug": "kilis",
+    "population": 157363,
+    "area": {
+      "value": 1412,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 660,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      348
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 36.71667,
+      "longitude": 37.11667
+    },
+    "stats": {
+      "districtCount": 4,
+      "municipalityCount": 4,
+      "neighborhoodCount": 89,
+      "villageCount": 140
+    }
+  },
+  {
+    "id": 71,
+    "name": "Kırıkkale",
+    "slug": "kirikkale",
+    "population": 282830,
+    "area": {
+      "value": 4791,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 746,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      318
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.85,
+      "longitude": 33.51667
+    },
+    "stats": {
+      "districtCount": 9,
+      "municipalityCount": 11,
+      "neighborhoodCount": 85,
+      "villageCount": 185
+    }
+  },
+  {
+    "id": 39,
+    "name": "Kırklareli",
+    "slug": "kirklareli",
+    "population": 379595,
+    "area": {
+      "value": 6459,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 231,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      288
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 41.73333,
+      "longitude": 27.21667
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 21,
+      "neighborhoodCount": 108,
+      "villageCount": 179
+    }
+  },
+  {
+    "id": 40,
+    "name": "Kırşehir",
+    "slug": "kirsehir",
+    "population": 242777,
+    "area": {
+      "value": 6584,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 991,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      386
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.14222,
+      "longitude": 34.17056
+    },
+    "stats": {
+      "districtCount": 7,
+      "municipalityCount": 10,
+      "neighborhoodCount": 67,
+      "villageCount": 252
+    }
+  },
+  {
+    "id": 41,
+    "name": "Kocaeli",
+    "slug": "kocaeli",
+    "population": 2161171,
+    "area": {
+      "value": 3397,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 4,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      262
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 40.76667,
+      "longitude": 29.91667
+    },
+    "stats": {
+      "districtCount": 12,
+      "municipalityCount": 12,
+      "neighborhoodCount": 472,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 42,
+    "name": "Konya",
+    "slug": "konya",
+    "population": 2343409,
+    "area": {
+      "value": 40838,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1023,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      332
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.86667,
+      "longitude": 32.48333
+    },
+    "stats": {
+      "districtCount": 31,
+      "municipalityCount": 31,
+      "neighborhoodCount": 1138,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 43,
+    "name": "Kütahya",
+    "slug": "kutahya",
+    "population": 570478,
+    "area": {
+      "value": 11634,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 958,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      274
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Ege",
+      "en": "Aegean"
+    },
+    "coordinates": {
+      "latitude": 39.41667,
+      "longitude": 29.98333
+    },
+    "stats": {
+      "districtCount": 13,
+      "municipalityCount": 28,
+      "neighborhoodCount": 225,
+      "villageCount": 545
+    }
+  },
+  {
+    "id": 44,
+    "name": "Malatya",
+    "slug": "malatya",
+    "population": 755854,
+    "area": {
+      "value": 12259,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 970,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      422
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.355,
+      "longitude": 38.305
+    },
+    "stats": {
+      "districtCount": 13,
+      "municipalityCount": 13,
+      "neighborhoodCount": 719,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 45,
+    "name": "Manisa",
+    "slug": "manisa",
+    "population": 1477756,
+    "area": {
+      "value": 13339,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 79,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      236
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Ege",
+      "en": "Aegean"
+    },
+    "coordinates": {
+      "latitude": 38.61361,
+      "longitude": 27.42694
+    },
+    "stats": {
+      "districtCount": 17,
+      "municipalityCount": 17,
+      "neighborhoodCount": 1088,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 47,
+    "name": "Mardin",
+    "slug": "mardin",
+    "population": 903576,
+    "area": {
+      "value": 8780,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 938,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      482
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.31111,
+      "longitude": 40.74361
+    },
+    "stats": {
+      "districtCount": 10,
+      "municipalityCount": 10,
+      "neighborhoodCount": 701,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 33,
+    "name": "Mersin",
+    "slug": "mersin",
+    "population": 1956428,
+    "area": {
+      "value": 16010,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 18,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      324
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Akdeniz",
+      "en": "Mediterranean"
+    },
+    "coordinates": {
+      "latitude": 36.8,
+      "longitude": 34.63333
+    },
+    "stats": {
+      "districtCount": 13,
+      "municipalityCount": 13,
+      "neighborhoodCount": 806,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 48,
+    "name": "Muğla",
+    "slug": "mugla",
+    "population": 1099547,
+    "area": {
+      "value": 12654,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 659,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      252
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Ege",
+      "en": "Aegean"
+    },
+    "coordinates": {
+      "latitude": 37.21667,
+      "longitude": 28.36667
+    },
+    "stats": {
+      "districtCount": 13,
+      "municipalityCount": 13,
+      "neighborhoodCount": 574,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 49,
+    "name": "Muş",
+    "slug": "mus",
+    "population": 389127,
+    "area": {
+      "value": 8650,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1334,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      436
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.74444,
+      "longitude": 41.49611
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 23,
+      "neighborhoodCount": 124,
+      "villageCount": 368
+    }
+  },
+  {
+    "id": 50,
+    "name": "Nevşehir",
+    "slug": "nevsehir",
+    "population": 320150,
+    "area": {
+      "value": 5485,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1197,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      384
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.62444,
+      "longitude": 34.72306
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 27,
+      "neighborhoodCount": 127,
+      "villageCount": 149
+    }
+  },
+  {
+    "id": 51,
+    "name": "Niğde",
+    "slug": "nigde",
+    "population": 374492,
+    "area": {
+      "value": 7234,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1239,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      388
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.96667,
+      "longitude": 34.68333
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 29,
+      "neighborhoodCount": 108,
+      "villageCount": 131
+    }
+  },
+  {
+    "id": 52,
+    "name": "Ordu",
+    "slug": "ordu",
+    "population": 768087,
+    "area": {
+      "value": 5861,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 25,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      452
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.98333,
+      "longitude": 37.88333
+    },
+    "stats": {
+      "districtCount": 19,
+      "municipalityCount": 19,
+      "neighborhoodCount": 772,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 80,
+    "name": "Osmaniye",
+    "slug": "osmaniye",
+    "population": 564123,
+    "area": {
+      "value": 3320,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 121,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      328
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Akdeniz",
+      "en": "Mediterranean"
+    },
+    "coordinates": {
+      "latitude": 37.06667,
+      "longitude": 36.25
+    },
+    "stats": {
+      "districtCount": 7,
+      "municipalityCount": 14,
+      "neighborhoodCount": 137,
+      "villageCount": 158
+    }
+  },
+  {
+    "id": 53,
+    "name": "Rize",
+    "slug": "rize",
+    "population": 346947,
+    "area": {
+      "value": 3835,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 11,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      464
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 41.02083,
+      "longitude": 40.52361
+    },
+    "stats": {
+      "districtCount": 12,
+      "municipalityCount": 18,
+      "neighborhoodCount": 215,
+      "villageCount": 343
+    }
+  },
+  {
+    "id": 54,
+    "name": "Sakarya",
+    "slug": "sakarya",
+    "population": 1123693,
+    "area": {
+      "value": 4824,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 41,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      264
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 40.76667,
+      "longitude": 30.41667
+    },
+    "stats": {
+      "districtCount": 16,
+      "municipalityCount": 16,
+      "neighborhoodCount": 672,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 55,
+    "name": "Samsun",
+    "slug": "samsun",
+    "population": 1392403,
+    "area": {
+      "value": 9725,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 10,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      362
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 41.28639,
+      "longitude": 36.33139
+    },
+    "stats": {
+      "districtCount": 17,
+      "municipalityCount": 17,
+      "neighborhoodCount": 1251,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 63,
+    "name": "Şanlıurfa",
+    "slug": "sanliurfa",
+    "population": 2265800,
+    "area": {
+      "value": 19242,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 527,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      414
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.15,
+      "longitude": 38.8
+    },
+    "stats": {
+      "districtCount": 13,
+      "municipalityCount": 13,
+      "neighborhoodCount": 1467,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 56,
+    "name": "Siirt",
+    "slug": "siirt",
+    "population": 332369,
+    "area": {
+      "value": 5717,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 887,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      484
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.94444,
+      "longitude": 41.93333
+    },
+    "stats": {
+      "districtCount": 7,
+      "municipalityCount": 12,
+      "neighborhoodCount": 63,
+      "villageCount": 281
+    }
+  },
+  {
+    "id": 57,
+    "name": "Sinop",
+    "slug": "sinop",
+    "population": 225848,
+    "area": {
+      "value": 5717,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 27,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      368
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 42.02361,
+      "longitude": 35.15306
+    },
+    "stats": {
+      "districtCount": 9,
+      "municipalityCount": 9,
+      "neighborhoodCount": 51,
+      "villageCount": 465
+    }
+  },
+  {
+    "id": 73,
+    "name": "Şırnak",
+    "slug": "sirnak",
+    "population": 573666,
+    "area": {
+      "value": 7078,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1343,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      486
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Güneydoğu Anadolu",
+      "en": "Southeastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 37.51667,
+      "longitude": 42.46667
+    },
+    "stats": {
+      "districtCount": 7,
+      "municipalityCount": 19,
+      "neighborhoodCount": 101,
+      "villageCount": 198
+    }
+  },
+  {
+    "id": 58,
+    "name": "Sivas",
+    "slug": "sivas",
+    "population": 631401,
+    "area": {
+      "value": 28164,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1313,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      346
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.74722,
+      "longitude": 37.0175
+    },
+    "stats": {
+      "districtCount": 17,
+      "municipalityCount": 27,
+      "neighborhoodCount": 262,
+      "villageCount": 1231
+    }
+  },
+  {
+    "id": 59,
+    "name": "Tekirdağ",
+    "slug": "tekirdag",
+    "population": 1208441,
+    "area": {
+      "value": 6190,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 28,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      282
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 40.98333,
+      "longitude": 27.51667
+    },
+    "stats": {
+      "districtCount": 11,
+      "municipalityCount": 11,
+      "neighborhoodCount": 373,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 60,
+    "name": "Tokat",
+    "slug": "tokat",
+    "population": 614141,
+    "area": {
+      "value": 10042,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 630,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      356
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 40.31667,
+      "longitude": 36.55
+    },
+    "stats": {
+      "districtCount": 12,
+      "municipalityCount": 42,
+      "neighborhoodCount": 328,
+      "villageCount": 610
+    }
+  },
+  {
+    "id": 61,
+    "name": "Trabzon",
+    "slug": "trabzon",
+    "population": 823323,
+    "area": {
+      "value": 4628,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 36,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      462
+    ],
+    "isCoastal": true,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 41,
+      "longitude": 39.73333
+    },
+    "stats": {
+      "districtCount": 18,
+      "municipalityCount": 18,
+      "neighborhoodCount": 716,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 62,
+    "name": "Tunceli",
+    "slug": "tunceli",
+    "population": 85083,
+    "area": {
+      "value": 7582,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 922,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      428
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.11667,
+      "longitude": 39.53333
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 9,
+      "neighborhoodCount": 43,
+      "villageCount": 366
+    }
+  },
+  {
+    "id": 64,
+    "name": "Uşak",
+    "slug": "usak",
+    "population": 374405,
+    "area": {
+      "value": 5555,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 915,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      276
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Ege",
+      "en": "Aegean"
+    },
+    "coordinates": {
+      "latitude": 38.68333,
+      "longitude": 29.41667
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 11,
+      "neighborhoodCount": 73,
+      "villageCount": 245
+    }
+  },
+  {
+    "id": 65,
+    "name": "Van",
+    "slug": "van",
+    "population": 1112013,
+    "area": {
+      "value": 20921,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1728,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      432
+    ],
+    "isCoastal": false,
+    "isMetropolitan": true,
+    "region": {
+      "tr": "Doğu Anadolu",
+      "en": "Eastern Anatolia"
+    },
+    "coordinates": {
+      "latitude": 38.5,
+      "longitude": 43.4
+    },
+    "stats": {
+      "districtCount": 13,
+      "municipalityCount": 13,
+      "neighborhoodCount": 696,
+      "villageCount": 0
+    }
+  },
+  {
+    "id": 77,
+    "name": "Yalova",
+    "slug": "yalova",
+    "population": 311635,
+    "area": {
+      "value": 798,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 8,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      226
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Marmara",
+      "en": "Marmara"
+    },
+    "coordinates": {
+      "latitude": 40.65,
+      "longitude": 29.26667
+    },
+    "stats": {
+      "districtCount": 6,
+      "municipalityCount": 14,
+      "neighborhoodCount": 51,
+      "villageCount": 43
+    }
+  },
+  {
+    "id": 66,
+    "name": "Yozgat",
+    "slug": "yozgat",
+    "population": 413208,
+    "area": {
+      "value": 13690,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 1317,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      354
+    ],
+    "isCoastal": false,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "İç Anadolu",
+      "en": "Central Anatolia"
+    },
+    "coordinates": {
+      "latitude": 39.81667,
+      "longitude": 34.81667
+    },
+    "stats": {
+      "districtCount": 14,
+      "municipalityCount": 36,
+      "neighborhoodCount": 239,
+      "villageCount": 553
+    }
+  },
+  {
+    "id": 67,
+    "name": "Zonguldak",
+    "slug": "zonguldak",
+    "population": 585203,
+    "area": {
+      "value": 3342,
+      "unit": "km2"
+    },
+    "altitude": {
+      "value": 10,
+      "unit": "m"
+    },
+    "phoneAreaCodes": [
+      372
+    ],
+    "isCoastal": true,
+    "isMetropolitan": false,
+    "region": {
+      "tr": "Karadeniz",
+      "en": "Black Sea"
+    },
+    "coordinates": {
+      "latitude": 41.45,
+      "longitude": 31.8
+    },
+    "stats": {
+      "districtCount": 8,
+      "municipalityCount": 25,
+      "neighborhoodCount": 184,
+      "villageCount": 384
+    }
+  }
+]

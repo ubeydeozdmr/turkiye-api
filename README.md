@@ -1,249 +1,356 @@
-# Turkiye API
+# TurkiyeAPI
 
-TurkiyeAPI is a comprehensive REST API providing detailed information about Turkey's administrative divisions including provinces, districts, neighborhoods and villages with demographic and geographical data.
+Fast REST API for Turkish administrative divisions: provinces, districts, municipalities, neighborhoods, and villages.
 
-The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. You can visit: [https://turkiyeapi.dev](https://turkiyeapi.dev)
+TurkiyeAPI v2 serves the 2025 dataset from in-memory JSON files with typed Fastify routes, TypeBox validation, OpenAPI documentation, static dataset downloads, pagination, filtering, field projection, explicit relationship includes, ETags, CORS, and rate limiting.
 
-## Hosting Migration
+## Production
 
-The hosting migration process (from Heroku to Hetzner + Dokploy) started on October 5, 2025. From now, the main domain and endpoint for v1 will be [api.turkiyeapi.dev](https://api.turkiyeapi.dev) + `/v1/`. To maintain and don't break the previous [turkiyeapi.dev](https://turkiyeapi.dev) + `/api/v1/` usage, requests sent to the old route will be redirected to the new route with a 301 status code. However, you can still switch to the new route in your source code to minimize latency.
+- API: `https://api.turkiyeapi.dev`
+- OpenAPI JSON: `https://api.turkiyeapi.dev/v2/openapi.json`
+- Local development: `http://localhost:3000`
 
-Starting October 8, Heroku-based domain is no longer available. If you are still using the turkiyeapi.herokuapp.com domain, you should start using the new domain as soon as possible, as it will soon become unavailable. Although it is configured to redirect the main domain as described above, this is unfortunately not possible for the really old Heroku-based domain.
+## Data
 
-## TurkiyeAPI GPT
+The current dataset metadata is exposed at `GET /v2/meta`.
 
-You can now access TurkiyeAPI via ChatGPT! Just ask questions about Turkey's administrative divisions, and get instant answers. Try it out now!
+| Resource | Count |
+| --- | ---: |
+| Provinces | 81 |
+| Districts | 973 |
+| Municipalities | 1,377 |
+| Neighborhoods | 32,254 |
+| Villages | 18,183 |
 
-[https://chatgpt.com/g/g-68cf1bc306c48191bcff3d687a9604e5-turkiyeapi-gpt?model=gpt-5](https://chatgpt.com/g/g-68cf1bc306c48191bcff3d687a9604e5-turkiyeapi-gpt?model=gpt-5)
+Dataset version: `2025`
 
-> _Warning: This feature is experimental and may not always provide accurate information. For critical applications, please refer to the official API documentation._
+Last updated: `2026-05-01`
 
-## What's new?
+Sources:
 
-> _Latest update: August 3, 2025_
+- TÜİK MEDAS
+- PTT Kargo postal code data
+- T.C. MSB Harita Genel Müdürlüğü area data
 
-- New documentation is available at [docs.turkiyeapi.dev](https://docs.turkiyeapi.dev).
-- The API documentation is now available in both English and Turkish languages.
+## Requirements
 
-## Sources
+- Node.js `>=22.22.2 <23`
+- npm
 
-- [Population of districts](https://biruni.tuik.gov.tr/medas)
-- [Area of districts](https://web.archive.org/web/20190416051733/https://www.harita.gov.tr/images/urun/il_ilce_alanlari.pdf)
+## Installation
 
-## Documentation
+```sh
+npm install
+```
 
-- [API Documentation](https://api.turkiyeapi.dev/docs)
-- [Examples](https://api.turkiyeapi.dev/examples)
-- [Postman Collection](https://documenter.getpostman.com/view/19561492/UzBguVHM)
-- [Swagger UI](https://api.turkiyeapi.dev/swagger)
+## Development
 
-## Working on v2
+```sh
+npm run dev
+```
 
-The v2 version is currently in development. The main goals for this version are:
+The server listens on `0.0.0.0:3000` by default. You can override the port and host:
 
-- Improve the overall structure and organization of the codebase.
-- Enhance the API's performance and scalability.
-- Introduce new features and endpoints based on user feedback and requirements.
-- Update the documentation to be more comprehensive and user-friendly.
-- Ensure better error handling and validation mechanisms.
-- Implement more robust testing to ensure the reliability of the API.
+```sh
+PORT=4000 HOST=127.0.0.1 npm run dev
+```
 
-When the v2 version is released, it will be announced on the main page of the project and in the documentation section.
+## Build and Run
 
-## Usage of API
+```sh
+npm run build
+npm start
+```
 
-## Provinces
+## Tests
 
-### Get All Provinces
+```sh
+npm test
+npm run typecheck
+```
 
-**Endpoint:** `GET /v1/provinces`
+## Docker
 
-You can use this route to get data for all provinces. The available query parameters are:
+```sh
+docker build -t turkiye-api .
+docker run --rm -p 3000:3000 turkiye-api
+```
 
-- `name` (string): It shows all the provinces containing or matching your search query.
-- `minPopulation` (number): It shows all the provinces with a population greater than or equal to the value you entered.
-- `maxPopulation` (number): It shows all the provinces with a population less than or equal to the value you entered.
-- `minArea` (number): It shows all the provinces with an area greater than or equal to the value you entered.
-- `maxArea` (number): It shows all the provinces with an area less than or equal to the value you entered.
-- `minAltitude` (number): It shows all the provinces with an altitude greater than or equal to the value you entered.
-- `maxAltitude` (number): It shows all the provinces with an altitude less than or equal to the value you entered.
-- `isCoastal` (boolean): It shows all the provinces that are coastal or not.
-- `isMetropolitan` (boolean): It shows all the provinces that are metropolitan or not.
-- `offset` (number): Used for pagination. Use this to set a starting point in search results.
-- `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
-- `fields` (string): It shows the fields you want to see in the response.
-- `sort` (string): It sorts the results in ascending or descending order.
+The image exposes port `3000` and includes a health check against `/health`.
 
-### Get Exact Province
+## API Overview
 
-**Endpoint:** `GET /v1/provinces/:id`
+### System
 
-You can use this route to get data for exact province. The available path variables and query parameters are:
+| Method | Path | Description |
+| --- | --- | --- |
+| `GET` | `/health` | Health check |
+| `GET` | `/v2/meta` | API and dataset metadata |
+| `GET` | `/v2/openapi.json` | OpenAPI 3.1 document |
 
-- `id` (Path Variable): ID of province
-- `fields` (Query Parameter, string): It shows the fields you want to see in the response.
-- `extend` (Query Parameter, boolean): It shows the extended data (neighborhoods and villages) of the province. [Default: false] (This is an experimental feature. It may not work properly.)
+### Dynamic Resources
 
-## Districts
-
-### Get All Districts
-
-**Endpoint:** `GET /v1/districts`
-
-You can use this route to get data for all districts. The available query parameters are:
-
-- `name` (string): It shows all the districts containing or matching your search query.
-- `minPopulation` (number): It shows all the districts with a population greater than or equal to the value you entered.
-- `maxPopulation` (number): It shows all the districts with a population less than or equal to the value you entered.
-- `minArea` (number): It shows all the districts with an area greater than or equal to the value you entered.
-- `maxArea` (number): It shows all the districts with an area less than or equal to the value you entered.
-- `provinceId` (number): It shows all the districts in the province with the ID you entered.
-- `province` (string): It shows all the districts in the province containing or matching your search query.
-- `offset` (number): Used for pagination. Use this to set a starting point in search results.
-- `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
-- `fields` (string): It shows the fields you want to see in the response.
-- `sort` (string): It sorts the results in ascending or descending order.
-
-### Get Exact District
-
-**Endpoint:** `GET /v1/districts/:id`
-
-You can use this route to get data for exact district. The available path variables and query parameters are:
-
-- `id` (Path Variable): ID of district
-- `fields` (Query Parameter, string): It shows the fields you want to see in the response.
-
-## Neighborhoods
-
-### Get All Neighborhoods
-
-**Endpoint:** `GET /v1/neighborhoods`
-
-You can use this route to get data for all neighborhoods. The available query parameters are:
-
-- `name` (string): It shows all the neighborhoods containing or matching your search query.
-- `minPopulation` (number): It shows all the neighborhoods with a population greater than or equal to the value you entered.
-- `maxPopulation` (number): It shows all the neighborhoods with a population less than or equal to the value you entered.
-- `provinceId` (number): It shows all the neighborhoods in the province with the ID you entered.
-- `province` (string): It shows all the neighborhoods in the province containing or matching your search query.
-- `districtId` (number): It shows all the neighborhoods in the district with the ID you entered.
-- `district` (string): It shows all the neighborhoods in the district containing or matching your search query.
-- `offset` (number): Used for pagination. Use this to set a starting point in search results.
-- `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
-- `fields` (string): It shows the fields you want to see in the response.
-- `sort` (string): It sorts the results in ascending or descending order.
-
-### Get Exact Neighborhood
-
-**Endpoint:** `GET /v1/neighborhoods/:id`
-
-You can use this route to get data for exact neighborhood. The available path variables and query parameters are:
-
-- `id` (Path Variable): ID of neighborhood
-- `fields` (Query Parameter, string): It shows the fields you want to see in the response.
-
-## Villages
-
-### Get All Villages
-
-**Endpoint:** `GET /v1/villages`
-
-You can use this route to get data for all villages. The available query parameters are:
-
-- `name` (string): It shows all the villages containing or matching your search query.
-- `minPopulation` (number): It shows all the villages with a population greater than or equal to the value you entered.
-- `maxPopulation` (number): It shows all the villages with a population less than or equal to the value you entered.
-- `provinceId` (number): It shows all the villages in the province with the ID you entered.
-- `province` (string): It shows all the villages in the province containing or matching your search query.
-- `districtId` (number): It shows all the villages in the district with the ID you entered.
-- `district` (string): It shows all the villages in the district containing or matching your search query.
-- `offset` (number): Used for pagination. Use this to set a starting point in search results.
-- `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
-- `fields` (string): It shows the fields you want to see in the response.
-- `sort` (string): It sorts the results in ascending or descending order.
-
-### Get Exact Village
-
-**Endpoint:** `GET /v1/villages/:id`
-
-You can use this route to get data for exact village. The available path variables and query parameters are:
-
-- `id` (Path Variable): ID of village
-- `fields` (Query Parameter, string): It shows the fields you want to see in the response.
-
-## Towns
-
-Important Notes:
-
-- The scope of the v1 version of TurkiyeAPI (without municipal units) is to include provinces, districts, neighborhoods, and villages. However, since towns (a type of municipality) have an important place in the country, two routes have been allocated to them, just like neighborhoods and villages. In short, this is a patch prepared for v1. However, unlike neighborhoods and villages, they are not shown in the `/districts/:id` route, meaning they are isolated within themselves. Nevertheless, in these routes starting with `/towns`, the province-district names and IDs to which the towns are connected are specified, meaning you can connect using these if you wish.
-
-- This is just a patch update (Check issue [#29](https://github.com/ubeydeozdmr/turkiye-api/issues/29)), in version 2 I will probably remove the `/towns` route and add the `/municipalities` route instead.
-
-### Get All Towns
-
-**Endpoint:** `GET /v1/towns`
-
-You can use this route to get data for all towns. The available query parameters are:
-
-- `name` (string): It shows all the towns containing or matching your search query.
-- `minPopulation` (number): It shows all the towns with a population greater than or equal to the value you entered.
-- `maxPopulation` (number): It shows all the towns with a population less than or equal to the value you entered.
-- `provinceId` (number): It shows all the towns in the province with the ID you entered.
-- `province` (string): It shows all the towns in the province containing or matching your search query.
-- `districtId` (number): It shows all the towns in the district with the ID you entered.
-- `district` (string): It shows all the towns in the district containing or matching your search query.
-- `offset` (number): Used for pagination. Use this to set a starting point in search results.
-- `limit` (number): Used for pagination. Use this to set the maximum number of results to show you.
-- `fields` (string): It shows the fields you want to see in the response.
-- `sort` (string): It sorts the results in ascending or descending order.
-
-### Get Exact Town
-
-**Endpoint:** `GET /v1/towns/:id`
-
-You can use this route to get data for exact town. The available path variables and query parameters are:
-
-- `id` (Path Variable): ID of town
-- `fields` (Query Parameter, string): It shows the fields you want to see in the response.
-
-## About Postal Codes
-
-The postal codes feature is currently partially missing. Currently, there is only a postal code feature for provinces and districts, and a postal code feature for neighborhoods and villages will come later. However, another important point is that the postal code filtering method can be changed, moved to another location, and postal codes for provinces and districts can be removed after neighborhood & village postal codes are added.
-
-You can use the following query parameter (you should set it to true) to activate the postal code feature for this routes: Get All Provinces, Get Exact Province, Get All Districts, Get Exact District.
-
-Firstly you should activate the postal code feature by setting the "activatePostalCodes" query parameter to true.
-
-### Activate Postal Codes
-
-- `activatePostalCodes` (boolean): It activates the postal code feature. [Default: false]
-
-Then you can use the following query parameters to filter the provinces and districts by postal code:
-
-- `postalCode` (string): It shows all the provinces/districts containing or matching your search query.
-
-Although postal codes consist only of digits, they are still a string type. This is because postal codes can start with zero.
+| Method | Path | Description |
+| --- | --- | --- |
+| `GET` | `/v2/provinces` | List provinces |
+| `GET` | `/v2/provinces/{provinceId}` | Get a province |
+| `GET` | `/v2/provinces/{provinceId}/districts` | List districts in a province |
+| `GET` | `/v2/provinces/{provinceId}/municipalities` | List municipalities in a province |
+| `GET` | `/v2/provinces/{provinceId}/neighborhoods` | List neighborhoods in a province |
+| `GET` | `/v2/provinces/{provinceId}/villages` | List villages in a province |
+| `GET` | `/v2/districts` | List districts |
+| `GET` | `/v2/districts/{districtId}` | Get a district |
+| `GET` | `/v2/districts/{districtId}/municipalities` | List municipalities in a district |
+| `GET` | `/v2/districts/{districtId}/neighborhoods` | List neighborhoods in a district |
+| `GET` | `/v2/districts/{districtId}/villages` | List villages in a district |
+| `GET` | `/v2/municipalities` | List municipalities |
+| `GET` | `/v2/municipalities/{municipalityId}` | Get a municipality |
+| `GET` | `/v2/municipalities/{municipalityId}/neighborhoods` | List neighborhoods in a municipality |
+| `GET` | `/v2/neighborhoods` | List neighborhoods |
+| `GET` | `/v2/neighborhoods/{neighborhoodId}` | Get a neighborhood |
+| `GET` | `/v2/villages` | List villages |
+| `GET` | `/v2/villages/{villageId}` | Get a village |
+
+### Static Dataset Downloads
+
+Latest dataset files:
+
+```txt
+GET /v2/datasets/provinces.json
+GET /v2/datasets/districts.json
+GET /v2/datasets/municipalities.json
+GET /v2/datasets/neighborhoods.json
+GET /v2/datasets/villages.json
+```
+
+Versioned dataset files:
+
+```txt
+GET /v2/datasets/2025/provinces.json
+GET /v2/datasets/2025/districts.json
+GET /v2/datasets/2025/municipalities.json
+GET /v2/datasets/2025/neighborhoods.json
+GET /v2/datasets/2025/villages.json
+```
+
+## Examples
+
+List provinces:
+
+```sh
+curl "https://api.turkiyeapi.dev/v2/provinces"
+```
+
+Search and project fields:
+
+```sh
+curl "https://api.turkiyeapi.dev/v2/provinces?search=istanbul&fields=id,name,population"
+```
+
+Get a province with related districts:
+
+```sh
+curl "https://api.turkiyeapi.dev/v2/provinces/34?fields=id,name&include=districts"
+```
+
+List municipalities in a province:
+
+```sh
+curl "https://api.turkiyeapi.dev/v2/municipalities?provinceId=34&limit=25"
+```
+
+List town municipalities:
+
+```sh
+curl "https://api.turkiyeapi.dev/v2/municipalities?type=town"
+```
+
+Download a static dataset:
+
+```sh
+curl "https://api.turkiyeapi.dev/v2/datasets/2025/provinces.json"
+```
+
+## Response Shape
+
+List endpoints return a `data` array and pagination metadata:
+
+```json
+{
+  "data": [
+    {
+      "id": 34,
+      "name": "İstanbul"
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "total": 81,
+    "limit": 1,
+    "offset": 0,
+    "datasetVersion": "2025",
+    "lastUpdated": "2026-05-01"
+  }
+}
+```
+
+Detail endpoints return a single `data` object:
+
+```json
+{
+  "data": {
+    "id": 34,
+    "name": "İstanbul"
+  },
+  "meta": {
+    "datasetVersion": "2025",
+    "lastUpdated": "2026-05-01"
+  }
+}
+```
+
+Metadata uses a simple data envelope:
+
+```json
+{
+  "data": {
+    "apiVersion": "2.0.0",
+    "datasetVersion": "2025",
+    "lastUpdated": "2026-05-01"
+  }
+}
+```
+
+Errors are structured:
+
+```json
+{
+  "error": {
+    "code": "PROVINCE_NOT_FOUND",
+    "message": "Province not found.",
+    "status": 404
+  }
+}
+```
+
+## Query Parameters
+
+Common list parameters:
+
+| Parameter | Description |
+| --- | --- |
+| `search` | Case-insensitive normalized text search by name |
+| `fields` | Comma-separated field projection |
+| `sort` | `id`, `-id`, `name`, `-name`, `population`, or `-population` |
+| `limit` | Page size, from `1` to `1000`; default `100` |
+| `offset` | Zero-based offset; default `0` |
+| `minPopulation` | Minimum population |
+| `maxPopulation` | Maximum population |
+
+Resource-specific filters:
+
+| Resource | Filters |
+| --- | --- |
+| Provinces | `minArea`, `maxArea`, `minAltitude`, `maxAltitude`, `isCoastal`, `isMetropolitan` |
+| Districts | `provinceId`, `minArea`, `maxArea` |
+| Municipalities | `provinceId`, `districtId`, `type` |
+| Neighborhoods | `provinceId`, `districtId`, `municipalityId` |
+| Villages | `provinceId`, `districtId` |
+
+Boolean filters use `true` or `false`. Municipality `type` can be `province_center`, `district_center`, or `town`.
+
+## Field Projection
+
+Use `fields` to reduce payload size:
+
+```txt
+GET /v2/provinces?fields=id,name,population
+GET /v2/neighborhoods?fields=id,name,postalCode&limit=10
+```
+
+Unknown fields return `400 INVALID_FIELDS`.
+
+## Includes
+
+Detail endpoints stay shallow by default. Use `include` to explicitly expand relationships.
+
+| Endpoint | Supported includes |
+| --- | --- |
+| `/v2/provinces/{provinceId}` | `districts`, `municipalities`, `neighborhoods`, `villages` |
+| `/v2/districts/{districtId}` | `province`, `municipalities`, `neighborhoods`, `villages` |
+| `/v2/municipalities/{municipalityId}` | `province`, `district`, `neighborhoods` |
+| `/v2/neighborhoods/{neighborhoodId}` | `province`, `district`, `municipality` |
+| `/v2/villages/{villageId}` | `province`, `district` |
+
+Unknown includes return `400 INVALID_INCLUDE`.
+
+## Caching
+
+Dynamic `/v2/*` API responses include:
+
+```txt
+Cache-Control: public, max-age=300
+ETag: ...
+```
+
+Latest static dataset downloads include:
+
+```txt
+Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+ETag: ...
+Last-Modified: ...
+```
+
+Versioned static dataset downloads include:
+
+```txt
+Cache-Control: public, max-age=31536000, immutable
+ETag: ...
+Last-Modified: ...
+```
+
+Requests with a matching `If-None-Match` header receive `304 Not Modified`.
+
+## Rate Limiting
+
+The default rate-limit policies are:
+
+- 300 requests per minute
+- 1,000 requests per 5 minutes
+
+Identity is resolved from `x-api-key`, then `authorization`, then client IP. Rate-limit headers are exposed through CORS:
+
+```txt
+x-ratelimit-limit
+x-ratelimit-remaining
+x-ratelimit-reset
+retry-after
+```
+
+## Project Structure
+
+```txt
+src/
+  app.ts                  Fastify app builder
+  server.ts               Runtime entrypoint
+  data/                   Dataset loading and metadata
+  indexes/                In-memory relationship indexes
+  routes/                 HTTP route modules
+  schemas/                TypeBox schemas
+  services/               Query and lookup logic
+  utils/                  Response, pagination, fields, includes, errors
+datasets/                 Latest and versioned JSON datasets
+tests/                    Node test runner suites
+```
+
+## Additional Documentation
+
+- [TurkiyeAPI_Documentation.md](./TurkiyeAPI_Documentation.md) - generated endpoint documentation
+- [openapi-docs.md](./openapi-docs.md) - generated OpenAPI markdown
+- [TurkiyeAPI.postman_collection.json](./TurkiyeAPI.postman_collection.json) - Postman collection
+- [v2-technical-decisions.md](./v2-technical-decisions.md) - implementation decisions
+- [v2-final-structure.txt](./v2-final-structure.txt) - endpoint and entity structure notes
 
 ## License
 
-[MIT](./LICENSE)
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-<!-- ## Templates
-
-[Index](https://ubeydeozdmr.github.io/turkiye-api-templates/index.html)
-
-[v1](https://ubeydeozdmr.github.io/turkiye-api-templates/v1/index.html) -->
-
-## Contact
-
-You can contact me via [email](mailto:ubeydeozdmr@gmail.com) or [Telegram](https://t.me/ubeydeozdmr).
-
-## Support
-
-If you want to support me, you can buy me a coffee. Each coffee you buy covers approximately one month's worth of server expenses. [Buy me a coffee](https://www.buymeacoffee.com/ubeydeozdmr)
-
-<a href="https://www.buymeacoffee.com/ubeydeozdmr"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="buymeacoffee button" width="150" /></a>
+MIT

@@ -1,31 +1,47 @@
-# deps
-FROM node:20-alpine AS deps
-WORKDIR /app
-ENV NODE_ENV=production
-COPY package*.json ./
-RUN npm ci --omit=dev
+# syntax=docker/dockerfile:1
 
-# runtime
-FROM node:20-alpine AS runner
+FROM node:22-alpine AS deps
 WORKDIR /app
-ENV NODE_ENV=production \
-    PORT=8181
-# necessary for some packages
+
 COPY package*.json ./
-COPY --from=deps /app/node_modules ./node_modules
+RUN npm ci
+
+FROM deps AS build
+WORKDIR /app
+
+COPY tsconfig.json ./
 COPY src ./src
-# If data is outside src:
-# COPY data ./data
+COPY datasets ./datasets
 
-# non-root
+RUN npm run build
+
+FROM node:22-alpine AS production-deps
+WORKDIR /app
+
+ENV NODE_ENV=production
+
+COPY package*.json ./
+RUN npm ci --omit=dev && npm cache clean --force
+
+FROM node:22-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV PORT=3000
+
+COPY package*.json ./
+COPY --from=production-deps /app/node_modules ./node_modules
+COPY --from=build /app/dist ./dist
+COPY datasets ./datasets
+
 RUN addgroup -S nodejs && adduser -S nodeuser -G nodejs \
   && chown -R nodeuser:nodejs /app
-RUN apk add --no-cache curl
+
 USER nodeuser
 
-EXPOSE 8181
-# If there is health endpoint (örn. /health):
-HEALTHCHECK --interval=30s --timeout=3s --retries=3 \
-  CMD curl -fsS http://127.0.0.1:8181/health || exit 1
+EXPOSE 3000
 
-CMD ["node", "src/index.js"]
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
+  CMD node -e "fetch('http://127.0.0.1:' + (process.env.PORT || 3000) + '/health').then((r) => { if (!r.ok) process.exit(1); }).catch(() => process.exit(1));"
+
+CMD ["node", "dist/server.js"]
