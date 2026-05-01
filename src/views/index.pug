@@ -2,6 +2,16 @@ extends layouts/main.pug
 
 block styles
   style.
+    .banner {
+    background-color: #1b1b1f;
+    color: #dfdfd6;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    }
     header.hero {
     position: relative;
     display: flex;
@@ -297,6 +307,17 @@ block styles
   title Turkiye API
 
 block content
+  .banner
+    if language && language.startsWith('tr')
+      | TurkiyeAPI versiyon 2'nin önizlemesi herkese açık olarak yayınlandı! Haziran ayında ise tam olarak yayınlanacak, ancak bu süreç içerisinde v2'yi kullanıp geri bildirimde bulunabilirsiniz.
+      a(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Dokümantasyon
+      |  /
+      a(href='https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Geri Bildirim Sağla
+    else
+      | A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback.
+      a(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Documentation
+      |  /
+      a(href='https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Provide Feedback
   header.hero
     img.hero__img(src="assets/"+image alt='An image from Turkey/Turkiye')
     .hero__text-box
