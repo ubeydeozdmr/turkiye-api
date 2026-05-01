@@ -4,27 +4,6 @@ TurkiyeAPI is a comprehensive REST API providing detailed information about Turk
 
 The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. You can visit: [https://turkiyeapi.dev](https://turkiyeapi.dev)
 
-## Hosting Migration
-
-The hosting migration process (from Heroku to Hetzner + Dokploy) started on October 5, 2025. From now, the main domain and endpoint for v1 will be [api.turkiyeapi.dev](https://api.turkiyeapi.dev) + `/v1/`. To maintain and don't break the previous [turkiyeapi.dev](https://turkiyeapi.dev) + `/api/v1/` usage, requests sent to the old route will be redirected to the new route with a 301 status code. However, you can still switch to the new route in your source code to minimize latency.
-
-Starting October 8, Heroku-based domain is no longer available. If you are still using the turkiyeapi.herokuapp.com domain, you should start using the new domain as soon as possible, as it will soon become unavailable. Although it is configured to redirect the main domain as described above, this is unfortunately not possible for the really old Heroku-based domain.
-
-## TurkiyeAPI GPT
-
-You can now access TurkiyeAPI via ChatGPT! Just ask questions about Turkey's administrative divisions, and get instant answers. Try it out now!
-
-[https://chatgpt.com/g/g-68cf1bc306c48191bcff3d687a9604e5-turkiyeapi-gpt?model=gpt-5](https://chatgpt.com/g/g-68cf1bc306c48191bcff3d687a9604e5-turkiyeapi-gpt?model=gpt-5)
-
-> _Warning: This feature is experimental and may not always provide accurate information. For critical applications, please refer to the official API documentation._
-
-## What's new?
-
-> _Latest update: August 3, 2025_
-
-- New documentation is available at [docs.turkiyeapi.dev](https://docs.turkiyeapi.dev).
-- The API documentation is now available in both English and Turkish languages.
-
 ## Sources
 
 - [Population of districts](https://biruni.tuik.gov.tr/medas)
@@ -37,18 +16,29 @@ You can now access TurkiyeAPI via ChatGPT! Just ask questions about Turkey's adm
 - [Postman Collection](https://documenter.getpostman.com/view/19561492/UzBguVHM)
 - [Swagger UI](https://api.turkiyeapi.dev/swagger)
 
-## Working on v2
+## Preview of v2 has been released
 
-The v2 version is currently in development. The main goals for this version are:
+A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback.
 
-- Improve the overall structure and organization of the codebase.
-- Enhance the API's performance and scalability.
-- Introduce new features and endpoints based on user feedback and requirements.
-- Update the documentation to be more comprehensive and user-friendly.
-- Ensure better error handling and validation mechanisms.
-- Implement more robust testing to ensure the reliability of the API.
+Of course, you can still use v1, but I recommend using v2 as it has many new features and improvements. You can find the documentation and Postman collection for v2 in the links below. Also your feedback is very important for the development of v2, so please don't hesitate to provide feedback using the links below.
 
-When the v2 version is released, it will be announced on the main page of the project and in the documentation section.
+What's new in v2:
+
+- **Municipal Units**: In v2, the concept of municipal units has been introduced. This means that in addition to provinces, districts, neighborhoods, and villages, there are now also municipal units. This allows for more detailed and accurate data representation. Towns, which were previously included as a patch in v1, have been removed and replaced with municipal units in v2. This change allows for a more comprehensive and accurate representation of the administrative divisions in Turkey.
+- **Updated Data**: The data in v2 has been updated to reflect the latest information available. This includes changes in population and new administrative divisions.
+- **Improved Performance**: The performance of the API has been improved in v2, allowing for faster response times and better handling of large datasets.
+- **New Endpoints**: New endpoints have been added in v2 to provide more specific data and allow for more complex queries.
+- **Postal Codes**: The postal code feature has been expanded in v2 to include neighborhoods and villages, in addition to provinces and districts. This allows for more detailed filtering and data retrieval based on postal codes.
+
+Base v2 URL: `https://api.turkiyeapi.dev/v2`
+
+[Documentation for v2](https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme)
+
+[Postman Collection for v2](https://documenter.getpostman.com/view/19561492/UzBguVHM)
+
+[Provide feedback for v2 (GitHub Issues)](https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318)
+
+[Provide feedback for v2 (Email)](mailto:ubeydeozdmr@gmail.com)
 
 ## Usage of API
 
@@ -244,6 +234,8 @@ You can contact me via [email](mailto:ubeydeozdmr@gmail.com) or [Telegram](https
 
 ## Support
 
-If you want to support me, you can buy me a coffee. Each coffee you buy covers approximately one month's worth of server expenses. [Buy me a coffee](https://www.buymeacoffee.com/ubeydeozdmr)
+GitHub Sponsors and Buy Me a Coffee are the best ways to support me. Your support helps me to cover the server expenses and continue developing and improving the API.
+
+<iframe src="https://github.com/sponsors/ubeydeozdmr/button" title="Sponsor ubeydeozdmr" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
 
 <a href="https://www.buymeacoffee.com/ubeydeozdmr"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="buymeacoffee button" width="150" /></a>
