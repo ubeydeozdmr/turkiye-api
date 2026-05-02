@@ -12,9 +12,7 @@
       "value": 25,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      322
-    ],
+    "phoneAreaCodes": [322],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -45,9 +43,7 @@
       "value": 701,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      416
-    ],
+    "phoneAreaCodes": [416],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -78,9 +74,7 @@
       "value": 1012,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      272
-    ],
+    "phoneAreaCodes": [272],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -111,9 +105,7 @@
       "value": 1630,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      472
-    ],
+    "phoneAreaCodes": [472],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -144,9 +136,7 @@
       "value": 1228,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      382
-    ],
+    "phoneAreaCodes": [382],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -177,9 +167,7 @@
       "value": 400,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      358
-    ],
+    "phoneAreaCodes": [358],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -210,9 +198,7 @@
       "value": 905,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      312
-    ],
+    "phoneAreaCodes": [312],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -243,9 +229,7 @@
       "value": 62,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      242
-    ],
+    "phoneAreaCodes": [242],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -276,9 +260,7 @@
       "value": 1799,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      478
-    ],
+    "phoneAreaCodes": [478],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -309,9 +291,7 @@
       "value": 530,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      466
-    ],
+    "phoneAreaCodes": [466],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -342,9 +322,7 @@
       "value": 92,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      256
-    ],
+    "phoneAreaCodes": [256],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -375,9 +353,7 @@
       "value": 145,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      266
-    ],
+    "phoneAreaCodes": [266],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -408,9 +384,7 @@
       "value": 12,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      378
-    ],
+    "phoneAreaCodes": [378],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -441,9 +415,7 @@
       "value": 570,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      488
-    ],
+    "phoneAreaCodes": [488],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -474,9 +446,7 @@
       "value": 1555,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      458
-    ],
+    "phoneAreaCodes": [458],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -507,9 +477,7 @@
       "value": 513,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      228
-    ],
+    "phoneAreaCodes": [228],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -540,9 +508,7 @@
       "value": 1159,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      426
-    ],
+    "phoneAreaCodes": [426],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -573,9 +539,7 @@
       "value": 1637,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      434
-    ],
+    "phoneAreaCodes": [434],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -606,9 +570,7 @@
       "value": 741,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      374
-    ],
+    "phoneAreaCodes": [374],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -639,9 +601,7 @@
       "value": 963,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      248
-    ],
+    "phoneAreaCodes": [248],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -672,9 +632,7 @@
       "value": 238,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      224
-    ],
+    "phoneAreaCodes": [224],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -705,9 +663,7 @@
       "value": 11,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      286
-    ],
+    "phoneAreaCodes": [286],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -738,9 +694,7 @@
       "value": 730,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      376
-    ],
+    "phoneAreaCodes": [376],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -771,9 +725,7 @@
       "value": 822,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      364
-    ],
+    "phoneAreaCodes": [364],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -804,9 +756,7 @@
       "value": 392,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      258
-    ],
+    "phoneAreaCodes": [258],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -837,9 +787,7 @@
       "value": 674,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      412
-    ],
+    "phoneAreaCodes": [412],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -870,9 +818,7 @@
       "value": 149,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      380
-    ],
+    "phoneAreaCodes": [380],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -903,9 +849,7 @@
       "value": 50,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      284
-    ],
+    "phoneAreaCodes": [284],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -936,9 +880,7 @@
       "value": 1041,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      424
-    ],
+    "phoneAreaCodes": [424],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -969,9 +911,7 @@
       "value": 1216,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      446
-    ],
+    "phoneAreaCodes": [446],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1002,9 +942,7 @@
       "value": 1923,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      442
-    ],
+    "phoneAreaCodes": [442],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1035,9 +973,7 @@
       "value": 796,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      222
-    ],
+    "phoneAreaCodes": [222],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1068,9 +1004,7 @@
       "value": 838,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      342
-    ],
+    "phoneAreaCodes": [342],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1101,9 +1035,7 @@
       "value": 14,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      454
-    ],
+    "phoneAreaCodes": [454],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -1134,9 +1066,7 @@
       "value": 1174,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      456
-    ],
+    "phoneAreaCodes": [456],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1167,9 +1097,7 @@
       "value": 1756,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      438
-    ],
+    "phoneAreaCodes": [438],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1200,9 +1128,7 @@
       "value": 89,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      326
-    ],
+    "phoneAreaCodes": [326],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -1233,9 +1159,7 @@
       "value": 860,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      476
-    ],
+    "phoneAreaCodes": [476],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1266,9 +1190,7 @@
       "value": 1058,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      246
-    ],
+    "phoneAreaCodes": [246],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1299,10 +1221,7 @@
       "value": 25,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      212,
-      216
-    ],
+    "phoneAreaCodes": [212, 216],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -1333,9 +1252,7 @@
       "value": 9,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      232
-    ],
+    "phoneAreaCodes": [232],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -1366,9 +1283,7 @@
       "value": 562,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      344
-    ],
+    "phoneAreaCodes": [344],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1399,9 +1314,7 @@
       "value": 264,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      370
-    ],
+    "phoneAreaCodes": [370],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1432,9 +1345,7 @@
       "value": 1063,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      338
-    ],
+    "phoneAreaCodes": [338],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1465,9 +1376,7 @@
       "value": 1756,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      474
-    ],
+    "phoneAreaCodes": [474],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1498,9 +1407,7 @@
       "value": 814,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      366
-    ],
+    "phoneAreaCodes": [366],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -1531,9 +1438,7 @@
       "value": 1060,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      352
-    ],
+    "phoneAreaCodes": [352],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1564,9 +1469,7 @@
       "value": 660,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      348
-    ],
+    "phoneAreaCodes": [348],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1597,9 +1500,7 @@
       "value": 746,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      318
-    ],
+    "phoneAreaCodes": [318],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1630,9 +1531,7 @@
       "value": 231,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      288
-    ],
+    "phoneAreaCodes": [288],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -1663,9 +1562,7 @@
       "value": 991,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      386
-    ],
+    "phoneAreaCodes": [386],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1696,9 +1593,7 @@
       "value": 4,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      262
-    ],
+    "phoneAreaCodes": [262],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -1729,9 +1624,7 @@
       "value": 1023,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      332
-    ],
+    "phoneAreaCodes": [332],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1762,9 +1655,7 @@
       "value": 958,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      274
-    ],
+    "phoneAreaCodes": [274],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1795,9 +1686,7 @@
       "value": 970,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      422
-    ],
+    "phoneAreaCodes": [422],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1828,9 +1717,7 @@
       "value": 79,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      236
-    ],
+    "phoneAreaCodes": [236],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1861,9 +1748,7 @@
       "value": 938,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      482
-    ],
+    "phoneAreaCodes": [482],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -1894,9 +1779,7 @@
       "value": 18,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      324
-    ],
+    "phoneAreaCodes": [324],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -1927,9 +1810,7 @@
       "value": 659,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      252
-    ],
+    "phoneAreaCodes": [252],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -1960,9 +1841,7 @@
       "value": 1334,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      436
-    ],
+    "phoneAreaCodes": [436],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -1993,9 +1872,7 @@
       "value": 1197,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      384
-    ],
+    "phoneAreaCodes": [384],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2026,9 +1903,7 @@
       "value": 1239,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      388
-    ],
+    "phoneAreaCodes": [388],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2059,9 +1934,7 @@
       "value": 25,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      452
-    ],
+    "phoneAreaCodes": [452],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -2092,9 +1965,7 @@
       "value": 121,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      328
-    ],
+    "phoneAreaCodes": [328],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2125,9 +1996,7 @@
       "value": 11,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      464
-    ],
+    "phoneAreaCodes": [464],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -2158,9 +2027,7 @@
       "value": 41,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      264
-    ],
+    "phoneAreaCodes": [264],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -2191,9 +2058,7 @@
       "value": 10,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      362
-    ],
+    "phoneAreaCodes": [362],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -2224,9 +2089,7 @@
       "value": 527,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      414
-    ],
+    "phoneAreaCodes": [414],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -2257,9 +2120,7 @@
       "value": 887,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      484
-    ],
+    "phoneAreaCodes": [484],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2290,9 +2151,7 @@
       "value": 27,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      368
-    ],
+    "phoneAreaCodes": [368],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -2323,9 +2182,7 @@
       "value": 1343,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      486
-    ],
+    "phoneAreaCodes": [486],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2356,9 +2213,7 @@
       "value": 1313,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      346
-    ],
+    "phoneAreaCodes": [346],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2389,9 +2244,7 @@
       "value": 28,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      282
-    ],
+    "phoneAreaCodes": [282],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -2422,9 +2275,7 @@
       "value": 630,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      356
-    ],
+    "phoneAreaCodes": [356],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2455,9 +2306,7 @@
       "value": 36,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      462
-    ],
+    "phoneAreaCodes": [462],
     "isCoastal": true,
     "isMetropolitan": true,
     "region": {
@@ -2488,9 +2337,7 @@
       "value": 922,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      428
-    ],
+    "phoneAreaCodes": [428],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2521,9 +2368,7 @@
       "value": 915,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      276
-    ],
+    "phoneAreaCodes": [276],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2554,9 +2399,7 @@
       "value": 1728,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      432
-    ],
+    "phoneAreaCodes": [432],
     "isCoastal": false,
     "isMetropolitan": true,
     "region": {
@@ -2587,9 +2430,7 @@
       "value": 8,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      226
-    ],
+    "phoneAreaCodes": [226],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
@@ -2620,9 +2461,7 @@
       "value": 1317,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      354
-    ],
+    "phoneAreaCodes": [354],
     "isCoastal": false,
     "isMetropolitan": false,
     "region": {
@@ -2653,9 +2492,7 @@
       "value": 10,
       "unit": "m"
     },
-    "phoneAreaCodes": [
-      372
-    ],
+    "phoneAreaCodes": [372],
     "isCoastal": true,
     "isMetropolitan": false,
     "region": {
