@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": [
-      "ES2022"
-    ],
+    "lib": ["ES2022"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "rootDir": "src",
@@ -23,18 +21,8 @@
     "declaration": true,
     "declarationMap": true,
     "removeComments": false,
-    "types": [
-      "node"
-    ]
+    "types": ["node"]
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "dist",
-    "node_modules",
-    "tests",
-    "v1",
-    "v2-output-datasets"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist", "node_modules", "tests", "v1", "v2-output-datasets"]
 }
