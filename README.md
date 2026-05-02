@@ -14,13 +14,13 @@ TurkiyeAPI v2 serves the 2025 dataset from in-memory JSON files with typed Fasti
 
 The current dataset metadata is exposed at `GET /v2/meta`.
 
-| Resource | Count |
-| --- | ---: |
-| Provinces | 81 |
-| Districts | 973 |
-| Municipalities | 1,377 |
-| Neighborhoods | 32,254 |
-| Villages | 18,183 |
+| Resource       |  Count |
+| -------------- | -----: |
+| Provinces      |     81 |
+| Districts      |    973 |
+| Municipalities |  1,377 |
+| Neighborhoods  | 32,254 |
+| Villages       | 18,183 |
 
 Dataset version: `2025`
 
@@ -82,34 +82,34 @@ The image exposes port `3000` and includes a health check against `/health`.
 
 ### System
 
-| Method | Path | Description |
-| --- | --- | --- |
-| `GET` | `/health` | Health check |
-| `GET` | `/v2/meta` | API and dataset metadata |
-| `GET` | `/v2/openapi.json` | OpenAPI 3.1 document |
+| Method | Path               | Description              |
+| ------ | ------------------ | ------------------------ |
+| `GET`  | `/health`          | Health check             |
+| `GET`  | `/v2/meta`         | API and dataset metadata |
+| `GET`  | `/v2/openapi.json` | OpenAPI 3.1 document     |
 
 ### Dynamic Resources
 
-| Method | Path | Description |
-| --- | --- | --- |
-| `GET` | `/v2/provinces` | List provinces |
-| `GET` | `/v2/provinces/{provinceId}` | Get a province |
-| `GET` | `/v2/provinces/{provinceId}/districts` | List districts in a province |
-| `GET` | `/v2/provinces/{provinceId}/municipalities` | List municipalities in a province |
-| `GET` | `/v2/provinces/{provinceId}/neighborhoods` | List neighborhoods in a province |
-| `GET` | `/v2/provinces/{provinceId}/villages` | List villages in a province |
-| `GET` | `/v2/districts` | List districts |
-| `GET` | `/v2/districts/{districtId}` | Get a district |
-| `GET` | `/v2/districts/{districtId}/municipalities` | List municipalities in a district |
-| `GET` | `/v2/districts/{districtId}/neighborhoods` | List neighborhoods in a district |
-| `GET` | `/v2/districts/{districtId}/villages` | List villages in a district |
-| `GET` | `/v2/municipalities` | List municipalities |
-| `GET` | `/v2/municipalities/{municipalityId}` | Get a municipality |
-| `GET` | `/v2/municipalities/{municipalityId}/neighborhoods` | List neighborhoods in a municipality |
-| `GET` | `/v2/neighborhoods` | List neighborhoods |
-| `GET` | `/v2/neighborhoods/{neighborhoodId}` | Get a neighborhood |
-| `GET` | `/v2/villages` | List villages |
-| `GET` | `/v2/villages/{villageId}` | Get a village |
+| Method | Path                                                | Description                          |
+| ------ | --------------------------------------------------- | ------------------------------------ |
+| `GET`  | `/v2/provinces`                                     | List provinces                       |
+| `GET`  | `/v2/provinces/{provinceId}`                        | Get a province                       |
+| `GET`  | `/v2/provinces/{provinceId}/districts`              | List districts in a province         |
+| `GET`  | `/v2/provinces/{provinceId}/municipalities`         | List municipalities in a province    |
+| `GET`  | `/v2/provinces/{provinceId}/neighborhoods`          | List neighborhoods in a province     |
+| `GET`  | `/v2/provinces/{provinceId}/villages`               | List villages in a province          |
+| `GET`  | `/v2/districts`                                     | List districts                       |
+| `GET`  | `/v2/districts/{districtId}`                        | Get a district                       |
+| `GET`  | `/v2/districts/{districtId}/municipalities`         | List municipalities in a district    |
+| `GET`  | `/v2/districts/{districtId}/neighborhoods`          | List neighborhoods in a district     |
+| `GET`  | `/v2/districts/{districtId}/villages`               | List villages in a district          |
+| `GET`  | `/v2/municipalities`                                | List municipalities                  |
+| `GET`  | `/v2/municipalities/{municipalityId}`               | Get a municipality                   |
+| `GET`  | `/v2/municipalities/{municipalityId}/neighborhoods` | List neighborhoods in a municipality |
+| `GET`  | `/v2/neighborhoods`                                 | List neighborhoods                   |
+| `GET`  | `/v2/neighborhoods/{neighborhoodId}`                | Get a neighborhood                   |
+| `GET`  | `/v2/villages`                                      | List villages                        |
+| `GET`  | `/v2/villages/{villageId}`                          | Get a village                        |
 
 ### Static Dataset Downloads
 
@@ -237,25 +237,25 @@ Errors are structured:
 
 Common list parameters:
 
-| Parameter | Description |
-| --- | --- |
-| `search` | Case-insensitive normalized text search by name |
-| `fields` | Comma-separated field projection |
-| `sort` | `id`, `-id`, `name`, `-name`, `population`, or `-population` |
-| `limit` | Page size, from `1` to `1000`; default `100` |
-| `offset` | Zero-based offset; default `0` |
-| `minPopulation` | Minimum population |
-| `maxPopulation` | Maximum population |
+| Parameter       | Description                                                  |
+| --------------- | ------------------------------------------------------------ |
+| `search`        | Case-insensitive normalized text search by name              |
+| `fields`        | Comma-separated field projection                             |
+| `sort`          | `id`, `-id`, `name`, `-name`, `population`, or `-population` |
+| `limit`         | Page size, from `1` to `1000`; default `100`                 |
+| `offset`        | Zero-based offset; default `0`                               |
+| `minPopulation` | Minimum population                                           |
+| `maxPopulation` | Maximum population                                           |
 
 Resource-specific filters:
 
-| Resource | Filters |
-| --- | --- |
-| Provinces | `minArea`, `maxArea`, `minAltitude`, `maxAltitude`, `isCoastal`, `isMetropolitan` |
-| Districts | `provinceId`, `minArea`, `maxArea` |
-| Municipalities | `provinceId`, `districtId`, `type` |
-| Neighborhoods | `provinceId`, `districtId`, `municipalityId` |
-| Villages | `provinceId`, `districtId` |
+| Resource       | Filters                                                                           |
+| -------------- | --------------------------------------------------------------------------------- |
+| Provinces      | `minArea`, `maxArea`, `minAltitude`, `maxAltitude`, `isCoastal`, `isMetropolitan` |
+| Districts      | `provinceId`, `minArea`, `maxArea`                                                |
+| Municipalities | `provinceId`, `districtId`, `type`                                                |
+| Neighborhoods  | `provinceId`, `districtId`, `municipalityId`                                      |
+| Villages       | `provinceId`, `districtId`                                                        |
 
 Boolean filters use `true` or `false`. Municipality `type` can be `province_center`, `district_center`, or `town`.
 
@@ -274,13 +274,13 @@ Unknown fields return `400 INVALID_FIELDS`.
 
 Detail endpoints stay shallow by default. Use `include` to explicitly expand relationships.
 
-| Endpoint | Supported includes |
-| --- | --- |
-| `/v2/provinces/{provinceId}` | `districts`, `municipalities`, `neighborhoods`, `villages` |
-| `/v2/districts/{districtId}` | `province`, `municipalities`, `neighborhoods`, `villages` |
-| `/v2/municipalities/{municipalityId}` | `province`, `district`, `neighborhoods` |
-| `/v2/neighborhoods/{neighborhoodId}` | `province`, `district`, `municipality` |
-| `/v2/villages/{villageId}` | `province`, `district` |
+| Endpoint                              | Supported includes                                         |
+| ------------------------------------- | ---------------------------------------------------------- |
+| `/v2/provinces/{provinceId}`          | `districts`, `municipalities`, `neighborhoods`, `villages` |
+| `/v2/districts/{districtId}`          | `province`, `municipalities`, `neighborhoods`, `villages`  |
+| `/v2/municipalities/{municipalityId}` | `province`, `district`, `neighborhoods`                    |
+| `/v2/neighborhoods/{neighborhoodId}`  | `province`, `district`, `municipality`                     |
+| `/v2/villages/{villageId}`            | `province`, `district`                                     |
 
 Unknown includes return `400 INVALID_INCLUDE`.
 
