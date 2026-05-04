@@ -20,8 +20,8 @@
       "en": "Mediterranean"
     },
     "coordinates": {
-      "latitude": 37.001667,
-      "longitude": 35.328889
+      "latitude": 36.9863599,
+      "longitude": 35.3252861
     },
     "stats": {
       "districtCount": 15,
@@ -51,8 +51,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.764722,
-      "longitude": 38.278611
+      "latitude": 37.7602985,
+      "longitude": 38.2772986
     },
     "stats": {
       "districtCount": 9,
@@ -82,8 +82,8 @@
       "en": "Aegean"
     },
     "coordinates": {
-      "latitude": 38.750278,
-      "longitude": 30.556667
+      "latitude": 38.7568597,
+      "longitude": 30.5387044
     },
     "stats": {
       "districtCount": 18,
@@ -113,8 +113,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 39.719444,
-      "longitude": 43.050556
+      "latitude": 39.719125,
+      "longitude": 43.0504894
     },
     "stats": {
       "districtCount": 8,
@@ -144,8 +144,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 38.36667,
-      "longitude": 34.03333
+      "latitude": 38.3705416,
+      "longitude": 34.026907
     },
     "stats": {
       "districtCount": 8,
@@ -175,8 +175,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.649722,
-      "longitude": 35.835278
+      "latitude": 40.6503248,
+      "longitude": 35.8329148
     },
     "stats": {
       "districtCount": 7,
@@ -206,8 +206,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 39.92077,
-      "longitude": 32.85411
+      "latitude": 39.9207759,
+      "longitude": 32.8540497
     },
     "stats": {
       "districtCount": 25,
@@ -237,8 +237,8 @@
       "en": "Mediterranean"
     },
     "coordinates": {
-      "latitude": 36.88414,
-      "longitude": 30.70563
+      "latitude": 36.8865728,
+      "longitude": 30.7030242
     },
     "stats": {
       "districtCount": 19,
@@ -268,8 +268,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 41.10833,
-      "longitude": 42.7
+      "latitude": 41.1102966,
+      "longitude": 42.7035585
     },
     "stats": {
       "districtCount": 6,
@@ -299,8 +299,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 41.18222,
-      "longitude": 41.81889
+      "latitude": 41.1830811,
+      "longitude": 41.8287448
     },
     "stats": {
       "districtCount": 9,
@@ -330,8 +330,8 @@
       "en": "Aegean"
     },
     "coordinates": {
-      "latitude": 37.84444,
-      "longitude": 27.84556
+      "latitude": 37.8483767,
+      "longitude": 27.8435878
     },
     "stats": {
       "districtCount": 17,
@@ -361,8 +361,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 39.64861,
-      "longitude": 27.8825
+      "latitude": 39.6473917,
+      "longitude": 27.8879787
     },
     "stats": {
       "districtCount": 20,
@@ -392,8 +392,8 @@
       "en": "North Sea"
     },
     "coordinates": {
-      "latitude": 41.63333,
-      "longitude": 32.33333
+      "latitude": 41.6350461,
+      "longitude": 32.3366205
     },
     "stats": {
       "districtCount": 4,
@@ -423,8 +423,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.88333,
-      "longitude": 41.13333
+      "latitude": 37.8835738,
+      "longitude": 41.1277565
     },
     "stats": {
       "districtCount": 6,
@@ -454,8 +454,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.25,
-      "longitude": 40.21667
+      "latitude": 40.2551608,
+      "longitude": 40.2205036
     },
     "stats": {
       "districtCount": 3,
@@ -485,8 +485,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 40.14556,
-      "longitude": 29.97917
+      "latitude": 40.1435101,
+      "longitude": 29.9752911
     },
     "stats": {
       "districtCount": 8,
@@ -516,8 +516,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 38.885,
-      "longitude": 40.49861
+      "latitude": 38.8861265,
+      "longitude": 40.4972333
     },
     "stats": {
       "districtCount": 8,
@@ -547,8 +547,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 38.39528,
-      "longitude": 42.12361
+      "latitude": 38.4020539,
+      "longitude": 42.1084568
     },
     "stats": {
       "districtCount": 7,
@@ -578,8 +578,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.73528,
-      "longitude": 31.60639
+      "latitude": 40.7332953,
+      "longitude": 31.6110479
     },
     "stats": {
       "districtCount": 9,
@@ -609,8 +609,8 @@
       "en": "Mediterranean"
     },
     "coordinates": {
-      "latitude": 37.72111,
-      "longitude": 30.29056
+      "latitude": 37.7248394,
+      "longitude": 30.2887286
     },
     "stats": {
       "districtCount": 11,
@@ -640,8 +640,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 40.18222,
-      "longitude": 29.06111
+      "latitude": 40.1825734,
+      "longitude": 29.0675039
     },
     "stats": {
       "districtCount": 17,
@@ -671,8 +671,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 40.15556,
-      "longitude": 26.41444
+      "latitude": 40.146271,
+      "longitude": 26.4028892
     },
     "stats": {
       "districtCount": 12,
@@ -702,8 +702,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 40.6,
-      "longitude": 33.61667
+      "latitude": 40.5971947,
+      "longitude": 33.6212704
     },
     "stats": {
       "districtCount": 12,
@@ -733,8 +733,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.55056,
-      "longitude": 34.95556
+      "latitude": 40.5499106,
+      "longitude": 34.9537344
     },
     "stats": {
       "districtCount": 14,
@@ -764,8 +764,8 @@
       "en": "Aegean"
     },
     "coordinates": {
-      "latitude": 37.77639,
-      "longitude": 29.08611
+      "latitude": 37.7827875,
+      "longitude": 29.0966476
     },
     "stats": {
       "districtCount": 19,
@@ -795,8 +795,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.91417,
-      "longitude": 40.23056
+      "latitude": 37.9162222,
+      "longitude": 40.2363542
     },
     "stats": {
       "districtCount": 17,
@@ -826,8 +826,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.83333,
-      "longitude": 31.16667
+      "latitude": 40.8391531,
+      "longitude": 31.1595361
     },
     "stats": {
       "districtCount": 8,
@@ -857,8 +857,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 41.67083,
-      "longitude": 26.55556
+      "latitude": 41.6759327,
+      "longitude": 26.5587225
     },
     "stats": {
       "districtCount": 9,
@@ -888,8 +888,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 38.68056,
-      "longitude": 39.22639
+      "latitude": 38.6747164,
+      "longitude": 39.2227135
     },
     "stats": {
       "districtCount": 11,
@@ -919,8 +919,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 39.75,
-      "longitude": 39.5
+      "latitude": 39.7467552,
+      "longitude": 39.49103
     },
     "stats": {
       "districtCount": 9,
@@ -950,8 +950,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 39.90861,
-      "longitude": 41.27694
+      "latitude": 39.90632,
+      "longitude": 41.2727715
     },
     "stats": {
       "districtCount": 20,
@@ -981,8 +981,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 39.77639,
-      "longitude": 30.52056
+      "latitude": 39.7743941,
+      "longitude": 30.519116
     },
     "stats": {
       "districtCount": 14,
@@ -1012,8 +1012,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.06667,
-      "longitude": 37.38333
+      "latitude": 37.0628317,
+      "longitude": 37.3792617
     },
     "stats": {
       "districtCount": 9,
@@ -1043,8 +1043,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.91667,
-      "longitude": 38.4
+      "latitude": 40.9174453,
+      "longitude": 38.3847864
     },
     "stats": {
       "districtCount": 16,
@@ -1074,8 +1074,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.45,
-      "longitude": 39.48333
+      "latitude": 40.4617844,
+      "longitude": 39.4757339
     },
     "stats": {
       "districtCount": 6,
@@ -1105,8 +1105,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.58333,
-      "longitude": 43.73333
+      "latitude": 37.5766959,
+      "longitude": 43.7377862
     },
     "stats": {
       "districtCount": 5,
@@ -1136,8 +1136,8 @@
       "en": "Mediterranean"
     },
     "coordinates": {
-      "latitude": 36.2,
-      "longitude": 36.16667
+      "latitude": 36.2025471,
+      "longitude": 36.1602908
     },
     "stats": {
       "districtCount": 15,
@@ -1167,8 +1167,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 39.91667,
-      "longitude": 44.03333
+      "latitude": 39.9218784,
+      "longitude": 44.0467957
     },
     "stats": {
       "districtCount": 4,
@@ -1198,8 +1198,8 @@
       "en": "Mediterranean"
     },
     "coordinates": {
-      "latitude": 37.76667,
-      "longitude": 30.55
+      "latitude": 37.7636722,
+      "longitude": 30.5550569
     },
     "stats": {
       "districtCount": 13,
@@ -1229,8 +1229,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 41.01384,
-      "longitude": 28.94966
+      "latitude": 41.006381,
+      "longitude": 28.9758715
     },
     "stats": {
       "districtCount": 39,
@@ -1260,8 +1260,8 @@
       "en": "Aegean"
     },
     "coordinates": {
-      "latitude": 38.41885,
-      "longitude": 27.12872
+      "latitude": 38.4192537,
+      "longitude": 27.128469
     },
     "stats": {
       "districtCount": 30,
@@ -1291,8 +1291,8 @@
       "en": "Mediterranean"
     },
     "coordinates": {
-      "latitude": 37.58333,
-      "longitude": 36.93333
+      "latitude": 37.5812744,
+      "longitude": 36.927509
     },
     "stats": {
       "districtCount": 11,
@@ -1322,8 +1322,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 41.2,
-      "longitude": 32.63333
+      "latitude": 41.1955402,
+      "longitude": 32.6231154
     },
     "stats": {
       "districtCount": 6,
@@ -1353,8 +1353,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 37.18333,
-      "longitude": 33.21667
+      "latitude": 37.1808502,
+      "longitude": 33.2194554
     },
     "stats": {
       "districtCount": 6,
@@ -1384,8 +1384,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 40.60833,
-      "longitude": 43.08333
+      "latitude": 40.6070761,
+      "longitude": 43.0947521
     },
     "stats": {
       "districtCount": 8,
@@ -1415,8 +1415,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 41.38889,
-      "longitude": 33.78222
+      "latitude": 41.3765359,
+      "longitude": 33.7770087
     },
     "stats": {
       "districtCount": 20,
@@ -1446,8 +1446,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 38.73111,
-      "longitude": 35.47889
+      "latitude": 38.7219011,
+      "longitude": 35.4873214
     },
     "stats": {
       "districtCount": 16,
@@ -1477,8 +1477,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 36.71667,
-      "longitude": 37.11667
+      "latitude": 36.7165552,
+      "longitude": 37.1146069
     },
     "stats": {
       "districtCount": 4,
@@ -1508,8 +1508,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 39.85,
-      "longitude": 33.51667
+      "latitude": 39.84104835,
+      "longitude": 33.5058536
     },
     "stats": {
       "districtCount": 9,
@@ -1539,8 +1539,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 41.73333,
-      "longitude": 27.21667
+      "latitude": 41.7370223,
+      "longitude": 27.2235523
     },
     "stats": {
       "districtCount": 8,
@@ -1570,8 +1570,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 39.14222,
-      "longitude": 34.17056
+      "latitude": 39.1461142,
+      "longitude": 34.1605587
     },
     "stats": {
       "districtCount": 7,
@@ -1601,8 +1601,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 40.76667,
-      "longitude": 29.91667
+      "latitude": 40.7653892,
+      "longitude": 29.9407361
     },
     "stats": {
       "districtCount": 12,
@@ -1632,8 +1632,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 37.86667,
-      "longitude": 32.48333
+      "latitude": 37.872734,
+      "longitude": 32.4924376
     },
     "stats": {
       "districtCount": 31,
@@ -1663,8 +1663,8 @@
       "en": "Aegean"
     },
     "coordinates": {
-      "latitude": 39.41667,
-      "longitude": 29.98333
+      "latitude": 39.4199106,
+      "longitude": 29.9857886
     },
     "stats": {
       "districtCount": 13,
@@ -1694,8 +1694,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 38.355,
-      "longitude": 38.305
+      "latitude": 38.3487153,
+      "longitude": 38.3190674
     },
     "stats": {
       "districtCount": 13,
@@ -1725,8 +1725,8 @@
       "en": "Aegean"
     },
     "coordinates": {
-      "latitude": 38.61361,
-      "longitude": 27.42694
+      "latitude": 38.6125793,
+      "longitude": 27.4333969
     },
     "stats": {
       "districtCount": 17,
@@ -1756,8 +1756,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.31111,
-      "longitude": 40.74361
+      "latitude": 37.3132581,
+      "longitude": 40.7354383
     },
     "stats": {
       "districtCount": 10,
@@ -1787,8 +1787,8 @@
       "en": "Mediterranean"
     },
     "coordinates": {
-      "latitude": 36.8,
-      "longitude": 34.63333
+      "latitude": 36.7978381,
+      "longitude": 34.6298391
     },
     "stats": {
       "districtCount": 13,
@@ -1818,8 +1818,8 @@
       "en": "Aegean"
     },
     "coordinates": {
-      "latitude": 37.21667,
-      "longitude": 28.36667
+      "latitude": 37.2151784,
+      "longitude": 28.363733
     },
     "stats": {
       "districtCount": 13,
@@ -1849,8 +1849,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 38.74444,
-      "longitude": 41.49611
+      "latitude": 38.7322221,
+      "longitude": 41.4898925
     },
     "stats": {
       "districtCount": 6,
@@ -1880,8 +1880,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 38.62444,
-      "longitude": 34.72306
+      "latitude": 38.6250389,
+      "longitude": 34.7150685
     },
     "stats": {
       "districtCount": 8,
@@ -1911,8 +1911,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 37.96667,
-      "longitude": 34.68333
+      "latitude": 37.969849,
+      "longitude": 34.6764495
     },
     "stats": {
       "districtCount": 6,
@@ -1942,8 +1942,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.98333,
-      "longitude": 37.88333
+      "latitude": 40.9852301,
+      "longitude": 37.8797732
     },
     "stats": {
       "districtCount": 19,
@@ -1973,8 +1973,8 @@
       "en": "Mediterranean"
     },
     "coordinates": {
-      "latitude": 37.06667,
-      "longitude": 36.25
+      "latitude": 37.0733588,
+      "longitude": 36.2507673
     },
     "stats": {
       "districtCount": 7,
@@ -2004,8 +2004,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 41.02083,
-      "longitude": 40.52361
+      "latitude": 41.0248249,
+      "longitude": 40.5199142
     },
     "stats": {
       "districtCount": 12,
@@ -2035,8 +2035,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 40.76667,
-      "longitude": 30.41667
+      "latitude": 40.7726291,
+      "longitude": 30.4038575
     },
     "stats": {
       "districtCount": 16,
@@ -2066,8 +2066,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 41.28639,
-      "longitude": 36.33139
+      "latitude": 41.2946149,
+      "longitude": 36.3320596
     },
     "stats": {
       "districtCount": 17,
@@ -2097,8 +2097,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.15,
-      "longitude": 38.8
+      "latitude": 37.1596239,
+      "longitude": 38.791929
     },
     "stats": {
       "districtCount": 13,
@@ -2128,8 +2128,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.94444,
-      "longitude": 41.93333
+      "latitude": 37.9273623,
+      "longitude": 41.94218
     },
     "stats": {
       "districtCount": 7,
@@ -2159,8 +2159,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 42.02361,
-      "longitude": 35.15306
+      "latitude": 42.0265798,
+      "longitude": 35.1511512
     },
     "stats": {
       "districtCount": 9,
@@ -2190,8 +2190,8 @@
       "en": "Southeastern Anatolia"
     },
     "coordinates": {
-      "latitude": 37.51667,
-      "longitude": 42.46667
+      "latitude": 37.5219577,
+      "longitude": 42.4570311
     },
     "stats": {
       "districtCount": 7,
@@ -2221,8 +2221,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 39.74722,
-      "longitude": 37.0175
+      "latitude": 39.7503574,
+      "longitude": 37.0145173
     },
     "stats": {
       "districtCount": 17,
@@ -2252,8 +2252,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 40.98333,
-      "longitude": 27.51667
+      "latitude": 40.9781214,
+      "longitude": 27.5107799
     },
     "stats": {
       "districtCount": 11,
@@ -2283,8 +2283,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 40.31667,
-      "longitude": 36.55
+      "latitude": 40.3233534,
+      "longitude": 36.552162
     },
     "stats": {
       "districtCount": 12,
@@ -2314,8 +2314,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 41,
-      "longitude": 39.73333
+      "latitude": 41.0054605,
+      "longitude": 39.7301463
     },
     "stats": {
       "districtCount": 18,
@@ -2345,8 +2345,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 39.11667,
-      "longitude": 39.53333
+      "latitude": 39.1060641,
+      "longitude": 39.5482693
     },
     "stats": {
       "districtCount": 8,
@@ -2376,8 +2376,8 @@
       "en": "Aegean"
     },
     "coordinates": {
-      "latitude": 38.68333,
-      "longitude": 29.41667
+      "latitude": 38.6740401,
+      "longitude": 29.4058419
     },
     "stats": {
       "districtCount": 6,
@@ -2407,8 +2407,8 @@
       "en": "Eastern Anatolia"
     },
     "coordinates": {
-      "latitude": 38.5,
-      "longitude": 43.4
+      "latitude": 38.500875,
+      "longitude": 43.3946051
     },
     "stats": {
       "districtCount": 13,
@@ -2438,8 +2438,8 @@
       "en": "Marmara"
     },
     "coordinates": {
-      "latitude": 40.65,
-      "longitude": 29.26667
+      "latitude": 40.6582529,
+      "longitude": 29.2699916
     },
     "stats": {
       "districtCount": 6,
@@ -2469,8 +2469,8 @@
       "en": "Central Anatolia"
     },
     "coordinates": {
-      "latitude": 39.81667,
-      "longitude": 34.81667
+      "latitude": 39.8221974,
+      "longitude": 34.8080972
     },
     "stats": {
       "districtCount": 14,
@@ -2500,8 +2500,8 @@
       "en": "Black Sea"
     },
     "coordinates": {
-      "latitude": 41.45,
-      "longitude": 31.8
+      "latitude": 41.4526765,
+      "longitude": 31.787598
     },
     "stats": {
       "districtCount": 8,
