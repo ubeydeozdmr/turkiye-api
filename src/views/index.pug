@@ -417,7 +417,7 @@ block content
         | Don't show this again
       .modal__buttons
         button.modal__btn-dismiss#v2-modal-dismiss Dismiss
-        a.modal__btn-primary(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank') Learn More
+        a.modal__btn-primary(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' onclick='document.getElementById("v2-modal-dismiss").click()') Learn More
   .banner
     if language && language.startsWith('tr')
       | TurkiyeAPI versiyon 2'nin önizlemesi herkese açık olarak yayınlandı! Haziran ayında ise tam olarak yayınlanacak, ancak bu süreç içerisinde v2'yi kullanıp geri bildirimde bulunabilirsiniz.
