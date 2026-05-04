@@ -236,6 +236,4 @@ Benimle [e-posta](mailto:ubeydeozdmr@gmail.com) veya [Telegram](https://t.me/ube
 
 GitHub Sponsors ve Buy Me a Coffee, beni desteklemenin en iyi yollarıdır. Desteğiniz, sunucu masraflarını karşılamama ve API'yi geliştirmeye ve iyileştirmeye devam etmeme yardımcı olur.
 
-<iframe src="https://github.com/sponsors/ubeydeozdmr/button" title="Sponsor ubeydeozdmr" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
-
 <a href="https://www.buymeacoffee.com/ubeydeozdmr"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="buymeacoffee button" width="150" /></a>
