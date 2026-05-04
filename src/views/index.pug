@@ -408,9 +408,9 @@ block styles
 
 block content
   .modal-overlay.hidden#v2-modal-overlay
-    .modal
+    .modal(role='dialog' aria-modal='true' aria-labelledby='v2-modal-title' tabindex='-1')
       if language && language.startsWith('tr')
-        h2.modal__title Versiyon 2 Hakkında
+        h2.modal__title#v2-modal-title Versiyon 2 Hakkında
         p.modal__description
           | TurkiyeAPI versiyon 2'nin önizlemesi herkese açık olarak yayınlandı! Tam sürüm Haziran ayında çıkacak, ancak bu süreç içerisinde v2'yi kullanıp geri bildirimde bulunabilirsiniz. Yeni versiyonda, mahallelerin ve köylerin posta kodlarını, güncel nüfus verilerini, ilçeler ve yeni eklenen yerleşim yerleri dahil tüm belediyeleri sorgulayabilirsiniz.
         label.modal__checkbox-row
@@ -420,7 +420,7 @@ block content
           button.modal__btn-dismiss#v2-modal-dismiss Kapat
           a.modal__btn-primary(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' onclick='document.getElementById("v2-modal-dismiss").click()') Daha Fazla Bilgi
       else
-        h2.modal__title About version 2
+        h2.modal__title#v2-modal-title About version 2
         p.modal__description
           | A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback. In the new version, you can get postal codes of neighborhoods and villages, updated population data, all municipalities including towns and newly-added settlements.
         label.modal__checkbox-row
@@ -534,24 +534,76 @@ block scripts
   script.
     (function () {
       var overlay = document.getElementById('v2-modal-overlay');
+      var modal = overlay.querySelector('[role="dialog"]');
       var dismissed = localStorage.getItem('v2ModalDismissed');
-      if (!dismissed) {
-        overlay.classList.remove('hidden');
+      var previouslyFocused = null;
+      var focusableSelectors = 'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [contenteditable="true"], [tabindex]:not([tabindex="-1"])';
+
+      function getFocusable() {
+        return Array.prototype.slice.call(modal.querySelectorAll(focusableSelectors));
       }
+
+      function openModal() {
+        overlay.classList.remove('hidden');
+        previouslyFocused = document.activeElement;
+        var focusable = getFocusable();
+        if (focusable.length) {
+          focusable[0].focus();
+        } else {
+          modal.focus();
+        }
+      }
+
+      function closeModal() {
+        overlay.classList.add('hidden');
+        if (previouslyFocused) {
+          previouslyFocused.focus();
+        }
+      }
+
+      function trapFocus(e) {
+        if (e.key !== 'Tab') return;
+        var focusable = getFocusable();
+        if (!focusable.length) return;
+        var first = focusable[0];
+        var last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          }
+        } else {
+          if (document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      }
+
+      if (!dismissed) {
+        openModal();
+      }
+
+      overlay.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closeModal();
+        trapFocus(e);
+      });
+
       document.getElementById('v2-modal-dismiss').addEventListener('click', function () {
         var noShow = document.getElementById('v2-modal-no-show').checked;
         if (noShow) {
           localStorage.setItem('v2ModalDismissed', '1');
         }
-        overlay.classList.add('hidden');
+        closeModal();
       });
+
       overlay.addEventListener('click', function (e) {
         if (e.target === overlay) {
           var noShow = document.getElementById('v2-modal-no-show').checked;
           if (noShow) {
             localStorage.setItem('v2ModalDismissed', '1');
           }
-          overlay.classList.add('hidden');
+          closeModal();
         }
       });
     })();
