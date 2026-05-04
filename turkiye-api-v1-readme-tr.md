@@ -16,6 +16,10 @@ API ana alan adı olarak [turkiyeapi.dev](https://turkiyeapi.dev) kullanır. Ziy
 - [Postman Koleksiyonu](https://documenter.getpostman.com/view/19561492/UzBguVHM)
 - [Swagger UI](https://api.turkiyeapi.dev/swagger)
 
+## Python Uygulaması
+
+TurkiyeAPI v1'in Python uygulamasına [@gencharitaci/turkiye-api-py](https://github.com/gencharitaci/turkiye-api-py) adresinden ulaşılabilir.
+
 ## v2 önizlemesi yayınlandı
 
 TurkiyeAPI sürüm 2'nin önizlemesi kamuya açık olarak yayınlandı! Tam sürüm Haziran ayında olacak, ancak bu arada v2'yi kullanabilir ve geri bildirimde bulunabilirsiniz.
