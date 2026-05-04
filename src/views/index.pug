@@ -409,15 +409,26 @@ block styles
 block content
   .modal-overlay.hidden#v2-modal-overlay
     .modal
-      h2.modal__title About version 2
-      p.modal__description
-        | A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback. In new version, you can get postal codes of neighborhoods and villages, updated population data, all municipalities including towns and newly-added settlements.
-      label.modal__checkbox-row
-        input#v2-modal-no-show(type='checkbox')
-        | Don't show this again
-      .modal__buttons
-        button.modal__btn-dismiss#v2-modal-dismiss Dismiss
-        a.modal__btn-primary(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' onclick='document.getElementById("v2-modal-dismiss").click()') Learn More
+      if language && language.startsWith('tr')
+        h2.modal__title Versiyon 2 Hakkında
+        p.modal__description
+          | TurkiyeAPI versiyon 2'nin önizlemesi herkese açık olarak yayınlandı! Tam sürüm Haziran ayında çıkacak, ancak bu süreç içerisinde v2'yi kullanıp geri bildirimde bulunabilirsiniz. Yeni versiyonda, mahallelerin ve köylerin posta kodlarını, güncel nüfus verilerini, ilçeler ve yeni eklenen yerleşim yerleri dahil tüm belediyeleri sorgulayabilirsiniz.
+        label.modal__checkbox-row
+          input#v2-modal-no-show(type='checkbox')
+          | Bir daha gösterme
+        .modal__buttons
+          button.modal__btn-dismiss#v2-modal-dismiss Kapat
+          a.modal__btn-primary(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' onclick='document.getElementById("v2-modal-dismiss").click()') Daha Fazla Bilgi
+      else
+        h2.modal__title About version 2
+        p.modal__description
+          | A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback. In the new version, you can get postal codes of neighborhoods and villages, updated population data, all municipalities including towns and newly-added settlements.
+        label.modal__checkbox-row
+          input#v2-modal-no-show(type='checkbox')
+          | Don't show this again
+        .modal__buttons
+          button.modal__btn-dismiss#v2-modal-dismiss Dismiss
+          a.modal__btn-primary(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' onclick='document.getElementById("v2-modal-dismiss").click()') Learn More
   .banner
     if language && language.startsWith('tr')
       | TurkiyeAPI versiyon 2'nin önizlemesi herkese açık olarak yayınlandı! Haziran ayında ise tam olarak yayınlanacak, ancak bu süreç içerisinde v2'yi kullanıp geri bildirimde bulunabilirsiniz.
