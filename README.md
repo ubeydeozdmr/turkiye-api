@@ -16,6 +16,10 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. You ca
 - [Postman Collection](https://documenter.getpostman.com/view/19561492/UzBguVHM)
 - [Swagger UI](https://api.turkiyeapi.dev/swagger)
 
+## Python Implementation
+
+Python implementation of TurkiyeAPI v1 is available at [@gencharitaci/turkiye-api-py](https://github.com/gencharitaci/turkiye-api-py)
+
 ## Preview of v2 has been released
 
 A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback.
@@ -235,7 +239,5 @@ You can contact me via [email](mailto:ubeydeozdmr@gmail.com) or [Telegram](https
 ## Support
 
 GitHub Sponsors and Buy Me a Coffee are the best ways to support me. Your support helps me to cover the server expenses and continue developing and improving the API.
-
-<iframe src="https://github.com/sponsors/ubeydeozdmr/button" title="Sponsor ubeydeozdmr" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
 
 <a href="https://www.buymeacoffee.com/ubeydeozdmr"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="buymeacoffee button" width="150" /></a>
