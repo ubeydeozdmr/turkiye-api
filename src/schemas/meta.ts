@@ -10,6 +10,10 @@ export const DatasetMetaSchema = Type.Object(
         {
           name: Type.String({ minLength: 1 }),
           url: Type.String({ minLength: 1 }),
+          description: Type.Object({
+            tr: Type.String({ minLength: 1 }),
+            en: Type.String({ minLength: 1 }),
+          }),
         },
         { additionalProperties: false },
       ),
