@@ -18,17 +18,17 @@
   "license": "MIT",
   "dependencies": {
     "apicache": "^1.6.3",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^4.22.1",
-    "express-rate-limit": "^8.3.2",
+    "express-rate-limit": "^8.4.1",
     "morgan": "^1.10.1",
-    "pug": "^3.0.3",
+    "pug": "^3.0.4",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.14"
   },
   "repository": {
     "type": "git",

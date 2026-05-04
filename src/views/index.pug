@@ -2,6 +2,16 @@ extends layouts/main.pug
 
 block styles
   style.
+    .banner {
+    background-color: #1b1b1f;
+    color: #dfdfd6;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    }
     header.hero {
     position: relative;
     display: flex;
@@ -53,6 +63,7 @@ block styles
     gap: 10vh;
     padding: 5%;
     text-align: center;
+    scroll-margin-top: 4rem;
     }
     p.content__text {
     color: #333333;
@@ -279,6 +290,106 @@ block styles
       height: auto;
       margin-left: 20px;
     }
+    .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 1rem;
+    }
+    .modal-overlay.hidden {
+    display: none;
+    }
+    .modal {
+    background-color: #1b1b1f;
+    color: #dfdfd6;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    max-width: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
+    .modal__title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #dfdfd6;
+    margin: 0;
+    }
+    .modal__description {
+    font-size: 0.95rem;
+    color: #98989f;
+    line-height: 1.6;
+    margin: 0;
+    }
+    .modal__checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #98989f;
+    cursor: pointer;
+    }
+    .modal__checkbox-row input[type="checkbox"] {
+    accent-color: #3bd6c6;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    }
+    .modal__buttons {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    }
+    .modal__btn-dismiss {
+    background-color: #2c2c30;
+    color: #dfdfd6;
+    border: 1px solid #3a3a3f;
+    padding: 0.55rem 1.2rem;
+    border-radius: 1000px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    }
+    .modal__btn-dismiss:hover {
+    background-color: #3a3a3f;
+    }
+    .modal__btn-primary {
+    display: inline-block;
+    background-color: #3bd6c6;
+    color: #1b1b1f;
+    padding: 0.55rem 1.2rem;
+    text-decoration: none;
+    border-radius: 1000px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+    }
+    .modal__btn-primary:hover {
+    background-color: #2bc4b8;
+    }
+    @media only screen and (max-width: 480px) {
+    .modal {
+    padding: 1.5rem;
+    }
+    .modal__title {
+    font-size: 1.2rem;
+    }
+    .modal__buttons {
+    flex-direction: column;
+    }
+    .modal__btn-dismiss,
+    .modal__btn-primary {
+    text-align: center;
+    }
+    }
     @media only screen and (max-width: 768px) {
       .new-docs-card {
         flex-direction: column;
@@ -297,6 +408,39 @@ block styles
   title Turkiye API
 
 block content
+  .modal-overlay.hidden#v2-modal-overlay
+    .modal(role='dialog' aria-modal='true' aria-labelledby='v2-modal-title' tabindex='-1')
+      if language && language.startsWith('tr')
+        h2.modal__title#v2-modal-title Versiyon 2 Hakkında
+        p.modal__description
+          | TurkiyeAPI versiyon 2'nin önizlemesi herkese açık olarak yayınlandı! Tam sürüm Haziran ayında çıkacak, ancak bu süreç içerisinde v2'yi kullanıp geri bildirimde bulunabilirsiniz. Yeni versiyonda, mahallelerin ve köylerin posta kodlarını, güncel nüfus verilerini, ilçeler ve yeni eklenen yerleşim yerleri dahil tüm belediyeleri sorgulayabilirsiniz.
+        label.modal__checkbox-row
+          input#v2-modal-no-show(type='checkbox')
+          | Bir daha gösterme
+        .modal__buttons
+          button.modal__btn-dismiss#v2-modal-dismiss Kapat
+          a.modal__btn-primary(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' onclick='document.getElementById("v2-modal-dismiss").click()') Daha Fazla Bilgi
+      else
+        h2.modal__title#v2-modal-title About version 2
+        p.modal__description
+          | A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback. In the new version, you can get postal codes of neighborhoods and villages, updated population data, all municipalities including towns and newly-added settlements.
+        label.modal__checkbox-row
+          input#v2-modal-no-show(type='checkbox')
+          | Don't show this again
+        .modal__buttons
+          button.modal__btn-dismiss#v2-modal-dismiss Dismiss
+          a.modal__btn-primary(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' onclick='document.getElementById("v2-modal-dismiss").click()') Learn More
+  .banner
+    if language && language.startsWith('tr')
+      | TurkiyeAPI versiyon 2'nin önizlemesi herkese açık olarak yayınlandı! Haziran ayında ise tam olarak yayınlanacak, ancak bu süreç içerisinde v2'yi kullanıp geri bildirimde bulunabilirsiniz.
+      a(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Dokümantasyon
+      |  /
+      a(href='https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Geri Bildirim Sağla
+    else
+      | A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback.
+      a(href='https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Documentation
+      |  /
+      a(href='https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Provide Feedback
   header.hero
     img.hero__img(src="assets/"+image alt='An image from Turkey/Turkiye')
     .hero__text-box
@@ -389,6 +533,82 @@ block content
 
 block scripts
   script.
+    (function () {
+      var overlay = document.getElementById('v2-modal-overlay');
+      var modal = overlay.querySelector('[role="dialog"]');
+      var dismissed = localStorage.getItem('v2ModalDismissed');
+      var previouslyFocused = null;
+      var focusableSelectors = 'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [contenteditable="true"], [tabindex]:not([tabindex="-1"])';
+
+      function getFocusable() {
+        return Array.prototype.slice.call(modal.querySelectorAll(focusableSelectors));
+      }
+
+      function openModal() {
+        overlay.classList.remove('hidden');
+        previouslyFocused = document.activeElement;
+        var focusable = getFocusable();
+        if (focusable.length) {
+          focusable[0].focus();
+        } else {
+          modal.focus();
+        }
+      }
+
+      function closeModal() {
+        overlay.classList.add('hidden');
+        if (previouslyFocused) {
+          previouslyFocused.focus();
+        }
+      }
+
+      function trapFocus(e) {
+        if (e.key !== 'Tab') return;
+        var focusable = getFocusable();
+        if (!focusable.length) return;
+        var first = focusable[0];
+        var last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          }
+        } else {
+          if (document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      }
+
+      if (!dismissed) {
+        openModal();
+      }
+
+      overlay.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closeModal();
+        trapFocus(e);
+      });
+
+      document.getElementById('v2-modal-dismiss').addEventListener('click', function () {
+        var noShow = document.getElementById('v2-modal-no-show').checked;
+        if (noShow) {
+          localStorage.setItem('v2ModalDismissed', '1');
+        }
+        closeModal();
+      });
+
+      overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) {
+          var noShow = document.getElementById('v2-modal-no-show').checked;
+          if (noShow) {
+            localStorage.setItem('v2ModalDismissed', '1');
+          }
+          closeModal();
+        }
+      });
+    })();
+
     hljs.highlightAll();
 
     const origin = window.location.origin;
