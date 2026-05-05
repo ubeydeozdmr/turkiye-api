@@ -6,7 +6,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 const servers = isProduction
   ? [
       {
-        url: 'https://turkiyeapi.dev/v1/',
+        url: 'https://api.turkiyeapi.dev/v1/',
         description: 'Production server',
       },
     ]

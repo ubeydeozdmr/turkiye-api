@@ -220,7 +220,7 @@ exports.getVillages = function (
     } else {
       throw {
         status: 404,
-        message: 'No neighborhood found.',
+        message: 'No villages found.',
       };
     }
   } catch (error) {

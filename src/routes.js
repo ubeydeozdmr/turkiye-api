@@ -587,7 +587,7 @@ router.get('/districts', controller.getDistricts);
  *                     id:
  *                       type: number
  *                       example: 1272
- *                     provinceName:
+ *                     province:
  *                       type: string
  *                       example: Giresun
  *                     name:
@@ -962,9 +962,6 @@ router.get('/neighborhoods/:id', controller.getExactNeighborhood);
  *                       districtId:
  *                         type: number
  *                         example: 1272
- *                       neighborhoodId:
- *                         type: number
- *                         example: 30780
  *                       id:
  *                         type: number
  *                         example: 14547

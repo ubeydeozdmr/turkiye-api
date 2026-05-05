@@ -6,23 +6,34 @@ const swaggerUI = require('swagger-ui-express');
 const swaggerSpec = require('./swagger');
 const morgan = require('morgan');
 const apicache = require('apicache');
-// const { rateLimit } = require('express-rate-limit');
+const { rateLimit } = require('express-rate-limit');
 require('dotenv').config();
 
 const app = express();
 const cache = apicache.middleware;
+const routes = require('./routes');
 
 const { PORT, NODE_ENV } = process.env;
 
 app.set('trust proxy', 1);
 
-// const limiter = rateLimit({
-//   windowMs: 15 * 60 * 1000,
-//   limit: 150,
-//   message: 'Too many requests from this IP, please try again in 15 minutes!',
-//   standardHeaders: 'draft-7',
-//   legacyHeaders: false,
-// });
+const instantLimiter = rateLimit({
+  windowMs: 60 * 1000, // 1 minute
+  limit: 60,
+  standardHeaders: 'draft-8',
+  identifier: 'v1-minute',
+  legacyHeaders: false,
+  message: 'Too many requests from this IP, please try again in a minute!',
+});
+
+const limiter = rateLimit({
+  windowMs: 5 * 60 * 1000, // 5 minutes
+  limit: 200,
+  standardHeaders: 'draft-8',
+  identifier: 'v1-5-minute',
+  legacyHeaders: false,
+  message: 'Too many requests from this IP, please try again in 5 minutes!',
+});
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
@@ -41,9 +52,6 @@ app.get('/health', (req, res) => {
     environment: NODE_ENV || 'development',
   });
 });
-
-app.use(cache('2 minutes'));
-// app.use(limiter);
 
 app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
@@ -64,8 +72,8 @@ app.get('/examples', (req, res) => {
   res.render('examples');
 });
 
-app.use('/v1/', require('./routes'));
-app.use('/api/v1', require('./routes'));
+app.use('/v1', instantLimiter, limiter, cache('30 minutes'), routes);
+app.use('/api/v1', instantLimiter, limiter, cache('30 minutes'), routes); // Deprecated: Backward compatibility for /api/v1
 
 app.all('*', (req, res, next) => {
   res.render('notfound');
