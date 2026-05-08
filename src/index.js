@@ -15,7 +15,7 @@ const routes = require('./routes');
 
 const { PORT, NODE_ENV } = process.env;
 
-app.set('trust proxy', 1);
+app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal']);
 
 const instantLimiter = rateLimit({
   windowMs: 60 * 1000, // 1 minute
