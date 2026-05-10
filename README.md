@@ -24,7 +24,7 @@ The current dataset metadata is exposed at `GET /v2/meta`.
 
 Dataset version: `2025`
 
-Last updated: `2026-05-04`
+Last updated: `2026-05-10`
 
 Sources:
 
@@ -190,7 +190,7 @@ List endpoints return a `data` array and pagination metadata:
     "limit": 1,
     "offset": 0,
     "datasetVersion": "2025",
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-10"
   }
 }
 ```
@@ -205,7 +205,7 @@ Detail endpoints return a single `data` object:
   },
   "meta": {
     "datasetVersion": "2025",
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-10"
   }
 }
 ```
@@ -217,7 +217,7 @@ Metadata uses a simple data envelope:
   "data": {
     "apiVersion": "2.0.0",
     "datasetVersion": "2025",
-    "lastUpdated": "2026-05-04"
+    "lastUpdated": "2026-05-10"
   }
 }
 ```

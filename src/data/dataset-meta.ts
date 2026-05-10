@@ -1,7 +1,7 @@
 import { type DatasetName } from './types.js';
 
 export const DATASET_VERSION = '2025';
-export const DATASET_LAST_UPDATED = '2026-05-04';
+export const DATASET_LAST_UPDATED = '2026-05-10';
 
 export const DATASET_SOURCE = {
   name: 'TÜİK MEDAS',
