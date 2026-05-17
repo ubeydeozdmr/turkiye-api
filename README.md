@@ -35,7 +35,7 @@ Sources:
 
 ## Requirements
 
-- Node.js `>=22.22.2 <23`
+- Node.js `>=22 <23`
 - npm
 
 ## Installation
@@ -346,12 +346,11 @@ tests/                    Node test runner suites
 
 ## Additional Documentation
 
-- [TurkiyeAPI_Documentation.md](./TurkiyeAPI_Documentation.md) - generated endpoint documentation
-- [openapi-docs.md](./openapi-docs.md) - generated OpenAPI markdown
-- [TurkiyeAPI.postman_collection.json](./TurkiyeAPI.postman_collection.json) - Postman collection
-- [v2-technical-decisions.md](./v2-technical-decisions.md) - implementation decisions
-- [v2-final-structure.txt](./v2-final-structure.txt) - endpoint and entity structure notes
+- [v2 Documentation (Guide)](https://docs.turkiyeapi.dev/tr/v2/guide/) - usage guide and examples &mdash; migration guide from v1
+- [v2 Documentation (API Reference)](https://docs.turkiyeapi.dev/tr/v2/api-reference/) - detailed API reference with request and response schemas
+- [openapi.json](https://api.turkiyeapi.dev/v2/openapi.json) - OpenAPI 3.1 document
+- [API Metadata](https://api.turkiyeapi.dev/v2/meta) - API and dataset metadata
 
 ## License
 
-MIT
+[MIT](./LICENSE)
