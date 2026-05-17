@@ -36,7 +36,11 @@ v2'deki yenilikler:
 
 Temel v2 URL: `https://api.turkiyeapi.dev/v2`
 
-[v2 için Dokümantasyon](https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme)
+[v2 GitHub Kaynak Kodu](https://github.com/ubeydeozdmr/turkiye-api/tree/v2)
+
+[v2 için Dokümantasyon (Rehber)](https://docs.turkiyeapi.dev/tr/v2/guide/)
+
+[v2 için Dokümantasyon (API Referansı)](https://docs.turkiyeapi.dev/tr/v2/api-reference/)
 
 [v2 için Postman Koleksiyonu](https://documenter.getpostman.com/view/19561492/UzBguVHM)
 
