@@ -36,7 +36,11 @@ What's new in v2:
 
 Base v2 URL: `https://api.turkiyeapi.dev/v2`
 
-[Documentation for v2](https://github.com/ubeydeozdmr/turkiye-api/tree/v2#readme)
+[v2 GitHub Source Code](https://github.com/ubeydeozdmr/turkiye-api/tree/v2)
+
+[v2 Documentation (Guide)](https://docs.turkiyeapi.dev/tr/v2/guide/)
+
+[v2 Documentation (API Reference)](https://docs.turkiyeapi.dev/tr/v2/api-reference/)
 
 [Postman Collection for v2](https://documenter.getpostman.com/view/19561492/UzBguVHM)
 
