@@ -42,7 +42,7 @@
     "typebox": "^1.1.38"
   },
   "devDependencies": {
-    "@types/node": "^22.19.18",
+    "@types/node": "^22.19.19",
     "prettier": "^3.8.3",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3"
