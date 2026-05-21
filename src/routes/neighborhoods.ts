@@ -13,6 +13,7 @@ import {
   NeighborhoodSchema,
 } from '../schemas/index.js';
 import {
+  NEIGHBORHOOD_POSTAL_CODE_STATUSES,
   NEIGHBORHOOD_FIELDS,
   NEIGHBORHOOD_INCLUDES,
   createDataResponse,
@@ -20,6 +21,7 @@ import {
   hasInclude,
   parseFields,
   parseIncludes,
+  parsePostalCodeStatuses,
   projectFields,
   projectFieldsList,
   sendBadRequest,
@@ -49,12 +51,21 @@ const neighborhoodRoutes: FastifyPluginAsync<NeighborhoodRouteOptions> = async (
       },
     },
     async (request, reply) => {
-      const result = neighborhoodService.listNeighborhoods(request.query);
       const fields = parseFields(request.query.fields, NEIGHBORHOOD_FIELDS);
+      const postalCodeStatuses = parsePostalCodeStatuses(
+        request.query.postalCodeStatus,
+        NEIGHBORHOOD_POSTAL_CODE_STATUSES,
+      );
 
       if (!fields.ok) {
         return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
       }
+
+      if (!postalCodeStatuses.ok) {
+        return sendBadRequest(reply, 'INVALID_POSTAL_CODE_STATUS', postalCodeStatuses.message);
+      }
+
+      const result = neighborhoodService.listNeighborhoods(request.query, postalCodeStatuses.statuses);
 
       return createListResponse(projectFieldsList(result.items, fields.fields), result.pagination, result.total);
     },

@@ -61,9 +61,9 @@ export interface Municipality {
   readonly id: number;
   readonly name: string;
   readonly slug: string;
-  readonly type: MunicipalityType;
   readonly provinceId: number;
   readonly districtId: number;
+  readonly type: MunicipalityType;
   readonly population: number;
   readonly stats: MunicipalityStats;
 }
@@ -76,7 +76,8 @@ export interface Neighborhood {
   readonly districtId: number;
   readonly municipalityId: number;
   readonly population: number;
-  readonly postalCode: string | null;
+  readonly postalCode: string;
+  readonly postalCodeStatus: 'official' | 'derived' | 'estimated';
 }
 
 export interface Village {
@@ -86,7 +87,8 @@ export interface Village {
   readonly provinceId: number;
   readonly districtId: number;
   readonly population: number;
-  readonly postalCode: string | null;
+  readonly postalCode: string;
+  readonly postalCodeStatus: 'official' | 'estimated';
 }
 
 export interface Datasets {

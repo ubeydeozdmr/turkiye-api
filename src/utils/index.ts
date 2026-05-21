@@ -56,4 +56,14 @@ export {
   type ApiDataResponse,
   type ApiListResponse,
 } from './responses.js';
+export {
+  NEIGHBORHOOD_POSTAL_CODE_STATUSES,
+  VILLAGE_POSTAL_CODE_STATUSES,
+  filterByPostalCodeStatus,
+  parsePostalCodeStatuses,
+  type NeighborhoodPostalCodeStatus,
+  type PostalCodeStatusParseResult,
+  type PostalCodeStatusSelection,
+  type VillagePostalCodeStatus,
+} from './postal-code-status.js';
 export { compareByName, sortByName, type NamedRow, type SortDirection } from './sort.js';

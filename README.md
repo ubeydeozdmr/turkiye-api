@@ -24,7 +24,7 @@ The current dataset metadata is exposed at `GET /v2/meta`.
 
 Dataset version: `2025`
 
-Last updated: `2026-05-10`
+Last updated: `2026-05-21`
 
 Sources:
 
@@ -190,7 +190,7 @@ List endpoints return a `data` array and pagination metadata:
     "limit": 1,
     "offset": 0,
     "datasetVersion": "2025",
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-21"
   }
 }
 ```
@@ -205,7 +205,7 @@ Detail endpoints return a single `data` object:
   },
   "meta": {
     "datasetVersion": "2025",
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-21"
   }
 }
 ```
@@ -217,7 +217,7 @@ Metadata uses a simple data envelope:
   "data": {
     "apiVersion": "2.0.0",
     "datasetVersion": "2025",
-    "lastUpdated": "2026-05-10"
+    "lastUpdated": "2026-05-21"
   }
 }
 ```
@@ -284,6 +284,20 @@ Detail endpoints stay shallow by default. Use `include` to explicitly expand rel
 | `/v2/villages/{villageId}`            | `province`, `district`                                     |
 
 Unknown includes return `400 INVALID_INCLUDE`.
+
+## Postal Code Status Logic
+
+Postal codes are exposed with a `postalCodeStatus` field to clarify how each value was determined.
+
+- `official`: The postal code is available in the official PTT postal code data and is used directly from that source.
+- `derived`: The postal code is not available for the current neighborhood in the PTT data, but the neighborhood was previously a village or part of another settlement with a known postal code (and it exists in PTT data). In these cases, the previous settlement's postal code is used. This status is used only for neighborhoods.
+- `estimated`: The postal code is not available in the PTT data and could not be derived from a previous settlement. The value is inferred from supplementary public sources, nearby settlements, district-level postal code patterns, or documented administrative changes. Estimated values are intended to improve searchability, but they should not be treated as official PTT records.
+
+`postalCodeStatus` should be checked by clients that require strict official postal code data. For official-only usage, filter records where `postalCodeStatus` is `official`.
+
+Neighborhoods: `32,142` official, `76` derived, `36` estimated, `32,254` total
+
+Villages: `18,162` official, `21` estimated, `18,183` total
 
 ## Caching
 

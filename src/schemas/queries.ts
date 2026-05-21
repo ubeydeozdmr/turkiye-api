@@ -38,6 +38,16 @@ export const PaginationFieldQuerySchema = Type.Object(
   { additionalProperties: false },
 );
 
+export const PostalCodeStatusPaginationFieldQuerySchema = Type.Object(
+  {
+    fields: Type.Optional(CsvStringSchema),
+    postalCodeStatus: Type.Optional(CsvStringSchema),
+    limit: Type.Optional(Type.Integer({ minimum: 1, maximum: 1000, default: 100 })),
+    offset: Type.Optional(Type.Integer({ minimum: 0, default: 0 })),
+  },
+  { additionalProperties: false },
+);
+
 const ListQueryProperties = {
   search: Type.Optional(Type.String({ minLength: 1 })),
   fields: Type.Optional(CsvStringSchema),
@@ -97,6 +107,7 @@ export const NeighborhoodListQuerySchema = Type.Object(
     provinceId: Type.Optional(Type.Integer({ minimum: 1 })),
     districtId: Type.Optional(Type.Integer({ minimum: 1 })),
     municipalityId: Type.Optional(Type.Integer({ minimum: 1 })),
+    postalCodeStatus: Type.Optional(CsvStringSchema),
   },
   { additionalProperties: false },
 );
@@ -107,6 +118,7 @@ export const VillageListQuerySchema = Type.Object(
     ...PopulationQueryProperties,
     provinceId: Type.Optional(Type.Integer({ minimum: 1 })),
     districtId: Type.Optional(Type.Integer({ minimum: 1 })),
+    postalCodeStatus: Type.Optional(CsvStringSchema),
   },
   { additionalProperties: false },
 );
@@ -153,6 +165,7 @@ export type NeighborhoodListQuery = Type.Static<typeof NeighborhoodListQuerySche
 export type VillageListQuery = Type.Static<typeof VillageListQuerySchema>;
 export type FieldQuery = Type.Static<typeof FieldQuerySchema>;
 export type PaginationFieldQuery = Type.Static<typeof PaginationFieldQuerySchema>;
+export type PostalCodeStatusPaginationFieldQuery = Type.Static<typeof PostalCodeStatusPaginationFieldQuerySchema>;
 export type ProvinceParams = Type.Static<typeof ProvinceParamsSchema>;
 export type DistrictParams = Type.Static<typeof DistrictParamsSchema>;
 export type MunicipalityParams = Type.Static<typeof MunicipalityParamsSchema>;

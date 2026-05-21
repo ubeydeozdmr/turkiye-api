@@ -1,7 +1,16 @@
 import { type Datasets, type District, type Municipality, type Neighborhood, type Province } from '../data/index.js';
 import { type DatasetIndexes } from '../indexes/index.js';
 import { type NeighborhoodListQuery } from '../schemas/index.js';
-import { includesNormalizedText, normalizePagination, paginate, sortByName, type Pagination } from '../utils/index.js';
+import {
+  filterByPostalCodeStatus,
+  includesNormalizedText,
+  normalizePagination,
+  paginate,
+  sortByName,
+  type NeighborhoodPostalCodeStatus,
+  type Pagination,
+  type PostalCodeStatusSelection,
+} from '../utils/index.js';
 
 export interface NeighborhoodListResult {
   readonly items: readonly Neighborhood[];
@@ -10,7 +19,10 @@ export interface NeighborhoodListResult {
 }
 
 export interface NeighborhoodService {
-  readonly listNeighborhoods: (query: NeighborhoodListQuery) => NeighborhoodListResult;
+  readonly listNeighborhoods: (
+    query: NeighborhoodListQuery,
+    postalCodeStatuses?: PostalCodeStatusSelection<NeighborhoodPostalCodeStatus>,
+  ) => NeighborhoodListResult;
   readonly getNeighborhoodById: (neighborhoodId: number) => Neighborhood | undefined;
   readonly getProvinceByNeighborhoodId: (neighborhoodId: number) => Province | undefined;
   readonly getDistrictByNeighborhoodId: (neighborhoodId: number) => District | undefined;
@@ -25,8 +37,9 @@ export interface CreateNeighborhoodServiceOptions {
 function applyNeighborhoodFilters(
   neighborhoods: readonly Neighborhood[],
   query: NeighborhoodListQuery,
+  postalCodeStatuses: PostalCodeStatusSelection<NeighborhoodPostalCodeStatus>,
 ): readonly Neighborhood[] {
-  return neighborhoods.filter((neighborhood) => {
+  return filterByPostalCodeStatus(neighborhoods, postalCodeStatuses).filter((neighborhood) => {
     if (query.search !== undefined && !includesNormalizedText(neighborhood.name, query.search)) {
       return false;
     }
@@ -94,9 +107,9 @@ export function createNeighborhoodService(options: CreateNeighborhoodServiceOpti
   const { datasets, indexes } = options;
 
   return {
-    listNeighborhoods(query) {
+    listNeighborhoods(query, postalCodeStatuses) {
       const pagination = normalizePagination(query);
-      const filtered = applyNeighborhoodFilters(datasets.neighborhoods, query);
+      const filtered = applyNeighborhoodFilters(datasets.neighborhoods, query, postalCodeStatuses);
       const sorted = applyNeighborhoodSort(filtered, query.sort);
 
       return {

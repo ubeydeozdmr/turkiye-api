@@ -1,5 +1,6 @@
 import { type FastifyPluginAsync } from 'fastify';
 import {
+  VILLAGE_POSTAL_CODE_STATUSES,
   VILLAGE_FIELDS,
   VILLAGE_INCLUDES,
   createDataResponse,
@@ -7,6 +8,7 @@ import {
   hasInclude,
   parseFields,
   parseIncludes,
+  parsePostalCodeStatuses,
   projectFields,
   projectFieldsList,
   sendBadRequest,
@@ -49,12 +51,18 @@ const villageRoutes: FastifyPluginAsync<VillageRouteOptions> = async (fastify, o
       },
     },
     async (request, reply) => {
-      const result = villageService.listVillages(request.query);
       const fields = parseFields(request.query.fields, VILLAGE_FIELDS);
+      const postalCodeStatuses = parsePostalCodeStatuses(request.query.postalCodeStatus, VILLAGE_POSTAL_CODE_STATUSES);
 
       if (!fields.ok) {
         return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
       }
+
+      if (!postalCodeStatuses.ok) {
+        return sendBadRequest(reply, 'INVALID_POSTAL_CODE_STATUS', postalCodeStatuses.message);
+      }
+
+      const result = villageService.listVillages(request.query, postalCodeStatuses.statuses);
 
       return createListResponse(projectFieldsList(result.items, fields.fields), result.pagination, result.total);
     },

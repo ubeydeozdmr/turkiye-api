@@ -1,7 +1,16 @@
 import { type Datasets, type District, type Province, type Village } from '../data/index.js';
 import { type DatasetIndexes } from '../indexes/index.js';
 import { type VillageListQuery } from '../schemas/index.js';
-import { includesNormalizedText, normalizePagination, paginate, sortByName, type Pagination } from '../utils/index.js';
+import {
+  filterByPostalCodeStatus,
+  includesNormalizedText,
+  normalizePagination,
+  paginate,
+  sortByName,
+  type Pagination,
+  type PostalCodeStatusSelection,
+  type VillagePostalCodeStatus,
+} from '../utils/index.js';
 
 export interface VillageListResult {
   readonly items: readonly Village[];
@@ -10,7 +19,10 @@ export interface VillageListResult {
 }
 
 export interface VillageService {
-  readonly listVillages: (query: VillageListQuery) => VillageListResult;
+  readonly listVillages: (
+    query: VillageListQuery,
+    postalCodeStatuses?: PostalCodeStatusSelection<VillagePostalCodeStatus>,
+  ) => VillageListResult;
   readonly getVillageById: (villageId: number) => Village | undefined;
   readonly getProvinceByVillageId: (villageId: number) => Province | undefined;
   readonly getDistrictByVillageId: (villageId: number) => District | undefined;
@@ -21,8 +33,12 @@ export interface CreateVillageServiceOptions {
   readonly indexes: DatasetIndexes;
 }
 
-function applyVillageFilters(villages: readonly Village[], query: VillageListQuery): readonly Village[] {
-  return villages.filter((village) => {
+function applyVillageFilters(
+  villages: readonly Village[],
+  query: VillageListQuery,
+  postalCodeStatuses: PostalCodeStatusSelection<VillagePostalCodeStatus>,
+): readonly Village[] {
+  return filterByPostalCodeStatus(villages, postalCodeStatuses).filter((village) => {
     if (query.search !== undefined && !includesNormalizedText(village.name, query.search)) {
       return false;
     }
@@ -83,9 +99,9 @@ export function createVillageService(options: CreateVillageServiceOptions): Vill
   const { datasets, indexes } = options;
 
   return {
-    listVillages(query) {
+    listVillages(query, postalCodeStatuses) {
       const pagination = normalizePagination(query);
-      const filtered = applyVillageFilters(datasets.villages, query);
+      const filtered = applyVillageFilters(datasets.villages, query, postalCodeStatuses);
       const sorted = applyVillageSort(filtered, query.sort);
 
       return {

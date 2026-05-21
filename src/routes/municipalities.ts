@@ -3,12 +3,15 @@ import {
   MUNICIPALITY_FIELDS,
   MUNICIPALITY_INCLUDES,
   NEIGHBORHOOD_FIELDS,
+  NEIGHBORHOOD_POSTAL_CODE_STATUSES,
   createDataResponse,
   createListResponse,
+  filterByPostalCodeStatus,
   hasInclude,
   normalizePagination,
   parseFields,
   parseIncludes,
+  parsePostalCodeStatuses,
   paginate,
   projectFields,
   projectFieldsList,
@@ -27,8 +30,8 @@ import {
   MunicipalityParamsSchema,
   MunicipalitySchema,
   NeighborhoodSchema,
-  PaginationFieldQuerySchema,
-  type PaginationFieldQuery,
+  PostalCodeStatusPaginationFieldQuerySchema,
+  type PostalCodeStatusPaginationFieldQuery,
 } from '../schemas/index.js';
 import { type MunicipalityService } from '../services/index.js';
 
@@ -113,12 +116,12 @@ const municipalityRoutes: FastifyPluginAsync<MunicipalityRouteOptions> = async (
     },
   );
 
-  fastify.get<{ Params: MunicipalityParams; Querystring: PaginationFieldQuery }>(
+  fastify.get<{ Params: MunicipalityParams; Querystring: PostalCodeStatusPaginationFieldQuery }>(
     '/:municipalityId/neighborhoods',
     {
       schema: {
         params: MunicipalityParamsSchema,
-        querystring: PaginationFieldQuerySchema,
+        querystring: PostalCodeStatusPaginationFieldQuerySchema,
         response: {
           200: ListResponseSchema(NeighborhoodSchema),
           404: ErrorResponseSchema,
@@ -128,19 +131,28 @@ const municipalityRoutes: FastifyPluginAsync<MunicipalityRouteOptions> = async (
     async (request, reply) => {
       const neighborhoods = municipalityService.getNeighborhoodsByMunicipalityId(request.params.municipalityId);
       const fields = parseFields(request.query.fields, NEIGHBORHOOD_FIELDS);
+      const postalCodeStatuses = parsePostalCodeStatuses(
+        request.query.postalCodeStatus,
+        NEIGHBORHOOD_POSTAL_CODE_STATUSES,
+      );
 
       if (!fields.ok) {
         return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+      }
+
+      if (!postalCodeStatuses.ok) {
+        return sendBadRequest(reply, 'INVALID_POSTAL_CODE_STATUS', postalCodeStatuses.message);
       }
 
       if (neighborhoods === undefined) {
         return sendNotFound(reply, municipalityNotFound.code, municipalityNotFound.message);
       }
 
+      const filtered = filterByPostalCodeStatus(neighborhoods, postalCodeStatuses.statuses);
       const pagination = normalizePagination(request.query);
-      const items = paginate(neighborhoods, pagination);
+      const items = paginate(filtered, pagination);
 
-      return createListResponse(projectFieldsList(items, fields.fields), pagination, neighborhoods.length);
+      return createListResponse(projectFieldsList(items, fields.fields), pagination, filtered.length);
     },
   );
 };

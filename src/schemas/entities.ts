@@ -7,8 +7,7 @@ export const CountSchema = Type.Integer({ minimum: 0 });
 export const PopulationSchema = Type.Integer({ minimum: 0 });
 export const NameSchema = Type.String({ minLength: 1 });
 export const SlugSchema = Type.String({ minLength: 1 });
-export const PostalCodeSchema = Type.String({ minLength: 5 });
-export const NullablePostalCodeSchema = Type.Union([PostalCodeSchema, Type.Null()]);
+export const PostalCodeSchema = Type.String({ pattern: '^[0-9]{5}$' });
 
 export const AreaSchema = StrictObject(
   {
@@ -128,7 +127,8 @@ export const NeighborhoodSchema = StrictObject(
     districtId: IdSchema,
     municipalityId: IdSchema,
     population: PopulationSchema,
-    postalCode: NullablePostalCodeSchema,
+    postalCode: PostalCodeSchema,
+    postalCodeStatus: Type.Union([Type.Literal('official'), Type.Literal('derived'), Type.Literal('estimated')]),
   },
   { additionalProperties: false },
 );
@@ -141,7 +141,8 @@ export const VillageSchema = StrictObject(
     provinceId: IdSchema,
     districtId: IdSchema,
     population: PopulationSchema,
-    postalCode: NullablePostalCodeSchema,
+    postalCode: PostalCodeSchema,
+    postalCodeStatus: Type.Union([Type.Literal('official'), Type.Literal('estimated')]),
   },
   { additionalProperties: false },
 );

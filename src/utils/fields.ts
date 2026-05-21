@@ -60,6 +60,7 @@ export const NEIGHBORHOOD_FIELDS = [
   'municipalityId',
   'population',
   'postalCode',
+  'postalCodeStatus',
 ] as const satisfies readonly FieldName<Neighborhood>[];
 
 export const VILLAGE_FIELDS = [
@@ -70,6 +71,7 @@ export const VILLAGE_FIELDS = [
   'districtId',
   'population',
   'postalCode',
+  'postalCodeStatus',
 ] as const satisfies readonly FieldName<Village>[];
 
 export function parseFields<Row>(
