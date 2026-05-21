@@ -15,6 +15,15 @@ const datasetCounts = {
   neighborhoods: datasets.neighborhoods.length,
   villages: datasets.villages.length,
 };
+const neighborhoodPostalCodeStatusCounts = {
+  official: datasets.neighborhoods.filter((neighborhood) => neighborhood.postalCodeStatus === 'official').length,
+  derived: datasets.neighborhoods.filter((neighborhood) => neighborhood.postalCodeStatus === 'derived').length,
+  estimated: datasets.neighborhoods.filter((neighborhood) => neighborhood.postalCodeStatus === 'estimated').length,
+};
+const villagePostalCodeStatusCounts = {
+  official: datasets.villages.filter((village) => village.postalCodeStatus === 'official').length,
+  estimated: datasets.villages.filter((village) => village.postalCodeStatus === 'estimated').length,
+};
 
 interface ErrorPayload {
   readonly error: {
@@ -153,6 +162,61 @@ describe('API routes', () => {
     assert.equal(invalidDistrictField.statusCode, 400);
     assert.equal(invalidProvinceField.json().error.code, 'INVALID_FIELDS');
     assert.equal(invalidDistrictField.json().error.code, 'INVALID_FIELDS');
+  });
+
+  it('filters neighborhoods by postal code status', async () => {
+    const official = await app.inject('/v2/neighborhoods?postalCodeStatus=official&limit=1000');
+    const officialAndDerived = await app.inject('/v2/neighborhoods?postalCodeStatus=official,derived&limit=1000');
+    const allStatuses = await app.inject('/v2/neighborhoods?postalCodeStatus=official,derived,estimated&limit=1');
+
+    assert.equal(official.statusCode, 200);
+    assert.equal(official.json().meta.total, neighborhoodPostalCodeStatusCounts.official);
+    assert.ok(
+      official
+        .json()
+        .data.every((neighborhood: { postalCodeStatus: string }) => neighborhood.postalCodeStatus === 'official'),
+    );
+
+    assert.equal(officialAndDerived.statusCode, 200);
+    assert.equal(
+      officialAndDerived.json().meta.total,
+      neighborhoodPostalCodeStatusCounts.official + neighborhoodPostalCodeStatusCounts.derived,
+    );
+    assert.ok(
+      officialAndDerived
+        .json()
+        .data.every((neighborhood: { postalCodeStatus: string }) =>
+          ['official', 'derived'].includes(neighborhood.postalCodeStatus),
+        ),
+    );
+
+    assert.equal(allStatuses.statusCode, 200);
+    assert.equal(allStatuses.json().meta.total, datasetCounts.neighborhoods);
+  });
+
+  it('filters villages by postal code status and rejects derived', async () => {
+    const official = await app.inject('/v2/villages?postalCodeStatus=official&limit=1000');
+    const estimated = await app.inject('/v2/villages?postalCodeStatus=estimated&limit=1000');
+    const allStatuses = await app.inject('/v2/villages?postalCodeStatus=official,estimated&limit=1');
+    const derived = await app.inject('/v2/villages?postalCodeStatus=derived');
+
+    assert.equal(official.statusCode, 200);
+    assert.equal(official.json().meta.total, villagePostalCodeStatusCounts.official);
+    assert.ok(
+      official.json().data.every((village: { postalCodeStatus: string }) => village.postalCodeStatus === 'official'),
+    );
+
+    assert.equal(estimated.statusCode, 200);
+    assert.equal(estimated.json().meta.total, villagePostalCodeStatusCounts.estimated);
+    assert.ok(
+      estimated.json().data.every((village: { postalCodeStatus: string }) => village.postalCodeStatus === 'estimated'),
+    );
+
+    assert.equal(allStatuses.statusCode, 200);
+    assert.equal(allStatuses.json().meta.total, datasetCounts.villages);
+
+    assert.equal(derived.statusCode, 400);
+    assert.equal(derived.json().error.code, 'INVALID_POSTAL_CODE_STATUS');
   });
 
   it('returns relationship count checks', async () => {
