@@ -13,13 +13,13 @@ const app = express();
 const cache = apicache.middleware;
 const routes = require('./routes');
 
-const { PORT, NODE_ENV } = process.env;
+const { PORT, NODE_ENV, INSTANT_LIMIT, LIMIT } = process.env;
 
 app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal']);
 
 const instantLimiter = rateLimit({
   windowMs: 60 * 1000, // 1 minute
-  limit: 60,
+  limit: Number(INSTANT_LIMIT) || 60,
   standardHeaders: 'draft-8',
   identifier: 'v1-minute',
   legacyHeaders: false,
@@ -28,7 +28,7 @@ const instantLimiter = rateLimit({
 
 const limiter = rateLimit({
   windowMs: 5 * 60 * 1000, // 5 minutes
-  limit: 200,
+  limit: Number(LIMIT) || 200,
   standardHeaders: 'draft-8',
   identifier: 'v1-5-minute',
   legacyHeaders: false,
