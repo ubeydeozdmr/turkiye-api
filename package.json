@@ -22,7 +22,7 @@
     "dotenv": "^17.4.2",
     "express": "^4.22.2",
     "express-rate-limit": "^8.5.2",
-    "morgan": "^1.10.1",
+    "morgan": "^1.11.0",
     "pug": "^3.0.4",
     "swagger-jsdoc": "^6.3.0",
     "swagger-ui-express": "^5.0.1"
