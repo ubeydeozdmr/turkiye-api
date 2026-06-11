@@ -6,6 +6,7 @@ import { afterEach, describe, it } from 'node:test';
 
 import { loadDatasets } from '../src/data/load-datasets.js';
 import { DATASET_FILENAMES } from '../src/data/dataset-files.js';
+import { assertDatasetCounts, getDatasetCounts } from '../src/data/dataset-meta.js';
 import { type DatasetName } from '../src/data/types.js';
 
 const tempDirectories: string[] = [];
@@ -64,6 +65,7 @@ const neighborhood = {
   municipalityId: 11001,
   population: 12_000,
   postalCode: '01010',
+  postalCodeStatus: 'official',
 };
 
 const village = {
@@ -73,7 +75,8 @@ const village = {
   provinceId: 1,
   districtId: 1757,
   population: 500,
-  postalCode: null,
+  postalCode: '01020',
+  postalCodeStatus: 'official',
 };
 
 function createDatasetDirectory(overrides: Partial<Record<DatasetName, unknown>> = {}): string {
@@ -122,5 +125,19 @@ describe('loadDatasets', () => {
     });
 
     assert.throws(() => loadDatasets({ datasetDirectory }), /Dataset "provinces" must be a JSON array\./);
+  });
+
+  it('throws when expected metadata counts diverge from loaded data', () => {
+    const datasets = loadDatasets();
+    const counts = getDatasetCounts(datasets);
+
+    assert.throws(
+      () =>
+        assertDatasetCounts(datasets, {
+          ...counts,
+          provinces: counts.provinces + 1,
+        }),
+      new RegExp(`Dataset "provinces" has ${counts.provinces} rows, but metadata expects ${counts.provinces + 1}\\.`),
+    );
   });
 });

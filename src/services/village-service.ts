@@ -2,6 +2,7 @@ import { type Datasets, type District, type Province, type Village } from '../da
 import { type DatasetIndexes } from '../indexes/index.js';
 import { type VillageListQuery } from '../schemas/index.js';
 import {
+  filterByPostalCodeQuery,
   filterByPostalCodeStatus,
   includesNormalizedText,
   normalizePagination,
@@ -9,7 +10,9 @@ import {
   sortByName,
   type Pagination,
   type PostalCodeStatusSelection,
+  type QueryValidationResult,
   type VillagePostalCodeStatus,
+  validQuery,
 } from '../utils/index.js';
 
 export interface VillageListResult {
@@ -23,6 +26,7 @@ export interface VillageService {
     query: VillageListQuery,
     postalCodeStatuses?: PostalCodeStatusSelection<VillagePostalCodeStatus>,
   ) => VillageListResult;
+  readonly validateListQueryHierarchy: (query: VillageListQuery) => QueryValidationResult;
   readonly getVillageById: (villageId: number) => Village | undefined;
   readonly getProvinceByVillageId: (villageId: number) => Province | undefined;
   readonly getDistrictByVillageId: (villageId: number) => District | undefined;
@@ -38,7 +42,7 @@ function applyVillageFilters(
   query: VillageListQuery,
   postalCodeStatuses: PostalCodeStatusSelection<VillagePostalCodeStatus>,
 ): readonly Village[] {
-  return filterByPostalCodeStatus(villages, postalCodeStatuses).filter((village) => {
+  return filterByPostalCodeQuery(filterByPostalCodeStatus(villages, postalCodeStatuses), query).filter((village) => {
     if (query.search !== undefined && !includesNormalizedText(village.name, query.search)) {
       return false;
     }
@@ -95,6 +99,24 @@ function hasVillage(indexes: DatasetIndexes, villageId: number): boolean {
   return indexes.villageById.has(villageId);
 }
 
+function validateVillageListQueryHierarchy(indexes: DatasetIndexes, query: VillageListQuery): QueryValidationResult {
+  if (query.provinceId === undefined || query.districtId === undefined) {
+    return validQuery;
+  }
+
+  const district = indexes.districtById.get(query.districtId);
+
+  if (district !== undefined && district.provinceId !== query.provinceId) {
+    return {
+      ok: false,
+      code: 'INVALID_HIERARCHY_FILTER',
+      message: `districtId "${query.districtId}" does not belong to provinceId "${query.provinceId}".`,
+    };
+  }
+
+  return validQuery;
+}
+
 export function createVillageService(options: CreateVillageServiceOptions): VillageService {
   const { datasets, indexes } = options;
 
@@ -109,6 +131,10 @@ export function createVillageService(options: CreateVillageServiceOptions): Vill
         pagination,
         total: sorted.length,
       };
+    },
+
+    validateListQueryHierarchy(query) {
+      return validateVillageListQueryHierarchy(indexes, query);
     },
 
     getVillageById(villageId) {

@@ -8,6 +8,7 @@ export interface IncludeParseSuccess<Include extends IncludeName> {
 
 export interface IncludeParseFailure {
   readonly ok: false;
+  readonly code: string;
   readonly message: string;
 }
 
@@ -43,6 +44,7 @@ export function parseIncludes<Include extends IncludeName>(
   if (includes.some((include) => include.length === 0)) {
     return {
       ok: false,
+      code: 'INVALID_INCLUDE',
       message: 'include must be a comma-separated list of include names.',
     };
   }
@@ -52,6 +54,7 @@ export function parseIncludes<Include extends IncludeName>(
   if (unknownIncludes.length > 0) {
     return {
       ok: false,
+      code: 'INVALID_INCLUDE',
       message: `Unknown include(s): ${unknownIncludes.join(', ')}.`,
     };
   }

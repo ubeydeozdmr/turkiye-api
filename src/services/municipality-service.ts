@@ -1,7 +1,15 @@
 import { type Datasets, type District, type Municipality, type Neighborhood, type Province } from '../data/index.js';
 import { getGroup, type DatasetIndexes } from '../indexes/index.js';
 import { type MunicipalityListQuery } from '../schemas/index.js';
-import { includesNormalizedText, normalizePagination, paginate, sortByName, type Pagination } from '../utils/index.js';
+import {
+  includesNormalizedText,
+  normalizePagination,
+  paginate,
+  sortByName,
+  validQuery,
+  type Pagination,
+  type QueryValidationResult,
+} from '../utils/index.js';
 
 export interface MunicipalityListResult {
   readonly items: readonly Municipality[];
@@ -11,6 +19,7 @@ export interface MunicipalityListResult {
 
 export interface MunicipalityService {
   readonly listMunicipalities: (query: MunicipalityListQuery) => MunicipalityListResult;
+  readonly validateListQueryHierarchy: (query: MunicipalityListQuery) => QueryValidationResult;
   readonly getMunicipalityById: (municipalityId: number) => Municipality | undefined;
   readonly getProvinceByMunicipalityId: (municipalityId: number) => Province | undefined;
   readonly getDistrictByMunicipalityId: (municipalityId: number) => District | undefined;
@@ -90,6 +99,27 @@ function hasMunicipality(indexes: DatasetIndexes, municipalityId: number): boole
   return indexes.municipalityById.has(municipalityId);
 }
 
+function validateMunicipalityListQueryHierarchy(
+  indexes: DatasetIndexes,
+  query: MunicipalityListQuery,
+): QueryValidationResult {
+  if (query.provinceId === undefined || query.districtId === undefined) {
+    return validQuery;
+  }
+
+  const district = indexes.districtById.get(query.districtId);
+
+  if (district !== undefined && district.provinceId !== query.provinceId) {
+    return {
+      ok: false,
+      code: 'INVALID_HIERARCHY_FILTER',
+      message: `districtId "${query.districtId}" does not belong to provinceId "${query.provinceId}".`,
+    };
+  }
+
+  return validQuery;
+}
+
 export function createMunicipalityService(options: CreateMunicipalityServiceOptions): MunicipalityService {
   const { datasets, indexes } = options;
 
@@ -104,6 +134,10 @@ export function createMunicipalityService(options: CreateMunicipalityServiceOpti
         pagination,
         total: sorted.length,
       };
+    },
+
+    validateListQueryHierarchy(query) {
+      return validateMunicipalityListQueryHierarchy(indexes, query);
     },
 
     getMunicipalityById(municipalityId) {

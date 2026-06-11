@@ -10,6 +10,7 @@ export interface FieldParseSuccess<Row> {
 
 export interface FieldParseFailure {
   readonly ok: false;
+  readonly code: string;
   readonly message: string;
 }
 
@@ -88,6 +89,7 @@ export function parseFields<Row>(
   if (fields.some((field) => field.length === 0)) {
     return {
       ok: false,
+      code: 'INVALID_FIELDS',
       message: 'fields must be a comma-separated list of field names.',
     };
   }
@@ -97,6 +99,7 @@ export function parseFields<Row>(
   if (unknownFields.length > 0) {
     return {
       ok: false,
+      code: 'INVALID_FIELDS',
       message: `Unknown field(s): ${unknownFields.join(', ')}.`,
     };
   }

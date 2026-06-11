@@ -4,6 +4,10 @@ export {
   DATASET_SOURCE,
   DATASET_VERSION,
   EXPECTED_DATASET_COUNTS,
+  assertDatasetCounts,
+  createDatasetMeta,
+  getDatasetCounts,
+  type DatasetCounts,
   type DatasetMeta,
 } from './dataset-meta.js';
 export { DATASET_FILENAMES, getDatasetFilePath, getDefaultDatasetDirectory } from './dataset-files.js';

@@ -34,6 +34,7 @@ interface RouteSpec {
   readonly tags: readonly string[];
   readonly summary: string;
   readonly description?: string;
+  readonly badRequestDescription?: string;
   readonly params?: TSchema;
   readonly query?: TSchema;
   readonly response?: TSchema;
@@ -53,6 +54,30 @@ const DATASET_FILE_SCHEMA = Type.Union(Object.values(DATASET_FILENAMES).map((fil
 const DATASET_VERSION_SCHEMA = Type.Literal(DATASET_META.datasetVersion);
 
 const StaticDatasetSchema = Type.Array(Type.Unknown());
+
+const PARAMETER_DESCRIPTIONS: Readonly<Record<string, string>> = {
+  fields: 'Comma-separated field names to include in each response item.',
+  include: 'Comma-separated related resources to embed in a detail response.',
+  search: 'Case-insensitive normalized text search by name.',
+  sort: 'Sort order for list responses.',
+  limit: 'Maximum number of items to return.',
+  offset: 'Zero-based item offset.',
+  minPopulation: 'Minimum population. Must be less than or equal to maxPopulation when both are provided.',
+  maxPopulation: 'Maximum population. Must be greater than or equal to minPopulation when both are provided.',
+  minArea: 'Minimum area in km2. Must be less than or equal to maxArea when both are provided.',
+  maxArea: 'Maximum area in km2. Must be greater than or equal to minArea when both are provided.',
+  minAltitude: 'Minimum altitude in meters. Must be less than or equal to maxAltitude when both are provided.',
+  maxAltitude: 'Maximum altitude in meters. Must be greater than or equal to minAltitude when both are provided.',
+  isCoastal: 'Filter provinces by coastal status.',
+  isMetropolitan: 'Filter provinces by metropolitan municipality status.',
+  provinceId: 'Filter by province id. Must match districtId and municipalityId hierarchy filters when provided.',
+  districtId: 'Filter by district id. Must match provinceId and municipalityId hierarchy filters when provided.',
+  municipalityId: 'Filter by municipality id. Must match provinceId and districtId hierarchy filters when provided.',
+  type: 'Filter municipalities by municipality type.',
+  postalCode: 'Filter by exact five-digit postal code.',
+  postalCodePrefix: 'Filter by one-to-five digit postal code prefix.',
+  postalCodeStatus: 'Comma-separated postal code status filter.',
+};
 
 function asJsonSchema(schema: TSchema): JsonSchema {
   return schema as JsonSchema;
@@ -77,12 +102,17 @@ function schemaRequired(schema: TSchema): readonly string[] {
 function parametersFromSchema(schema: TSchema, location: 'path' | 'query'): OpenApiParameter[] {
   const required = new Set(schemaRequired(schema));
 
-  return Object.entries(schemaProperties(schema)).map(([name, property]) => ({
-    name,
-    in: location,
-    required: location === 'path' || required.has(name),
-    schema: property,
-  }));
+  return Object.entries(schemaProperties(schema)).map(([name, property]) => {
+    const description = PARAMETER_DESCRIPTIONS[name];
+
+    return {
+      name,
+      in: location,
+      required: location === 'path' || required.has(name),
+      schema: property,
+      ...(description === undefined ? {} : { description }),
+    };
+  });
 }
 
 function parameters(spec: RouteSpec): OpenApiParameter[] {
@@ -115,7 +145,7 @@ function operation(spec: RouteSpec): JsonSchema {
           ? { description: 'Successful response.' }
           : jsonResponse('Successful response.', spec.response),
       ...(spec.notFound === true ? { 404: jsonResponse('Not found.', ErrorResponseSchema) } : {}),
-      400: jsonResponse('Invalid request.', ErrorResponseSchema),
+      400: jsonResponse(spec.badRequestDescription ?? 'Invalid request.', ErrorResponseSchema),
       429: jsonResponse('Rate limit exceeded.', ErrorResponseSchema),
       500: jsonResponse('Internal server error.', ErrorResponseSchema),
     },
@@ -224,6 +254,7 @@ export function createOpenApiDocument(): OpenApiDocument {
       '/v2/provinces': pathItem({
         tags: ['Provinces'],
         summary: 'List provinces',
+        badRequestDescription: 'Invalid request. Contradictory range filters return INVALID_RANGE_FILTER.',
         query: ProvinceListQuerySchema,
         response: ListResponseSchema(ProvinceSchema),
       }),
@@ -270,6 +301,7 @@ export function createOpenApiDocument(): OpenApiDocument {
       '/v2/districts': pathItem({
         tags: ['Districts'],
         summary: 'List districts',
+        badRequestDescription: 'Invalid request. Contradictory range filters return INVALID_RANGE_FILTER.',
         query: DistrictListQuerySchema,
         response: ListResponseSchema(DistrictSchema),
       }),
@@ -308,6 +340,8 @@ export function createOpenApiDocument(): OpenApiDocument {
       '/v2/municipalities': pathItem({
         tags: ['Municipalities'],
         summary: 'List municipalities',
+        badRequestDescription:
+          'Invalid request. Contradictory range filters return INVALID_RANGE_FILTER; contradictory hierarchy filters return INVALID_HIERARCHY_FILTER.',
         query: MunicipalityListQuerySchema,
         response: ListResponseSchema(MunicipalitySchema),
       }),
@@ -330,6 +364,8 @@ export function createOpenApiDocument(): OpenApiDocument {
       '/v2/neighborhoods': pathItem({
         tags: ['Neighborhoods'],
         summary: 'List neighborhoods',
+        badRequestDescription:
+          'Invalid request. Contradictory range filters return INVALID_RANGE_FILTER; contradictory hierarchy filters return INVALID_HIERARCHY_FILTER.',
         query: NeighborhoodListQuerySchema,
         response: ListResponseSchema(NeighborhoodSchema),
       }),
@@ -344,6 +380,8 @@ export function createOpenApiDocument(): OpenApiDocument {
       '/v2/villages': pathItem({
         tags: ['Villages'],
         summary: 'List villages',
+        badRequestDescription:
+          'Invalid request. Contradictory range filters return INVALID_RANGE_FILTER; contradictory hierarchy filters return INVALID_HIERARCHY_FILTER.',
         query: VillageListQuerySchema,
         response: ListResponseSchema(VillageSchema),
       }),

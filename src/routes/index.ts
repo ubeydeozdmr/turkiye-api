@@ -14,7 +14,7 @@ import districts from './districts.js';
 import municipalities from './municipalities.js';
 import neighborhoods from './neighborhoods.js';
 import villages from './villages.js';
-import { DATASET_META } from '../data/dataset-meta.js';
+import { type DatasetMeta } from '../data/index.js';
 import { createOpenApiDocument } from '../openapi.js';
 import { DataEnvelopeSchema, DatasetMetaSchema } from '../schemas/index.js';
 import { createDataEnvelope } from '../utils/index.js';
@@ -26,6 +26,7 @@ export interface V2RouteOptions {
   readonly municipalityService: MunicipalityService;
   readonly neighborhoodService: NeighborhoodService;
   readonly villageService: VillageService;
+  readonly datasetMeta: DatasetMeta;
 }
 
 const registerV2Routes: FastifyPluginAsync<V2RouteOptions> = async (fastify, options) => {
@@ -68,7 +69,7 @@ const registerV2Routes: FastifyPluginAsync<V2RouteOptions> = async (fastify, opt
       },
     },
     async () => {
-      return createDataEnvelope(DATASET_META);
+      return createDataEnvelope(options.datasetMeta);
     },
   );
 };

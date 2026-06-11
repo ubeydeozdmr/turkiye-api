@@ -255,10 +255,13 @@ Resource-specific filters:
 | Provinces      | `minArea`, `maxArea`, `minAltitude`, `maxAltitude`, `isCoastal`, `isMetropolitan` |
 | Districts      | `provinceId`, `minArea`, `maxArea`                                                |
 | Municipalities | `provinceId`, `districtId`, `type`                                                |
-| Neighborhoods  | `provinceId`, `districtId`, `municipalityId`                                      |
-| Villages       | `provinceId`, `districtId`                                                        |
+| Neighborhoods  | `provinceId`, `districtId`, `municipalityId`, `postalCode`, `postalCodePrefix`    |
+| Villages       | `provinceId`, `districtId`, `postalCode`, `postalCodePrefix`                      |
 
 Boolean filters use `true` or `false`. Municipality `type` can be `province_center`, `district_center`, or `town`.
+
+Contradictory range filters, such as `minPopulation` greater than `maxPopulation`, return `400 INVALID_RANGE_FILTER`.
+Contradictory hierarchy filters, such as a `districtId` that does not belong to the supplied `provinceId`, return `400 INVALID_HIERARCHY_FILTER`.
 
 ## Field Projection
 

@@ -1,4 +1,4 @@
-import { type DatasetName } from './types.js';
+import { type DatasetName, type Datasets } from './types.js';
 
 export const DATASET_VERSION = '2025';
 export const DATASET_LAST_UPDATED = '2026-05-21';
@@ -47,6 +47,8 @@ export const EXPECTED_DATASET_COUNTS = {
   villages: 18183,
 } as const satisfies Record<DatasetName, number>;
 
+export type DatasetCounts = Record<DatasetName, number>;
+
 export interface DatasetMeta {
   readonly apiVersion: string;
   readonly datasetVersion: string;
@@ -57,7 +59,7 @@ export interface DatasetMeta {
     typeof AREA_SOURCE,
     typeof COORDINATE_SOURCE,
   ];
-  readonly counts: typeof EXPECTED_DATASET_COUNTS;
+  readonly counts: DatasetCounts;
 }
 
 export const DATASET_META = {
@@ -67,3 +69,37 @@ export const DATASET_META = {
   sources: [DATASET_SOURCE, POSTAL_CODE_SOURCE, AREA_SOURCE, COORDINATE_SOURCE],
   counts: EXPECTED_DATASET_COUNTS,
 } as const satisfies DatasetMeta;
+
+export function getDatasetCounts(datasets: Datasets): DatasetCounts {
+  return {
+    provinces: datasets.provinces.length,
+    districts: datasets.districts.length,
+    municipalities: datasets.municipalities.length,
+    neighborhoods: datasets.neighborhoods.length,
+    villages: datasets.villages.length,
+  };
+}
+
+export function assertDatasetCounts(
+  datasets: Datasets,
+  expectedCounts: Readonly<Record<DatasetName, number>> = EXPECTED_DATASET_COUNTS,
+): void {
+  const actualCounts = getDatasetCounts(datasets);
+
+  for (const datasetName of Object.keys(actualCounts) as DatasetName[]) {
+    if (actualCounts[datasetName] !== expectedCounts[datasetName]) {
+      throw new Error(
+        `Dataset "${datasetName}" has ${actualCounts[datasetName]} rows, but metadata expects ${expectedCounts[datasetName]}.`,
+      );
+    }
+  }
+}
+
+export function createDatasetMeta(datasets: Datasets): DatasetMeta {
+  assertDatasetCounts(datasets);
+
+  return {
+    ...DATASET_META,
+    counts: getDatasetCounts(datasets),
+  };
+}

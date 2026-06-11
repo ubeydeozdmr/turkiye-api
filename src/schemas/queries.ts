@@ -38,10 +38,16 @@ export const PaginationFieldQuerySchema = Type.Object(
   { additionalProperties: false },
 );
 
+const PostalCodeQueryProperties = {
+  postalCode: Type.Optional(Type.String({ pattern: '^[0-9]{5}$' })),
+  postalCodePrefix: Type.Optional(Type.String({ pattern: '^[0-9]{1,5}$' })),
+  postalCodeStatus: Type.Optional(CsvStringSchema),
+} as const;
+
 export const PostalCodeStatusPaginationFieldQuerySchema = Type.Object(
   {
     fields: Type.Optional(CsvStringSchema),
-    postalCodeStatus: Type.Optional(CsvStringSchema),
+    ...PostalCodeQueryProperties,
     limit: Type.Optional(Type.Integer({ minimum: 1, maximum: 1000, default: 100 })),
     offset: Type.Optional(Type.Integer({ minimum: 0, default: 0 })),
   },
@@ -107,7 +113,7 @@ export const NeighborhoodListQuerySchema = Type.Object(
     provinceId: Type.Optional(Type.Integer({ minimum: 1 })),
     districtId: Type.Optional(Type.Integer({ minimum: 1 })),
     municipalityId: Type.Optional(Type.Integer({ minimum: 1 })),
-    postalCodeStatus: Type.Optional(CsvStringSchema),
+    ...PostalCodeQueryProperties,
   },
   { additionalProperties: false },
 );
@@ -118,7 +124,7 @@ export const VillageListQuerySchema = Type.Object(
     ...PopulationQueryProperties,
     provinceId: Type.Optional(Type.Integer({ minimum: 1 })),
     districtId: Type.Optional(Type.Integer({ minimum: 1 })),
-    postalCodeStatus: Type.Optional(CsvStringSchema),
+    ...PostalCodeQueryProperties,
   },
   { additionalProperties: false },
 );

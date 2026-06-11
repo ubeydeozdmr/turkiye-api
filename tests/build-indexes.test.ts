@@ -66,6 +66,7 @@ const neighborhoods: readonly Neighborhood[] = [
     municipalityId: 11001,
     population: 12_000,
     postalCode: '01010',
+    postalCodeStatus: 'official',
   },
   {
     id: 20002,
@@ -75,7 +76,8 @@ const neighborhoods: readonly Neighborhood[] = [
     districtId: 1757,
     municipalityId: 11001,
     population: 9_000,
-    postalCode: null,
+    postalCode: '01010',
+    postalCodeStatus: 'official',
   },
 ];
 
@@ -87,6 +89,7 @@ const village: Village = {
   districtId: 1757,
   population: 500,
   postalCode: '01020',
+  postalCodeStatus: 'official',
 };
 
 const datasets: Datasets = {
@@ -119,5 +122,34 @@ describe('buildIndexes', () => {
     };
 
     assert.throws(() => buildIndexes(duplicateDatasets), /Duplicate id "1" found while building provinceById\./);
+  });
+
+  it('throws when relationship references are invalid', () => {
+    const invalidDatasets: Datasets = {
+      ...datasets,
+      municipalities: [{ ...municipality, provinceId: 999 }],
+    };
+
+    assert.throws(() => buildIndexes(invalidDatasets), /Municipality "11001" references missing province "999"\./);
+  });
+
+  it('throws when stats do not match grouped indexes', () => {
+    const invalidDatasets: Datasets = {
+      ...datasets,
+      provinces: [
+        {
+          ...province,
+          stats: {
+            ...province.stats,
+            neighborhoodCount: 999,
+          },
+        },
+      ],
+    };
+
+    assert.throws(
+      () => buildIndexes(invalidDatasets),
+      /Province "1" stats\.neighborhoodCount is 999, but indexed data has 2\./,
+    );
   });
 });

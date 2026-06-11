@@ -26,6 +26,7 @@ import {
   projectFieldsList,
   sendBadRequest,
   sendNotFound,
+  validateRangeFilters,
 } from '../utils/index.js';
 
 interface NeighborhoodRouteOptions {
@@ -58,11 +59,22 @@ const neighborhoodRoutes: FastifyPluginAsync<NeighborhoodRouteOptions> = async (
       );
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!postalCodeStatuses.ok) {
-        return sendBadRequest(reply, 'INVALID_POSTAL_CODE_STATUS', postalCodeStatuses.message);
+        return sendBadRequest(reply, postalCodeStatuses.code, postalCodeStatuses.message);
+      }
+
+      const ranges = validateRangeFilters(request.query, ['population']);
+      const hierarchy = neighborhoodService.validateListQueryHierarchy(request.query);
+
+      if (!ranges.ok) {
+        return sendBadRequest(reply, ranges.code, ranges.message);
+      }
+
+      if (!hierarchy.ok) {
+        return sendBadRequest(reply, hierarchy.code, hierarchy.message);
       }
 
       const result = neighborhoodService.listNeighborhoods(request.query, postalCodeStatuses.statuses);
@@ -89,11 +101,11 @@ const neighborhoodRoutes: FastifyPluginAsync<NeighborhoodRouteOptions> = async (
       const includes = parseIncludes(request.query.include, NEIGHBORHOOD_INCLUDES);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!includes.ok) {
-        return sendBadRequest(reply, 'INVALID_INCLUDE', includes.message);
+        return sendBadRequest(reply, includes.code, includes.message);
       }
 
       if (neighborhood === undefined) {

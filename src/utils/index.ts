@@ -66,4 +66,11 @@ export {
   type PostalCodeStatusSelection,
   type VillagePostalCodeStatus,
 } from './postal-code-status.js';
+export { filterByPostalCodeQuery, type PostalCodeQuery, type PostalCodeRow } from './postal-code.js';
+export {
+  validQuery,
+  validateRangeFilters,
+  type NumericRangeQuery,
+  type QueryValidationResult,
+} from './query-validation.js';
 export { compareByName, sortByName, type NamedRow, type SortDirection } from './sort.js';

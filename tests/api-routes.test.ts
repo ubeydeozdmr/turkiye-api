@@ -24,6 +24,11 @@ const villagePostalCodeStatusCounts = {
   official: datasets.villages.filter((village) => village.postalCodeStatus === 'official').length,
   estimated: datasets.villages.filter((village) => village.postalCodeStatus === 'estimated').length,
 };
+const sampleNeighborhood = datasets.neighborhoods[0];
+const sampleVillage = datasets.villages[0];
+const sampleDistrict = datasets.districts[0];
+const sampleMunicipality = datasets.municipalities[0];
+const otherProvince = datasets.provinces.find((province) => province.id !== sampleDistrict.provinceId);
 
 interface ErrorPayload {
   readonly error: {
@@ -105,6 +110,26 @@ describe('API routes', () => {
     assert.equal(metaSchema.properties.data.type, 'object');
     assert.ok(metaSchema.properties.data.properties.apiVersion);
     assert.ok(metaSchema.properties.data.properties.counts);
+  });
+
+  it('documents postal code filters and validation errors in OpenAPI', async () => {
+    const response = await app.inject('/v2/openapi.json');
+
+    assert.equal(response.statusCode, 200);
+    const body = response.json();
+    const neighborhoodParameters = body.paths['/v2/neighborhoods'].get.parameters;
+    const neighborhoodParameterNames = neighborhoodParameters.map((parameter: { name: string }) => parameter.name);
+    const postalCodePrefix = neighborhoodParameters.find(
+      (parameter: { name: string }) => parameter.name === 'postalCodePrefix',
+    );
+    const badRequest = body.paths['/v2/neighborhoods'].get.responses['400'];
+
+    assert.ok(neighborhoodParameterNames.includes('postalCode'));
+    assert.ok(neighborhoodParameterNames.includes('postalCodePrefix'));
+    assert.equal(neighborhoodParameterNames.includes('hasPostalCode'), false);
+    assert.equal(postalCodePrefix.description, 'Filter by one-to-five digit postal code prefix.');
+    assert.match(badRequest.description, /INVALID_RANGE_FILTER/);
+    assert.match(badRequest.description, /INVALID_HIERARCHY_FILTER/);
   });
 
   it('returns list counts for top-level resources', async () => {
@@ -192,6 +217,56 @@ describe('API routes', () => {
 
     assert.equal(allStatuses.statusCode, 200);
     assert.equal(allStatuses.json().meta.total, datasetCounts.neighborhoods);
+  });
+
+  it('filters neighborhoods and villages by postal code query parameters', async () => {
+    const neighborhoodPostalCode = sampleNeighborhood.postalCode;
+    const neighborhoodPrefix = neighborhoodPostalCode.slice(0, 3);
+    const villagePostalCode = sampleVillage.postalCode;
+    const villagePrefix = villagePostalCode.slice(0, 3);
+
+    const neighborhoodsByExactCode = await app.inject(
+      `/v2/neighborhoods?postalCode=${neighborhoodPostalCode}&limit=1000`,
+    );
+    const neighborhoodsByPrefix = await app.inject(
+      `/v2/neighborhoods?postalCodePrefix=${neighborhoodPrefix}&limit=1000`,
+    );
+    const villagesByExactCode = await app.inject(`/v2/villages?postalCode=${villagePostalCode}&limit=1000`);
+    const villagesByPrefix = await app.inject(`/v2/villages?postalCodePrefix=${villagePrefix}&limit=1000`);
+
+    assert.equal(neighborhoodsByExactCode.statusCode, 200);
+    assert.equal(
+      neighborhoodsByExactCode.json().meta.total,
+      datasets.neighborhoods.filter((neighborhood) => neighborhood.postalCode === neighborhoodPostalCode).length,
+    );
+    assert.ok(
+      neighborhoodsByExactCode
+        .json()
+        .data.every((neighborhood: { postalCode: string }) => neighborhood.postalCode === neighborhoodPostalCode),
+    );
+
+    assert.equal(neighborhoodsByPrefix.statusCode, 200);
+    assert.equal(
+      neighborhoodsByPrefix.json().meta.total,
+      datasets.neighborhoods.filter((neighborhood) => neighborhood.postalCode.startsWith(neighborhoodPrefix)).length,
+    );
+
+    assert.equal(villagesByExactCode.statusCode, 200);
+    assert.equal(
+      villagesByExactCode.json().meta.total,
+      datasets.villages.filter((village) => village.postalCode === villagePostalCode).length,
+    );
+    assert.ok(
+      villagesByExactCode
+        .json()
+        .data.every((village: { postalCode: string }) => village.postalCode === villagePostalCode),
+    );
+
+    assert.equal(villagesByPrefix.statusCode, 200);
+    assert.equal(
+      villagesByPrefix.json().meta.total,
+      datasets.villages.filter((village) => village.postalCode.startsWith(villagePrefix)).length,
+    );
   });
 
   it('filters villages by postal code status and rejects derived', async () => {
@@ -312,6 +387,40 @@ describe('API error behavior', () => {
     const invalidInclude = await app.inject('/v2/provinces/34?include=unknown');
     assert.equal(invalidInclude.statusCode, 400);
     assert.equal(invalidInclude.json().error.code, 'INVALID_INCLUDE');
+  });
+
+  it('returns 400 for contradictory range filters', async () => {
+    const responses = await Promise.all([
+      app.inject('/v2/provinces?minPopulation=1000&maxPopulation=10'),
+      app.inject('/v2/provinces?minArea=100&maxArea=10'),
+      app.inject('/v2/provinces?minAltitude=100&maxAltitude=10'),
+      app.inject('/v2/districts?minArea=100&maxArea=10'),
+    ]);
+
+    for (const response of responses) {
+      assert.equal(response.statusCode, 400);
+      assert.equal(response.json().error.code, 'INVALID_RANGE_FILTER');
+    }
+  });
+
+  it('returns 400 for contradictory hierarchy filters', async () => {
+    assert.ok(otherProvince);
+
+    const municipalities = await app.inject(
+      `/v2/municipalities?provinceId=${otherProvince.id}&districtId=${sampleDistrict.id}`,
+    );
+    const neighborhoodsByDistrict = await app.inject(
+      `/v2/neighborhoods?provinceId=${otherProvince.id}&districtId=${sampleDistrict.id}`,
+    );
+    const neighborhoodsByMunicipality = await app.inject(
+      `/v2/neighborhoods?provinceId=${otherProvince.id}&municipalityId=${sampleMunicipality.id}`,
+    );
+    const villages = await app.inject(`/v2/villages?provinceId=${otherProvince.id}&districtId=${sampleDistrict.id}`);
+
+    for (const response of [municipalities, neighborhoodsByDistrict, neighborhoodsByMunicipality, villages]) {
+      assert.equal(response.statusCode, 400);
+      assert.equal(response.json().error.code, 'INVALID_HIERARCHY_FILTER');
+    }
   });
 
   it('returns 404 for missing static dataset files', async () => {

@@ -13,6 +13,7 @@ import {
   projectFieldsList,
   sendBadRequest,
   sendNotFound,
+  validateRangeFilters,
 } from '../utils/index.js';
 import { type VillageService } from '../services/index.js';
 import {
@@ -55,11 +56,22 @@ const villageRoutes: FastifyPluginAsync<VillageRouteOptions> = async (fastify, o
       const postalCodeStatuses = parsePostalCodeStatuses(request.query.postalCodeStatus, VILLAGE_POSTAL_CODE_STATUSES);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!postalCodeStatuses.ok) {
-        return sendBadRequest(reply, 'INVALID_POSTAL_CODE_STATUS', postalCodeStatuses.message);
+        return sendBadRequest(reply, postalCodeStatuses.code, postalCodeStatuses.message);
+      }
+
+      const ranges = validateRangeFilters(request.query, ['population']);
+      const hierarchy = villageService.validateListQueryHierarchy(request.query);
+
+      if (!ranges.ok) {
+        return sendBadRequest(reply, ranges.code, ranges.message);
+      }
+
+      if (!hierarchy.ok) {
+        return sendBadRequest(reply, hierarchy.code, hierarchy.message);
       }
 
       const result = villageService.listVillages(request.query, postalCodeStatuses.statuses);
@@ -86,11 +98,11 @@ const villageRoutes: FastifyPluginAsync<VillageRouteOptions> = async (fastify, o
       const includes = parseIncludes(request.query.include, VILLAGE_INCLUDES);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!includes.ok) {
-        return sendBadRequest(reply, 'INVALID_INCLUDE', includes.message);
+        return sendBadRequest(reply, includes.code, includes.message);
       }
 
       if (village === undefined) {

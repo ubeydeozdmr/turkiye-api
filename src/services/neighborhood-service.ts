@@ -2,6 +2,7 @@ import { type Datasets, type District, type Municipality, type Neighborhood, typ
 import { type DatasetIndexes } from '../indexes/index.js';
 import { type NeighborhoodListQuery } from '../schemas/index.js';
 import {
+  filterByPostalCodeQuery,
   filterByPostalCodeStatus,
   includesNormalizedText,
   normalizePagination,
@@ -10,6 +11,8 @@ import {
   type NeighborhoodPostalCodeStatus,
   type Pagination,
   type PostalCodeStatusSelection,
+  type QueryValidationResult,
+  validQuery,
 } from '../utils/index.js';
 
 export interface NeighborhoodListResult {
@@ -23,6 +26,7 @@ export interface NeighborhoodService {
     query: NeighborhoodListQuery,
     postalCodeStatuses?: PostalCodeStatusSelection<NeighborhoodPostalCodeStatus>,
   ) => NeighborhoodListResult;
+  readonly validateListQueryHierarchy: (query: NeighborhoodListQuery) => QueryValidationResult;
   readonly getNeighborhoodById: (neighborhoodId: number) => Neighborhood | undefined;
   readonly getProvinceByNeighborhoodId: (neighborhoodId: number) => Province | undefined;
   readonly getDistrictByNeighborhoodId: (neighborhoodId: number) => District | undefined;
@@ -39,33 +43,35 @@ function applyNeighborhoodFilters(
   query: NeighborhoodListQuery,
   postalCodeStatuses: PostalCodeStatusSelection<NeighborhoodPostalCodeStatus>,
 ): readonly Neighborhood[] {
-  return filterByPostalCodeStatus(neighborhoods, postalCodeStatuses).filter((neighborhood) => {
-    if (query.search !== undefined && !includesNormalizedText(neighborhood.name, query.search)) {
-      return false;
-    }
+  return filterByPostalCodeQuery(filterByPostalCodeStatus(neighborhoods, postalCodeStatuses), query).filter(
+    (neighborhood) => {
+      if (query.search !== undefined && !includesNormalizedText(neighborhood.name, query.search)) {
+        return false;
+      }
 
-    if (query.minPopulation !== undefined && neighborhood.population < query.minPopulation) {
-      return false;
-    }
+      if (query.minPopulation !== undefined && neighborhood.population < query.minPopulation) {
+        return false;
+      }
 
-    if (query.maxPopulation !== undefined && neighborhood.population > query.maxPopulation) {
-      return false;
-    }
+      if (query.maxPopulation !== undefined && neighborhood.population > query.maxPopulation) {
+        return false;
+      }
 
-    if (query.provinceId !== undefined && neighborhood.provinceId !== query.provinceId) {
-      return false;
-    }
+      if (query.provinceId !== undefined && neighborhood.provinceId !== query.provinceId) {
+        return false;
+      }
 
-    if (query.districtId !== undefined && neighborhood.districtId !== query.districtId) {
-      return false;
-    }
+      if (query.districtId !== undefined && neighborhood.districtId !== query.districtId) {
+        return false;
+      }
 
-    if (query.municipalityId !== undefined && neighborhood.municipalityId !== query.municipalityId) {
-      return false;
-    }
+      if (query.municipalityId !== undefined && neighborhood.municipalityId !== query.municipalityId) {
+        return false;
+      }
 
-    return true;
-  });
+      return true;
+    },
+  );
 }
 
 function applyNeighborhoodSort(
@@ -103,6 +109,45 @@ function hasNeighborhood(indexes: DatasetIndexes, neighborhoodId: number): boole
   return indexes.neighborhoodById.has(neighborhoodId);
 }
 
+function validateNeighborhoodListQueryHierarchy(
+  indexes: DatasetIndexes,
+  query: NeighborhoodListQuery,
+): QueryValidationResult {
+  if (query.provinceId !== undefined && query.districtId !== undefined) {
+    const district = indexes.districtById.get(query.districtId);
+
+    if (district !== undefined && district.provinceId !== query.provinceId) {
+      return {
+        ok: false,
+        code: 'INVALID_HIERARCHY_FILTER',
+        message: `districtId "${query.districtId}" does not belong to provinceId "${query.provinceId}".`,
+      };
+    }
+  }
+
+  if (query.municipalityId !== undefined) {
+    const municipality = indexes.municipalityById.get(query.municipalityId);
+
+    if (municipality !== undefined && query.provinceId !== undefined && municipality.provinceId !== query.provinceId) {
+      return {
+        ok: false,
+        code: 'INVALID_HIERARCHY_FILTER',
+        message: `municipalityId "${query.municipalityId}" does not belong to provinceId "${query.provinceId}".`,
+      };
+    }
+
+    if (municipality !== undefined && query.districtId !== undefined && municipality.districtId !== query.districtId) {
+      return {
+        ok: false,
+        code: 'INVALID_HIERARCHY_FILTER',
+        message: `municipalityId "${query.municipalityId}" does not belong to districtId "${query.districtId}".`,
+      };
+    }
+  }
+
+  return validQuery;
+}
+
 export function createNeighborhoodService(options: CreateNeighborhoodServiceOptions): NeighborhoodService {
   const { datasets, indexes } = options;
 
@@ -117,6 +162,10 @@ export function createNeighborhoodService(options: CreateNeighborhoodServiceOpti
         pagination,
         total: sorted.length,
       };
+    },
+
+    validateListQueryHierarchy(query) {
+      return validateNeighborhoodListQueryHierarchy(indexes, query);
     },
 
     getNeighborhoodById(neighborhoodId) {

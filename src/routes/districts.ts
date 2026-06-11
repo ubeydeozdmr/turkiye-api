@@ -30,6 +30,7 @@ import {
   VILLAGE_POSTAL_CODE_STATUSES,
   createDataResponse,
   createListResponse,
+  filterByPostalCodeQuery,
   filterByPostalCodeStatus,
   hasInclude,
   normalizePagination,
@@ -41,6 +42,7 @@ import {
   projectFieldsList,
   sendBadRequest,
   sendNotFound,
+  validateRangeFilters,
 } from '../utils/index.js';
 
 interface DistrictRouteOptions {
@@ -66,12 +68,18 @@ const districtRoutes: FastifyPluginAsync<DistrictRouteOptions> = async (fastify,
       },
     },
     async (request, reply) => {
-      const result = districtService.listDistricts(request.query);
       const fields = parseFields(request.query.fields, DISTRICT_FIELDS);
+      const ranges = validateRangeFilters(request.query, ['population', 'area']);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
+
+      if (!ranges.ok) {
+        return sendBadRequest(reply, ranges.code, ranges.message);
+      }
+
+      const result = districtService.listDistricts(request.query);
 
       return createListResponse(projectFieldsList(result.items, fields.fields), result.pagination, result.total);
     },
@@ -95,11 +103,11 @@ const districtRoutes: FastifyPluginAsync<DistrictRouteOptions> = async (fastify,
       const includes = parseIncludes(request.query.include, DISTRICT_INCLUDES);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!includes.ok) {
-        return sendBadRequest(reply, 'INVALID_INCLUDE', includes.message);
+        return sendBadRequest(reply, includes.code, includes.message);
       }
 
       if (district === undefined) {
@@ -145,7 +153,7 @@ const districtRoutes: FastifyPluginAsync<DistrictRouteOptions> = async (fastify,
       const fields = parseFields(request.query.fields, MUNICIPALITY_FIELDS);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (municipalities === undefined) {
@@ -180,18 +188,21 @@ const districtRoutes: FastifyPluginAsync<DistrictRouteOptions> = async (fastify,
       );
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!postalCodeStatuses.ok) {
-        return sendBadRequest(reply, 'INVALID_POSTAL_CODE_STATUS', postalCodeStatuses.message);
+        return sendBadRequest(reply, postalCodeStatuses.code, postalCodeStatuses.message);
       }
 
       if (neighborhoods === undefined) {
         return sendNotFound(reply, districtNotFound.code, districtNotFound.message);
       }
 
-      const filtered = filterByPostalCodeStatus(neighborhoods, postalCodeStatuses.statuses);
+      const filtered = filterByPostalCodeQuery(
+        filterByPostalCodeStatus(neighborhoods, postalCodeStatuses.statuses),
+        request.query,
+      );
       const pagination = normalizePagination(request.query);
       const items = paginate(filtered, pagination);
 
@@ -217,18 +228,21 @@ const districtRoutes: FastifyPluginAsync<DistrictRouteOptions> = async (fastify,
       const postalCodeStatuses = parsePostalCodeStatuses(request.query.postalCodeStatus, VILLAGE_POSTAL_CODE_STATUSES);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!postalCodeStatuses.ok) {
-        return sendBadRequest(reply, 'INVALID_POSTAL_CODE_STATUS', postalCodeStatuses.message);
+        return sendBadRequest(reply, postalCodeStatuses.code, postalCodeStatuses.message);
       }
 
       if (villages === undefined) {
         return sendNotFound(reply, districtNotFound.code, districtNotFound.message);
       }
 
-      const filtered = filterByPostalCodeStatus(villages, postalCodeStatuses.statuses);
+      const filtered = filterByPostalCodeQuery(
+        filterByPostalCodeStatus(villages, postalCodeStatuses.statuses),
+        request.query,
+      );
       const pagination = normalizePagination(request.query);
       const items = paginate(filtered, pagination);
 

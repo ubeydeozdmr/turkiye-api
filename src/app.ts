@@ -2,7 +2,7 @@ import fastify, { type FastifyInstance, type FastifyServerOptions } from 'fastif
 import fastifyCors from '@fastify/cors';
 
 import { registerDynamicCache } from './cache.js';
-import { loadDatasets } from './data/index.js';
+import { createDatasetMeta, loadDatasets } from './data/index.js';
 import { buildIndexes } from './indexes/index.js';
 import { registerRateLimit, type ApiRateLimitOptions } from './rate-limit.js';
 import registerV2Routes from './routes/index.js';
@@ -33,6 +33,7 @@ function build(opts: AppBuildOptions = {}): FastifyInstance {
   registerErrorHandlers(app);
 
   const datasets = loadDatasets();
+  const datasetMeta = createDatasetMeta(datasets);
   const indexes = buildIndexes(datasets);
   const datasetService = createDatasetService();
   const provinceService = createProvinceService({ datasets, indexes });
@@ -76,6 +77,7 @@ function build(opts: AppBuildOptions = {}): FastifyInstance {
       municipalityService,
       neighborhoodService,
       villageService,
+      datasetMeta,
     });
   });
 

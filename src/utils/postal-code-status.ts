@@ -8,6 +8,7 @@ export interface PostalCodeStatusParseSuccess<Status extends PostalCodeStatusNam
 
 export interface PostalCodeStatusParseFailure {
   readonly ok: false;
+  readonly code: string;
   readonly message: string;
 }
 
@@ -40,6 +41,7 @@ export function parsePostalCodeStatuses<Status extends PostalCodeStatusName>(
   if (statuses.some((status) => status.length === 0)) {
     return {
       ok: false,
+      code: 'INVALID_POSTAL_CODE_STATUS',
       message: 'postalCodeStatus must be a comma-separated list of status names.',
     };
   }
@@ -49,6 +51,7 @@ export function parsePostalCodeStatuses<Status extends PostalCodeStatusName>(
   if (unknownStatuses.length > 0) {
     return {
       ok: false,
+      code: 'INVALID_POSTAL_CODE_STATUS',
       message: `Unknown postalCodeStatus value(s): ${unknownStatuses.join(', ')}.`,
     };
   }

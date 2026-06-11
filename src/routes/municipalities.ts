@@ -6,6 +6,7 @@ import {
   NEIGHBORHOOD_POSTAL_CODE_STATUSES,
   createDataResponse,
   createListResponse,
+  filterByPostalCodeQuery,
   filterByPostalCodeStatus,
   hasInclude,
   normalizePagination,
@@ -17,6 +18,7 @@ import {
   projectFieldsList,
   sendBadRequest,
   sendNotFound,
+  validateRangeFilters,
 } from '../utils/index.js';
 import {
   DataResponseSchema,
@@ -58,12 +60,23 @@ const municipalityRoutes: FastifyPluginAsync<MunicipalityRouteOptions> = async (
       },
     },
     async (request, reply) => {
-      const result = municipalityService.listMunicipalities(request.query);
       const fields = parseFields(request.query.fields, MUNICIPALITY_FIELDS);
+      const ranges = validateRangeFilters(request.query, ['population']);
+      const hierarchy = municipalityService.validateListQueryHierarchy(request.query);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
+
+      if (!ranges.ok) {
+        return sendBadRequest(reply, ranges.code, ranges.message);
+      }
+
+      if (!hierarchy.ok) {
+        return sendBadRequest(reply, hierarchy.code, hierarchy.message);
+      }
+
+      const result = municipalityService.listMunicipalities(request.query);
 
       return createListResponse(projectFieldsList(result.items, fields.fields), result.pagination, result.total);
     },
@@ -87,11 +100,11 @@ const municipalityRoutes: FastifyPluginAsync<MunicipalityRouteOptions> = async (
       const includes = parseIncludes(request.query.include, MUNICIPALITY_INCLUDES);
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!includes.ok) {
-        return sendBadRequest(reply, 'INVALID_INCLUDE', includes.message);
+        return sendBadRequest(reply, includes.code, includes.message);
       }
 
       if (municipality === undefined) {
@@ -137,18 +150,21 @@ const municipalityRoutes: FastifyPluginAsync<MunicipalityRouteOptions> = async (
       );
 
       if (!fields.ok) {
-        return sendBadRequest(reply, 'INVALID_FIELDS', fields.message);
+        return sendBadRequest(reply, fields.code, fields.message);
       }
 
       if (!postalCodeStatuses.ok) {
-        return sendBadRequest(reply, 'INVALID_POSTAL_CODE_STATUS', postalCodeStatuses.message);
+        return sendBadRequest(reply, postalCodeStatuses.code, postalCodeStatuses.message);
       }
 
       if (neighborhoods === undefined) {
         return sendNotFound(reply, municipalityNotFound.code, municipalityNotFound.message);
       }
 
-      const filtered = filterByPostalCodeStatus(neighborhoods, postalCodeStatuses.statuses);
+      const filtered = filterByPostalCodeQuery(
+        filterByPostalCodeStatus(neighborhoods, postalCodeStatuses.statuses),
+        request.query,
+      );
       const pagination = normalizePagination(request.query);
       const items = paginate(filtered, pagination);
 
