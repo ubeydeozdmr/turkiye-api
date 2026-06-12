@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-import { type DatasetName } from './types.js';
+import type { DatasetName } from './types.js';
 
 export const DATASET_FILENAMES = {
   provinces: 'provinces.json',

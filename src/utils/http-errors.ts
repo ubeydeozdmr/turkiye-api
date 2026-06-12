@@ -1,5 +1,6 @@
-import { type FastifyInstance, type FastifyReply } from 'fastify';
-import { type ErrorResponse } from '../schemas/index.js';
+import type { FastifyInstance, FastifyReply } from 'fastify';
+
+import type { ErrorResponse } from '../schemas/index.js';
 
 export interface ApiErrorOptions {
   readonly code: string;

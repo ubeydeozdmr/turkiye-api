@@ -1,6 +1,6 @@
 import { randomUUID } from 'node:crypto';
-import { type IncomingHttpHeaders, type IncomingMessage } from 'node:http';
-import { type FastifyRequest, type FastifyServerOptions } from 'fastify';
+import type { IncomingHttpHeaders, IncomingMessage } from 'node:http';
+import type { FastifyInstance, FastifyReply, FastifyRequest, FastifyServerOptions } from 'fastify';
 
 export const REQUEST_ID_HEADER = 'x-request-id';
 

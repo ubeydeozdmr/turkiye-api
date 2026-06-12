@@ -1,6 +1,5 @@
 import crypto from 'node:crypto';
-
-import { type FastifyInstance, type FastifyReply, type FastifyRequest } from 'fastify';
+import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 
 const DYNAMIC_API_CACHE_CONTROL = 'public, max-age=300';
 

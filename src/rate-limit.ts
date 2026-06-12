@@ -1,5 +1,5 @@
 import rateLimit from '@fastify/rate-limit';
-import { type FastifyInstance, type FastifyReply, type FastifyRequest } from 'fastify';
+import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 
 import { createErrorResponse } from './utils/index.js';
 
