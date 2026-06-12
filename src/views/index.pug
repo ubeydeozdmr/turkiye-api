@@ -2,16 +2,6 @@ extends layouts/main.pug
 
 block styles
   style.
-    .banner {
-    background-color: #1b1b1f;
-    color: #dfdfd6;
-    padding: 1rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    z-index: 1000;
-    }
     header.hero {
     position: relative;
     display: flex;
@@ -242,83 +232,9 @@ block styles
     display: none;
     }
     }
-    .new-docs-card {
-      background-color: #1b1b1f;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      display: flex;
-      padding: 20px;
-      max-width: 600px;
-      width: 100%;
-      margin: 1rem 0;
-    }
-    .new-docs-card__textbox {
-      flex: 1;
-      color: #dfdfd6;
-    }
-    .new-docs-card__title {
-      font-size: 24px;
-      margin-bottom: 10px;
-      color: #dfdfd6;
-      font-weight: 700;
-    }
-    .new-docs-card__description {
-      font-size: 16px;
-      margin-bottom: 20px;
-      color: #98989f;
-      font-weight: 500;
-    }
-    .new-docs-card__button {
-      display: inline-block;
-      background-color: #3bd6c6;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 1000px;
-      font-weight: 600;
-      transition: background-color 0.3s ease;
-    }
-    .new-docs-card__button:hover {
-      background-color: #2bc4b8;
-    }
-    .new-docs-card__logo-container {
-      display: flex;
-      align-items: center;
-    }
-    .new-docs-card__logo {
-      width: 100px;
-      height: auto;
-      margin-left: 20px;
-    }
-    @media only screen and (max-width: 768px) {
-      .new-docs-card {
-        flex-direction: column;
-        text-align: center;
-      }
-      .new-docs-card__logo {
-        margin: 20px auto 0;
-      }
-      .new-docs-card__title {
-        font-size: 1.5rem;
-      }
-      .new-docs-card__description {
-        font-size: 0.9rem;
-      }
-    }
   title Turkiye API
 
 block content
-  .banner
-    if language && language.startsWith('tr')
-      | TurkiyeAPI versiyon 2'nin önizlemesi herkese açık olarak yayınlandı! Haziran ayında ise tam olarak yayınlanacak, ancak bu süreç içerisinde v2'yi kullanıp geri bildirimde bulunabilirsiniz.
-      a(href='https://docs.turkiyeapi.dev/tr/v2/guide/' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Dokümantasyon
-      |  /
-      a(href='https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Geri Bildirim Sağla
-    else
-      | A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback.
-      a(href='https://docs.turkiyeapi.dev/en/v2/guide/' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Documentation
-      |  /
-      a(href='https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318' target='_blank' style='color: turquoise; text-decoration: underline; margin-left: 5px') Provide Feedback
   header.hero
     img.hero__img(src="assets/"+image alt='An image from Turkey/Turkiye')
     .hero__text-box
@@ -328,36 +244,9 @@ block content
       a.hero__quick-start(href='#content' style='padding: 2.5%')
         | &darr; QUICK START
   article#content.content
-    .new-docs-card
-      .new-docs-card__textbox
-        if language && language.startsWith('tr')
-          h2.new-docs-card__title Yeni dokümantasyonu denemek ister misiniz?
-          p.new-docs-card__description
-            | Türkçe desteği olan, daha detaylı ve açıklayıcı anlatımlara sahip yeni
-            | dokümantasyon sayfamızı ziyaret edebilirsiniz. Yeni dokümantasyon
-            | sayfası, API'nin nasıl kullanılacağına dair kapsamlı bilgiler
-            | sunmaktadır.
-          a.new-docs-card__button(href='https://docs.turkiyeapi.dev/tr' target='_blank')
-            | Yeni Dokümantasyonu İncele
-        else
-          h2.new-docs-card__title Want to try the new documentation?
-          p.new-docs-card__description
-            | Visit our new documentation page, more detailed
-            | and explanatory descriptions. The new documentation page provides
-            | comprehensive information on how to use the API.
-          a.new-docs-card__button(href='https://docs.turkiyeapi.dev/en' target='_blank')
-            | Explore New Documentation
-      .new-docs-card__logo-container
-        img.new-docs-card__logo(src='https://docs.turkiyeapi.dev/logo.png' alt='TurkiyeAPI Logo')
     p.content__text
-      if language && language.startsWith('tr')
-        | veya eski dokümantasyonu görmek için
-        a.content__link(href='/docs')  buraya tıklayabilirsiniz
-        | .
-      else
-        | or, you can
-        a.content__link(href='/docs')  click here
-        |  to view the old documentation.
+      a.content__link(href='/docs') Click here
+      |  to view the documentation!
     .playground
       .playground__url
         p.playground__url--host#sm /v1/

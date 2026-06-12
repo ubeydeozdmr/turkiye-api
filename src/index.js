@@ -35,6 +35,24 @@ const limiter = rateLimit({
   message: 'Too many requests from this IP, please try again in 5 minutes!',
 });
 
+const legacyHeaders = (req, res, next) => {
+  const language = req.acceptsLanguages('tr', 'en') === 'tr' ? 'tr' : 'en';
+
+  res.setHeader('Deprecation', 'true');
+
+  res.append(
+    'Link',
+    `<https://docs.turkiyeapi.dev/${language}/v1/guide/>; rel="deprecation"`,
+  );
+
+  res.append(
+    'Link',
+    `<https://docs.turkiyeapi.dev/${language}/v2/guide/>; rel="successor-version"`,
+  );
+
+  next();
+};
+
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -57,10 +75,8 @@ app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 app.get('/', (req, res) => {
   const images = fs.readdirSync(path.join(__dirname, 'public', 'assets'));
-  const language = req.acceptsLanguages('tr', 'tr-TR') ? 'tr' : 'en';
   res.render('index', {
     image: images[Math.floor(Math.random() * images.length)],
-    language,
   });
 });
 
@@ -72,8 +88,22 @@ app.get('/examples', (req, res) => {
   res.render('examples');
 });
 
-app.use('/v1', instantLimiter, limiter, cache('30 minutes'), routes);
-app.use('/api/v1', instantLimiter, limiter, cache('30 minutes'), routes); // Deprecated: Backward compatibility for /api/v1
+app.use(
+  '/v1',
+  legacyHeaders,
+  instantLimiter,
+  limiter,
+  cache('30 minutes'),
+  routes,
+);
+app.use(
+  '/api/v1',
+  legacyHeaders,
+  instantLimiter,
+  limiter,
+  cache('30 minutes'),
+  routes,
+); // Deprecated: Backward compatibility for /api/v1
 
 app.all('*', (req, res, next) => {
   res.render('notfound');
