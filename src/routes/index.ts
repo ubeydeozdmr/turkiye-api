@@ -1,25 +1,25 @@
-import { type FastifyPluginAsync } from 'fastify';
+import type { FastifyPluginAsync } from 'fastify';
 
-import {
-  type DatasetService,
-  type ProvinceService,
-  type DistrictService,
-  type MunicipalityService,
-  type NeighborhoodService,
-  type VillageService,
-} from '../services/index.js';
 import datasets from './datasets.js';
 import provinces from './provinces.js';
 import districts from './districts.js';
 import municipalities from './municipalities.js';
 import neighborhoods from './neighborhoods.js';
 import villages from './villages.js';
-import { type DatasetMeta } from '../data/index.js';
 import { createOpenApiDocument } from '../openapi.js';
 import { DataEnvelopeSchema, DatasetMetaSchema } from '../schemas/index.js';
 import { createDataEnvelope } from '../utils/index.js';
+import type { DatasetMeta } from '../data/index.js';
+import type {
+  DatasetService,
+  ProvinceService,
+  DistrictService,
+  MunicipalityService,
+  NeighborhoodService,
+  VillageService,
+} from '../services/index.js';
 
-export interface V2RouteOptions {
+interface V2RouteOptions {
   readonly datasetService: DatasetService;
   readonly provinceService: ProvinceService;
   readonly districtService: DistrictService;

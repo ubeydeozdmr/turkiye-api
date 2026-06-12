@@ -1,21 +1,18 @@
-import { type FastifyPluginAsync } from 'fastify';
-import { type NeighborhoodService } from '../services/index.js';
+import type { FastifyPluginAsync } from 'fastify';
+
 import {
   DataResponseSchema,
   ErrorResponseSchema,
   FieldQuerySchema,
-  type FieldQuery,
   ListResponseSchema,
-  type NeighborhoodListQuery,
   NeighborhoodListQuerySchema,
-  type NeighborhoodParams,
   NeighborhoodParamsSchema,
   NeighborhoodSchema,
 } from '../schemas/index.js';
 import {
-  NEIGHBORHOOD_POSTAL_CODE_STATUSES,
   NEIGHBORHOOD_FIELDS,
   NEIGHBORHOOD_INCLUDES,
+  NEIGHBORHOOD_POSTAL_CODE_STATUSES,
   createDataResponse,
   createListResponse,
   hasInclude,
@@ -28,6 +25,12 @@ import {
   sendNotFound,
   validateRangeFilters,
 } from '../utils/index.js';
+import type {
+  FieldQuery,
+  NeighborhoodListQuery,
+  NeighborhoodParams,
+} from '../schemas/index.js';
+import type { NeighborhoodService } from '../services/index.js';
 
 interface NeighborhoodRouteOptions {
   readonly neighborhoodService: NeighborhoodService;

@@ -1,8 +1,18 @@
-import { type FastifyPluginAsync } from 'fastify';
+import type { FastifyPluginAsync } from 'fastify';
+
 import {
-  VILLAGE_POSTAL_CODE_STATUSES,
+  DataResponseSchema,
+  ErrorResponseSchema,
+  FieldQuerySchema,
+  ListResponseSchema,
+  VillageListQuerySchema,
+  VillageParamsSchema,
+  VillageSchema,
+} from '../schemas/index.js';
+import {
   VILLAGE_FIELDS,
   VILLAGE_INCLUDES,
+  VILLAGE_POSTAL_CODE_STATUSES,
   createDataResponse,
   createListResponse,
   hasInclude,
@@ -15,19 +25,12 @@ import {
   sendNotFound,
   validateRangeFilters,
 } from '../utils/index.js';
-import { type VillageService } from '../services/index.js';
-import {
-  DataResponseSchema,
-  ErrorResponseSchema,
-  FieldQuerySchema,
-  type FieldQuery,
-  ListResponseSchema,
-  type VillageListQuery,
-  VillageListQuerySchema,
-  type VillageParams,
-  VillageParamsSchema,
-  VillageSchema,
+import type {
+  FieldQuery,
+  VillageListQuery,
+  VillageParams,
 } from '../schemas/index.js';
+import type { VillageService } from '../services/index.js';
 
 interface VillageRouteOptions {
   readonly villageService: VillageService;

@@ -1,11 +1,10 @@
-import { type FastifyPluginAsync } from 'fastify';
+import type { FastifyPluginAsync } from 'fastify';
 
 import {
   DataResponseSchema,
   DistrictSchema,
   ErrorResponseSchema,
   FieldQuerySchema,
-  type FieldQuery,
   ListResponseSchema,
   MunicipalitySchema,
   NeighborhoodSchema,
@@ -15,12 +14,7 @@ import {
   ProvinceParamsSchema,
   ProvinceSchema,
   VillageSchema,
-  type PaginationFieldQuery,
-  type PostalCodeStatusPaginationFieldQuery,
-  type ProvinceListQuery,
-  type ProvinceParams,
 } from '../schemas/index.js';
-import { type ProvinceService } from '../services/index.js';
 import {
   DISTRICT_FIELDS,
   MUNICIPALITY_FIELDS,
@@ -46,6 +40,14 @@ import {
   sendNotFound,
   validateRangeFilters,
 } from '../utils/index.js';
+import type {
+  FieldQuery,
+  PaginationFieldQuery,
+  PostalCodeStatusPaginationFieldQuery,
+  ProvinceListQuery,
+  ProvinceParams,
+} from '../schemas/index.js';
+import type { ProvinceService } from '../services/index.js';
 
 interface ProvinceRouteOptions {
   readonly provinceService: ProvinceService;

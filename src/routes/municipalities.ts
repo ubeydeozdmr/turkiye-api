@@ -1,4 +1,16 @@
-import { type FastifyPluginAsync } from 'fastify';
+import type { FastifyPluginAsync } from 'fastify';
+
+import {
+  DataResponseSchema,
+  ErrorResponseSchema,
+  FieldQuerySchema,
+  ListResponseSchema,
+  MunicipalityListQuerySchema,
+  MunicipalityParamsSchema,
+  MunicipalitySchema,
+  NeighborhoodSchema,
+  PostalCodeStatusPaginationFieldQuerySchema,
+} from '../schemas/index.js';
 import {
   MUNICIPALITY_FIELDS,
   MUNICIPALITY_INCLUDES,
@@ -20,22 +32,13 @@ import {
   sendNotFound,
   validateRangeFilters,
 } from '../utils/index.js';
-import {
-  DataResponseSchema,
-  ErrorResponseSchema,
-  FieldQuerySchema,
-  type FieldQuery,
-  ListResponseSchema,
-  type MunicipalityListQuery,
-  MunicipalityListQuerySchema,
-  type MunicipalityParams,
-  MunicipalityParamsSchema,
-  MunicipalitySchema,
-  NeighborhoodSchema,
-  PostalCodeStatusPaginationFieldQuerySchema,
-  type PostalCodeStatusPaginationFieldQuery,
+import type {
+  FieldQuery,
+  MunicipalityListQuery,
+  MunicipalityParams,
+  PostalCodeStatusPaginationFieldQuery,
 } from '../schemas/index.js';
-import { type MunicipalityService } from '../services/index.js';
+import type { MunicipalityService } from '../services/index.js';
 
 interface MunicipalityRouteOptions {
   readonly municipalityService: MunicipalityService;

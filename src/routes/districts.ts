@@ -1,25 +1,19 @@
-import { type FastifyPluginAsync } from 'fastify';
+import type { FastifyPluginAsync } from 'fastify';
 
 import {
   DataResponseSchema,
-  type DistrictListQuery,
   DistrictListQuerySchema,
-  type DistrictParams,
   DistrictParamsSchema,
   DistrictSchema,
   ErrorResponseSchema,
   FieldQuerySchema,
-  type FieldQuery,
   ListResponseSchema,
   MunicipalitySchema,
   NeighborhoodSchema,
   PaginationFieldQuerySchema,
   PostalCodeStatusPaginationFieldQuerySchema,
-  type PaginationFieldQuery,
-  type PostalCodeStatusPaginationFieldQuery,
   VillageSchema,
 } from '../schemas/index.js';
-import { type DistrictService } from '../services/index.js';
 import {
   DISTRICT_FIELDS,
   DISTRICT_INCLUDES,
@@ -44,6 +38,14 @@ import {
   sendNotFound,
   validateRangeFilters,
 } from '../utils/index.js';
+import type {
+  DistrictListQuery,
+  DistrictParams,
+  FieldQuery,
+  PaginationFieldQuery,
+  PostalCodeStatusPaginationFieldQuery,
+} from '../schemas/index.js';
+import type { DistrictService } from '../services/index.js';
 
 interface DistrictRouteOptions {
   readonly districtService: DistrictService;

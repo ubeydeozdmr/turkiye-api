@@ -1,11 +1,11 @@
-import { type FastifyPluginAsync, type FastifyReply, type FastifyRequest } from 'fastify';
+import type { FastifyPluginAsync, FastifyReply, FastifyRequest } from 'fastify';
 import Type from 'typebox';
 
 import { ErrorResponseSchema } from '../schemas/index.js';
-import { type DatasetService, type StaticDataset } from '../services/index.js';
 import { sendNotFound } from '../utils/index.js';
+import type { DatasetService, StaticDataset } from '../services/index.js';
 
-export interface DatasetRouteOptions {
+interface DatasetRouteOptions {
   readonly datasetService: DatasetService;
 }
 
