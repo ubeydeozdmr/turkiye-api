@@ -4,6 +4,7 @@ import fastifyCors from '@fastify/cors';
 import { registerDynamicCache } from './cache.js';
 import { createDatasetMeta, loadDatasets } from './data/index.js';
 import { buildIndexes } from './indexes/index.js';
+import { REQUEST_ID_HEADER, getRequestId, registerSemanticRequestLogging } from './logging.js';
 import { registerRateLimit, type ApiRateLimitOptions } from './rate-limit.js';
 import registerV2Routes from './routes/index.js';
 import {
@@ -28,9 +29,12 @@ function build(opts: AppBuildOptions = {}): FastifyInstance {
         removeAdditional: false,
       },
     },
+    genReqId: getRequestId,
+    requestIdHeader: REQUEST_ID_HEADER,
     ...serverOptions,
   });
   registerErrorHandlers(app);
+  registerSemanticRequestLogging(app);
 
   const datasets = loadDatasets();
   const datasetMeta = createDatasetMeta(datasets);
@@ -45,7 +49,7 @@ function build(opts: AppBuildOptions = {}): FastifyInstance {
   app.register(fastifyCors, {
     origin: '*',
     methods: ['GET', 'HEAD', 'OPTIONS'],
-    allowedHeaders: ['content-type', 'authorization', 'x-api-key', 'if-none-match'],
+    allowedHeaders: ['content-type', 'authorization', 'x-api-key', 'if-none-match', REQUEST_ID_HEADER],
     exposedHeaders: [
       'etag',
       'last-modified',
@@ -53,6 +57,7 @@ function build(opts: AppBuildOptions = {}): FastifyInstance {
       'x-ratelimit-limit',
       'x-ratelimit-remaining',
       'x-ratelimit-reset',
+      REQUEST_ID_HEADER,
       'retry-after',
     ],
     maxAge: 86400,

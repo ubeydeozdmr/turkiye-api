@@ -79,6 +79,22 @@ docker run --rm -p 3000:3000 turkiye-api
 
 The image exposes port `3000` and includes a health check against `/health`.
 
+## Logging
+
+Production logging is split between the reverse proxy and the app. Caddy should own raw access logs for traffic, TLS, routing, client IP, user agent, referrer, request size, and response size. The Fastify app emits one compact semantic log per non-health request by default.
+
+Fastify request logs include `requestId`, `version`, `method`, `path`, `route`, `queryKeys`, `statusCode`, `responseTimeMs`, `cacheStatus`, `rateLimit`, and structured error fields when applicable. Query parameter values, request bodies, response bodies, cookies, authorization headers, and API keys are not logged by the app.
+
+Runtime controls:
+
+| Variable           | Default                   | Description                                              |
+| ------------------ | ------------------------- | -------------------------------------------------------- |
+| `LOG_ENABLED`      | `true`                    | Set to `false` to disable Fastify logs                   |
+| `LOG_LEVEL`        | `info` in production      | Pino log level                                           |
+| `LOG_HEALTHCHECKS` | `false`                   | Set to `true` to include `/health` in semantic logs      |
+| `SERVICE_NAME`     | `turkiye-api-v2`          | Service name included in logger base fields              |
+| `TRUST_PROXY`      | `true` in production only | Trust proxy IP headers, useful when running behind Caddy |
+
 ## API Overview
 
 ### System

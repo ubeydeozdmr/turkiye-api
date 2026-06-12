@@ -1,6 +1,7 @@
 import type { FastifyInstance, FastifyReply } from 'fastify';
 
 import type { ErrorResponse } from '../schemas/index.js';
+import { setReplyErrorLogData } from '../logging.js';
 
 export interface ApiErrorOptions {
   readonly code: string;
@@ -19,6 +20,8 @@ export function createErrorResponse(options: ApiErrorOptions): ErrorResponse {
 }
 
 export function sendError(reply: FastifyReply, options: ApiErrorOptions): FastifyReply {
+  setReplyErrorLogData(reply, options);
+
   return reply.status(options.status).send(createErrorResponse(options));
 }
 
@@ -90,29 +93,49 @@ function getErrorMessage(error: unknown, status: number): string {
 export function registerErrorHandlers(app: FastifyInstance): void {
   app.setErrorHandler((error, request, reply) => {
     const status = getErrorStatus(error);
+    const errorData = {
+      code: getErrorCode(error, status),
+      message: getErrorMessage(error, status),
+      status,
+    };
+
+    setReplyErrorLogData(reply, errorData);
 
     if (status >= 500) {
-      request.log.error(error);
+      request.log.error(
+        {
+          err: error,
+          errorCode: errorData.code,
+          errorMessage: errorData.message,
+          requestId: request.id,
+          statusCode: status,
+        },
+        'request failed',
+      );
     } else {
-      request.log.warn(error);
+      request.log.warn(
+        {
+          errorCode: errorData.code,
+          errorMessage: errorData.message,
+          requestId: request.id,
+          statusCode: status,
+        },
+        'request rejected',
+      );
     }
 
-    return reply.status(status).send(
-      createErrorResponse({
-        code: getErrorCode(error, status),
-        message: getErrorMessage(error, status),
-        status,
-      }),
-    );
+    return reply.status(status).send(createErrorResponse(errorData));
   });
 
   app.setNotFoundHandler((request, reply) => {
-    return reply.status(404).send(
-      createErrorResponse({
-        code: 'ROUTE_NOT_FOUND',
-        message: 'Route not found.',
-        status: 404,
-      }),
-    );
+    const errorData = {
+      code: 'ROUTE_NOT_FOUND',
+      message: 'Route not found.',
+      status: 404,
+    };
+
+    setReplyErrorLogData(reply, errorData);
+
+    return reply.status(404).send(createErrorResponse(errorData));
   });
 }

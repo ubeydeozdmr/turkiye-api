@@ -1,6 +1,8 @@
 import crypto from 'node:crypto';
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 
+import { setRequestCacheStatus } from './logging.js';
+
 const DYNAMIC_API_CACHE_CONTROL = 'public, max-age=300';
 
 function createEtag(payload: string | Buffer): string {
@@ -47,10 +49,13 @@ export function registerDynamicCache(app: FastifyInstance): void {
     reply.header('Cache-Control', DYNAMIC_API_CACHE_CONTROL).header('ETag', etag);
 
     if (clientHasFreshResponse(request, etag)) {
+      setRequestCacheStatus(request, 'hit');
       reply.removeHeader('Content-Length');
       reply.status(304);
       return '';
     }
+
+    setRequestCacheStatus(request, 'miss');
 
     return payload;
   });

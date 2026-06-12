@@ -2,6 +2,7 @@ import type { FastifyPluginAsync, FastifyReply, FastifyRequest } from 'fastify';
 import Type from 'typebox';
 
 import { ErrorResponseSchema } from '../schemas/index.js';
+import { setRequestCacheStatus } from '../logging.js';
 import { sendNotFound } from '../utils/index.js';
 import type { DatasetService, StaticDataset } from '../services/index.js';
 
@@ -61,8 +62,11 @@ function sendDataset(
     .header('Last-Modified', dataset.lastModified);
 
   if (clientHasFreshDataset(request, dataset)) {
+    setRequestCacheStatus(request, 'hit');
     return reply.status(304).send();
   }
+
+  setRequestCacheStatus(request, 'miss');
 
   return reply.header('Content-Length', dataset.contentLength).send(dataset.content);
 }

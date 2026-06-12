@@ -1,6 +1,7 @@
 import rateLimit from '@fastify/rate-limit';
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 
+import { setRequestRateLimitStatus } from './logging.js';
 import { createErrorResponse } from './utils/index.js';
 
 export interface ApiRateLimitPolicy {
@@ -54,7 +55,18 @@ type RateLimitChecker = ReturnType<FastifyInstance['createRateLimit']>;
 type RateLimitResult = Awaited<ReturnType<RateLimitChecker>>;
 type LimitedRateLimitResult = Extract<RateLimitResult, { isAllowed: false }>;
 
-function sendRateLimitResponse(reply: FastifyReply, limit: LimitedRateLimitResult): FastifyReply {
+function sendRateLimitResponse(
+  request: FastifyRequest,
+  reply: FastifyReply,
+  limit: LimitedRateLimitResult,
+): FastifyReply {
+  setRequestRateLimitStatus(request, {
+    limited: true,
+    limit: limit.max,
+    remaining: 0,
+    resetSeconds: limit.ttlInSeconds,
+  });
+
   reply.header('x-ratelimit-limit', limit.max);
   reply.header('x-ratelimit-remaining', 0);
   reply.header('x-ratelimit-reset', limit.ttlInSeconds);
@@ -69,7 +81,18 @@ function sendRateLimitResponse(reply: FastifyReply, limit: LimitedRateLimitResul
   );
 }
 
-function setRemainingRateLimitHeaders(reply: FastifyReply, limit: LimitedRateLimitResult): void {
+function setRemainingRateLimitHeaders(
+  request: FastifyRequest,
+  reply: FastifyReply,
+  limit: LimitedRateLimitResult,
+): void {
+  setRequestRateLimitStatus(request, {
+    limited: false,
+    limit: limit.max,
+    remaining: limit.remaining,
+    resetSeconds: limit.ttlInSeconds,
+  });
+
   reply.header('x-ratelimit-limit', limit.max);
   reply.header('x-ratelimit-remaining', limit.remaining);
   reply.header('x-ratelimit-reset', limit.ttlInSeconds);
@@ -101,14 +124,14 @@ export async function registerRateLimit(app: FastifyInstance, options: ApiRateLi
       }
 
       if (result.isExceeded) {
-        return sendRateLimitResponse(reply, result);
+        return sendRateLimitResponse(request, reply, result);
       }
 
       primaryLimit ??= result;
     }
 
     if (primaryLimit !== undefined) {
-      setRemainingRateLimitHeaders(reply, primaryLimit);
+      setRemainingRateLimitHeaders(request, reply, primaryLimit);
     }
   });
 }

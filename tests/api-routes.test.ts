@@ -75,7 +75,7 @@ describe('API routes', () => {
     assert.equal(response.headers['access-control-allow-origin'], '*');
     assert.equal(
       response.headers['access-control-expose-headers'],
-      'etag, last-modified, cache-control, x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset, retry-after',
+      'etag, last-modified, cache-control, x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset, x-request-id, retry-after',
     );
 
     const preflight = await app.inject({
@@ -93,7 +93,7 @@ describe('API routes', () => {
     assert.equal(preflight.headers['access-control-allow-methods'], 'GET, HEAD, OPTIONS');
     assert.equal(
       preflight.headers['access-control-allow-headers'],
-      'content-type, authorization, x-api-key, if-none-match',
+      'content-type, authorization, x-api-key, if-none-match, x-request-id',
     );
     assert.equal(preflight.headers['access-control-max-age'], '86400');
   });
@@ -467,6 +467,112 @@ describe('API rate limiting', () => {
       assert.equal(otherUser.statusCode, 200);
     } finally {
       await limitedApp.close();
+    }
+  });
+});
+
+describe('API logging', () => {
+  it('emits privacy-aware semantic request logs', async () => {
+    const logLines: string[] = [];
+    const loggingApp = build({
+      disableRequestLogging: true,
+      logger: {
+        level: 'info',
+        stream: {
+          write(line: string) {
+            logLines.push(line);
+          },
+        },
+      },
+      rateLimit: {
+        policies: [{ max: 2, timeWindow: '1 minute' }],
+      },
+    });
+
+    await loggingApp.ready();
+
+    try {
+      await loggingApp.inject({
+        url: '/v2/provinces?search=istanbul&fields=id,name&limit=1',
+        headers: {
+          'x-api-key': 'semantic-log-test',
+          'x-request-id': 'semantic-log-request',
+        },
+      });
+
+      const records = logLines.map((line) => JSON.parse(line));
+      const completion = records.find(
+        (record) =>
+          (record.message === 'request completed' || record.msg === 'request completed') &&
+          record.requestId === 'semantic-log-request',
+      );
+
+      assert.ok(completion);
+      assert.equal(completion.version, 'v2');
+      assert.equal(completion.method, 'GET');
+      assert.equal(completion.path, '/v2/provinces');
+      assert.deepEqual(completion.queryKeys, ['fields', 'limit', 'search']);
+      assert.equal(completion.statusCode, 200);
+      assert.equal(completion.cacheStatus, 'miss');
+      assert.deepEqual(completion.rateLimit, {
+        limited: false,
+        limit: 2,
+        remaining: 1,
+        resetSeconds: 60,
+      });
+
+      const serialized = JSON.stringify(completion);
+      assert.equal(serialized.includes('istanbul'), false);
+      assert.equal(serialized.includes('id,name'), false);
+      assert.equal(serialized.includes('semantic-log-test'), false);
+    } finally {
+      await loggingApp.close();
+    }
+  });
+
+  it('adds cache hits and structured error codes to request logs', async () => {
+    const logLines: string[] = [];
+    const loggingApp = build({
+      disableRequestLogging: true,
+      logger: {
+        level: 'info',
+        stream: {
+          write(line: string) {
+            logLines.push(line);
+          },
+        },
+      },
+      rateLimit: false,
+    });
+
+    await loggingApp.ready();
+
+    try {
+      const response = await loggingApp.inject('/v2/provinces?limit=1');
+
+      assert.equal(response.statusCode, 200);
+      assert.ok(response.headers.etag);
+
+      await loggingApp.inject({
+        url: '/v2/provinces?limit=1',
+        headers: { 'if-none-match': response.headers.etag },
+      });
+
+      await loggingApp.inject('/v2/provinces?limit=0');
+
+      const completions = logLines
+        .map((line) => JSON.parse(line))
+        .filter((record) => record.message === 'request completed' || record.msg === 'request completed');
+      const cacheHit = completions.find((record) => record.statusCode === 304);
+      const validationError = completions.find((record) => record.statusCode === 400);
+
+      assert.ok(cacheHit);
+      assert.equal(cacheHit.cacheStatus, 'hit');
+      assert.ok(validationError);
+      assert.equal(validationError.errorCode, 'BAD_REQUEST');
+      assert.equal(validationError.errorMessage, 'querystring/limit must be >= 1');
+    } finally {
+      await loggingApp.close();
     }
   });
 });
