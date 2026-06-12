@@ -34,7 +34,6 @@ export {
   sendBadRequest,
   sendError,
   sendNotFound,
-  sendNotImplemented,
   type ApiErrorOptions,
 } from './http-errors.js';
 export { includesNormalizedText, normalizeText } from './normalize-text.js';

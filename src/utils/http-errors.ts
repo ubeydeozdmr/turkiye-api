@@ -29,14 +29,6 @@ export function sendNotFound(reply: FastifyReply, code: string, message: string)
   return sendError(reply, { code, message, status: 404 });
 }
 
-export function sendNotImplemented(reply: FastifyReply): FastifyReply {
-  return sendError(reply, {
-    code: 'NOT_IMPLEMENTED',
-    message: 'This endpoint is not implemented yet.',
-    status: 501,
-  });
-}
-
 interface ErrorLike {
   readonly code?: string;
   readonly message?: string;
