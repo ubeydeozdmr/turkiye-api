@@ -6,6 +6,7 @@ import {
   DATASET_VERSION,
   getDatasetFilePath,
   getDefaultDatasetDirectory,
+  getVersionedDatasetDirectory,
   type DatasetName,
 } from '../data/index.js';
 
@@ -59,29 +60,39 @@ function loadStaticDataset(
 
 export function createDatasetService(options: CreateDatasetServiceOptions = {}): DatasetService {
   const datasetDirectory = options.datasetDirectory ?? getDefaultDatasetDirectory();
-  const datasetsByFileName = new Map<DatasetFileName, StaticDataset>();
+  const latestDatasetsByFileName = new Map<DatasetFileName, StaticDataset>();
+  const versionedDatasetsByVersion = new Map<string, ReadonlyMap<DatasetFileName, StaticDataset>>();
   const datasetFileNames = new Set<string>();
 
   for (const [datasetName, fileName] of datasetEntries) {
-    datasetsByFileName.set(fileName, loadStaticDataset(datasetName, fileName, datasetDirectory));
+    latestDatasetsByFileName.set(fileName, loadStaticDataset(datasetName, fileName, datasetDirectory));
     datasetFileNames.add(fileName);
   }
 
+  const currentVersionDirectory = getVersionedDatasetDirectory(DATASET_VERSION, datasetDirectory);
+  const currentVersionDatasetsByFileName = new Map<DatasetFileName, StaticDataset>();
+
+  for (const [datasetName, fileName] of datasetEntries) {
+    currentVersionDatasetsByFileName.set(fileName, loadStaticDataset(datasetName, fileName, currentVersionDirectory));
+  }
+
+  versionedDatasetsByVersion.set(DATASET_VERSION, currentVersionDatasetsByFileName);
+
   return {
     getLatestDataset(fileName) {
-      if (!this.isDatasetFileName(fileName)) {
+      if (!datasetFileNames.has(fileName)) {
         return undefined;
       }
 
-      return datasetsByFileName.get(fileName);
+      return latestDatasetsByFileName.get(fileName as DatasetFileName);
     },
 
     getVersionedDataset(datasetVersion, fileName) {
-      if (datasetVersion !== DATASET_VERSION) {
+      if (!datasetFileNames.has(fileName)) {
         return undefined;
       }
 
-      return this.getLatestDataset(fileName);
+      return versionedDatasetsByVersion.get(datasetVersion)?.get(fileName as DatasetFileName);
     },
 
     isDatasetFileName(fileName): fileName is DatasetFileName {

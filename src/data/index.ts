@@ -10,7 +10,12 @@ export {
   type DatasetCounts,
   type DatasetMeta,
 } from './dataset-meta.js';
-export { DATASET_FILENAMES, getDatasetFilePath, getDefaultDatasetDirectory } from './dataset-files.js';
+export {
+  DATASET_FILENAMES,
+  getDatasetFilePath,
+  getDefaultDatasetDirectory,
+  getVersionedDatasetDirectory,
+} from './dataset-files.js';
 export { loadDatasets, type LoadDatasetsOptions } from './load-datasets.js';
 export {
   type Coordinates,

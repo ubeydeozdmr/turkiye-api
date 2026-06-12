@@ -14,6 +14,13 @@ export function getDefaultDatasetDirectory(): string {
   return path.resolve(process.cwd(), 'datasets');
 }
 
+export function getVersionedDatasetDirectory(
+  datasetVersion: string,
+  datasetDirectory = getDefaultDatasetDirectory(),
+): string {
+  return path.join(datasetDirectory, datasetVersion);
+}
+
 export function getDatasetFilePath(datasetName: DatasetName, datasetDirectory = getDefaultDatasetDirectory()): string {
   return path.join(datasetDirectory, DATASET_FILENAMES[datasetName]);
 }
