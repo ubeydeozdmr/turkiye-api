@@ -37,7 +37,6 @@ export {
   NeighborhoodListQuerySchema,
   NeighborhoodParamsSchema,
   PaginationFieldQuerySchema,
-  PaginationQuerySchema,
   PostalCodeStatusPaginationFieldQuerySchema,
   ProvinceParamsSchema,
   ProvinceListQuerySchema,

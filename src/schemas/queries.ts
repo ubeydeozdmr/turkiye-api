@@ -13,14 +13,6 @@ export const SortQuerySchema = Type.Union([
   Type.Literal('-population'),
 ]);
 
-export const PaginationQuerySchema = Type.Object(
-  {
-    limit: Type.Optional(Type.Integer({ minimum: 1, maximum: 1000, default: 100 })),
-    offset: Type.Optional(Type.Integer({ minimum: 0, default: 0 })),
-  },
-  { additionalProperties: false },
-);
-
 export const FieldQuerySchema = Type.Object(
   {
     fields: Type.Optional(CsvStringSchema),
