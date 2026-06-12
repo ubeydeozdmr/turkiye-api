@@ -25,11 +25,7 @@ import {
   sendNotFound,
   validateRangeFilters,
 } from '../utils/index.js';
-import type {
-  FieldQuery,
-  VillageListQuery,
-  VillageParams,
-} from '../schemas/index.js';
+import type { FieldQuery, VillageListQuery, VillageParams } from '../schemas/index.js';
 import type { VillageService } from '../services/index.js';
 
 interface VillageRouteOptions {

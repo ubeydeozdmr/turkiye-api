@@ -25,11 +25,7 @@ import {
   sendNotFound,
   validateRangeFilters,
 } from '../utils/index.js';
-import type {
-  FieldQuery,
-  NeighborhoodListQuery,
-  NeighborhoodParams,
-} from '../schemas/index.js';
+import type { FieldQuery, NeighborhoodListQuery, NeighborhoodParams } from '../schemas/index.js';
 import type { NeighborhoodService } from '../services/index.js';
 
 interface NeighborhoodRouteOptions {
