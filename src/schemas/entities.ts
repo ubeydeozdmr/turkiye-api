@@ -1,7 +1,5 @@
 import Type from 'typebox';
 
-const StrictObject = Type.Object;
-
 export const IdSchema = Type.Integer({ minimum: 1 });
 export const CountSchema = Type.Integer({ minimum: 0 });
 export const PopulationSchema = Type.Integer({ minimum: 0 });
@@ -9,7 +7,7 @@ export const NameSchema = Type.String({ minLength: 1 });
 export const SlugSchema = Type.String({ minLength: 1 });
 export const PostalCodeSchema = Type.String({ pattern: '^[0-9]{5}$' });
 
-export const AreaSchema = StrictObject(
+export const AreaSchema = Type.Object(
   {
     value: Type.Number({ minimum: 0 }),
     unit: Type.Literal('km2'),
@@ -17,7 +15,7 @@ export const AreaSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const AltitudeSchema = StrictObject(
+export const AltitudeSchema = Type.Object(
   {
     value: Type.Number(),
     unit: Type.Literal('m'),
@@ -25,7 +23,7 @@ export const AltitudeSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const CoordinatesSchema = StrictObject(
+export const CoordinatesSchema = Type.Object(
   {
     latitude: Type.Number({ minimum: -90, maximum: 90 }),
     longitude: Type.Number({ minimum: -180, maximum: 180 }),
@@ -33,7 +31,7 @@ export const CoordinatesSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const RegionSchema = StrictObject(
+export const RegionSchema = Type.Object(
   {
     tr: NameSchema,
     en: NameSchema,
@@ -41,7 +39,7 @@ export const RegionSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const ProvinceStatsSchema = StrictObject(
+export const ProvinceStatsSchema = Type.Object(
   {
     districtCount: CountSchema,
     municipalityCount: CountSchema,
@@ -51,7 +49,7 @@ export const ProvinceStatsSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const DistrictStatsSchema = StrictObject(
+export const DistrictStatsSchema = Type.Object(
   {
     municipalityCount: CountSchema,
     neighborhoodCount: CountSchema,
@@ -60,7 +58,7 @@ export const DistrictStatsSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const MunicipalityStatsSchema = StrictObject(
+export const MunicipalityStatsSchema = Type.Object(
   {
     neighborhoodCount: CountSchema,
   },
@@ -73,7 +71,7 @@ export const MunicipalityTypeSchema = Type.Union([
   Type.Literal('town'),
 ]);
 
-export const ProvinceSchema = StrictObject(
+export const ProvinceSchema = Type.Object(
   {
     id: IdSchema,
     name: NameSchema,
@@ -91,7 +89,7 @@ export const ProvinceSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const DistrictSchema = StrictObject(
+export const DistrictSchema = Type.Object(
   {
     id: IdSchema,
     name: NameSchema,
@@ -104,7 +102,7 @@ export const DistrictSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const MunicipalitySchema = StrictObject(
+export const MunicipalitySchema = Type.Object(
   {
     id: IdSchema,
     name: NameSchema,
@@ -118,7 +116,7 @@ export const MunicipalitySchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const NeighborhoodSchema = StrictObject(
+export const NeighborhoodSchema = Type.Object(
   {
     id: IdSchema,
     name: NameSchema,
@@ -133,7 +131,7 @@ export const NeighborhoodSchema = StrictObject(
   { additionalProperties: false },
 );
 
-export const VillageSchema = StrictObject(
+export const VillageSchema = Type.Object(
   {
     id: IdSchema,
     name: NameSchema,
