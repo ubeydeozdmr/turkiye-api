@@ -1,4 +1,71 @@
-# TurkiyeAPI
+<div align="center">
+  <img src="https://docs.turkiyeapi.dev/logo.png" alt="TurkiyeAPI Logo" width="120" />
+
+  <h1>TurkiyeAPI</h1>
+
+  <p>
+    Fast, typed, and public REST API for Türkiye administrative divisions:
+    provinces, districts, municipalities, neighborhoods, and villages.
+  </p>
+
+  <p>
+    <a href="https://docs.turkiyeapi.dev/tr/v2/guide/">Documentation</a>
+    ·
+    <a href="https://docs.turkiyeapi.dev/tr/v2/api-reference/">API Reference</a>
+    ·
+    <a href="https://api.turkiyeapi.dev/v2/openapi.json">OpenAPI</a>
+    ·
+    <a href="https://api.turkiyeapi.dev/v2/meta">Metadata</a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/API-v2-blue" alt="API v2" />
+    <img src="https://img.shields.io/badge/dataset-2025-success" alt="Dataset 2025" />
+    <img src="https://img.shields.io/badge/node-%3E%3D22%20%3C23-339933" alt="Node.js >=22 <23" />
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License" />
+    <img src="https://github.com/ubeydeozdmr/turkiye-api/actions/workflows/ci.yml/badge.svg?branch=v2" alt="Tests" />
+  </p>
+</div>
+
+---
+
+## Quick Start
+
+```sh
+curl "https://api.turkiyeapi.dev/v2/provinces"
+```
+
+```sh
+curl "https://api.turkiyeapi.dev/v2/provinces?search=istanbul&fields=id,name,population"
+```
+
+TurkiyeAPI v2 serves the 2025 dataset from in-memory JSON files with typed Fastify routes, TypeBox validation, OpenAPI documentation, static dataset downloads, pagination, filtering, field projection, explicit relationship includes, ETags, CORS, and rate limiting.
+
+> TurkiyeAPI v2 is the current stable API. v1 remains available as a legacy API for existing users.
+
+## Table of Contents
+
+- [Production](#production)
+- [Data](#data)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Development](#development)
+- [Build and Run](#build-and-run)
+- [Tests](#tests)
+- [Docker](#docker)
+- [Logging](#logging)
+- [API Overview](#api-overview)
+- [Examples](#examples)
+- [Response Shape](#response-shape)
+- [Query Parameters](#query-parameters)
+- [Field Projection](#field-projection)
+- [Includes](#includes)
+- [Postal Code Status Logic](#postal-code-status-logic)
+- [Caching](#caching)
+- [Rate Limiting](#rate-limiting)
+- [Project Structure](#project-structure)
+- [Additional Documentation](#additional-documentation)
+- [License](#license)
 
 Fast REST API for Turkish administrative divisions: provinces, districts, municipalities, neighborhoods, and villages.
 
@@ -9,6 +76,10 @@ TurkiyeAPI v2 serves the 2025 dataset from in-memory JSON files with typed Fasti
 - API: `https://api.turkiyeapi.dev`
 - OpenAPI JSON: `https://api.turkiyeapi.dev/v2/openapi.json`
 - Local development: `http://localhost:3000`
+- Documentation (Turkish): `https://docs.turkiyeapi.dev/tr/v2/guide/`
+- Documentation (English): `https://docs.turkiyeapi.dev/en/v2/guide/`
+- API Reference (Turkish): `https://docs.turkiyeapi.dev/tr/v2/api-reference/`
+- API Reference (English): `https://docs.turkiyeapi.dev/en/v2/api-reference/`
 
 ## Data
 
@@ -31,6 +102,7 @@ Sources:
 - TÜİK MEDAS
 - PTT Kargo postal code data
 - T.C. MSB Harita Genel Müdürlüğü area data
+- Türk Telekom phone area code data
 - OpenStreetMap admin_centre coordinates
 
 ## Requirements
