@@ -30,6 +30,15 @@ export const AREA_SOURCE = {
   },
 } as const;
 
+export const PHONE_AREA_CODE_SOURCE = {
+  name: 'T.C. BTK',
+  url: 'http://www.ttrehber.turktelekom.com.tr/AreaCodes',
+  description: {
+    tr: 'Türk Telekom tarafından sağlanan telefon alan kodu veri kaynağıdır.',
+    en: 'The phone area code data source provided by Türk Telekom.',
+  },
+} as const;
+
 export const COORDINATE_SOURCE = {
   name: 'OpenStreetMap',
   url: 'https://www.openstreetmap.org',
@@ -57,6 +66,7 @@ export interface DatasetMeta {
     typeof DATASET_SOURCE,
     typeof POSTAL_CODE_SOURCE,
     typeof AREA_SOURCE,
+    typeof PHONE_AREA_CODE_SOURCE,
     typeof COORDINATE_SOURCE,
   ];
   readonly counts: DatasetCounts;
@@ -66,7 +76,7 @@ export const DATASET_META = {
   apiVersion: '2.0.0',
   datasetVersion: DATASET_VERSION,
   lastUpdated: DATASET_LAST_UPDATED,
-  sources: [DATASET_SOURCE, POSTAL_CODE_SOURCE, AREA_SOURCE, COORDINATE_SOURCE],
+  sources: [DATASET_SOURCE, POSTAL_CODE_SOURCE, AREA_SOURCE, PHONE_AREA_CODE_SOURCE, COORDINATE_SOURCE],
   counts: EXPECTED_DATASET_COUNTS,
 } as const satisfies DatasetMeta;
 
