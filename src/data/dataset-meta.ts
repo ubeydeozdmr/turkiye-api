@@ -31,7 +31,7 @@ export const AREA_SOURCE = {
 } as const;
 
 export const PHONE_AREA_CODE_SOURCE = {
-  name: 'T.C. BTK',
+  name: 'Türk Telekom',
   url: 'http://www.ttrehber.turktelekom.com.tr/AreaCodes',
   description: {
     tr: 'Türk Telekom tarafından sağlanan telefon alan kodu veri kaynağıdır.',
