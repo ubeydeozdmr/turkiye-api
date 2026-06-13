@@ -16,6 +16,8 @@
     <a href="https://api.turkiyeapi.dev/v2/openapi.json">OpenAPI</a>
     ·
     <a href="https://api.turkiyeapi.dev/v2/meta">Metadata</a>
+    ·
+    <a href="#support">Support</a>
   </p>
 
   <p>
@@ -63,13 +65,19 @@ TurkiyeAPI v2 serves the 2025 dataset from in-memory JSON files with typed Fasti
 - [Postal Code Status Logic](#postal-code-status-logic)
 - [Caching](#caching)
 - [Rate Limiting](#rate-limiting)
+- [Privacy and Terms](#privacy-and-terms)
 - [Project Structure](#project-structure)
 - [Additional Documentation](#additional-documentation)
+- [Contributing](#contributing)
+- [Security](#security)
+- [Support](#support)
 - [License](#license)
 
 Fast REST API for Turkish administrative divisions: provinces, districts, municipalities, neighborhoods, and villages.
 
 TurkiyeAPI v2 serves the 2025 dataset from in-memory JSON files with typed Fastify routes, TypeBox validation, OpenAPI documentation, static dataset downloads, pagination, filtering, field projection, explicit relationship includes, ETags, CORS, and rate limiting.
+
+TurkiyeAPI is an independent open API project. It is not affiliated with, endorsed by, or operated by any official government institution.
 
 ## Production
 
@@ -80,6 +88,8 @@ TurkiyeAPI v2 serves the 2025 dataset from in-memory JSON files with typed Fasti
 - Documentation (English): `https://docs.turkiyeapi.dev/en/v2/guide/`
 - API Reference (Turkish): `https://docs.turkiyeapi.dev/tr/v2/api-reference/`
 - API Reference (English): `https://docs.turkiyeapi.dev/en/v2/api-reference/`
+- Privacy Policy: [PRIVACY.md](./PRIVACY.md)
+- Terms of Use: [TERMS.md](./TERMS.md)
 
 ## Data
 
@@ -433,6 +443,14 @@ x-ratelimit-reset
 retry-after
 ```
 
+## Privacy and Terms
+
+TurkiyeAPI keeps application logs intentionally small. Application logs include operational metadata such as request ID, API version, method, path, route, query parameter names, status code, response time, cache status, and rate-limit summary. They do not include request bodies, response bodies, cookies, authorization headers, API keys, or full query parameter values.
+
+Production server or reverse-proxy access logs may include IP address, user agent, request path or URI, timestamp, status code, response size, and response time for security, abuse prevention, rate-limit enforcement, and operational debugging.
+
+See [PRIVACY.md](./PRIVACY.md) for the privacy policy and [TERMS.md](./TERMS.md) for acceptable use terms.
+
 ## Project Structure
 
 ```txt
@@ -455,6 +473,25 @@ tests/                    Node test runner suites
 - [v2 Documentation (API Reference)](https://docs.turkiyeapi.dev/tr/v2/api-reference/) - detailed API reference with request and response schemas
 - [openapi.json](https://api.turkiyeapi.dev/v2/openapi.json) - OpenAPI 3.1 document
 - [API Metadata](https://api.turkiyeapi.dev/v2/meta) - API and dataset metadata
+
+## Contributing
+
+Contributions are welcome. Before opening a pull request, read [CONTRIBUTING.md](./CONTRIBUTING.md) and run:
+
+```sh
+npm run format:check
+npm run typecheck
+npm test
+npm run build
+```
+
+## Security
+
+Please do not report security issues in public issues. See [SECURITY.md](./SECURITY.md) for supported versions and responsible disclosure instructions.
+
+## Support
+
+TurkiyeAPI is free and public. If the project helps you, you can support hosting and maintenance through the GitHub sponsor button configured in [.github/FUNDING.yml](./.github/FUNDING.yml).
 
 ## License
 
