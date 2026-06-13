@@ -1,1 +1,5 @@
-src/**/data/*.min.json
+node_modules
+dist
+coverage
+package-lock.json
+.DS_Store
