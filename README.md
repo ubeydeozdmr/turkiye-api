@@ -20,33 +20,59 @@ The API uses [turkiyeapi.dev](https://turkiyeapi.dev) as the main domain. You ca
 
 Python implementation of TurkiyeAPI v1 is available at [@gencharitaci/turkiye-api-py](https://github.com/gencharitaci/turkiye-api-py)
 
-## Preview of v2 has been released
+## TurkiyeAPI v2 has been released
 
-A preview of TurkiyeAPI version 2 has been publicly released! The full release will be in June, but in the meantime, you can use v2 and provide feedback.
+For a detailed migration guide from v1, see [Migration from v1](https://docs.turkiyeapi.dev/en/v2/guide/migration-from-v1.html).
 
-Of course, you can still use v1, but I recommend using v2 as it has many new features and improvements. You can find the documentation and Postman collection for v2 in the links below. Also your feedback is very important for the development of v2, so please don't hesitate to provide feedback using the links below.
+### Added
 
-What's new in v2:
+- Added the `/v2` API prefix.
+- Added metadata-rich response envelopes with `data` and `meta`.
+- Added structured error responses with stable `error.code`, `error.message`, and `error.status` fields.
+- Added explicit relationship loading with `include` and nested collection routes.
+- Added first-class `municipalities` resources, including province center, district center, and town municipality types.
+- Added static JSON dataset downloads under `/v2/datasets`.
+- Added versioned dataset downloads, such as `/v2/datasets/2025/provinces.json`.
+- Added `/v2/meta` for API, dataset, source, and record count metadata.
+- Added OpenAPI 3.1 output at `/v2/openapi.json`.
+- Added postal code filters for neighborhood and village list endpoints.
 
-- **Municipal Units**: In v2, the concept of municipal units has been introduced. This means that in addition to provinces, districts, neighborhoods, and villages, there are now also municipal units. This allows for more detailed and accurate data representation. Towns, which were previously included as a patch in v1, have been removed and replaced with municipal units in v2. This change allows for a more comprehensive and accurate representation of the administrative divisions in Turkey.
-- **Updated Data**: The data in v2 has been updated to reflect the latest information available. This includes changes in population and new administrative divisions.
-- **Improved Performance**: The performance of the API has been improved in v2, allowing for faster response times and better handling of large datasets.
-- **New Endpoints**: New endpoints have been added in v2 to provide more specific data and allow for more complex queries.
-- **Postal Codes**: The postal code feature has been expanded in v2 to include neighborhoods and villages, in addition to provinces and districts. This allows for more detailed filtering and data retrieval based on postal codes.
+### Changed
+
+- Standardized list pagination with `limit`, `offset`, `meta.count`, and `meta.total`.
+- Standardized search around the `search` query parameter.
+- Replaced parent name filters with ID filters and nested routes.
+- Made related resources opt-in instead of embedding them by default.
+- Tightened query parameter, field selection, hierarchy, and range validation.
+- Moved scalar measurement fields such as `area` and `altitude` into structured objects with `value` and `unit`.
+- Replaced `areaCode` with `phoneAreaCodes`.
+- Modeled postal codes only on neighborhood and village records with `postalCode` and `postalCodeStatus`.
+
+### Removed
+
+- Removed support for the legacy `/api/v1` prefix in v2.
+- Removed the top-level `status` field from successful responses.
+- Removed `extend=true`; use `include` or nested routes instead.
+- Removed `/towns`; use `/v2/municipalities?type=town` for town municipalities.
+- Removed `activatePostalCodes`; postal code fields are returned directly where supported.
 
 Base v2 URL: `https://api.turkiyeapi.dev/v2`
 
 [v2 GitHub Source Code](https://github.com/ubeydeozdmr/turkiye-api/tree/v2)
 
-[v2 Documentation (Guide)](https://docs.turkiyeapi.dev/tr/v2/guide/)
+[v2 Documentation (Guide)](https://docs.turkiyeapi.dev/en/v2/guide/)
 
-[v2 Documentation (API Reference)](https://docs.turkiyeapi.dev/tr/v2/api-reference/)
+[v2 Documentation (API Reference)](https://docs.turkiyeapi.dev/en/v2/api-reference/)
 
 [Postman Collection for v2](https://documenter.getpostman.com/view/19561492/UzBguVHM)
 
 [Provide feedback for v2 (GitHub Issues)](https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318)
 
 [Provide feedback for v2 (Email)](mailto:ubeydeozdmr@gmail.com)
+
+## Legacy v1
+
+The v1 version of TurkiyeAPI is still available and will continue to be available for a while. However, it will not receive any new features or updates, and it may eventually be deprecated in the future. Therefore, it is recommended to use the v2 version of the API for new projects.
 
 ## Usage of API
 

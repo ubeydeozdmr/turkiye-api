@@ -20,19 +20,41 @@ API ana alan adı olarak [turkiyeapi.dev](https://turkiyeapi.dev) kullanır. Ziy
 
 TurkiyeAPI v1'in Python uygulamasına [@gencharitaci/turkiye-api-py](https://github.com/gencharitaci/turkiye-api-py) adresinden ulaşılabilir.
 
-## v2 önizlemesi yayınlandı
+## TurkiyeAPI v2 yayınlandı
 
-TurkiyeAPI sürüm 2'nin önizlemesi kamuya açık olarak yayınlandı! Tam sürüm Haziran ayında olacak, ancak bu arada v2'yi kullanabilir ve geri bildirimde bulunabilirsiniz.
+v1'den geçiş detayları için [v1'den v2'ye Geçiş](https://docs.turkiyeapi.dev/tr/v2/guide/migration-from-v1.html) sayfasına bakabilirsiniz.
 
-Tabii ki, hala v1'i kullanabilirsiniz, ancak birçok yeni özelliği ve iyileştirmesi olduğu için v2'yi kullanmanızı öneririm. v2 için dokümantasyon ve Postman koleksiyonunu aşağıdaki bağlantılarda bulabilirsiniz. Ayrıca geri bildiriminiz v2'nin gelişimi için çok önemlidir, bu yüzden lütfen aşağıdaki bağlantıları kullanarak geri bildirimde bulunmaktan çekinmeyin.
+### Eklenenler
 
-v2'deki yenilikler:
+- `/v2` API prefix'i eklendi.
+- `data` ve `meta` alanlarını kullanan metadata zengin yanıt envelope yapıları eklendi.
+- Sabit `error.code`, `error.message` ve `error.status` alanlarını kullanan yapılandırılmış hata yanıtları eklendi.
+- `include` ve nested collection route'larıyla ilişkili verilerin açıkça yüklenmesi eklendi.
+- İl merkezi, ilçe merkezi ve belde belediyesi tiplerini kapsayan birinci sınıf `municipalities` kaynakları eklendi.
+- `/v2/datasets` altında statik JSON veri seti indirmeleri eklendi.
+- `/v2/datasets/2025/provinces.json` gibi sürümlü veri seti indirmeleri eklendi.
+- API, veri seti, kaynak ve kayıt sayısı metadata bilgileri için `/v2/meta` eklendi.
+- `/v2/openapi.json` üzerinden OpenAPI 3.1 çıktısı eklendi.
+- Mahalle ve köy liste endpoint'leri için posta kodu filtreleri eklendi.
 
-- **Belediye Birimleri**: v2'de belediye birimleri kavramı tanıtıldı. Bu, iller, ilçeler, mahalleler ve köylere ek olarak artık belediye birimlerinin de bulunduğu anlamına gelir. Bu, daha detaylı ve doğru veri sunumuna olanak tanır. Daha önce v1'de bir yama olarak dahil edilen beldeler kaldırıldı ve v2'de belediye birimleriyle değiştirildi. Bu değişiklik, Türkiye'deki idari bölünmelerin daha kapsamlı ve doğru bir şekilde temsil edilmesini sağlar.
-- **Güncellenmiş Veri**: v2'deki veriler, mevcut en son bilgileri yansıtacak şekilde güncellendi. Bu, nüfus değişikliklerini ve yeni idari bölünmeleri içerir.
-- **İyileştirilmiş Performans**: API'nin performansı v2'de iyileştirildi, daha hızlı yanıt süreleri ve büyük veri setlerinin daha iyi işlenmesini sağlar.
-- **Yeni Uç Noktalar**: v2'de daha spesifik veriler sağlamak ve daha karmaşık sorgulara izin vermek için yeni uç noktalar eklendi.
-- **Posta Kodları**: Posta kodu özelliği v2'de il ve ilçelere ek olarak mahalle ve köyleri de içerecek şekilde genişletildi. Bu, posta kodlarına dayalı daha detaylı filtreleme ve veri alımına olanak tanır.
+### Değişenler
+
+- Liste sayfalaması `limit`, `offset`, `meta.count` ve `meta.total` ile standart hale getirildi.
+- Arama davranışı `search` sorgu parametresi etrafında standart hale getirildi.
+- Üst kaynak ad filtreleri ID filtreleri ve nested route'larla değiştirildi.
+- İlişkili kaynaklar varsayılan olarak gömülmek yerine isteğe bağlı hale getirildi.
+- Sorgu parametresi, alan seçimi, hiyerarşi ve aralık validasyonları sıkılaştırıldı.
+- `area` ve `altitude` gibi sayısal ölçüm alanları `value` ve `unit` içeren yapılandırılmış objelere taşındı.
+- `areaCode` yerine `phoneAreaCodes` kullanılmaya başlandı.
+- Posta kodları yalnızca mahalle ve köy kayıtlarında `postalCode` ve `postalCodeStatus` alanlarıyla modellendi.
+
+### Kaldırılanlar
+
+- v2'de eski `/api/v1` prefix desteği kaldırıldı.
+- Başarılı yanıtlardaki üst seviye `status` alanı kaldırıldı.
+- `extend=true` kaldırıldı; bunun yerine `include` veya nested route kullanılmalıdır.
+- `/towns` kaldırıldı; belde belediyeleri için `/v2/municipalities?type=town` kullanılmalıdır.
+- `activatePostalCodes` kaldırıldı; posta kodu alanları desteklenen kaynaklarda doğrudan döner.
 
 Temel v2 URL: `https://api.turkiyeapi.dev/v2`
 
@@ -47,6 +69,10 @@ Temel v2 URL: `https://api.turkiyeapi.dev/v2`
 [v2 için geri bildirim sağlayın (GitHub Issues)](https://github.com/ubeydeozdmr/turkiye-api/issues/58#issuecomment-4358464318)
 
 [v2 için geri bildirim sağlayın (E-posta)](mailto:ubeydeozdmr@gmail.com)
+
+## Eski v1
+
+v1 sürümü hala kullanılabilir durumdadır ve bir süre daha kullanılmaya devam edecektir. Ancak, yeni özellikler veya güncellemeler almayacak ve gelecekte muhtemelen kullanımdan kaldırılacaktır. Bu nedenle, yeni projeler için API'nin v2 sürümünü kullanmanız önerilir.
 
 ## API Kullanımı
 
