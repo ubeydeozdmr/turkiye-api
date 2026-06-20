@@ -4,7 +4,7 @@
     "id": 1757,
     "province": "Adana",
     "name": "Aladağ",
-    "population": 16954,
+    "population": 15839,
     "area": 1340,
     "postalCode": "01720"
   },
@@ -13,7 +13,7 @@
     "id": 1219,
     "province": "Adana",
     "name": "Ceyhan",
-    "population": 156610,
+    "population": 156081,
     "area": 1426,
     "postalCode": "01920"
   },
@@ -22,7 +22,7 @@
     "id": 2033,
     "province": "Adana",
     "name": "Çukurova",
-    "population": 374205,
+    "population": 380653,
     "area": 250,
     "postalCode": "01360"
   },
@@ -31,7 +31,7 @@
     "id": 1329,
     "province": "Adana",
     "name": "Feke",
-    "population": 17304,
+    "population": 15586,
     "area": 1218,
     "postalCode": "01660"
   },
@@ -40,7 +40,7 @@
     "id": 1806,
     "province": "Adana",
     "name": "İmamoğlu",
-    "population": 27341,
+    "population": 27196,
     "area": 445,
     "postalCode": "01700"
   },
@@ -49,7 +49,7 @@
     "id": 1437,
     "province": "Adana",
     "name": "Karaisalı",
-    "population": 23105,
+    "population": 22872,
     "area": 1165,
     "postalCode": "01770"
   },
@@ -58,7 +58,7 @@
     "id": 1443,
     "province": "Adana",
     "name": "Karataş",
-    "population": 25245,
+    "population": 24005,
     "area": 862,
     "postalCode": "01900"
   },
@@ -67,7 +67,7 @@
     "id": 1486,
     "province": "Adana",
     "name": "Kozan",
-    "population": 132642,
+    "population": 132572,
     "area": 1903,
     "postalCode": "01530"
   },
@@ -76,7 +76,7 @@
     "id": 1580,
     "province": "Adana",
     "name": "Pozantı",
-    "population": 20733,
+    "population": 19983,
     "area": 899,
     "postalCode": "01490"
   },
@@ -85,7 +85,7 @@
     "id": 1588,
     "province": "Adana",
     "name": "Saimbeyli",
-    "population": 13857,
+    "population": 13133,
     "area": 989,
     "postalCode": "01740"
   },
@@ -94,7 +94,7 @@
     "id": 2032,
     "province": "Adana",
     "name": "Sarıçam",
-    "population": 236298,
+    "population": 263080,
     "area": 770,
     "postalCode": "01410"
   },
@@ -103,7 +103,7 @@
     "id": 1104,
     "province": "Adana",
     "name": "Seyhan",
-    "population": 787771,
+    "population": 782204,
     "area": 444,
     "postalCode": "01040"
   },
@@ -112,7 +112,7 @@
     "id": 1687,
     "province": "Adana",
     "name": "Tufanbeyli",
-    "population": 17258,
+    "population": 16027,
     "area": 851,
     "postalCode": "01640"
   },
@@ -121,7 +121,7 @@
     "id": 1734,
     "province": "Adana",
     "name": "Yumurtalık",
-    "population": 18630,
+    "population": 17806,
     "area": 447,
     "postalCode": "01680"
   },
@@ -130,7 +130,7 @@
     "id": 1748,
     "province": "Adana",
     "name": "Yüreğir",
-    "population": 402345,
+    "population": 396572,
     "area": 835,
     "postalCode": "01358"
   },
@@ -139,7 +139,7 @@
     "id": 1182,
     "province": "Adıyaman",
     "name": "Besni",
-    "population": 76415,
+    "population": 75398,
     "area": 1235,
     "postalCode": "02300"
   },
@@ -148,7 +148,7 @@
     "id": 1246,
     "province": "Adıyaman",
     "name": "Çelikhan",
-    "population": 14856,
+    "population": 14530,
     "area": 444,
     "postalCode": "02600"
   },
@@ -157,7 +157,7 @@
     "id": 1347,
     "province": "Adıyaman",
     "name": "Gerger",
-    "population": 15679,
+    "population": 14497,
     "area": 668,
     "postalCode": "02700"
   },
@@ -166,7 +166,7 @@
     "id": 1354,
     "province": "Adıyaman",
     "name": "Gölbaşı",
-    "population": 47876,
+    "population": 47917,
     "area": 1274,
     "postalCode": "02530"
   },
@@ -175,7 +175,7 @@
     "id": 1425,
     "province": "Adıyaman",
     "name": "Kahta",
-    "population": 132303,
+    "population": 136769,
     "area": 319,
     "postalCode": "02450"
   },
@@ -184,7 +184,7 @@
     "id": 1105,
     "province": "Adıyaman",
     "name": "Merkez",
-    "population": 284839,
+    "population": 296876,
     "area": 1814,
     "postalCode": "02230"
   },
@@ -193,7 +193,7 @@
     "id": 1592,
     "province": "Adıyaman",
     "name": "Samsat",
-    "population": 6898,
+    "population": 6834,
     "area": 319,
     "postalCode": "02800"
   },
@@ -202,7 +202,7 @@
     "id": 1985,
     "province": "Adıyaman",
     "name": "Sincik",
-    "population": 16477,
+    "population": 15801,
     "area": 495,
     "postalCode": "02920"
   },
@@ -211,7 +211,7 @@
     "id": 1989,
     "province": "Adıyaman",
     "name": "Tut",
-    "population": 9635,
+    "population": 9199,
     "area": 290,
     "postalCode": "02350"
   },
@@ -220,7 +220,7 @@
     "id": 1771,
     "province": "Afyonkarahisar",
     "name": "Başmakçı",
-    "population": 9378,
+    "population": 9089,
     "area": 361,
     "postalCode": "03450"
   },
@@ -229,7 +229,7 @@
     "id": 1773,
     "province": "Afyonkarahisar",
     "name": "Bayat",
-    "population": 7852,
+    "population": 7580,
     "area": 411,
     "postalCode": "03780"
   },
@@ -238,7 +238,7 @@
     "id": 1200,
     "province": "Afyonkarahisar",
     "name": "Bolvadin",
-    "population": 45073,
+    "population": 45906,
     "area": 944,
     "postalCode": "03300"
   },
@@ -247,7 +247,7 @@
     "id": 1239,
     "province": "Afyonkarahisar",
     "name": "Çay",
-    "population": 29935,
+    "population": 29140,
     "area": 803,
     "postalCode": "03700"
   },
@@ -256,7 +256,7 @@
     "id": 1906,
     "province": "Afyonkarahisar",
     "name": "Çobanlar",
-    "population": 14404,
+    "population": 14457,
     "area": 165,
     "postalCode": "03060"
   },
@@ -265,7 +265,7 @@
     "id": 1267,
     "province": "Afyonkarahisar",
     "name": "Dazkırı",
-    "population": 11642,
+    "population": 11723,
     "area": 408,
     "postalCode": "03950"
   },
@@ -274,7 +274,7 @@
     "id": 1281,
     "province": "Afyonkarahisar",
     "name": "Dinar",
-    "population": 47492,
+    "population": 46878,
     "area": 1254,
     "postalCode": "03400"
   },
@@ -283,7 +283,7 @@
     "id": 1306,
     "province": "Afyonkarahisar",
     "name": "Emirdağ",
-    "population": 43603,
+    "population": 43350,
     "area": 2103,
     "postalCode": "03630"
   },
@@ -292,7 +292,7 @@
     "id": 1923,
     "province": "Afyonkarahisar",
     "name": "Evciler",
-    "population": 7173,
+    "population": 7038,
     "area": 252,
     "postalCode": "03960"
   },
@@ -301,7 +301,7 @@
     "id": 1944,
     "province": "Afyonkarahisar",
     "name": "Hocalar",
-    "population": 8644,
+    "population": 8220,
     "area": 506,
     "postalCode": "03530"
   },
@@ -310,7 +310,7 @@
     "id": 1404,
     "province": "Afyonkarahisar",
     "name": "İhsaniye",
-    "population": 29044,
+    "population": 27636,
     "area": 849,
     "postalCode": "03380"
   },
@@ -319,7 +319,7 @@
     "id": 1809,
     "province": "Afyonkarahisar",
     "name": "İscehisar",
-    "population": 25033,
+    "population": 25220,
     "area": 489,
     "postalCode": "03750"
   },
@@ -328,7 +328,7 @@
     "id": 1961,
     "province": "Afyonkarahisar",
     "name": "Kızılören",
-    "population": 2107,
+    "population": 1977,
     "area": 111,
     "postalCode": "03560"
   },
@@ -337,7 +337,7 @@
     "id": 1108,
     "province": "Afyonkarahisar",
     "name": "Merkez",
-    "population": 324685,
+    "population": 331982,
     "area": 1261,
     "postalCode": "03217"
   },
@@ -346,7 +346,7 @@
     "id": 1594,
     "province": "Afyonkarahisar",
     "name": "Sandıklı",
-    "population": 55413,
+    "population": 54376,
     "area": 1238,
     "postalCode": "03510"
   },
@@ -355,7 +355,7 @@
     "id": 1626,
     "province": "Afyonkarahisar",
     "name": "Sinanpaşa",
-    "population": 39566,
+    "population": 38292,
     "area": 889,
     "postalCode": "03860"
   },
@@ -364,7 +364,7 @@
     "id": 1639,
     "province": "Afyonkarahisar",
     "name": "Sultandağı",
-    "population": 14229,
+    "population": 13641,
     "area": 928,
     "postalCode": "03910"
   },
@@ -373,7 +373,7 @@
     "id": 1664,
     "province": "Afyonkarahisar",
     "name": "Şuhut",
-    "population": 36071,
+    "population": 35303,
     "area": 1044,
     "postalCode": "03830"
   },
@@ -382,7 +382,7 @@
     "id": 1283,
     "province": "Ağrı",
     "name": "Diyadin",
-    "population": 37687,
+    "population": 35439,
     "area": 1351,
     "postalCode": "04900"
   },
@@ -391,7 +391,7 @@
     "id": 1287,
     "province": "Ağrı",
     "name": "Doğubayazıt",
-    "population": 114727,
+    "population": 113699,
     "area": 2250,
     "postalCode": "04400"
   },
@@ -400,7 +400,7 @@
     "id": 1301,
     "province": "Ağrı",
     "name": "Eleşkirt",
-    "population": 30103,
+    "population": 28661,
     "area": 1307,
     "postalCode": "04600"
   },
@@ -409,7 +409,7 @@
     "id": 1379,
     "province": "Ağrı",
     "name": "Hamur",
-    "population": 16097,
+    "population": 14336,
     "area": 873,
     "postalCode": "04850"
   },
@@ -418,7 +418,7 @@
     "id": 1111,
     "province": "Ağrı",
     "name": "Merkez",
-    "population": 153709,
+    "population": 150035,
     "area": 1695,
     "postalCode": "04200"
   },
@@ -427,7 +427,7 @@
     "id": 1568,
     "province": "Ağrı",
     "name": "Patnos",
-    "population": 112515,
+    "population": 105968,
     "area": 1394,
     "postalCode": "04500"
   },
@@ -436,7 +436,7 @@
     "id": 1667,
     "province": "Ağrı",
     "name": "Taşlıçay",
-    "population": 18781,
+    "population": 17431,
     "area": 822,
     "postalCode": "04800"
   },
@@ -445,7 +445,7 @@
     "id": 1691,
     "province": "Ağrı",
     "name": "Tutak",
-    "population": 27619,
+    "population": 25920,
     "area": 1407,
     "postalCode": "04700"
   },
@@ -454,7 +454,7 @@
     "id": 1363,
     "province": "Amasya",
     "name": "Göynücek",
-    "population": 10363,
+    "population": 10823,
     "area": 591,
     "postalCode": "05900"
   },
@@ -463,7 +463,7 @@
     "id": 1368,
     "province": "Amasya",
     "name": "Gümüşhacıköy",
-    "population": 22121,
+    "population": 22319,
     "area": 629,
     "postalCode": "05700"
   },
@@ -472,7 +472,7 @@
     "id": 1938,
     "province": "Amasya",
     "name": "Hamamözü",
-    "population": 4003,
+    "population": 3628,
     "area": 204,
     "postalCode": "05720"
   },
@@ -481,7 +481,7 @@
     "id": 1134,
     "province": "Amasya",
     "name": "Merkez",
-    "population": 148908,
+    "population": 151433,
     "area": 1889,
     "postalCode": "05200"
   },
@@ -490,7 +490,7 @@
     "id": 1524,
     "province": "Amasya",
     "name": "Merzifon",
-    "population": 76266,
+    "population": 77077,
     "area": 888,
     "postalCode": "05300"
   },
@@ -499,7 +499,7 @@
     "id": 1641,
     "province": "Amasya",
     "name": "Suluova",
-    "population": 46986,
+    "population": 46928,
     "area": 456,
     "postalCode": "05500"
   },
@@ -508,7 +508,7 @@
     "id": 1668,
     "province": "Amasya",
     "name": "Taşova",
-    "population": 30882,
+    "population": 30034,
     "area": 971,
     "postalCode": "05845"
   },
@@ -517,7 +517,7 @@
     "id": 1872,
     "province": "Ankara",
     "name": "Akyurt",
-    "population": 43918,
+    "population": 46956,
     "area": 369,
     "postalCode": "06750"
   },
@@ -526,7 +526,7 @@
     "id": 1130,
     "province": "Ankara",
     "name": "Altındağ",
-    "population": 412267,
+    "population": 418072,
     "area": 123,
     "postalCode": "06080"
   },
@@ -535,7 +535,7 @@
     "id": 1157,
     "province": "Ankara",
     "name": "Ayaş",
-    "population": 15581,
+    "population": 13136,
     "area": 1041,
     "postalCode": "06710"
   },
@@ -544,7 +544,7 @@
     "id": 1167,
     "province": "Ankara",
     "name": "Bala",
-    "population": 28704,
+    "population": 20109,
     "area": 1851,
     "postalCode": "06726"
   },
@@ -553,7 +553,7 @@
     "id": 1187,
     "province": "Ankara",
     "name": "Beypazarı",
-    "population": 48558,
+    "population": 48359,
     "area": 1697,
     "postalCode": "06730"
   },
@@ -562,7 +562,7 @@
     "id": 1227,
     "province": "Ankara",
     "name": "Çamlıdere",
-    "population": 13971,
+    "population": 10203,
     "area": 782,
     "postalCode": "06740"
   },
@@ -571,7 +571,7 @@
     "id": 1231,
     "province": "Ankara",
     "name": "Çankaya",
-    "population": 937546,
+    "population": 952198,
     "area": 483,
     "postalCode": "06530"
   },
@@ -580,7 +580,7 @@
     "id": 1260,
     "province": "Ankara",
     "name": "Çubuk",
-    "population": 99096,
+    "population": 101437,
     "area": 1198,
     "postalCode": "06760"
   },
@@ -589,7 +589,7 @@
     "id": 1302,
     "province": "Ankara",
     "name": "Elmadağ",
-    "population": 45034,
+    "population": 45644,
     "area": 647,
     "postalCode": "06780"
   },
@@ -598,7 +598,7 @@
     "id": 1922,
     "province": "Ankara",
     "name": "Etimesgut",
-    "population": 617229,
+    "population": 632458,
     "area": 273,
     "postalCode": "06794"
   },
@@ -607,7 +607,7 @@
     "id": 1924,
     "province": "Ankara",
     "name": "Evren",
-    "population": 3581,
+    "population": 2927,
     "area": 222,
     "postalCode": "06770"
   },
@@ -616,7 +616,7 @@
     "id": 1744,
     "province": "Ankara",
     "name": "Gölbaşı",
-    "population": 157605,
+    "population": 172810,
     "area": 1364,
     "postalCode": "06830"
   },
@@ -625,7 +625,7 @@
     "id": 1365,
     "province": "Ankara",
     "name": "Güdül",
-    "population": 10014,
+    "population": 8028,
     "area": 540,
     "postalCode": "06842"
   },
@@ -634,7 +634,7 @@
     "id": 1387,
     "province": "Ankara",
     "name": "Haymana",
-    "population": 33494,
+    "population": 25798,
     "area": 2164,
     "postalCode": "06860"
   },
@@ -643,7 +643,7 @@
     "id": 1815,
     "province": "Ankara",
     "name": "Kahramankazan",
-    "population": 60804,
+    "population": 63143,
     "area": 547,
     "postalCode": "06980"
   },
@@ -652,7 +652,7 @@
     "id": 1427,
     "province": "Ankara",
     "name": "Kalecik",
-    "population": 13296,
+    "population": 12564,
     "area": 1110,
     "postalCode": "06870"
   },
@@ -661,7 +661,7 @@
     "id": 1745,
     "province": "Ankara",
     "name": "Keçiören",
-    "population": 923404,
+    "population": 931722,
     "area": 159,
     "postalCode": "06300"
   },
@@ -670,7 +670,7 @@
     "id": 1473,
     "province": "Ankara",
     "name": "Kızılcahamam",
-    "population": 31800,
+    "population": 27841,
     "area": 1623,
     "postalCode": "06890"
   },
@@ -679,7 +679,7 @@
     "id": 1746,
     "province": "Ankara",
     "name": "Mamak",
-    "population": 682279,
+    "population": 690329,
     "area": 321,
     "postalCode": "06620"
   },
@@ -688,7 +688,7 @@
     "id": 1539,
     "province": "Ankara",
     "name": "Nallıhan",
-    "population": 26831,
+    "population": 26083,
     "area": 2079,
     "postalCode": "06922"
   },
@@ -697,7 +697,7 @@
     "id": 1578,
     "province": "Ankara",
     "name": "Polatlı",
-    "population": 128895,
+    "population": 131894,
     "area": 3618,
     "postalCode": "06900"
   },
@@ -706,7 +706,7 @@
     "id": 2034,
     "province": "Ankara",
     "name": "Pursaklar",
-    "population": 161926,
+    "population": 168881,
     "area": 169,
     "postalCode": "06145"
   },
@@ -715,7 +715,7 @@
     "id": 1747,
     "province": "Ankara",
     "name": "Sincan",
-    "population": 571889,
+    "population": 605366,
     "area": 880,
     "postalCode": "06935"
   },
@@ -724,7 +724,7 @@
     "id": 1658,
     "province": "Ankara",
     "name": "Şereflikoçhisar",
-    "population": 34122,
+    "population": 32831,
     "area": 2155,
     "postalCode": "06950"
   },
@@ -733,7 +733,7 @@
     "id": 1723,
     "province": "Ankara",
     "name": "Yenimahalle",
-    "population": 701638,
+    "population": 721531,
     "area": 219,
     "postalCode": "06560"
   },
@@ -742,7 +742,7 @@
     "id": 1121,
     "province": "Antalya",
     "name": "Akseki",
-    "population": 11896,
+    "population": 10609,
     "area": 1544,
     "postalCode": "07630"
   },
@@ -751,7 +751,7 @@
     "id": 2035,
     "province": "Antalya",
     "name": "Aksu",
-    "population": 80350,
+    "population": 87070,
     "area": 406,
     "postalCode": "07112"
   },
@@ -760,7 +760,7 @@
     "id": 1126,
     "province": "Antalya",
     "name": "Alanya",
-    "population": 359891,
+    "population": 371547,
     "area": 1577,
     "postalCode": "07400"
   },
@@ -769,7 +769,7 @@
     "id": 1811,
     "province": "Antalya",
     "name": "Demre",
-    "population": 27762,
+    "population": 28075,
     "area": 329,
     "postalCode": "07570"
   },
@@ -778,7 +778,7 @@
     "id": 2036,
     "province": "Antalya",
     "name": "Döşemealtı",
-    "population": 86109,
+    "population": 97121,
     "area": 687,
     "postalCode": "07121"
   },
@@ -787,7 +787,7 @@
     "id": 1303,
     "province": "Antalya",
     "name": "Elmalı",
-    "population": 41240,
+    "population": 41550,
     "area": 1433,
     "postalCode": "07770"
   },
@@ -796,7 +796,7 @@
     "id": 1333,
     "province": "Antalya",
     "name": "Finike",
-    "population": 50688,
+    "population": 52436,
     "area": 768,
     "postalCode": "07740"
   },
@@ -805,7 +805,7 @@
     "id": 1337,
     "province": "Antalya",
     "name": "Gazipaşa",
-    "population": 55185,
+    "population": 55850,
     "area": 1111,
     "postalCode": "07900"
   },
@@ -814,7 +814,7 @@
     "id": 1370,
     "province": "Antalya",
     "name": "Gündoğmuş",
-    "population": 8259,
+    "population": 6953,
     "area": 1175,
     "postalCode": "07860"
   },
@@ -823,7 +823,7 @@
     "id": 1946,
     "province": "Antalya",
     "name": "İbradı",
-    "population": 4243,
+    "population": 3256,
     "area": 778,
     "postalCode": "07680"
   },
@@ -832,7 +832,7 @@
     "id": 1451,
     "province": "Antalya",
     "name": "Kaş",
-    "population": 64014,
+    "population": 63957,
     "area": 1750,
     "postalCode": "07976"
   },
@@ -841,7 +841,7 @@
     "id": 1959,
     "province": "Antalya",
     "name": "Kemer",
-    "population": 49695,
+    "population": 52339,
     "area": 412,
     "postalCode": "07990"
   },
@@ -850,7 +850,7 @@
     "id": 2037,
     "province": "Antalya",
     "name": "Kepez",
-    "population": 614135,
+    "population": 649102,
     "area": 292,
     "postalCode": "07090"
   },
@@ -859,7 +859,7 @@
     "id": 2038,
     "province": "Antalya",
     "name": "Konyaaltı",
-    "population": 196498,
+    "population": 199414,
     "area": 546,
     "postalCode": "07070"
   },
@@ -868,7 +868,7 @@
     "id": 1483,
     "province": "Antalya",
     "name": "Korkuteli",
-    "population": 59295,
+    "population": 58381,
     "area": 2433,
     "postalCode": "07810"
   },
@@ -877,7 +877,7 @@
     "id": 1492,
     "province": "Antalya",
     "name": "Kumluca",
-    "population": 74353,
+    "population": 75588,
     "area": 1225,
     "postalCode": "07365"
   },
@@ -886,7 +886,7 @@
     "id": 1512,
     "province": "Antalya",
     "name": "Manavgat",
-    "population": 258367,
+    "population": 266480,
     "area": 2351,
     "postalCode": "07600"
   },
@@ -895,7 +895,7 @@
     "id": 2039,
     "province": "Antalya",
     "name": "Muratpaşa",
-    "population": 512700,
+    "population": 510887,
     "area": 96,
     "postalCode": "07050"
   },
@@ -904,7 +904,7 @@
     "id": 1616,
     "province": "Antalya",
     "name": "Serik",
-    "population": 141569,
+    "population": 147062,
     "area": 1263,
     "postalCode": "07511"
   },
@@ -913,7 +913,7 @@
     "id": 1145,
     "province": "Artvin",
     "name": "Ardanuç",
-    "population": 11157,
+    "population": 10889,
     "area": 958,
     "postalCode": "08300"
   },
@@ -922,7 +922,7 @@
     "id": 1147,
     "province": "Artvin",
     "name": "Arhavi",
-    "population": 21746,
+    "population": 22025,
     "area": 407,
     "postalCode": "08200"
   },
@@ -931,7 +931,7 @@
     "id": 1202,
     "province": "Artvin",
     "name": "Borçka",
-    "population": 24622,
+    "population": 21628,
     "area": 805,
     "postalCode": "08400"
   },
@@ -940,7 +940,7 @@
     "id": 1395,
     "province": "Artvin",
     "name": "Hopa",
-    "population": 27176,
+    "population": 27844,
     "area": 130,
     "postalCode": "08600"
   },
@@ -949,7 +949,7 @@
     "id": 2105,
     "province": "Artvin",
     "name": "Kemalpaşa",
-    "population": 9688,
+    "population": 9263,
     "area": 74,
     "postalCode": "08610"
   },
@@ -958,7 +958,7 @@
     "id": 1152,
     "province": "Artvin",
     "name": "Merkez",
-    "population": 35929,
+    "population": 35710,
     "area": 1141,
     "postalCode": "08000"
   },
@@ -967,7 +967,7 @@
     "id": 1828,
     "province": "Artvin",
     "name": "Murgul",
-    "population": 6319,
+    "population": 6457,
     "area": 301,
     "postalCode": "08500"
   },
@@ -976,7 +976,7 @@
     "id": 1653,
     "province": "Artvin",
     "name": "Şavşat",
-    "population": 16917,
+    "population": 16151,
     "area": 1316,
     "postalCode": "08790"
   },
@@ -985,7 +985,7 @@
     "id": 1736,
     "province": "Artvin",
     "name": "Yusufeli",
-    "population": 18802,
+    "population": 17564,
     "area": 2261,
     "postalCode": "08890"
   },
@@ -994,7 +994,7 @@
     "id": 1206,
     "province": "Aydın",
     "name": "Bozdoğan",
-    "population": 32528,
+    "population": 31624,
     "area": 859,
     "postalCode": "09760"
   },
@@ -1003,7 +1003,7 @@
     "id": 1781,
     "province": "Aydın",
     "name": "Buharkent",
-    "population": 13187,
+    "population": 13137,
     "area": 124,
     "postalCode": "09670"
   },
@@ -1012,7 +1012,7 @@
     "id": 1256,
     "province": "Aydın",
     "name": "Çine",
-    "population": 48585,
+    "population": 47906,
     "area": 820,
     "postalCode": "09520"
   },
@@ -1021,7 +1021,7 @@
     "id": 2000,
     "province": "Aydın",
     "name": "Didim",
-    "population": 100189,
+    "population": 103141,
     "area": 424,
     "postalCode": "09295"
   },
@@ -1030,7 +1030,7 @@
     "id": 2076,
     "province": "Aydın",
     "name": "Efeler",
-    "population": 308039,
+    "population": 310241,
     "area": 624,
     "postalCode": "09100"
   },
@@ -1039,7 +1039,7 @@
     "id": 1348,
     "province": "Aydın",
     "name": "Germencik",
-    "population": 44793,
+    "population": 44697,
     "area": 394,
     "postalCode": "09700"
   },
@@ -1048,7 +1048,7 @@
     "id": 1807,
     "province": "Aydın",
     "name": "İncirliova",
-    "population": 56934,
+    "population": 58230,
     "area": 188,
     "postalCode": "09610"
   },
@@ -1057,7 +1057,7 @@
     "id": 1435,
     "province": "Aydın",
     "name": "Karacasu",
-    "population": 17880,
+    "population": 17225,
     "area": 727,
     "postalCode": "09380"
   },
@@ -1066,7 +1066,7 @@
     "id": 1957,
     "province": "Aydın",
     "name": "Karpuzlu",
-    "population": 10616,
+    "population": 10352,
     "area": 286,
     "postalCode": "09540"
   },
@@ -1075,7 +1075,7 @@
     "id": 1479,
     "province": "Aydın",
     "name": "Koçarlı",
-    "population": 22599,
+    "population": 22234,
     "area": 455,
     "postalCode": "09970"
   },
@@ -1084,7 +1084,7 @@
     "id": 1968,
     "province": "Aydın",
     "name": "Köşk",
-    "population": 28440,
+    "population": 28307,
     "area": 187,
     "postalCode": "09570"
   },
@@ -1093,7 +1093,7 @@
     "id": 1497,
     "province": "Aydın",
     "name": "Kuşadası",
-    "population": 133177,
+    "population": 141431,
     "area": 265,
     "postalCode": "09430"
   },
@@ -1102,7 +1102,7 @@
     "id": 1498,
     "province": "Aydın",
     "name": "Kuyucak",
-    "population": 26047,
+    "population": 26196,
     "area": 544,
     "postalCode": "09935"
   },
@@ -1111,7 +1111,7 @@
     "id": 1542,
     "province": "Aydın",
     "name": "Nazilli",
-    "population": 162074,
+    "population": 162156,
     "area": 691,
     "postalCode": "09800"
   },
@@ -1120,7 +1120,7 @@
     "id": 1637,
     "province": "Aydın",
     "name": "Söke",
-    "population": 124217,
+    "population": 123843,
     "area": 1064,
     "postalCode": "09220"
   },
@@ -1129,7 +1129,7 @@
     "id": 1640,
     "province": "Aydın",
     "name": "Sultanhisar",
-    "population": 20399,
+    "population": 19791,
     "area": 220,
     "postalCode": "09650"
   },
@@ -1138,7 +1138,7 @@
     "id": 1724,
     "province": "Aydın",
     "name": "Yenipazar",
-    "population": 11998,
+    "population": 11596,
     "area": 245,
     "postalCode": "09350"
   },
@@ -1147,7 +1147,7 @@
     "id": 2077,
     "province": "Balıkesir",
     "name": "Altıeylül",
-    "population": 185458,
+    "population": 188858,
     "area": 956,
     "postalCode": "10100"
   },
@@ -1156,7 +1156,7 @@
     "id": 1161,
     "province": "Balıkesir",
     "name": "Ayvalık",
-    "population": 74643,
+    "population": 75815,
     "area": 305,
     "postalCode": "10405"
   },
@@ -1165,7 +1165,7 @@
     "id": 1169,
     "province": "Balıkesir",
     "name": "Balya",
-    "population": 13000,
+    "population": 12296,
     "area": 797,
     "postalCode": "10840"
   },
@@ -1174,7 +1174,7 @@
     "id": 1171,
     "province": "Balıkesir",
     "name": "Bandırma",
-    "population": 166836,
+    "population": 169476,
     "area": 755,
     "postalCode": "10245"
   },
@@ -1183,7 +1183,7 @@
     "id": 1191,
     "province": "Balıkesir",
     "name": "Bigadiç",
-    "population": 49177,
+    "population": 49275,
     "area": 1108,
     "postalCode": "10440"
   },
@@ -1192,7 +1192,7 @@
     "id": 1216,
     "province": "Balıkesir",
     "name": "Burhaniye",
-    "population": 65790,
+    "population": 68370,
     "area": 420,
     "postalCode": "10700"
   },
@@ -1201,7 +1201,7 @@
     "id": 1291,
     "province": "Balıkesir",
     "name": "Dursunbey",
-    "population": 33621,
+    "population": 32168,
     "area": 1719,
     "postalCode": "10800"
   },
@@ -1210,7 +1210,7 @@
     "id": 1294,
     "province": "Balıkesir",
     "name": "Edremit",
-    "population": 171700,
+    "population": 176251,
     "area": 682,
     "postalCode": "10390"
   },
@@ -1219,7 +1219,7 @@
     "id": 1310,
     "province": "Balıkesir",
     "name": "Erdek",
-    "population": 32268,
+    "population": 32080,
     "area": 307,
     "postalCode": "10500"
   },
@@ -1228,7 +1228,7 @@
     "id": 1928,
     "province": "Balıkesir",
     "name": "Gömeç",
-    "population": 17556,
+    "population": 19020,
     "area": 171,
     "postalCode": "10715"
   },
@@ -1237,7 +1237,7 @@
     "id": 1360,
     "province": "Balıkesir",
     "name": "Gönen",
-    "population": 75572,
+    "population": 75730,
     "area": 1162,
     "postalCode": "10900"
   },
@@ -1246,7 +1246,7 @@
     "id": 1384,
     "province": "Balıkesir",
     "name": "Havran",
-    "population": 28287,
+    "population": 28152,
     "area": 565,
     "postalCode": "10565"
   },
@@ -1255,7 +1255,7 @@
     "id": 1418,
     "province": "Balıkesir",
     "name": "İvrindi",
-    "population": 31626,
+    "population": 31295,
     "area": 818,
     "postalCode": "10785"
   },
@@ -1264,7 +1264,7 @@
     "id": 2078,
     "province": "Balıkesir",
     "name": "Karesi",
-    "population": 188846,
+    "population": 189444,
     "area": 695,
     "postalCode": "10085"
   },
@@ -1273,7 +1273,7 @@
     "id": 1462,
     "province": "Balıkesir",
     "name": "Kepsut",
-    "population": 21804,
+    "population": 21386,
     "area": 889,
     "postalCode": "10660"
   },
@@ -1282,7 +1282,7 @@
     "id": 1514,
     "province": "Balıkesir",
     "name": "Manyas",
-    "population": 18190,
+    "population": 17650,
     "area": 634,
     "postalCode": "10480"
   },
@@ -1291,7 +1291,7 @@
     "id": 1824,
     "province": "Balıkesir",
     "name": "Marmara",
-    "population": 11454,
+    "population": 11827,
     "area": 134,
     "postalCode": "10940"
   },
@@ -1300,7 +1300,7 @@
     "id": 1608,
     "province": "Balıkesir",
     "name": "Savaştepe",
-    "population": 16787,
+    "population": 16266,
     "area": 427,
     "postalCode": "10580"
   },
@@ -1309,7 +1309,7 @@
     "id": 1619,
     "province": "Balıkesir",
     "name": "Sındırgı",
-    "population": 32879,
+    "population": 31482,
     "area": 1387,
     "postalCode": "10330"
   },
@@ -1318,7 +1318,7 @@
     "id": 1644,
     "province": "Balıkesir",
     "name": "Susurluk",
-    "population": 38025,
+    "population": 37676,
     "area": 652,
     "postalCode": "10610"
   },
@@ -1327,7 +1327,7 @@
     "id": 1210,
     "province": "Bilecik",
     "name": "Bozüyük",
-    "population": 79853,
+    "population": 81332,
     "area": 860,
     "postalCode": "11300"
   },
@@ -1336,7 +1336,7 @@
     "id": 1359,
     "province": "Bilecik",
     "name": "Gölpazarı",
-    "population": 9831,
+    "population": 10049,
     "area": 670,
     "postalCode": "11700"
   },
@@ -1345,7 +1345,7 @@
     "id": 1948,
     "province": "Bilecik",
     "name": "İnhisar",
-    "population": 2377,
+    "population": 2079,
     "area": 244,
     "postalCode": "11640"
   },
@@ -1354,7 +1354,7 @@
     "id": 1192,
     "province": "Bilecik",
     "name": "Merkez",
-    "population": 82416,
+    "population": 82863,
     "area": 793,
     "postalCode": "11000"
   },
@@ -1363,7 +1363,7 @@
     "id": 1559,
     "province": "Bilecik",
     "name": "Osmaneli",
-    "population": 21875,
+    "population": 22025,
     "area": 490,
     "postalCode": "11500"
   },
@@ -1372,7 +1372,7 @@
     "id": 1571,
     "province": "Bilecik",
     "name": "Pazaryeri",
-    "population": 9967,
+    "population": 9671,
     "area": 324,
     "postalCode": "11800"
   },
@@ -1381,7 +1381,7 @@
     "id": 1636,
     "province": "Bilecik",
     "name": "Söğüt",
-    "population": 18844,
+    "population": 18284,
     "area": 523,
     "postalCode": "11600"
   },
@@ -1390,7 +1390,7 @@
     "id": 1857,
     "province": "Bilecik",
     "name": "Yenipazar",
-    "population": 2895,
+    "population": 2692,
     "area": 273,
     "postalCode": "11780"
   },
@@ -1399,7 +1399,7 @@
     "id": 1750,
     "province": "Bingöl",
     "name": "Adaklı",
-    "population": 8863,
+    "population": 7491,
     "area": 825,
     "postalCode": "12600"
   },
@@ -1408,7 +1408,7 @@
     "id": 1344,
     "province": "Bingöl",
     "name": "Genç",
-    "population": 34178,
+    "population": 31654,
     "area": 1443,
     "postalCode": "12500"
   },
@@ -1417,7 +1417,7 @@
     "id": 1446,
     "province": "Bingöl",
     "name": "Karlıova",
-    "population": 26819,
+    "population": 25265,
     "area": 1566,
     "postalCode": "12900"
   },
@@ -1426,7 +1426,7 @@
     "id": 1475,
     "province": "Bingöl",
     "name": "Kiğı",
-    "population": 5035,
+    "population": 4487,
     "area": 483,
     "postalCode": "12800"
   },
@@ -1435,7 +1435,7 @@
     "id": 1193,
     "province": "Bingöl",
     "name": "Merkez",
-    "population": 172007,
+    "population": 175438,
     "area": 1814,
     "postalCode": "12400"
   },
@@ -1444,7 +1444,7 @@
     "id": 1633,
     "province": "Bingöl",
     "name": "Solhan",
-    "population": 33651,
+    "population": 33233,
     "area": 1033,
     "postalCode": "12700"
   },
@@ -1453,7 +1453,7 @@
     "id": 1855,
     "province": "Bingöl",
     "name": "Yayladere",
-    "population": 2304,
+    "population": 1889,
     "area": 417,
     "postalCode": "12650"
   },
@@ -1462,7 +1462,7 @@
     "id": 1996,
     "province": "Bingöl",
     "name": "Yedisu",
-    "population": 2798,
+    "population": 2842,
     "area": 423,
     "postalCode": "12830"
   },
@@ -1471,7 +1471,7 @@
     "id": 1106,
     "province": "Bitlis",
     "name": "Adilcevaz",
-    "population": 29697,
+    "population": 28769,
     "area": 1586,
     "postalCode": "13500"
   },
@@ -1480,7 +1480,7 @@
     "id": 1112,
     "province": "Bitlis",
     "name": "Ahlat",
-    "population": 44475,
+    "population": 45637,
     "area": 1153,
     "postalCode": "13400"
   },
@@ -1489,7 +1489,7 @@
     "id": 1798,
     "province": "Bitlis",
     "name": "Güroymak",
-    "population": 49161,
+    "population": 49372,
     "area": 515,
     "postalCode": "13810"
   },
@@ -1498,7 +1498,7 @@
     "id": 1394,
     "province": "Bitlis",
     "name": "Hizan",
-    "population": 31911,
+    "population": 29948,
     "area": 1021,
     "postalCode": "13600"
   },
@@ -1507,7 +1507,7 @@
     "id": 1196,
     "province": "Bitlis",
     "name": "Merkez",
-    "population": 73264,
+    "population": 74904,
     "area": 1064,
     "postalCode": "13000"
   },
@@ -1516,7 +1516,7 @@
     "id": 1537,
     "province": "Bitlis",
     "name": "Mutki",
-    "population": 29203,
+    "population": 26748,
     "area": 1069,
     "postalCode": "13700"
   },
@@ -1525,7 +1525,7 @@
     "id": 1669,
     "province": "Bitlis",
     "name": "Tatvan",
-    "population": 102036,
+    "population": 105045,
     "area": 1885,
     "postalCode": "13200"
   },
@@ -1534,7 +1534,7 @@
     "id": 1916,
     "province": "Bolu",
     "name": "Dörtdivan",
-    "population": 6703,
+    "population": 6214,
     "area": 634,
     "postalCode": "14910"
   },
@@ -1543,7 +1543,7 @@
     "id": 1346,
     "province": "Bolu",
     "name": "Gerede",
-    "population": 36177,
+    "population": 37196,
     "area": 1060,
     "postalCode": "14900"
   },
@@ -1552,7 +1552,7 @@
     "id": 1364,
     "province": "Bolu",
     "name": "Göynük",
-    "population": 14711,
+    "population": 14257,
     "area": 1407,
     "postalCode": "14780"
   },
@@ -1561,7 +1561,7 @@
     "id": 1466,
     "province": "Bolu",
     "name": "Kıbrıscık",
-    "population": 2980,
+    "population": 3783,
     "area": 562,
     "postalCode": "14610"
   },
@@ -1570,7 +1570,7 @@
     "id": 1522,
     "province": "Bolu",
     "name": "Mengen",
-    "population": 14113,
+    "population": 14152,
     "area": 874,
     "postalCode": "14850"
   },
@@ -1579,7 +1579,7 @@
     "id": 1199,
     "province": "Bolu",
     "name": "Merkez",
-    "population": 219913,
+    "population": 222589,
     "area": 1616,
     "postalCode": "14300"
   },
@@ -1588,7 +1588,7 @@
     "id": 1531,
     "province": "Bolu",
     "name": "Mudurnu",
-    "population": 18576,
+    "population": 18101,
     "area": 1314,
     "postalCode": "14800"
   },
@@ -1597,7 +1597,7 @@
     "id": 1610,
     "province": "Bolu",
     "name": "Seben",
-    "population": 4807,
+    "population": 4438,
     "area": 683,
     "postalCode": "14750"
   },
@@ -1606,7 +1606,7 @@
     "id": 1997,
     "province": "Bolu",
     "name": "Yeniçağa",
-    "population": 6809,
+    "population": 6443,
     "area": 163,
     "postalCode": "14650"
   },
@@ -1615,7 +1615,7 @@
     "id": 1109,
     "province": "Burdur",
     "name": "Ağlasun",
-    "population": 7929,
+    "population": 7347,
     "area": 305,
     "postalCode": "15800"
   },
@@ -1624,7 +1624,7 @@
     "id": 1874,
     "province": "Burdur",
     "name": "Altınyayla",
-    "population": 5224,
+    "population": 5060,
     "area": 221,
     "postalCode": "15420"
   },
@@ -1633,7 +1633,7 @@
     "id": 1211,
     "province": "Burdur",
     "name": "Bucak",
-    "population": 68290,
+    "population": 68312,
     "area": 1511,
     "postalCode": "15300"
   },
@@ -1642,7 +1642,7 @@
     "id": 1899,
     "province": "Burdur",
     "name": "Çavdır",
-    "population": 13095,
+    "population": 12539,
     "area": 482,
     "postalCode": "15900"
   },
@@ -1651,7 +1651,7 @@
     "id": 1903,
     "province": "Burdur",
     "name": "Çeltikçi",
-    "population": 5337,
+    "population": 4914,
     "area": 161,
     "postalCode": "15070"
   },
@@ -1660,7 +1660,7 @@
     "id": 1357,
     "province": "Burdur",
     "name": "Gölhisar",
-    "population": 23920,
+    "population": 23969,
     "area": 494,
     "postalCode": "15400"
   },
@@ -1669,7 +1669,7 @@
     "id": 1813,
     "province": "Burdur",
     "name": "Karamanlı",
-    "population": 8249,
+    "population": 8097,
     "area": 372,
     "postalCode": "15700"
   },
@@ -1678,7 +1678,7 @@
     "id": 1816,
     "province": "Burdur",
     "name": "Kemer",
-    "population": 2888,
+    "population": 2727,
     "area": 373,
     "postalCode": "15090"
   },
@@ -1687,7 +1687,7 @@
     "id": 1215,
     "province": "Burdur",
     "name": "Merkez",
-    "population": 117537,
+    "population": 120832,
     "area": 1567,
     "postalCode": "15100"
   },
@@ -1696,7 +1696,7 @@
     "id": 1672,
     "province": "Burdur",
     "name": "Tefenni",
-    "population": 10546,
+    "population": 9514,
     "area": 582,
     "postalCode": "15600"
   },
@@ -1705,7 +1705,7 @@
     "id": 1728,
     "province": "Burdur",
     "name": "Yeşilova",
-    "population": 14437,
+    "population": 13915,
     "area": 1108,
     "postalCode": "15500"
   },
@@ -1714,7 +1714,7 @@
     "id": 1783,
     "province": "Bursa",
     "name": "Büyükorhan",
-    "population": 10325,
+    "population": 9148,
     "area": 505,
     "postalCode": "16990"
   },
@@ -1723,7 +1723,7 @@
     "id": 1343,
     "province": "Bursa",
     "name": "Gemlik",
-    "population": 122171,
+    "population": 124400,
     "area": 401,
     "postalCode": "16600"
   },
@@ -1732,7 +1732,7 @@
     "id": 1935,
     "province": "Bursa",
     "name": "Gürsu",
-    "population": 103770,
+    "population": 105799,
     "area": 106,
     "postalCode": "16580"
   },
@@ -1741,7 +1741,7 @@
     "id": 1799,
     "province": "Bursa",
     "name": "Harmancık",
-    "population": 6334,
+    "population": 6089,
     "area": 400,
     "postalCode": "16770"
   },
@@ -1750,7 +1750,7 @@
     "id": 1411,
     "province": "Bursa",
     "name": "İnegöl",
-    "population": 299203,
+    "population": 306004,
     "area": 1118,
     "postalCode": "16415"
   },
@@ -1759,7 +1759,7 @@
     "id": 1420,
     "province": "Bursa",
     "name": "İznik",
-    "population": 44988,
+    "population": 45510,
     "area": 753,
     "postalCode": "16870"
   },
@@ -1768,7 +1768,7 @@
     "id": 1434,
     "province": "Bursa",
     "name": "Karacabey",
-    "population": 85765,
+    "population": 86543,
     "area": 1158,
     "postalCode": "16700"
   },
@@ -1777,7 +1777,7 @@
     "id": 1457,
     "province": "Bursa",
     "name": "Keles",
-    "population": 11321,
+    "population": 10939,
     "area": 617,
     "postalCode": "16740"
   },
@@ -1786,7 +1786,7 @@
     "id": 1960,
     "province": "Bursa",
     "name": "Kestel",
-    "population": 75954,
+    "population": 77374,
     "area": 423,
     "postalCode": "16460"
   },
@@ -1795,7 +1795,7 @@
     "id": 1530,
     "province": "Bursa",
     "name": "Mudanya",
-    "population": 109964,
+    "population": 112225,
     "area": 369,
     "postalCode": "16950"
   },
@@ -1804,7 +1804,7 @@
     "id": 1535,
     "province": "Bursa",
     "name": "Mustafakemalpaşa",
-    "population": 103944,
+    "population": 103652,
     "area": 1641,
     "postalCode": "16535"
   },
@@ -1813,7 +1813,7 @@
     "id": 1829,
     "province": "Bursa",
     "name": "Nilüfer",
-    "population": 543934,
+    "population": 578059,
     "area": 552,
     "postalCode": "16110"
   },
@@ -1822,7 +1822,7 @@
     "id": 1553,
     "province": "Bursa",
     "name": "Orhaneli",
-    "population": 19527,
+    "population": 18963,
     "area": 838,
     "postalCode": "16980"
   },
@@ -1831,7 +1831,7 @@
     "id": 1554,
     "province": "Bursa",
     "name": "Orhangazi",
-    "population": 81862,
+    "population": 81997,
     "area": 506,
     "postalCode": "16810"
   },
@@ -1840,7 +1840,7 @@
     "id": 1832,
     "province": "Bursa",
     "name": "Osmangazi",
-    "population": 885273,
+    "population": 886111,
     "area": 621,
     "postalCode": "16190"
   },
@@ -1849,7 +1849,7 @@
     "id": 1725,
     "province": "Bursa",
     "name": "Yenişehir",
-    "population": 55745,
+    "population": 55609,
     "area": 720,
     "postalCode": "16900"
   },
@@ -1858,7 +1858,7 @@
     "id": 1859,
     "province": "Bursa",
     "name": "Yıldırım",
-    "population": 654491,
+    "population": 654589,
     "area": 110,
     "postalCode": "16290"
   },
@@ -1867,7 +1867,7 @@
     "id": 1160,
     "province": "Çanakkale",
     "name": "Ayvacık",
-    "population": 35141,
+    "population": 35411,
     "area": 880,
     "postalCode": "17860"
   },
@@ -1876,7 +1876,7 @@
     "id": 1180,
     "province": "Çanakkale",
     "name": "Bayramiç",
-    "population": 29160,
+    "population": 28480,
     "area": 1204,
     "postalCode": "17700"
   },
@@ -1885,7 +1885,7 @@
     "id": 1190,
     "province": "Çanakkale",
     "name": "Biga",
-    "population": 93778,
+    "population": 94526,
     "area": 1310,
     "postalCode": "17200"
   },
@@ -1894,7 +1894,7 @@
     "id": 1205,
     "province": "Çanakkale",
     "name": "Bozcaada",
-    "population": 3243,
+    "population": 3384,
     "area": 37,
     "postalCode": "17680"
   },
@@ -1903,7 +1903,7 @@
     "id": 1229,
     "province": "Çanakkale",
     "name": "Çan",
-    "population": 47624,
+    "population": 46612,
     "area": 905,
     "postalCode": "17400"
   },
@@ -1912,7 +1912,7 @@
     "id": 1293,
     "province": "Çanakkale",
     "name": "Eceabat",
-    "population": 8780,
+    "population": 8746,
     "area": 430,
     "postalCode": "17900"
   },
@@ -1921,7 +1921,7 @@
     "id": 1326,
     "province": "Çanakkale",
     "name": "Ezine",
-    "population": 33413,
+    "population": 31894,
     "area": 727,
     "postalCode": "17600"
   },
@@ -1930,7 +1930,7 @@
     "id": 1340,
     "province": "Çanakkale",
     "name": "Gelibolu",
-    "population": 44461,
+    "population": 44689,
     "area": 823,
     "postalCode": "17360"
   },
@@ -1939,7 +1939,7 @@
     "id": 1408,
     "province": "Çanakkale",
     "name": "Gökçeada",
-    "population": 10721,
+    "population": 11331,
     "area": 282,
     "postalCode": "17760"
   },
@@ -1948,7 +1948,7 @@
     "id": 1503,
     "province": "Çanakkale",
     "name": "Lapseki",
-    "population": 30259,
+    "population": 30654,
     "area": 821,
     "postalCode": "17810"
   },
@@ -1957,7 +1957,7 @@
     "id": 1230,
     "province": "Çanakkale",
     "name": "Merkez",
-    "population": 203523,
+    "population": 208613,
     "area": 1016,
     "postalCode": "17020"
   },
@@ -1966,7 +1966,7 @@
     "id": 1722,
     "province": "Çanakkale",
     "name": "Yenice",
-    "population": 30396,
+    "population": 29636,
     "area": 1381,
     "postalCode": "17560"
   },
@@ -1975,7 +1975,7 @@
     "id": 1765,
     "province": "Çankırı",
     "name": "Atkaracalar",
-    "population": 5079,
+    "population": 5063,
     "area": 234,
     "postalCode": "18310"
   },
@@ -1984,7 +1984,7 @@
     "id": 1885,
     "province": "Çankırı",
     "name": "Bayramören",
-    "population": 2740,
+    "population": 2209,
     "area": 310,
     "postalCode": "18320"
   },
@@ -1993,7 +1993,7 @@
     "id": 1248,
     "province": "Çankırı",
     "name": "Çerkeş",
-    "population": 16909,
+    "population": 16927,
     "area": 947,
     "postalCode": "18600"
   },
@@ -2002,7 +2002,7 @@
     "id": 1300,
     "province": "Çankırı",
     "name": "Eldivan",
-    "population": 7331,
+    "population": 6198,
     "area": 350,
     "postalCode": "18700"
   },
@@ -2011,7 +2011,7 @@
     "id": 1399,
     "province": "Çankırı",
     "name": "Ilgaz",
-    "population": 14271,
+    "population": 13948,
     "area": 845,
     "postalCode": "18400"
   },
@@ -2020,7 +2020,7 @@
     "id": 1817,
     "province": "Çankırı",
     "name": "Kızılırmak",
-    "population": 7703,
+    "population": 6830,
     "area": 514,
     "postalCode": "18280"
   },
@@ -2029,7 +2029,7 @@
     "id": 1963,
     "province": "Çankırı",
     "name": "Korgun",
-    "population": 4226,
+    "population": 4239,
     "area": 378,
     "postalCode": "18260"
   },
@@ -2038,7 +2038,7 @@
     "id": 1494,
     "province": "Çankırı",
     "name": "Kurşunlu",
-    "population": 9947,
+    "population": 9130,
     "area": 609,
     "postalCode": "18300"
   },
@@ -2047,7 +2047,7 @@
     "id": 1232,
     "province": "Çankırı",
     "name": "Merkez",
-    "population": 98574,
+    "population": 99287,
     "area": 1440,
     "postalCode": "18100"
   },
@@ -2056,7 +2056,7 @@
     "id": 1555,
     "province": "Çankırı",
     "name": "Orta",
-    "population": 16921,
+    "population": 17223,
     "area": 706,
     "postalCode": "18800"
   },
@@ -2065,7 +2065,7 @@
     "id": 1649,
     "province": "Çankırı",
     "name": "Şabanözü",
-    "population": 13192,
+    "population": 12493,
     "area": 467,
     "postalCode": "18650"
   },
@@ -2074,7 +2074,7 @@
     "id": 1718,
     "province": "Çankırı",
     "name": "Yapraklı",
-    "population": 8608,
+    "population": 7002,
     "area": 741,
     "postalCode": "18900"
   },
@@ -2083,7 +2083,7 @@
     "id": 1124,
     "province": "Çorum",
     "name": "Alaca",
-    "population": 29952,
+    "population": 28989,
     "area": 1296,
     "postalCode": "19600"
   },
@@ -2092,7 +2092,7 @@
     "id": 1177,
     "province": "Çorum",
     "name": "Bayat",
-    "population": 15047,
+    "population": 13312,
     "area": 717,
     "postalCode": "19800"
   },
@@ -2101,7 +2101,7 @@
     "id": 1778,
     "province": "Çorum",
     "name": "Boğazkale",
-    "population": 4068,
+    "population": 3587,
     "area": 264,
     "postalCode": "19310"
   },
@@ -2110,7 +2110,7 @@
     "id": 1911,
     "province": "Çorum",
     "name": "Dodurga",
-    "population": 5786,
+    "population": 5036,
     "area": 229,
     "postalCode": "19060"
   },
@@ -2119,7 +2119,7 @@
     "id": 1414,
     "province": "Çorum",
     "name": "İskilip",
-    "population": 29270,
+    "population": 28132,
     "area": 1170,
     "postalCode": "19400"
   },
@@ -2128,7 +2128,7 @@
     "id": 1445,
     "province": "Çorum",
     "name": "Kargı",
-    "population": 16040,
+    "population": 15119,
     "area": 1174,
     "postalCode": "19900"
   },
@@ -2137,7 +2137,7 @@
     "id": 1972,
     "province": "Çorum",
     "name": "Laçin",
-    "population": 4883,
+    "population": 4094,
     "area": 196,
     "postalCode": "19020"
   },
@@ -2146,7 +2146,7 @@
     "id": 1520,
     "province": "Çorum",
     "name": "Mecitözü",
-    "population": 14441,
+    "population": 12911,
     "area": 825,
     "postalCode": "19700"
   },
@@ -2155,7 +2155,7 @@
     "id": 1259,
     "province": "Çorum",
     "name": "Merkez",
-    "population": 294321,
+    "population": 299565,
     "area": 2436,
     "postalCode": "19000"
   },
@@ -2164,7 +2164,7 @@
     "id": 1976,
     "province": "Çorum",
     "name": "Oğuzlar",
-    "population": 5240,
+    "population": 4610,
     "area": 121,
     "postalCode": "19070"
   },
@@ -2173,7 +2173,7 @@
     "id": 1556,
     "province": "Çorum",
     "name": "Ortaköy",
-    "population": 8496,
+    "population": 6491,
     "area": 300,
     "postalCode": "19950"
   },
@@ -2182,7 +2182,7 @@
     "id": 1558,
     "province": "Çorum",
     "name": "Osmancık",
-    "population": 43388,
+    "population": 42673,
     "area": 1273,
     "postalCode": "19500"
   },
@@ -2191,7 +2191,7 @@
     "id": 1642,
     "province": "Çorum",
     "name": "Sungurlu",
-    "population": 49086,
+    "population": 49079,
     "area": 1999,
     "postalCode": "19300"
   },
@@ -2200,7 +2200,7 @@
     "id": 1850,
     "province": "Çorum",
     "name": "Uğurludağ",
-    "population": 8333,
+    "population": 5992,
     "area": 428,
     "postalCode": "19410"
   },
@@ -2209,7 +2209,7 @@
     "id": 1102,
     "province": "Denizli",
     "name": "Acıpayam",
-    "population": 55406,
+    "population": 54769,
     "area": 1772,
     "postalCode": "20800"
   },
@@ -2218,7 +2218,7 @@
     "id": 1769,
     "province": "Denizli",
     "name": "Babadağ",
-    "population": 6424,
+    "population": 6199,
     "area": 124,
     "postalCode": "20480"
   },
@@ -2227,7 +2227,7 @@
     "id": 1881,
     "province": "Denizli",
     "name": "Baklan",
-    "population": 5457,
+    "population": 5266,
     "area": 283,
     "postalCode": "20770"
   },
@@ -2236,7 +2236,7 @@
     "id": 1774,
     "province": "Denizli",
     "name": "Bekilli",
-    "population": 6565,
+    "population": 6243,
     "area": 304,
     "postalCode": "20930"
   },
@@ -2245,7 +2245,7 @@
     "id": 1888,
     "province": "Denizli",
     "name": "Beyağaç",
-    "population": 6532,
+    "population": 6011,
     "area": 333,
     "postalCode": "20590"
   },
@@ -2254,7 +2254,7 @@
     "id": 1889,
     "province": "Denizli",
     "name": "Bozkurt",
-    "population": 11000,
+    "population": 11176,
     "area": 462,
     "postalCode": "20370"
   },
@@ -2263,7 +2263,7 @@
     "id": 1214,
     "province": "Denizli",
     "name": "Buldan",
-    "population": 26542,
+    "population": 26231,
     "area": 523,
     "postalCode": "20400"
   },
@@ -2272,7 +2272,7 @@
     "id": 1224,
     "province": "Denizli",
     "name": "Çal",
-    "population": 17919,
+    "population": 17277,
     "area": 860,
     "postalCode": "20710"
   },
@@ -2281,7 +2281,7 @@
     "id": 1226,
     "province": "Denizli",
     "name": "Çameli",
-    "population": 17814,
+    "population": 17447,
     "area": 758,
     "postalCode": "20980"
   },
@@ -2290,7 +2290,7 @@
     "id": 1233,
     "province": "Denizli",
     "name": "Çardak",
-    "population": 8781,
+    "population": 8497,
     "area": 423,
     "postalCode": "20360"
   },
@@ -2299,7 +2299,7 @@
     "id": 1257,
     "province": "Denizli",
     "name": "Çivril",
-    "population": 59912,
+    "population": 59689,
     "area": 1570,
     "postalCode": "20690"
   },
@@ -2308,7 +2308,7 @@
     "id": 1371,
     "province": "Denizli",
     "name": "Güney",
-    "population": 9573,
+    "population": 9043,
     "area": 362,
     "postalCode": "20460"
   },
@@ -2317,7 +2317,7 @@
     "id": 1803,
     "province": "Denizli",
     "name": "Honaz",
-    "population": 34237,
+    "population": 34468,
     "area": 449,
     "postalCode": "20330"
   },
@@ -2326,7 +2326,7 @@
     "id": 1426,
     "province": "Denizli",
     "name": "Kale",
-    "population": 19388,
+    "population": 18855,
     "area": 684,
     "postalCode": "20570"
   },
@@ -2335,7 +2335,7 @@
     "id": 2079,
     "province": "Denizli",
     "name": "Merkezefendi",
-    "population": 340400,
+    "population": 351085,
     "area": 336,
     "postalCode": "20040"
   },
@@ -2344,7 +2344,7 @@
     "id": 1871,
     "province": "Denizli",
     "name": "Pamukkale",
-    "population": 346047,
+    "population": 343071,
     "area": 823,
     "postalCode": "20180"
   },
@@ -2353,7 +2353,7 @@
     "id": 1597,
     "province": "Denizli",
     "name": "Sarayköy",
-    "population": 31047,
+    "population": 30883,
     "area": 379,
     "postalCode": "20315"
   },
@@ -2362,7 +2362,7 @@
     "id": 1840,
     "province": "Denizli",
     "name": "Serinhisar",
-    "population": 14591,
+    "population": 14661,
     "area": 256,
     "postalCode": "20430"
   },
@@ -2371,7 +2371,7 @@
     "id": 1670,
     "province": "Denizli",
     "name": "Tavas",
-    "population": 41447,
+    "population": 40104,
     "area": 1432,
     "postalCode": "20535"
   },
@@ -2380,7 +2380,7 @@
     "id": 2040,
     "province": "Diyarbakır",
     "name": "Bağlar",
-    "population": 394338,
+    "population": 402275,
     "area": 429,
     "postalCode": "21090"
   },
@@ -2389,7 +2389,7 @@
     "id": 1195,
     "province": "Diyarbakır",
     "name": "Bismil",
-    "population": 119972,
+    "population": 119815,
     "area": 1679,
     "postalCode": "21500"
   },
@@ -2398,7 +2398,7 @@
     "id": 1249,
     "province": "Diyarbakır",
     "name": "Çermik",
-    "population": 49900,
+    "population": 49299,
     "area": 948,
     "postalCode": "21600"
   },
@@ -2407,7 +2407,7 @@
     "id": 1253,
     "province": "Diyarbakır",
     "name": "Çınar",
-    "population": 78351,
+    "population": 79114,
     "area": 1934,
     "postalCode": "21750"
   },
@@ -2416,7 +2416,7 @@
     "id": 1263,
     "province": "Diyarbakır",
     "name": "Çüngüş",
-    "population": 10771,
+    "population": 10057,
     "area": 512,
     "postalCode": "21870"
   },
@@ -2425,7 +2425,7 @@
     "id": 1278,
     "province": "Diyarbakır",
     "name": "Dicle",
-    "population": 38533,
+    "population": 35948,
     "area": 738,
     "postalCode": "21830"
   },
@@ -2434,7 +2434,7 @@
     "id": 1791,
     "province": "Diyarbakır",
     "name": "Eğil",
-    "population": 23712,
+    "population": 21674,
     "area": 449,
     "postalCode": "21470"
   },
@@ -2443,7 +2443,7 @@
     "id": 1315,
     "province": "Diyarbakır",
     "name": "Ergani",
-    "population": 137492,
+    "population": 141098,
     "area": 1510,
     "postalCode": "21950"
   },
@@ -2452,7 +2452,7 @@
     "id": 1381,
     "province": "Diyarbakır",
     "name": "Hani",
-    "population": 32777,
+    "population": 32285,
     "area": 436,
     "postalCode": "21800"
   },
@@ -2461,7 +2461,7 @@
     "id": 1389,
     "province": "Diyarbakır",
     "name": "Hazro",
-    "population": 17772,
+    "population": 16024,
     "area": 426,
     "postalCode": "21560"
   },
@@ -2470,7 +2470,7 @@
     "id": 2041,
     "province": "Diyarbakır",
     "name": "Kayapınar",
-    "population": 425143,
+    "population": 454311,
     "area": 480,
     "postalCode": "21070"
   },
@@ -2479,7 +2479,7 @@
     "id": 1962,
     "province": "Diyarbakır",
     "name": "Kocaköy",
-    "population": 15537,
+    "population": 15088,
     "area": 248,
     "postalCode": "21450"
   },
@@ -2488,7 +2488,7 @@
     "id": 1490,
     "province": "Diyarbakır",
     "name": "Kulp",
-    "population": 37576,
+    "population": 33973,
     "area": 1560,
     "postalCode": "21900"
   },
@@ -2497,7 +2497,7 @@
     "id": 1504,
     "province": "Diyarbakır",
     "name": "Lice",
-    "population": 26168,
+    "population": 24060,
     "area": 982,
     "postalCode": "21700"
   },
@@ -2506,7 +2506,7 @@
     "id": 1624,
     "province": "Diyarbakır",
     "name": "Silvan",
-    "population": 87707,
+    "population": 86752,
     "area": 1252,
     "postalCode": "21640"
   },
@@ -2515,7 +2515,7 @@
     "id": 2042,
     "province": "Diyarbakır",
     "name": "Sur",
-    "population": 98938,
+    "population": 97961,
     "area": 1227,
     "postalCode": "21200"
   },
@@ -2524,7 +2524,7 @@
     "id": 2043,
     "province": "Diyarbakır",
     "name": "Yenişehir",
-    "population": 223446,
+    "population": 232622,
     "area": 358,
     "postalCode": "21120"
   },
@@ -2533,7 +2533,7 @@
     "id": 1307,
     "province": "Edirne",
     "name": "Enez",
-    "population": 10625,
+    "population": 10399,
     "area": 455,
     "postalCode": "22700"
   },
@@ -2542,7 +2542,7 @@
     "id": 1385,
     "province": "Edirne",
     "name": "Havsa",
-    "population": 18077,
+    "population": 17302,
     "area": 545,
     "postalCode": "22500"
   },
@@ -2551,7 +2551,7 @@
     "id": 1412,
     "province": "Edirne",
     "name": "İpsala",
-    "population": 26155,
+    "population": 25278,
     "area": 741,
     "postalCode": "22490"
   },
@@ -2560,7 +2560,7 @@
     "id": 1464,
     "province": "Edirne",
     "name": "Keşan",
-    "population": 84846,
+    "population": 85259,
     "area": 1098,
     "postalCode": "22880"
   },
@@ -2569,7 +2569,7 @@
     "id": 1502,
     "province": "Edirne",
     "name": "Lalapaşa",
-    "population": 6198,
+    "population": 5932,
     "area": 497,
     "postalCode": "22950"
   },
@@ -2578,7 +2578,7 @@
     "id": 1523,
     "province": "Edirne",
     "name": "Meriç",
-    "population": 12897,
+    "population": 12329,
     "area": 438,
     "postalCode": "22610"
   },
@@ -2587,7 +2587,7 @@
     "id": 1295,
     "province": "Edirne",
     "name": "Merkez",
-    "population": 194991,
+    "population": 200753,
     "area": 844,
     "postalCode": "22100"
   },
@@ -2596,7 +2596,7 @@
     "id": 1988,
     "province": "Edirne",
     "name": "Süloğlu",
-    "population": 6405,
+    "population": 6101,
     "area": 342,
     "postalCode": "22580"
   },
@@ -2605,7 +2605,7 @@
     "id": 1705,
     "province": "Edirne",
     "name": "Uzunköprü",
-    "population": 59719,
+    "population": 59085,
     "area": 1185,
     "postalCode": "22300"
   },
@@ -2614,7 +2614,7 @@
     "id": 1110,
     "province": "Elazığ",
     "name": "Ağın",
-    "population": 2834,
+    "population": 2532,
     "area": 242,
     "postalCode": "23960"
   },
@@ -2623,7 +2623,7 @@
     "id": 1873,
     "province": "Elazığ",
     "name": "Alacakaya",
-    "population": 6157,
+    "population": 5336,
     "area": 318,
     "postalCode": "23410"
   },
@@ -2632,7 +2632,7 @@
     "id": 1762,
     "province": "Elazığ",
     "name": "Arıcak",
-    "population": 14970,
+    "population": 12340,
     "area": 354,
     "postalCode": "23510"
   },
@@ -2641,7 +2641,7 @@
     "id": 1173,
     "province": "Elazığ",
     "name": "Baskil",
-    "population": 16578,
+    "population": 13397,
     "area": 1318,
     "postalCode": "23800"
   },
@@ -2650,7 +2650,7 @@
     "id": 1438,
     "province": "Elazığ",
     "name": "Karakoçan",
-    "population": 29612,
+    "population": 28320,
     "area": 1049,
     "postalCode": "23600"
   },
@@ -2659,7 +2659,7 @@
     "id": 1455,
     "province": "Elazığ",
     "name": "Keban",
-    "population": 7964,
+    "population": 7112,
     "area": 641,
     "postalCode": "23700"
   },
@@ -2668,7 +2668,7 @@
     "id": 1820,
     "province": "Elazığ",
     "name": "Kovancılar",
-    "population": 38988,
+    "population": 37874,
     "area": 960,
     "postalCode": "23850"
   },
@@ -2677,7 +2677,7 @@
     "id": 1506,
     "province": "Elazığ",
     "name": "Maden",
-    "population": 13320,
+    "population": 9139,
     "area": 819,
     "postalCode": "23400"
   },
@@ -2686,7 +2686,7 @@
     "id": 1298,
     "province": "Elazığ",
     "name": "Merkez",
-    "population": 443448,
+    "population": 463686,
     "area": 2243,
     "postalCode": "23270"
   },
@@ -2695,7 +2695,7 @@
     "id": 1566,
     "province": "Elazığ",
     "name": "Palu",
-    "population": 20215,
+    "population": 17872,
     "area": 730,
     "postalCode": "23530"
   },
@@ -2704,7 +2704,7 @@
     "id": 1631,
     "province": "Elazığ",
     "name": "Sivrice",
-    "population": 10325,
+    "population": 8070,
     "area": 710,
     "postalCode": "23900"
   },
@@ -2713,7 +2713,7 @@
     "id": 1243,
     "province": "Erzincan",
     "name": "Çayırlı",
-    "population": 8415,
+    "population": 7491,
     "area": 1062,
     "postalCode": "24500"
   },
@@ -2722,7 +2722,7 @@
     "id": 1406,
     "province": "Erzincan",
     "name": "İliç",
-    "population": 10044,
+    "population": 8543,
     "area": 1382,
     "postalCode": "24700"
   },
@@ -2731,7 +2731,7 @@
     "id": 1459,
     "province": "Erzincan",
     "name": "Kemah",
-    "population": 7517,
+    "population": 6419,
     "area": 2311,
     "postalCode": "24400"
   },
@@ -2740,7 +2740,7 @@
     "id": 1460,
     "province": "Erzincan",
     "name": "Kemaliye",
-    "population": 5066,
+    "population": 4484,
     "area": 1207,
     "postalCode": "24610"
   },
@@ -2749,7 +2749,7 @@
     "id": 1318,
     "province": "Erzincan",
     "name": "Merkez",
-    "population": 165860,
+    "population": 169506,
     "area": 1521,
     "postalCode": "24100"
   },
@@ -2758,7 +2758,7 @@
     "id": 1977,
     "province": "Erzincan",
     "name": "Otlukbeli",
-    "population": 2423,
+    "population": 2123,
     "area": 320,
     "postalCode": "24515"
   },
@@ -2767,7 +2767,7 @@
     "id": 1583,
     "province": "Erzincan",
     "name": "Refahiye",
-    "population": 12984,
+    "population": 10954,
     "area": 1808,
     "postalCode": "24300"
   },
@@ -2776,7 +2776,7 @@
     "id": 1675,
     "province": "Erzincan",
     "name": "Tercan",
-    "population": 16573,
+    "population": 16145,
     "area": 1614,
     "postalCode": "24870"
   },
@@ -2785,7 +2785,7 @@
     "id": 1853,
     "province": "Erzincan",
     "name": "Üzümlü",
-    "population": 14517,
+    "population": 13960,
     "area": 591,
     "postalCode": "24160"
   },
@@ -2794,7 +2794,7 @@
     "id": 1153,
     "province": "Erzurum",
     "name": "Aşkale",
-    "population": 21410,
+    "population": 19983,
     "area": 1507,
     "postalCode": "25500"
   },
@@ -2803,7 +2803,7 @@
     "id": 1945,
     "province": "Erzurum",
     "name": "Aziziye",
-    "population": 68251,
+    "population": 71827,
     "area": 1529,
     "postalCode": "25700"
   },
@@ -2812,7 +2812,7 @@
     "id": 1235,
     "province": "Erzurum",
     "name": "Çat",
-    "population": 15457,
+    "population": 14015,
     "area": 1448,
     "postalCode": "25750"
   },
@@ -2821,7 +2821,7 @@
     "id": 1392,
     "province": "Erzurum",
     "name": "Hınıs",
-    "population": 24419,
+    "population": 23011,
     "area": 1367,
     "postalCode": "25600"
   },
@@ -2830,7 +2830,7 @@
     "id": 1396,
     "province": "Erzurum",
     "name": "Horasan",
-    "population": 36359,
+    "population": 34896,
     "area": 1740,
     "postalCode": "25800"
   },
@@ -2839,7 +2839,7 @@
     "id": 1416,
     "province": "Erzurum",
     "name": "İspir",
-    "population": 15914,
+    "population": 13984,
     "area": 2129,
     "postalCode": "25900"
   },
@@ -2848,7 +2848,7 @@
     "id": 1812,
     "province": "Erzurum",
     "name": "Karaçoban",
-    "population": 21961,
+    "population": 19922,
     "area": 571,
     "postalCode": "25610"
   },
@@ -2857,7 +2857,7 @@
     "id": 1444,
     "province": "Erzurum",
     "name": "Karayazı",
-    "population": 24559,
+    "population": 22570,
     "area": 1953,
     "postalCode": "25830"
   },
@@ -2866,7 +2866,7 @@
     "id": 1967,
     "province": "Erzurum",
     "name": "Köprüköy",
-    "population": 14184,
+    "population": 12903,
     "area": 777,
     "postalCode": "25320"
   },
@@ -2875,7 +2875,7 @@
     "id": 1540,
     "province": "Erzurum",
     "name": "Narman",
-    "population": 11959,
+    "population": 11119,
     "area": 799,
     "postalCode": "25530"
   },
@@ -2884,7 +2884,7 @@
     "id": 1550,
     "province": "Erzurum",
     "name": "Oltu",
-    "population": 30296,
+    "population": 29765,
     "area": 1441,
     "postalCode": "25400"
   },
@@ -2893,7 +2893,7 @@
     "id": 1551,
     "province": "Erzurum",
     "name": "Olur",
-    "population": 6737,
+    "population": 5985,
     "area": 893,
     "postalCode": "25650"
   },
@@ -2902,7 +2902,7 @@
     "id": 2044,
     "province": "Erzurum",
     "name": "Palandöken",
-    "population": 177109,
+    "population": 181922,
     "area": 667,
     "postalCode": "25090"
   },
@@ -2911,7 +2911,7 @@
     "id": 1567,
     "province": "Erzurum",
     "name": "Pasinler",
-    "population": 26833,
+    "population": 25401,
     "area": 1134,
     "postalCode": "25300"
   },
@@ -2920,7 +2920,7 @@
     "id": 1865,
     "province": "Erzurum",
     "name": "Pazaryolu",
-    "population": 4290,
+    "population": 3537,
     "area": 654,
     "postalCode": "25930"
   },
@@ -2929,7 +2929,7 @@
     "id": 1657,
     "province": "Erzurum",
     "name": "Şenkaya",
-    "population": 16112,
+    "population": 14918,
     "area": 1381,
     "postalCode": "25370"
   },
@@ -2938,7 +2938,7 @@
     "id": 1674,
     "province": "Erzurum",
     "name": "Tekman",
-    "population": 22686,
+    "population": 20826,
     "area": 2102,
     "postalCode": "25560"
   },
@@ -2947,7 +2947,7 @@
     "id": 1683,
     "province": "Erzurum",
     "name": "Tortum",
-    "population": 17418,
+    "population": 12881,
     "area": 1463,
     "postalCode": "25460"
   },
@@ -2956,7 +2956,7 @@
     "id": 1851,
     "province": "Erzurum",
     "name": "Uzundere",
-    "population": 7973,
+    "population": 8263,
     "area": 505,
     "postalCode": "25440"
   },
@@ -2965,7 +2965,7 @@
     "id": 2045,
     "province": "Erzurum",
     "name": "Yakutiye",
-    "population": 186066,
+    "population": 189149,
     "area": 945,
     "postalCode": "25040"
   },
@@ -2974,7 +2974,7 @@
     "id": 1759,
     "province": "Eskişehir",
     "name": "Alpu",
-    "population": 10678,
+    "population": 9725,
     "area": 1028,
     "postalCode": "26850"
   },
@@ -2983,7 +2983,7 @@
     "id": 1777,
     "province": "Eskişehir",
     "name": "Beylikova",
-    "population": 6016,
+    "population": 5611,
     "area": 715,
     "postalCode": "26750"
   },
@@ -2992,7 +2992,7 @@
     "id": 1255,
     "province": "Eskişehir",
     "name": "Çifteler",
-    "population": 14926,
+    "population": 14487,
     "area": 858,
     "postalCode": "26700"
   },
@@ -3001,7 +3001,7 @@
     "id": 1934,
     "province": "Eskişehir",
     "name": "Günyüzü",
-    "population": 5679,
+    "population": 5008,
     "area": 828,
     "postalCode": "26663"
   },
@@ -3010,7 +3010,7 @@
     "id": 1939,
     "province": "Eskişehir",
     "name": "Han",
-    "population": 2352,
+    "population": 2126,
     "area": 378,
     "postalCode": "26710"
   },
@@ -3019,7 +3019,7 @@
     "id": 1808,
     "province": "Eskişehir",
     "name": "İnönü",
-    "population": 6244,
+    "population": 6114,
     "area": 345,
     "postalCode": "26670"
   },
@@ -3028,7 +3028,7 @@
     "id": 1508,
     "province": "Eskişehir",
     "name": "Mahmudiye",
-    "population": 7715,
+    "population": 7407,
     "area": 659,
     "postalCode": "26800"
   },
@@ -3037,7 +3037,7 @@
     "id": 1973,
     "province": "Eskişehir",
     "name": "Mihalgazi",
-    "population": 3037,
+    "population": 2861,
     "area": 109,
     "postalCode": "26880"
   },
@@ -3046,7 +3046,7 @@
     "id": 1527,
     "province": "Eskişehir",
     "name": "Mihalıççık",
-    "population": 8576,
+    "population": 7605,
     "area": 1809,
     "postalCode": "26940"
   },
@@ -3055,7 +3055,7 @@
     "id": 2046,
     "province": "Eskişehir",
     "name": "Odunpazarı",
-    "population": 421469,
+    "population": 431652,
     "area": 1120,
     "postalCode": "26250"
   },
@@ -3064,7 +3064,7 @@
     "id": 1599,
     "province": "Eskişehir",
     "name": "Sarıcakaya",
-    "population": 4651,
+    "population": 4477,
     "area": 382,
     "postalCode": "26870"
   },
@@ -3073,7 +3073,7 @@
     "id": 1618,
     "province": "Eskişehir",
     "name": "Seyitgazi",
-    "population": 13481,
+    "population": 12565,
     "area": 1578,
     "postalCode": "26960"
   },
@@ -3082,7 +3082,7 @@
     "id": 1632,
     "province": "Eskişehir",
     "name": "Sivrihisar",
-    "population": 20478,
+    "population": 20189,
     "area": 2748,
     "postalCode": "26625"
   },
@@ -3091,7 +3091,7 @@
     "id": 2047,
     "province": "Eskişehir",
     "name": "Tepebaşı",
-    "population": 390116,
+    "population": 398129,
     "area": 1403,
     "postalCode": "26170"
   },
@@ -3100,7 +3100,7 @@
     "id": 1139,
     "province": "Gaziantep",
     "name": "Araban",
-    "population": 33196,
+    "population": 32540,
     "area": 592,
     "postalCode": "27650"
   },
@@ -3109,7 +3109,7 @@
     "id": 1415,
     "province": "Gaziantep",
     "name": "İslahiye",
-    "population": 64013,
+    "population": 66107,
     "area": 865,
     "postalCode": "27805"
   },
@@ -3118,7 +3118,7 @@
     "id": 1956,
     "province": "Gaziantep",
     "name": "Karkamış",
-    "population": 10265,
+    "population": 9087,
     "area": 298,
     "postalCode": "27880"
   },
@@ -3127,7 +3127,7 @@
     "id": 1546,
     "province": "Gaziantep",
     "name": "Nizip",
-    "population": 150037,
+    "population": 152660,
     "area": 944,
     "postalCode": "27700"
   },
@@ -3136,7 +3136,7 @@
     "id": 1974,
     "province": "Gaziantep",
     "name": "Nurdağı",
-    "population": 39465,
+    "population": 38269,
     "area": 697,
     "postalCode": "27840"
   },
@@ -3145,7 +3145,7 @@
     "id": 1549,
     "province": "Gaziantep",
     "name": "Oğuzeli",
-    "population": 37170,
+    "population": 36644,
     "area": 689,
     "postalCode": "27910"
   },
@@ -3154,7 +3154,7 @@
     "id": 1841,
     "province": "Gaziantep",
     "name": "Şahinbey",
-    "population": 939497,
+    "population": 957792,
     "area": 960,
     "postalCode": "27270"
   },
@@ -3163,7 +3163,7 @@
     "id": 1844,
     "province": "Gaziantep",
     "name": "Şehitkamil",
-    "population": 867193,
+    "population": 905880,
     "area": 1290,
     "postalCode": "27620"
   },
@@ -3172,7 +3172,7 @@
     "id": 1720,
     "province": "Gaziantep",
     "name": "Yavuzeli",
-    "population": 23298,
+    "population": 23436,
     "area": 468,
     "postalCode": "27970"
   },
@@ -3181,7 +3181,7 @@
     "id": 1133,
     "province": "Giresun",
     "name": "Alucra",
-    "population": 10514,
+    "population": 8473,
     "area": 1138,
     "postalCode": "28700"
   },
@@ -3190,7 +3190,7 @@
     "id": 1212,
     "province": "Giresun",
     "name": "Bulancak",
-    "population": 70092,
+    "population": 70397,
     "area": 774,
     "postalCode": "28310"
   },
@@ -3199,7 +3199,7 @@
     "id": 1893,
     "province": "Giresun",
     "name": "Çamoluk",
-    "population": 7254,
+    "population": 5709,
     "area": 444,
     "postalCode": "28710"
   },
@@ -3208,7 +3208,7 @@
     "id": 1894,
     "province": "Giresun",
     "name": "Çanakçı",
-    "population": 6917,
+    "population": 5783,
     "area": 142,
     "postalCode": "28810"
   },
@@ -3217,7 +3217,7 @@
     "id": 1272,
     "province": "Giresun",
     "name": "Dereli",
-    "population": 19308,
+    "population": 20100,
     "area": 849,
     "postalCode": "28950"
   },
@@ -3226,7 +3226,7 @@
     "id": 1912,
     "province": "Giresun",
     "name": "Doğankent",
-    "population": 6539,
+    "population": 7327,
     "area": 110,
     "postalCode": "28510"
   },
@@ -3235,7 +3235,7 @@
     "id": 1320,
     "province": "Giresun",
     "name": "Espiye",
-    "population": 38130,
+    "population": 39182,
     "area": 248,
     "postalCode": "28600"
   },
@@ -3244,7 +3244,7 @@
     "id": 1324,
     "province": "Giresun",
     "name": "Eynesil",
-    "population": 13237,
+    "population": 12548,
     "area": 51,
     "postalCode": "28850"
   },
@@ -3253,7 +3253,7 @@
     "id": 1361,
     "province": "Giresun",
     "name": "Görele",
-    "population": 32192,
+    "population": 31536,
     "area": 237,
     "postalCode": "28820"
   },
@@ -3262,7 +3262,7 @@
     "id": 1930,
     "province": "Giresun",
     "name": "Güce",
-    "population": 8574,
+    "population": 8194,
     "area": 351,
     "postalCode": "28520"
   },
@@ -3271,7 +3271,7 @@
     "id": 1465,
     "province": "Giresun",
     "name": "Keşap",
-    "population": 20763,
+    "population": 20859,
     "area": 197,
     "postalCode": "28900"
   },
@@ -3280,7 +3280,7 @@
     "id": 1352,
     "province": "Giresun",
     "name": "Merkez",
-    "population": 143890,
+    "population": 143915,
     "area": 376,
     "postalCode": "28100"
   },
@@ -3289,7 +3289,7 @@
     "id": 1837,
     "province": "Giresun",
     "name": "Piraziz",
-    "population": 15151,
+    "population": 15109,
     "area": 127,
     "postalCode": "28340"
   },
@@ -3298,7 +3298,7 @@
     "id": 1654,
     "province": "Giresun",
     "name": "Şebinkarahisar",
-    "population": 19948,
+    "population": 19130,
     "area": 1396,
     "postalCode": "28400"
   },
@@ -3307,7 +3307,7 @@
     "id": 1678,
     "province": "Giresun",
     "name": "Tirebolu",
-    "population": 33459,
+    "population": 32124,
     "area": 259,
     "postalCode": "28500"
   },
@@ -3316,7 +3316,7 @@
     "id": 1854,
     "province": "Giresun",
     "name": "Yağlıdere",
-    "population": 15744,
+    "population": 14688,
     "area": 327,
     "postalCode": "28610"
   },
@@ -3325,7 +3325,7 @@
     "id": 1458,
     "province": "Gümüşhane",
     "name": "Kelkit",
-    "population": 40875,
+    "population": 38520,
     "area": 1571,
     "postalCode": "29600"
   },
@@ -3334,7 +3334,7 @@
     "id": 1822,
     "province": "Gümüşhane",
     "name": "Köse",
-    "population": 7261,
+    "population": 6107,
     "area": 353,
     "postalCode": "29650"
   },
@@ -3343,7 +3343,7 @@
     "id": 1971,
     "province": "Gümüşhane",
     "name": "Kürtün",
-    "population": 13406,
+    "population": 11327,
     "area": 917,
     "postalCode": "29830"
   },
@@ -3352,7 +3352,7 @@
     "id": 1369,
     "province": "Gümüşhane",
     "name": "Merkez",
-    "population": 54503,
+    "population": 54697,
     "area": 1889,
     "postalCode": "29200"
   },
@@ -3361,7 +3361,7 @@
     "id": 1660,
     "province": "Gümüşhane",
     "name": "Şiran",
-    "population": 20202,
+    "population": 18377,
     "area": 965,
     "postalCode": "29700"
   },
@@ -3370,7 +3370,7 @@
     "id": 1684,
     "province": "Gümüşhane",
     "name": "Torul",
-    "population": 12292,
+    "population": 9779,
     "area": 973,
     "postalCode": "29800"
   },
@@ -3379,7 +3379,7 @@
     "id": 1261,
     "province": "Hakkari",
     "name": "Çukurca",
-    "population": 17734,
+    "population": 14299,
     "area": 725,
     "postalCode": "30700"
   },
@@ -3388,7 +3388,7 @@
     "id": 2107,
     "province": "Hakkari",
     "name": "Derecik",
-    "population": 25907,
+    "population": 24869,
     "area": 437,
     "postalCode": "30802"
   },
@@ -3397,7 +3397,7 @@
     "id": 1377,
     "province": "Hakkari",
     "name": "Merkez",
-    "population": 77273,
+    "population": 76165,
     "area": 2179,
     "postalCode": "30110"
   },
@@ -3406,7 +3406,7 @@
     "id": 1656,
     "province": "Hakkari",
     "name": "Şemdinli",
-    "population": 44742,
+    "population": 43034,
     "area": 1207,
     "postalCode": "30800"
   },
@@ -3415,7 +3415,7 @@
     "id": 1737,
     "province": "Hakkari",
     "name": "Yüksekova",
-    "population": 121969,
+    "population": 121314,
     "area": 2547,
     "postalCode": "30330"
   },
@@ -3424,7 +3424,7 @@
     "id": 1131,
     "province": "Hatay",
     "name": "Altınözü",
-    "population": 66533,
+    "population": 69834,
     "area": 392,
     "postalCode": "31753"
   },
@@ -3433,7 +3433,7 @@
     "id": 2080,
     "province": "Hatay",
     "name": "Antakya",
-    "population": 298620,
+    "population": 301855,
     "area": 703,
     "postalCode": "31135"
   },
@@ -3442,7 +3442,7 @@
     "id": 2081,
     "province": "Hatay",
     "name": "Arsuz",
-    "population": 106118,
+    "population": 115077,
     "area": 462,
     "postalCode": "31225"
   },
@@ -3451,7 +3451,7 @@
     "id": 1887,
     "province": "Hatay",
     "name": "Belen",
-    "population": 34430,
+    "population": 37876,
     "area": 184,
     "postalCode": "31350"
   },
@@ -3460,7 +3460,7 @@
     "id": 2082,
     "province": "Hatay",
     "name": "Defne",
-    "population": 142146,
+    "population": 139605,
     "area": 155,
     "postalCode": "31141"
   },
@@ -3469,7 +3469,7 @@
     "id": 1289,
     "province": "Hatay",
     "name": "Dörtyol",
-    "population": 129276,
+    "population": 132987,
     "area": 342,
     "postalCode": "31670"
   },
@@ -3478,7 +3478,7 @@
     "id": 1792,
     "province": "Hatay",
     "name": "Erzin",
-    "population": 42425,
+    "population": 43103,
     "area": 258,
     "postalCode": "31960"
   },
@@ -3487,7 +3487,7 @@
     "id": 1382,
     "province": "Hatay",
     "name": "Hassa",
-    "population": 55604,
+    "population": 57457,
     "area": 520,
     "postalCode": "31720"
   },
@@ -3496,7 +3496,7 @@
     "id": 1413,
     "province": "Hatay",
     "name": "İskenderun",
-    "population": 227498,
+    "population": 228149,
     "area": 247,
     "postalCode": "31280"
   },
@@ -3505,7 +3505,7 @@
     "id": 1468,
     "province": "Hatay",
     "name": "Kırıkhan",
-    "population": 106975,
+    "population": 108200,
     "area": 715,
     "postalCode": "31440"
   },
@@ -3514,7 +3514,7 @@
     "id": 1970,
     "province": "Hatay",
     "name": "Kumlu",
-    "population": 14971,
+    "population": 16242,
     "area": 193,
     "postalCode": "31520"
   },
@@ -3523,7 +3523,7 @@
     "id": 2083,
     "province": "Hatay",
     "name": "Payas",
-    "population": 44131,
+    "population": 44530,
     "area": 157,
     "postalCode": "31900"
   },
@@ -3532,7 +3532,7 @@
     "id": 1585,
     "province": "Hatay",
     "name": "Reyhanlı",
-    "population": 113615,
+    "population": 117645,
     "area": 367,
     "postalCode": "31500"
   },
@@ -3541,7 +3541,7 @@
     "id": 1591,
     "province": "Hatay",
     "name": "Samandağ",
-    "population": 120600,
+    "population": 122952,
     "area": 384,
     "postalCode": "31785"
   },
@@ -3550,7 +3550,7 @@
     "id": 1721,
     "province": "Hatay",
     "name": "Yayladağı",
-    "population": 41698,
+    "population": 42019,
     "area": 445,
     "postalCode": "31553"
   },
@@ -3559,7 +3559,7 @@
     "id": 1755,
     "province": "Isparta",
     "name": "Aksu",
-    "population": 4135,
+    "population": 4073,
     "area": 544,
     "postalCode": "32510"
   },
@@ -3568,7 +3568,7 @@
     "id": 1154,
     "province": "Isparta",
     "name": "Atabey",
-    "population": 6103,
+    "population": 6204,
     "area": 223,
     "postalCode": "32670"
   },
@@ -3577,7 +3577,7 @@
     "id": 1297,
     "province": "Isparta",
     "name": "Eğirdir",
-    "population": 30988,
+    "population": 29200,
     "area": 1315,
     "postalCode": "32500"
   },
@@ -3586,7 +3586,7 @@
     "id": 1341,
     "province": "Isparta",
     "name": "Gelendost",
-    "population": 14471,
+    "population": 13985,
     "area": 610,
     "postalCode": "32900"
   },
@@ -3595,7 +3595,7 @@
     "id": 1929,
     "province": "Isparta",
     "name": "Gönen",
-    "population": 7094,
+    "population": 7065,
     "area": 285,
     "postalCode": "32090"
   },
@@ -3604,7 +3604,7 @@
     "id": 1456,
     "province": "Isparta",
     "name": "Keçiborlu",
-    "population": 14646,
+    "population": 14033,
     "area": 494,
     "postalCode": "32700"
   },
@@ -3613,7 +3613,7 @@
     "id": 1401,
     "province": "Isparta",
     "name": "Merkez",
-    "population": 271396,
+    "population": 273638,
     "area": 773,
     "postalCode": "32040"
   },
@@ -3622,7 +3622,7 @@
     "id": 1615,
     "province": "Isparta",
     "name": "Senirkent",
-    "population": 11196,
+    "population": 10331,
     "area": 521,
     "postalCode": "32610"
   },
@@ -3631,7 +3631,7 @@
     "id": 1648,
     "province": "Isparta",
     "name": "Sütçüler",
-    "population": 10143,
+    "population": 9228,
     "area": 1235,
     "postalCode": "32950"
   },
@@ -3640,7 +3640,7 @@
     "id": 1651,
     "province": "Isparta",
     "name": "Şarkikaraağaç",
-    "population": 24990,
+    "population": 24310,
     "area": 1068,
     "postalCode": "32810"
   },
@@ -3649,7 +3649,7 @@
     "id": 1699,
     "province": "Isparta",
     "name": "Uluborlu",
-    "population": 6426,
+    "population": 6287,
     "area": 240,
     "postalCode": "32650"
   },
@@ -3658,7 +3658,7 @@
     "id": 1717,
     "province": "Isparta",
     "name": "Yalvaç",
-    "population": 45694,
+    "population": 44596,
     "area": 1402,
     "postalCode": "32430"
   },
@@ -3667,7 +3667,7 @@
     "id": 2001,
     "province": "Isparta",
     "name": "Yenişarbademli",
-    "population": 2495,
+    "population": 2353,
     "area": 237,
     "postalCode": "32850"
   },
@@ -3676,7 +3676,7 @@
     "id": 2064,
     "province": "Mersin",
     "name": "Akdeniz",
-    "population": 260879,
+    "population": 254292,
     "area": 265,
     "postalCode": "33010"
   },
@@ -3685,7 +3685,7 @@
     "id": 1135,
     "province": "Mersin",
     "name": "Anamur",
-    "population": 66940,
+    "population": 66952,
     "area": 1430,
     "postalCode": "33630"
   },
@@ -3694,7 +3694,7 @@
     "id": 1766,
     "province": "Mersin",
     "name": "Aydıncık",
-    "population": 11662,
+    "population": 11271,
     "area": 352,
     "postalCode": "33840"
   },
@@ -3703,7 +3703,7 @@
     "id": 1779,
     "province": "Mersin",
     "name": "Bozyazı",
-    "population": 26985,
+    "population": 26832,
     "area": 642,
     "postalCode": "33830"
   },
@@ -3712,7 +3712,7 @@
     "id": 1892,
     "province": "Mersin",
     "name": "Çamlıyayla",
-    "population": 8692,
+    "population": 8383,
     "area": 602,
     "postalCode": "33580"
   },
@@ -3721,7 +3721,7 @@
     "id": 1311,
     "province": "Mersin",
     "name": "Erdemli",
-    "population": 153967,
+    "population": 157566,
     "area": 2279,
     "postalCode": "33730"
   },
@@ -3730,7 +3730,7 @@
     "id": 1366,
     "province": "Mersin",
     "name": "Gülnar",
-    "population": 33986,
+    "population": 32785,
     "area": 1416,
     "postalCode": "33715"
   },
@@ -3739,7 +3739,7 @@
     "id": 2065,
     "province": "Mersin",
     "name": "Mezitli",
-    "population": 223424,
+    "population": 233140,
     "area": 371,
     "postalCode": "33340"
   },
@@ -3748,7 +3748,7 @@
     "id": 1536,
     "province": "Mersin",
     "name": "Mut",
-    "population": 63516,
+    "population": 62758,
     "area": 2718,
     "postalCode": "33600"
   },
@@ -3757,7 +3757,7 @@
     "id": 1621,
     "province": "Mersin",
     "name": "Silifke",
-    "population": 137047,
+    "population": 139610,
     "area": 2692,
     "postalCode": "33940"
   },
@@ -3766,7 +3766,7 @@
     "id": 1665,
     "province": "Mersin",
     "name": "Tarsus",
-    "population": 353469,
+    "population": 358510,
     "area": 2029,
     "postalCode": "33460"
   },
@@ -3775,7 +3775,7 @@
     "id": 2066,
     "province": "Mersin",
     "name": "Toroslar",
-    "population": 320377,
+    "population": 322971,
     "area": 1075,
     "postalCode": "33220"
   },
@@ -3784,7 +3784,7 @@
     "id": 2067,
     "province": "Mersin",
     "name": "Yenişehir",
-    "population": 277445,
+    "population": 281358,
     "area": 139,
     "postalCode": "33140"
   },
@@ -3793,7 +3793,7 @@
     "id": 1103,
     "province": "İstanbul",
     "name": "Adalar",
-    "population": 16325,
+    "population": 17489,
     "area": 11,
     "postalCode": "34975"
   },
@@ -3802,7 +3802,7 @@
     "id": 2048,
     "province": "İstanbul",
     "name": "Arnavutköy",
-    "population": 336062,
+    "population": 358469,
     "area": 453,
     "postalCode": "34275"
   },
@@ -3811,7 +3811,7 @@
     "id": 2049,
     "province": "İstanbul",
     "name": "Ataşehir",
-    "population": 416529,
+    "population": 412125,
     "area": 25,
     "postalCode": "34758"
   },
@@ -3820,7 +3820,7 @@
     "id": 2003,
     "province": "İstanbul",
     "name": "Avcılar",
-    "population": 437221,
+    "population": 440663,
     "area": 50,
     "postalCode": "34315"
   },
@@ -3829,7 +3829,7 @@
     "id": 2004,
     "province": "İstanbul",
     "name": "Bağcılar",
-    "population": 719071,
+    "population": 707635,
     "area": 23,
     "postalCode": "34200"
   },
@@ -3838,7 +3838,7 @@
     "id": 2005,
     "province": "İstanbul",
     "name": "Bahçelievler",
-    "population": 567848,
+    "population": 539035,
     "area": 17,
     "postalCode": "34180"
   },
@@ -3847,7 +3847,7 @@
     "id": 1166,
     "province": "İstanbul",
     "name": "Bakırköy",
-    "population": 220476,
+    "population": 218204,
     "area": 29,
     "postalCode": "34158"
   },
@@ -3856,7 +3856,7 @@
     "id": 2050,
     "province": "İstanbul",
     "name": "Başakşehir",
-    "population": 509915,
+    "population": 536797,
     "area": 107,
     "postalCode": "34494"
   },
@@ -3865,7 +3865,7 @@
     "id": 1886,
     "province": "İstanbul",
     "name": "Bayrampaşa",
-    "population": 268850,
+    "population": 272978,
     "area": 9,
     "postalCode": "34035"
   },
@@ -3874,7 +3874,7 @@
     "id": 1183,
     "province": "İstanbul",
     "name": "Beşiktaş",
-    "population": 169022,
+    "population": 165895,
     "area": 18,
     "postalCode": "34353"
   },
@@ -3883,7 +3883,7 @@
     "id": 1185,
     "province": "İstanbul",
     "name": "Beykoz",
-    "population": 245647,
+    "population": 246833,
     "area": 310,
     "postalCode": "34810"
   },
@@ -3892,7 +3892,7 @@
     "id": 2051,
     "province": "İstanbul",
     "name": "Beylikdüzü",
-    "population": 409347,
+    "population": 422988,
     "area": 39,
     "postalCode": "34520"
   },
@@ -3901,7 +3901,7 @@
     "id": 1186,
     "province": "İstanbul",
     "name": "Beyoğlu",
-    "population": 218589,
+    "population": 215991,
     "area": 9,
     "postalCode": "34421"
   },
@@ -3910,7 +3910,7 @@
     "id": 1782,
     "province": "İstanbul",
     "name": "Büyükçekmece",
-    "population": 276572,
+    "population": 283239,
     "area": 173,
     "postalCode": "34500"
   },
@@ -3919,7 +3919,7 @@
     "id": 1237,
     "province": "İstanbul",
     "name": "Çatalca",
-    "population": 80007,
+    "population": 81143,
     "area": 1142,
     "postalCode": "34550"
   },
@@ -3928,7 +3928,7 @@
     "id": 2052,
     "province": "İstanbul",
     "name": "Çekmeköy",
-    "population": 299806,
+    "population": 315959,
     "area": 152,
     "postalCode": "34794"
   },
@@ -3937,7 +3937,7 @@
     "id": 2016,
     "province": "İstanbul",
     "name": "Esenler",
-    "population": 427901,
+    "population": 419878,
     "area": 19,
     "postalCode": "34230"
   },
@@ -3946,7 +3946,7 @@
     "id": 2053,
     "province": "İstanbul",
     "name": "Esenyurt",
-    "population": 978007,
+    "population": 1003905,
     "area": 43,
     "postalCode": "34517"
   },
@@ -3955,7 +3955,7 @@
     "id": 1325,
     "province": "İstanbul",
     "name": "Eyüpsultan",
-    "population": 420194,
+    "population": 425216,
     "area": 228,
     "postalCode": "34060"
   },
@@ -3964,7 +3964,7 @@
     "id": 1327,
     "province": "İstanbul",
     "name": "Fatih",
-    "population": 356025,
+    "population": 351786,
     "area": 15,
     "postalCode": "34096"
   },
@@ -3973,7 +3973,7 @@
     "id": 1336,
     "province": "İstanbul",
     "name": "Gaziosmanpaşa",
-    "population": 483830,
+    "population": 478395,
     "area": 12,
     "postalCode": "34245"
   },
@@ -3982,7 +3982,7 @@
     "id": 2010,
     "province": "İstanbul",
     "name": "Güngören",
-    "population": 269944,
+    "population": 251242,
     "area": 7,
     "postalCode": "34160"
   },
@@ -3991,7 +3991,7 @@
     "id": 1421,
     "province": "İstanbul",
     "name": "Kadıköy",
-    "population": 467919,
+    "population": 458573,
     "area": 25,
     "postalCode": "34744"
   },
@@ -4000,7 +4000,7 @@
     "id": 1810,
     "province": "İstanbul",
     "name": "Kağıthane",
-    "population": 445672,
+    "population": 446420,
     "area": 15,
     "postalCode": "34403"
   },
@@ -4009,7 +4009,7 @@
     "id": 1449,
     "province": "İstanbul",
     "name": "Kartal",
-    "population": 475042,
+    "population": 475630,
     "area": 38,
     "postalCode": "34862"
   },
@@ -4018,7 +4018,7 @@
     "id": 1823,
     "province": "İstanbul",
     "name": "Küçükçekmece",
-    "population": 792030,
+    "population": 785270,
     "area": 44,
     "postalCode": "34307"
   },
@@ -4027,7 +4027,7 @@
     "id": 2012,
     "province": "İstanbul",
     "name": "Maltepe",
-    "population": 523137,
+    "population": 525044,
     "area": 53,
     "postalCode": "34854"
   },
@@ -4036,7 +4036,7 @@
     "id": 1835,
     "province": "İstanbul",
     "name": "Pendik",
-    "population": 743774,
+    "population": 752033,
     "area": 190,
     "postalCode": "34893"
   },
@@ -4045,7 +4045,7 @@
     "id": 2054,
     "province": "İstanbul",
     "name": "Sancaktepe",
-    "population": 492804,
+    "population": 507500,
     "area": 63,
     "postalCode": "34885"
   },
@@ -4054,7 +4054,7 @@
     "id": 1604,
     "province": "İstanbul",
     "name": "Sarıyer",
-    "population": 344250,
+    "population": 344883,
     "area": 177,
     "postalCode": "34396"
   },
@@ -4063,7 +4063,7 @@
     "id": 1622,
     "province": "İstanbul",
     "name": "Silivri",
-    "population": 221723,
+    "population": 240029,
     "area": 858,
     "postalCode": "34582"
   },
@@ -4072,7 +4072,7 @@
     "id": 2014,
     "province": "İstanbul",
     "name": "Sultanbeyli",
-    "population": 360702,
+    "population": 378908,
     "area": 29,
     "postalCode": "34920"
   },
@@ -4081,7 +4081,7 @@
     "id": 2055,
     "province": "İstanbul",
     "name": "Sultangazi",
-    "population": 532802,
+    "population": 529306,
     "area": 37,
     "postalCode": "34265"
   },
@@ -4090,7 +4090,7 @@
     "id": 1659,
     "province": "İstanbul",
     "name": "Şile",
-    "population": 48537,
+    "population": 50090,
     "area": 800,
     "postalCode": "34990"
   },
@@ -4099,7 +4099,7 @@
     "id": 1663,
     "province": "İstanbul",
     "name": "Şişli",
-    "population": 264736,
+    "population": 261959,
     "area": 10,
     "postalCode": "34360"
   },
@@ -4108,7 +4108,7 @@
     "id": 2015,
     "province": "İstanbul",
     "name": "Tuzla",
-    "population": 293604,
+    "population": 313865,
     "area": 138,
     "postalCode": "34959"
   },
@@ -4117,7 +4117,7 @@
     "id": 1852,
     "province": "İstanbul",
     "name": "Ümraniye",
-    "population": 723760,
+    "population": 728913,
     "area": 46,
     "postalCode": "34773"
   },
@@ -4126,7 +4126,7 @@
     "id": 1708,
     "province": "İstanbul",
     "name": "Üsküdar",
-    "population": 517348,
+    "population": 514294,
     "area": 35,
     "postalCode": "34660"
   },
@@ -4135,7 +4135,7 @@
     "id": 1739,
     "province": "İstanbul",
     "name": "Zeytinburnu",
-    "population": 280896,
+    "population": 275471,
     "area": 12,
     "postalCode": "34025"
   },
@@ -4144,7 +4144,7 @@
     "id": 1128,
     "province": "İzmir",
     "name": "Aliağa",
-    "population": 106168,
+    "population": 110892,
     "area": 379,
     "postalCode": "35800"
   },
@@ -4153,7 +4153,7 @@
     "id": 2006,
     "province": "İzmir",
     "name": "Balçova",
-    "population": 77831,
+    "population": 75743,
     "area": 16,
     "postalCode": "35330"
   },
@@ -4162,7 +4162,7 @@
     "id": 1178,
     "province": "İzmir",
     "name": "Bayındır",
-    "population": 40618,
+    "population": 39971,
     "area": 548,
     "postalCode": "35840"
   },
@@ -4171,7 +4171,7 @@
     "id": 2056,
     "province": "İzmir",
     "name": "Bayraklı",
-    "population": 300949,
+    "population": 296481,
     "area": 30,
     "postalCode": "35540"
   },
@@ -4180,7 +4180,7 @@
     "id": 1181,
     "province": "İzmir",
     "name": "Bergama",
-    "population": 107133,
+    "population": 107549,
     "area": 1544,
     "postalCode": "35715"
   },
@@ -4189,7 +4189,7 @@
     "id": 1776,
     "province": "İzmir",
     "name": "Beydağ",
-    "population": 12094,
+    "population": 11904,
     "area": 172,
     "postalCode": "35790"
   },
@@ -4198,7 +4198,7 @@
     "id": 1203,
     "province": "İzmir",
     "name": "Bornova",
-    "population": 447553,
+    "population": 452479,
     "area": 220,
     "postalCode": "35080"
   },
@@ -4207,7 +4207,7 @@
     "id": 1780,
     "province": "İzmir",
     "name": "Buca",
-    "population": 523487,
+    "population": 520941,
     "area": 178,
     "postalCode": "35390"
   },
@@ -4216,7 +4216,7 @@
     "id": 1251,
     "province": "İzmir",
     "name": "Çeşme",
-    "population": 50028,
+    "population": 51902,
     "area": 285,
     "postalCode": "35937"
   },
@@ -4225,7 +4225,7 @@
     "id": 2007,
     "province": "İzmir",
     "name": "Çiğli",
-    "population": 215172,
+    "population": 216430,
     "area": 139,
     "postalCode": "35640"
   },
@@ -4234,7 +4234,7 @@
     "id": 1280,
     "province": "İzmir",
     "name": "Dikili",
-    "population": 48379,
+    "population": 49138,
     "area": 534,
     "postalCode": "35985"
   },
@@ -4243,7 +4243,7 @@
     "id": 1334,
     "province": "İzmir",
     "name": "Foça",
-    "population": 36000,
+    "population": 37711,
     "area": 251,
     "postalCode": "35683"
   },
@@ -4252,7 +4252,7 @@
     "id": 2009,
     "province": "İzmir",
     "name": "Gaziemir",
-    "population": 137768,
+    "population": 137220,
     "area": 70,
     "postalCode": "35410"
   },
@@ -4261,7 +4261,7 @@
     "id": 2018,
     "province": "İzmir",
     "name": "Güzelbahçe",
-    "population": 38044,
+    "population": 39474,
     "area": 77,
     "postalCode": "35310"
   },
@@ -4270,7 +4270,7 @@
     "id": 2057,
     "province": "İzmir",
     "name": "Karabağlar",
-    "population": 476500,
+    "population": 467572,
     "area": 89,
     "postalCode": "35140"
   },
@@ -4279,7 +4279,7 @@
     "id": 1432,
     "province": "İzmir",
     "name": "Karaburun",
-    "population": 13379,
+    "population": 13725,
     "area": 421,
     "postalCode": "35960"
   },
@@ -4288,7 +4288,7 @@
     "id": 1448,
     "province": "İzmir",
     "name": "Karşıyaka",
-    "population": 341857,
+    "population": 339624,
     "area": 51,
     "postalCode": "35600"
   },
@@ -4297,7 +4297,7 @@
     "id": 1461,
     "province": "İzmir",
     "name": "Kemalpaşa",
-    "population": 117956,
+    "population": 122840,
     "area": 681,
     "postalCode": "35737"
   },
@@ -4306,7 +4306,7 @@
     "id": 1467,
     "province": "İzmir",
     "name": "Kınık",
-    "population": 29205,
+    "population": 28604,
     "area": 479,
     "postalCode": "35990"
   },
@@ -4315,7 +4315,7 @@
     "id": 1477,
     "province": "İzmir",
     "name": "Kiraz",
-    "population": 43572,
+    "population": 43340,
     "area": 573,
     "postalCode": "35890"
   },
@@ -4324,7 +4324,7 @@
     "id": 1819,
     "province": "İzmir",
     "name": "Konak",
-    "population": 327300,
+    "population": 317399,
     "area": 24,
     "postalCode": "35220"
   },
@@ -4333,7 +4333,7 @@
     "id": 1826,
     "province": "İzmir",
     "name": "Menderes",
-    "population": 109356,
+    "population": 112853,
     "area": 777,
     "postalCode": "35479"
   },
@@ -4342,7 +4342,7 @@
     "id": 1521,
     "province": "İzmir",
     "name": "Menemen",
-    "population": 207748,
+    "population": 220510,
     "area": 573,
     "postalCode": "35667"
   },
@@ -4351,7 +4351,7 @@
     "id": 2013,
     "province": "İzmir",
     "name": "Narlıdere",
-    "population": 62148,
+    "population": 61320,
     "area": 50,
     "postalCode": "35320"
   },
@@ -4360,7 +4360,7 @@
     "id": 1563,
     "province": "İzmir",
     "name": "Ödemiş",
-    "population": 132650,
+    "population": 132548,
     "area": 1019,
     "postalCode": "35753"
   },
@@ -4369,7 +4369,7 @@
     "id": 1611,
     "province": "İzmir",
     "name": "Seferihisar",
-    "population": 58570,
+    "population": 63712,
     "area": 375,
     "postalCode": "35465"
   },
@@ -4378,7 +4378,7 @@
     "id": 1612,
     "province": "İzmir",
     "name": "Selçuk",
-    "population": 38467,
+    "population": 38578,
     "area": 317,
     "postalCode": "35925"
   },
@@ -4387,7 +4387,7 @@
     "id": 1677,
     "province": "İzmir",
     "name": "Tire",
-    "population": 87935,
+    "population": 87571,
     "area": 716,
     "postalCode": "35910"
   },
@@ -4396,7 +4396,7 @@
     "id": 1682,
     "province": "İzmir",
     "name": "Torbalı",
-    "population": 214059,
+    "population": 224133,
     "area": 577,
     "postalCode": "35870"
   },
@@ -4405,7 +4405,7 @@
     "id": 1703,
     "province": "İzmir",
     "name": "Urla",
-    "population": 77599,
+    "population": 82021,
     "area": 727,
     "postalCode": "35430"
   },
@@ -4414,7 +4414,7 @@
     "id": 1756,
     "province": "Kars",
     "name": "Akyaka",
-    "population": 9998,
+    "population": 9382,
     "area": 417,
     "postalCode": "36780"
   },
@@ -4423,7 +4423,7 @@
     "id": 1149,
     "province": "Kars",
     "name": "Arpaçay",
-    "population": 14670,
+    "population": 13770,
     "area": 1165,
     "postalCode": "36730"
   },
@@ -4432,7 +4432,7 @@
     "id": 1279,
     "province": "Kars",
     "name": "Digor",
-    "population": 19403,
+    "population": 17557,
     "area": 1092,
     "postalCode": "36680"
   },
@@ -4441,7 +4441,7 @@
     "id": 1424,
     "province": "Kars",
     "name": "Kağızman",
-    "population": 44162,
+    "population": 42717,
     "area": 1871,
     "postalCode": "36700"
   },
@@ -4450,7 +4450,7 @@
     "id": 1447,
     "province": "Kars",
     "name": "Merkez",
-    "population": 122524,
+    "population": 121154,
     "area": 2048,
     "postalCode": "36000"
   },
@@ -4459,7 +4459,7 @@
     "id": 1601,
     "province": "Kars",
     "name": "Sarıkamış",
-    "population": 37348,
+    "population": 35518,
     "area": 2038,
     "postalCode": "36500"
   },
@@ -4468,7 +4468,7 @@
     "id": 1614,
     "province": "Kars",
     "name": "Selim",
-    "population": 21178,
+    "population": 20476,
     "area": 982,
     "postalCode": "36900"
   },
@@ -4477,7 +4477,7 @@
     "id": 1645,
     "province": "Kars",
     "name": "Susuz",
-    "population": 9052,
+    "population": 8417,
     "area": 578,
     "postalCode": "36760"
   },
@@ -4486,7 +4486,7 @@
     "id": 1101,
     "province": "Kastamonu",
     "name": "Abana",
-    "population": 4461,
+    "population": 4474,
     "area": 28,
     "postalCode": "37970"
   },
@@ -4495,7 +4495,7 @@
     "id": 1867,
     "province": "Kastamonu",
     "name": "Ağlı",
-    "population": 3521,
+    "population": 3176,
     "area": 225,
     "postalCode": "37920"
   },
@@ -4504,7 +4504,7 @@
     "id": 1140,
     "province": "Kastamonu",
     "name": "Araç",
-    "population": 18676,
+    "population": 18121,
     "area": 1446,
     "postalCode": "37800"
   },
@@ -4513,7 +4513,7 @@
     "id": 1162,
     "province": "Kastamonu",
     "name": "Azdavay",
-    "population": 8031,
+    "population": 7266,
     "area": 759,
     "postalCode": "37750"
   },
@@ -4522,7 +4522,7 @@
     "id": 1208,
     "province": "Kastamonu",
     "name": "Bozkurt",
-    "population": 9738,
+    "population": 9250,
     "area": 308,
     "postalCode": "37680"
   },
@@ -4531,7 +4531,7 @@
     "id": 1221,
     "province": "Kastamonu",
     "name": "Cide",
-    "population": 22965,
+    "population": 22496,
     "area": 652,
     "postalCode": "37600"
   },
@@ -4540,7 +4540,7 @@
     "id": 1238,
     "province": "Kastamonu",
     "name": "Çatalzeytin",
-    "population": 8127,
+    "population": 7185,
     "area": 272,
     "postalCode": "37940"
   },
@@ -4549,7 +4549,7 @@
     "id": 1264,
     "province": "Kastamonu",
     "name": "Daday",
-    "population": 8456,
+    "population": 7736,
     "area": 843,
     "postalCode": "37870"
   },
@@ -4558,7 +4558,7 @@
     "id": 1277,
     "province": "Kastamonu",
     "name": "Devrekani",
-    "population": 13886,
+    "population": 12033,
     "area": 715,
     "postalCode": "37700"
   },
@@ -4567,7 +4567,7 @@
     "id": 1915,
     "province": "Kastamonu",
     "name": "Doğanyurt",
-    "population": 5433,
+    "population": 5057,
     "area": 193,
     "postalCode": "37550"
   },
@@ -4576,7 +4576,7 @@
     "id": 1940,
     "province": "Kastamonu",
     "name": "Hanönü",
-    "population": 4395,
+    "population": 4286,
     "area": 417,
     "postalCode": "37450"
   },
@@ -4585,7 +4585,7 @@
     "id": 1805,
     "province": "Kastamonu",
     "name": "İhsangazi",
-    "population": 5235,
+    "population": 4976,
     "area": 445,
     "postalCode": "37250"
   },
@@ -4594,7 +4594,7 @@
     "id": 1410,
     "province": "Kastamonu",
     "name": "İnebolu",
-    "population": 20480,
+    "population": 19678,
     "area": 417,
     "postalCode": "37500"
   },
@@ -4603,7 +4603,7 @@
     "id": 1499,
     "province": "Kastamonu",
     "name": "Küre",
-    "population": 5644,
+    "population": 5108,
     "area": 406,
     "postalCode": "37900"
   },
@@ -4612,7 +4612,7 @@
     "id": 1450,
     "province": "Kastamonu",
     "name": "Merkez",
-    "population": 155011,
+    "population": 158953,
     "area": 1847,
     "postalCode": "37100"
   },
@@ -4621,7 +4621,7 @@
     "id": 1836,
     "province": "Kastamonu",
     "name": "Pınarbaşı",
-    "population": 6970,
+    "population": 5782,
     "area": 546,
     "postalCode": "37770"
   },
@@ -4630,7 +4630,7 @@
     "id": 1984,
     "province": "Kastamonu",
     "name": "Seydiler",
-    "population": 4796,
+    "population": 4639,
     "area": 233,
     "postalCode": "37270"
   },
@@ -4639,7 +4639,7 @@
     "id": 1845,
     "province": "Kastamonu",
     "name": "Şenpazar",
-    "population": 4844,
+    "population": 4083,
     "area": 252,
     "postalCode": "37650"
   },
@@ -4648,7 +4648,7 @@
     "id": 1666,
     "province": "Kastamonu",
     "name": "Taşköprü",
-    "population": 38372,
+    "population": 36544,
     "area": 1758,
     "postalCode": "37400"
   },
@@ -4657,7 +4657,7 @@
     "id": 1685,
     "province": "Kastamonu",
     "name": "Tosya",
-    "population": 39949,
+    "population": 39091,
     "area": 1302,
     "postalCode": "37300"
   },
@@ -4666,7 +4666,7 @@
     "id": 1752,
     "province": "Kayseri",
     "name": "Akkışla",
-    "population": 6246,
+    "population": 5440,
     "area": 371,
     "postalCode": "38830"
   },
@@ -4675,7 +4675,7 @@
     "id": 1218,
     "province": "Kayseri",
     "name": "Bünyan",
-    "population": 30834,
+    "population": 30362,
     "area": 1210,
     "postalCode": "38600"
   },
@@ -4684,7 +4684,7 @@
     "id": 1275,
     "province": "Kayseri",
     "name": "Develi",
-    "population": 67918,
+    "population": 67818,
     "area": 1892,
     "postalCode": "38400"
   },
@@ -4693,7 +4693,7 @@
     "id": 1330,
     "province": "Kayseri",
     "name": "Felahiye",
-    "population": 6550,
+    "population": 5529,
     "area": 444,
     "postalCode": "38750"
   },
@@ -4702,7 +4702,7 @@
     "id": 1936,
     "province": "Kayseri",
     "name": "Hacılar",
-    "population": 12979,
+    "population": 13701,
     "area": 187,
     "postalCode": "38210"
   },
@@ -4711,7 +4711,7 @@
     "id": 1409,
     "province": "Kayseri",
     "name": "İncesu",
-    "population": 30477,
+    "population": 29780,
     "area": 874,
     "postalCode": "38560"
   },
@@ -4720,7 +4720,7 @@
     "id": 1863,
     "province": "Kayseri",
     "name": "Kocasinan",
-    "population": 407600,
+    "population": 421472,
     "area": 1471,
     "postalCode": "38100"
   },
@@ -4729,7 +4729,7 @@
     "id": 1864,
     "province": "Kayseri",
     "name": "Melikgazi",
-    "population": 585483,
+    "population": 593262,
     "area": 668,
     "postalCode": "38220"
   },
@@ -4738,7 +4738,7 @@
     "id": 1978,
     "province": "Kayseri",
     "name": "Özvatan",
-    "population": 4523,
+    "population": 3877,
     "area": 270,
     "postalCode": "38770"
   },
@@ -4747,7 +4747,7 @@
     "id": 1576,
     "province": "Kayseri",
     "name": "Pınarbaşı",
-    "population": 24172,
+    "population": 20598,
     "area": 3418,
     "postalCode": "38700"
   },
@@ -4756,7 +4756,7 @@
     "id": 1603,
     "province": "Kayseri",
     "name": "Sarıoğlan",
-    "population": 15394,
+    "population": 13510,
     "area": 642,
     "postalCode": "38850"
   },
@@ -4765,7 +4765,7 @@
     "id": 1605,
     "province": "Kayseri",
     "name": "Sarız",
-    "population": 11278,
+    "population": 9213,
     "area": 1173,
     "postalCode": "38660"
   },
@@ -4774,7 +4774,7 @@
     "id": 1846,
     "province": "Kayseri",
     "name": "Talas",
-    "population": 168172,
+    "population": 173657,
     "area": 444,
     "postalCode": "38280"
   },
@@ -4783,7 +4783,7 @@
     "id": 1680,
     "province": "Kayseri",
     "name": "Tomarza",
-    "population": 22041,
+    "population": 20156,
     "area": 1405,
     "postalCode": "38900"
   },
@@ -4792,7 +4792,7 @@
     "id": 1715,
     "province": "Kayseri",
     "name": "Yahyalı",
-    "population": 36078,
+    "population": 35207,
     "area": 1587,
     "postalCode": "38500"
   },
@@ -4801,7 +4801,7 @@
     "id": 1727,
     "province": "Kayseri",
     "name": "Yeşilhisar",
-    "population": 15938,
+    "population": 15409,
     "area": 913,
     "postalCode": "38800"
   },
@@ -4810,7 +4810,7 @@
     "id": 1163,
     "province": "Kırklareli",
     "name": "Babaeski",
-    "population": 46595,
+    "population": 46355,
     "area": 670,
     "postalCode": "39570"
   },
@@ -4819,7 +4819,7 @@
     "id": 1270,
     "province": "Kırklareli",
     "name": "Demirköy",
-    "population": 9656,
+    "population": 9364,
     "area": 893,
     "postalCode": "39500"
   },
@@ -4828,7 +4828,7 @@
     "id": 1480,
     "province": "Kırklareli",
     "name": "Kofçaz",
-    "population": 2308,
+    "population": 2291,
     "area": 545,
     "postalCode": "39700"
   },
@@ -4837,7 +4837,7 @@
     "id": 1505,
     "province": "Kırklareli",
     "name": "Lüleburgaz",
-    "population": 155670,
+    "population": 157136,
     "area": 1016,
     "postalCode": "39770"
   },
@@ -4846,7 +4846,7 @@
     "id": 1471,
     "province": "Kırklareli",
     "name": "Merkez",
-    "population": 112323,
+    "population": 114710,
     "area": 1623,
     "postalCode": "39060"
   },
@@ -4855,7 +4855,7 @@
     "id": 1572,
     "province": "Kırklareli",
     "name": "Pehlivanköy",
-    "population": 3400,
+    "population": 3276,
     "area": 104,
     "postalCode": "39640"
   },
@@ -4864,7 +4864,7 @@
     "id": 1577,
     "province": "Kırklareli",
     "name": "Pınarhisar",
-    "population": 17738,
+    "population": 17694,
     "area": 518,
     "postalCode": "39300"
   },
@@ -4873,7 +4873,7 @@
     "id": 1714,
     "province": "Kırklareli",
     "name": "Vize",
-    "population": 29466,
+    "population": 28769,
     "area": 1090,
     "postalCode": "39400"
   },
@@ -4882,7 +4882,7 @@
     "id": 1869,
     "province": "Kırşehir",
     "name": "Akçakent",
-    "population": 3792,
+    "population": 3301,
     "area": 370,
     "postalCode": "40720"
   },
@@ -4891,7 +4891,7 @@
     "id": 1754,
     "province": "Kırşehir",
     "name": "Akpınar",
-    "population": 7535,
+    "population": 6435,
     "area": 582,
     "postalCode": "40320"
   },
@@ -4900,7 +4900,7 @@
     "id": 1890,
     "province": "Kırşehir",
     "name": "Boztepe",
-    "population": 5539,
+    "population": 5049,
     "area": 747,
     "postalCode": "40020"
   },
@@ -4909,7 +4909,7 @@
     "id": 1254,
     "province": "Kırşehir",
     "name": "Çiçekdağı",
-    "population": 14480,
+    "population": 13350,
     "area": 891,
     "postalCode": "40700"
   },
@@ -4918,7 +4918,7 @@
     "id": 1429,
     "province": "Kırşehir",
     "name": "Kaman",
-    "population": 34285,
+    "population": 33354,
     "area": 1284,
     "postalCode": "40300"
   },
@@ -4927,7 +4927,7 @@
     "id": 1472,
     "province": "Kırşehir",
     "name": "Merkez",
-    "population": 162989,
+    "population": 163368,
     "area": 1719,
     "postalCode": "40100"
   },
@@ -4936,7 +4936,7 @@
     "id": 1529,
     "province": "Kırşehir",
     "name": "Mucur",
-    "population": 18559,
+    "population": 17920,
     "area": 992,
     "postalCode": "40500"
   },
@@ -4945,7 +4945,7 @@
     "id": 2058,
     "province": "Kocaeli",
     "name": "Başiskele",
-    "population": 121278,
+    "population": 131387,
     "area": 209,
     "postalCode": "41030"
   },
@@ -4954,7 +4954,7 @@
     "id": 2059,
     "province": "Kocaeli",
     "name": "Çayırova",
-    "population": 153301,
+    "population": 162262,
     "area": 23,
     "postalCode": "41420"
   },
@@ -4963,7 +4963,7 @@
     "id": 2060,
     "province": "Kocaeli",
     "name": "Darıca",
-    "population": 227892,
+    "population": 235632,
     "area": 23,
     "postalCode": "41700"
   },
@@ -4972,7 +4972,7 @@
     "id": 2030,
     "province": "Kocaeli",
     "name": "Derince",
-    "population": 146409,
+    "population": 147892,
     "area": 198,
     "postalCode": "41900"
   },
@@ -4981,7 +4981,7 @@
     "id": 2061,
     "province": "Kocaeli",
     "name": "Dilovası",
-    "population": 54391,
+    "population": 55355,
     "area": 125,
     "postalCode": "41455"
   },
@@ -4990,7 +4990,7 @@
     "id": 1338,
     "province": "Kocaeli",
     "name": "Gebze",
-    "population": 407436,
+    "population": 414960,
     "area": 418,
     "postalCode": "41400"
   },
@@ -4999,7 +4999,7 @@
     "id": 1355,
     "province": "Kocaeli",
     "name": "Gölcük",
-    "population": 177441,
+    "population": 181227,
     "area": 217,
     "postalCode": "41950"
   },
@@ -5008,7 +5008,7 @@
     "id": 2062,
     "province": "Kocaeli",
     "name": "İzmit",
-    "population": 378656,
+    "population": 381254,
     "area": 480,
     "postalCode": "41310"
   },
@@ -5017,7 +5017,7 @@
     "id": 1430,
     "province": "Kocaeli",
     "name": "Kandıra",
-    "population": 53845,
+    "population": 54260,
     "area": 840,
     "postalCode": "41600"
   },
@@ -5026,7 +5026,7 @@
     "id": 1440,
     "province": "Kocaeli",
     "name": "Karamürsel",
-    "population": 59952,
+    "population": 59488,
     "area": 262,
     "postalCode": "41500"
   },
@@ -5035,7 +5035,7 @@
     "id": 2063,
     "province": "Kocaeli",
     "name": "Kartepe",
-    "population": 142175,
+    "population": 154377,
     "area": 301,
     "postalCode": "41320"
   },
@@ -5044,7 +5044,7 @@
     "id": 1821,
     "province": "Kocaeli",
     "name": "Körfez",
-    "population": 180131,
+    "population": 183077,
     "area": 301,
     "postalCode": "41800"
   },
@@ -5053,7 +5053,7 @@
     "id": 1868,
     "province": "Konya",
     "name": "Ahırlı",
-    "population": 5027,
+    "population": 4536,
     "area": 325,
     "postalCode": "42390"
   },
@@ -5062,7 +5062,7 @@
     "id": 1753,
     "province": "Konya",
     "name": "Akören",
-    "population": 5902,
+    "population": 5744,
     "area": 640,
     "postalCode": "42460"
   },
@@ -5071,7 +5071,7 @@
     "id": 1122,
     "province": "Konya",
     "name": "Akşehir",
-    "population": 92946,
+    "population": 93613,
     "area": 895,
     "postalCode": "42580"
   },
@@ -5080,7 +5080,7 @@
     "id": 1760,
     "province": "Konya",
     "name": "Altınekin",
-    "population": 14851,
+    "population": 14374,
     "area": 1312,
     "postalCode": "42450"
   },
@@ -5089,7 +5089,7 @@
     "id": 1188,
     "province": "Konya",
     "name": "Beyşehir",
-    "population": 79030,
+    "population": 80353,
     "area": 2054,
     "postalCode": "42700"
   },
@@ -5098,7 +5098,7 @@
     "id": 1207,
     "province": "Konya",
     "name": "Bozkır",
-    "population": 25885,
+    "population": 24704,
     "area": 1105,
     "postalCode": "42630"
   },
@@ -5107,7 +5107,7 @@
     "id": 1222,
     "province": "Konya",
     "name": "Cihanbeyli",
-    "population": 50922,
+    "population": 49126,
     "area": 3702,
     "postalCode": "42860"
   },
@@ -5116,7 +5116,7 @@
     "id": 1902,
     "province": "Konya",
     "name": "Çeltik",
-    "population": 10324,
+    "population": 9482,
     "area": 640,
     "postalCode": "42920"
   },
@@ -5125,7 +5125,7 @@
     "id": 1262,
     "province": "Konya",
     "name": "Çumra",
-    "population": 68543,
+    "population": 68803,
     "area": 2089,
     "postalCode": "42520"
   },
@@ -5134,7 +5134,7 @@
     "id": 1907,
     "province": "Konya",
     "name": "Derbent",
-    "population": 4160,
+    "population": 3954,
     "area": 359,
     "postalCode": "42900"
   },
@@ -5143,7 +5143,7 @@
     "id": 1789,
     "province": "Konya",
     "name": "Derebucak",
-    "population": 5790,
+    "population": 5353,
     "area": 451,
     "postalCode": "42485"
   },
@@ -5152,7 +5152,7 @@
     "id": 1285,
     "province": "Konya",
     "name": "Doğanhisar",
-    "population": 14815,
+    "population": 14097,
     "area": 482,
     "postalCode": "42930"
   },
@@ -5161,7 +5161,7 @@
     "id": 1920,
     "province": "Konya",
     "name": "Emirgazi",
-    "population": 7945,
+    "population": 7647,
     "area": 798,
     "postalCode": "42910"
   },
@@ -5170,7 +5170,7 @@
     "id": 1312,
     "province": "Konya",
     "name": "Ereğli",
-    "population": 153849,
+    "population": 158010,
     "area": 2214,
     "postalCode": "42320"
   },
@@ -5179,7 +5179,7 @@
     "id": 1933,
     "province": "Konya",
     "name": "Güneysınır",
-    "population": 9415,
+    "population": 9237,
     "area": 482,
     "postalCode": "42490"
   },
@@ -5188,7 +5188,7 @@
     "id": 1375,
     "province": "Konya",
     "name": "Hadim",
-    "population": 11459,
+    "population": 10621,
     "area": 1165,
     "postalCode": "42830"
   },
@@ -5197,7 +5197,7 @@
     "id": 1937,
     "province": "Konya",
     "name": "Halkapınar",
-    "population": 4183,
+    "population": 3947,
     "area": 605,
     "postalCode": "42980"
   },
@@ -5206,7 +5206,7 @@
     "id": 1804,
     "province": "Konya",
     "name": "Hüyük",
-    "population": 15431,
+    "population": 14878,
     "area": 443,
     "postalCode": "42690"
   },
@@ -5215,7 +5215,7 @@
     "id": 1400,
     "province": "Konya",
     "name": "Ilgın",
-    "population": 53707,
+    "population": 53167,
     "area": 1636,
     "postalCode": "42610"
   },
@@ -5224,7 +5224,7 @@
     "id": 1422,
     "province": "Konya",
     "name": "Kadınhanı",
-    "population": 31852,
+    "population": 31478,
     "area": 1568,
     "postalCode": "42810"
   },
@@ -5233,7 +5233,7 @@
     "id": 1441,
     "province": "Konya",
     "name": "Karapınar",
-    "population": 51166,
+    "population": 51756,
     "area": 2623,
     "postalCode": "42415"
   },
@@ -5242,7 +5242,7 @@
     "id": 1814,
     "province": "Konya",
     "name": "Karatay",
-    "population": 375919,
+    "population": 395499,
     "area": 2832,
     "postalCode": "42050"
   },
@@ -5251,7 +5251,7 @@
     "id": 1491,
     "province": "Konya",
     "name": "Kulu",
-    "population": 52447,
+    "population": 51732,
     "area": 2234,
     "postalCode": "42773"
   },
@@ -5260,7 +5260,7 @@
     "id": 1827,
     "province": "Konya",
     "name": "Meram",
-    "population": 347341,
+    "population": 349685,
     "area": 1822,
     "postalCode": "42040"
   },
@@ -5269,7 +5269,7 @@
     "id": 1598,
     "province": "Konya",
     "name": "Sarayönü",
-    "population": 28967,
+    "population": 28401,
     "area": 1620,
     "postalCode": "42430"
   },
@@ -5278,7 +5278,7 @@
     "id": 1839,
     "province": "Konya",
     "name": "Selçuklu",
-    "population": 695771,
+    "population": 703449,
     "area": 1931,
     "postalCode": "42100"
   },
@@ -5287,7 +5287,7 @@
     "id": 1617,
     "province": "Konya",
     "name": "Seydişehir",
-    "population": 65928,
+    "population": 66079,
     "area": 1458,
     "postalCode": "42360"
   },
@@ -5296,7 +5296,7 @@
     "id": 1848,
     "province": "Konya",
     "name": "Taşkent",
-    "population": 6976,
+    "population": 5669,
     "area": 457,
     "postalCode": "42960"
   },
@@ -5305,7 +5305,7 @@
     "id": 1990,
     "province": "Konya",
     "name": "Tuzlukçu",
-    "population": 6546,
+    "population": 6052,
     "area": 704,
     "postalCode": "42970"
   },
@@ -5314,7 +5314,7 @@
     "id": 1994,
     "province": "Konya",
     "name": "Yalıhüyük",
-    "population": 1854,
+    "population": 1704,
     "area": 94,
     "postalCode": "42470"
   },
@@ -5323,7 +5323,7 @@
     "id": 1735,
     "province": "Konya",
     "name": "Yunak",
-    "population": 21290,
+    "population": 20259,
     "area": 2101,
     "postalCode": "42536"
   },
@@ -5332,7 +5332,7 @@
     "id": 1132,
     "province": "Kütahya",
     "name": "Altıntaş",
-    "population": 15446,
+    "population": 14739,
     "area": 941,
     "postalCode": "43800"
   },
@@ -5341,7 +5341,7 @@
     "id": 1764,
     "province": "Kütahya",
     "name": "Aslanapa",
-    "population": 8485,
+    "population": 7813,
     "area": 731,
     "postalCode": "43210"
   },
@@ -5350,7 +5350,7 @@
     "id": 1898,
     "province": "Kütahya",
     "name": "Çavdarhisar",
-    "population": 6073,
+    "population": 5503,
     "area": 429,
     "postalCode": "43710"
   },
@@ -5359,7 +5359,7 @@
     "id": 1288,
     "province": "Kütahya",
     "name": "Domaniç",
-    "population": 14206,
+    "population": 13900,
     "area": 539,
     "postalCode": "43860"
   },
@@ -5368,7 +5368,7 @@
     "id": 1790,
     "province": "Kütahya",
     "name": "Dumlupınar",
-    "population": 2957,
+    "population": 2812,
     "area": 250,
     "postalCode": "43820"
   },
@@ -5377,7 +5377,7 @@
     "id": 1304,
     "province": "Kütahya",
     "name": "Emet",
-    "population": 18264,
+    "population": 17352,
     "area": 951,
     "postalCode": "43700"
   },
@@ -5386,7 +5386,7 @@
     "id": 1339,
     "province": "Kütahya",
     "name": "Gediz",
-    "population": 49915,
+    "population": 48539,
     "area": 1193,
     "postalCode": "43640"
   },
@@ -5395,7 +5395,7 @@
     "id": 1802,
     "province": "Kütahya",
     "name": "Hisarcık",
-    "population": 10996,
+    "population": 10799,
     "area": 370,
     "postalCode": "43780"
   },
@@ -5404,7 +5404,7 @@
     "id": 1500,
     "province": "Kütahya",
     "name": "Merkez",
-    "population": 276427,
+    "population": 277000,
     "area": 2470,
     "postalCode": "43020"
   },
@@ -5413,7 +5413,7 @@
     "id": 1979,
     "province": "Kütahya",
     "name": "Pazarlar",
-    "population": 5064,
+    "population": 4713,
     "area": 115,
     "postalCode": "43530"
   },
@@ -5422,7 +5422,7 @@
     "id": 1625,
     "province": "Kütahya",
     "name": "Simav",
-    "population": 61346,
+    "population": 60886,
     "area": 1515,
     "postalCode": "43590"
   },
@@ -5431,7 +5431,7 @@
     "id": 1843,
     "province": "Kütahya",
     "name": "Şaphane",
-    "population": 5844,
+    "population": 5540,
     "area": 229,
     "postalCode": "43950"
   },
@@ -5440,7 +5440,7 @@
     "id": 1671,
     "province": "Kütahya",
     "name": "Tavşanlı",
-    "population": 100651,
+    "population": 100882,
     "area": 1899,
     "postalCode": "43410"
   },
@@ -5449,7 +5449,7 @@
     "id": 1114,
     "province": "Malatya",
     "name": "Akçadağ",
-    "population": 34322,
+    "population": 31479,
     "area": 1118,
     "postalCode": "44600"
   },
@@ -5458,7 +5458,7 @@
     "id": 1143,
     "province": "Malatya",
     "name": "Arapgir",
-    "population": 10641,
+    "population": 9917,
     "area": 987,
     "postalCode": "44800"
   },
@@ -5467,7 +5467,7 @@
     "id": 1148,
     "province": "Malatya",
     "name": "Arguvan",
-    "population": 7708,
+    "population": 6859,
     "area": 1096,
     "postalCode": "44960"
   },
@@ -5476,7 +5476,7 @@
     "id": 1772,
     "province": "Malatya",
     "name": "Battalgazi",
-    "population": 269150,
+    "population": 274563,
     "area": 947,
     "postalCode": "44210"
   },
@@ -5485,7 +5485,7 @@
     "id": 1265,
     "province": "Malatya",
     "name": "Darende",
-    "population": 26318,
+    "population": 24806,
     "area": 1482,
     "postalCode": "44720"
   },
@@ -5494,7 +5494,7 @@
     "id": 1286,
     "province": "Malatya",
     "name": "Doğanşehir",
-    "population": 35936,
+    "population": 36037,
     "area": 1364,
     "postalCode": "44500"
   },
@@ -5503,7 +5503,7 @@
     "id": 1914,
     "province": "Malatya",
     "name": "Doğanyol",
-    "population": 4436,
+    "population": 4002,
     "area": 177,
     "postalCode": "44880"
   },
@@ -5512,7 +5512,7 @@
     "id": 1390,
     "province": "Malatya",
     "name": "Hekimhan",
-    "population": 20106,
+    "population": 17116,
     "area": 1514,
     "postalCode": "44410"
   },
@@ -5521,7 +5521,7 @@
     "id": 1953,
     "province": "Malatya",
     "name": "Kale",
-    "population": 6492,
+    "population": 7462,
     "area": 237,
     "postalCode": "44370"
   },
@@ -5530,7 +5530,7 @@
     "id": 1969,
     "province": "Malatya",
     "name": "Kuluncak",
-    "population": 8549,
+    "population": 7414,
     "area": 645,
     "postalCode": "44760"
   },
@@ -5539,7 +5539,7 @@
     "id": 1582,
     "province": "Malatya",
     "name": "Pütürge",
-    "population": 15779,
+    "population": 12372,
     "area": 1086,
     "postalCode": "44850"
   },
@@ -5548,7 +5548,7 @@
     "id": 1995,
     "province": "Malatya",
     "name": "Yazıhan",
-    "population": 16370,
+    "population": 13937,
     "area": 653,
     "postalCode": "44350"
   },
@@ -5557,7 +5557,7 @@
     "id": 1729,
     "province": "Malatya",
     "name": "Yeşilyurt",
-    "population": 286918,
+    "population": 309890,
     "area": 953,
     "postalCode": "44915"
   },
@@ -5566,7 +5566,7 @@
     "id": 1751,
     "province": "Manisa",
     "name": "Ahmetli",
-    "population": 17370,
+    "population": 17612,
     "area": 227,
     "postalCode": "45450"
   },
@@ -5575,7 +5575,7 @@
     "id": 1118,
     "province": "Manisa",
     "name": "Akhisar",
-    "population": 178812,
+    "population": 181472,
     "area": 1645,
     "postalCode": "45200"
   },
@@ -5584,7 +5584,7 @@
     "id": 1127,
     "province": "Manisa",
     "name": "Alaşehir",
-    "population": 105397,
+    "population": 104565,
     "area": 971,
     "postalCode": "45600"
   },
@@ -5593,7 +5593,7 @@
     "id": 1269,
     "province": "Manisa",
     "name": "Demirci",
-    "population": 35868,
+    "population": 35629,
     "area": 1321,
     "postalCode": "45900"
   },
@@ -5602,7 +5602,7 @@
     "id": 1793,
     "province": "Manisa",
     "name": "Gölmarmara",
-    "population": 15211,
+    "population": 15140,
     "area": 310,
     "postalCode": "45580"
   },
@@ -5611,7 +5611,7 @@
     "id": 1362,
     "province": "Manisa",
     "name": "Gördes",
-    "population": 26240,
+    "population": 25456,
     "area": 902,
     "postalCode": "45750"
   },
@@ -5620,7 +5620,7 @@
     "id": 1470,
     "province": "Manisa",
     "name": "Kırkağaç",
-    "population": 37823,
+    "population": 37363,
     "area": 541,
     "postalCode": "45730"
   },
@@ -5629,7 +5629,7 @@
     "id": 1965,
     "province": "Manisa",
     "name": "Köprübaşı",
-    "population": 12752,
+    "population": 12217,
     "area": 447,
     "postalCode": "45940"
   },
@@ -5638,7 +5638,7 @@
     "id": 1489,
     "province": "Manisa",
     "name": "Kula",
-    "population": 43361,
+    "population": 43015,
     "area": 981,
     "postalCode": "45180"
   },
@@ -5647,7 +5647,7 @@
     "id": 1590,
     "province": "Manisa",
     "name": "Salihli",
-    "population": 165182,
+    "population": 165007,
     "area": 1359,
     "postalCode": "45320"
   },
@@ -5656,7 +5656,7 @@
     "id": 1600,
     "province": "Manisa",
     "name": "Sarıgöl",
-    "population": 35519,
+    "population": 34786,
     "area": 432,
     "postalCode": "45470"
   },
@@ -5665,7 +5665,7 @@
     "id": 1606,
     "province": "Manisa",
     "name": "Saruhanlı",
-    "population": 57452,
+    "population": 58475,
     "area": 771,
     "postalCode": "45880"
   },
@@ -5674,7 +5674,7 @@
     "id": 1613,
     "province": "Manisa",
     "name": "Selendi",
-    "population": 19115,
+    "population": 18568,
     "area": 726,
     "postalCode": "45970"
   },
@@ -5683,7 +5683,7 @@
     "id": 1634,
     "province": "Manisa",
     "name": "Soma",
-    "population": 111276,
+    "population": 110188,
     "area": 820,
     "postalCode": "45520"
   },
@@ -5692,7 +5692,7 @@
     "id": 2086,
     "province": "Manisa",
     "name": "Şehzadeler",
-    "population": 166541,
+    "population": 168582,
     "area": 515,
     "postalCode": "45060"
   },
@@ -5701,7 +5701,7 @@
     "id": 1689,
     "province": "Manisa",
     "name": "Turgutlu",
-    "population": 177071,
+    "population": 179326,
     "area": 549,
     "postalCode": "45400"
   },
@@ -5710,7 +5710,7 @@
     "id": 2087,
     "province": "Manisa",
     "name": "Yunusemre",
-    "population": 270726,
+    "population": 270355,
     "area": 823,
     "postalCode": "45125"
   },
@@ -5719,7 +5719,7 @@
     "id": 1107,
     "province": "Kahramanmaraş",
     "name": "Afşin",
-    "population": 78152,
+    "population": 80124,
     "area": 1502,
     "postalCode": "46500"
   },
@@ -5728,7 +5728,7 @@
     "id": 1136,
     "province": "Kahramanmaraş",
     "name": "Andırın",
-    "population": 32581,
+    "population": 31609,
     "area": 1202,
     "postalCode": "46400"
   },
@@ -5737,7 +5737,7 @@
     "id": 1785,
     "province": "Kahramanmaraş",
     "name": "Çağlayancerit",
-    "population": 23159,
+    "population": 22440,
     "area": 470,
     "postalCode": "46770"
   },
@@ -5746,7 +5746,7 @@
     "id": 2084,
     "province": "Kahramanmaraş",
     "name": "Dulkadiroğlu",
-    "population": 214608,
+    "population": 213930,
     "area": 1176,
     "postalCode": "46100"
   },
@@ -5755,7 +5755,7 @@
     "id": 1919,
     "province": "Kahramanmaraş",
     "name": "Ekinözü",
-    "population": 10471,
+    "population": 9896,
     "area": 656,
     "postalCode": "46360"
   },
@@ -5764,7 +5764,7 @@
     "id": 1299,
     "province": "Kahramanmaraş",
     "name": "Elbistan",
-    "population": 127755,
+    "population": 132036,
     "area": 2201,
     "postalCode": "46390"
   },
@@ -5773,7 +5773,7 @@
     "id": 1353,
     "province": "Kahramanmaraş",
     "name": "Göksun",
-    "population": 49119,
+    "population": 49145,
     "area": 1942,
     "postalCode": "46650"
   },
@@ -5782,7 +5782,7 @@
     "id": 1975,
     "province": "Kahramanmaraş",
     "name": "Nurhak",
-    "population": 11984,
+    "population": 11675,
     "area": 1028,
     "postalCode": "46371"
   },
@@ -5791,7 +5791,7 @@
     "id": 2085,
     "province": "Kahramanmaraş",
     "name": "Onikişubat",
-    "population": 427272,
+    "population": 447591,
     "area": 2429,
     "postalCode": "46050"
   },
@@ -5800,7 +5800,7 @@
     "id": 1570,
     "province": "Kahramanmaraş",
     "name": "Pazarcık",
-    "population": 67262,
+    "population": 66777,
     "area": 1253,
     "postalCode": "46760"
   },
@@ -5809,7 +5809,7 @@
     "id": 1694,
     "province": "Kahramanmaraş",
     "name": "Türkoğlu",
-    "population": 74255,
+    "population": 81055,
     "area": 660,
     "postalCode": "46810"
   },
@@ -5818,7 +5818,7 @@
     "id": 2088,
     "province": "Mardin",
     "name": "Artuklu",
-    "population": 194073,
+    "population": 198718,
     "area": 885,
     "postalCode": "47420"
   },
@@ -5827,7 +5827,7 @@
     "id": 1787,
     "province": "Mardin",
     "name": "Dargeçit",
-    "population": 28434,
+    "population": 26675,
     "area": 519,
     "postalCode": "47750"
   },
@@ -5836,7 +5836,7 @@
     "id": 1273,
     "province": "Mardin",
     "name": "Derik",
-    "population": 62475,
+    "population": 61553,
     "area": 1381,
     "postalCode": "47800"
   },
@@ -5845,7 +5845,7 @@
     "id": 1474,
     "province": "Mardin",
     "name": "Kızıltepe",
-    "population": 271307,
+    "population": 275217,
     "area": 1236,
     "postalCode": "47460"
   },
@@ -5854,7 +5854,7 @@
     "id": 1519,
     "province": "Mardin",
     "name": "Mazıdağı",
-    "population": 37399,
+    "population": 37381,
     "area": 850,
     "postalCode": "47700"
   },
@@ -5863,7 +5863,7 @@
     "id": 1526,
     "province": "Mardin",
     "name": "Midyat",
-    "population": 122308,
+    "population": 125791,
     "area": 1241,
     "postalCode": "47545"
   },
@@ -5872,7 +5872,7 @@
     "id": 1547,
     "province": "Mardin",
     "name": "Nusaybin",
-    "population": 118640,
+    "population": 119559,
     "area": 1079,
     "postalCode": "47320"
   },
@@ -5881,7 +5881,7 @@
     "id": 1564,
     "province": "Mardin",
     "name": "Ömerli",
-    "population": 14571,
+    "population": 14112,
     "area": 458,
     "postalCode": "47570"
   },
@@ -5890,7 +5890,7 @@
     "id": 1609,
     "province": "Mardin",
     "name": "Savur",
-    "population": 26173,
+    "population": 23404,
     "area": 962,
     "postalCode": "47860"
   },
@@ -5899,7 +5899,7 @@
     "id": 2002,
     "province": "Mardin",
     "name": "Yeşilli",
-    "population": 13494,
+    "population": 21166,
     "area": 168,
     "postalCode": "47650"
   },
@@ -5908,7 +5908,7 @@
     "id": 1197,
     "province": "Muğla",
     "name": "Bodrum",
-    "population": 198335,
+    "population": 207196,
     "area": 650,
     "postalCode": "48470"
   },
@@ -5917,7 +5917,7 @@
     "id": 1742,
     "province": "Muğla",
     "name": "Dalaman",
-    "population": 49044,
+    "population": 53327,
     "area": 608,
     "postalCode": "48770"
   },
@@ -5926,7 +5926,7 @@
     "id": 1266,
     "province": "Muğla",
     "name": "Datça",
-    "population": 25649,
+    "population": 26067,
     "area": 436,
     "postalCode": "48900"
   },
@@ -5935,7 +5935,7 @@
     "id": 1331,
     "province": "Muğla",
     "name": "Fethiye",
-    "population": 177569,
+    "population": 187332,
     "area": 875,
     "postalCode": "48375"
   },
@@ -5944,7 +5944,7 @@
     "id": 1958,
     "province": "Muğla",
     "name": "Kavaklıdere",
-    "population": 10975,
+    "population": 10854,
     "area": 302,
     "postalCode": "48585"
   },
@@ -5953,7 +5953,7 @@
     "id": 1488,
     "province": "Muğla",
     "name": "Köyceğiz",
-    "population": 40665,
+    "population": 41810,
     "area": 1329,
     "postalCode": "48803"
   },
@@ -5962,7 +5962,7 @@
     "id": 1517,
     "province": "Muğla",
     "name": "Marmaris",
-    "population": 96778,
+    "population": 97373,
     "area": 906,
     "postalCode": "48706"
   },
@@ -5971,7 +5971,7 @@
     "id": 2089,
     "province": "Muğla",
     "name": "Menteşe",
-    "population": 123227,
+    "population": 126288,
     "area": 1659,
     "postalCode": "48040"
   },
@@ -5980,7 +5980,7 @@
     "id": 1528,
     "province": "Muğla",
     "name": "Milas",
-    "population": 149691,
+    "population": 152275,
     "area": 2067,
     "postalCode": "48210"
   },
@@ -5989,7 +5989,7 @@
     "id": 1831,
     "province": "Muğla",
     "name": "Ortaca",
-    "population": 56056,
+    "population": 58704,
     "area": 285,
     "postalCode": "48840"
   },
@@ -5998,7 +5998,7 @@
     "id": 2090,
     "province": "Muğla",
     "name": "Seydikemer",
-    "population": 65851,
+    "population": 65648,
     "area": 2208,
     "postalCode": "48360"
   },
@@ -6007,7 +6007,7 @@
     "id": 1695,
     "province": "Muğla",
     "name": "Ula",
-    "population": 27282,
+    "population": 27649,
     "area": 479,
     "postalCode": "48650"
   },
@@ -6016,7 +6016,7 @@
     "id": 1719,
     "province": "Muğla",
     "name": "Yatağan",
-    "population": 45614,
+    "population": 45024,
     "area": 851,
     "postalCode": "48516"
   },
@@ -6025,7 +6025,7 @@
     "id": 1213,
     "province": "Muş",
     "name": "Bulanık",
-    "population": 72714,
+    "population": 68983,
     "area": 1948,
     "postalCode": "49500"
   },
@@ -6034,7 +6034,7 @@
     "id": 1801,
     "province": "Muş",
     "name": "Hasköy",
-    "population": 27630,
+    "population": 27684,
     "area": 264,
     "postalCode": "49700"
   },
@@ -6043,7 +6043,7 @@
     "id": 1964,
     "province": "Muş",
     "name": "Korkut",
-    "population": 23193,
+    "population": 19251,
     "area": 775,
     "postalCode": "49730"
   },
@@ -6052,7 +6052,7 @@
     "id": 1510,
     "province": "Muş",
     "name": "Malazgirt",
-    "population": 44442,
+    "population": 40595,
     "area": 1595,
     "postalCode": "49400"
   },
@@ -6061,7 +6061,7 @@
     "id": 1534,
     "province": "Muş",
     "name": "Merkez",
-    "population": 201717,
+    "population": 203810,
     "area": 2750,
     "postalCode": "49100"
   },
@@ -6070,7 +6070,7 @@
     "id": 1711,
     "province": "Muş",
     "name": "Varto",
-    "population": 30183,
+    "population": 28804,
     "area": 1318,
     "postalCode": "49610"
   },
@@ -6079,7 +6079,7 @@
     "id": 1749,
     "province": "Nevşehir",
     "name": "Acıgöl",
-    "population": 19565,
+    "population": 19430,
     "area": 456,
     "postalCode": "50140"
   },
@@ -6088,7 +6088,7 @@
     "id": 1155,
     "province": "Nevşehir",
     "name": "Avanos",
-    "population": 32682,
+    "population": 32093,
     "area": 995,
     "postalCode": "50500"
   },
@@ -6097,7 +6097,7 @@
     "id": 1274,
     "province": "Nevşehir",
     "name": "Derinkuyu",
-    "population": 20767,
+    "population": 21107,
     "area": 473,
     "postalCode": "50700"
   },
@@ -6106,7 +6106,7 @@
     "id": 1367,
     "province": "Nevşehir",
     "name": "Gülşehir",
-    "population": 21806,
+    "population": 21173,
     "area": 879,
     "postalCode": "50900"
   },
@@ -6115,7 +6115,7 @@
     "id": 1374,
     "province": "Nevşehir",
     "name": "Hacıbektaş",
-    "population": 11352,
+    "population": 10564,
     "area": 750,
     "postalCode": "50800"
   },
@@ -6124,7 +6124,7 @@
     "id": 1485,
     "province": "Nevşehir",
     "name": "Kozaklı",
-    "population": 13412,
+    "population": 12678,
     "area": 772,
     "postalCode": "50600"
   },
@@ -6133,7 +6133,7 @@
     "id": 1543,
     "province": "Nevşehir",
     "name": "Merkez",
-    "population": 159195,
+    "population": 163126,
     "area": 574,
     "postalCode": "50300"
   },
@@ -6142,7 +6142,7 @@
     "id": 1707,
     "province": "Nevşehir",
     "name": "Ürgüp",
-    "population": 37215,
+    "population": 39979,
     "area": 587,
     "postalCode": "50350"
   },
@@ -6151,7 +6151,7 @@
     "id": 1876,
     "province": "Niğde",
     "name": "Altunhisar",
-    "population": 14225,
+    "population": 12004,
     "area": 552,
     "postalCode": "51600"
   },
@@ -6160,7 +6160,7 @@
     "id": 1201,
     "province": "Niğde",
     "name": "Bor",
-    "population": 62553,
+    "population": 62594,
     "area": 1522,
     "postalCode": "51710"
   },
@@ -6169,7 +6169,7 @@
     "id": 1225,
     "province": "Niğde",
     "name": "Çamardı",
-    "population": 13614,
+    "population": 11631,
     "area": 1163,
     "postalCode": "51660"
   },
@@ -6178,7 +6178,7 @@
     "id": 1904,
     "province": "Niğde",
     "name": "Çiftlik",
-    "population": 28780,
+    "population": 25157,
     "area": 400,
     "postalCode": "51810"
   },
@@ -6187,7 +6187,7 @@
     "id": 1544,
     "province": "Niğde",
     "name": "Merkez",
-    "population": 236864,
+    "population": 244326,
     "area": 2223,
     "postalCode": "51200"
   },
@@ -6196,7 +6196,7 @@
     "id": 1700,
     "province": "Niğde",
     "name": "Ulukışla",
-    "population": 21044,
+    "population": 18780,
     "area": 1375,
     "postalCode": "51900"
   },
@@ -6205,7 +6205,7 @@
     "id": 1119,
     "province": "Ordu",
     "name": "Akkuş",
-    "population": 22456,
+    "population": 20465,
     "area": 697,
     "postalCode": "52950"
   },
@@ -6214,7 +6214,7 @@
     "id": 2103,
     "province": "Ordu",
     "name": "Altınordu",
-    "population": 225349,
+    "population": 239714,
     "area": 410,
     "postalCode": "52200"
   },
@@ -6223,7 +6223,7 @@
     "id": 1158,
     "province": "Ordu",
     "name": "Aybastı",
-    "population": 20966,
+    "population": 19784,
     "area": 250,
     "postalCode": "52500"
   },
@@ -6232,7 +6232,7 @@
     "id": 1891,
     "province": "Ordu",
     "name": "Çamaş",
-    "population": 10232,
+    "population": 8407,
     "area": 81,
     "postalCode": "52430"
   },
@@ -6241,7 +6241,7 @@
     "id": 1897,
     "province": "Ordu",
     "name": "Çatalpınar",
-    "population": 14014,
+    "population": 12888,
     "area": 101,
     "postalCode": "52420"
   },
@@ -6250,7 +6250,7 @@
     "id": 1900,
     "province": "Ordu",
     "name": "Çaybaşı",
-    "population": 12625,
+    "population": 11656,
     "area": 102,
     "postalCode": "52310"
   },
@@ -6259,7 +6259,7 @@
     "id": 1328,
     "province": "Ordu",
     "name": "Fatsa",
-    "population": 125399,
+    "population": 129844,
     "area": 363,
     "postalCode": "52410"
   },
@@ -6268,7 +6268,7 @@
     "id": 1358,
     "province": "Ordu",
     "name": "Gölköy",
-    "population": 26970,
+    "population": 24780,
     "area": 421,
     "postalCode": "52600"
   },
@@ -6277,7 +6277,7 @@
     "id": 1795,
     "province": "Ordu",
     "name": "Gülyalı",
-    "population": 9243,
+    "population": 8881,
     "area": 62,
     "postalCode": "52010"
   },
@@ -6286,7 +6286,7 @@
     "id": 1797,
     "province": "Ordu",
     "name": "Gürgentepe",
-    "population": 15543,
+    "population": 12499,
     "area": 185,
     "postalCode": "52610"
   },
@@ -6295,7 +6295,7 @@
     "id": 1947,
     "province": "Ordu",
     "name": "İkizce",
-    "population": 14013,
+    "population": 12537,
     "area": 148,
     "postalCode": "52320"
   },
@@ -6304,7 +6304,7 @@
     "id": 1950,
     "province": "Ordu",
     "name": "Kabadüz",
-    "population": 7548,
+    "population": 6794,
     "area": 290,
     "postalCode": "52020"
   },
@@ -6313,7 +6313,7 @@
     "id": 1951,
     "province": "Ordu",
     "name": "Kabataş",
-    "population": 11011,
+    "population": 9949,
     "area": 74,
     "postalCode": "52510"
   },
@@ -6322,7 +6322,7 @@
     "id": 1482,
     "province": "Ordu",
     "name": "Korgan",
-    "population": 28144,
+    "population": 26428,
     "area": 254,
     "postalCode": "52700"
   },
@@ -6331,7 +6331,7 @@
     "id": 1493,
     "province": "Ordu",
     "name": "Kumru",
-    "population": 29704,
+    "population": 27638,
     "area": 296,
     "postalCode": "52800"
   },
@@ -6340,7 +6340,7 @@
     "id": 1525,
     "province": "Ordu",
     "name": "Mesudiye",
-    "population": 15357,
+    "population": 11829,
     "area": 1046,
     "postalCode": "52900"
   },
@@ -6349,7 +6349,7 @@
     "id": 1573,
     "province": "Ordu",
     "name": "Perşembe",
-    "population": 31278,
+    "population": 30053,
     "area": 217,
     "postalCode": "52760"
   },
@@ -6358,7 +6358,7 @@
     "id": 1696,
     "province": "Ordu",
     "name": "Ulubey",
-    "population": 23033,
+    "population": 18027,
     "area": 295,
     "postalCode": "52850"
   },
@@ -6367,7 +6367,7 @@
     "id": 1706,
     "province": "Ordu",
     "name": "Ünye",
-    "population": 132915,
+    "population": 135914,
     "area": 569,
     "postalCode": "52300"
   },
@@ -6376,7 +6376,7 @@
     "id": 1146,
     "province": "Rize",
     "name": "Ardeşen",
-    "population": 42467,
+    "population": 43519,
     "area": 376,
     "postalCode": "53400"
   },
@@ -6385,7 +6385,7 @@
     "id": 1228,
     "province": "Rize",
     "name": "Çamlıhemşin",
-    "population": 7799,
+    "population": 7051,
     "area": 897,
     "postalCode": "53750"
   },
@@ -6394,7 +6394,7 @@
     "id": 1241,
     "province": "Rize",
     "name": "Çayeli",
-    "population": 43075,
+    "population": 42032,
     "area": 442,
     "postalCode": "53210"
   },
@@ -6403,7 +6403,7 @@
     "id": 1908,
     "province": "Rize",
     "name": "Derepazarı",
-    "population": 7732,
+    "population": 6772,
     "area": 28,
     "postalCode": "53900"
   },
@@ -6412,7 +6412,7 @@
     "id": 1332,
     "province": "Rize",
     "name": "Fındıklı",
-    "population": 17385,
+    "population": 16388,
     "area": 383,
     "postalCode": "53700"
   },
@@ -6421,7 +6421,7 @@
     "id": 1796,
     "province": "Rize",
     "name": "Güneysu",
-    "population": 15953,
+    "population": 15013,
     "area": 159,
     "postalCode": "53350"
   },
@@ -6430,7 +6430,7 @@
     "id": 1943,
     "province": "Rize",
     "name": "Hemşin",
-    "population": 2499,
+    "population": 2299,
     "area": 134,
     "postalCode": "53550"
   },
@@ -6439,7 +6439,7 @@
     "id": 1405,
     "province": "Rize",
     "name": "İkizdere",
-    "population": 8676,
+    "population": 6287,
     "area": 855,
     "postalCode": "53650"
   },
@@ -6448,7 +6448,7 @@
     "id": 1949,
     "province": "Rize",
     "name": "İyidere",
-    "population": 9366,
+    "population": 8495,
     "area": 28,
     "postalCode": "53600"
   },
@@ -6457,7 +6457,7 @@
     "id": 1428,
     "province": "Rize",
     "name": "Kalkandere",
-    "population": 15042,
+    "population": 13350,
     "area": 107,
     "postalCode": "53500"
   },
@@ -6466,7 +6466,7 @@
     "id": 1586,
     "province": "Rize",
     "name": "Merkez",
-    "population": 147996,
+    "population": 153597,
     "area": 253,
     "postalCode": "53950"
   },
@@ -6475,7 +6475,7 @@
     "id": 1569,
     "province": "Rize",
     "name": "Pazar",
-    "population": 32516,
+    "population": 32144,
     "area": 173,
     "postalCode": "53340"
   },
@@ -6484,7 +6484,7 @@
     "id": 2068,
     "province": "Sakarya",
     "name": "Adapazarı",
-    "population": 279431,
+    "population": 284006,
     "area": 324,
     "postalCode": "54100"
   },
@@ -6493,7 +6493,7 @@
     "id": 1123,
     "province": "Sakarya",
     "name": "Akyazı",
-    "population": 96605,
+    "population": 99561,
     "area": 628,
     "postalCode": "54400"
   },
@@ -6502,7 +6502,7 @@
     "id": 2069,
     "province": "Sakarya",
     "name": "Arifiye",
-    "population": 51467,
+    "population": 55589,
     "area": 75,
     "postalCode": "54580"
   },
@@ -6511,7 +6511,7 @@
     "id": 2070,
     "province": "Sakarya",
     "name": "Erenler",
-    "population": 91611,
+    "population": 92549,
     "area": 136,
     "postalCode": "54200"
   },
@@ -6520,7 +6520,7 @@
     "id": 1925,
     "province": "Sakarya",
     "name": "Ferizli",
-    "population": 32752,
+    "population": 36015,
     "area": 173,
     "postalCode": "54110"
   },
@@ -6529,7 +6529,7 @@
     "id": 1351,
     "province": "Sakarya",
     "name": "Geyve",
-    "population": 51676,
+    "population": 51708,
     "area": 662,
     "postalCode": "54950"
   },
@@ -6538,7 +6538,7 @@
     "id": 1391,
     "province": "Sakarya",
     "name": "Hendek",
-    "population": 91486,
+    "population": 93990,
     "area": 646,
     "postalCode": "54300"
   },
@@ -6547,7 +6547,7 @@
     "id": 1955,
     "province": "Sakarya",
     "name": "Karapürçek",
-    "population": 13713,
+    "population": 13734,
     "area": 142,
     "postalCode": "54430"
   },
@@ -6556,7 +6556,7 @@
     "id": 1442,
     "province": "Sakarya",
     "name": "Karasu",
-    "population": 73738,
+    "population": 75887,
     "area": 411,
     "postalCode": "54500"
   },
@@ -6565,7 +6565,7 @@
     "id": 1453,
     "province": "Sakarya",
     "name": "Kaynarca",
-    "population": 25137,
+    "population": 25440,
     "area": 343,
     "postalCode": "54650"
   },
@@ -6574,7 +6574,7 @@
     "id": 1818,
     "province": "Sakarya",
     "name": "Kocaali",
-    "population": 26523,
+    "population": 24966,
     "area": 254,
     "postalCode": "54800"
   },
@@ -6583,7 +6583,7 @@
     "id": 1833,
     "province": "Sakarya",
     "name": "Pamukova",
-    "population": 31205,
+    "population": 31536,
     "area": 289,
     "postalCode": "54900"
   },
@@ -6592,7 +6592,7 @@
     "id": 1595,
     "province": "Sakarya",
     "name": "Sapanca",
-    "population": 46080,
+    "population": 47505,
     "area": 173,
     "postalCode": "54600"
   },
@@ -6601,7 +6601,7 @@
     "id": 2071,
     "province": "Sakarya",
     "name": "Serdivan",
-    "population": 164222,
+    "population": 168855,
     "area": 130,
     "postalCode": "54055"
   },
@@ -6610,7 +6610,7 @@
     "id": 1986,
     "province": "Sakarya",
     "name": "Söğütlü",
-    "population": 15411,
+    "population": 15288,
     "area": 145,
     "postalCode": "54160"
   },
@@ -6619,7 +6619,7 @@
     "id": 1847,
     "province": "Sakarya",
     "name": "Taraklı",
-    "population": 7058,
+    "population": 7064,
     "area": 292,
     "postalCode": "54750"
   },
@@ -6628,7 +6628,7 @@
     "id": 1830,
     "province": "Samsun",
     "name": "19 Mayıs",
-    "population": 27910,
+    "population": 28658,
     "area": 234,
     "postalCode": "55421"
   },
@@ -6637,7 +6637,7 @@
     "id": 1125,
     "province": "Samsun",
     "name": "Alaçam",
-    "population": 25148,
+    "population": 24560,
     "area": 598,
     "postalCode": "55800"
   },
@@ -6646,7 +6646,7 @@
     "id": 1763,
     "province": "Samsun",
     "name": "Asarcık",
-    "population": 16906,
+    "population": 15673,
     "area": 253,
     "postalCode": "55860"
   },
@@ -6655,7 +6655,7 @@
     "id": 2072,
     "province": "Samsun",
     "name": "Atakum",
-    "population": 245328,
+    "population": 261809,
     "area": 351,
     "postalCode": "55200"
   },
@@ -6664,7 +6664,7 @@
     "id": 1879,
     "province": "Samsun",
     "name": "Ayvacık",
-    "population": 21090,
+    "population": 18557,
     "area": 382,
     "postalCode": "55550"
   },
@@ -6673,7 +6673,7 @@
     "id": 1164,
     "province": "Samsun",
     "name": "Bafra",
-    "population": 143109,
+    "population": 143387,
     "area": 1503,
     "postalCode": "55400"
   },
@@ -6682,7 +6682,7 @@
     "id": 2073,
     "province": "Samsun",
     "name": "Canik",
-    "population": 100040,
+    "population": 100247,
     "area": 264,
     "postalCode": "55080"
   },
@@ -6691,7 +6691,7 @@
     "id": 1234,
     "province": "Samsun",
     "name": "Çarşamba",
-    "population": 141199,
+    "population": 143206,
     "area": 774,
     "postalCode": "55515"
   },
@@ -6700,7 +6700,7 @@
     "id": 1386,
     "province": "Samsun",
     "name": "Havza",
-    "population": 38824,
+    "population": 38103,
     "area": 865,
     "postalCode": "55715"
   },
@@ -6709,7 +6709,7 @@
     "id": 2074,
     "province": "Samsun",
     "name": "İlkadım",
-    "population": 322228,
+    "population": 330290,
     "area": 155,
     "postalCode": "55070"
   },
@@ -6718,7 +6718,7 @@
     "id": 1452,
     "province": "Samsun",
     "name": "Kavak",
-    "population": 26346,
+    "population": 25370,
     "area": 697,
     "postalCode": "55850"
   },
@@ -6727,7 +6727,7 @@
     "id": 1501,
     "province": "Samsun",
     "name": "Ladik",
-    "population": 16907,
+    "population": 15942,
     "area": 541,
     "postalCode": "55760"
   },
@@ -6736,7 +6736,7 @@
     "id": 1838,
     "province": "Samsun",
     "name": "Salıpazarı",
-    "population": 21243,
+    "population": 19406,
     "area": 356,
     "postalCode": "55530"
   },
@@ -6745,7 +6745,7 @@
     "id": 1849,
     "province": "Samsun",
     "name": "Tekkeköy",
-    "population": 58615,
+    "population": 59356,
     "area": 326,
     "postalCode": "55320"
   },
@@ -6754,7 +6754,7 @@
     "id": 1676,
     "province": "Samsun",
     "name": "Terme",
-    "population": 73120,
+    "population": 71348,
     "area": 548,
     "postalCode": "55600"
   },
@@ -6763,7 +6763,7 @@
     "id": 1712,
     "province": "Samsun",
     "name": "Vezirköprü",
-    "population": 90388,
+    "population": 87575,
     "area": 1674,
     "postalCode": "55900"
   },
@@ -6772,7 +6772,7 @@
     "id": 1993,
     "province": "Samsun",
     "name": "Yakakent",
-    "population": 9145,
+    "population": 8916,
     "area": 204,
     "postalCode": "55810"
   },
@@ -6781,7 +6781,7 @@
     "id": 1179,
     "province": "Siirt",
     "name": "Baykan",
-    "population": 26338,
+    "population": 23219,
     "area": 488,
     "postalCode": "56460"
   },
@@ -6790,7 +6790,7 @@
     "id": 1317,
     "province": "Siirt",
     "name": "Eruh",
-    "population": 20011,
+    "population": 18339,
     "area": 1061,
     "postalCode": "56800"
   },
@@ -6799,7 +6799,7 @@
     "id": 1495,
     "province": "Siirt",
     "name": "Kurtalan",
-    "population": 62232,
+    "population": 60674,
     "area": 811,
     "postalCode": "56540"
   },
@@ -6808,7 +6808,7 @@
     "id": 1620,
     "province": "Siirt",
     "name": "Merkez",
-    "population": 184163,
+    "population": 180837,
     "area": 633,
     "postalCode": "56210"
   },
@@ -6817,7 +6817,7 @@
     "id": 1575,
     "province": "Siirt",
     "name": "Pervari",
-    "population": 29448,
+    "population": 26437,
     "area": 1651,
     "postalCode": "56700"
   },
@@ -6826,7 +6826,7 @@
     "id": 1662,
     "province": "Siirt",
     "name": "Şirvan",
-    "population": 20779,
+    "population": 18773,
     "area": 936,
     "postalCode": "56760"
   },
@@ -6835,7 +6835,7 @@
     "id": 1878,
     "province": "Siirt",
     "name": "Tillo",
-    "population": 4441,
+    "population": 4090,
     "area": 138,
     "postalCode": "56870"
   },
@@ -6844,7 +6844,7 @@
     "id": 1156,
     "province": "Sinop",
     "name": "Ayancık",
-    "population": 24473,
+    "population": 23818,
     "area": 862,
     "postalCode": "57400"
   },
@@ -6853,7 +6853,7 @@
     "id": 1204,
     "province": "Sinop",
     "name": "Boyabat",
-    "population": 45833,
+    "population": 44901,
     "area": 1512,
     "postalCode": "57200"
   },
@@ -6862,7 +6862,7 @@
     "id": 1910,
     "province": "Sinop",
     "name": "Dikmen",
-    "population": 5156,
+    "population": 4810,
     "area": 411,
     "postalCode": "57660"
   },
@@ -6871,7 +6871,7 @@
     "id": 1290,
     "province": "Sinop",
     "name": "Durağan",
-    "population": 17900,
+    "population": 16788,
     "area": 995,
     "postalCode": "57700"
   },
@@ -6880,7 +6880,7 @@
     "id": 1314,
     "province": "Sinop",
     "name": "Erfelek",
-    "population": 13123,
+    "population": 12565,
     "area": 412,
     "postalCode": "57800"
   },
@@ -6889,7 +6889,7 @@
     "id": 1349,
     "province": "Sinop",
     "name": "Gerze",
-    "population": 29534,
+    "population": 30701,
     "area": 487,
     "postalCode": "57600"
   },
@@ -6898,7 +6898,7 @@
     "id": 1627,
     "province": "Sinop",
     "name": "Merkez",
-    "population": 69844,
+    "population": 70311,
     "area": 442,
     "postalCode": "57000"
   },
@@ -6907,7 +6907,7 @@
     "id": 1981,
     "province": "Sinop",
     "name": "Saraydüzü",
-    "population": 6642,
+    "population": 5656,
     "area": 334,
     "postalCode": "57300"
   },
@@ -6916,7 +6916,7 @@
     "id": 1693,
     "province": "Sinop",
     "name": "Türkeli",
-    "population": 17211,
+    "population": 16298,
     "area": 263,
     "postalCode": "57900"
   },
@@ -6925,7 +6925,7 @@
     "id": 1870,
     "province": "Sivas",
     "name": "Akıncılar",
-    "population": 5111,
+    "population": 4641,
     "area": 432,
     "postalCode": "58550"
   },
@@ -6934,7 +6934,7 @@
     "id": 1875,
     "province": "Sivas",
     "name": "Altınyayla",
-    "population": 8866,
+    "population": 8245,
     "area": 654,
     "postalCode": "58470"
   },
@@ -6943,7 +6943,7 @@
     "id": 1282,
     "province": "Sivas",
     "name": "Divriği",
-    "population": 16893,
+    "population": 15657,
     "area": 2632,
     "postalCode": "58300"
   },
@@ -6952,7 +6952,7 @@
     "id": 1913,
     "province": "Sivas",
     "name": "Doğanşar",
-    "population": 3216,
+    "population": 2770,
     "area": 370,
     "postalCode": "58780"
   },
@@ -6961,7 +6961,7 @@
     "id": 1342,
     "province": "Sivas",
     "name": "Gemerek",
-    "population": 22717,
+    "population": 21342,
     "area": 1131,
     "postalCode": "58840"
   },
@@ -6970,7 +6970,7 @@
     "id": 1927,
     "province": "Sivas",
     "name": "Gölova",
-    "population": 3614,
+    "population": 2998,
     "area": 286,
     "postalCode": "58640"
   },
@@ -6979,7 +6979,7 @@
     "id": 1373,
     "province": "Sivas",
     "name": "Gürün",
-    "population": 18118,
+    "population": 17062,
     "area": 2632,
     "postalCode": "58800"
   },
@@ -6988,7 +6988,7 @@
     "id": 1376,
     "province": "Sivas",
     "name": "Hafik",
-    "population": 10944,
+    "population": 8950,
     "area": 1765,
     "postalCode": "58760"
   },
@@ -6997,7 +6997,7 @@
     "id": 1407,
     "province": "Sivas",
     "name": "İmranlı",
-    "population": 9091,
+    "population": 6788,
     "area": 1292,
     "postalCode": "58980"
   },
@@ -7006,7 +7006,7 @@
     "id": 1431,
     "province": "Sivas",
     "name": "Kangal",
-    "population": 21629,
+    "population": 19406,
     "area": 3342,
     "postalCode": "58900"
   },
@@ -7015,7 +7015,7 @@
     "id": 1484,
     "province": "Sivas",
     "name": "Koyulhisar",
-    "population": 12959,
+    "population": 11782,
     "area": 891,
     "postalCode": "58660"
   },
@@ -7024,7 +7024,7 @@
     "id": 1628,
     "province": "Sivas",
     "name": "Merkez",
-    "population": 389719,
+    "population": 393912,
     "area": 3488,
     "postalCode": "58030"
   },
@@ -7033,7 +7033,7 @@
     "id": 1646,
     "province": "Sivas",
     "name": "Suşehri",
-    "population": 25295,
+    "population": 25056,
     "area": 939,
     "postalCode": "58600"
   },
@@ -7042,7 +7042,7 @@
     "id": 1650,
     "province": "Sivas",
     "name": "Şarkışla",
-    "population": 37758,
+    "population": 37282,
     "area": 2073,
     "postalCode": "58400"
   },
@@ -7051,7 +7051,7 @@
     "id": 1991,
     "province": "Sivas",
     "name": "Ulaş",
-    "population": 8879,
+    "population": 7603,
     "area": 1092,
     "postalCode": "58380"
   },
@@ -7060,7 +7060,7 @@
     "id": 1731,
     "province": "Sivas",
     "name": "Yıldızeli",
-    "population": 31719,
+    "population": 26567,
     "area": 2529,
     "postalCode": "58500"
   },
@@ -7069,7 +7069,7 @@
     "id": 1738,
     "province": "Sivas",
     "name": "Zara",
-    "population": 23873,
+    "population": 21340,
     "area": 2616,
     "postalCode": "58700"
   },
@@ -7078,7 +7078,7 @@
     "id": 1250,
     "province": "Tekirdağ",
     "name": "Çerkezköy",
-    "population": 213243,
+    "population": 223975,
     "area": 86,
     "postalCode": "59500"
   },
@@ -7087,7 +7087,7 @@
     "id": 1258,
     "province": "Tekirdağ",
     "name": "Çorlu",
-    "population": 294020,
+    "population": 306939,
     "area": 531,
     "postalCode": "59850"
   },
@@ -7096,7 +7096,7 @@
     "id": 2094,
     "province": "Tekirdağ",
     "name": "Ergene",
-    "population": 68695,
+    "population": 68648,
     "area": 418,
     "postalCode": "59930"
   },
@@ -7105,7 +7105,7 @@
     "id": 1388,
     "province": "Tekirdağ",
     "name": "Hayrabolu",
-    "population": 30930,
+    "population": 29706,
     "area": 1009,
     "postalCode": "59410"
   },
@@ -7114,7 +7114,7 @@
     "id": 2095,
     "province": "Tekirdağ",
     "name": "Kapaklı",
-    "population": 142662,
+    "population": 152509,
     "area": 182,
     "postalCode": "59510"
   },
@@ -7123,7 +7123,7 @@
     "id": 1511,
     "province": "Tekirdağ",
     "name": "Malkara",
-    "population": 51406,
+    "population": 50123,
     "area": 1243,
     "postalCode": "59320"
   },
@@ -7132,7 +7132,7 @@
     "id": 1825,
     "province": "Tekirdağ",
     "name": "Marmaraereğlisi",
-    "population": 31191,
+    "population": 33623,
     "area": 175,
     "postalCode": "59740"
   },
@@ -7141,7 +7141,7 @@
     "id": 1538,
     "province": "Tekirdağ",
     "name": "Muratlı",
-    "population": 30411,
+    "population": 30410,
     "area": 388,
     "postalCode": "59700"
   },
@@ -7150,7 +7150,7 @@
     "id": 1596,
     "province": "Tekirdağ",
     "name": "Saray",
-    "population": 51224,
+    "population": 51468,
     "area": 620,
     "postalCode": "59600"
   },
@@ -7159,7 +7159,7 @@
     "id": 2096,
     "province": "Tekirdağ",
     "name": "Süleymanpaşa",
-    "population": 219230,
+    "population": 226582,
     "area": 1053,
     "postalCode": "59100"
   },
@@ -7168,7 +7168,7 @@
     "id": 1652,
     "province": "Tekirdağ",
     "name": "Şarköy",
-    "population": 34047,
+    "population": 34458,
     "area": 487,
     "postalCode": "59570"
   },
@@ -7177,7 +7177,7 @@
     "id": 1129,
     "province": "Tokat",
     "name": "Almus",
-    "population": 25116,
+    "population": 28135,
     "area": 1033,
     "postalCode": "60900"
   },
@@ -7186,7 +7186,7 @@
     "id": 1151,
     "province": "Tokat",
     "name": "Artova",
-    "population": 7469,
+    "population": 7589,
     "area": 444,
     "postalCode": "60670"
   },
@@ -7195,7 +7195,7 @@
     "id": 1883,
     "province": "Tokat",
     "name": "Başçiftlik",
-    "population": 6216,
+    "population": 8445,
     "area": 246,
     "postalCode": "60620"
   },
@@ -7204,7 +7204,7 @@
     "id": 1308,
     "province": "Tokat",
     "name": "Erbaa",
-    "population": 100323,
+    "population": 103409,
     "area": 1173,
     "postalCode": "60500"
   },
@@ -7213,7 +7213,7 @@
     "id": 1679,
     "province": "Tokat",
     "name": "Merkez",
-    "population": 207741,
+    "population": 201969,
     "area": 2003,
     "postalCode": "60230"
   },
@@ -7222,7 +7222,7 @@
     "id": 1545,
     "province": "Tokat",
     "name": "Niksar",
-    "population": 62287,
+    "population": 63594,
     "area": 889,
     "postalCode": "60630"
   },
@@ -7231,7 +7231,7 @@
     "id": 1834,
     "province": "Tokat",
     "name": "Pazar",
-    "population": 13419,
+    "population": 12875,
     "area": 188,
     "postalCode": "60800"
   },
@@ -7240,7 +7240,7 @@
     "id": 1584,
     "province": "Tokat",
     "name": "Reşadiye",
-    "population": 36727,
+    "population": 43108,
     "area": 1102,
     "postalCode": "60730"
   },
@@ -7249,7 +7249,7 @@
     "id": 1987,
     "province": "Tokat",
     "name": "Sulusaray",
-    "population": 6698,
+    "population": 6536,
     "area": 266,
     "postalCode": "60870"
   },
@@ -7258,7 +7258,7 @@
     "id": 1690,
     "province": "Tokat",
     "name": "Turhal",
-    "population": 78827,
+    "population": 77707,
     "area": 940,
     "postalCode": "60300"
   },
@@ -7267,7 +7267,7 @@
     "id": 1858,
     "province": "Tokat",
     "name": "Yeşilyurt",
-    "population": 8356,
+    "population": 8045,
     "area": 280,
     "postalCode": "60860"
   },
@@ -7276,7 +7276,7 @@
     "id": 1740,
     "province": "Tokat",
     "name": "Zile",
-    "population": 53755,
+    "population": 52729,
     "area": 1480,
     "postalCode": "60400"
   },
@@ -7285,7 +7285,7 @@
     "id": 1113,
     "province": "Trabzon",
     "name": "Akçaabat",
-    "population": 129628,
+    "population": 131162,
     "area": 375,
     "postalCode": "61300"
   },
@@ -7294,7 +7294,7 @@
     "id": 1141,
     "province": "Trabzon",
     "name": "Araklı",
-    "population": 51124,
+    "population": 49230,
     "area": 464,
     "postalCode": "61700"
   },
@@ -7303,7 +7303,7 @@
     "id": 1150,
     "province": "Trabzon",
     "name": "Arsin",
-    "population": 32717,
+    "population": 31493,
     "area": 157,
     "postalCode": "61900"
   },
@@ -7312,7 +7312,7 @@
     "id": 1775,
     "province": "Trabzon",
     "name": "Beşikdüzü",
-    "population": 23568,
+    "population": 23246,
     "area": 84,
     "postalCode": "61800"
   },
@@ -7321,7 +7321,7 @@
     "id": 1896,
     "province": "Trabzon",
     "name": "Çarşıbaşı",
-    "population": 15753,
+    "population": 15004,
     "area": 66,
     "postalCode": "61420"
   },
@@ -7330,7 +7330,7 @@
     "id": 1244,
     "province": "Trabzon",
     "name": "Çaykara",
-    "population": 15180,
+    "population": 12921,
     "area": 574,
     "postalCode": "61940"
   },
@@ -7339,7 +7339,7 @@
     "id": 1909,
     "province": "Trabzon",
     "name": "Dernekpazarı",
-    "population": 4294,
+    "population": 3717,
     "area": 89,
     "postalCode": "61950"
   },
@@ -7348,7 +7348,7 @@
     "id": 1917,
     "province": "Trabzon",
     "name": "Düzköy",
-    "population": 14142,
+    "population": 13105,
     "area": 125,
     "postalCode": "61390"
   },
@@ -7357,7 +7357,7 @@
     "id": 1942,
     "province": "Trabzon",
     "name": "Hayrat",
-    "population": 9337,
+    "population": 7410,
     "area": 244,
     "postalCode": "61470"
   },
@@ -7366,7 +7366,7 @@
     "id": 1966,
     "province": "Trabzon",
     "name": "Köprübaşı",
-    "population": 4776,
+    "population": 4271,
     "area": 189,
     "postalCode": "61630"
   },
@@ -7375,7 +7375,7 @@
     "id": 1507,
     "province": "Trabzon",
     "name": "Maçka",
-    "population": 27322,
+    "population": 24931,
     "area": 925,
     "postalCode": "61750"
   },
@@ -7384,7 +7384,7 @@
     "id": 1548,
     "province": "Trabzon",
     "name": "Of",
-    "population": 44527,
+    "population": 43591,
     "area": 258,
     "postalCode": "61830"
   },
@@ -7393,7 +7393,7 @@
     "id": 2097,
     "province": "Trabzon",
     "name": "Ortahisar",
-    "population": 322702,
+    "population": 335116,
     "area": 235,
     "postalCode": "61000"
   },
@@ -7402,7 +7402,7 @@
     "id": 1647,
     "province": "Trabzon",
     "name": "Sürmene",
-    "population": 26127,
+    "population": 25281,
     "area": 166,
     "postalCode": "61530"
   },
@@ -7411,7 +7411,7 @@
     "id": 1842,
     "province": "Trabzon",
     "name": "Şalpazarı",
-    "population": 11780,
+    "population": 10575,
     "area": 161,
     "postalCode": "61670"
   },
@@ -7420,7 +7420,7 @@
     "id": 1681,
     "province": "Trabzon",
     "name": "Tonya",
-    "population": 14315,
+    "population": 13332,
     "area": 176,
     "postalCode": "61510"
   },
@@ -7429,7 +7429,7 @@
     "id": 1709,
     "province": "Trabzon",
     "name": "Vakfıkebir",
-    "population": 27339,
+    "population": 27278,
     "area": 141,
     "postalCode": "61400"
   },
@@ -7438,7 +7438,7 @@
     "id": 1732,
     "province": "Trabzon",
     "name": "Yomra",
-    "population": 49721,
+    "population": 51660,
     "area": 200,
     "postalCode": "61290"
   },
@@ -7447,7 +7447,7 @@
     "id": 1247,
     "province": "Tunceli",
     "name": "Çemişgezek",
-    "population": 8066,
+    "population": 7505,
     "area": 851,
     "postalCode": "62600"
   },
@@ -7456,7 +7456,7 @@
     "id": 1397,
     "province": "Tunceli",
     "name": "Hozat",
-    "population": 5952,
+    "population": 5332,
     "area": 663,
     "postalCode": "62400"
   },
@@ -7465,7 +7465,7 @@
     "id": 1518,
     "province": "Tunceli",
     "name": "Mazgirt",
-    "population": 7827,
+    "population": 7257,
     "area": 702,
     "postalCode": "62800"
   },
@@ -7474,7 +7474,7 @@
     "id": 1688,
     "province": "Tunceli",
     "name": "Merkez",
-    "population": 41389,
+    "population": 41045,
     "area": 1128,
     "postalCode": "62000"
   },
@@ -7483,7 +7483,7 @@
     "id": 1541,
     "province": "Tunceli",
     "name": "Nazımiye",
-    "population": 3437,
+    "population": 3095,
     "area": 543,
     "postalCode": "62950"
   },
@@ -7492,7 +7492,7 @@
     "id": 1562,
     "province": "Tunceli",
     "name": "Ovacık",
-    "population": 7173,
+    "population": 6700,
     "area": 1401,
     "postalCode": "62900"
   },
@@ -7501,7 +7501,7 @@
     "id": 1574,
     "province": "Tunceli",
     "name": "Pertek",
-    "population": 11463,
+    "population": 10569,
     "area": 858,
     "postalCode": "62500"
   },
@@ -7510,7 +7510,7 @@
     "id": 1581,
     "province": "Tunceli",
     "name": "Pülümür",
-    "population": 4010,
+    "population": 3580,
     "area": 1437,
     "postalCode": "62710"
   },
@@ -7519,7 +7519,7 @@
     "id": 1115,
     "province": "Şanlıurfa",
     "name": "Akçakale",
-    "population": 127277,
+    "population": 131351,
     "area": 1038,
     "postalCode": "63500"
   },
@@ -7528,7 +7528,7 @@
     "id": 1194,
     "province": "Şanlıurfa",
     "name": "Birecik",
-    "population": 93866,
+    "population": 91837,
     "area": 912,
     "postalCode": "63420"
   },
@@ -7537,7 +7537,7 @@
     "id": 1209,
     "province": "Şanlıurfa",
     "name": "Bozova",
-    "population": 55553,
+    "population": 50534,
     "area": 1329,
     "postalCode": "63850"
   },
@@ -7546,7 +7546,7 @@
     "id": 1220,
     "province": "Şanlıurfa",
     "name": "Ceylanpınar",
-    "population": 92147,
+    "population": 93105,
     "area": 1589,
     "postalCode": "63570"
   },
@@ -7555,7 +7555,7 @@
     "id": 2091,
     "province": "Şanlıurfa",
     "name": "Eyyübiye",
-    "population": 400084,
+    "population": 414516,
     "area": 1626,
     "postalCode": "63250"
   },
@@ -7564,7 +7564,7 @@
     "id": 1378,
     "province": "Şanlıurfa",
     "name": "Halfeti",
-    "population": 46312,
+    "population": 41624,
     "area": 609,
     "postalCode": "63986"
   },
@@ -7573,7 +7573,7 @@
     "id": 2092,
     "province": "Şanlıurfa",
     "name": "Haliliye",
-    "population": 392600,
+    "population": 395975,
     "area": 1924,
     "postalCode": "63050"
   },
@@ -7582,7 +7582,7 @@
     "id": 1800,
     "province": "Şanlıurfa",
     "name": "Harran",
-    "population": 98999,
+    "population": 101710,
     "area": 904,
     "postalCode": "63510"
   },
@@ -7591,7 +7591,7 @@
     "id": 1393,
     "province": "Şanlıurfa",
     "name": "Hilvan",
-    "population": 43448,
+    "population": 41969,
     "area": 1111,
     "postalCode": "63900"
   },
@@ -7600,7 +7600,7 @@
     "id": 2093,
     "province": "Şanlıurfa",
     "name": "Karaköprü",
-    "population": 277160,
+    "population": 312031,
     "area": 1222,
     "postalCode": "63330"
   },
@@ -7609,7 +7609,7 @@
     "id": 1630,
     "province": "Şanlıurfa",
     "name": "Siverek",
-    "population": 271832,
+    "population": 277399,
     "area": 3936,
     "postalCode": "63614"
   },
@@ -7618,7 +7618,7 @@
     "id": 1643,
     "province": "Şanlıurfa",
     "name": "Suruç",
-    "population": 103621,
+    "population": 98022,
     "area": 744,
     "postalCode": "63800"
   },
@@ -7627,7 +7627,7 @@
     "id": 1713,
     "province": "Şanlıurfa",
     "name": "Viranşehir",
-    "population": 211065,
+    "population": 215727,
     "area": 2297,
     "postalCode": "63700"
   },
@@ -7636,7 +7636,7 @@
     "id": 1170,
     "province": "Uşak",
     "name": "Banaz",
-    "population": 35313,
+    "population": 34624,
     "area": 1114,
     "postalCode": "64500"
   },
@@ -7645,7 +7645,7 @@
     "id": 1323,
     "province": "Uşak",
     "name": "Eşme",
-    "population": 34692,
+    "population": 34444,
     "area": 1156,
     "postalCode": "64600"
   },
@@ -7654,7 +7654,7 @@
     "id": 1436,
     "province": "Uşak",
     "name": "Karahallı",
-    "population": 9884,
+    "population": 9408,
     "area": 330,
     "postalCode": "64700"
   },
@@ -7663,7 +7663,7 @@
     "id": 1704,
     "province": "Uşak",
     "name": "Merkez",
-    "population": 265148,
+    "population": 265371,
     "area": 1655,
     "postalCode": "64300"
   },
@@ -7672,7 +7672,7 @@
     "id": 1629,
     "province": "Uşak",
     "name": "Sivaslı",
-    "population": 19939,
+    "population": 19193,
     "area": 473,
     "postalCode": "64800"
   },
@@ -7681,7 +7681,7 @@
     "id": 1697,
     "province": "Uşak",
     "name": "Ulubey",
-    "population": 12025,
+    "population": 11365,
     "area": 828,
     "postalCode": "64900"
   },
@@ -7690,7 +7690,7 @@
     "id": 1770,
     "province": "Van",
     "name": "Bahçesaray",
-    "population": 12983,
+    "population": 11438,
     "area": 426,
     "postalCode": "65710"
   },
@@ -7699,7 +7699,7 @@
     "id": 1175,
     "province": "Van",
     "name": "Başkale",
-    "population": 42922,
+    "population": 37568,
     "area": 2727,
     "postalCode": "65600"
   },
@@ -7708,7 +7708,7 @@
     "id": 1786,
     "province": "Van",
     "name": "Çaldıran",
-    "population": 56901,
+    "population": 50170,
     "area": 1478,
     "postalCode": "65970"
   },
@@ -7717,7 +7717,7 @@
     "id": 1236,
     "province": "Van",
     "name": "Çatak",
-    "population": 18825,
+    "population": 16361,
     "area": 1952,
     "postalCode": "65870"
   },
@@ -7726,7 +7726,7 @@
     "id": 1918,
     "province": "Van",
     "name": "Edremit",
-    "population": 129604,
+    "population": 132309,
     "area": 515,
     "postalCode": "65170"
   },
@@ -7735,7 +7735,7 @@
     "id": 1309,
     "province": "Van",
     "name": "Erciş",
-    "population": 171035,
+    "population": 169040,
     "area": 2133,
     "postalCode": "65440"
   },
@@ -7744,7 +7744,7 @@
     "id": 1350,
     "province": "Van",
     "name": "Gevaş",
-    "population": 27437,
+    "population": 26253,
     "area": 1544,
     "postalCode": "65700"
   },
@@ -7753,7 +7753,7 @@
     "id": 1372,
     "province": "Van",
     "name": "Gürpınar",
-    "population": 31816,
+    "population": 28505,
     "area": 4028,
     "postalCode": "65900"
   },
@@ -7762,7 +7762,7 @@
     "id": 2098,
     "province": "Van",
     "name": "İpekyolu",
-    "population": 350708,
+    "population": 362816,
     "area": 956,
     "postalCode": "65130"
   },
@@ -7771,7 +7771,7 @@
     "id": 1533,
     "province": "Van",
     "name": "Muradiye",
-    "population": 44322,
+    "population": 41402,
     "area": 912,
     "postalCode": "65500"
   },
@@ -7780,7 +7780,7 @@
     "id": 1565,
     "province": "Van",
     "name": "Özalp",
-    "population": 57829,
+    "population": 51357,
     "area": 1430,
     "postalCode": "65570"
   },
@@ -7789,7 +7789,7 @@
     "id": 1980,
     "province": "Van",
     "name": "Saray",
-    "population": 18779,
+    "population": 17036,
     "area": 872,
     "postalCode": "65830"
   },
@@ -7798,7 +7798,7 @@
     "id": 2099,
     "province": "Van",
     "name": "Tuşba",
-    "population": 164451,
+    "population": 167758,
     "area": 1948,
     "postalCode": "65040"
   },
@@ -7807,7 +7807,7 @@
     "id": 1117,
     "province": "Yozgat",
     "name": "Akdağmadeni",
-    "population": 40842,
+    "population": 39642,
     "area": 1810,
     "postalCode": "66300"
   },
@@ -7816,7 +7816,7 @@
     "id": 1877,
     "province": "Yozgat",
     "name": "Aydıncık",
-    "population": 10208,
+    "population": 9317,
     "area": 338,
     "postalCode": "66510"
   },
@@ -7825,7 +7825,7 @@
     "id": 1198,
     "province": "Yozgat",
     "name": "Boğazlıyan",
-    "population": 35075,
+    "population": 35316,
     "area": 1515,
     "postalCode": "66400"
   },
@@ -7834,7 +7834,7 @@
     "id": 1895,
     "province": "Yozgat",
     "name": "Çandır",
-    "population": 4434,
+    "population": 4360,
     "area": 205,
     "postalCode": "66620"
   },
@@ -7843,7 +7843,7 @@
     "id": 1242,
     "province": "Yozgat",
     "name": "Çayıralan",
-    "population": 12461,
+    "population": 11777,
     "area": 995,
     "postalCode": "66600"
   },
@@ -7852,7 +7852,7 @@
     "id": 1245,
     "province": "Yozgat",
     "name": "Çekerek",
-    "population": 18781,
+    "population": 18426,
     "area": 790,
     "postalCode": "66500"
   },
@@ -7861,7 +7861,7 @@
     "id": 1952,
     "province": "Yozgat",
     "name": "Kadışehri",
-    "population": 10612,
+    "population": 9854,
     "area": 472,
     "postalCode": "66540"
   },
@@ -7870,7 +7870,7 @@
     "id": 1733,
     "province": "Yozgat",
     "name": "Merkez",
-    "population": 110620,
+    "population": 109042,
     "area": 2024,
     "postalCode": "66000"
   },
@@ -7879,7 +7879,7 @@
     "id": 1982,
     "province": "Yozgat",
     "name": "Saraykent",
-    "population": 11828,
+    "population": 12605,
     "area": 319,
     "postalCode": "66320"
   },
@@ -7888,7 +7888,7 @@
     "id": 1602,
     "province": "Yozgat",
     "name": "Sarıkaya",
-    "population": 31866,
+    "population": 30785,
     "area": 1018,
     "postalCode": "66650"
   },
@@ -7897,7 +7897,7 @@
     "id": 1635,
     "province": "Yozgat",
     "name": "Sorgun",
-    "population": 80618,
+    "population": 80068,
     "area": 1768,
     "postalCode": "66710"
   },
@@ -7906,7 +7906,7 @@
     "id": 1655,
     "province": "Yozgat",
     "name": "Şefaatli",
-    "population": 14594,
+    "population": 14008,
     "area": 882,
     "postalCode": "66800"
   },
@@ -7915,7 +7915,7 @@
     "id": 1998,
     "province": "Yozgat",
     "name": "Yenifakılı",
-    "population": 5383,
+    "population": 5008,
     "area": 390,
     "postalCode": "66470"
   },
@@ -7924,7 +7924,7 @@
     "id": 1726,
     "province": "Yozgat",
     "name": "Yerköy",
-    "population": 33377,
+    "population": 33000,
     "area": 1164,
     "postalCode": "66900"
   },
@@ -7933,7 +7933,7 @@
     "id": 1758,
     "province": "Zonguldak",
     "name": "Alaplı",
-    "population": 43417,
+    "population": 43217,
     "area": 383,
     "postalCode": "67850"
   },
@@ -7942,7 +7942,7 @@
     "id": 1240,
     "province": "Zonguldak",
     "name": "Çaycuma",
-    "population": 91968,
+    "population": 91796,
     "area": 492,
     "postalCode": "67900"
   },
@@ -7951,7 +7951,7 @@
     "id": 1276,
     "province": "Zonguldak",
     "name": "Devrek",
-    "population": 57562,
+    "population": 56900,
     "area": 953,
     "postalCode": "67830"
   },
@@ -7960,7 +7960,7 @@
     "id": 1313,
     "province": "Zonguldak",
     "name": "Ereğli",
-    "population": 175294,
+    "population": 173884,
     "area": 736,
     "postalCode": "67300"
   },
@@ -7969,7 +7969,7 @@
     "id": 1926,
     "province": "Zonguldak",
     "name": "Gökçebey",
-    "population": 21344,
+    "population": 21070,
     "area": 183,
     "postalCode": "67680"
   },
@@ -7978,7 +7978,7 @@
     "id": 2100,
     "province": "Zonguldak",
     "name": "Kilimli",
-    "population": 33639,
+    "population": 32441,
     "area": 145,
     "postalCode": "67500"
   },
@@ -7987,7 +7987,7 @@
     "id": 2101,
     "province": "Zonguldak",
     "name": "Kozlu",
-    "population": 50908,
+    "population": 50616,
     "area": 177,
     "postalCode": "67600"
   },
@@ -7996,7 +7996,7 @@
     "id": 1741,
     "province": "Zonguldak",
     "name": "Merkez",
-    "population": 117360,
+    "population": 115279,
     "area": 272,
     "postalCode": "67980"
   },
@@ -8005,7 +8005,7 @@
     "id": 1860,
     "province": "Aksaray",
     "name": "Ağaçören",
-    "population": 7971,
+    "population": 7480,
     "area": 407,
     "postalCode": "68600"
   },
@@ -8014,7 +8014,7 @@
     "id": 1921,
     "province": "Aksaray",
     "name": "Eskil",
-    "population": 27795,
+    "population": 27946,
     "area": 1701,
     "postalCode": "68800"
   },
@@ -8023,7 +8023,7 @@
     "id": 1932,
     "province": "Aksaray",
     "name": "Gülağaç",
-    "population": 20120,
+    "population": 19099,
     "area": 326,
     "postalCode": "68940"
   },
@@ -8032,7 +8032,7 @@
     "id": 1861,
     "province": "Aksaray",
     "name": "Güzelyurt",
-    "population": 11675,
+    "population": 10419,
     "area": 285,
     "postalCode": "68500"
   },
@@ -8041,7 +8041,7 @@
     "id": 1120,
     "province": "Aksaray",
     "name": "Merkez",
-    "population": 321160,
+    "population": 327575,
     "area": 3539,
     "postalCode": "68120"
   },
@@ -8050,7 +8050,7 @@
     "id": 1557,
     "province": "Aksaray",
     "name": "Ortaköy",
-    "population": 31613,
+    "population": 31089,
     "area": 727,
     "postalCode": "68400"
   },
@@ -8059,7 +8059,7 @@
     "id": 1866,
     "province": "Aksaray",
     "name": "Sarıyahşi",
-    "population": 5804,
+    "population": 4717,
     "area": 210,
     "postalCode": "68700"
   },
@@ -8068,7 +8068,7 @@
     "id": 2106,
     "province": "Aksaray",
     "name": "Sultanhanı",
-    "population": 12366,
+    "population": 12811,
     "area": 463,
     "postalCode": "68190"
   },
@@ -8077,7 +8077,7 @@
     "id": 1767,
     "province": "Bayburt",
     "name": "Aydıntepe",
-    "population": 7070,
+    "population": 5982,
     "area": 446,
     "postalCode": "69500"
   },
@@ -8086,7 +8086,7 @@
     "id": 1788,
     "province": "Bayburt",
     "name": "Demirözü",
-    "population": 8072,
+    "population": 8139,
     "area": 594,
     "postalCode": "69400"
   },
@@ -8095,7 +8095,7 @@
     "id": 1176,
     "province": "Bayburt",
     "name": "Merkez",
-    "population": 70905,
+    "population": 68715,
     "area": 2705,
     "postalCode": "69300"
   },
@@ -8104,7 +8104,7 @@
     "id": 1768,
     "province": "Karaman",
     "name": "Ayrancı",
-    "population": 7630,
+    "population": 7127,
     "area": 2245,
     "postalCode": "70500"
   },
@@ -8113,7 +8113,7 @@
     "id": 1884,
     "province": "Karaman",
     "name": "Başyayla",
-    "population": 3434,
+    "population": 3353,
     "area": 141,
     "postalCode": "70700"
   },
@@ -8122,7 +8122,7 @@
     "id": 1316,
     "province": "Karaman",
     "name": "Ermenek",
-    "population": 28103,
+    "population": 27629,
     "area": 1242,
     "postalCode": "70400"
   },
@@ -8131,7 +8131,7 @@
     "id": 1862,
     "province": "Karaman",
     "name": "Kazımkarabekir",
-    "population": 4710,
+    "population": 4679,
     "area": 423,
     "postalCode": "70600"
   },
@@ -8140,7 +8140,7 @@
     "id": 1439,
     "province": "Karaman",
     "name": "Merkez",
-    "population": 208199,
+    "population": 207973,
     "area": 4036,
     "postalCode": "70110"
   },
@@ -8149,7 +8149,7 @@
     "id": 1983,
     "province": "Karaman",
     "name": "Sarıveliler",
-    "population": 11884,
+    "population": 11594,
     "area": 590,
     "postalCode": "70810"
   },
@@ -8158,7 +8158,7 @@
     "id": 1880,
     "province": "Kırıkkale",
     "name": "Bahşılı",
-    "population": 8038,
+    "population": 7353,
     "area": 266,
     "postalCode": "71460"
   },
@@ -8167,7 +8167,7 @@
     "id": 1882,
     "province": "Kırıkkale",
     "name": "Balışeyh",
-    "population": 7016,
+    "population": 5888,
     "area": 623,
     "postalCode": "71520"
   },
@@ -8176,7 +8176,7 @@
     "id": 1901,
     "province": "Kırıkkale",
     "name": "Çelebi",
-    "population": 3954,
+    "population": 2587,
     "area": 223,
     "postalCode": "71810"
   },
@@ -8185,7 +8185,7 @@
     "id": 1268,
     "province": "Kırıkkale",
     "name": "Delice",
-    "population": 11227,
+    "population": 10577,
     "area": 970,
     "postalCode": "71670"
   },
@@ -8194,7 +8194,7 @@
     "id": 1954,
     "province": "Kırıkkale",
     "name": "Karakeçili",
-    "population": 3659,
+    "population": 3062,
     "area": 137,
     "postalCode": "71500"
   },
@@ -8203,7 +8203,7 @@
     "id": 1463,
     "province": "Kırıkkale",
     "name": "Keskin",
-    "population": 16938,
+    "population": 15841,
     "area": 1129,
     "postalCode": "71800"
   },
@@ -8212,7 +8212,7 @@
     "id": 1469,
     "province": "Kırıkkale",
     "name": "Merkez",
-    "population": 188419,
+    "population": 192821,
     "area": 432,
     "postalCode": "71100"
   },
@@ -8221,7 +8221,7 @@
     "id": 1638,
     "province": "Kırıkkale",
     "name": "Sulakyurt",
-    "population": 6762,
+    "population": 5564,
     "area": 708,
     "postalCode": "71900"
   },
@@ -8230,7 +8230,7 @@
     "id": 1992,
     "province": "Kırıkkale",
     "name": "Yahşihan",
-    "population": 39731,
+    "population": 39137,
     "area": 304,
     "postalCode": "71450"
   },
@@ -8239,7 +8239,7 @@
     "id": 1184,
     "province": "Batman",
     "name": "Beşiri",
-    "population": 32378,
+    "population": 31864,
     "area": 809,
     "postalCode": "72200"
   },
@@ -8248,7 +8248,7 @@
     "id": 1345,
     "province": "Batman",
     "name": "Gercüş",
-    "population": 21958,
+    "population": 18894,
     "area": 914,
     "postalCode": "72300"
   },
@@ -8257,7 +8257,7 @@
     "id": 1941,
     "province": "Batman",
     "name": "Hasankeyf",
-    "population": 7969,
+    "population": 7152,
     "area": 293,
     "postalCode": "72350"
   },
@@ -8266,7 +8266,7 @@
     "id": 1487,
     "province": "Batman",
     "name": "Kozluk",
-    "population": 61297,
+    "population": 58781,
     "area": 1101,
     "postalCode": "72400"
   },
@@ -8275,7 +8275,7 @@
     "id": 1174,
     "province": "Batman",
     "name": "Merkez",
-    "population": 491811,
+    "population": 517785,
     "area": 653,
     "postalCode": "72000"
   },
@@ -8284,7 +8284,7 @@
     "id": 1607,
     "province": "Batman",
     "name": "Sason",
-    "population": 31792,
+    "population": 28150,
     "area": 706,
     "postalCode": "72500"
   },
@@ -8293,7 +8293,7 @@
     "id": 1189,
     "province": "Şırnak",
     "name": "Beytüşşebap",
-    "population": 16056,
+    "population": 13971,
     "area": 1647,
     "postalCode": "73800"
   },
@@ -8302,7 +8302,7 @@
     "id": 1223,
     "province": "Şırnak",
     "name": "Cizre",
-    "population": 161135,
+    "population": 166290,
     "area": 444,
     "postalCode": "73200"
   },
@@ -8311,7 +8311,7 @@
     "id": 1931,
     "province": "Şırnak",
     "name": "Güçlükonak",
-    "population": 12830,
+    "population": 12562,
     "area": 466,
     "postalCode": "73710"
   },
@@ -8320,7 +8320,7 @@
     "id": 1403,
     "province": "Şırnak",
     "name": "İdil",
-    "population": 77159,
+    "population": 76548,
     "area": 1148,
     "postalCode": "73300"
   },
@@ -8329,7 +8329,7 @@
     "id": 1661,
     "province": "Şırnak",
     "name": "Merkez",
-    "population": 108699,
+    "population": 105697,
     "area": 1701,
     "postalCode": "73000"
   },
@@ -8338,7 +8338,7 @@
     "id": 1623,
     "province": "Şırnak",
     "name": "Silopi",
-    "population": 148126,
+    "population": 152610,
     "area": 831,
     "postalCode": "73400"
   },
@@ -8347,7 +8347,7 @@
     "id": 1698,
     "province": "Şırnak",
     "name": "Uludere",
-    "population": 46740,
+    "population": 45988,
     "area": 841,
     "postalCode": "73620"
   },
@@ -8356,7 +8356,7 @@
     "id": 1761,
     "province": "Bartın",
     "name": "Amasra",
-    "population": 14552,
+    "population": 13705,
     "area": 178,
     "postalCode": "74300"
   },
@@ -8365,7 +8365,7 @@
     "id": 1496,
     "province": "Bartın",
     "name": "Kurucaşile",
-    "population": 6681,
+    "population": 6316,
     "area": 152,
     "postalCode": "74500"
   },
@@ -8374,7 +8374,7 @@
     "id": 1172,
     "province": "Bartın",
     "name": "Merkez",
-    "population": 163196,
+    "population": 163766,
     "area": 1091,
     "postalCode": "74100"
   },
@@ -8383,7 +8383,7 @@
     "id": 1701,
     "province": "Bartın",
     "name": "Ulus",
-    "population": 22809,
+    "population": 22876,
     "area": 909,
     "postalCode": "74610"
   },
@@ -8392,7 +8392,7 @@
     "id": 1252,
     "province": "Ardahan",
     "name": "Çıldır",
-    "population": 8745,
+    "population": 8048,
     "area": 988,
     "postalCode": "75400"
   },
@@ -8401,7 +8401,7 @@
     "id": 2008,
     "province": "Ardahan",
     "name": "Damal",
-    "population": 4757,
+    "population": 4526,
     "area": 165,
     "postalCode": "75600"
   },
@@ -8410,7 +8410,7 @@
     "id": 1356,
     "province": "Ardahan",
     "name": "Göle",
-    "population": 22735,
+    "population": 22038,
     "area": 1290,
     "postalCode": "75700"
   },
@@ -8419,7 +8419,7 @@
     "id": 1380,
     "province": "Ardahan",
     "name": "Hanak",
-    "population": 8033,
+    "population": 7668,
     "area": 647,
     "postalCode": "75900"
   },
@@ -8428,7 +8428,7 @@
     "id": 1144,
     "province": "Ardahan",
     "name": "Merkez",
-    "population": 42209,
+    "population": 42136,
     "area": 1261,
     "postalCode": "75000"
   },
@@ -8437,7 +8437,7 @@
     "id": 1579,
     "province": "Ardahan",
     "name": "Posof",
-    "population": 6340,
+    "population": 5976,
     "area": 583,
     "postalCode": "75800"
   },
@@ -8446,7 +8446,7 @@
     "id": 1142,
     "province": "Iğdır",
     "name": "Aralık",
-    "population": 19495,
+    "population": 18477,
     "area": 852,
     "postalCode": "76500"
   },
@@ -8455,7 +8455,7 @@
     "id": 2011,
     "province": "Iğdır",
     "name": "Karakoyunlu",
-    "population": 13116,
+    "population": 12614,
     "area": 269,
     "postalCode": "76700"
   },
@@ -8464,7 +8464,7 @@
     "id": 1398,
     "province": "Iğdır",
     "name": "Merkez",
-    "population": 153543,
+    "population": 152455,
     "area": 1273,
     "postalCode": "76410"
   },
@@ -8473,7 +8473,7 @@
     "id": 1692,
     "province": "Iğdır",
     "name": "Tuzluca",
-    "population": 23584,
+    "population": 21525,
     "area": 1270,
     "postalCode": "76900"
   },
@@ -8482,7 +8482,7 @@
     "id": 2019,
     "province": "Yalova",
     "name": "Altınova",
-    "population": 33680,
+    "population": 35490,
     "area": 113,
     "postalCode": "77730"
   },
@@ -8491,7 +8491,7 @@
     "id": 2020,
     "province": "Yalova",
     "name": "Armutlu",
-    "population": 11729,
+    "population": 11984,
     "area": 166,
     "postalCode": "77500"
   },
@@ -8500,7 +8500,7 @@
     "id": 2021,
     "province": "Yalova",
     "name": "Çınarcık",
-    "population": 42078,
+    "population": 40174,
     "area": 178,
     "postalCode": "77300"
   },
@@ -8509,7 +8509,7 @@
     "id": 2022,
     "province": "Yalova",
     "name": "Çiftlikköy",
-    "population": 53858,
+    "population": 58589,
     "area": 136,
     "postalCode": "77600"
   },
@@ -8518,7 +8518,7 @@
     "id": 1716,
     "province": "Yalova",
     "name": "Merkez",
-    "population": 155863,
+    "population": 157901,
     "area": 139,
     "postalCode": "77200"
   },
@@ -8527,7 +8527,7 @@
     "id": 2026,
     "province": "Yalova",
     "name": "Termal",
-    "population": 7572,
+    "population": 7497,
     "area": 67,
     "postalCode": "77400"
   },
@@ -8536,7 +8536,7 @@
     "id": 1296,
     "province": "Karabük",
     "name": "Eflani",
-    "population": 10101,
+    "population": 8663,
     "area": 674,
     "postalCode": "78300"
   },
@@ -8545,7 +8545,7 @@
     "id": 1321,
     "province": "Karabük",
     "name": "Eskipazar",
-    "population": 14343,
+    "population": 12570,
     "area": 754,
     "postalCode": "78400"
   },
@@ -8554,7 +8554,7 @@
     "id": 1433,
     "province": "Karabük",
     "name": "Merkez",
-    "population": 134486,
+    "population": 135819,
     "area": 790,
     "postalCode": "78050"
   },
@@ -8563,7 +8563,7 @@
     "id": 1561,
     "province": "Karabük",
     "name": "Ovacık",
-    "population": 5677,
+    "population": 3986,
     "area": 398,
     "postalCode": "78500"
   },
@@ -8572,7 +8572,7 @@
     "id": 1587,
     "province": "Karabük",
     "name": "Safranbolu",
-    "population": 70043,
+    "population": 69592,
     "area": 750,
     "postalCode": "78610"
   },
@@ -8581,7 +8581,7 @@
     "id": 1856,
     "province": "Karabük",
     "name": "Yenice",
-    "population": 20592,
+    "population": 18984,
     "area": 777,
     "postalCode": "78700"
   },
@@ -8590,7 +8590,7 @@
     "id": 2023,
     "province": "Kilis",
     "name": "Elbeyli",
-    "population": 6252,
+    "population": 5273,
     "area": 238,
     "postalCode": "79500"
   },
@@ -8599,7 +8599,7 @@
     "id": 1476,
     "province": "Kilis",
     "name": "Merkez",
-    "population": 130665,
+    "population": 135430,
     "area": 610,
     "postalCode": "79000"
   },
@@ -8608,7 +8608,7 @@
     "id": 2024,
     "province": "Kilis",
     "name": "Musabeyli",
-    "population": 13108,
+    "population": 11692,
     "area": 346,
     "postalCode": "79600"
   },
@@ -8617,7 +8617,7 @@
     "id": 2025,
     "province": "Kilis",
     "name": "Polateli",
-    "population": 5154,
+    "population": 4968,
     "area": 218,
     "postalCode": "79700"
   },
@@ -8626,7 +8626,7 @@
     "id": 1165,
     "province": "Osmaniye",
     "name": "Bahçe",
-    "population": 23218,
+    "population": 22989,
     "area": 208,
     "postalCode": "80500"
   },
@@ -8635,7 +8635,7 @@
     "id": 1743,
     "province": "Osmaniye",
     "name": "Düziçi",
-    "population": 86616,
+    "population": 88274,
     "area": 595,
     "postalCode": "80710"
   },
@@ -8644,7 +8644,7 @@
     "id": 2027,
     "province": "Osmaniye",
     "name": "Hasanbeyli",
-    "population": 5455,
+    "population": 4914,
     "area": 168,
     "postalCode": "80850"
   },
@@ -8653,7 +8653,7 @@
     "id": 1423,
     "province": "Osmaniye",
     "name": "Kadirli",
-    "population": 127513,
+    "population": 127644,
     "area": 1021,
     "postalCode": "80760"
   },
@@ -8662,7 +8662,7 @@
     "id": 1560,
     "province": "Osmaniye",
     "name": "Merkez",
-    "population": 280068,
+    "population": 284895,
     "area": 859,
     "postalCode": "80010"
   },
@@ -8671,7 +8671,7 @@
     "id": 2028,
     "province": "Osmaniye",
     "name": "Sumbas",
-    "population": 13375,
+    "population": 13049,
     "area": 358,
     "postalCode": "80940"
   },
@@ -8680,7 +8680,7 @@
     "id": 2029,
     "province": "Osmaniye",
     "name": "Toprakkale",
-    "population": 21421,
+    "population": 22358,
     "area": 112,
     "postalCode": "80950"
   },
@@ -8689,7 +8689,7 @@
     "id": 1116,
     "province": "Düzce",
     "name": "Akçakoca",
-    "population": 41363,
+    "population": 41134,
     "area": 380,
     "postalCode": "81650"
   },
@@ -8698,7 +8698,7 @@
     "id": 1784,
     "province": "Düzce",
     "name": "Cumayeri",
-    "population": 16091,
+    "population": 16162,
     "area": 113,
     "postalCode": "81700"
   },
@@ -8707,7 +8707,7 @@
     "id": 1905,
     "province": "Düzce",
     "name": "Çilimli",
-    "population": 19097,
+    "population": 19022,
     "area": 85,
     "postalCode": "81750"
   },
@@ -8716,7 +8716,7 @@
     "id": 1794,
     "province": "Düzce",
     "name": "Gölyaka",
-    "population": 20962,
+    "population": 20840,
     "area": 228,
     "postalCode": "81800"
   },
@@ -8725,7 +8725,7 @@
     "id": 2017,
     "province": "Düzce",
     "name": "Gümüşova",
-    "population": 17198,
+    "population": 17344,
     "area": 103,
     "postalCode": "81850"
   },
@@ -8734,7 +8734,7 @@
     "id": 2031,
     "province": "Düzce",
     "name": "Kaynaşlı",
-    "population": 20679,
+    "population": 20379,
     "area": 237,
     "postalCode": "81900"
   },
@@ -8743,7 +8743,7 @@
     "id": 1292,
     "province": "Düzce",
     "name": "Merkez",
-    "population": 259527,
+    "population": 267249,
     "area": 710,
     "postalCode": "81010"
   },
@@ -8752,7 +8752,7 @@
     "id": 1730,
     "province": "Düzce",
     "name": "Yığılca",
-    "population": 14948,
+    "population": 13492,
     "area": 636,
     "postalCode": "81950"
   }

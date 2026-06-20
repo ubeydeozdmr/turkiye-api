@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Adana",
-    "population": 2270298,
+    "population": 2283609,
     "area": 13844,
     "postalCode": "01000",
     "altitude": 25,
@@ -39,7 +39,7 @@
   {
     "id": 2,
     "name": "Adıyaman",
-    "population": 604978,
+    "population": 617821,
     "area": 7337,
     "postalCode": "02000",
     "altitude": 701,
@@ -76,7 +76,7 @@
   {
     "id": 3,
     "name": "Afyonkarahisar",
-    "population": 751344,
+    "population": 751808,
     "area": 14016,
     "postalCode": "03000",
     "altitude": 1012,
@@ -113,7 +113,7 @@
   {
     "id": 4,
     "name": "Ağrı",
-    "population": 511238,
+    "population": 491489,
     "area": 11099,
     "postalCode": "04000",
     "altitude": 1630,
@@ -150,7 +150,7 @@
   {
     "id": 5,
     "name": "Amasya",
-    "population": 339529,
+    "population": 342242,
     "area": 5628,
     "postalCode": "05000",
     "altitude": 400,
@@ -187,7 +187,7 @@
   {
     "id": 6,
     "name": "Ankara",
-    "population": 5803482,
+    "population": 5910320,
     "area": 25632,
     "postalCode": "06000",
     "altitude": 905,
@@ -224,7 +224,7 @@
   {
     "id": 7,
     "name": "Antalya",
-    "population": 2696249,
+    "population": 2777677,
     "area": 20177,
     "postalCode": "07000",
     "altitude": 62,
@@ -261,7 +261,7 @@
   {
     "id": 8,
     "name": "Artvin",
-    "population": 172356,
+    "population": 167531,
     "area": 7393,
     "postalCode": "08000",
     "altitude": 530,
@@ -298,7 +298,7 @@
   {
     "id": 9,
     "name": "Aydın",
-    "population": 1161702,
+    "population": 1172107,
     "area": 8116,
     "postalCode": "09000",
     "altitude": 92,
@@ -335,7 +335,7 @@
   {
     "id": 10,
     "name": "Balıkesir",
-    "population": 1273519,
+    "population": 1284517,
     "area": 14583,
     "postalCode": "10000",
     "altitude": 145,
@@ -372,7 +372,7 @@
   {
     "id": 11,
     "name": "Bilecik",
-    "population": 228058,
+    "population": 228995,
     "area": 4179,
     "postalCode": "11000",
     "altitude": 513,
@@ -409,7 +409,7 @@
   {
     "id": 12,
     "name": "Bingöl",
-    "population": 285655,
+    "population": 282299,
     "area": 8004,
     "postalCode": "12000",
     "altitude": 1159,
@@ -446,7 +446,7 @@
   {
     "id": 13,
     "name": "Bitlis",
-    "population": 359747,
+    "population": 360423,
     "area": 8294,
     "postalCode": "13000",
     "altitude": 1637,
@@ -483,7 +483,7 @@
   {
     "id": 14,
     "name": "Bolu",
-    "population": 324789,
+    "population": 327173,
     "area": 8313,
     "postalCode": "14000",
     "altitude": 741,
@@ -520,7 +520,7 @@
   {
     "id": 15,
     "name": "Burdur",
-    "population": 277452,
+    "population": 277226,
     "area": 7175,
     "postalCode": "15000",
     "altitude": 963,
@@ -557,7 +557,7 @@
   {
     "id": 16,
     "name": "Bursa",
-    "population": 3214571,
+    "population": 3263011,
     "area": 10813,
     "postalCode": "16000",
     "altitude": 238,
@@ -594,7 +594,7 @@
   {
     "id": 17,
     "name": "Çanakkale",
-    "population": 570499,
+    "population": 573976,
     "area": 9817,
     "postalCode": "17000",
     "altitude": 11,
@@ -631,7 +631,7 @@
   {
     "id": 18,
     "name": "Çankırı",
-    "population": 205501,
+    "population": 200549,
     "area": 7542,
     "postalCode": "18000",
     "altitude": 730,
@@ -668,7 +668,7 @@
   {
     "id": 19,
     "name": "Çorum",
-    "population": 528351,
+    "population": 519590,
     "area": 12428,
     "postalCode": "19000",
     "altitude": 822,
@@ -705,7 +705,7 @@
   {
     "id": 20,
     "name": "Denizli",
-    "population": 1059082,
+    "population": 1060975,
     "area": 12134,
     "postalCode": "20000",
     "altitude": 392,
@@ -742,7 +742,7 @@
   {
     "id": 21,
     "name": "Diyarbakır",
-    "population": 1818133,
+    "population": 1852356,
     "area": 15168,
     "postalCode": "21000",
     "altitude": 674,
@@ -779,7 +779,7 @@
   {
     "id": 22,
     "name": "Edirne",
-    "population": 419913,
+    "population": 422438,
     "area": 6145,
     "postalCode": "22000",
     "altitude": 50,
@@ -816,7 +816,7 @@
   {
     "id": 23,
     "name": "Elazığ",
-    "population": 604411,
+    "population": 605678,
     "area": 9383,
     "postalCode": "23000",
     "altitude": 1041,
@@ -853,7 +853,7 @@
   {
     "id": 24,
     "name": "Erzincan",
-    "population": 243399,
+    "population": 239625,
     "area": 11815,
     "postalCode": "24000",
     "altitude": 1216,
@@ -890,7 +890,7 @@
   {
     "id": 25,
     "name": "Erzurum",
-    "population": 749993,
+    "population": 736877,
     "area": 25006,
     "postalCode": "25000",
     "altitude": 1923,
@@ -927,7 +927,7 @@
   {
     "id": 26,
     "name": "Eskişehir",
-    "population": 915418,
+    "population": 927956,
     "area": 13960,
     "postalCode": "26000",
     "altitude": 796,
@@ -964,7 +964,7 @@
   {
     "id": 27,
     "name": "Gaziantep",
-    "population": 2164134,
+    "population": 2222415,
     "area": 6803,
     "postalCode": "27000",
     "altitude": 838,
@@ -1001,7 +1001,7 @@
   {
     "id": 28,
     "name": "Giresun",
-    "population": 461712,
+    "population": 455074,
     "area": 7025,
     "postalCode": "28000",
     "altitude": 14,
@@ -1038,7 +1038,7 @@
   {
     "id": 29,
     "name": "Gümüşhane",
-    "population": 148539,
+    "population": 138807,
     "area": 6668,
     "postalCode": "29000",
     "altitude": 1174,
@@ -1075,7 +1075,7 @@
   {
     "id": 30,
     "name": "Hakkari",
-    "population": 287625,
+    "population": 279681,
     "area": 7095,
     "postalCode": "30000",
     "altitude": 1756,
@@ -1112,7 +1112,7 @@
   {
     "id": 31,
     "name": "Hatay",
-    "population": 1544640,
+    "population": 1577531,
     "area": 5524,
     "postalCode": "31000",
     "altitude": 89,
@@ -1149,7 +1149,7 @@
   {
     "id": 32,
     "name": "Isparta",
-    "population": 449777,
+    "population": 445303,
     "area": 8946,
     "postalCode": "32000",
     "altitude": 1058,
@@ -1186,7 +1186,7 @@
   {
     "id": 33,
     "name": "Mersin",
-    "population": 1938389,
+    "population": 1956428,
     "area": 16010,
     "postalCode": "33000",
     "altitude": 18,
@@ -1223,7 +1223,7 @@
   {
     "id": 34,
     "name": "İstanbul",
-    "population": 15655924,
+    "population": 15754053,
     "area": 5461,
     "postalCode": "34000",
     "altitude": 25,
@@ -1260,7 +1260,7 @@
   {
     "id": 35,
     "name": "İzmir",
-    "population": 4479525,
+    "population": 4504185,
     "area": 11891,
     "postalCode": "35000",
     "altitude": 9,
@@ -1297,7 +1297,7 @@
   {
     "id": 36,
     "name": "Kars",
-    "population": 278335,
+    "population": 268991,
     "area": 10193,
     "postalCode": "36000",
     "altitude": 1756,
@@ -1334,7 +1334,7 @@
   {
     "id": 37,
     "name": "Kastamonu",
-    "population": 388990,
+    "population": 379934,
     "area": 13064,
     "postalCode": "37000",
     "altitude": 814,
@@ -1371,7 +1371,7 @@
   {
     "id": 38,
     "name": "Kayseri",
-    "population": 1445683,
+    "population": 1458991,
     "area": 16970,
     "postalCode": "38000",
     "altitude": 1060,
@@ -1408,7 +1408,7 @@
   {
     "id": 39,
     "name": "Kırklareli",
-    "population": 377156,
+    "population": 379595,
     "area": 6459,
     "postalCode": "39000",
     "altitude": 231,
@@ -1445,7 +1445,7 @@
   {
     "id": 40,
     "name": "Kırşehir",
-    "population": 247179,
+    "population": 242777,
     "area": 6584,
     "postalCode": "40000",
     "altitude": 991,
@@ -1482,7 +1482,7 @@
   {
     "id": 41,
     "name": "Kocaeli",
-    "population": 2102907,
+    "population": 2161171,
     "area": 3397,
     "postalCode": "41000",
     "altitude": 4,
@@ -1519,7 +1519,7 @@
   {
     "id": 42,
     "name": "Konya",
-    "population": 2320241,
+    "population": 2343409,
     "area": 40838,
     "postalCode": "42000",
     "altitude": 1023,
@@ -1556,7 +1556,7 @@
   {
     "id": 43,
     "name": "Kütahya",
-    "population": 575674,
+    "population": 570478,
     "area": 11634,
     "postalCode": "43000",
     "altitude": 958,
@@ -1593,7 +1593,7 @@
   {
     "id": 44,
     "name": "Malatya",
-    "population": 742725,
+    "population": 755854,
     "area": 12259,
     "postalCode": "44000",
     "altitude": 970,
@@ -1630,7 +1630,7 @@
   {
     "id": 45,
     "name": "Manisa",
-    "population": 1475716,
+    "population": 1477756,
     "area": 13339,
     "postalCode": "45000",
     "altitude": 79,
@@ -1667,7 +1667,7 @@
   {
     "id": 46,
     "name": "Kahramanmaraş",
-    "population": 1116618,
+    "population": 1146278,
     "area": 14520,
     "postalCode": "46000",
     "altitude": 562,
@@ -1704,7 +1704,7 @@
   {
     "id": 47,
     "name": "Mardin",
-    "population": 888874,
+    "population": 903576,
     "area": 8780,
     "postalCode": "47000",
     "altitude": 938,
@@ -1741,7 +1741,7 @@
   {
     "id": 48,
     "name": "Muğla",
-    "population": 1066736,
+    "population": 1099547,
     "area": 12654,
     "postalCode": "48000",
     "altitude": 659,
@@ -1778,7 +1778,7 @@
   {
     "id": 49,
     "name": "Muş",
-    "population": 399879,
+    "population": 389127,
     "area": 8650,
     "postalCode": "49000",
     "altitude": 1334,
@@ -1815,7 +1815,7 @@
   {
     "id": 50,
     "name": "Nevşehir",
-    "population": 315994,
+    "population": 320150,
     "area": 5485,
     "postalCode": "50000",
     "altitude": 1197,
@@ -1852,7 +1852,7 @@
   {
     "id": 51,
     "name": "Niğde",
-    "population": 377080,
+    "population": 374492,
     "area": 7234,
     "postalCode": "51000",
     "altitude": 1239,
@@ -1889,7 +1889,7 @@
   {
     "id": 52,
     "name": "Ordu",
-    "population": 775800,
+    "population": 768087,
     "area": 5861,
     "postalCode": "52000",
     "altitude": 25,
@@ -1926,7 +1926,7 @@
   {
     "id": 53,
     "name": "Rize",
-    "population": 350506,
+    "population": 346947,
     "area": 3835,
     "postalCode": "53000",
     "altitude": 11,
@@ -1963,7 +1963,7 @@
   {
     "id": 54,
     "name": "Sakarya",
-    "population": 1098115,
+    "population": 1123693,
     "area": 4824,
     "postalCode": "54000",
     "altitude": 41,
@@ -2000,7 +2000,7 @@
   {
     "id": 55,
     "name": "Samsun",
-    "population": 1377546,
+    "population": 1392403,
     "area": 9725,
     "postalCode": "55000",
     "altitude": 10,
@@ -2037,7 +2037,7 @@
   {
     "id": 56,
     "name": "Siirt",
-    "population": 347412,
+    "population": 332369,
     "area": 5717,
     "postalCode": "56000",
     "altitude": 887,
@@ -2074,7 +2074,7 @@
   {
     "id": 57,
     "name": "Sinop",
-    "population": 229716,
+    "population": 225848,
     "area": 5717,
     "postalCode": "57000",
     "altitude": 27,
@@ -2111,7 +2111,7 @@
   {
     "id": 58,
     "name": "Sivas",
-    "population": 650401,
+    "population": 631401,
     "area": 28164,
     "postalCode": "58000",
     "altitude": 1313,
@@ -2148,7 +2148,7 @@
   {
     "id": 59,
     "name": "Tekirdağ",
-    "population": 1167059,
+    "population": 1208441,
     "area": 6190,
     "postalCode": "59000",
     "altitude": 28,
@@ -2185,7 +2185,7 @@
   {
     "id": 60,
     "name": "Tokat",
-    "population": 606934,
+    "population": 614141,
     "area": 10042,
     "postalCode": "60000",
     "altitude": 630,
@@ -2222,7 +2222,7 @@
   {
     "id": 61,
     "name": "Trabzon",
-    "population": 824352,
+    "population": 823323,
     "area": 4628,
     "postalCode": "61000",
     "altitude": 36,
@@ -2259,7 +2259,7 @@
   {
     "id": 62,
     "name": "Tunceli",
-    "population": 89317,
+    "population": 85083,
     "area": 7582,
     "postalCode": "62000",
     "altitude": 922,
@@ -2296,7 +2296,7 @@
   {
     "id": 63,
     "name": "Şanlıurfa",
-    "population": 2213964,
+    "population": 2265800,
     "area": 19242,
     "postalCode": "63000",
     "altitude": 527,
@@ -2333,7 +2333,7 @@
   {
     "id": 64,
     "name": "Uşak",
-    "population": 377001,
+    "population": 374405,
     "area": 5555,
     "postalCode": "64000",
     "altitude": 915,
@@ -2370,7 +2370,7 @@
   {
     "id": 65,
     "name": "Van",
-    "population": 1127612,
+    "population": 1112013,
     "area": 20921,
     "postalCode": "65000",
     "altitude": 1728,
@@ -2407,7 +2407,7 @@
   {
     "id": 66,
     "name": "Yozgat",
-    "population": 420699,
+    "population": 413208,
     "area": 13690,
     "postalCode": "66000",
     "altitude": 1317,
@@ -2444,7 +2444,7 @@
   {
     "id": 67,
     "name": "Zonguldak",
-    "population": 591492,
+    "population": 585203,
     "area": 3342,
     "postalCode": "67000",
     "altitude": 10,
@@ -2481,7 +2481,7 @@
   {
     "id": 68,
     "name": "Aksaray",
-    "population": 438504,
+    "population": 441136,
     "area": 7659,
     "postalCode": "68000",
     "altitude": 1228,
@@ -2518,7 +2518,7 @@
   {
     "id": 69,
     "name": "Bayburt",
-    "population": 86047,
+    "population": 82836,
     "area": 3746,
     "postalCode": "69000",
     "altitude": 1555,
@@ -2555,7 +2555,7 @@
   {
     "id": 70,
     "name": "Karaman",
-    "population": 263960,
+    "population": 262355,
     "area": 8678,
     "postalCode": "70000",
     "altitude": 1063,
@@ -2592,7 +2592,7 @@
   {
     "id": 71,
     "name": "Kırıkkale",
-    "population": 285744,
+    "population": 282830,
     "area": 4791,
     "postalCode": "71000",
     "altitude": 746,
@@ -2629,7 +2629,7 @@
   {
     "id": 72,
     "name": "Batman",
-    "population": 647205,
+    "population": 662626,
     "area": 4477,
     "postalCode": "72000",
     "altitude": 570,
@@ -2666,7 +2666,7 @@
   {
     "id": 73,
     "name": "Şırnak",
-    "population": 570745,
+    "population": 573666,
     "area": 7078,
     "postalCode": "73000",
     "altitude": 1343,
@@ -2703,7 +2703,7 @@
   {
     "id": 74,
     "name": "Bartın",
-    "population": 207238,
+    "population": 206663,
     "area": 2330,
     "postalCode": "74000",
     "altitude": 12,
@@ -2740,7 +2740,7 @@
   {
     "id": 75,
     "name": "Ardahan",
-    "population": 92819,
+    "population": 90392,
     "area": 4934,
     "postalCode": "75000",
     "altitude": 1799,
@@ -2777,7 +2777,7 @@
   {
     "id": 76,
     "name": "Iğdır",
-    "population": 209738,
+    "population": 205071,
     "area": 3664,
     "postalCode": "76000",
     "altitude": 860,
@@ -2814,7 +2814,7 @@
   {
     "id": 77,
     "name": "Yalova",
-    "population": 304780,
+    "population": 311635,
     "area": 798,
     "postalCode": "77000",
     "altitude": 8,
@@ -2851,7 +2851,7 @@
   {
     "id": 78,
     "name": "Karabük",
-    "population": 255242,
+    "population": 249614,
     "area": 4142,
     "postalCode": "78000",
     "altitude": 264,
@@ -2888,7 +2888,7 @@
   {
     "id": 79,
     "name": "Kilis",
-    "population": 155179,
+    "population": 157363,
     "area": 1412,
     "postalCode": "79000",
     "altitude": 660,
@@ -2925,7 +2925,7 @@
   {
     "id": 80,
     "name": "Osmaniye",
-    "population": 557666,
+    "population": 564123,
     "area": 3320,
     "postalCode": "80000",
     "altitude": 121,
@@ -2962,7 +2962,7 @@
   {
     "id": 81,
     "name": "Düzce",
-    "population": 409865,
+    "population": 415622,
     "area": 2492,
     "postalCode": "81000",
     "altitude": 149,
