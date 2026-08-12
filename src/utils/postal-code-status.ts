@@ -13,8 +13,7 @@ export interface PostalCodeStatusParseFailure {
 }
 
 export type PostalCodeStatusParseResult<Status extends PostalCodeStatusName> =
-  | PostalCodeStatusParseSuccess<Status>
-  | PostalCodeStatusParseFailure;
+  PostalCodeStatusParseSuccess<Status> | PostalCodeStatusParseFailure;
 
 export const NEIGHBORHOOD_POSTAL_CODE_STATUSES = ['official', 'derived', 'estimated'] as const;
 
