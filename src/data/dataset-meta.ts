@@ -52,7 +52,7 @@ export const EXPECTED_DATASET_COUNTS = {
   provinces: 81,
   districts: 973,
   municipalities: 1377,
-  neighborhoods: 32254,
+  neighborhoods: 32279,
   villages: 18183,
 } as const satisfies Record<DatasetName, number>;
 

@@ -5533,6 +5533,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 247,
+    "name": "Acıdere OSB",
+    "slug": "acidere-osb",
+    "provinceId": 1,
+    "districtId": 2032,
+    "municipalityId": 4505,
+    "population": 33,
+    "postalCode": "01410",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 177755,
     "name": "Aflak",
     "slug": "aflak",
@@ -14047,6 +14058,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 677,
+    "name": "Afyonkarahisar OSB",
+    "slug": "afyonkarahisar-osb",
+    "provinceId": 3,
+    "districtId": 1108,
+    "municipalityId": 1012,
+    "population": 419,
+    "postalCode": "03030",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 680,
     "name": "Atatürk",
     "slug": "ataturk",
@@ -18190,6 +18212,17 @@
     "districtId": 1120,
     "municipalityId": 3950,
     "population": 1108,
+    "postalCode": "68220",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 89995,
+    "name": "Erenler OSB",
+    "slug": "erenler-osb",
+    "provinceId": 68,
+    "districtId": 1120,
+    "municipalityId": 3950,
+    "population": 18,
     "postalCode": "68220",
     "postalCodeStatus": "official"
   },
@@ -34298,6 +34331,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 1837,
+    "name": "Ahi Evran OSB",
+    "slug": "ahi-evran-osb",
+    "provinceId": 6,
+    "districtId": 1747,
+    "municipalityId": 1160,
+    "population": 87,
+    "postalCode": "06935",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 1841,
     "name": "Akçaören",
     "slug": "akcaoren",
@@ -34635,6 +34679,17 @@
     "districtId": 1747,
     "municipalityId": 1160,
     "population": 772,
+    "postalCode": "06909",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 99210,
+    "name": "Malıköy Başkent OSB",
+    "slug": "malikoy-baskent-osb",
+    "provinceId": 6,
+    "districtId": 1747,
+    "municipalityId": 1160,
+    "population": 117,
     "postalCode": "06909",
     "postalCodeStatus": "official"
   },
@@ -35222,6 +35277,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 1912,
+    "name": "İvedikosb",
+    "slug": "ivedikosb",
+    "provinceId": 6,
+    "districtId": 1723,
+    "municipalityId": 1161,
+    "population": 156,
+    "postalCode": "06378",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 1874,
     "name": "Kaletepe",
     "slug": "kaletepe",
@@ -35339,6 +35405,17 @@
     "districtId": 1723,
     "municipalityId": 1161,
     "population": 3630,
+    "postalCode": "06374",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 1913,
+    "name": "Ostim OSB",
+    "slug": "ostim-osb",
+    "provinceId": 6,
+    "districtId": 1723,
+    "municipalityId": 1161,
+    "population": 2142,
     "postalCode": "06374",
     "postalCodeStatus": "official"
   },
@@ -37803,6 +37880,17 @@
     "districtId": 2036,
     "municipalityId": 1319,
     "population": 9673,
+    "postalCode": "07190",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 2469,
+    "name": "AOSB",
+    "slug": "aosb",
+    "provinceId": 7,
+    "districtId": 2036,
+    "municipalityId": 1319,
+    "population": 21,
     "postalCode": "07190",
     "postalCodeStatus": "official"
   },
@@ -75009,6 +75097,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 11370,
+    "name": "Yenidoğan OSB",
+    "slug": "yenidogan-osb",
+    "provinceId": 16,
+    "districtId": 1935,
+    "municipalityId": 1542,
+    "population": 35,
+    "postalCode": "16580",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 11365,
     "name": "Zafer",
     "slug": "zafer",
@@ -78562,6 +78661,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 19996,
+    "name": "Ahmetvefikpaşa OSB",
+    "slug": "ahmetvefikpasa-osb",
+    "provinceId": 16,
+    "districtId": 1960,
+    "municipalityId": 1537,
+    "population": 20,
+    "postalCode": "16450",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 184169,
     "name": "Aksu",
     "slug": "aksu",
@@ -81473,6 +81583,17 @@
     "districtId": 1829,
     "municipalityId": 1530,
     "population": 5178,
+    "postalCode": "16220",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 11110,
+    "name": "Minareliçavuş OSB",
+    "slug": "minarelicavus-osb",
+    "provinceId": 16,
+    "districtId": 1829,
+    "municipalityId": 1530,
+    "population": 14,
     "postalCode": "16220",
     "postalCodeStatus": "official"
   },
@@ -87083,6 +87204,17 @@
     "districtId": 1963,
     "municipalityId": 1626,
     "population": 562,
+    "postalCode": "18260",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 20274,
+    "name": "Büyükosb",
+    "slug": "buyuk-osb",
+    "provinceId": 18,
+    "districtId": 1963,
+    "municipalityId": 1626,
+    "population": 31,
     "postalCode": "18260",
     "postalCodeStatus": "official"
   },
@@ -136169,6 +136301,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 139479,
+    "name": "Çaybaşı OSB",
+    "slug": "caybasi-osb",
+    "provinceId": 27,
+    "districtId": 1549,
+    "municipalityId": 1973,
+    "population": 120,
+    "postalCode": "27900",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 180103,
     "name": "Çaybeyi",
     "slug": "caybeyi",
@@ -138941,6 +139084,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 30478,
+    "name": "Başpınar (Organize) OSB",
+    "slug": "baspinar-organize-osb",
+    "provinceId": 27,
+    "districtId": 1844,
+    "municipalityId": 1981,
+    "population": 46,
+    "postalCode": "27620",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 30541,
     "name": "Batıkent",
     "slug": "batikent",
@@ -139850,6 +140004,17 @@
     "districtId": 1844,
     "municipalityId": 1981,
     "population": 934,
+    "postalCode": "27630",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 181832,
+    "name": "Sinan OSB",
+    "slug": "sinan-osb",
+    "provinceId": 27,
+    "districtId": 1844,
+    "municipalityId": 1981,
+    "population": 13,
     "postalCode": "27630",
     "postalCodeStatus": "official"
   },
@@ -155309,6 +155474,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 139666,
+    "name": "İkitelli OSB",
+    "slug": "ikitelli-osb",
+    "provinceId": 34,
+    "districtId": 2050,
+    "municipalityId": 4508,
+    "population": 81,
+    "postalCode": "34490",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 40583,
     "name": "Kayabaşı",
     "slug": "kayabasi",
@@ -163724,6 +163900,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 40734,
+    "name": "Dudullu OSB",
+    "slug": "dudullu-osb",
+    "provinceId": 34,
+    "districtId": 1852,
+    "municipalityId": 2282,
+    "population": 32,
+    "postalCode": "34775",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 98690,
     "name": "Dumlupınar",
     "slug": "dumlupinar",
@@ -171420,6 +171607,17 @@
     "districtId": 1461,
     "municipalityId": 2352,
     "population": 169,
+    "postalCode": "35730",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 99919,
+    "name": "Kemalpaşa OSB",
+    "slug": "kemalpasa-osb",
+    "provinceId": 35,
+    "districtId": 1461,
+    "municipalityId": 2352,
+    "population": 25,
     "postalCode": "35730",
     "postalCodeStatus": "official"
   },
@@ -204149,6 +204347,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 99830,
+    "name": "Dilovasıosb",
+    "slug": "dilovasıosb",
+    "provinceId": 41,
+    "districtId": 2061,
+    "municipalityId": 2593,
+    "population": 40,
+    "postalCode": "41455",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 50305,
     "name": "Fatih",
     "slug": "fatih",
@@ -211956,6 +212165,17 @@
     "municipalityId": 2634,
     "population": 125,
     "postalCode": "42500",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 139891,
+    "name": "İstiklal OSB",
+    "slug": "istiklal-osb",
+    "provinceId": 42,
+    "districtId": 1262,
+    "municipalityId": 2634,
+    "population": 14,
+    "postalCode": "42505",
     "postalCodeStatus": "official"
   },
   {
@@ -244002,6 +244222,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 59928,
+    "name": "Ofis OSB",
+    "slug": "ofis-osb",
+    "provinceId": 47,
+    "districtId": 2088,
+    "municipalityId": 52447,
+    "population": 19,
+    "postalCode": "47060",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 157287,
     "name": "Ortaköy",
     "slug": "ortakoy",
@@ -256725,6 +256956,17 @@
     "districtId": 1621,
     "municipalityId": 2193,
     "population": 1252,
+    "postalCode": "33940",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 98494,
+    "name": "Tosmurlu OSB",
+    "slug": "tosmurlu-osb",
+    "provinceId": 33,
+    "districtId": 1621,
+    "municipalityId": 2193,
+    "population": 27,
     "postalCode": "33940",
     "postalCodeStatus": "official"
   },
@@ -286491,6 +286733,17 @@
     "districtId": 1391,
     "municipalityId": 3418,
     "population": 1344,
+    "postalCode": "54300",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 61692,
+    "name": "Kargalı Hanbabaosb",
+    "slug": "kargali-hanbabaosb",
+    "provinceId": 54,
+    "districtId": 1391,
+    "municipalityId": 3418,
+    "population": 15,
     "postalCode": "54300",
     "postalCodeStatus": "official"
   },
@@ -325644,6 +325897,17 @@
     "postalCodeStatus": "official"
   },
   {
+    "id": 180654,
+    "name": "Velimeşe OSB",
+    "slug": "velimese-osb",
+    "provinceId": 59,
+    "districtId": 2094,
+    "municipalityId": 52378,
+    "population": 12,
+    "postalCode": "59930",
+    "postalCodeStatus": "official"
+  },
+  {
     "id": 70612,
     "name": "Yeşiltepe",
     "slug": "yesiltepe",
@@ -330239,6 +330503,17 @@
     "municipalityId": 3634,
     "population": 514,
     "postalCode": "60225",
+    "postalCodeStatus": "official"
+  },
+  {
+    "id": 70717,
+    "name": "Bedestenlioğluosb",
+    "slug": "bedestenliogluosb",
+    "provinceId": 60,
+    "districtId": 1679,
+    "municipalityId": 3634,
+    "population": 12,
+    "postalCode": "60100",
     "postalCodeStatus": "official"
   },
   {
