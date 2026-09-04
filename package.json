@@ -1,6 +1,6 @@
 {
   "name": "turkiye-api",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Get Turkish administrative divisions data (provinces, districts, municipalities, neighborhoods, villages) via a fast REST API.",
   "keywords": [
     "turkiye",
