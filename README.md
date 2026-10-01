@@ -313,7 +313,7 @@ Metadata uses a simple data envelope:
 ```json
 {
   "data": {
-    "apiVersion": "2.0.0",
+    "apiVersion": "2.0.3",
     "datasetVersion": "2025",
     "lastUpdated": "2026-05-21"
   }

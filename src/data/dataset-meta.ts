@@ -73,7 +73,7 @@ export interface DatasetMeta {
 }
 
 export const DATASET_META = {
-  apiVersion: '2.0.0',
+  apiVersion: '2.0.3',
   datasetVersion: DATASET_VERSION,
   lastUpdated: DATASET_LAST_UPDATED,
   sources: [DATASET_SOURCE, POSTAL_CODE_SOURCE, AREA_SOURCE, PHONE_AREA_CODE_SOURCE, COORDINATE_SOURCE],
